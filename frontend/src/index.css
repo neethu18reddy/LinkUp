@@ -1,5 +1,223 @@
 @import 'tailwindcss';
 
+.site-header nav {
+  display: flex;
+  gap: 24px;
+}
+.auth-shell {
+  max-width: 1040px;
+  margin: auto;
+  padding: 36px 24px;
+}
+.auth-card {
+  max-width: 420px;
+  margin: 54px auto 28px;
+  padding: 32px;
+  background: white;
+  border: 1px solid #dfe6e1;
+  border-radius: 12px;
+}
+.auth-card h1 {
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+.auth-card .eyebrow {
+  margin-bottom: 12px;
+}
+.auth-description {
+  color: #65746b;
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 15px 0 25px;
+}
+.form-field {
+  margin: 20px 0;
+}
+.form-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.form-field input {
+  width: 100%;
+  min-height: 43px;
+  border: 1px solid #cfd9d2;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 14px;
+  background: #fff;
+  color: #1f302a;
+}
+.form-field input:focus {
+  outline: 2px solid #7fa28c;
+  outline-offset: 2px;
+}
+.form-field input[aria-invalid='true'] {
+  border-color: #b0463c;
+}
+.field-error,
+.form-error {
+  font-size: 12px;
+  color: #9e342e;
+  line-height: 1.6;
+}
+.field-error {
+  margin: 7px 0 0;
+}
+.form-error {
+  background: #fff4f1;
+  border: 1px solid #f0d8d0;
+  border-radius: 6px;
+  padding: 12px;
+  overflow-wrap: anywhere;
+}
+.field-hint {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #6d7c72;
+  margin: 7px 0 0;
+}
+.password-input {
+  position: relative;
+}
+.password-input input {
+  padding-right: 44px;
+}
+.password-toggle {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  height: 37px;
+  width: 37px;
+  display: grid;
+  place-items: center;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: #65746b;
+}
+.auth-submit {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.auth-switch {
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.7;
+  color: #65746b;
+  margin: 24px 0 0;
+}
+.auth-switch a {
+  margin-left: 4px;
+  color: #163e30;
+}
+.auth-footer {
+  text-align: center;
+  font-size: 11px;
+  color: #7b887e;
+}
+.session-screen {
+  max-width: 600px;
+  padding: 80px 24px;
+  margin: auto;
+  font-size: 14px;
+}
+.session-screen h1 {
+  font-size: 32px;
+}
+.session-screen p {
+  margin: 20px 0;
+}
+.dashboard-main {
+  padding: 52px 0;
+}
+.dashboard-main h1 {
+  font-size: 36px;
+  letter-spacing: -1px;
+  overflow-wrap: anywhere;
+}
+.dashboard-empty {
+  text-align: center;
+  border: 1px dashed #c8d8cb;
+  background: #fff;
+  border-radius: 12px;
+  padding: 42px 24px;
+  margin-top: 34px;
+}
+.empty-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  background: #f0f5ef;
+  border-radius: 50%;
+  color: #61866c;
+}
+.dashboard-empty h2 {
+  font-size: 22px;
+  letter-spacing: -0.4px;
+  font-weight: 500;
+  margin: 17px 0 12px;
+}
+.dashboard-empty p {
+  color: #65746b;
+  font-size: 13px;
+  line-height: 1.8;
+  max-width: 340px;
+  margin: 0 auto 22px;
+}
+.account-ready {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #4f795e;
+}
+.account-summary {
+  margin-top: 28px;
+  padding: 24px;
+  border: 1px solid #dfe6e1;
+  border-radius: 8px;
+}
+.account-summary h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+.account-summary dl {
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+.account-summary dl > div {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 20px;
+  font-size: 12px;
+}
+.account-summary dt {
+  color: #65746b;
+}
+.account-summary dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 480px) {
+  .auth-shell {
+    padding: 24px 18px;
+  }
+  .auth-card {
+    margin-top: 32px;
+    padding: 24px;
+  }
+  .site-header nav {
+    gap: 14px;
+  }
+}
+
 :root {
   font-family:
     'Segoe UI',

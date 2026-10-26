@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import { ArrowDown, ArrowUpRight, BookOpen, Check, Compass, Route, RotateCw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { getHealth } from '@/lib/api';
+import { useAuth } from '@/store/auth';
 
 const steps = [
   {
@@ -51,6 +52,7 @@ function ServerStatus() {
 }
 
 export function LandingPage() {
+  const authenticated = useAuth((state) => state.status === 'authenticated');
   return (
     <div className="site-shell">
       <a className="skip-link" href="#main">
@@ -64,6 +66,9 @@ export function LandingPage() {
           linkup<span className="brand-period">.</span>
         </a>
         <nav aria-label="Main navigation">
+          <a href={authenticated ? '/dashboard' : '/login'}>
+            {authenticated ? 'Dashboard' : 'Sign in'}
+          </a>
           <a href="#how-it-works">
             How it works <ArrowUpRight size={14} aria-hidden="true" />
           </a>
@@ -86,8 +91,9 @@ export function LandingPage() {
               manageable step at a time.
             </p>
             <Button asChild>
-              <a href="#how-it-works">
-                Explore your next step <ArrowDown size={16} aria-hidden="true" />
+              <a href={authenticated ? '/dashboard' : '/register'}>
+                {authenticated ? 'Go to your dashboard' : 'Start your journey'}{' '}
+                <ArrowDown size={16} aria-hidden="true" />
               </a>
             </Button>
             <p className="hero-note">For students, career switchers, and curious minds.</p>
@@ -157,7 +163,7 @@ export function LandingPage() {
         <aside className="build-notice">
           <span className="notice-label">WORK IN PROGRESS</span>
           <p>
-            We’re building linkup step by step. Personal learning plans and accounts are coming
+            Your account is the first step. Skill profiles and personal learning plans are coming
             next.
           </p>
         </aside>

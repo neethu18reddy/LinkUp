@@ -32,6 +32,7 @@ jobs:
     env:
       DATABASE_URL: postgresql://linkup:ci_local_only@localhost:5432/linkup_test
       NODE_ENV: test
+      RUN_DATABASE_TESTS: 'true'
       HUSKY: '0'
     steps:
       - uses: actions/checkout@v4
@@ -41,8 +42,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run db:generate
-      - run: npm run check
       - run: npm run db:deploy
+      - run: npm run check
       - name: Check database readiness
         shell: bash
         run: |

@@ -5,7 +5,7 @@ Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the U
 | Phase | Scope                                                   | Status                                                |
 | ----- | ------------------------------------------------------- | ----------------------------------------------------- |
 | 1     | Monorepo, tooling, Docker PostgreSQL, Prisma schema, CI | Implemented; local checks passed                      |
-| 2     | Auth and protected routes                               | Pending confirmation after Phase 1                    |
+| 2     | Auth and protected routes                               | Implemented; local checks passed                      |
 | 3     | Skill catalogue and profiles                            | Planned                                               |
 | 4     | Goals, interest quiz, recommendations                   | Planned                                               |
 | 5     | Gap analysis and validated roadmap pipeline             | Planned; provider integration requires approval       |
@@ -91,4 +91,37 @@ frontend/vite.config.ts
 package-lock.json
 package.json
 tsconfig.base.json
+```
+
+## Phase 2: authentication
+
+Implemented register/login/refresh/logout and protected /auth/me; bcrypt cost 12; in-memory access JWTs; hashed refresh-token rotation, replay detection and logout revocation; strict cookie/origin/request-header safeguards; role/ownership middleware; minimal auth pages and a protected dashboard shell. Added local environment setup with ignored random secrets. No external service integrations were added.
+
+Local verification: formatting, lint, strict TypeScript, schema validation, and both production builds pass. All 36 local tests pass (16 frontend and 20 backend). Three PostgreSQL integration tests cover persisted auth, concurrent rotation/replay, and logout/refresh races; CI runs these after applying the migration. Browser QA checks inline registration validation and anonymous dashboard redirection. Docker/PostgreSQL remain unavailable locally. Phase 1 CI is confirmed successful, including its migration/readiness checks.
+
+Phase 2 created files:
+
+```text
+backend/src/middleware/requireAuth.ts
+backend/src/modules/auth/auth.controller.ts
+backend/src/modules/auth/auth.repository.ts
+backend/src/modules/auth/auth.routes.ts
+backend/src/modules/auth/auth.schemas.ts
+backend/src/modules/auth/auth.service.ts
+backend/src/modules/auth/auth.tokens.ts
+backend/src/modules/auth/auth.types.ts
+backend/tests/auth.database.test.ts
+backend/tests/auth.test.ts
+backend/tests/helpers/memory-auth-repository.ts
+frontend/src/features/auth/SessionBoundary.tsx
+frontend/src/features/auth/auth.client.test.ts
+frontend/src/features/auth/auth.client.ts
+frontend/src/features/auth/auth.schemas.ts
+frontend/src/lib/http.ts
+frontend/src/pages/AuthPage.test.tsx
+frontend/src/pages/AuthPage.tsx
+frontend/src/pages/DashboardPage.tsx
+frontend/src/routes/ProtectedRoute.tsx
+frontend/src/store/auth.ts
+scripts/setup-env.mjs
 ```
