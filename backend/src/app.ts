@@ -50,6 +50,11 @@ import type { ChatRepository } from './modules/chat/chat.types.js';
 import { ChatService } from './modules/chat/chat.service.js';
 import { chatRoutes } from './modules/chat/chat.routes.js';
 import type { MentorProvider } from './ai/mentor.provider.js';
+import { certificateRoutes } from './modules/certificates/certificates.routes.js';
+import {
+  PrismaCertificateRepository,
+  type CertificateRepository,
+} from './modules/certificates/certificates.repository.js';
 
 export function createApp(
   options: {
@@ -65,6 +70,7 @@ export function createApp(
     progressRepository?: ProgressRepository;
     chatRepository?: ChatRepository;
     mentorProvider?: MentorProvider;
+    certificateRepository?: CertificateRepository;
   } = {},
 ) {
   const app = express();
@@ -103,6 +109,13 @@ export function createApp(
     new AuthTokens(options.authSecrets),
   );
   app.use('/api/v1/auth', authRoutes(authService));
+  app.use(
+    '/api/v1',
+    certificateRoutes(
+      options.certificateRepository ?? new PrismaCertificateRepository(),
+      authService,
+    ),
+  );
   app.use(
     '/api/v1',
     chatRoutes(

@@ -6,6 +6,21 @@ const envSchema = z
     NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
     PORT: z.coerce.number().int().min(1).max(65535).default(4000),
     DATABASE_URL: z.url().optional(),
+    PUBLIC_WEB_URL: z
+      .string()
+      .url()
+      .refine((value) => {
+        const url = new URL(value);
+        return (
+          ['http:', 'https:'].includes(url.protocol) &&
+          !url.username &&
+          !url.password &&
+          !url.search &&
+          !url.hash &&
+          url.pathname === '/'
+        );
+      }, 'Use an HTTP(S) origin.')
+      .optional(),
     CLIENT_URL: z
       .string()
       .default('http://localhost:5173,http://127.0.0.1:5173')

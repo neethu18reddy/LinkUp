@@ -302,3 +302,24 @@ frontend/src/pages/ChatPage.test.tsx
 frontend/src/pages/ChatPage.tsx
 frontend/src/test/chat-fixture.ts
 ```
+
+# Phase 9: certificates and public verification
+
+Implemented server-side topic/project eligibility, serializable idempotent issuance, immutable recipient/role/hour/date snapshots, private PDF downloads, embedded fonts, QR verification links, public verification and LinkedIn share/profile links. The minimal certificate page shows remaining requirements and requires acknowledgement of public name disclosure. Reopened coursework makes certificates inactive until completion is restored. No external API integration was enabled or called.
+
+Validation: 170 local tests (76 frontend, 94 backend), formatting, lint, types, Prisma validation and production builds pass. Thirty PostgreSQL tests run in CI, including concurrent certificate issuance, evidence gates, download ownership, reopening/restoration and stable IDs. Browser QA with a disposable local API checked sign-in, listing, PDF download and public verification. A sample PDF was rendered and visually inspected. Local PostgreSQL is unavailable. Set the canonical public frontend origin before sharing outside localhost; PDF script coverage is documented in [Certificates](CERTIFICATES.md).
+
+Phase 9 created files:
+
+```text
+backend/src/modules/certificates/certificates.repository.ts
+backend/src/modules/certificates/certificates.routes.ts
+backend/src/modules/certificates/certificates.pdf.ts
+backend/tests/certificates.test.ts
+backend/tests/certificates.database.test.ts
+frontend/src/features/certificates/certificates.api.ts
+frontend/src/pages/CertificatesPage.tsx
+frontend/src/pages/CertificatesPage.test.tsx
+frontend/src/pages/VerifyPage.tsx
+docs/CERTIFICATES.md
+```

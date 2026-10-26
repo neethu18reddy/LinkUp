@@ -4,6 +4,12 @@ import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
 import { SkillsPage } from './pages/SkillsPage';
+const CertificatesPage = lazy(() =>
+  import('./pages/CertificatesPage').then((module) => ({ default: module.CertificatesPage })),
+);
+const VerifyPage = lazy(() =>
+  import('./pages/VerifyPage').then((module) => ({ default: module.VerifyPage })),
+);
 const GoalsPage = lazy(() =>
   import('./pages/GoalsPage').then((module) => ({ default: module.GoalsPage })),
 );
@@ -29,7 +35,23 @@ export function App() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<AuthPage key="login" mode="login" />} />
       <Route path="/register" element={<AuthPage key="register" mode="register" />} />
+      <Route
+        path="/verify/:code"
+        element={
+          <Suspense fallback={<main role="status">Loading verification…</main>}>
+            <VerifyPage />
+          </Suspense>
+        }
+      />
       <Route element={<ProtectedRoute />}>
+        <Route
+          path="/certificates"
+          element={
+            <Suspense fallback={<main role="status">Loading certificates…</main>}>
+              <CertificatesPage />
+            </Suspense>
+          }
+        />
         <Route
           path="/dashboard"
           element={
