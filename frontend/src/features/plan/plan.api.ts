@@ -10,6 +10,7 @@ export const planInputSchema = z.object({
   expectedPlanId: z.uuid().nullable(),
 });
 const item = z.object({
+  id: z.uuid().optional(),
   topicId: z.uuid(),
   allocatedHours: z.number(),
   status: z.string(),

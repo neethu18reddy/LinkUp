@@ -4,6 +4,8 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
+import { TaskControl } from '@/features/progress/TaskControl';
+import type { TaskStatus } from '@/features/progress/progress.api';
 import { getCurrentRoadmap, roadmapKey } from '@/features/roadmap/roadmap.api';
 import {
   getCurrentPlan,
@@ -249,6 +251,13 @@ export function PlanPage() {
                             {item.allocatedHours} hours ·{' '}
                             {item.status.replaceAll('_', ' ').toLowerCase()}
                             {item.isProject ? ' · Project' : ''}
+                            {item.id && plan.data?.isActive && (
+                              <TaskControl
+                                id={item.id}
+                                title={item.title ?? 'Learning task'}
+                                status={item.status as TaskStatus}
+                              />
+                            )}
                           </li>
                         ))}
                       </ul>

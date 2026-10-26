@@ -294,16 +294,18 @@ model PlanItem {
 }
 
 model LearningLog {
-  id       String   @id @default(uuid()) @db.Uuid
-  userId   String   @db.Uuid
-  topicId  String?  @db.Uuid
-  minutes  Int
-  note     String   @db.VarChar(2000)
-  loggedAt DateTime @default(now())
-  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  topic    Topic?   @relation(fields: [topicId], references: [id], onDelete: SetNull)
+  id        String   @id @default(uuid()) @db.Uuid
+  requestId String   @default(uuid()) @db.Uuid
+  userId    String   @db.Uuid
+  topicId   String?  @db.Uuid
+  minutes   Int
+  note      String   @db.VarChar(2000)
+  loggedAt  DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topic     Topic?   @relation(fields: [topicId], references: [id], onDelete: SetNull)
 
   @@index([userId, loggedAt])
+  @@unique([userId, requestId])
   @@index([topicId])
 }
 

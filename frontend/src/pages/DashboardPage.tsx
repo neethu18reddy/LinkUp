@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { AccountLayout } from '@/components/layout/AccountLayout';
 import { useAuth } from '@/store/auth';
 import { CurrentGoalCard } from '@/features/goals/CurrentGoalCard';
+import { DashboardProgress } from '@/features/progress/DashboardProgress';
 
 export function DashboardPage() {
   const user = useAuth((state) => state.user);
@@ -13,7 +14,9 @@ export function DashboardPage() {
         <p className="eyebrow">YOUR LEARNING SPACE</p>
         <h1>Welcome, {user?.name}.</h1>
         <p className="auth-description">You’ve taken the first step. Let’s build from here.</p>
-        <section className="dashboard-empty">
+        <DashboardProgress />
+        <details className="dashboard-empty">
+          <summary>Review your starting skills</summary>
           <span className="empty-icon">
             <Sprout size={28} strokeWidth={1.4} />
           </span>
@@ -28,7 +31,7 @@ export function DashboardPage() {
           <p className="account-ready">
             <Check size={14} aria-hidden="true" /> Your account is ready
           </p>
-        </section>
+        </details>
         <CurrentGoalCard />
         <section className="account-summary" aria-labelledby="account-title">
           <h2 id="account-title">Your account</h2>

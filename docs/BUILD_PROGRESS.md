@@ -10,7 +10,7 @@ Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the U
 | 4     | Goals, interest quiz, recommendations                   | Implemented; local checks passed                      |
 | 5     | Gap analysis and validated roadmap pipeline             | Implemented; Groq prepared, live calls disabled       |
 | 6     | Roadmap UI, scheduler, flexibility, replanning          | Implemented; offline scheduling                       |
-| 7     | Progress, logs, projects, streaks, charts               | Planned                                               |
+| 7     | Progress, logs, projects, streaks, charts               | Implemented; local checks passed                      |
 | 8     | Mentor context and streaming                            | Planned; provider integration requires approval       |
 | 9     | Certificates, PDFs, public verification                 | Planned                                               |
 | 10    | Reminders and notifications                             | Planned; email integration requires approval          |
@@ -241,4 +241,34 @@ docs/WEEKLY_PLANNING.md
 frontend/src/features/plan/plan.api.ts
 frontend/src/pages/PlanPage.test.tsx
 frontend/src/pages/PlanPage.tsx
+```
+
+## Phase 7: learning progress, logs, projects and charts
+
+Implemented owned active-plan task status controls, project-evidence completion gates, weighted overall/per-skill progress, roadmap completion/reopening, UTC streaks, learning logs with stable retry request IDs, cursor pagination, daily time limits, project upserts and an account dashboard. The minimal dashboard includes a progress ring, weekly checkboxes/status selectors, logged/planned time, overdue warnings, milestones, a Recharts time chart and skill radar with text equivalents. Dashboard/charts are loaded separately. Completed allocations remain counted only in the active version after replanning. No external APIs were added or called; live provider setup remains deferred.
+
+Verification: 135 local tests pass (61 frontend, 74 backend), plus formatting, lint, strict types, Prisma validation and production builds. Twenty-four PostgreSQL integration tests run in CI, including five new tests covering progress persistence/ownership, replanning, evidence-gated completion/reopening, concurrent log deduplication and daily limits, cursor privacy, dates and project updates. Browser QA with a disposable API verified sign-in, checkbox-driven progress, log save/history, project evidence, updated streak/submission counts and both chart renders. Runtime defaults remain Prisma/PostgreSQL; local Docker is unavailable. Recharts installation was temporarily blocked by approval-review usage limits, then succeeded after the reported reset; npm audit reports zero vulnerabilities. See [Learning progress](LEARNING_PROGRESS.md) for contracts and semantics.
+
+Phase 7 created files:
+
+```text
+backend/prisma/migrations/20261027000700_learning_log_requests/migration.sql
+backend/src/modules/progress/progress.controller.ts
+backend/src/modules/progress/progress.logic.ts
+backend/src/modules/progress/progress.repository.ts
+backend/src/modules/progress/progress.routes.ts
+backend/src/modules/progress/progress.schemas.ts
+backend/src/modules/progress/progress.service.ts
+backend/src/modules/progress/progress.types.ts
+backend/tests/progress.database.test.ts
+backend/tests/progress.test.ts
+docs/LEARNING_PROGRESS.md
+frontend/src/features/progress/DashboardProgress.test.tsx
+frontend/src/features/progress/DashboardProgress.tsx
+frontend/src/features/progress/ProgressCharts.tsx
+frontend/src/features/progress/TaskControl.tsx
+frontend/src/features/progress/progress.api.ts
+frontend/src/pages/ProgressPage.test.tsx
+frontend/src/pages/ProgressPage.tsx
+frontend/src/test/progress-fixture.ts
 ```

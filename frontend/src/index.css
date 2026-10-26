@@ -1123,3 +1123,62 @@ h1 span {
 .account-header nav {
   flex-wrap: wrap;
 }
+.progress-metrics,
+.progress-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.progress-metrics strong {
+  display: block;
+  font-size: 26px;
+}
+.progress-metrics label {
+  display: block;
+}
+.progress-metrics progress {
+  width: 100%;
+  accent-color: #285b46;
+}
+.progress-charts {
+  margin-top: 20px;
+}
+.progress-task {
+  margin: 16px 0;
+}
+.task-control {
+  display: block;
+  margin: 8px 0;
+}
+.task-control select {
+  padding: 5px;
+  border: 1px solid #cfd9d2;
+  border-radius: 4px;
+}
+.task-control [role='alert'] {
+  display: block;
+  color: #a43d35;
+}
+.form-field textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 10px;
+  border: 1px solid #cfd9d2;
+  border-radius: 6px;
+  resize: vertical;
+}
+.progress-ring {
+  width: 112px;
+  height: 112px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.progress-ring strong {
+  width: 90px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: white;
+}

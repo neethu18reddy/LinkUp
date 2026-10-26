@@ -2,7 +2,6 @@ import { Link, Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
-import { DashboardPage } from './pages/DashboardPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
 import { SkillsPage } from './pages/SkillsPage';
 const GoalsPage = lazy(() =>
@@ -14,6 +13,12 @@ const RoadmapPage = lazy(() =>
 const PlanPage = lazy(() =>
   import('./pages/PlanPage').then((module) => ({ default: module.PlanPage })),
 );
+const ProgressPage = lazy(() =>
+  import('./pages/ProgressPage').then((module) => ({ default: module.ProgressPage })),
+);
+const DashboardPage = lazy(() =>
+  import('./pages/DashboardPage').then((module) => ({ default: module.DashboardPage })),
+);
 
 export function App() {
   return (
@@ -22,8 +27,23 @@ export function App() {
       <Route path="/login" element={<AuthPage key="login" mode="login" />} />
       <Route path="/register" element={<AuthPage key="register" mode="register" />} />
       <Route element={<ProtectedRoute />}>
-        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route
+          path="/dashboard"
+          element={
+            <Suspense fallback={<main role="status">Loading your dashboard…</main>}>
+              <DashboardPage />
+            </Suspense>
+          }
+        />
         <Route path="/skills" element={<SkillsPage />} />
+        <Route
+          path="/progress"
+          element={
+            <Suspense fallback={<main role="status">Loading learning history…</main>}>
+              <ProgressPage />
+            </Suspense>
+          }
+        />
         <Route
           path="/plan"
           element={

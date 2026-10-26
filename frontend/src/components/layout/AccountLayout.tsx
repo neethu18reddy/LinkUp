@@ -34,6 +34,7 @@ export function AccountLayout({ children }: { children: ReactNode }) {
           <NavLink to="/goals">My goal</NavLink>
           <NavLink to="/roadmap">Roadmap</NavLink>
           <NavLink to="/plan">Weekly plan</NavLink>
+          <NavLink to="/progress">Learning logs</NavLink>
         </nav>
         <Button variant="outline" onClick={() => void logout()} disabled={pending}>
           <LogOut size={15} aria-hidden="true" />
