@@ -7,7 +7,7 @@ Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the U
 | 1     | Monorepo, tooling, Docker PostgreSQL, Prisma schema, CI | Implemented; local checks passed                      |
 | 2     | Auth and protected routes                               | Implemented; local checks passed                      |
 | 3     | Skill catalogue and profiles                            | Implemented; local checks passed                      |
-| 4     | Goals, interest quiz, recommendations                   | Planned                                               |
+| 4     | Goals, interest quiz, recommendations                   | Implemented; local checks passed                      |
 | 5     | Gap analysis and validated roadmap pipeline             | Planned; provider integration requires approval       |
 | 6     | Roadmap UI, scheduler, flexibility, replanning          | Planned                                               |
 | 7     | Progress, logs, projects, streaks, charts               | Planned                                               |
@@ -152,4 +152,43 @@ frontend/src/features/auth/SessionBoundary.test.tsx
 frontend/src/features/skills/skills.api.ts
 frontend/src/pages/SkillsPage.test.tsx
 frontend/src/pages/SkillsPage.tsx
+```
+
+## Phase 4: goals and interest quiz
+
+Implemented six role templates and 33 required-skill mappings in a migration, direct role/custom learning goals, a skippable seven-question quiz, three locally scored suggestions with reasons, saved private quiz results, retakes and explicit confirmation. Goal replacement preserves history, guards stale changes, and uses a SQL partial unique index plus serializable transactions to keep one current goal per user. The overview displays the chosen goal; the goal page loads in a separate bundle. No dependencies or external API integrations were added. AI-enhanced quiz recommendations remain deferred until provider approval.
+
+Verification: formatting, lint, strict TypeScript, schema validation and both production builds pass. There are 75 local tests (36 frontend and 39 backend), including an additional targeted test of stale-goal recovery. Eleven PostgreSQL integration tests run in CI, including five new tests for role seeds, goal/quiz persistence, ownership, historical preservation, concurrent goal creation and the unique index. A live disposable HTTP check through the frontend proxy passed login, custom goal creation, quiz submission, suggested-role confirmation and restoring saved results. The in-app browser repeatedly timed out attaching, so Phase 4 visual browser QA could not be completed; automated React UI tests cover the user flow. Production defaults remain Prisma/PostgreSQL. Phase 3 CI passed all 57 tests.
+
+Phase 4 created files:
+
+```text
+backend/prisma/data/roles.json
+backend/prisma/migrations/20261027000400_roles_and_current_goal/migration.sql
+backend/src/modules/goals/goals.controller.ts
+backend/src/modules/goals/goals.repository.ts
+backend/src/modules/goals/goals.routes.ts
+backend/src/modules/goals/goals.schemas.ts
+backend/src/modules/goals/goals.service.ts
+backend/src/modules/goals/goals.types.ts
+backend/src/modules/quiz/quiz.controller.ts
+backend/src/modules/quiz/quiz.data.ts
+backend/src/modules/quiz/quiz.repository.ts
+backend/src/modules/quiz/quiz.routes.ts
+backend/src/modules/quiz/quiz.schemas.ts
+backend/src/modules/quiz/quiz.service.ts
+backend/src/modules/quiz/quiz.types.ts
+backend/src/modules/roles/roles.controller.ts
+backend/src/modules/roles/roles.repository.ts
+backend/src/modules/roles/roles.routes.ts
+backend/src/modules/roles/roles.service.ts
+backend/src/modules/roles/roles.types.ts
+backend/tests/goals-quiz.database.test.ts
+backend/tests/goals-quiz.test.ts
+backend/tests/helpers/memory-career-repositories.ts
+frontend/src/features/goals/CurrentGoalCard.tsx
+frontend/src/features/goals/InterestQuiz.tsx
+frontend/src/features/goals/goals.api.ts
+frontend/src/pages/GoalsPage.test.tsx
+frontend/src/pages/GoalsPage.tsx
 ```

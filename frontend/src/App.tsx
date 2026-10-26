@@ -1,9 +1,13 @@
 import { Link, Route, Routes } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
 import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
 import { DashboardPage } from './pages/DashboardPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
 import { SkillsPage } from './pages/SkillsPage';
+const GoalsPage = lazy(() =>
+  import('./pages/GoalsPage').then((module) => ({ default: module.GoalsPage })),
+);
 
 export function App() {
   return (
@@ -14,6 +18,20 @@ export function App() {
       <Route element={<ProtectedRoute />}>
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/skills" element={<SkillsPage />} />
+        <Route
+          path="/goals"
+          element={
+            <Suspense
+              fallback={
+                <main className="session-screen" role="status">
+                  Loading your goal page…
+                </main>
+              }
+            >
+              <GoalsPage />
+            </Suspense>
+          }
+        />
       </Route>
       <Route
         path="*"

@@ -2,7 +2,7 @@
 
 linkup helps students, career switchers, and working professionals connect their current skills to a career goal through a personalised learning plan.
 
-**Status: Phase 3 skill profiles.** Accounts, protected routes, the skill catalogue, and personal skill profiles are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
+**Status: Phase 4 goals and interest quiz.** Accounts, skill profiles, goal selection, and a skippable interest quiz are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
 
 ## Problem and solution
 
@@ -10,7 +10,7 @@ Learners often know the role they want, but need help choosing what to learn, in
 
 ## Features
 
-Implemented in Phases 1–3:
+Implemented in Phases 1–4:
 
 - Minimal, responsive landing page with accessible navigation and API connection/retry states.
 - Separate React frontend and Express REST API in npm workspaces.
@@ -25,8 +25,11 @@ Implemented in Phases 1–3:
 - A searchable 32-skill catalogue with canonical names and aliases, installed by a tracked database migration.
 - A protected skill-profile page with Beginner/Intermediate/Advanced levels, add/update/remove actions, removal confirmation, and loading/empty/error/success states.
 - Ownership-scoped profile APIs: users can only read and change their own skills; duplicate additions return a conflict.
+- Six starter career roles with required skills, direct role/custom-skill goal selection, and review before confirmation.
+- A skippable seven-question interest quiz with three reasoned recommendations, private saved results, retakes, and explicit goal confirmation.
+- Goal history, one current goal per account, idempotent confirmations, and stale/concurrent-change protection.
 
-Planned: goal selection and quiz, gap analysis, roadmaps, weekly plans, progress tracking, mentor chat, certificates, and notifications. **External API integrations require the owner's approval before implementation.** None are configured.
+Planned: gap analysis, roadmaps, weekly plans, progress tracking, mentor chat, certificates, and notifications. **External API integrations require the owner's approval before implementation.** None are configured. Quiz suggestions currently use deterministic local scoring; the brief's AI-enhanced recommendation step is deferred until a provider integration is approved. The UI identifies the local scoring method.
 
 ## Stack
 
@@ -100,7 +103,7 @@ Prerequisites: **Node.js 24** (or Node.js 22.12+), npm 10+, Git, and **Docker De
 
    Frontend: <http://127.0.0.1:5173>. API: <http://localhost:4000/api/v1/health>. Database readiness: <http://localhost:4000/api/v1/health/ready>.
 
-The landing/auth pages and API liveness endpoint also run without PostgreSQL; account and skill operations need the migrated database and return HTTP 503 if unavailable. Visit `/register` to create an account, `/login` to sign in, `/dashboard` for the account overview, and `/skills` to build your skill profile. Database readiness returns HTTP 503 until PostgreSQL is available. Applying `npm run db:deploy` also installs the starter skill catalogue; no separate seed command or external service is needed. Existing Phase 2 checkouts should apply the new migration before using `/skills`.
+The landing/auth pages and API liveness endpoint also run without PostgreSQL; account, skill, quiz and goal operations need the migrated database and return HTTP 503 if unavailable. Visit `/register` to create an account, `/login` to sign in, `/dashboard` for the account overview, `/skills` for your skill profile, and `/goals` to choose a direction. Database readiness returns HTTP 503 until PostgreSQL is available. `npm run db:deploy` installs both the skill and role catalogues; no separate seed command or external service is needed. Existing checkouts should apply the new migrations before using the new pages.
 
 To create future schema migrations, run `npm run db:migrate -- --name your_change`. Use `npm run db:deploy` to apply existing migrations without resetting data.
 
@@ -179,6 +182,23 @@ Skill endpoints:
 
 Profile routes require a bearer token. `level` is `BEGINNER`, `INTERMEDIATE`, or `ADVANCED`; IDs are UUIDs from the catalogue. The server derives the owner from the session; supplied `userId` fields are rejected. Missing profile skills return HTTP 404. Search is trimmed, limited to 100 characters, and supports aliases such as ReactJS, node js, and Postgres. The source catalogue is `backend/prisma/data/skills.json`; its migration is an immutable snapshot. Add future catalogue changes through new migrations rather than editing applied migration history.
 
+Goal and quiz endpoints:
+
+| Method and route             | Result                                                                                  |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| `GET /api/v1/roles`          | Public starter roles and required skills                                                |
+| `GET /api/v1/quiz/questions` | Public seven-question quiz, options and `method: local-scoring`                         |
+| `POST /api/v1/quiz/submit`   | Validate and privately save seven answers plus three server-generated suggestions       |
+| `GET /api/v1/quiz/latest`    | Latest saved result belonging to the signed-in user, or `null`                          |
+| `GET /api/v1/goals/current`  | The signed-in user's current goal, or `null`                                            |
+| `POST /api/v1/goals`         | Confirm a direct/custom/quiz goal; returns HTTP 200, including idempotent confirmations |
+
+Quiz submission accepts `{ answers: [{ questionId, optionId }, ...] }`; every question must appear exactly once with a valid option. The server ranks six curated role templates using weighted interest votes, then uses existing skill matches and a stable slug sort to break ties. It returns three distinct roles with explanations, not predicted success percentages. Submitting a quiz never changes the goal. Skipping does not submit incomplete answers.
+
+Confirm a direct role with `{ kind: "ROLE", roleId, expectedGoalId }`, a suggested role with `{ kind: "ROLE", roleId, quizResponseId, expectedGoalId }`, or a custom skill with `{ kind: "CUSTOM", targetRole, expectedGoalId }`. Custom targets are trimmed, whitespace-normalized, limited to 2–150 characters, and checked for control characters. The owner is always derived from the session. Quiz-based goals must reference an owned result containing that role; `source` is set by the server. Set `expectedGoalId` to the current goal's ID when replacing it, or `null` for a first goal. A stale different target returns HTTP 409 and the UI requires another review. Reconfirming the same target returns its existing ID.
+
+Replacing a goal archives the old record without deleting its roadmaps or work. A partial unique index enforces one `ACTIVE` goal per user; replacement uses serializable transactions with conflict retries. This partial index is maintained in SQL migration history because it is not declared by the Prisma model. Starter roles and requirements are sourced from `backend/prisma/data/roles.json`; change applied catalogues through new migrations.
+
 All JSON responses use `{ success, data, error }`. Errors contain a stable `code` and a safe `message`. Swagger/OpenAPI documentation is planned for Phase 12, alongside the completed endpoints.
 
 Auth POST requests require JSON and `X-Linkup-Request: 1`. Register accepts `{ name, email, password }`; login accepts `{ email, password }`; refresh/logout accept `{}` and use the cookie. Session responses contain `{ user, accessToken, expiresIn }`; refresh tokens are never returned in JSON. Passwords must be at least eight characters at registration and at most 72 UTF-8 bytes (bcrypt's limit). Emails are trimmed and lowercased. Tokens are checked for issuer, audience, algorithm, expiry, and active session ownership.
@@ -195,7 +215,7 @@ Screenshots and a 3–5 minute demo video will be added once the core flow is im
 
 See [docs/BUILD_PROGRESS.md](docs/BUILD_PROGRESS.md) for the phase checklist, file groups, and verification notes. Each completed phase receives a Conventional Commit and a push to GitHub. The owner confirms before the next phase, as required by the brief.
 
-Accounts and skill profiles work with PostgreSQL; goal selection, learning plans, charts, dark mode, and certificates are not implemented yet. The dashboard links to the skill profile. The catalogue is curated; adding arbitrary custom skills and editing the catalogue are not exposed in the UI. Email verification, password reset, and Google OAuth are not implemented; Google and email services require separate approval. Learning-resource ownership checks will be attached as those resource routes are added in subsequent phases.
+Accounts, skill profiles, quiz results and goals work with PostgreSQL; roadmaps, weekly plans, charts, dark mode, and certificates are not implemented yet. The dashboard shows the current goal and links to profile/goal selection. Custom learning goals are supported; adding arbitrary skills to the global skill catalogue and editing starter roles are not exposed in the UI. Quiz scoring uses curated rules; AI provider calls are disabled pending approval. Email verification, password reset, and Google OAuth are not implemented; Google and email services require separate approval. Further resource ownership checks will be attached as those routes are added.
 
 ## AI usage and credits
 

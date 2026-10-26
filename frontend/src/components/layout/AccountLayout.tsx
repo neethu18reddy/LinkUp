@@ -31,6 +31,7 @@ export function AccountLayout({ children }: { children: ReactNode }) {
         <nav aria-label="Your workspace">
           <NavLink to="/dashboard">Overview</NavLink>
           <NavLink to="/skills">My skills</NavLink>
+          <NavLink to="/goals">My goal</NavLink>
         </nav>
         <Button variant="outline" onClick={() => void logout()} disabled={pending}>
           <LogOut size={15} aria-hidden="true" />

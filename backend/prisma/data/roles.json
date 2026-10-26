@@ -1,0 +1,215 @@
+[
+  {
+    "id": "10000000-0000-4000-8000-000000000001",
+    "slug": "frontend-developer",
+    "title": "Frontend Developer",
+    "description": "Build responsive, accessible interfaces and bring web experiences to life.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000001",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000002",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000003",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000005",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000021",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000002",
+    "slug": "backend-developer",
+    "title": "Backend Developer",
+    "description": "Create reliable services, APIs, and data storage behind an application.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000009",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000010",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000011",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000012",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000003",
+    "slug": "fullstack-developer",
+    "title": "Full Stack Developer",
+    "description": "Connect browser interfaces, server logic, and databases into complete web applications.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000003",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000005",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000009",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000011",
+        "requiredLevel": "BEGINNER",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000012",
+        "requiredLevel": "BEGINNER",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000004",
+    "slug": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Explore datasets, explain patterns, and communicate useful findings.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000015",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000028",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000029",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000030",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000031",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000005",
+    "slug": "ui-designer",
+    "title": "UI Designer",
+    "description": "Design clear interfaces, test ideas with users, and refine accessible experiences.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000025",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000026",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000027",
+        "requiredLevel": "BEGINNER",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000021",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000006",
+    "slug": "devops-engineer",
+    "title": "DevOps Engineer",
+    "description": "Automate delivery and learn to operate dependable application environments.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000023",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000022",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000024",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 2
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000009",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  }
+]

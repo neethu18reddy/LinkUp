@@ -3,6 +3,7 @@ import { Check, Sprout } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AccountLayout } from '@/components/layout/AccountLayout';
 import { useAuth } from '@/store/auth';
+import { CurrentGoalCard } from '@/features/goals/CurrentGoalCard';
 
 export function DashboardPage() {
   const user = useAuth((state) => state.user);
@@ -28,6 +29,7 @@ export function DashboardPage() {
             <Check size={14} aria-hidden="true" /> Your account is ready
           </p>
         </section>
+        <CurrentGoalCard />
         <section className="account-summary" aria-labelledby="account-title">
           <h2 id="account-title">Your account</h2>
           <dl>

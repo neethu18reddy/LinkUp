@@ -19,12 +19,27 @@ import { skillsRoutes } from './modules/skills/skills.routes.js';
 import { SkillsService } from './modules/skills/skills.service.js';
 import { PrismaSkillsRepository } from './modules/skills/skills.repository.js';
 import type { SkillsRepository } from './modules/skills/skills.types.js';
+import { rolesRoutes } from './modules/roles/roles.routes.js';
+import { RolesService } from './modules/roles/roles.service.js';
+import { PrismaRolesRepository } from './modules/roles/roles.repository.js';
+import type { RolesRepository } from './modules/roles/roles.types.js';
+import { quizRoutes } from './modules/quiz/quiz.routes.js';
+import { QuizService } from './modules/quiz/quiz.service.js';
+import { PrismaQuizRepository } from './modules/quiz/quiz.repository.js';
+import type { QuizRepository } from './modules/quiz/quiz.types.js';
+import { goalsRoutes } from './modules/goals/goals.routes.js';
+import { GoalsService } from './modules/goals/goals.service.js';
+import { PrismaGoalsRepository } from './modules/goals/goals.repository.js';
+import type { GoalsRepository } from './modules/goals/goals.types.js';
 
 export function createApp(
   options: {
     authRepository?: AuthRepository;
     authSecrets?: AuthSecrets;
     skillsRepository?: SkillsRepository;
+    rolesRepository?: RolesRepository;
+    quizRepository?: QuizRepository;
+    goalsRepository?: GoalsRepository;
   } = {},
 ) {
   const app = express();
@@ -63,6 +78,22 @@ export function createApp(
     new AuthTokens(options.authSecrets),
   );
   app.use('/api/v1/auth', authRoutes(authService));
+  const rolesService = new RolesService(options.rolesRepository ?? new PrismaRolesRepository());
+  const quizService = new QuizService(
+    options.quizRepository ?? new PrismaQuizRepository(),
+    rolesService,
+  );
+  const goalsService = new GoalsService(
+    options.goalsRepository ?? new PrismaGoalsRepository(),
+    rolesService,
+    quizService,
+  );
+  app.use(
+    '/api/v1',
+    rolesRoutes(rolesService),
+    quizRoutes(quizService, authService),
+    goalsRoutes(goalsService, authService),
+  );
   app.use(
     '/api/v1',
     skillsRoutes(
