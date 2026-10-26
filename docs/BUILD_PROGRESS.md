@@ -11,7 +11,7 @@ Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the U
 | 5     | Gap analysis and validated roadmap pipeline             | Implemented; Groq prepared, live calls disabled       |
 | 6     | Roadmap UI, scheduler, flexibility, replanning          | Implemented; offline scheduling                       |
 | 7     | Progress, logs, projects, streaks, charts               | Implemented; local checks passed                      |
-| 8     | Mentor context and streaming                            | Planned; provider integration requires approval       |
+| 8     | Mentor context and streaming                            | Implemented offline; live AI remains deferred         |
 | 9     | Certificates, PDFs, public verification                 | Planned                                               |
 | 10    | Reminders and notifications                             | Planned; email integration requires approval          |
 | 11    | Service/API tests and error-state polish                | Planned; foundational tests begin in Phase 1          |
@@ -272,4 +272,33 @@ frontend/src/features/progress/progress.api.ts
 frontend/src/pages/ProgressPage.test.tsx
 frontend/src/pages/ProgressPage.tsx
 frontend/src/test/progress-fixture.ts
+```
+
+## Phase 8: contextual offline mentor and streaming chat
+
+Implemented per-turn skill/progress context, bounded/redacted history, a provider-agnostic streaming interface, clearly labelled offline learning guidance, authenticated SSE, owned ordered conversation history and paging, suggested questions, copy, stop/retry and confirmed deletion. Persisted per-user quotas and short-window rate limits bound requests. Fresh lease tokens, expected versions and atomic message-pair writes protect concurrent turns, expired writers, deletion races and retries. The owner deferred live APIs, so no external mentor integration is enabled or called; the original plan's live AI explanations remain deferred until approval and credentials are available. No dependencies were added.
+
+Verification: 165 local tests pass (75 frontend, 90 backend), including a targeted delayed-history isolation regression. Formatting, lint, strict types, Prisma validation and both production builds pass. Twenty-nine PostgreSQL integration tests run in CI, including five new tests for durable ordered pairs/replay/pagination/privacy, concurrent quota claims and reservations, provider failure without partial saves, deletion during a turn and expired-lease commits. Browser QA with a disposable offline API passed sign-in, suggested progress/next-topic questions, streamed saved replies, copy and history restoration after reload. Production defaults remain Prisma/PostgreSQL; local Docker is unavailable. See [Learning mentor](LEARNING_MENTOR.md) for contracts, quotas, privacy and offline limitations.
+
+Phase 8 created files:
+
+```text
+backend/prisma/migrations/20261027000800_mentor_turns/migration.sql
+backend/src/ai/mentor.context.ts
+backend/src/ai/mentor.provider.ts
+backend/src/modules/chat/chat.controller.ts
+backend/src/modules/chat/chat.repository.ts
+backend/src/modules/chat/chat.routes.ts
+backend/src/modules/chat/chat.schemas.ts
+backend/src/modules/chat/chat.service.ts
+backend/src/modules/chat/chat.types.ts
+backend/tests/chat.database.test.ts
+backend/tests/chat.test.ts
+backend/tests/helpers/memory-chat-repository.ts
+docs/LEARNING_MENTOR.md
+frontend/src/features/chat/chat.api.test.ts
+frontend/src/features/chat/chat.api.ts
+frontend/src/pages/ChatPage.test.tsx
+frontend/src/pages/ChatPage.tsx
+frontend/src/test/chat-fixture.ts
 ```

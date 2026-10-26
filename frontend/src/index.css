@@ -1182,3 +1182,30 @@ h1 span {
   border-radius: 50%;
   background: white;
 }
+.mentor-notice {
+  color: #526657;
+  line-height: 1.6;
+}
+.mentor-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.mentor-message {
+  margin: 18px 0;
+  padding: 16px;
+  border: 1px solid #e0e6e1;
+  border-radius: 6px;
+}
+.mentor-message h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.mentor-message p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.65;
+}
+.mentor-user {
+  background: #f4f8f4;
+}

@@ -45,6 +45,11 @@ import { PrismaProgressRepository } from './modules/progress/progress.repository
 import type { ProgressRepository } from './modules/progress/progress.types.js';
 import { ProgressService } from './modules/progress/progress.service.js';
 import { progressRoutes } from './modules/progress/progress.routes.js';
+import { PrismaChatRepository } from './modules/chat/chat.repository.js';
+import type { ChatRepository } from './modules/chat/chat.types.js';
+import { ChatService } from './modules/chat/chat.service.js';
+import { chatRoutes } from './modules/chat/chat.routes.js';
+import type { MentorProvider } from './ai/mentor.provider.js';
 
 export function createApp(
   options: {
@@ -58,6 +63,8 @@ export function createApp(
     roadmapProvider?: LLMProvider | null;
     planRepository?: PlanRepository;
     progressRepository?: ProgressRepository;
+    chatRepository?: ChatRepository;
+    mentorProvider?: MentorProvider;
   } = {},
 ) {
   const app = express();
@@ -96,6 +103,18 @@ export function createApp(
     new AuthTokens(options.authSecrets),
   );
   app.use('/api/v1/auth', authRoutes(authService));
+  app.use(
+    '/api/v1',
+    chatRoutes(
+      new ChatService(
+        options.chatRepository ?? new PrismaChatRepository(),
+        options.progressRepository ?? new PrismaProgressRepository(),
+        options.skillsRepository ?? new PrismaSkillsRepository(),
+        options.mentorProvider,
+      ),
+      authService,
+    ),
+  );
   app.use(
     '/api/v1',
     progressRoutes(

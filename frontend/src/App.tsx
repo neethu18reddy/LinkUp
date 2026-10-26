@@ -19,6 +19,9 @@ const ProgressPage = lazy(() =>
 const DashboardPage = lazy(() =>
   import('./pages/DashboardPage').then((module) => ({ default: module.DashboardPage })),
 );
+const ChatPage = lazy(() =>
+  import('./pages/ChatPage').then((module) => ({ default: module.ChatPage })),
+);
 
 export function App() {
   return (
@@ -36,6 +39,14 @@ export function App() {
           }
         />
         <Route path="/skills" element={<SkillsPage />} />
+        <Route
+          path="/mentor"
+          element={
+            <Suspense fallback={<main role="status">Loading your mentor…</main>}>
+              <ChatPage />
+            </Suspense>
+          }
+        />
         <Route
           path="/progress"
           element={

@@ -333,6 +333,9 @@ model ChatSession {
   user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
   roadmap   Roadmap?      @relation(fields: [roadmapId], references: [id], onDelete: SetNull)
   messages  ChatMessage[]
+  version   Int           @default(0)
+  busyToken String?       @db.Uuid
+  busyUntil DateTime?
 
   @@index([userId, createdAt])
   @@index([roadmapId])
@@ -343,10 +346,15 @@ model ChatMessage {
   sessionId String      @db.Uuid
   role      MessageRole
   content   String
+  requestId String      @default(uuid()) @db.Uuid
+  position  Int
+  mode      String      @default("offline") @db.VarChar(30)
   createdAt DateTime    @default(now())
   session   ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
 
   @@index([sessionId, createdAt])
+  @@unique([sessionId, position])
+  @@unique([sessionId, requestId, role])
 }
 
 model Certificate {

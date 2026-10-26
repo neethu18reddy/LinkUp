@@ -2,7 +2,7 @@
 
 linkup helps students, career switchers, and working professionals connect their current skills to a career goal through a personalised learning plan.
 
-**Status: Phase 7 learning progress and dashboard.** Accounts, skills, goals, quiz, roadmaps, weekly plans, task progress, learning logs and project submissions are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
+**Status: Phase 8 offline mentor and chat foundation.** Accounts, skills, goals, quiz, roadmaps, plans, progress, logs, projects and a contextual offline mentor with streaming/private history are implemented. Live AI setup remains deferred by the owner. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
 
 ## Problem and solution
 
@@ -10,7 +10,7 @@ Learners often know the role they want, but need help choosing what to learn, in
 
 ## Features
 
-Implemented in Phases 1–7:
+Implemented in Phases 1–8:
 
 - Minimal, responsive landing page with accessible navigation and API connection/retry states.
 - Separate React frontend and Express REST API in npm workspaces.
@@ -43,7 +43,10 @@ Implemented in Phases 1–7:
 - Project evidence submissions/updates, with server-side ownership and evidence required before project-task completion.
 - Dashboard progress ring, checkable weekly tasks, overdue detection, logged/planned time comparison, seven-day time chart and skill radar. Recharts and the dashboard load separately to keep the initial bundle small.
 
-Planned: mentor chat, certificates, and notifications. Quiz suggestions use deterministic local scoring. **The owner deferred live API setup until later; offline templates remain active.** Learning progress requires no external APIs.
+- Contextual offline mentor with authenticated SSE replies, private ordered conversation history, suggested questions, copy, stop/retry and confirmed deletion.
+- Per-message progress/skill context, redacted bounded provider input, durable quota reservations, idempotent retries and atomic saved turns.
+
+Planned: certificates, notifications and final deployment/documentation. Quiz suggestions use local scoring. **The owner deferred live API setup until later; roadmap templates and offline mentor rules remain active.** The mentor interface is ready for a separately approved streaming provider; no live mentor integration is configured.
 
 ## Stack
 
@@ -229,13 +232,15 @@ Screenshots and a 3–5 minute demo video will be added once the core flow is im
 
 See [docs/BUILD_PROGRESS.md](docs/BUILD_PROGRESS.md) for the phase checklist, file groups, and verification notes. Each completed phase receives a Conventional Commit and a push to GitHub. The owner confirms before the next phase, as required by the brief.
 
-Accounts, skills, quiz results, goals, roadmaps, weekly plans, task status, learning logs and project submissions persist in PostgreSQL. Mentor chat, certificates, notifications and dark mode follow in later phases. Roadmap generation supports starter roles and single catalogue-skill goals; unsupported custom text receives a clear error. Global catalogue/role editing is not exposed. Quiz scoring uses curated rules; live AI calls remain disabled at the owner's request. Email verification, password reset and Google OAuth are not implemented; Google and email services require separate approval. Logged time is separate from estimated completion; charts show learning progress rather than verified proficiency.
+Accounts, skills, quiz results, goals, roadmaps, weekly plans, task status, learning logs, projects and mentor conversations persist in PostgreSQL. Certificates, notifications and dark mode follow in later phases. Roadmap generation supports starter roles and single catalogue-skill goals; unsupported custom text receives a clear error. Global catalogue/role editing is not exposed. Quiz and mentor guidance use local rules; live AI calls remain disabled at the owner's request. Email verification, password reset and Google OAuth are not implemented; Google and email services require separate approval. Logged time is separate from estimated completion; charts show learning progress rather than verified proficiency.
 
 Roadmap API contracts, quota semantics, privacy, fallback behaviour, and the prepared Groq activation procedure are documented in [Roadmap generation](docs/ROADMAP_GENERATION.md).
 
 Weekly plan algorithms, preview/confirmation contracts, UTC dates and replanning semantics are documented in [Weekly planning](docs/WEEKLY_PLANNING.md).
 
 Progress, logs, projects, streaks, date rules and completion semantics are documented in [Learning progress](docs/LEARNING_PROGRESS.md).
+
+Mentor context, streaming events, retry/quota semantics, saved history and offline limitations are documented in [Learning mentor](docs/LEARNING_MENTOR.md).
 
 ## AI usage and credits
 
