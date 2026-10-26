@@ -27,6 +27,7 @@ const roadmap = z.object({
           subtopics: z.array(z.string()),
           estimatedHours: z.number(),
           difficulty: z.string(),
+          status: z.enum(['TODO', 'IN_PROGRESS', 'DONE']).default('TODO'),
           isProject: z.boolean(),
           resources: z.array(z.object({ title: z.string(), url: z.url() })),
         }),

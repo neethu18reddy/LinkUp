@@ -69,6 +69,7 @@ describe('Roadmap page', () => {
                 title: 'Build a small app',
                 subtopics: ['Use state'],
                 estimatedHours: 18,
+                status: 'TODO',
                 difficulty: 'INTERMEDIATE',
                 isProject: true,
                 resources: [{ title: 'React docs', url: 'https://react.dev/learn' }],

@@ -2,7 +2,7 @@
 
 linkup helps students, career switchers, and working professionals connect their current skills to a career goal through a personalised learning plan.
 
-**Status: Phase 5 gap analysis and roadmap generation.** Accounts, skills, goals, quiz, and persisted roadmap versions are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
+**Status: Phase 6 roadmaps and weekly planning.** Accounts, skills, goals, quiz, roadmaps and versioned weekly plans are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
 
 ## Problem and solution
 
@@ -10,7 +10,7 @@ Learners often know the role they want, but need help choosing what to learn, in
 
 ## Features
 
-Implemented in Phases 1–5:
+Implemented in Phases 1–6:
 
 - Minimal, responsive landing page with accessible navigation and API connection/retry states.
 - Separate React frontend and Express REST API in npm workspaces.
@@ -34,7 +34,11 @@ Implemented in Phases 1–5:
 - Minimal roadmap review/generation screen with loading, confirmation, fallback notices, and retry states.
 - Groq adapter prepared through the official OpenAI-compatible SDK, JSON/schema validation, bounded retries, backoff on 429, and offline fallback templates. Live calls remain disabled pending explicit approval.
 
-Planned: weekly plans, richer roadmap navigation, progress tracking, mentor chat, certificates, and notifications. Quiz suggestions use deterministic local scoring; AI-enhanced recommendations remain deferred. External services beyond the prepared Groq adapter require approval.
+- Collapsible roadmap phases, topic status/difficulty/project markers, and links between weekly allocations and roadmap topics.
+- Deterministic weekly scheduling with Relaxed, Standard, Intensive and Deadline modes, exact hour allocation, buffer weeks and workload warnings.
+- Preview and confirmation before saving/replanning; versioned persistence, completed-work preservation, and stale-preview/concurrent-change protection.
+
+Planned: progress tracking, mentor chat, certificates, and notifications. Quiz suggestions use deterministic local scoring. **The owner deferred live API setup until later; offline templates remain active.** No new external service is required for weekly planning.
 
 ## Stack
 
@@ -220,9 +224,11 @@ Screenshots and a 3–5 minute demo video will be added once the core flow is im
 
 See [docs/BUILD_PROGRESS.md](docs/BUILD_PROGRESS.md) for the phase checklist, file groups, and verification notes. Each completed phase receives a Conventional Commit and a push to GitHub. The owner confirms before the next phase, as required by the brief.
 
-Accounts, skills, quiz results, goals and roadmap versions persist in PostgreSQL. Weekly plans, charts, dark mode, and certificates follow in later phases. The dashboard links to goal selection and roadmaps. Roadmap generation supports starter roles and single catalogue-skill goals; unsupported custom text receives a clear error. Global catalogue/role editing is not exposed. Quiz scoring uses curated rules; live AI calls remain disabled pending approval. Email verification, password reset, and Google OAuth are not implemented; Google and email services require separate approval.
+Accounts, skills, quiz results, goals, roadmaps and weekly plan versions persist in PostgreSQL. Progress actions, charts, dark mode and certificates follow in later phases. Roadmap generation supports starter roles and single catalogue-skill goals; unsupported custom text receives a clear error. Global catalogue/role editing is not exposed. Quiz scoring uses curated rules; live AI calls remain disabled at the owner's request. Email verification, password reset and Google OAuth are not implemented; Google and email services require separate approval.
 
 Roadmap API contracts, quota semantics, privacy, fallback behaviour, and the prepared Groq activation procedure are documented in [Roadmap generation](docs/ROADMAP_GENERATION.md).
+
+Weekly plan algorithms, preview/confirmation contracts, UTC dates and replanning semantics are documented in [Weekly planning](docs/WEEKLY_PLANNING.md).
 
 ## AI usage and credits
 

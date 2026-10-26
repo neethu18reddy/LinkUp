@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
 import { Button } from '@/components/ui/button';
@@ -30,6 +30,11 @@ export function RoadmapPage() {
     },
   });
   const data = query.data;
+  const { hash } = useLocation();
+  useEffect(() => {
+    if (hash.startsWith('#topic-'))
+      document.getElementById(hash.slice(1))?.scrollIntoView?.({ block: 'start' });
+  }, [hash, data]);
   return (
     <AccountLayout>
       <main className="skills-page">
@@ -119,15 +124,27 @@ export function RoadmapPage() {
                       ? 'Curated template'
                       : 'AI generated'}
                   </p>
+                  <Button asChild variant="outline">
+                    <Link to="/plan">Set your weekly plan</Link>
+                  </Button>
                   {data.roadmap.phases.map((phase) => (
-                    <article key={phase.id}>
-                      <h3>{phase.title}</h3>
+                    <details className="roadmap-phase" key={phase.id} open>
+                      <summary>
+                        {phase.title} ·{' '}
+                        {phase.topics.filter((topic) => topic.status === 'DONE').length}/
+                        {phase.topics.length} topics completed
+                      </summary>
                       <p>{phase.description}</p>
                       <ol>
                         {phase.topics.map((topic) => (
-                          <li key={topic.id}>
+                          <li key={topic.id} id={`topic-${topic.id}`}>
                             <strong>{topic.title}</strong>
                             {topic.isProject ? ' · Project' : ''} · {topic.estimatedHours} hours
+                            <span className="topic-status">
+                              {' '}
+                              · {topic.status?.replaceAll('_', ' ').toLowerCase() ?? 'todo'} ·{' '}
+                              {topic.difficulty.toLowerCase()}
+                            </span>
                             <p>{topic.subtopics.join(' · ')}</p>
                             {topic.resources.map((resource) => (
                               <p key={resource.url}>
@@ -144,7 +161,7 @@ export function RoadmapPage() {
                           </li>
                         ))}
                       </ol>
-                    </article>
+                    </details>
                   ))}
                 </section>
               ) : (

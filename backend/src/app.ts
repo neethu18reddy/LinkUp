@@ -38,6 +38,9 @@ import {
 import { RoadmapService } from './modules/roadmap/roadmap.service.js';
 import { roadmapRoutes } from './modules/roadmap/roadmap.routes.js';
 import { configuredProvider, type LLMProvider } from './ai/roadmap.provider.js';
+import { PrismaPlanRepository, type PlanRepository } from './modules/plan/plan.repository.js';
+import { PlanService } from './modules/plan/plan.service.js';
+import { planRoutes } from './modules/plan/plan.routes.js';
 
 export function createApp(
   options: {
@@ -49,6 +52,7 @@ export function createApp(
     goalsRepository?: GoalsRepository;
     roadmapRepository?: RoadmapRepository;
     roadmapProvider?: LLMProvider | null;
+    planRepository?: PlanRepository;
   } = {},
 ) {
   const app = express();
@@ -87,6 +91,10 @@ export function createApp(
     new AuthTokens(options.authSecrets),
   );
   app.use('/api/v1/auth', authRoutes(authService));
+  app.use(
+    '/api/v1',
+    planRoutes(new PlanService(options.planRepository ?? new PrismaPlanRepository()), authService),
+  );
   const rolesService = new RolesService(options.rolesRepository ?? new PrismaRolesRepository());
   app.use(
     '/api/v1',

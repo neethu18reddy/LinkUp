@@ -1080,3 +1080,46 @@ h1 span {
     scroll-behavior: auto !important;
   }
 }
+.plan-fields {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.form-field select {
+  width: 100%;
+  min-height: 43px;
+  padding: 10px;
+  border: 1px solid #cfd9d2;
+  border-radius: 6px;
+  background: white;
+}
+.roadmap-phase,
+.plan-week {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #e0e6e1;
+}
+.roadmap-phase summary,
+.plan-week summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.roadmap-phase li,
+.plan-week li {
+  margin: 14px 0;
+  scroll-margin-top: 24px;
+}
+.plan-preview {
+  margin-top: 20px;
+  padding: 16px;
+  background: #f4f8f4;
+  border-radius: 6px;
+}
+.topic-status {
+  font-size: 12px;
+  color: #526657;
+}
+.account-header nav {
+  flex-wrap: wrap;
+}

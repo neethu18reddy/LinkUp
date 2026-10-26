@@ -9,7 +9,7 @@ Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the U
 | 3     | Skill catalogue and profiles                            | Implemented; local checks passed                      |
 | 4     | Goals, interest quiz, recommendations                   | Implemented; local checks passed                      |
 | 5     | Gap analysis and validated roadmap pipeline             | Implemented; Groq prepared, live calls disabled       |
-| 6     | Roadmap UI, scheduler, flexibility, replanning          | Planned                                               |
+| 6     | Roadmap UI, scheduler, flexibility, replanning          | Implemented; offline scheduling                       |
 | 7     | Progress, logs, projects, streaks, charts               | Planned                                               |
 | 8     | Mentor context and streaming                            | Planned; provider integration requires approval       |
 | 9     | Certificates, PDFs, public verification                 | Planned                                               |
@@ -217,4 +217,28 @@ docs/ROADMAP_GENERATION.md
 frontend/src/features/roadmap/roadmap.api.ts
 frontend/src/pages/RoadmapPage.test.tsx
 frontend/src/pages/RoadmapPage.tsx
+```
+
+## Phase 6: roadmap UI and weekly plans
+
+Implemented collapsible phases, topic status/difficulty/project markers, roadmap-topic links, exact deterministic scheduling, four flexibility modes, partial-week deadline calculations, buffer weeks, workload warnings, projected completion, preview/confirmation and versioned replanning. Completed allocations and their timestamps survive replans; old plans remain intact. Serializable confirmation checks a state-derived preview token and expected active-plan ID; a SQL partial unique index enforces one active plan per roadmap. The owner deferred API setup, and local live-call switches are disabled. No dependencies or external integrations were added.
+
+Verification: 112 local tests pass (49 frontend, 63 backend), with formatting, lint, strict TypeScript, Prisma validation and production builds passing. Nineteen PostgreSQL integration tests run in CI, including four new plan tests covering persistence/ownership, completion preservation across repeated replans, expired previews, concurrent confirmation and the active-plan index. Local browser QA passed disposable sign-in, initial preview/save, relaxed replanning, changed finish date, buffer weeks, expanded allocations and roadmap-topic navigation. Production defaults remain Prisma/PostgreSQL; local Docker is unavailable. See [Weekly planning](WEEKLY_PLANNING.md) for API contracts and algorithm details. Progress actions remain Phase 7.
+
+Phase 6 created files:
+
+```text
+backend/prisma/migrations/20261027000600_one_active_plan/migration.sql
+backend/src/modules/plan/plan.controller.ts
+backend/src/modules/plan/plan.repository.ts
+backend/src/modules/plan/plan.routes.ts
+backend/src/modules/plan/plan.scheduler.ts
+backend/src/modules/plan/plan.schemas.ts
+backend/src/modules/plan/plan.service.ts
+backend/tests/plan.database.test.ts
+backend/tests/plan.test.ts
+docs/WEEKLY_PLANNING.md
+frontend/src/features/plan/plan.api.ts
+frontend/src/pages/PlanPage.test.tsx
+frontend/src/pages/PlanPage.tsx
 ```
