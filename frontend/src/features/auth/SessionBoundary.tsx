@@ -5,15 +5,19 @@ import { clearLocalSession, refreshSession } from './auth.client';
 
 export function SessionBoundary({ children }: { children: ReactNode }) {
   const queryClient = useQueryClient();
-  const userId = useAuth((state) => state.user?.id);
+  useEffect(
+    () =>
+      useAuth.subscribe((state, previous) => {
+        // Clear before the new account's queries mount, so its first fetch is not cancelled.
+        if (state.user?.id !== previous.user?.id) queryClient.clear();
+      }),
+    [queryClient],
+  );
   useEffect(() => {
     void refreshSession().catch(() => {
       /* Protected routes expose retry. */
     });
   }, []);
-  useEffect(() => {
-    queryClient.clear();
-  }, [queryClient, userId]);
   useEffect(() => {
     if (typeof BroadcastChannel === 'undefined') return;
     const channel = new BroadcastChannel('linkup-session');

@@ -2,7 +2,7 @@
 
 linkup helps students, career switchers, and working professionals connect their current skills to a career goal through a personalised learning plan.
 
-**Status: Phase 2 authentication.** Accounts and protected routes are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
+**Status: Phase 3 skill profiles.** Accounts, protected routes, the skill catalogue, and personal skill profiles are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
 
 ## Problem and solution
 
@@ -10,7 +10,7 @@ Learners often know the role they want, but need help choosing what to learn, in
 
 ## Features
 
-Implemented in Phases 1–2:
+Implemented in Phases 1–3:
 
 - Minimal, responsive landing page with accessible navigation and API connection/retry states.
 - Separate React frontend and Express REST API in npm workspaces.
@@ -22,8 +22,11 @@ Implemented in Phases 1–2:
 - Bcrypt password hashing (cost 12), 15-minute access JWTs in memory, and seven-day rotating refresh JWTs in httpOnly cookies.
 - Hashed refresh-token persistence, replay detection, immediate session revocation on logout, role/ownership middleware, auth rate limits, and request-origin/CSRF protection.
 - Session restoration after reload, single-flight refresh/retry, account-cache clearing, and cross-tab logout notifications.
+- A searchable 32-skill catalogue with canonical names and aliases, installed by a tracked database migration.
+- A protected skill-profile page with Beginner/Intermediate/Advanced levels, add/update/remove actions, removal confirmation, and loading/empty/error/success states.
+- Ownership-scoped profile APIs: users can only read and change their own skills; duplicate additions return a conflict.
 
-Planned: skill profiles, goal selection and quiz, gap analysis, roadmaps, weekly plans, progress tracking, mentor chat, certificates, and notifications. **External API integrations require the owner's approval before implementation.** None are configured.
+Planned: goal selection and quiz, gap analysis, roadmaps, weekly plans, progress tracking, mentor chat, certificates, and notifications. **External API integrations require the owner's approval before implementation.** None are configured.
 
 ## Stack
 
@@ -97,7 +100,7 @@ Prerequisites: **Node.js 24** (or Node.js 22.12+), npm 10+, Git, and **Docker De
 
    Frontend: <http://127.0.0.1:5173>. API: <http://localhost:4000/api/v1/health>. Database readiness: <http://localhost:4000/api/v1/health/ready>.
 
-The landing/auth pages and API liveness endpoint also run without PostgreSQL; account operations need the migrated database and return HTTP 503 if unavailable. Visit `/register` to create an account, `/login` to sign in, and `/dashboard` for the protected account screen. Database readiness returns HTTP 503 until PostgreSQL is available.
+The landing/auth pages and API liveness endpoint also run without PostgreSQL; account and skill operations need the migrated database and return HTTP 503 if unavailable. Visit `/register` to create an account, `/login` to sign in, `/dashboard` for the account overview, and `/skills` to build your skill profile. Database readiness returns HTTP 503 until PostgreSQL is available. Applying `npm run db:deploy` also installs the starter skill catalogue; no separate seed command or external service is needed. Existing Phase 2 checkouts should apply the new migration before using `/skills`.
 
 To create future schema migrations, run `npm run db:migrate -- --name your_change`. Use `npm run db:deploy` to apply existing migrations without resetting data.
 
@@ -164,6 +167,18 @@ Current endpoints:
 | `POST /api/v1/auth/logout`   | Revoke the current session and clear its cookie |
 | `GET /api/v1/auth/me`        | Current user; requires a bearer access token    |
 
+Skill endpoints:
+
+| Method and route                    | Result                                                                                                    |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `GET /api/v1/skills?search=ReactJS` | Public catalogue; case-insensitive names/categories and normalized name/alias search; at most 100 results |
+| `GET /api/v1/me/skills`             | Signed-in user's skill profile                                                                            |
+| `POST /api/v1/me/skills`            | Add `{ skillId, level }`; duplicate returns HTTP 409                                                      |
+| `PATCH /api/v1/me/skills/:skillId`  | Change `{ level }` for a skill in the signed-in user's profile                                            |
+| `DELETE /api/v1/me/skills/:skillId` | Remove a skill from the signed-in user's profile, preserving the global catalogue                         |
+
+Profile routes require a bearer token. `level` is `BEGINNER`, `INTERMEDIATE`, or `ADVANCED`; IDs are UUIDs from the catalogue. The server derives the owner from the session; supplied `userId` fields are rejected. Missing profile skills return HTTP 404. Search is trimmed, limited to 100 characters, and supports aliases such as ReactJS, node js, and Postgres. The source catalogue is `backend/prisma/data/skills.json`; its migration is an immutable snapshot. Add future catalogue changes through new migrations rather than editing applied migration history.
+
 All JSON responses use `{ success, data, error }`. Errors contain a stable `code` and a safe `message`. Swagger/OpenAPI documentation is planned for Phase 12, alongside the completed endpoints.
 
 Auth POST requests require JSON and `X-Linkup-Request: 1`. Register accepts `{ name, email, password }`; login accepts `{ email, password }`; refresh/logout accept `{}` and use the cookie. Session responses contain `{ user, accessToken, expiresIn }`; refresh tokens are never returned in JSON. Passwords must be at least eight characters at registration and at most 72 UTF-8 bytes (bcrypt's limit). Emails are trimmed and lowercased. Tokens are checked for issuer, audience, algorithm, expiry, and active session ownership.
@@ -180,7 +195,7 @@ Screenshots and a 3–5 minute demo video will be added once the core flow is im
 
 See [docs/BUILD_PROGRESS.md](docs/BUILD_PROGRESS.md) for the phase checklist, file groups, and verification notes. Each completed phase receives a Conventional Commit and a push to GitHub. The owner confirms before the next phase, as required by the brief.
 
-The account flow works with PostgreSQL; learning features, charts, dark mode, and certificates are not implemented yet. The protected dashboard currently shows account details and an empty learning state. Email verification, password reset, and Google OAuth are not implemented; Google and email services require separate approval. Learning-resource ownership checks will be attached as those resource routes are added in subsequent phases.
+Accounts and skill profiles work with PostgreSQL; goal selection, learning plans, charts, dark mode, and certificates are not implemented yet. The dashboard links to the skill profile. The catalogue is curated; adding arbitrary custom skills and editing the catalogue are not exposed in the UI. Email verification, password reset, and Google OAuth are not implemented; Google and email services require separate approval. Learning-resource ownership checks will be attached as those resource routes are added in subsequent phases.
 
 ## AI usage and credits
 

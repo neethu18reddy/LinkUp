@@ -1,5 +1,200 @@
 @import 'tailwindcss';
 
+.account-header {
+  gap: 20px;
+}
+.account-header nav {
+  margin-left: auto;
+}
+.account-header nav a.active {
+  color: #163e30;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.skills-page {
+  max-width: 780px;
+  margin: auto;
+}
+.skills-card {
+  background: #fff;
+  border: 1px solid #dfe6e1;
+  border-radius: 10px;
+  padding: 26px;
+  margin: 26px 0;
+}
+.skills-card h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 550;
+  letter-spacing: -0.3px;
+}
+.skills-card select {
+  width: 100%;
+  min-height: 43px;
+  padding: 9px 11px;
+  border: 1px solid #cfd9d2;
+  border-radius: 6px;
+  background: #fff;
+  color: #1f302a;
+  font: inherit;
+  font-size: 13px;
+}
+.skills-card select:focus-visible {
+  outline: 2px solid #7fa28c;
+  outline-offset: 2px;
+}
+.skills-card select:disabled {
+  opacity: 0.65;
+}
+.skill-add-fields {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+.skill-add-fields .form-field {
+  margin-top: 0;
+}
+.skills-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.skills-section-heading > span {
+  color: #65746b;
+  font-size: 11px;
+}
+.skill-empty {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #65746b;
+  padding: 15px 0;
+}
+.profile-skills-list {
+  list-style: none;
+  margin: 17px 0 0;
+  padding: 0;
+}
+.profile-skill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 18px 0;
+  border-top: 1px solid #edf0ec;
+}
+.profile-skill-name {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+.profile-skill-name strong {
+  font-size: 14px;
+  font-weight: 550;
+  overflow-wrap: anywhere;
+}
+.profile-skill-name > span {
+  font-size: 10px;
+  color: #77867c;
+}
+.profile-skill-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.remove-skill {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background: none;
+  color: #8b5a52;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.remove-skill:hover {
+  background: #fff4f1;
+}
+.remove-skill:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.remove-confirmation {
+  flex-basis: 100%;
+  background: #f8faf8;
+  padding: 14px;
+  border-radius: 7px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.remove-confirmation p {
+  flex-basis: 100%;
+  margin: 0 0 3px;
+  font-size: 12px;
+}
+.remove-confirmation .button {
+  min-height: 35px;
+  font-size: 11px;
+}
+.skill-feedback {
+  color: #426c50;
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 10px 0 0;
+}
+.profile-skill-row .skill-feedback,
+.skill-row-error {
+  flex-basis: 100%;
+  margin: 0;
+}
+.inline-query-error {
+  font-size: 12px;
+  color: #9e342e;
+  padding: 15px 0;
+}
+.inline-query-error p {
+  line-height: 1.7;
+}
+.dashboard-empty .account-ready {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0;
+  font-size: 11px;
+  color: #4f795e;
+}
+@media (max-width: 640px) {
+  .account-header {
+    flex-wrap: wrap;
+    height: auto !important;
+    padding: 20px 0;
+  }
+  .account-header nav {
+    order: 3;
+    flex-basis: 100%;
+    margin: 3px 0 0;
+  }
+  .account-header > .button {
+    margin-left: auto;
+  }
+  .skills-card {
+    padding: 20px;
+  }
+  .skill-add-fields {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .profile-skill-actions {
+    width: 100%;
+  }
+  .profile-skill-actions select {
+    flex: 1;
+  }
+}
+
 .site-header nav {
   display: flex;
   gap: 24px;

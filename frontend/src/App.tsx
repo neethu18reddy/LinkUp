@@ -3,6 +3,7 @@ import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
 import { DashboardPage } from './pages/DashboardPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
+import { SkillsPage } from './pages/SkillsPage';
 
 export function App() {
   return (
@@ -12,6 +13,7 @@ export function App() {
       <Route path="/register" element={<AuthPage key="register" mode="register" />} />
       <Route element={<ProtectedRoute />}>
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/skills" element={<SkillsPage />} />
       </Route>
       <Route
         path="*"

@@ -1,46 +1,14 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, Check, LogOut, Sprout } from 'lucide-react';
+import { Check, Sprout } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { AccountLayout } from '@/components/layout/AccountLayout';
 import { useAuth } from '@/store/auth';
-import { signOut } from '@/features/auth/auth.client';
-import { requestError } from '@/lib/http';
 
 export function DashboardPage() {
   const user = useAuth((state) => state.user);
-  const [pending, setPending] = useState(false);
-  const [failure, setFailure] = useState('');
-  async function logout() {
-    setPending(true);
-    setFailure('');
-    try {
-      await signOut();
-    } catch (error) {
-      setFailure(requestError(error));
-    } finally {
-      setPending(false);
-    }
-  }
   return (
-    <div className="site-shell dashboard-shell">
-      <header className="site-header">
-        <Link to="/" className="brand">
-          <span className="brand-mark">
-            <ArrowUpRight size={20} />
-          </span>
-          linkup<span className="brand-period">.</span>
-        </Link>
-        <Button variant="outline" onClick={() => void logout()} disabled={pending}>
-          <LogOut size={15} aria-hidden="true" />
-          {pending ? 'Signing out…' : 'Sign out'}
-        </Button>
-      </header>
+    <AccountLayout>
       <main className="dashboard-main">
-        {failure && (
-          <p className="form-error" role="alert">
-            {failure}
-          </p>
-        )}
         <p className="eyebrow">YOUR LEARNING SPACE</p>
         <h1>Welcome, {user?.name}.</h1>
         <p className="auth-description">You’ve taken the first step. Let’s build from here.</p>
@@ -48,14 +16,17 @@ export function DashboardPage() {
           <span className="empty-icon">
             <Sprout size={28} strokeWidth={1.4} />
           </span>
-          <h2>A fresh start.</h2>
+          <h2>Start with what you know.</h2>
           <p>
-            Your learning path will live here. Skill profiles and goal selection are coming in the
-            next phases.
+            Add your skills and choose your current level. We’ll use this starting point when you
+            set a learning goal.
           </p>
-          <span className="account-ready">
+          <Button asChild>
+            <Link to="/skills">Build your skill profile</Link>
+          </Button>
+          <p className="account-ready">
             <Check size={14} aria-hidden="true" /> Your account is ready
-          </span>
+          </p>
         </section>
         <section className="account-summary" aria-labelledby="account-title">
           <h2 id="account-title">Your account</h2>
@@ -71,6 +42,6 @@ export function DashboardPage() {
           </dl>
         </section>
       </main>
-    </div>
+    </AccountLayout>
   );
 }

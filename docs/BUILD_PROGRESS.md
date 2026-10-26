@@ -6,7 +6,7 @@ Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the U
 | ----- | ------------------------------------------------------- | ----------------------------------------------------- |
 | 1     | Monorepo, tooling, Docker PostgreSQL, Prisma schema, CI | Implemented; local checks passed                      |
 | 2     | Auth and protected routes                               | Implemented; local checks passed                      |
-| 3     | Skill catalogue and profiles                            | Planned                                               |
+| 3     | Skill catalogue and profiles                            | Implemented; local checks passed                      |
 | 4     | Goals, interest quiz, recommendations                   | Planned                                               |
 | 5     | Gap analysis and validated roadmap pipeline             | Planned; provider integration requires approval       |
 | 6     | Roadmap UI, scheduler, flexibility, replanning          | Planned                                               |
@@ -124,4 +124,32 @@ frontend/src/pages/DashboardPage.tsx
 frontend/src/routes/ProtectedRoute.tsx
 frontend/src/store/auth.ts
 scripts/setup-env.mjs
+```
+
+## Phase 3: catalogue and skill profiles
+
+Implemented a 32-skill catalogue and data migration; canonical/alias/category search; authenticated profile CRUD using composite owner/skill keys; duplicate, validation and missing-resource errors; a minimal /skills screen with debounced search, proficiency selection, confirmation before removal, and all request states. Added shared account navigation and a dashboard link to the profile. Fixed cache clearing to happen before the new account mounts queries, with a regression test. No external APIs or dependencies were added.
+
+Verification: formatting, lint, strict TypeScript, schema validation and both builds pass. All 51 local tests pass (25 frontend, 26 backend). Six PostgreSQL tests run in CI, including three new tests for catalogue migration/search, profile persistence/ownership and concurrent duplicates. Browser QA used a disposable in-memory backend to verify login return, add, update, reload, removal confirmation and empty states; production defaults continue to use Prisma/PostgreSQL. Phase 2 CI passed all 39 tests including PostgreSQL.
+
+Phase 3 created files:
+
+```text
+backend/prisma/data/skills.json
+backend/prisma/migrations/20261027000300_skill_catalogue/migration.sql
+backend/src/modules/skills/skills.controller.ts
+backend/src/modules/skills/skills.repository.ts
+backend/src/modules/skills/skills.routes.ts
+backend/src/modules/skills/skills.schemas.ts
+backend/src/modules/skills/skills.service.ts
+backend/src/modules/skills/skills.types.ts
+backend/src/utils/asyncHandler.ts
+backend/tests/helpers/memory-skills-repository.ts
+backend/tests/skills.database.test.ts
+backend/tests/skills.test.ts
+frontend/src/components/layout/AccountLayout.tsx
+frontend/src/features/auth/SessionBoundary.test.tsx
+frontend/src/features/skills/skills.api.ts
+frontend/src/pages/SkillsPage.test.tsx
+frontend/src/pages/SkillsPage.tsx
 ```

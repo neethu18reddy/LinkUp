@@ -1,0 +1,226 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "name": "HTML",
+    "normalizedName": "html",
+    "category": "Frontend",
+    "aliases": ["html5"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "name": "CSS",
+    "normalizedName": "css",
+    "category": "Frontend",
+    "aliases": ["css3"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000003",
+    "name": "JavaScript",
+    "normalizedName": "javascript",
+    "category": "Languages",
+    "aliases": ["js", "ecmascript"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000004",
+    "name": "TypeScript",
+    "normalizedName": "typescript",
+    "category": "Languages",
+    "aliases": ["ts"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000005",
+    "name": "React",
+    "normalizedName": "react",
+    "category": "Frontend",
+    "aliases": ["reactjs"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000006",
+    "name": "Vue",
+    "normalizedName": "vue",
+    "category": "Frontend",
+    "aliases": ["vuejs"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000007",
+    "name": "Angular",
+    "normalizedName": "angular",
+    "category": "Frontend",
+    "aliases": ["ng"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000008",
+    "name": "Tailwind CSS",
+    "normalizedName": "tailwindcss",
+    "category": "Frontend",
+    "aliases": ["tailwind"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000009",
+    "name": "Node.js",
+    "normalizedName": "nodejs",
+    "category": "Backend",
+    "aliases": ["node"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000010",
+    "name": "Express",
+    "normalizedName": "express",
+    "category": "Backend",
+    "aliases": ["expressjs"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000011",
+    "name": "REST APIs",
+    "normalizedName": "restapis",
+    "category": "Backend",
+    "aliases": ["rest", "restapi", "restful"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000012",
+    "name": "PostgreSQL",
+    "normalizedName": "postgresql",
+    "category": "Data",
+    "aliases": ["postgres", "psql"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000013",
+    "name": "SQL",
+    "normalizedName": "sql",
+    "category": "Data",
+    "aliases": ["structuredquerylanguage"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000014",
+    "name": "MongoDB",
+    "normalizedName": "mongodb",
+    "category": "Data",
+    "aliases": ["mongo"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000015",
+    "name": "Python",
+    "normalizedName": "python",
+    "category": "Languages",
+    "aliases": ["py", "python3"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000016",
+    "name": "Java",
+    "normalizedName": "java",
+    "category": "Languages",
+    "aliases": []
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000017",
+    "name": "C++",
+    "normalizedName": "cplusplus",
+    "category": "Languages",
+    "aliases": ["cpp"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000018",
+    "name": "Git",
+    "normalizedName": "git",
+    "category": "Foundations",
+    "aliases": ["versioncontrol"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000019",
+    "name": "Data Structures & Algorithms",
+    "normalizedName": "datastructuresalgorithms",
+    "category": "Foundations",
+    "aliases": ["dsa", "algorithms"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000020",
+    "name": "Testing",
+    "normalizedName": "testing",
+    "category": "Foundations",
+    "aliases": ["unittesting", "softwaretesting"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000021",
+    "name": "Accessibility",
+    "normalizedName": "accessibility",
+    "category": "Frontend",
+    "aliases": ["a11y", "wcag"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000022",
+    "name": "Docker",
+    "normalizedName": "docker",
+    "category": "DevOps",
+    "aliases": ["containers", "containerization"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000023",
+    "name": "Linux",
+    "normalizedName": "linux",
+    "category": "DevOps",
+    "aliases": ["bash", "shell"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000024",
+    "name": "CI/CD",
+    "normalizedName": "cicd",
+    "category": "DevOps",
+    "aliases": ["continuousintegration", "continuousdelivery"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000025",
+    "name": "Figma",
+    "normalizedName": "figma",
+    "category": "Design",
+    "aliases": []
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000026",
+    "name": "UI Design",
+    "normalizedName": "uidesign",
+    "category": "Design",
+    "aliases": ["ui", "userinterface"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000027",
+    "name": "UX Research",
+    "normalizedName": "uxresearch",
+    "category": "Design",
+    "aliases": ["ux", "userresearch"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000028",
+    "name": "Statistics",
+    "normalizedName": "statistics",
+    "category": "Data",
+    "aliases": ["stats"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000029",
+    "name": "Pandas",
+    "normalizedName": "pandas",
+    "category": "Data",
+    "aliases": []
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000030",
+    "name": "Data Visualization",
+    "normalizedName": "datavisualization",
+    "category": "Data",
+    "aliases": ["dataviz", "datavisualisation"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000031",
+    "name": "Spreadsheets",
+    "normalizedName": "spreadsheets",
+    "category": "Data",
+    "aliases": ["excel", "googlesheets"]
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000032",
+    "name": "Problem Solving",
+    "normalizedName": "problemsolving",
+    "category": "Foundations",
+    "aliases": ["criticalthinking"]
+  }
+]

@@ -15,9 +15,17 @@ import { PrismaAuthRepository } from './modules/auth/auth.repository.js';
 import { AuthService } from './modules/auth/auth.service.js';
 import { AuthTokens, type AuthSecrets } from './modules/auth/auth.tokens.js';
 import type { AuthRepository } from './modules/auth/auth.types.js';
+import { skillsRoutes } from './modules/skills/skills.routes.js';
+import { SkillsService } from './modules/skills/skills.service.js';
+import { PrismaSkillsRepository } from './modules/skills/skills.repository.js';
+import type { SkillsRepository } from './modules/skills/skills.types.js';
 
 export function createApp(
-  options: { authRepository?: AuthRepository; authSecrets?: AuthSecrets } = {},
+  options: {
+    authRepository?: AuthRepository;
+    authSecrets?: AuthSecrets;
+    skillsRepository?: SkillsRepository;
+  } = {},
 ) {
   const app = express();
   app.disable('x-powered-by');
@@ -55,6 +63,13 @@ export function createApp(
     new AuthTokens(options.authSecrets),
   );
   app.use('/api/v1/auth', authRoutes(authService));
+  app.use(
+    '/api/v1',
+    skillsRoutes(
+      new SkillsService(options.skillsRepository ?? new PrismaSkillsRepository()),
+      authService,
+    ),
+  );
 
   app.get('/api/v1/health', (_req, res) => {
     res.json(success({ name: 'linkup', status: 'ok', timestamp: new Date().toISOString() }));
