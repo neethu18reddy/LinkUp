@@ -1,6 +1,7 @@
 import { getDatabase } from '../../config/database.js';
 import { Prisma } from '../../generated/prisma/client.js';
 import { AppError } from '../../utils/AppError.js';
+import { isTransactionConflict } from '../../utils/transactionConflict.js';
 import type { LogInput, ProjectInput, TaskInput } from './progress.schemas.js';
 import type { ProgressRepository, ProgressSnapshot } from './progress.types.js';
 
@@ -17,12 +18,17 @@ async function transaction<T>(action: (tx: Prisma.TransactionClient) => Promise<
         timeout: 15000,
       });
     } catch (error) {
-      if (
-        error instanceof Prisma.PrismaClientKnownRequestError &&
-        ['P2034', 'P2002'].includes(error.code) &&
-        attempt < 3
-      )
-        continue;
+      if (isTransactionConflict(error)) {
+        if (attempt < 3) {
+          await new Promise((resolve) => setTimeout(resolve, 10 * (attempt + 1)));
+          continue;
+        }
+        throw new AppError(
+          503,
+          'PROGRESS_BUSY',
+          'Your progress is being updated. Please retry shortly.',
+        );
+      }
       throw error;
     }
 }

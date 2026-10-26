@@ -247,7 +247,7 @@ frontend/src/pages/PlanPage.tsx
 
 Implemented owned active-plan task status controls, project-evidence completion gates, weighted overall/per-skill progress, roadmap completion/reopening, UTC streaks, learning logs with stable retry request IDs, cursor pagination, daily time limits, project upserts and an account dashboard. The minimal dashboard includes a progress ring, weekly checkboxes/status selectors, logged/planned time, overdue warnings, milestones, a Recharts time chart and skill radar with text equivalents. Dashboard/charts are loaded separately. Completed allocations remain counted only in the active version after replanning. No external APIs were added or called; live provider setup remains deferred.
 
-Verification: 135 local tests pass (61 frontend, 74 backend), plus formatting, lint, strict types, Prisma validation and production builds. Twenty-four PostgreSQL integration tests run in CI, including five new tests covering progress persistence/ownership, replanning, evidence-gated completion/reopening, concurrent log deduplication and daily limits, cursor privacy, dates and project updates. Browser QA with a disposable API verified sign-in, checkbox-driven progress, log save/history, project evidence, updated streak/submission counts and both chart renders. Runtime defaults remain Prisma/PostgreSQL; local Docker is unavailable. Recharts installation was temporarily blocked by approval-review usage limits, then succeeded after the reported reset; npm audit reports zero vulnerabilities. See [Learning progress](LEARNING_PROGRESS.md) for contracts and semantics.
+Verification: 136 local tests pass (61 frontend, 75 backend), plus formatting, lint, strict types, Prisma validation and production builds. Twenty-four PostgreSQL integration tests run in CI, including five new tests covering progress persistence/ownership, replanning, evidence-gated completion/reopening, concurrent log deduplication and daily limits, cursor privacy, dates and project updates. The first CI run exposed an unhandled concurrent-log conflict; retries now also recognize PostgreSQL adapter COMMIT conflicts, with a unit regression and the unchanged concurrent database assertion. Browser QA with a disposable API verified sign-in, checkbox-driven progress, log save/history, project evidence, updated streak/submission counts and both chart renders. Runtime defaults remain Prisma/PostgreSQL; local Docker is unavailable. Recharts installation was temporarily blocked by approval-review usage limits, then succeeded after the reported reset; npm audit reports zero vulnerabilities. See [Learning progress](LEARNING_PROGRESS.md) for contracts and semantics.
 
 Phase 7 created files:
 
@@ -260,6 +260,7 @@ backend/src/modules/progress/progress.routes.ts
 backend/src/modules/progress/progress.schemas.ts
 backend/src/modules/progress/progress.service.ts
 backend/src/modules/progress/progress.types.ts
+backend/src/utils/transactionConflict.ts
 backend/tests/progress.database.test.ts
 backend/tests/progress.test.ts
 docs/LEARNING_PROGRESS.md

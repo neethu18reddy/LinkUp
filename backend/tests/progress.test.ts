@@ -7,6 +7,7 @@ import type {
   ProgressRepository,
   ProgressSnapshot,
 } from '../src/modules/progress/progress.types.js';
+import { isTransactionConflict } from '../src/utils/transactionConflict.js';
 
 const topic = randomUUID(),
   skill = randomUUID();
@@ -136,6 +137,23 @@ describe('progress calculations', () => {
   });
 });
 describe('progress validation and dates', () => {
+  it('recognizes PostgreSQL adapter commit conflicts without retrying unrelated errors', () => {
+    const error = Object.assign(new Error('Commit conflict'), {
+      name: 'DriverAdapterError',
+      cause: { kind: 'TransactionWriteConflict' },
+    });
+    expect(isTransactionConflict(error)).toBe(true);
+    expect(
+      isTransactionConflict(
+        Object.assign(new Error('Network'), {
+          name: 'DriverAdapterError',
+          cause: { kind: 'ConnectionClosed' },
+        }),
+      ),
+    ).toBe(false);
+    expect(isTransactionConflict(new Error('Other failure'))).toBe(false);
+    expect(isTransactionConflict(null)).toBe(false);
+  });
   it('rejects spoofed identities, unsafe links, invalid minutes and missing evidence', () => {
     const log = {
       requestId: randomUUID(),
