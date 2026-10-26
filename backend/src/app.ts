@@ -31,6 +31,13 @@ import { goalsRoutes } from './modules/goals/goals.routes.js';
 import { GoalsService } from './modules/goals/goals.service.js';
 import { PrismaGoalsRepository } from './modules/goals/goals.repository.js';
 import type { GoalsRepository } from './modules/goals/goals.types.js';
+import {
+  PrismaRoadmapRepository,
+  type RoadmapRepository,
+} from './modules/roadmap/roadmap.repository.js';
+import { RoadmapService } from './modules/roadmap/roadmap.service.js';
+import { roadmapRoutes } from './modules/roadmap/roadmap.routes.js';
+import { configuredProvider, type LLMProvider } from './ai/roadmap.provider.js';
 
 export function createApp(
   options: {
@@ -40,6 +47,8 @@ export function createApp(
     rolesRepository?: RolesRepository;
     quizRepository?: QuizRepository;
     goalsRepository?: GoalsRepository;
+    roadmapRepository?: RoadmapRepository;
+    roadmapProvider?: LLMProvider | null;
   } = {},
 ) {
   const app = express();
@@ -79,6 +88,21 @@ export function createApp(
   );
   app.use('/api/v1/auth', authRoutes(authService));
   const rolesService = new RolesService(options.rolesRepository ?? new PrismaRolesRepository());
+  app.use(
+    '/api/v1',
+    roadmapRoutes(
+      new RoadmapService(
+        options.roadmapRepository ?? new PrismaRoadmapRepository(),
+        options.goalsRepository ?? new PrismaGoalsRepository(),
+        options.rolesRepository ?? new PrismaRolesRepository(),
+        options.skillsRepository ?? new PrismaSkillsRepository(),
+        options.roadmapProvider === null
+          ? undefined
+          : (options.roadmapProvider ?? configuredProvider()),
+      ),
+      authService,
+    ),
+  );
   const quizService = new QuizService(
     options.quizRepository ?? new PrismaQuizRepository(),
     rolesService,

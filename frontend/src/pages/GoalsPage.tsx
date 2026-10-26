@@ -31,6 +31,7 @@ export function GoalsPage() {
   const save = useMutation({
     mutationFn: saveGoal,
     onSuccess: (goal) => {
+      void client.invalidateQueries({ queryKey: ['current-roadmap'] });
       client.setQueryData(goalKeys.current, goal);
       setReview(null);
       setSelection('');

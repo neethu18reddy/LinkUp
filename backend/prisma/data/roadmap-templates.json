@@ -1,0 +1,26 @@
+{
+  "frontend-developer": {
+    "project": "Build an accessible interactive web application",
+    "steps": [
+      "Create semantic HTML and responsive CSS layouts",
+      "Build React components with state and form validation",
+      "Test keyboard access and document the application"
+    ]
+  },
+  "backend-developer": {
+    "project": "Build and test a database-backed REST API",
+    "steps": [
+      "Design PostgreSQL tables and CRUD endpoints",
+      "Add validation, authentication, and error handling",
+      "Write integration tests and document API requests"
+    ]
+  },
+  "data-analyst": {
+    "project": "Analyse a public dataset and present findings",
+    "steps": [
+      "Clean a public CSV dataset with Python and pandas",
+      "Answer questions with SQL and descriptive statistics",
+      "Visualise results and document assumptions and limitations"
+    ]
+  }
+}

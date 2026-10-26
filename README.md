@@ -2,7 +2,7 @@
 
 linkup helps students, career switchers, and working professionals connect their current skills to a career goal through a personalised learning plan.
 
-**Status: Phase 4 goals and interest quiz.** Accounts, skill profiles, goal selection, and a skippable interest quiz are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
+**Status: Phase 5 gap analysis and roadmap generation.** Accounts, skills, goals, quiz, and persisted roadmap versions are implemented. Learning features follow the order defined in [LinkUp.md](LinkUp.md). The brief uses the working name SkillPath; the application's name is **linkup**.
 
 ## Problem and solution
 
@@ -10,7 +10,7 @@ Learners often know the role they want, but need help choosing what to learn, in
 
 ## Features
 
-Implemented in Phases 1–4:
+Implemented in Phases 1–5:
 
 - Minimal, responsive landing page with accessible navigation and API connection/retry states.
 - Separate React frontend and Express REST API in npm workspaces.
@@ -29,7 +29,12 @@ Implemented in Phases 1–4:
 - A skippable seven-question interest quiz with three reasoned recommendations, private saved results, retakes, and explicit goal confirmation.
 - Goal history, one current goal per account, idempotent confirmations, and stale/concurrent-change protection.
 
-Planned: gap analysis, roadmaps, weekly plans, progress tracking, mentor chat, certificates, and notifications. **External API integrations require the owner's approval before implementation.** None are configured. Quiz suggestions currently use deterministic local scoring; the brief's AI-enhanced recommendation step is deferred until a provider integration is approved. The UI identifies the local scoring method.
+- Weighted proficiency gap analysis and strengths, ordered learning topics, official resource links, and practical projects.
+- Private, transactional roadmap persistence, immutable version history, and a concurrency-safe daily generation quota.
+- Minimal roadmap review/generation screen with loading, confirmation, fallback notices, and retry states.
+- Groq adapter prepared through the official OpenAI-compatible SDK, JSON/schema validation, bounded retries, backoff on 429, and offline fallback templates. Live calls remain disabled pending explicit approval.
+
+Planned: weekly plans, richer roadmap navigation, progress tracking, mentor chat, certificates, and notifications. Quiz suggestions use deterministic local scoring; AI-enhanced recommendations remain deferred. External services beyond the prepared Groq adapter require approval.
 
 ## Stack
 
@@ -50,7 +55,7 @@ flowchart LR
   Browser[React frontend] -->|REST /api/v1| API[Express backend]
   API --> Prisma[Prisma / pg adapter]
   Prisma --> DB[(PostgreSQL)]
-  API -. Later phases .-> Roadmap[Gap analysis / roadmap pipeline]
+  API --> Roadmap[Gap analysis / roadmap pipeline]
   API -. Later phases .-> Scheduler[Deterministic weekly scheduler]
   API -. Later phases .-> PDF[Certificate PDF service]
   Roadmap -. Approval required .-> LLM[External or local LLM provider]
@@ -215,7 +220,9 @@ Screenshots and a 3–5 minute demo video will be added once the core flow is im
 
 See [docs/BUILD_PROGRESS.md](docs/BUILD_PROGRESS.md) for the phase checklist, file groups, and verification notes. Each completed phase receives a Conventional Commit and a push to GitHub. The owner confirms before the next phase, as required by the brief.
 
-Accounts, skill profiles, quiz results and goals work with PostgreSQL; roadmaps, weekly plans, charts, dark mode, and certificates are not implemented yet. The dashboard shows the current goal and links to profile/goal selection. Custom learning goals are supported; adding arbitrary skills to the global skill catalogue and editing starter roles are not exposed in the UI. Quiz scoring uses curated rules; AI provider calls are disabled pending approval. Email verification, password reset, and Google OAuth are not implemented; Google and email services require separate approval. Further resource ownership checks will be attached as those routes are added.
+Accounts, skills, quiz results, goals and roadmap versions persist in PostgreSQL. Weekly plans, charts, dark mode, and certificates follow in later phases. The dashboard links to goal selection and roadmaps. Roadmap generation supports starter roles and single catalogue-skill goals; unsupported custom text receives a clear error. Global catalogue/role editing is not exposed. Quiz scoring uses curated rules; live AI calls remain disabled pending approval. Email verification, password reset, and Google OAuth are not implemented; Google and email services require separate approval.
+
+Roadmap API contracts, quota semantics, privacy, fallback behaviour, and the prepared Groq activation procedure are documented in [Roadmap generation](docs/ROADMAP_GENERATION.md).
 
 ## AI usage and credits
 

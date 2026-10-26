@@ -14,6 +14,13 @@ const envSchema = z
     LOG_LEVEL: z
       .enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'])
       .default('info'),
+    LLM_PROVIDER: z.enum(['disabled', 'groq']).default('disabled'),
+    LLM_LIVE_CALLS_APPROVED: z
+      .enum(['true', 'false'])
+      .default('false')
+      .transform((value) => value === 'true'),
+    LLM_MODEL: z.string().default(''),
+    GROQ_API_KEY: z.string().optional(),
     JWT_ACCESS_SECRET: z.preprocess((value) => value || undefined, z.string().min(32).optional()),
     JWT_REFRESH_SECRET: z.preprocess((value) => value || undefined, z.string().min(32).optional()),
   })

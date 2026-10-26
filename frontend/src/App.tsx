@@ -8,6 +8,9 @@ import { SkillsPage } from './pages/SkillsPage';
 const GoalsPage = lazy(() =>
   import('./pages/GoalsPage').then((module) => ({ default: module.GoalsPage })),
 );
+const RoadmapPage = lazy(() =>
+  import('./pages/RoadmapPage').then((module) => ({ default: module.RoadmapPage })),
+);
 
 export function App() {
   return (
@@ -18,6 +21,14 @@ export function App() {
       <Route element={<ProtectedRoute />}>
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/skills" element={<SkillsPage />} />
+        <Route
+          path="/roadmap"
+          element={
+            <Suspense fallback={<main role="status">Loading your roadmap…</main>}>
+              <RoadmapPage />
+            </Suspense>
+          }
+        />
         <Route
           path="/goals"
           element={

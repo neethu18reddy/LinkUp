@@ -21,7 +21,12 @@ export function CurrentGoalCard() {
       ) : goal.data ? (
         <>
           <h3>{goal.data.targetRole}</h3>
-          <p className="field-hint">Your goal is saved. The roadmap comes in the next phase.</p>
+          <p className="field-hint">
+            Your goal is saved. Review your skill gaps and build a roadmap.
+          </p>
+          <Link className="text-link" to="/roadmap">
+            Open your roadmap
+          </Link>
         </>
       ) : (
         <p className="skill-empty">

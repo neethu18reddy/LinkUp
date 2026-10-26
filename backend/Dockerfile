@@ -14,6 +14,7 @@ COPY package.json package-lock.json ./
 COPY backend/package.json ./backend/package.json
 RUN npm ci --omit=dev --workspace backend --include-workspace-root --ignore-scripts && npm cache clean --force
 COPY --from=build /app/backend/dist ./backend/dist
+COPY --from=build /app/backend/prisma/data ./backend/prisma/data
 USER node
 WORKDIR /app/backend
 EXPOSE 4000

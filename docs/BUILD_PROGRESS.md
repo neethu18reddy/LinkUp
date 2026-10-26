@@ -8,7 +8,7 @@ Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the U
 | 2     | Auth and protected routes                               | Implemented; local checks passed                      |
 | 3     | Skill catalogue and profiles                            | Implemented; local checks passed                      |
 | 4     | Goals, interest quiz, recommendations                   | Implemented; local checks passed                      |
-| 5     | Gap analysis and validated roadmap pipeline             | Planned; provider integration requires approval       |
+| 5     | Gap analysis and validated roadmap pipeline             | Implemented; Groq prepared, live calls disabled       |
 | 6     | Roadmap UI, scheduler, flexibility, replanning          | Planned                                               |
 | 7     | Progress, logs, projects, streaks, charts               | Planned                                               |
 | 8     | Mentor context and streaming                            | Planned; provider integration requires approval       |
@@ -191,4 +191,30 @@ frontend/src/features/goals/InterestQuiz.tsx
 frontend/src/features/goals/goals.api.ts
 frontend/src/pages/GoalsPage.test.tsx
 frontend/src/pages/GoalsPage.tsx
+```
+
+## Phase 5: gap analysis and roadmap generation
+
+Implemented deterministic weighted gaps/strengths, canonical role/skill context, cached free role blueprints, prerequisite-ordered offline templates, projects, curated official resources, strict schema validation, provider retries and rate-limit backoff, transactional nested persistence, owned reads, immutable versions, and three persisted attempts per UTC day. A minimal roadmap screen supports review/confirmation, generation, saved results, error/retry, and fallback notices. The owner approved preparing Groq; the official OpenAI-compatible SDK adapter is ready but live calls remain disabled behind two environment switches. Gemini/Ollama remain deferred pending separate approval. No secrets or real provider responses were used. The current Prisma schema already supports this phase, so no migration was necessary.
+
+Verification: local formatting, lint, strict types, schema validation, production builds, and automated unit/UI tests pass. PostgreSQL integration tests are included in GitHub CI for nested persistence, ownership, version history, concurrent quotas, invalid/stale input and transaction rollback. Local Docker/PostgreSQL remains unavailable. Browser attachment timed out, so visual QA is unverified. See [Roadmap generation](ROADMAP_GENERATION.md) for API contracts, privacy, quota semantics, provider limitations and activation procedure. Weekly scheduling remains Phase 6.
+
+Phase 5 created files:
+
+```text
+backend/prisma/data/roadmap-templates.json
+backend/src/ai/roadmap.provider.ts
+backend/src/modules/roadmap/roadmap.controller.ts
+backend/src/modules/roadmap/roadmap.gaps.ts
+backend/src/modules/roadmap/roadmap.repository.ts
+backend/src/modules/roadmap/roadmap.routes.ts
+backend/src/modules/roadmap/roadmap.schemas.ts
+backend/src/modules/roadmap/roadmap.service.ts
+backend/src/modules/roadmap/roadmap.templates.ts
+backend/tests/roadmap.database.test.ts
+backend/tests/roadmap.test.ts
+docs/ROADMAP_GENERATION.md
+frontend/src/features/roadmap/roadmap.api.ts
+frontend/src/pages/RoadmapPage.test.tsx
+frontend/src/pages/RoadmapPage.tsx
 ```
