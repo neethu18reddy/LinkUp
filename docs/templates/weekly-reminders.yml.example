@@ -1,0 +1,50 @@
+# Copy into .github/workflows only after deployment and owner approval.
+name: Weekly learning reminders
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: weekly-learning-reminders
+  cancel-in-progress: false
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Run paginated reminder job
+        env:
+          REMINDER_JOB_URL: ${{ secrets.REMINDER_JOB_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const url = new URL(process.env.REMINDER_JOB_URL);
+          if (url.protocol !== 'https:' || url.username || url.password || url.search || url.hash) throw new Error('Configure a credential-free HTTPS job URL.');
+          if (!process.env.CRON_SECRET || process.env.CRON_SECRET.length < 32) throw new Error('Configure the job secret.');
+          const pause = () => new Promise(resolve => setTimeout(resolve, 8000));
+          let cursor;
+          for (let page = 0; page < 100; page++) {
+            let response;
+            for (let attempt = 0; attempt < 3; attempt++) {
+              try {
+                response = await fetch(url, { method: 'POST', redirect: 'error', signal: AbortSignal.timeout(60000), headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${process.env.CRON_SECRET}` }, body: JSON.stringify(cursor ? { cursor } : {}) });
+                if (response.ok || ![409, 429, 500, 502, 503, 504].includes(response.status)) break;
+              } catch { response = undefined; }
+              if (attempt < 2) await pause();
+            }
+            if (!response?.ok) throw new Error(`Reminder batch failed (${response?.status ?? 'network'}). Retry safely after checking the server.`);
+            const result = await response.json();
+            const data = result.data;
+            if (!result.success || !data || !Number.isInteger(data.processed) || !Number.isInteger(data.created) || !(data.nextCursor === null || /^[a-f0-9-]{36}$/i.test(data.nextCursor))) throw new Error('Invalid job response.');
+            console.log(`Batch ${page + 1}: processed ${data.processed}, created ${data.created}.`);
+            cursor = data.nextCursor;
+            if (!cursor) process.exit(0);
+            await pause();
+          }
+          throw new Error('Batch limit reached. Configure a larger deployment runner before enabling this workflow.');
+          NODE

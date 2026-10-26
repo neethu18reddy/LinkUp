@@ -15,7 +15,13 @@ export class MemoryAuthRepository implements AuthRepository {
   ) {
     if (await this.findUserByEmail(input.email))
       throw new AppError(409, 'EMAIL_IN_USE', 'An account with this email already exists.');
-    const user: User = { ...input, role: 'USER', createdAt: new Date(), updatedAt: new Date() };
+    const user: User = {
+      ...input,
+      role: 'USER',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      remindersEnabled: true,
+    };
     this.users.set(user.id, user);
     await this.createSession(session);
     return user;

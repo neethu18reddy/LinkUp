@@ -50,6 +50,10 @@ import type { ChatRepository } from './modules/chat/chat.types.js';
 import { ChatService } from './modules/chat/chat.service.js';
 import { chatRoutes } from './modules/chat/chat.routes.js';
 import type { MentorProvider } from './ai/mentor.provider.js';
+import { WeeklyJob } from './jobs/weekly.js';
+import { PrismaNotificationRepository } from './modules/notifications/notifications.repository.js';
+import type { NotificationRepository } from './modules/notifications/notifications.types.js';
+import { notificationRoutes } from './modules/notifications/notifications.routes.js';
 import { certificateRoutes } from './modules/certificates/certificates.routes.js';
 import {
   PrismaCertificateRepository,
@@ -70,6 +74,9 @@ export function createApp(
     progressRepository?: ProgressRepository;
     chatRepository?: ChatRepository;
     mentorProvider?: MentorProvider;
+    notificationRepository?: NotificationRepository;
+    weeklyJob?: WeeklyJob;
+    cronSecret?: string;
     certificateRepository?: CertificateRepository;
   } = {},
 ) {
@@ -109,6 +116,16 @@ export function createApp(
     new AuthTokens(options.authSecrets),
   );
   app.use('/api/v1/auth', authRoutes(authService));
+  const notifications = options.notificationRepository ?? new PrismaNotificationRepository();
+  app.use(
+    '/api/v1',
+    notificationRoutes(
+      notifications,
+      options.weeklyJob ?? new WeeklyJob(notifications),
+      authService,
+      options.cronSecret ?? env.CRON_SECRET,
+    ),
+  );
   app.use(
     '/api/v1',
     certificateRoutes(

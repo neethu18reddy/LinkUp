@@ -2,10 +2,18 @@ import { createApp } from './app.js';
 import { disconnectDatabase } from './config/database.js';
 import { env } from './config/env.js';
 import { logger } from './config/logger.js';
+import { WeeklyJob, scheduleWeeklyJob } from './jobs/weekly.js';
+import { PrismaNotificationRepository } from './modules/notifications/notifications.repository.js';
 
-const server = createApp().listen(env.PORT, () => {
-  logger.info({ port: env.PORT }, 'linkup API started');
-});
+const notifications = new PrismaNotificationRepository();
+const weeklyJob = new WeeklyJob(notifications);
+const task = env.LOCAL_JOBS_ENABLED ? scheduleWeeklyJob(weeklyJob) : undefined;
+const server = createApp({ notificationRepository: notifications, weeklyJob }).listen(
+  env.PORT,
+  () => {
+    logger.info({ port: env.PORT }, 'linkup API started');
+  },
+);
 
 server.on('error', (error) => {
   logger.fatal({ err: error }, 'Unable to start linkup API');
@@ -16,6 +24,7 @@ let shuttingDown = false;
 function shutdown(signal: string) {
   if (shuttingDown) return;
   shuttingDown = true;
+  void task?.stop();
   logger.info({ signal }, 'Shutting down linkup API');
   const timeout = setTimeout(() => process.exit(1), 10_000);
   timeout.unref();

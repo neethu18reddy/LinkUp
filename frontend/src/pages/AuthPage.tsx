@@ -26,7 +26,9 @@ export function AuthPage({ mode }: { mode: 'login' | 'register' }) {
   const from: unknown = location.state?.from;
   const returnTo =
     typeof from === 'string' &&
-    /^\/(?:dashboard|skills|goals|roadmap|plan|progress|mentor|certificates)(?:[/?#]|$)/.test(from)
+    /^\/(?:dashboard|skills|goals|roadmap|plan|progress|mentor|certificates|notifications)(?:[/?#]|$)/.test(
+      from,
+    )
       ? from
       : '/dashboard';
   if (status === 'authenticated') return <Navigate to={returnTo} replace />;

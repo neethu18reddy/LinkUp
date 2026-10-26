@@ -94,6 +94,7 @@ model User {
   certificates       Certificate[]
   notifications      Notification[]
   dailyUsage         DailyUsage[]
+  remindersEnabled   Boolean             @default(true)
 }
 
 model RefreshToken {

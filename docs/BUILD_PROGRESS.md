@@ -323,3 +323,27 @@ frontend/src/pages/CertificatesPage.test.tsx
 frontend/src/pages/VerifyPage.tsx
 docs/CERTIFICATES.md
 ```
+
+## Phase 10: in-app reminders and notifications
+
+Implemented weekly check-ins and behind-schedule notices based on the latest active learning plan, UTC week deduplication, an owned paginated inbox, unread counts, idempotent read actions and reminder preferences. A bounded database job handles concurrent workers safely. Local node-cron scheduling is opt-in and stops during shutdown; a separate bearer-secret endpoint supports paginated remote runs. The GitHub scheduler template is prepared outside active workflows. Email and external scheduling remain deferred, with no live integration enabled or called.
+
+Validation: 182 local tests (80 frontend, 102 backend), formatting, lint, strict types, Prisma validation and production builds pass. Thirty-four PostgreSQL tests run in CI, including four new tests for bounded batch continuation, concurrent weekly deduplication, opt-out/plan eligibility, private cursor paging and read retries. Browser QA with a disposable API checked sign-in, both reminder types, unread updates and read-state restoration after reload. Production uses Prisma/PostgreSQL; no local database is available. See [Notifications](NOTIFICATIONS.md) for configuration, contracts and deferred integration setup.
+
+Phase 10 created files:
+
+```text
+backend/prisma/migrations/20261027001000_reminder_preferences/migration.sql
+backend/src/jobs/weekly.ts
+backend/src/modules/notifications/notifications.types.ts
+backend/src/modules/notifications/notifications.logic.ts
+backend/src/modules/notifications/notifications.repository.ts
+backend/src/modules/notifications/notifications.routes.ts
+backend/tests/notifications.test.ts
+backend/tests/notifications.database.test.ts
+frontend/src/features/notifications/notifications.api.ts
+frontend/src/pages/NotificationsPage.tsx
+frontend/src/pages/NotificationsPage.test.tsx
+docs/NOTIFICATIONS.md
+docs/templates/weekly-reminders.yml.example
+```

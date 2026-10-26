@@ -37,6 +37,7 @@ export function AccountLayout({ children }: { children: ReactNode }) {
           <NavLink to="/progress">Learning logs</NavLink>
           <NavLink to="/mentor">Mentor</NavLink>
           <NavLink to="/certificates">Certificates</NavLink>
+          <NavLink to="/notifications">Notifications</NavLink>
         </nav>
         <Button variant="outline" onClick={() => void logout()} disabled={pending}>
           <LogOut size={15} aria-hidden="true" />

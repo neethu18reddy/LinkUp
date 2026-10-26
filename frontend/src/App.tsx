@@ -4,6 +4,9 @@ import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
 import { SkillsPage } from './pages/SkillsPage';
+const NotificationsPage = lazy(() =>
+  import('./pages/NotificationsPage').then((module) => ({ default: module.NotificationsPage })),
+);
 const CertificatesPage = lazy(() =>
   import('./pages/CertificatesPage').then((module) => ({ default: module.CertificatesPage })),
 );
@@ -44,6 +47,14 @@ export function App() {
         }
       />
       <Route element={<ProtectedRoute />}>
+        <Route
+          path="/notifications"
+          element={
+            <Suspense fallback={<main role="status">Loading notifications…</main>}>
+              <NotificationsPage />
+            </Suspense>
+          }
+        />
         <Route
           path="/certificates"
           element={

@@ -6,6 +6,11 @@ const envSchema = z
     NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
     PORT: z.coerce.number().int().min(1).max(65535).default(4000),
     DATABASE_URL: z.url().optional(),
+    CRON_SECRET: z.preprocess((value) => value || undefined, z.string().min(32).optional()),
+    LOCAL_JOBS_ENABLED: z
+      .enum(['true', 'false'])
+      .default('false')
+      .transform((value) => value === 'true'),
     PUBLIC_WEB_URL: z
       .string()
       .url()
