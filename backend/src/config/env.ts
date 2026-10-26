@@ -1,0 +1,29 @@
+import 'dotenv/config';
+import { z } from 'zod';
+
+const envSchema = z.object({
+  NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
+  PORT: z.coerce.number().int().min(1).max(65535).default(4000),
+  DATABASE_URL: z.url().optional(),
+  CLIENT_URL: z
+    .string()
+    .default('http://localhost:5173,http://127.0.0.1:5173')
+    .transform((value) => value.split(',').map((origin) => origin.trim()))
+    .pipe(z.array(z.url()).min(1)),
+  LOG_LEVEL: z.enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent']).default('info'),
+});
+
+export type Environment = z.infer<typeof envSchema>;
+
+export function parseEnv(input: NodeJS.ProcessEnv): Environment {
+  const result = envSchema.safeParse(input);
+  if (!result.success) {
+    // Report field names, never values that may contain credentials.
+    throw new Error(
+      `Invalid environment configuration: ${result.error.issues.map((issue) => issue.path.join('.')).join(', ')}`,
+    );
+  }
+  return result.data;
+}
+
+export const env = parseEnv(process.env);

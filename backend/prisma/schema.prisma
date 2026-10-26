@@ -1,0 +1,390 @@
+generator client {
+  provider            = "prisma-client"
+  output              = "../src/generated/prisma"
+  moduleFormat        = "esm"
+  importFileExtension = "js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum Proficiency {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum GoalSource {
+  DIRECT
+  QUIZ
+}
+
+enum GoalStatus {
+  ACTIVE
+  COMPLETED
+  ARCHIVED
+}
+
+enum RoadmapStatus {
+  DRAFT
+  ACTIVE
+  COMPLETED
+  ARCHIVED
+}
+
+enum TopicStatus {
+  TODO
+  IN_PROGRESS
+  DONE
+}
+
+enum PlanItemStatus {
+  TODO
+  IN_PROGRESS
+  DONE
+  SKIPPED
+}
+
+enum FlexibilityMode {
+  RELAXED
+  STANDARD
+  INTENSIVE
+  DEADLINE
+}
+
+enum MessageRole {
+  USER
+  ASSISTANT
+}
+
+enum NotificationType {
+  WEEKLY_REMINDER
+  BEHIND_SCHEDULE
+  MILESTONE
+  CERTIFICATE_READY
+}
+
+enum UsageKind {
+  ROADMAP
+  CHAT
+}
+
+model User {
+  id                 String              @id @default(uuid()) @db.Uuid
+  email              String              @unique @db.VarChar(254)
+  passwordHash       String
+  name               String              @db.VarChar(100)
+  role               UserRole            @default(USER)
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  refreshTokens      RefreshToken[]
+  skills             UserSkill[]
+  goals              Goal[]
+  quizResponses      QuizResponse[]
+  roadmaps           Roadmap[]
+  learningLogs       LearningLog[]
+  projectSubmissions ProjectSubmission[]
+  chatSessions       ChatSession[]
+  certificates       Certificate[]
+  notifications      Notification[]
+  dailyUsage         DailyUsage[]
+}
+
+model RefreshToken {
+  id        String    @id @default(uuid()) @db.Uuid
+  userId    String    @db.Uuid
+  tokenHash String    @unique
+  familyId  String    @db.Uuid
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([familyId])
+  @@index([expiresAt])
+}
+
+model Skill {
+  id               String            @id @default(uuid()) @db.Uuid
+  name             String            @unique @db.VarChar(100)
+  normalizedName   String            @unique @db.VarChar(100)
+  category         String            @db.VarChar(100)
+  aliases          String[]          @default([])
+  userSkills       UserSkill[]
+  roleRequirements RoleRequirement[]
+  topics           Topic[]
+
+  @@index([category])
+}
+
+model UserSkill {
+  userId    String      @db.Uuid
+  skillId   String      @db.Uuid
+  level     Proficiency
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  user      User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skill     Skill       @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([userId, skillId])
+  @@index([skillId])
+}
+
+model RoleTemplate {
+  id              String            @id @default(uuid()) @db.Uuid
+  slug            String            @unique @db.VarChar(100)
+  title           String            @db.VarChar(150)
+  description     String
+  fallbackRoadmap Json?
+  updatedAt       DateTime          @updatedAt
+  requirements    RoleRequirement[]
+  goals           Goal[]
+}
+
+model RoleRequirement {
+  roleTemplateId String       @db.Uuid
+  skillId        String       @db.Uuid
+  requiredLevel  Proficiency
+  weight         Int          @default(1)
+  roleTemplate   RoleTemplate @relation(fields: [roleTemplateId], references: [id], onDelete: Cascade)
+  skill          Skill        @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([roleTemplateId, skillId])
+  @@index([skillId])
+}
+
+model Goal {
+  id             String        @id @default(uuid()) @db.Uuid
+  userId         String        @db.Uuid
+  roleTemplateId String?       @db.Uuid
+  targetRole     String        @db.VarChar(150)
+  source         GoalSource    @default(DIRECT)
+  status         GoalStatus    @default(ACTIVE)
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  user           User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  roleTemplate   RoleTemplate? @relation(fields: [roleTemplateId], references: [id], onDelete: SetNull)
+  roadmaps       Roadmap[]
+
+  @@index([userId, status])
+  @@index([roleTemplateId])
+}
+
+model QuizResponse {
+  id               String   @id @default(uuid()) @db.Uuid
+  userId           String   @db.Uuid
+  answers          Json
+  recommendedRoles Json
+  createdAt        DateTime @default(now())
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+model Roadmap {
+  id                  String        @id @default(uuid()) @db.Uuid
+  userId              String        @db.Uuid
+  goalId              String        @db.Uuid
+  title               String        @db.VarChar(200)
+  totalEstimatedHours Decimal       @db.Decimal(10, 2)
+  status              RoadmapStatus @default(DRAFT)
+  version             Int           @default(1)
+  generationSource    String        @default("template") @db.VarChar(30)
+  createdAt           DateTime      @default(now())
+  updatedAt           DateTime      @updatedAt
+  user                User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  goal                Goal          @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  phases              Phase[]
+  plans               Plan[]
+  chatSessions        ChatSession[]
+  certificate         Certificate?
+
+  @@unique([goalId, version])
+  @@index([userId, status])
+}
+
+model Phase {
+  id          String  @id @default(uuid()) @db.Uuid
+  roadmapId   String  @db.Uuid
+  order       Int
+  title       String  @db.VarChar(200)
+  description String
+  roadmap     Roadmap @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  topics      Topic[]
+
+  @@unique([roadmapId, order])
+}
+
+model Topic {
+  id             String              @id @default(uuid()) @db.Uuid
+  phaseId        String              @db.Uuid
+  skillId        String?             @db.Uuid
+  order          Int
+  title          String              @db.VarChar(200)
+  subtopics      Json                @default("[]")
+  estimatedHours Decimal             @db.Decimal(8, 2)
+  difficulty     Proficiency
+  resources      Json                @default("[]")
+  isProject      Boolean             @default(false)
+  status         TopicStatus         @default(TODO)
+  completedAt    DateTime?
+  phase          Phase               @relation(fields: [phaseId], references: [id], onDelete: Cascade)
+  skill          Skill?              @relation(fields: [skillId], references: [id], onDelete: SetNull)
+  planItems      PlanItem[]
+  learningLogs   LearningLog[]
+  submissions    ProjectSubmission[]
+
+  @@unique([phaseId, order])
+  @@index([skillId])
+}
+
+model Plan {
+  id               String          @id @default(uuid()) @db.Uuid
+  roadmapId        String          @db.Uuid
+  hoursPerWeek     Decimal         @db.Decimal(6, 2)
+  flexibilityMode  FlexibilityMode @default(STANDARD)
+  startDate        DateTime        @db.Date
+  targetEndDate    DateTime?       @db.Date
+  projectedEndDate DateTime        @db.Date
+  version          Int             @default(1)
+  isActive         Boolean         @default(true)
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  roadmap          Roadmap         @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  weeks            PlanWeek[]
+
+  @@unique([roadmapId, version])
+  @@index([roadmapId, isActive])
+}
+
+model PlanWeek {
+  id           String     @id @default(uuid()) @db.Uuid
+  planId       String     @db.Uuid
+  weekNumber   Int
+  startDate    DateTime   @db.Date
+  plannedHours Decimal    @db.Decimal(6, 2)
+  focusSummary String
+  isBuffer     Boolean    @default(false)
+  plan         Plan       @relation(fields: [planId], references: [id], onDelete: Cascade)
+  items        PlanItem[]
+
+  @@unique([planId, weekNumber])
+  @@index([startDate])
+}
+
+model PlanItem {
+  id             String         @id @default(uuid()) @db.Uuid
+  planWeekId     String         @db.Uuid
+  topicId        String         @db.Uuid
+  allocatedHours Decimal        @db.Decimal(8, 2)
+  status         PlanItemStatus @default(TODO)
+  completedAt    DateTime?
+  planWeek       PlanWeek       @relation(fields: [planWeekId], references: [id], onDelete: Cascade)
+  topic          Topic          @relation(fields: [topicId], references: [id], onDelete: Cascade)
+
+  @@unique([planWeekId, topicId])
+  @@index([topicId])
+}
+
+model LearningLog {
+  id       String   @id @default(uuid()) @db.Uuid
+  userId   String   @db.Uuid
+  topicId  String?  @db.Uuid
+  minutes  Int
+  note     String   @db.VarChar(2000)
+  loggedAt DateTime @default(now())
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topic    Topic?   @relation(fields: [topicId], references: [id], onDelete: SetNull)
+
+  @@index([userId, loggedAt])
+  @@index([topicId])
+}
+
+model ProjectSubmission {
+  id          String   @id @default(uuid()) @db.Uuid
+  userId      String   @db.Uuid
+  topicId     String   @db.Uuid
+  title       String   @db.VarChar(200)
+  repoUrl     String?  @db.VarChar(2048)
+  notes       String?  @db.VarChar(5000)
+  submittedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topic       Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, topicId])
+  @@index([topicId])
+}
+
+model ChatSession {
+  id        String        @id @default(uuid()) @db.Uuid
+  userId    String        @db.Uuid
+  roadmapId String?       @db.Uuid
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+  user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  roadmap   Roadmap?      @relation(fields: [roadmapId], references: [id], onDelete: SetNull)
+  messages  ChatMessage[]
+
+  @@index([userId, createdAt])
+  @@index([roadmapId])
+}
+
+model ChatMessage {
+  id        String      @id @default(uuid()) @db.Uuid
+  sessionId String      @db.Uuid
+  role      MessageRole
+  content   String
+  createdAt DateTime    @default(now())
+  session   ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId, createdAt])
+}
+
+model Certificate {
+  id               String   @id @default(uuid()) @db.Uuid
+  userId           String   @db.Uuid
+  roadmapId        String   @unique @db.Uuid
+  verificationCode String   @unique @db.VarChar(128)
+  recipientName    String   @db.VarChar(100)
+  roleTitle        String   @db.VarChar(200)
+  completedHours   Decimal  @db.Decimal(10, 2)
+  issuedAt         DateTime @default(now())
+  storageKey       String?
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  roadmap          Roadmap  @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Notification {
+  id               String           @id @default(uuid()) @db.Uuid
+  userId           String           @db.Uuid
+  type             NotificationType
+  title            String           @db.VarChar(200)
+  message          String           @db.VarChar(2000)
+  deduplicationKey String           @unique
+  createdAt        DateTime         @default(now())
+  readAt           DateTime?
+  sentAt           DateTime?
+  user             User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, readAt, createdAt])
+}
+
+model DailyUsage {
+  id     String    @id @default(uuid()) @db.Uuid
+  userId String    @db.Uuid
+  date   DateTime  @db.Date
+  kind   UsageKind
+  count  Int       @default(0)
+  user   User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date, kind])
+}
