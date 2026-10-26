@@ -6,7 +6,12 @@ import { getDatabase, disconnectDatabase } from '../src/config/database.js';
 describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABASE_URL)(
   'Prisma certificates',
   () => {
-    const app = createApp();
+    const app = createApp({
+      authSecrets: {
+        access: 'certificate-db-access-'.repeat(4),
+        refresh: 'certificate-db-refresh-'.repeat(4),
+      },
+    });
     const users: string[] = [];
     afterAll(async () => {
       if (users.length) await getDatabase()!.user.deleteMany({ where: { id: { in: users } } });

@@ -53,6 +53,10 @@ describe('certificate completion and PDF', () => {
       list: vi.fn(),
     } as CertificateRepository;
     const app = createApp({
+      authSecrets: {
+        access: 'certificate-access-'.repeat(4),
+        refresh: 'certificate-refresh-'.repeat(4),
+      },
       certificateRepository: repository,
       authRepository: new MemoryAuthRepository(),
     });
