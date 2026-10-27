@@ -36,15 +36,15 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
       if (users.length) await getDatabase()!.user.deleteMany({ where: { id: { in: users } } });
       await disconnectDatabase();
     });
-    it('migrates six roles with their required skills', async () => {
+    it('migrates 24 roles with their required skills', async () => {
       const response = await request(app).get('/api/v1/roles');
       expect(response.status).toBe(200);
-      expect(response.body.data.roles).toHaveLength(6);
+      expect(response.body.data.roles).toHaveLength(24);
       const role = response.body.data.roles.find((item: { id: string }) => item.id === frontend);
       expect(
         role.requirements.some((item: { skill: { name: string } }) => item.skill.name === 'React'),
       ).toBe(true);
-      expect(await getDatabase()!.roleRequirement.count()).toBe(33);
+      expect(await getDatabase()!.roleRequirement.count()).toBe(128);
     });
     it('persists custom and direct choices across app instances while preserving history and ownership', async () => {
       const owner = await account();

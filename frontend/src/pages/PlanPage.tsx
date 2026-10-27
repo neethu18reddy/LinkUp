@@ -1,7 +1,9 @@
 import { useState, type FormEvent } from 'react';
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { LearningSteps } from '@/components/layout/LearningSteps';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import { TaskControl } from '@/features/progress/TaskControl';
@@ -39,6 +41,7 @@ function PlanEditor({
     mutationFn: savePlan,
     onSuccess: (result) => {
       client.setQueryData(planKey(roadmapId), result);
+      void client.invalidateQueries({ queryKey: ['progress-summary'] });
       onSaved();
     },
     onError: () => {
@@ -66,7 +69,10 @@ function PlanEditor({
   return (
     <section className="skills-card">
       <h2>{plan ? 'Adjust your plan' : 'Set your weekly pace'}</h2>
-      <p>Scheduling works offline. Weeks start on your chosen date; dates use UTC.</p>
+      <p>
+        Make room for learning. Choose your availability and we’ll break your roadmap into
+        manageable weeks.
+      </p>
       <form onSubmit={submit}>
         <fieldset disabled={pending} className="plan-fields">
           <div className="form-field">
@@ -159,6 +165,25 @@ function PlanEditor({
               {warning}
             </p>
           ))}
+          <div className="preview-weeks" aria-label="Preview weeks">
+            {preview.data.schedule.weeks.slice(0, 4).map((week) => (
+              <div key={week.weekNumber} className="preview-week-card">
+                <span>
+                  Week {week.weekNumber} · {week.plannedHours}h
+                </span>
+                <strong>{week.isBuffer ? 'Catch up and recharge' : week.focusSummary}</strong>
+                <p>
+                  {week.items.length} learning allocations · starts {week.startDate}
+                </p>
+              </div>
+            ))}
+          </div>
+          {preview.data.schedule.weeks.length > 4 && (
+            <p>
+              Plus {preview.data.schedule.weeks.length - 4} more weeks. Save to explore your full
+              schedule.
+            </p>
+          )}
           {plan && (
             <p>
               Remaining work starts again today. Completed allocations and previous versions are
@@ -185,6 +210,9 @@ export function PlanPage() {
     staleTime: 0,
   });
   const id = roadmap.data?.roadmap?.id;
+  const needsGoal =
+    axios.isAxiosError(roadmap.error) &&
+    roadmap.error.response?.data?.error?.code === 'GOAL_REQUIRED';
   const plan = useQuery({
     queryKey: planKey(id ?? ''),
     queryFn: () => getCurrentPlan(id!),
@@ -195,15 +223,27 @@ export function PlanPage() {
   return (
     <AccountLayout>
       <main className="skills-page">
+        <LearningSteps />
         <p className="eyebrow">A pace you can keep</p>
         <h1>Weekly plan</h1>
+        <p className="auth-description">
+          Big goals, manageable weeks. A schedule that fits your life, with room to adjust.
+        </p>
         {roadmap.isPending ? (
           <p role="status">Loading your roadmap…</p>
         ) : roadmap.isError ? (
           <section className="skills-card">
-            <p role="alert">{requestError(roadmap.error)}</p>
-            <Button onClick={() => void roadmap.refetch()}>Retry roadmap</Button>{' '}
-            <Link to="/goals">Choose your goal</Link>
+            <h2>Let’s build your learning plan</h2>
+            <p>Choose a goal, generate your roadmap, then set the hours you can spend each week.</p>
+            {!needsGoal && (
+              <>
+                <p role="alert">{requestError(roadmap.error)}</p>
+                <Button onClick={() => void roadmap.refetch()}>Retry roadmap</Button>{' '}
+              </>
+            )}
+            <Button asChild variant={needsGoal ? 'default' : 'outline'}>
+              <Link to="/goals">Choose your goal</Link>
+            </Button>
           </section>
         ) : !id ? (
           <section className="skills-card">
@@ -231,6 +271,28 @@ export function PlanPage() {
             {plan.data && (
               <section className="skills-card">
                 <h2>Your weeks</h2>
+                <div className="learning-metrics">
+                  <div>
+                    <span>Weekly commitment</span>
+                    <strong>
+                      {plan.data.hoursPerWeek}
+                      <small> hours</small>
+                    </strong>
+                  </div>
+                  <div>
+                    <span>Schedule</span>
+                    <strong>
+                      {plan.data.weeks.length}
+                      <small> weeks</small>
+                    </strong>
+                  </div>
+                  <div>
+                    <span>Your pace</span>
+                    <strong className="metric-text">
+                      {plan.data.flexibilityMode.toLowerCase()}
+                    </strong>
+                  </div>
+                </div>
                 <p>
                   Version {plan.data.version} · projected finish {plan.data.projectedEndDate}
                 </p>
@@ -238,7 +300,16 @@ export function PlanPage() {
                   <p>No remaining work to schedule.</p>
                 ) : (
                   plan.data.weeks.map((week) => (
-                    <details className="plan-week" key={`${plan.data!.id}-${week.weekNumber}`}>
+                    <details
+                      className="plan-week"
+                      key={`${plan.data!.id}-${week.weekNumber}`}
+                      open={
+                        week.weekNumber ===
+                        plan.data!.weeks.find((entry) =>
+                          entry.items.some((item) => item.status !== 'DONE'),
+                        )?.weekNumber
+                      }
+                    >
                       <summary>
                         Week {week.weekNumber} · {week.startDate} · {week.plannedHours} hours
                         {week.isBuffer ? ' · Buffer' : ''}

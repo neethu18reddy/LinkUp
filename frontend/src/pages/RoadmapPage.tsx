@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Link, useLocation } from 'react-router-dom';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { LearningSteps } from '@/components/layout/LearningSteps';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import { generateRoadmap, getCurrentRoadmap, roadmapKey } from '@/features/roadmap/roadmap.api';
@@ -21,6 +22,7 @@ export function RoadmapPage() {
     onSuccess: async () => {
       setReview(false);
       await client.invalidateQueries({ queryKey: roadmapKey });
+      await client.invalidateQueries({ queryKey: ['progress-summary'] });
     },
     onError: (error) => {
       if (axios.isAxiosError(error) && error.response?.data?.error?.code === 'GOAL_CHANGED') {
@@ -30,6 +32,8 @@ export function RoadmapPage() {
     },
   });
   const data = query.data;
+  const needsGoal =
+    axios.isAxiosError(query.error) && query.error.response?.data?.error?.code === 'GOAL_REQUIRED';
   const { hash } = useLocation();
   useEffect(() => {
     if (hash.startsWith('#topic-'))
@@ -38,21 +42,43 @@ export function RoadmapPage() {
   return (
     <AccountLayout>
       <main className="skills-page">
+        <LearningSteps />
         <p className="eyebrow">Your learning path</p>
         <h1>Roadmap</h1>
+        <p className="auth-description">
+          A clear path from where you are to where you want to be. Learn one step at a time.
+        </p>
         {query.isPending ? (
           <p role="status">Comparing your skills with your goal…</p>
         ) : query.isError ? (
-          <section className="skills-card">
-            <p role="alert">{requestError(query.error)}</p>
-            <Button onClick={() => void query.refetch()}>Retry</Button>{' '}
-            <Link to="/goals">Review your goal</Link>
+          <section className="skills-card roadmap-empty">
+            <h2>Start with your direction</h2>
+            {needsGoal ? (
+              <p>
+                Choose a career path or add your own goal. We’ll turn it into a roadmap you can
+                follow.
+              </p>
+            ) : (
+              <>
+                <p role="alert">{requestError(query.error)}</p>
+                <Button onClick={() => void query.refetch()}>Retry</Button>{' '}
+              </>
+            )}
+            <Button asChild variant={needsGoal ? 'default' : 'outline'}>
+              <Link to="/goals">Review your goal</Link>
+            </Button>
           </section>
         ) : (
           data && (
             <>
               <section className="skills-card">
                 <h2>Where to focus</h2>
+                {data.roadmap?.generationSource === 'template-custom' && (
+                  <p className="custom-roadmap-notice">
+                    Your custom goal uses a general starter roadmap. Choose learning materials for
+                    your subject and use these milestones to guide your practice.
+                  </p>
+                )}
                 {data.analysis.gaps.length ? (
                   <ol>
                     {data.analysis.gaps.map((gap) => (
@@ -65,8 +91,9 @@ export function RoadmapPage() {
                   </ol>
                 ) : (
                   <p>
-                    Your listed skills meet this goal’s requirements. Use the roadmap for review and
-                    practice.
+                    {data.analysis.strengths.length
+                      ? 'Your listed skills meet this goal’s requirements. Use the roadmap for review and practice.'
+                      : 'Your custom goal starts with exploration, guided practice and a project. No catalogue skill assessment is available for this goal.'}
                   </p>
                 )}
                 {!!data.analysis.strengths.length && (
@@ -117,6 +144,29 @@ export function RoadmapPage() {
               {data.roadmap ? (
                 <section className="skills-card">
                   <h2>{data.roadmap.title}</h2>
+                  <div className="learning-metrics">
+                    <div>
+                      <span>Learning time</span>
+                      <strong>
+                        {data.roadmap.totalEstimatedHours}
+                        <small> hours</small>
+                      </strong>
+                    </div>
+                    <div>
+                      <span>Your journey</span>
+                      <strong>
+                        {data.roadmap.phases.length}
+                        <small> phases</small>
+                      </strong>
+                    </div>
+                    <div>
+                      <span>Milestones</span>
+                      <strong>
+                        {data.roadmap.phases.reduce((sum, phase) => sum + phase.topics.length, 0)}
+                        <small> topics</small>
+                      </strong>
+                    </div>
+                  </div>
                   <p>
                     Version {data.roadmap.version} · {data.roadmap.totalEstimatedHours} estimated
                     hours ·{' '}

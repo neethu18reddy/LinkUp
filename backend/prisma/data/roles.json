@@ -211,5 +211,624 @@
         "weight": 1
       }
     ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000007",
+    "slug": "python-developer",
+    "title": "Python Developer",
+    "description": "Build Python tools, services and useful automation.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000015",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000011",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000008",
+    "slug": "java-developer",
+    "title": "Java Developer",
+    "description": "Develop Java applications with tested logic and database storage.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000016",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000019",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000009",
+    "slug": "react-developer",
+    "title": "React Developer",
+    "description": "Build accessible web applications with React and TypeScript.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000001",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000002",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000003",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000004",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000005",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000021",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000010",
+    "slug": "vue-developer",
+    "title": "Vue Developer",
+    "description": "Create interactive web experiences with Vue.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000001",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000002",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000003",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000006",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000021",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000011",
+    "slug": "angular-developer",
+    "title": "Angular Developer",
+    "description": "Build structured frontend applications with Angular and TypeScript.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000001",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000002",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000003",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000004",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000007",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000012",
+    "slug": "database-developer",
+    "title": "Database Developer",
+    "description": "Design relational databases, queries and reliable data access.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000012",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000011",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000013",
+    "slug": "data-engineer",
+    "title": "Data Engineer",
+    "description": "Practice data pipelines, transformations and dependable delivery.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000015",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000012",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000029",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000023",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000014",
+    "slug": "data-scientist",
+    "title": "Data Scientist",
+    "description": "Investigate datasets, test hypotheses and communicate findings.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000015",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000028",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000029",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000030",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000032",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000015",
+    "slug": "business-analyst",
+    "title": "Business Analyst",
+    "description": "Turn business questions into structured analysis and clear reports.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000031",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000028",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000030",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000032",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000016",
+    "slug": "bi-analyst",
+    "title": "BI Analyst",
+    "description": "Prepare data and create useful business reporting workflows.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000031",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000030",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000028",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000012",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000017",
+    "slug": "ux-researcher",
+    "title": "UX Researcher",
+    "description": "Plan user research and turn observations into design decisions.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000027",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000025",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000026",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000021",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000032",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000018",
+    "slug": "product-designer",
+    "title": "Product Designer",
+    "description": "Explore user needs, prototype solutions and refine interfaces.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000025",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000026",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000027",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000021",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000019",
+    "slug": "qa-engineer",
+    "title": "QA Engineer",
+    "description": "Design test cases, investigate defects and automate quality checks.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000003",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000011",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000024",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000020",
+    "slug": "test-automation-engineer",
+    "title": "Test Automation Engineer",
+    "description": "Create maintainable automated tests and delivery checks.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000015",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000011",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000024",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000021",
+    "slug": "platform-engineer",
+    "title": "Platform Engineer",
+    "description": "Build reproducible environments and improve delivery workflows.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000023",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000022",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000024",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000009",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000022",
+    "slug": "linux-administrator",
+    "title": "Linux Administrator",
+    "description": "Practice Linux operations, scripting and repeatable environment setup.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000023",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000015",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000022",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000023",
+    "slug": "software-engineer",
+    "title": "Software Engineer",
+    "description": "Develop problem-solving skills and build tested applications.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000019",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000032",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000016",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000018",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000013",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000024",
+    "slug": "web-accessibility-specialist",
+    "title": "Web Accessibility Specialist",
+    "description": "Evaluate and improve accessible web experiences.",
+    "requirements": [
+      {
+        "skillId": "00000000-0000-4000-8000-000000000001",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000002",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000003",
+        "requiredLevel": "INTERMEDIATE",
+        "weight": 3
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000021",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000020",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      },
+      {
+        "skillId": "00000000-0000-4000-8000-000000000027",
+        "requiredLevel": "BEGINNER",
+        "weight": 1
+      }
+    ]
   }
 ]

@@ -3,6 +3,7 @@ import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { AxiosError, AxiosHeaders } from 'axios';
 import { getCurrentRoadmap } from '@/features/roadmap/roadmap.api';
 import {
   getCurrentPlan,
@@ -87,6 +88,46 @@ beforeEach(() => {
   vi.mocked(savePlan).mockResolvedValue(saved);
 });
 describe('Weekly plan', () => {
+  it('guides a learner without a goal instead of offering an ineffective retry', async () => {
+    const error = new AxiosError('Goal required');
+    error.response = {
+      status: 422,
+      statusText: 'Unprocessable Entity',
+      headers: {},
+      config: { headers: new AxiosHeaders() },
+      data: { error: { code: 'GOAL_REQUIRED', message: 'Choose a goal first.' } },
+    };
+    vi.mocked(getCurrentRoadmap).mockRejectedValue(error);
+    mount();
+    expect(await screen.findByRole('link', { name: 'Choose your goal' })).toHaveAttribute(
+      'href',
+      '/goals',
+    );
+    expect(screen.queryByRole('button', { name: 'Retry roadmap' })).not.toBeInTheDocument();
+    expect(getCurrentPlan).not.toHaveBeenCalled();
+  });
+  it('shows what is scheduled before a plan is confirmed', async () => {
+    vi.mocked(previewPlan).mockResolvedValue({
+      ...preview,
+      schedule: {
+        ...preview.schedule,
+        weeks: [
+          {
+            weekNumber: 1,
+            startDate: date,
+            plannedHours: 5,
+            focusSummary: 'Practice Python fundamentals',
+            isBuffer: false,
+            items: [],
+          },
+        ],
+      },
+    });
+    mount();
+    await userEvent.click(await screen.findByRole('button', { name: 'Preview plan' }));
+    expect(await screen.findByText('Practice Python fundamentals')).toBeInTheDocument();
+    expect(savePlan).not.toHaveBeenCalled();
+  });
   it('shows loading and an actionable empty roadmap state', async () => {
     vi.mocked(getCurrentRoadmap).mockResolvedValue({ ...roadmap, roadmap: null });
     mount();

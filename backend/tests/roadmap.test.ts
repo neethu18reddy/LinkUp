@@ -129,7 +129,7 @@ describe('roadmap engineering', () => {
       statusCode: 409,
     });
   });
-  it('rejects unknown custom goals before consuming quota and normalizes known aliases', async () => {
+  it('builds valid starter roadmaps for arbitrary custom goals and normalizes known aliases', async () => {
     const goals = new MemoryGoalsRepository();
     const skills = new MemorySkillsRepository();
     const repository = { reserve: vi.fn() } as unknown as RoadmapRepository;
@@ -150,7 +150,14 @@ describe('roadmap engineering', () => {
       source: 'DIRECT',
       expectedGoalId: goal!.id,
     });
-    await expect(service.generate('owner', goal!.id)).rejects.toMatchObject({ statusCode: 422 });
+    const context = await service.context('owner');
+    expect(context.role.title).toBe('Learn something unknown');
+    expect(context.analysis.gaps).toEqual([]);
+    const starter = roadmapDraftSchema.parse(buildTemplate(context.role, context.analysis));
+    expect(starter.phases.flatMap((phase) => phase.topics)).toHaveLength(3);
+    expect(
+      starter.phases.flatMap((phase) => phase.topics).every((topic) => topic.skillId === null),
+    ).toBe(true);
     expect(repository.reserve).not.toHaveBeenCalled();
   });
 });

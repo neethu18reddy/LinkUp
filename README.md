@@ -11,14 +11,17 @@ Learners often know what they want to become but struggle to choose the next ski
 ## Features
 
 - Secure accounts, rotating refresh sessions, owned resources and account-isolated browser caches.
-- Searchable skill catalogue, proficiency profiles, career roles, custom skill goals and a local interest quiz.
+- Searchable skill catalogue, proficiency profiles, 24 career paths, searchable goal cards, custom learning goals and a local interest quiz.
 - Weighted gap analysis and curated roadmap templates with practical projects. A Groq adapter is prepared but live calls are disabled.
 - Relaxed, Standard, Intensive and Deadline schedules, preview-before-save, replanning and preserved completed work.
+
 - Tasks, private learning logs, project evidence, UTC streaks, progress charts and overdue work summaries.
 - Clearly labelled offline mentor with streamed replies, private history, stop/retry and copy.
 - Eligibility-gated PDF certificates with QR codes, public verification and LinkedIn share/profile links. Reopened coursework makes a certificate inactive.
 - In-app weekly reminders, behind-schedule notices, an owned inbox and reminder preferences. Scheduling is opt-in; email is not connected.
 - Accessible loading, empty, error and recovery states, strict server validation, safe errors, tests and CI.
+
+Choose a goal, generate its roadmap, then preview and confirm a weekly plan. Custom goals that match a catalogue skill or role use those requirements. Other custom goals receive a clearly labelled general starter roadmap with exploration, practice and a project; it can be scheduled and tracked without an external API. This is a general structure rather than a subject-specific curriculum.
 
 ## Stack
 

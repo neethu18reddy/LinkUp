@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { App } from './App';
 import './index.css';
+import './workspace.css';
 import { SessionBoundary } from './features/auth/SessionBoundary';
 import { RouteErrorBoundary } from './components/RouteErrorBoundary';
 

@@ -67,6 +67,64 @@ export function buildTemplate(
   role: CareerRole,
   analysis: ReturnType<typeof analyzeGaps>,
 ): RoadmapDraft {
+  if (!role.requirements.length)
+    return {
+      title: `${role.title}: learning roadmap`,
+      phases: [
+        {
+          title: 'Explore and practice',
+          description:
+            'A general starter structure for your custom goal. Select subject-specific materials and adjust the scope as you learn.',
+          topics: [
+            {
+              title: 'Define your outcome and learn the basics',
+              skillId: null,
+              subtopics: [
+                `Write a measurable outcome for ${role.title}`,
+                'Choose a trusted introductory course or reference',
+                'Study the core concepts and write a short summary',
+              ],
+              estimatedHours: 4,
+              difficulty: 'BEGINNER',
+              resources: [],
+              isProject: false,
+            },
+            {
+              title: 'Practice with guided exercises',
+              skillId: null,
+              subtopics: [
+                'Complete three small exercises relevant to your goal',
+                'Keep notes on mistakes and unanswered questions',
+                'Repeat one exercise without step-by-step instructions',
+              ],
+              estimatedHours: 6,
+              difficulty: 'BEGINNER',
+              resources: [],
+              isProject: false,
+            },
+          ],
+        },
+        {
+          title: 'Create something and reflect',
+          description: 'Demonstrate your learning with a small project or practical outcome.',
+          topics: [
+            {
+              title: 'Complete your custom goal project',
+              skillId: null,
+              subtopics: [
+                'Define a practical outcome and clear acceptance criteria',
+                'Create a project, demonstration or worked example',
+                'Review the result, document evidence and choose your next steps',
+              ],
+              estimatedHours: 8,
+              difficulty: 'INTERMEDIATE',
+              resources: [],
+              isProject: true,
+            },
+          ],
+        },
+      ],
+    };
   const prerequisiteOrder = [
     'HTML',
     'CSS',

@@ -28,7 +28,7 @@ const answersFor = (optionId: (typeof dimensions)[number]) =>
   questionIds.map((questionId) => ({ questionId, optionId }));
 
 describe('quiz scoring and catalogue integrity', () => {
-  it('has seven complete questions and six distinct roles linked to real skills', () => {
+  it('has seven complete questions and 24 distinct roles linked to real skills', () => {
     expect(quizQuestions).toHaveLength(7);
     expect(new Set(quizQuestions.map((question) => question.id)).size).toBe(7);
     for (const question of quizQuestions) {
@@ -36,9 +36,9 @@ describe('quiz scoring and catalogue integrity', () => {
       expect(question.options.map((option) => option.id)).toEqual([...dimensions]);
       expect(question.options.every((option) => !!option.label)).toBe(true);
     }
-    expect(roles).toHaveLength(6);
-    expect(new Set(roles.map((role) => role.id)).size).toBe(6);
-    expect(new Set(roles.map((role) => role.slug)).size).toBe(6);
+    expect(roles).toHaveLength(24);
+    expect(new Set(roles.map((role) => role.id)).size).toBe(24);
+    expect(new Set(roles.map((role) => role.slug)).size).toBe(24);
     expect(Object.keys(roleAffinities).sort()).toEqual(roles.map((role) => role.slug).sort());
     for (const role of roles)
       expect(new Set(role.requirements.map((item) => item.skillId)).size).toBe(
@@ -109,7 +109,7 @@ describe('goals and quiz API', () => {
     request(app).post('/api/v1/goals').auth(token, { type: 'bearer' }).send(body);
 
   it('exposes roles/questions but protects account-specific goal and quiz operations', async () => {
-    expect((await request(app).get('/api/v1/roles')).body.data.roles).toHaveLength(6);
+    expect((await request(app).get('/api/v1/roles')).body.data.roles).toHaveLength(24);
     expect((await request(app).get('/api/v1/quiz/questions')).body.data.method).toBe(
       'local-scoring',
     );

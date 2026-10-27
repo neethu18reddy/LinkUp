@@ -30,21 +30,30 @@ export class RoadmapService {
       const match =
         catalogue.find((skill) => normalizeSkillName(skill.name) === normalizeSkillName(name)) ??
         (catalogue.length === 1 ? catalogue[0] : undefined);
-      if (!match)
-        throw new AppError(
-          422,
-          'CUSTOM_GOAL_UNSUPPORTED',
-          'For now, choose a listed role or a single catalogue skill (for example, Learn Figma).',
-        );
-      role = {
-        id: match.id,
-        slug: 'custom-skill',
-        title: match.name,
-        description: 'Develop this skill with guided practice.',
-        requirements: [
-          { skillId: match.id, requiredLevel: 'INTERMEDIATE', weight: 1, skill: match },
-        ],
-      };
+      const matchingRole = !match
+        ? (await this.roles.list()).find(
+            (entry) => normalizeSkillName(entry.title) === normalizeSkillName(name),
+          )
+        : null;
+      role =
+        matchingRole ??
+        (match
+          ? {
+              id: match.id,
+              slug: 'custom-skill',
+              title: match.name,
+              description: 'Develop this skill with guided practice.',
+              requirements: [
+                { skillId: match.id, requiredLevel: 'INTERMEDIATE', weight: 1, skill: match },
+              ],
+            }
+          : {
+              id: goal.id,
+              slug: 'custom-goal',
+              title: goal.targetRole,
+              description: 'A self-directed learning goal with an adaptable starter plan.',
+              requirements: [],
+            });
     }
     const profile = await this.skills.listProfile(userId);
     return { goal, role, analysis: analyzeGaps(role.requirements, profile) };
@@ -72,8 +81,8 @@ export class RoadmapService {
     await this.repository.reserve(userId, goalId, date);
     const fallback = roadmapDraftSchema.parse(buildTemplate(role, analysis));
     let draft = fallback;
-    let source = 'template';
-    if (this.provider) {
+    let source = role.slug === 'custom-goal' ? 'template-custom' : 'template';
+    if (this.provider && role.requirements.length) {
       const generated = await generateValidated(
         this.provider,
         {
@@ -106,9 +115,11 @@ export class RoadmapService {
       roadmap: await this.repository.save(userId, goalId, draft, source),
       analysis,
       notice:
-        source === 'template-fallback'
-          ? 'AI generation was unavailable. A curated template was saved instead.'
-          : null,
+        source === 'template-custom'
+          ? 'A general starter roadmap was saved for your custom goal. Choose your learning materials and adapt the practice tasks to your subject.'
+          : source === 'template-fallback'
+            ? 'AI generation was unavailable. A curated template was saved instead.'
+            : null,
     };
   }
   async regenerate(userId: string, id: string) {

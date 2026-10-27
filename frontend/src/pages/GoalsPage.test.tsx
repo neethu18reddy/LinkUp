@@ -123,6 +123,37 @@ async function answerQuiz() {
 }
 
 describe('goal selection and quiz', () => {
+  it('searches career paths and exposes a separate custom goal action', async () => {
+    renderPage();
+    await screen.findByLabelText('Search goals');
+    await userEvent.type(screen.getByLabelText('Search goals'), 'Analyst');
+    expect(screen.getByRole('button', { name: /Data Analyst.*core skills/ })).toBeInTheDocument();
+    expect(
+      screen.queryByRole('button', { name: /Frontend Developer.*core skills/ }),
+    ).not.toBeInTheDocument();
+    await userEvent.click(screen.getByRole('button', { name: 'Add custom goal' }));
+    await userEvent.type(
+      screen.getByLabelText('What would you like to learn?'),
+      'Learn photography',
+    );
+    await userEvent.click(screen.getByRole('button', { name: 'Review custom goal' }));
+    await userEvent.click(screen.getByRole('button', { name: 'Confirm goal' }));
+    expect(await screen.findByText('Your goal is now Learn photography.')).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Continue to your roadmap/ })).toHaveAttribute(
+      'href',
+      '/roadmap',
+    );
+  });
+  it('allows custom goals even when the career catalogue fails to load', async () => {
+    vi.mocked(getRoles).mockRejectedValue(new Error('Offline'));
+    renderPage();
+    await screen.findByRole('button', { name: 'Retry roles' });
+    await userEvent.click(screen.getByRole('button', { name: 'Add custom goal' }));
+    await userEvent.type(screen.getByLabelText('What would you like to learn?'), 'Learn gardening');
+    await userEvent.click(screen.getByRole('button', { name: 'Review custom goal' }));
+    await userEvent.click(screen.getByRole('button', { name: 'Confirm goal' }));
+    expect(await screen.findByText('Your goal is now Learn gardening.')).toBeInTheDocument();
+  });
   it('refreshes a changed goal and requires a new review instead of silently replacing it', async () => {
     current = makeGoal(roles[1]!);
     const changedId = '30000000-0000-4000-8000-000000000002';

@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { toast } from 'sonner';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { LearningSteps } from '@/components/layout/LearningSteps';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import {
@@ -16,6 +17,15 @@ import {
 } from '@/features/goals/goals.api';
 import { InterestQuiz } from '@/features/goals/InterestQuiz';
 import { levelLabels } from '@/features/skills/skills.api';
+import { ArrowRight, Plus, Search, Target, Check } from 'lucide-react';
+
+function roleCategory(title: string) {
+  if (/data|analyst|scientist|\bBI\b/i.test(title)) return 'Data';
+  if (/design|research/i.test(title)) return 'Design';
+  if (/devops|platform|linux/i.test(title)) return 'Infrastructure';
+  if (/QA|test automation|accessibility/i.test(title)) return 'Quality';
+  return 'Development';
+}
 
 export function GoalsPage() {
   const client = useQueryClient();
@@ -28,10 +38,13 @@ export function GoalsPage() {
   const [review, setReview] = useState<GoalInput | null>(null);
   const [validation, setValidation] = useState('');
   const [feedback, setFeedback] = useState('');
+  const [search, setSearch] = useState('');
+  const [category, setCategory] = useState('All');
   const save = useMutation({
     mutationFn: saveGoal,
     onSuccess: (goal) => {
       void client.invalidateQueries({ queryKey: ['current-roadmap'] });
+      void client.invalidateQueries({ queryKey: ['progress-summary'] });
       client.setQueryData(goalKeys.current, goal);
       setReview(null);
       setSelection('');
@@ -78,10 +91,11 @@ export function GoalsPage() {
   return (
     <AccountLayout>
       <main className="dashboard-main goals-page">
+        <LearningSteps />
         <p className="eyebrow">YOUR NEXT DIRECTION</p>
         <h1>Where do you want to go?</h1>
         <p className="auth-description">
-          Pick a role, name a skill, or explore your interests first.{' '}
+          Find your next challenge. Choose a career path or create a goal of your own.{' '}
           <Link className="text-link" to="/skills">
             Review your skills
           </Link>
@@ -117,6 +131,11 @@ export function GoalsPage() {
               {feedback}
             </p>
           )}
+          {current.data && (
+            <Link className="goal-next" to="/roadmap">
+              Continue to your roadmap <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+          )}
         </section>
         {mode === 'quiz' ? (
           <InterestQuiz
@@ -148,6 +167,51 @@ export function GoalsPage() {
                 Take interest quiz
               </Button>
             </div>
+            <div className="custom-goal-callout">
+              <span className="goal-callout-icon">
+                <Target size={22} aria-hidden="true" />
+              </span>
+              <div>
+                <h3>A goal that’s uniquely yours</h3>
+                <p>Have something else in mind? Add any skill, role or personal learning goal.</p>
+              </div>
+              <Button
+                variant={selection === 'custom' ? 'default' : 'outline'}
+                disabled={save.isPending}
+                onClick={() => {
+                  setSelection('custom');
+                  setQuizId(undefined);
+                  resetDraft();
+                }}
+              >
+                <Plus size={16} aria-hidden="true" /> Add custom goal
+              </Button>
+            </div>
+            {selection === 'custom' && (
+              <div className="form-field custom-goal-field">
+                <label htmlFor="custom-goal">What would you like to learn?</label>
+                <input
+                  id="custom-goal"
+                  placeholder="For example, learn photography or become a product manager"
+                  value={custom}
+                  maxLength={150}
+                  aria-invalid={!!validation}
+                  aria-describedby="custom-goal-hint"
+                  disabled={save.isPending}
+                  onChange={(event) => {
+                    setCustom(event.target.value);
+                    resetDraft();
+                  }}
+                />
+                <p id="custom-goal-hint" className="field-hint">
+                  Any goal is welcome. Catalogue matches use skill-based roadmaps; other goals get
+                  an adaptable starter plan.
+                </p>
+                <Button disabled={!ready || save.isPending} onClick={prepareReview}>
+                  Review custom goal <ArrowRight size={16} aria-hidden="true" />
+                </Button>
+              </div>
+            )}
             <form
               aria-label="Choose your goal"
               noValidate
@@ -167,6 +231,79 @@ export function GoalsPage() {
                 </div>
               ) : (
                 <>
+                  <div className="goal-search">
+                    <Search size={18} aria-hidden="true" />
+                    <input
+                      aria-label="Search goals"
+                      placeholder="Search careers, skills or interests…"
+                      value={search}
+                      onChange={(event) => setSearch(event.target.value)}
+                    />
+                  </div>
+                  <div className="goal-filters" aria-label="Goal categories">
+                    {['All', 'Development', 'Data', 'Design', 'Infrastructure', 'Quality'].map(
+                      (value) => (
+                        <button
+                          key={value}
+                          type="button"
+                          aria-pressed={category === value}
+                          onClick={() => setCategory(value)}
+                        >
+                          {value}
+                        </button>
+                      ),
+                    )}
+                  </div>
+                  <p className="goal-results">{roles.data.length} career paths to explore</p>
+                  <div className="goal-grid">
+                    {roles.data
+                      .filter(
+                        (entry) =>
+                          (category === 'All' || roleCategory(entry.title) === category) &&
+                          `${entry.title} ${entry.description} ${entry.requirements.map((item) => item.skill.name).join(' ')}`
+                            .toLowerCase()
+                            .includes(search.toLowerCase()),
+                      )
+                      .map((entry) => (
+                        <button
+                          key={entry.id}
+                          type="button"
+                          className={`goal-option ${selection === entry.id ? 'selected' : ''}`}
+                          aria-pressed={selection === entry.id}
+                          disabled={save.isPending}
+                          onClick={() => {
+                            setSelection(entry.id);
+                            setQuizId(undefined);
+                            resetDraft();
+                          }}
+                        >
+                          <span className="goal-option-top">
+                            <span className="goal-category">{roleCategory(entry.title)}</span>
+                            {selection === entry.id ? (
+                              <Check size={18} aria-hidden="true" />
+                            ) : (
+                              <ArrowRight size={18} aria-hidden="true" />
+                            )}
+                          </span>
+                          <strong>{entry.title}</strong>
+                          <span className="goal-option-description">{entry.description}</span>
+                          <span className="goal-skill-count">
+                            {entry.requirements.length} core skills · Guided roadmap
+                          </span>
+                        </button>
+                      ))}
+                  </div>
+                  {!roles.data.some(
+                    (entry) =>
+                      (category === 'All' || roleCategory(entry.title) === category) &&
+                      `${entry.title} ${entry.description} ${entry.requirements.map((item) => item.skill.name).join(' ')}`
+                        .toLowerCase()
+                        .includes(search.toLowerCase()),
+                  ) && (
+                    <p className="skill-empty">
+                      No matching paths. Try another search or add a custom goal above.
+                    </p>
+                  )}
                   <div className="form-field">
                     <label htmlFor="goal-choice">Target role or skill</label>
                     <select
@@ -185,31 +322,13 @@ export function GoalsPage() {
                           {entry.title}
                         </option>
                       ))}
-                      <option value="custom">Learn a specific skill</option>
+                      <option value="custom">Add a custom goal</option>
                     </select>
                   </div>
                   {roles.data.length === 0 && (
                     <p className="field-hint">
                       No role templates are available yet. You can still choose a custom skill.
                     </p>
-                  )}
-                  {selection === 'custom' && (
-                    <div className="form-field">
-                      <label htmlFor="custom-goal">What would you like to learn?</label>
-                      <input
-                        id="custom-goal"
-                        placeholder="For example, learn Figma"
-                        value={custom}
-                        maxLength={150}
-                        aria-invalid={!!validation}
-                        aria-describedby={validation ? 'goal-error' : undefined}
-                        disabled={save.isPending}
-                        onChange={(event) => {
-                          setCustom(event.target.value);
-                          resetDraft();
-                        }}
-                      />
-                    </div>
                   )}
                   {role && (
                     <div className="role-preview">
