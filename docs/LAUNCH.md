@@ -78,6 +78,19 @@ Run `npm run setup:production` locally. It creates ignored `deploy/.env.producti
 
 Set the generated `CRON_SECRET` in Vercel. The checked-in daily cron invokes `/api/v1/internal/jobs/daily` at **07:00 UTC (12:30 India time)**. Vercel supplies the bearer secret. `LOCAL_JOBS_ENABLED` stays `false` on serverless hosting. Weekly notices are deduplicated, account pagination persists across restarts, and email sends require a verified address and enabled reminder preference. Users control reminders in Notifications. Failed email attempts are bounded and retry on later scheduled runs; email quotas still apply.
 
+## Troubleshooting installation
+
+If an older deployment fails with `husky: command not found`, deploy the latest
+`main` commit. The prepare script now skips Git hook installation on Vercel,
+in production, in CI, or when `HUSKY=0`, before importing Husky. Keep the project
+Root Directory at the repository root (not `frontend`) and retain the checked-in
+install/build commands. Redeploy without the previous build cache if needed.
+
+If a database connection string has been shared publicly or in chat, reset that
+Neon role's password in the Neon console. Replace both pooled `DATABASE_URL`
+and direct `DATABASE_URL_UNPOOLED` in Vercel's private Production environment
+settings, then redeploy. Never commit connection strings or paste them in chat.
+
 ## Live acceptance checks
 
 After accounts and private credentials are configured: verify HTTPS signup/login/reload/logout, Google login, email verification/reset, AI mentor streaming/cancellation/history, custom and career goal roadmaps, preview/save/replan, progress/project evidence, certificate PDF/QR/public verification, scheduled reminders and opt-out. Check `/api/v1/health/ready`, `/api/docs/`, Vercel logs and provider delivery logs. Automated/mocked tests do not replace these live checks. No live deployment is claimed before these steps actually run.
