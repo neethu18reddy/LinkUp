@@ -9,6 +9,52 @@ import { openapi } from '../src/docs/openapi.js';
 import { demoOptions } from '../src/scripts/seed-demo.js';
 import { parseEnv } from '../src/config/env.js';
 describe('deployment and local documentation', () => {
+  it('uses the stable Vercel production origin instead of an untrusted request hostname', () => {
+    const platform = {
+      NODE_ENV: 'production',
+      VERCEL: '1',
+      VERCEL_PROJECT_PRODUCTION_URL: 'linkup-demo.vercel.app',
+      DATABASE_URL: 'postgresql://test:test@localhost/test',
+      JWT_ACCESS_SECRET: 'access-'.repeat(8),
+      JWT_REFRESH_SECRET: 'refresh-'.repeat(8),
+    };
+    expect(parseEnv(platform).CLIENT_URL).toEqual(['https://linkup-demo.vercel.app']);
+    expect(parseEnv(platform).PUBLIC_WEB_URL).toBe('https://linkup-demo.vercel.app');
+    expect(
+      parseEnv({
+        ...platform,
+        CLIENT_URL: 'https://learn.example',
+        PUBLIC_WEB_URL: 'https://learn.example',
+      }).PUBLIC_WEB_URL,
+    ).toBe('https://learn.example');
+    expect(() =>
+      parseEnv({ ...platform, VERCEL_PROJECT_PRODUCTION_URL: 'bad.example/path' }),
+    ).toThrow();
+  });
+  it('uses the platform origin on Render and preserves explicit custom-domain configuration', () => {
+    const platform = {
+      NODE_ENV: 'production',
+      SERVE_WEB: 'true',
+      RENDER: 'true',
+      RENDER_EXTERNAL_URL: 'https://linkup-demo.onrender.com',
+      DATABASE_URL: 'postgresql://test:test@localhost/test',
+      JWT_ACCESS_SECRET: 'access-'.repeat(8),
+      JWT_REFRESH_SECRET: 'refresh-'.repeat(8),
+    };
+    expect(parseEnv(platform).CLIENT_URL).toEqual(['https://linkup-demo.onrender.com']);
+    expect(parseEnv(platform).PUBLIC_WEB_URL).toBe('https://linkup-demo.onrender.com');
+    expect(
+      parseEnv({
+        ...platform,
+        CLIENT_URL: 'https://learn.example',
+        PUBLIC_WEB_URL: 'https://learn.example',
+      }).PUBLIC_WEB_URL,
+    ).toBe('https://learn.example');
+    expect(() => parseEnv({ ...platform, RENDER: 'false' })).toThrow('PUBLIC_WEB_URL');
+    expect(() =>
+      parseEnv({ ...platform, RENDER_EXTERNAL_URL: 'https://example.test/path' }),
+    ).toThrow();
+  });
   it('validates canonical production origins and rejects path/credential CORS entries', () => {
     const base = {
       NODE_ENV: 'production',

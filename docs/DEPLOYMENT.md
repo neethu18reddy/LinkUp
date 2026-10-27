@@ -1,5 +1,7 @@
 # Docker deployment preparation
 
+**Current launch choice:** Vercel Hobby + Neon Free. Follow [Launch](LAUNCH.md) for that platform. The Docker instructions below remain an alternative for a future container host.
+
 The owner chose to select hosting later. These files are prepared and tested locally/through CI; **no public deployment, DNS change, paid resource or external integration has been created**. A live application URL cannot be supplied until hosting and publishing are approved.
 
 ## Prepared artifacts

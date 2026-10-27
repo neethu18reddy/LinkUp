@@ -1,0 +1,9 @@
+.git
+.local
+**/.env
+**/.env.*
+!**/.env.example
+**/coverage
+docs/screenshots
+test-results
+playwright-report

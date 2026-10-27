@@ -2,7 +2,7 @@
 
 linkup helps students, career switchers and working professionals turn their current skills and career goals into a manageable learning plan.
 
-**Status:** Phases 1–11 are implemented. Phase 12 provides Docker deployment preparation, locally hosted Swagger documentation and opt-in demo data. **No live deployment has been published.** Hosting will be chosen later. External AI, email, OAuth and hosted reminder integrations remain deferred. The original brief uses SkillPath; this application is named **linkup**.
+**Status:** Core learning features and deployment preparation are implemented. **No live deployment has been published.** Vercel Hobby with Neon Free is the selected hosting path; account connections and private production credentials are required. AI, email and Google integrations are approved for implementation and setup. The original brief uses SkillPath; this application is named **linkup**. See the [launch instructions](docs/LAUNCH.md).
 
 ## Problem, users and solution
 

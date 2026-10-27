@@ -6,6 +6,9 @@ export default defineConfig({
   schema: 'prisma/schema.prisma',
   migrations: { path: 'prisma/migrations' },
   datasource: {
-    url: process.env.DATABASE_URL || 'postgresql://linkup:linkup_local_only@localhost:5432/linkup',
+    url:
+      process.env.DATABASE_URL_UNPOOLED ||
+      process.env.DATABASE_URL ||
+      'postgresql://linkup:linkup_local_only@localhost:5432/linkup',
   },
 });

@@ -83,7 +83,16 @@ const envSchema = z
 export type Environment = z.infer<typeof envSchema>;
 
 export function parseEnv(input: NodeJS.ProcessEnv): Environment {
-  const result = envSchema.safeParse(input);
+  const renderOrigin = input.RENDER === 'true' ? input.RENDER_EXTERNAL_URL : undefined;
+  const vercelOrigin =
+    input.VERCEL === '1' && input.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${input.VERCEL_PROJECT_PRODUCTION_URL}`
+      : undefined;
+  const result = envSchema.safeParse({
+    ...input,
+    CLIENT_URL: input.CLIENT_URL || vercelOrigin || renderOrigin,
+    PUBLIC_WEB_URL: input.PUBLIC_WEB_URL || vercelOrigin || renderOrigin,
+  });
   if (!result.success) {
     // Report field names, never values that may contain credentials.
     throw new Error(
