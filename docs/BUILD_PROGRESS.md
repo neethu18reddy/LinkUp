@@ -10,7 +10,7 @@ database migration is needed. Added five mocked transport/configuration tests;
 all 160 backend unit/API tests pass. Live Gemini requests still require the owner
 to configure the private key and an available model in Vercel and redeploy.
 
-Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the UI minimal. Ask the owner before any external API integration. Commit and push after every completed phase, then wait for confirmation before starting the next phase.
+Original source of scope: the LinkUp.md brief (retained in Git history; removed from the current tree on request). See the [README](../README.md) for the current project overview. Product name: **linkup**. Keep the UI minimal. Ask the owner before any external API integration. Commit and push after every completed phase, then wait for confirmation before starting the next phase.
 
 | Phase | Scope                                                   | Status                                          |
 | ----- | ------------------------------------------------------- | ----------------------------------------------- |
