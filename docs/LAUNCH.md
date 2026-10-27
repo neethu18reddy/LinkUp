@@ -80,6 +80,14 @@ Set the generated `CRON_SECRET` in Vercel. The checked-in daily cron invokes `/a
 
 ## Troubleshooting installation
 
+On Vercel, set `SERVE_WEB` to exactly `false` without quotes or trailing spaces.
+The frontend is served by the CDN. A different value causes startup validation
+to fail; after correcting it, redeploy for the new value to take effect.
+
+The API rewrite uses an unnamed path capture. A named `:path*` capture is
+forwarded as a query parameter by Vercel, causing strict query validation to
+reject otherwise valid catalogue and planning requests.
+
 If an older deployment fails with `husky: command not found`, deploy the latest
 `main` commit. The prepare script now skips Git hook installation on Vercel,
 in production, in CI, or when `HUSKY=0`, before importing Husky. Keep the project
