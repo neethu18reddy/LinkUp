@@ -1,8 +1,26 @@
 import { useQuery } from '@tanstack/react-query';
-import { ArrowDown, ArrowUpRight, BookOpen, Check, Compass, Route, RotateCw } from 'lucide-react';
+import {
+  ArrowDown,
+  ArrowUpRight,
+  BookOpen,
+  Check,
+  Compass,
+  Route,
+  RotateCw,
+  Sparkles,
+  Zap,
+  TrendingUp,
+} from 'lucide-react';
+import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { getHealth } from '@/lib/api';
 import { useAuth } from '@/store/auth';
+import {
+  FadeIn,
+  StaggerContainer,
+  StaggerItem,
+  GlowCard,
+} from '@/components/ui/animated-container';
 
 const steps = [
   {
@@ -10,18 +28,21 @@ const steps = [
     number: '01',
     title: 'Find your direction',
     detail: 'Start with what you know and where you want to go.',
+    gradient: 'from-[#225c47] to-[#3a8a65]',
   },
   {
     icon: Route,
     number: '02',
     title: 'Make a plan that fits',
     detail: 'A clear learning path, built around your available time.',
+    gradient: 'from-[#3a8a65] to-[#5aaa80]',
   },
   {
     icon: BookOpen,
     number: '03',
     title: 'Learn. Build. Move forward.',
     detail: 'Turn small steps into skills you can put to work.',
+    gradient: 'from-[#5aaa80] to-[#7bc49a]',
   },
 ];
 
@@ -58,7 +79,12 @@ export function LandingPage() {
       <a className="skip-link" href="#main">
         Skip to content
       </a>
-      <header className="site-header">
+      <motion.header
+        className="site-header"
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <a href="/" className="brand" aria-label="linkup home">
           <span className="brand-mark">
             <ArrowUpRight size={20} strokeWidth={2.5} />
@@ -73,105 +99,172 @@ export function LandingPage() {
             How it works <ArrowUpRight size={14} aria-hidden="true" />
           </a>
         </nav>
-      </header>
+      </motion.header>
 
       <main id="main">
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <p className="eyebrow">
-              <span className="small-line" /> A little direction. A lot of possibility.
-            </p>
-            <h1 id="hero-title">
-              Your next chapter
-              <br />
-              starts with a <span>plan.</span>
-            </h1>
-            <p className="hero-description">
-              Connect what you know with where you want to go. A personal learning path, one
-              manageable step at a time.
-            </p>
-            <Button asChild>
-              <a href={authenticated ? '/dashboard' : '/register'}>
-                {authenticated ? 'Go to your dashboard' : 'Start your journey'}{' '}
-                <ArrowDown size={16} aria-hidden="true" />
-              </a>
-            </Button>
-            <p className="hero-note">For students, career switchers, and curious minds.</p>
+            <FadeIn delay={0.1}>
+              <p className="eyebrow">
+                <span className="small-line" />
+                <Sparkles size={14} className="text-[#438b65]" aria-hidden="true" />A little
+                direction. A lot of possibility.
+              </p>
+            </FadeIn>
+            <FadeIn delay={0.2}>
+              <h1 id="hero-title">
+                Your next chapter
+                <br />
+                starts with a <span>plan.</span>
+              </h1>
+            </FadeIn>
+            <FadeIn delay={0.3}>
+              <p className="hero-description">
+                Connect what you know with where you want to go. A personal learning path, one
+                manageable step at a time.
+              </p>
+            </FadeIn>
+            <FadeIn delay={0.4}>
+              <Button asChild>
+                <a href={authenticated ? '/dashboard' : '/register'}>
+                  {authenticated ? 'Go to your dashboard' : 'Start your journey'}{' '}
+                  <motion.span
+                    animate={{ y: [0, 4, 0] }}
+                    transition={{ repeat: Infinity, duration: 2, ease: 'easeInOut' }}
+                  >
+                    <ArrowDown size={16} aria-hidden="true" />
+                  </motion.span>
+                </a>
+              </Button>
+            </FadeIn>
+            <FadeIn delay={0.5}>
+              <p className="hero-note">
+                <Zap size={12} className="inline text-[#438b65]" aria-hidden="true" /> For students,
+                career switchers, and curious minds.
+              </p>
+            </FadeIn>
           </div>
 
-          <div className="path-preview" aria-label="Example learning path">
-            <div className="preview-heading">
-              <span>THE BIG PICTURE</span>
-              <span className="example-badge">Example path</span>
-            </div>
-            <h2>From curious to capable.</h2>
-            <p>A clear direction, at your own pace.</p>
-            <ol className="path-steps">
-              <li>
-                <span className="path-node complete">
-                  <Check size={15} aria-hidden="true" />
+          <FadeIn delay={0.3} direction="left">
+            <motion.div
+              className="path-preview"
+              aria-label="Example learning path"
+              whileHover={{ y: -4, boxShadow: '0 16px 50px #1d3e2c0a' }}
+              transition={{ duration: 0.3 }}
+            >
+              <div className="preview-heading">
+                <span>THE BIG PICTURE</span>
+                <span className="example-badge">
+                  <TrendingUp size={10} className="inline mr-1" aria-hidden="true" />
+                  Example path
                 </span>
-                <div>
-                  <strong>Where you are</strong>
-                  <span>Your skills & experience</span>
-                </div>
-                <span className="path-tag">Start here</span>
-              </li>
-              <li>
-                <span className="path-node current">
-                  <span />
-                </span>
-                <div>
-                  <strong>What comes next</strong>
-                  <span>Learn, practice, build</span>
-                </div>
-              </li>
-              <li>
-                <span className="path-node destination">
-                  <ArrowUpRight size={16} aria-hidden="true" />
-                </span>
-                <div>
-                  <strong>Where you want to be</strong>
-                  <span>Your next role or skill</span>
-                </div>
-              </li>
-            </ol>
-            <div className="preview-footer">
-              <span className="tiny-star">✳</span> Progress, one step at a time.
-            </div>
-          </div>
+              </div>
+              <h2>From curious to capable.</h2>
+              <p>A clear direction, at your own pace.</p>
+              <ol className="path-steps">
+                <motion.li
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.6 }}
+                >
+                  <span className="path-node complete">
+                    <Check size={15} aria-hidden="true" />
+                  </span>
+                  <div>
+                    <strong>Where you are</strong>
+                    <span>Your skills & experience</span>
+                  </div>
+                  <span className="path-tag">Start here</span>
+                </motion.li>
+                <motion.li
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.75 }}
+                >
+                  <span className="path-node current">
+                    <motion.span
+                      animate={{ scale: [1, 1.4, 1] }}
+                      transition={{ repeat: Infinity, duration: 2 }}
+                    />
+                  </span>
+                  <div>
+                    <strong>What comes next</strong>
+                    <span>Learn, practice, build</span>
+                  </div>
+                </motion.li>
+                <motion.li
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.9 }}
+                >
+                  <span className="path-node destination">
+                    <ArrowUpRight size={16} aria-hidden="true" />
+                  </span>
+                  <div>
+                    <strong>Where you want to be</strong>
+                    <span>Your next role or skill</span>
+                  </div>
+                </motion.li>
+              </ol>
+              <div className="preview-footer">
+                <motion.span
+                  className="tiny-star"
+                  animate={{ rotate: [0, 180, 360] }}
+                  transition={{ repeat: Infinity, duration: 6, ease: 'linear' }}
+                >
+                  ✳
+                </motion.span>
+                Progress, one step at a time.
+              </div>
+            </motion.div>
+          </FadeIn>
         </section>
 
         <section className="how-section" id="how-it-works" aria-labelledby="how-title">
-          <div className="section-heading">
-            <p className="eyebrow">A SIMPLE WAY FORWARD</p>
-            <h2 id="how-title">Less guesswork. More progress.</h2>
-          </div>
-          <div className="feature-grid">
-            {steps.map(({ icon: Icon, number, title, detail }) => (
-              <article className="feature" key={number}>
-                <div className="feature-top">
-                  <Icon size={22} strokeWidth={1.5} aria-hidden="true" />
-                  <span>{number}</span>
-                </div>
-                <h3>{title}</h3>
-                <p>{detail}</p>
-              </article>
+          <FadeIn>
+            <div className="section-heading">
+              <p className="eyebrow">A SIMPLE WAY FORWARD</p>
+              <h2 id="how-title">Less guesswork. More progress.</h2>
+            </div>
+          </FadeIn>
+          <StaggerContainer className="feature-grid">
+            {steps.map(({ icon: Icon, number, title, detail, gradient }) => (
+              <StaggerItem key={number}>
+                <GlowCard className="feature h-full">
+                  <div className="feature-top">
+                    <div
+                      className={`flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br ${gradient} text-white`}
+                    >
+                      <Icon size={20} strokeWidth={1.5} aria-hidden="true" />
+                    </div>
+                    <span className="text-xs text-[#b4bfb5] font-mono">{number}</span>
+                  </div>
+                  <h3>{title}</h3>
+                  <p>{detail}</p>
+                </GlowCard>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </section>
-        <aside className="build-notice">
-          <span className="notice-label">WORK IN PROGRESS</span>
-          <p>
-            Your account is the first step. Skill profiles and personal learning plans are coming
-            next.
-          </p>
-        </aside>
+        <FadeIn>
+          <aside className="build-notice">
+            <span className="notice-label">WORK IN PROGRESS</span>
+            <p>
+              Your account is the first step. Skill profiles and personal learning plans are coming
+              next.
+            </p>
+          </aside>
+        </FadeIn>
       </main>
-      <footer className="site-footer">
-        <span>linkup · A small step toward what’s next.</span>
+      <motion.footer
+        className="site-footer"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.8 }}
+      >
+        <span>linkup · A small step toward what's next.</span>
         <ServerStatus />
-      </footer>
+      </motion.footer>
     </div>
   );
 }

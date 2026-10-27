@@ -12,10 +12,24 @@ import {
   MessageCircle,
   Award,
   Bell,
+  Sparkles,
 } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { signOut } from '@/features/auth/auth.client';
 import { requestError } from '@/lib/http';
+
+const navItems = [
+  ['/dashboard', 'Overview', LayoutDashboard],
+  ['/skills', 'My skills', Layers],
+  ['/goals', 'My goals', Target],
+  ['/roadmap', 'Roadmap', Route],
+  ['/plan', 'Weekly plan', CalendarDays],
+  ['/progress', 'Learning logs', BookOpen],
+  ['/mentor', 'Mentor', MessageCircle],
+  ['/certificates', 'Certificates', Award],
+  ['/notifications', 'Notifications', Bell],
+] as const;
 
 export function AccountLayout({ children }: { children: ReactNode }) {
   const [pending, setPending] = useState(false);
@@ -35,39 +49,51 @@ export function AccountLayout({ children }: { children: ReactNode }) {
     <div className="workspace-shell">
       <header className="site-header account-header">
         <Link to="/" className="brand">
-          <span className="brand-mark">
+          <motion.span
+            className="brand-mark"
+            whileHover={{ scale: 1.08, rotate: 5 }}
+            transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+          >
             <ArrowUpRight size={20} />
-          </span>
+          </motion.span>
           linkup<span className="brand-period">.</span>
         </Link>
         <nav aria-label="Your workspace">
           <p className="nav-label">WORKSPACE</p>
-          {(
-            [
-              ['/dashboard', 'Overview', LayoutDashboard],
-              ['/skills', 'My skills', Layers],
-              ['/goals', 'My goals', Target],
-              ['/roadmap', 'Roadmap', Route],
-              ['/plan', 'Weekly plan', CalendarDays],
-              ['/progress', 'Learning logs', BookOpen],
-              ['/mentor', 'Mentor', MessageCircle],
-              ['/certificates', 'Certificates', Award],
-              ['/notifications', 'Notifications', Bell],
-            ] as const
-          ).map(([path, label, Icon]) => {
-            return (
-              <NavLink key={path} to={path}>
-                <Icon size={18} aria-hidden="true" />
-                {label}
-              </NavLink>
-            );
-          })}
+          {navItems.map(([path, label, Icon]) => (
+            <NavLink key={path} to={path}>
+              {({ isActive }) => (
+                <motion.span
+                  className="flex items-center gap-[13px] w-full"
+                  whileHover={{ x: 2 }}
+                  transition={{ duration: 0.15 }}
+                >
+                  <Icon size={18} aria-hidden="true" />
+                  {label}
+                  {isActive && (
+                    <motion.span
+                      className="ml-auto h-1.5 w-1.5 rounded-full bg-[#438b65]"
+                      layoutId="nav-indicator"
+                      transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                    />
+                  )}
+                </motion.span>
+              )}
+            </NavLink>
+          ))}
         </nav>
-        <div className="sidebar-note">
-          <span className="sidebar-note-icon">↗</span>
+        <motion.div
+          className="sidebar-note"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+        >
+          <span className="sidebar-note-icon">
+            <Sparkles size={24} className="text-[#6f8a58]" />
+          </span>
           <strong>Small steps. Real progress.</strong>
           <p>Your next chapter starts with a little time each week.</p>
-        </div>
+        </motion.div>
         <Button variant="outline" onClick={() => void logout()} disabled={pending}>
           <LogOut size={15} aria-hidden="true" />
           {pending ? 'Signing out…' : 'Sign out'}
@@ -76,16 +102,32 @@ export function AccountLayout({ children }: { children: ReactNode }) {
       <div className="workspace-content">
         <div className="workspace-topbar">
           <span>Your learning workspace</span>
-          <span className="workspace-status">
-            <span />
+          <motion.span
+            className="workspace-status"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+          >
+            <motion.span
+              animate={{ scale: [1, 1.3, 1] }}
+              transition={{ repeat: Infinity, duration: 2 }}
+            />
             Learning, at your pace
-          </span>
+          </motion.span>
         </div>
-        {failure && (
-          <p className="form-error" role="alert">
-            {failure}
-          </p>
-        )}
+        <AnimatePresence mode="wait">
+          {failure && (
+            <motion.p
+              className="form-error"
+              role="alert"
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+            >
+              {failure}
+            </motion.p>
+          )}
+        </AnimatePresence>
         {children}
       </div>
     </div>

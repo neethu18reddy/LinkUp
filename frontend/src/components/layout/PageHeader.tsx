@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { motion } from 'framer-motion';
 
 type PageHeaderProps = {
   eyebrow: string;
@@ -16,13 +17,25 @@ export function PageHeader({
   children,
 }: PageHeaderProps) {
   return (
-    <header className={`page-heading ${className}`.trim()}>
+    <motion.header
+      className={`page-heading ${className}`.trim()}
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.45, ease: [0.25, 0.46, 0.45, 0.94] }}
+    >
       <div>
-        <p className="eyebrow">{eyebrow}</p>
+        <motion.p
+          className="eyebrow"
+          initial={{ opacity: 0, x: -8 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.1, duration: 0.35 }}
+        >
+          {eyebrow}
+        </motion.p>
         <h1>{title}</h1>
         {description && <p className="auth-description">{description}</p>}
       </div>
       {children && <div className="page-heading-actions">{children}</div>}
-    </header>
+    </motion.header>
   );
 }
