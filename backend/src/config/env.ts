@@ -1,36 +1,46 @@
 import 'dotenv/config';
 import { z } from 'zod';
 
+const webOrigin = z
+  .url()
+  .refine((value) => {
+    try {
+      const url = new URL(value);
+      return (
+        ['http:', 'https:'].includes(url.protocol) &&
+        !url.username &&
+        !url.password &&
+        !url.search &&
+        !url.hash &&
+        url.pathname === '/'
+      );
+    } catch {
+      return false;
+    }
+  }, 'Use an HTTP(S) origin without credentials or a path.')
+  .transform((value) => new URL(value).origin);
+
 const envSchema = z
   .object({
     NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
     PORT: z.coerce.number().int().min(1).max(65535).default(4000),
     DATABASE_URL: z.url().optional(),
+    SERVE_WEB: z
+      .enum(['true', 'false'])
+      .default('false')
+      .transform((value) => value === 'true'),
+    TRUST_PROXY_HOPS: z.coerce.number().int().min(0).max(5).default(0),
     CRON_SECRET: z.preprocess((value) => value || undefined, z.string().min(32).optional()),
     LOCAL_JOBS_ENABLED: z
       .enum(['true', 'false'])
       .default('false')
       .transform((value) => value === 'true'),
-    PUBLIC_WEB_URL: z
-      .string()
-      .url()
-      .refine((value) => {
-        const url = new URL(value);
-        return (
-          ['http:', 'https:'].includes(url.protocol) &&
-          !url.username &&
-          !url.password &&
-          !url.search &&
-          !url.hash &&
-          url.pathname === '/'
-        );
-      }, 'Use an HTTP(S) origin.')
-      .optional(),
+    PUBLIC_WEB_URL: webOrigin.optional(),
     CLIENT_URL: z
       .string()
       .default('http://localhost:5173,http://127.0.0.1:5173')
       .transform((value) => value.split(',').map((origin) => origin.trim()))
-      .pipe(z.array(z.url()).min(1)),
+      .pipe(z.array(webOrigin).min(1)),
     LOG_LEVEL: z
       .enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'])
       .default('info'),
@@ -53,6 +63,16 @@ const envSchema = z
       });
     }
     if (value.NODE_ENV === 'production') {
+      if (
+        value.SERVE_WEB &&
+        (!value.PUBLIC_WEB_URL || !value.CLIENT_URL.includes(value.PUBLIC_WEB_URL))
+      )
+        ctx.addIssue({
+          code: 'custom',
+          path: ['PUBLIC_WEB_URL'],
+          message:
+            'Serving the production frontend requires a canonical origin included in CLIENT_URL.',
+        });
       for (const key of ['DATABASE_URL', 'JWT_ACCESS_SECRET', 'JWT_REFRESH_SECRET'] as const) {
         if (!value[key])
           ctx.addIssue({ code: 'custom', path: [key], message: 'Required in production.' });

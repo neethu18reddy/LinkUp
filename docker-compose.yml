@@ -27,6 +27,7 @@ services:
       dockerfile: backend/Dockerfile
     environment:
       NODE_ENV: production
+      SERVE_WEB: 'false'
       PORT: 4000
       DATABASE_URL: postgresql://${POSTGRES_USER:-linkup}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-linkup}
       CLIENT_URL: http://localhost:5173,http://127.0.0.1:5173

@@ -367,3 +367,28 @@ frontend/src/features/progress/TaskControl.test.tsx
 frontend/src/pages/VerifyPage.test.tsx
 docs/TESTING.md
 ```
+
+## Phase 12: deployment preparation, API docs and demo data
+
+Prepared a non-root, single-origin Docker runtime, a migration image and a persistent PostgreSQL Compose stack with private environment examples. Added locally hosted read-only Swagger/OpenAPI documentation derived from runtime Zod inputs, static frontend/deep-link handling, explicit proxy configuration and fail-fast production origin validation. The opt-in local/test demo seed writes related illustrative learning data atomically, refuses account collisions/production mode and leaves existing passwords/progress unchanged on reruns. Rewrote the README and added deployment, backup/rollback and demo-recording guidance plus disposable-QA screenshots.
+
+Validation: 215 local tests pass (88 frontend, 127 backend), plus formatting, lint, strict types, Prisma validation and production builds. Thirty-six PostgreSQL tests run in CI, including new demo persistence/idempotency/password-preservation checks. CI also validates Compose configuration, builds runtime/migration images, applies migrations and smoke-tests bundled frontend, Swagger, readiness and account creation. Browser QA confirmed Swagger rendering and the built login page from one origin; it identified a preview CORS-origin mismatch, now documented and guarded for production. Local Docker/PostgreSQL remains unavailable.
+
+The owner explicitly chose hosting later. **Public deployment, live URLs, HTTPS/domain setup, external integrations and video recording/publication remain pending.** No host, paid resource, API integration or public demo account was provisioned. This phase completes reviewable preparation, not a claim that the application is publicly deployed. See [Deployment](DEPLOYMENT.md) and [Demo](DEMO.md).
+
+Phase 12 created files:
+
+```text
+backend/src/docs/openapi.ts
+backend/src/docs/docs.routes.ts
+backend/src/scripts/seed-demo.ts
+backend/src/web.ts
+backend/tests/deployment.test.ts
+backend/tests/demo-seed.database.test.ts
+compose.deploy.yml
+deploy/.env.example
+docs/DEPLOYMENT.md
+docs/DEMO.md
+docs/screenshots/dashboard.png
+docs/screenshots/mentor.png
+```

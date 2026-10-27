@@ -58,3 +58,33 @@ jobs:
           done
           cat /tmp/linkup-api.log
           exit 1
+      - name: Build and verify Docker deployment
+        shell: bash
+        run: |
+          cp deploy/.env.example deploy/.env
+          POSTGRES_PASSWORD=ci-compose-only docker compose --env-file deploy/.env -f compose.deploy.yml config --quiet
+          docker build --target runtime -f backend/Dockerfile -t linkup:ci .
+          docker build --target migrations -f backend/Dockerfile -t linkup:migrations-ci .
+          docker run --rm --network host -e DATABASE_URL linkup:migrations-ci
+          docker run -d --name linkup-smoke --network host \
+            -e DATABASE_URL -e PORT=4100 \
+            -e JWT_ACCESS_SECRET="$(openssl rand -hex 32)" \
+            -e JWT_REFRESH_SECRET="$(openssl rand -hex 32)" \
+            -e CLIENT_URL=http://localhost:4100 \
+            -e PUBLIC_WEB_URL=http://localhost:4100 linkup:ci
+          trap 'docker rm -f linkup-smoke >/dev/null 2>&1 || true' EXIT
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent http://localhost:4100/api/v1/health/ready; then
+              break
+            fi
+            sleep 1
+          done
+          curl --fail --silent http://localhost:4100/api/v1/health/ready
+          curl --fail --silent http://localhost:4100/login | grep -q 'id="root"'
+          curl --fail --silent http://localhost:4100/api/docs/ | grep -q 'swagger-ui'
+          node --input-type=module <<'NODE'
+          import { randomUUID } from 'node:crypto';
+          const response = await fetch('http://localhost:4100/api/v1/auth/register', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Linkup-Request': '1' }, body: JSON.stringify({ name: 'Docker smoke', email: `docker-${randomUUID()}@example.test`, password: 'DockerSmoke!42' }) });
+          if (response.status !== 201) throw new Error(`Docker registration failed (${response.status}).`);
+          console.log('Docker frontend, docs, migrations, database and account creation passed.');
+          NODE

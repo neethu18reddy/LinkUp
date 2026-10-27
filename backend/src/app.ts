@@ -50,6 +50,9 @@ import type { ChatRepository } from './modules/chat/chat.types.js';
 import { ChatService } from './modules/chat/chat.service.js';
 import { chatRoutes } from './modules/chat/chat.routes.js';
 import type { MentorProvider } from './ai/mentor.provider.js';
+import { fileURLToPath } from 'node:url';
+import { documentationRoutes } from './docs/docs.routes.js';
+import { serveWeb } from './web.js';
 import { WeeklyJob } from './jobs/weekly.js';
 import { PrismaNotificationRepository } from './modules/notifications/notifications.repository.js';
 import type { NotificationRepository } from './modules/notifications/notifications.types.js';
@@ -74,6 +77,7 @@ export function createApp(
     progressRepository?: ProgressRepository;
     chatRepository?: ChatRepository;
     mentorProvider?: MentorProvider;
+    webRoot?: string;
     notificationRepository?: NotificationRepository;
     weeklyJob?: WeeklyJob;
     cronSecret?: string;
@@ -82,6 +86,7 @@ export function createApp(
 ) {
   const app = express();
   app.disable('x-powered-by');
+  if (env.TRUST_PROXY_HOPS) app.set('trust proxy', env.TRUST_PROXY_HOPS);
   app.use(helmet());
   app.use(
     cors({
@@ -111,6 +116,7 @@ export function createApp(
   );
   app.use(express.json({ limit: '32kb' }));
   app.use(cookieParser());
+  app.use('/api', documentationRoutes());
   const authService = new AuthService(
     options.authRepository ?? new PrismaAuthRepository(),
     new AuthTokens(options.authSecrets),
@@ -214,6 +220,11 @@ export function createApp(
     }
   });
 
+  if (options.webRoot || env.SERVE_WEB)
+    serveWeb(
+      app,
+      options.webRoot ?? fileURLToPath(new URL('../../frontend/dist/', import.meta.url)),
+    );
   app.use((_req, _res, next) =>
     next(new AppError(404, 'NOT_FOUND', 'This endpoint does not exist.')),
   );
