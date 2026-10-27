@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { AccountLayout } from '@/components/layout/AccountLayout';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { Button } from '@/components/ui/button';
+import { Bot, Plus, Send, Sparkles, Square } from 'lucide-react';
+import { MentorMessage } from '@/features/chat/MentorMessage';
 import { requestError } from '@/lib/http';
 import {
   getSessions,
@@ -24,6 +26,8 @@ const suggestions = [
   'What should I work on next?',
   'Help me review my schedule',
   'How should I approach my project?',
+  'Explain my next topic with an example and a short exercise.',
+  'Quiz me on my current topic, one question at a time.',
 ];
 export function ChatPage() {
   const client = useQueryClient();
@@ -57,6 +61,13 @@ export function ChatPage() {
   const controller = useRef<AbortController | null>(null),
     generation = useRef(0);
   const [lastRequest, setLastRequest] = useState<MessageInput | null>(null);
+  const composer = useRef<HTMLTextAreaElement>(null);
+  const conversation = useRef<HTMLDivElement>(null);
+  const followReply = useRef(true);
+  useEffect(() => {
+    const panel = conversation.current;
+    if (panel && followReply.current) panel.scrollTop = panel.scrollHeight;
+  }, [partial, question, history.data]);
   useEffect(
     () => () => {
       generation.current++;
@@ -109,6 +120,7 @@ export function ChatPage() {
     const abort = new AbortController();
     controller.current = abort;
     setLastRequest(input);
+    followReply.current = true;
     setPending(true);
     setError('');
     setCopied('');
@@ -160,7 +172,7 @@ export function ChatPage() {
   function submit(event: FormEvent) {
     event.preventDefault();
     const message = draft.trim();
-    if (!message || pending) return;
+    if (!message || pending || !ready || remove.isPending) return;
     void send({
       sessionId: selected ?? null,
       requestId: crypto.randomUUID(),
@@ -206,195 +218,299 @@ export function ChatPage() {
   const nextBefore = before === undefined ? history.data?.nextBefore : before;
   return (
     <AccountLayout>
-      <main className="skills-page">
-        <PageHeader eyebrow="A little guidance for your next step" title="Learning mentor" />
-        <p className="mentor-notice">
-          {configuration.data?.mode === 'offline'
-            ? 'Offline guidance is active. Replies use local rules and your saved progress. No messages are sent to external AI services.'
-            : configuration.data
-              ? 'AI mentor is active. Your question, recent chat and anonymised learning context are sent to the configured AI provider. Avoid sharing private information. Replies can be inaccurate; check important explanations.'
-              : configuration.isError
-                ? 'Mentor availability could not be checked. Try reloading before sharing a question.'
-                : 'Checking mentor availability…'}
-        </p>
-        {configuration.isError && (
-          <Button variant="outline" onClick={() => void configuration.refetch()}>
-            Retry mentor availability
-          </Button>
-        )}
-        <section className="skills-card">
-          <div className="form-field">
-            <label htmlFor="mentor-session">Conversation</label>
-            <select
-              id="mentor-session"
-              disabled={pending || sessions.isPending || sessions.isError || remove.isPending}
-              value={selected ?? ''}
-              onChange={(event) => select(event.target.value || null)}
+      <main className="skills-page mentor-page">
+        <PageHeader
+          eyebrow="LEARN WITH A LITTLE COMPANY"
+          title="Your learning mentor"
+          description="Untangle a tricky concept, practise a skill, or find your next small step."
+        />
+        <div className="mentor-workspace">
+          <aside className="mentor-sidebar">
+            <div className="mentor-identity">
+              <span>
+                <Bot size={24} aria-hidden="true" />
+              </span>
+              <div>
+                <strong>linkup mentor</strong>
+                <small>
+                  {configuration.data?.mode === 'offline'
+                    ? 'Offline guidance'
+                    : configuration.data
+                      ? 'AI learning companion'
+                      : 'Connecting…'}
+                </small>
+              </div>
+            </div>
+            <Button
+              variant="outline"
+              disabled={pending || remove.isPending || sessions.isPending || sessions.isError}
+              onClick={() => {
+                select(null);
+                composer.current?.focus();
+              }}
             >
-              <option value="">New conversation</option>
-              {sessions.data?.map((session) => (
-                <option value={session.id} key={session.id}>
-                  {session.title} · {session.updatedAt.slice(0, 16).replace('T', ' ')} UTC
-                </option>
-              ))}
-            </select>
-          </div>
-          {sessions.isPending && <p role="status">Loading conversations…</p>}
-          {sessions.isError && (
-            <>
-              <p role="alert">{requestError(sessions.error)}</p>
-              <Button onClick={() => void sessions.refetch()}>Retry conversations</Button>
-            </>
-          )}
-          {selected && (
-            <>
-              {confirmDelete ? (
-                <div>
-                  <p>Delete this conversation and its saved messages? This cannot be undone.</p>
-                  <Button
-                    disabled={pending || remove.isPending}
-                    onClick={() => remove.mutate(selected)}
-                  >
-                    Confirm delete
-                  </Button>{' '}
-                  <Button
-                    variant="outline"
-                    disabled={remove.isPending}
-                    onClick={() => setConfirmDelete(false)}
-                  >
-                    Cancel
-                  </Button>
-                </div>
-              ) : (
-                <Button
-                  variant="outline"
-                  disabled={pending || remove.isPending}
-                  onClick={() => setConfirmDelete(true)}
-                >
-                  Delete conversation
-                </Button>
-              )}
-              {remove.isError && <p role="alert">{requestError(remove.error)}</p>}
-            </>
-          )}
-        </section>
-        <section className="skills-card" aria-label="Mentor conversation">
-          {selected && history.isPending ? (
-            <p role="status">Loading messages…</p>
-          ) : selected && history.isError ? (
-            <>
-              <p role="alert">{requestError(history.error)}</p>
-              <Button onClick={() => void history.refetch()}>Retry history</Button>
-            </>
-          ) : (
-            <>
-              {!!nextBefore && (
-                <Button
-                  variant="outline"
-                  disabled={pending || loadOlder.isPending}
-                  onClick={() => loadOlder.mutate()}
-                >
-                  {loadOlder.isPending ? 'Loading…' : 'Load earlier messages'}
-                </Button>
-              )}
-              {loadOlder.isError && <p role="alert">{requestError(loadOlder.error)}</p>}
-              {messages.length === 0 && !question && (
-                <p>No messages yet. Ask about your progress, next topic, schedule or project.</p>
-              )}
-              {messages.map((message) => (
-                <article
-                  className={`mentor-message ${message.role === 'USER' ? 'mentor-user' : ''}`}
-                  key={message.id}
-                >
-                  <h2>
-                    {message.role === 'USER'
-                      ? 'You'
-                      : message.mode === 'offline'
-                        ? 'Mentor · offline guidance'
-                        : 'Mentor'}
-                  </h2>
-                  <p>{message.content}</p>
-                  {message.role === 'ASSISTANT' && (
-                    <Button variant="outline" onClick={() => void copy(message)}>
-                      {copied === message.id ? 'Copied' : 'Copy reply'}
-                    </Button>
-                  )}
-                </article>
-              ))}
-              {question && (
-                <article className="mentor-message mentor-user">
-                  <h2>You · awaiting saved reply</h2>
-                  <p>{question}</p>
-                </article>
-              )}
-              {partial && (
-                <article className="mentor-message">
-                  <h2>Mentor · unsaved reply</h2>
-                  <p>{partial}</p>
-                </article>
-              )}
-            </>
-          )}
-          {pending && <p role="status">Preparing and streaming offline guidance…</p>}
-          {error && (
-            <div>
-              <p role="alert">{error}</p>
-              {lastRequest && (
-                <Button disabled={pending} onClick={() => void send(lastRequest)}>
-                  Retry message
-                </Button>
-              )}
-              {selected && (
-                <Button variant="outline" disabled={pending} onClick={() => void reloadHistory()}>
-                  Reload history
-                </Button>
-              )}
-            </div>
-          )}
-        </section>
-        <section className="skills-card">
-          <div className="mentor-suggestions">
-            {suggestions.map((suggestion) => (
-              <Button
-                key={suggestion}
-                variant="outline"
-                disabled={!ready || pending || remove.isPending}
-                onClick={() => setDraft(suggestion)}
-              >
-                {suggestion}
-              </Button>
-            ))}
-          </div>
-          <form onSubmit={submit}>
-            <div className="form-field">
-              <label htmlFor="mentor-message">Your learning question</label>
-              <textarea
-                id="mentor-message"
-                required
-                maxLength={1000}
-                value={draft}
-                disabled={!ready || pending || remove.isPending}
-                onChange={(event) => setDraft(event.target.value)}
-              />
-            </div>
-            <p>
-              Keep questions about learning. Avoid adding personal information. Up to 30 attempts
-              per UTC day.
+              <Plus size={16} aria-hidden="true" />
+              New conversation
+            </Button>
+            <p className="mentor-notice">
+              {configuration.data?.mode === 'offline'
+                ? 'Offline guidance is active. Replies use local rules and your saved progress. No messages are sent to external AI services.'
+                : configuration.data
+                  ? 'AI mentor is active. Your question, recent chat and anonymised learning context are sent to the configured AI provider. Avoid sharing private information. Replies can be inaccurate; check important explanations.'
+                  : configuration.isError
+                    ? 'Mentor availability could not be checked. Try reloading before sharing a question.'
+                    : 'Checking mentor availability…'}
             </p>
-            <Button type="submit" disabled={!ready || pending || !draft.trim() || remove.isPending}>
-              Send message
-            </Button>{' '}
-            {pending && (
-              <Button type="button" variant="outline" onClick={() => controller.current?.abort()}>
-                Stop reply
+            {configuration.isError && (
+              <Button variant="outline" onClick={() => void configuration.refetch()}>
+                Retry mentor availability
               </Button>
             )}
-          </form>
-          <p>
-            <Link to="/roadmap">Review roadmap</Link> · <Link to="/plan">Adjust weekly plan</Link> ·{' '}
-            <Link to="/progress">Learning logs and projects</Link>
-          </p>
-        </section>
+            <section className="mentor-history">
+              <div className="form-field">
+                <label htmlFor="mentor-session">Conversation</label>
+                <select
+                  id="mentor-session"
+                  disabled={pending || sessions.isPending || sessions.isError || remove.isPending}
+                  value={selected ?? ''}
+                  onChange={(event) => select(event.target.value || null)}
+                >
+                  <option value="">New conversation</option>
+                  {sessions.data?.map((session) => (
+                    <option value={session.id} key={session.id}>
+                      {session.title} · {session.updatedAt.slice(0, 16).replace('T', ' ')} UTC
+                    </option>
+                  ))}
+                </select>
+              </div>
+              {sessions.isPending && <p role="status">Loading conversations…</p>}
+              {sessions.isError && (
+                <>
+                  <p role="alert">{requestError(sessions.error)}</p>
+                  <Button onClick={() => void sessions.refetch()}>Retry conversations</Button>
+                </>
+              )}
+              {selected && (
+                <>
+                  {confirmDelete ? (
+                    <div>
+                      <p>Delete this conversation and its saved messages? This cannot be undone.</p>
+                      <Button
+                        disabled={pending || remove.isPending}
+                        onClick={() => remove.mutate(selected)}
+                      >
+                        Confirm delete
+                      </Button>{' '}
+                      <Button
+                        variant="outline"
+                        disabled={remove.isPending}
+                        onClick={() => setConfirmDelete(false)}
+                      >
+                        Cancel
+                      </Button>
+                    </div>
+                  ) : (
+                    <Button
+                      variant="outline"
+                      disabled={pending || remove.isPending}
+                      onClick={() => setConfirmDelete(true)}
+                    >
+                      Delete conversation
+                    </Button>
+                  )}
+                  {remove.isError && <p role="alert">{requestError(remove.error)}</p>}
+                </>
+              )}
+            </section>
+            <div className="mentor-sidebar-tip">
+              <Sparkles size={18} aria-hidden="true" />
+              <p>
+                Try sharing what you have already tried. Your mentor can give more useful feedback
+                on a specific question.
+              </p>
+            </div>
+          </aside>
+          <div className="mentor-main">
+            <section
+              className="mentor-conversation"
+              aria-label="Mentor conversation"
+              ref={conversation}
+              onScroll={() => {
+                const panel = conversation.current;
+                if (panel)
+                  followReply.current =
+                    panel.scrollHeight - panel.scrollTop - panel.clientHeight < 100;
+              }}
+            >
+              {selected && history.isPending ? (
+                <p role="status">Loading messages…</p>
+              ) : selected && history.isError ? (
+                <>
+                  <p role="alert">{requestError(history.error)}</p>
+                  <Button onClick={() => void history.refetch()}>Retry history</Button>
+                </>
+              ) : (
+                <>
+                  {!!nextBefore && (
+                    <Button
+                      variant="outline"
+                      disabled={pending || loadOlder.isPending}
+                      onClick={() => loadOlder.mutate()}
+                    >
+                      {loadOlder.isPending ? 'Loading…' : 'Load earlier messages'}
+                    </Button>
+                  )}
+                  {loadOlder.isError && <p role="alert">{requestError(loadOlder.error)}</p>}
+                  {messages.length === 0 && !question && (
+                    <div className="mentor-welcome">
+                      <span className="mentor-welcome-icon">
+                        <Sparkles size={30} aria-hidden="true" />
+                      </span>
+                      <h2>What will we figure out today?</h2>
+                      <p>
+                        No messages yet. Ask about your progress, next topic, schedule or project.
+                      </p>
+                      <small>Pick a starter below, or tell me where you are stuck.</small>
+                    </div>
+                  )}
+                  {messages.map((message) => (
+                    <article
+                      className={`mentor-message ${message.role === 'USER' ? 'mentor-user' : ''}`}
+                      key={message.id}
+                    >
+                      <h2>
+                        {message.role === 'USER'
+                          ? 'You'
+                          : message.mode === 'offline'
+                            ? 'Mentor · offline guidance'
+                            : 'Mentor'}
+                      </h2>
+                      {message.role === 'ASSISTANT' ? (
+                        <MentorMessage content={message.content} />
+                      ) : (
+                        <p>{message.content}</p>
+                      )}
+                      {message.role === 'ASSISTANT' && (
+                        <Button variant="outline" onClick={() => void copy(message)}>
+                          {copied === message.id ? 'Copied' : 'Copy reply'}
+                        </Button>
+                      )}
+                    </article>
+                  ))}
+                  {question && (
+                    <article className="mentor-message mentor-user">
+                      <h2>You · awaiting saved reply</h2>
+                      <p>{question}</p>
+                    </article>
+                  )}
+                  {partial && (
+                    <article className="mentor-message">
+                      <h2>Mentor · unsaved reply</h2>
+                      <MentorMessage content={partial} />
+                    </article>
+                  )}
+                </>
+              )}
+              {pending && (
+                <p className="mentor-thinking" role="status">
+                  <span aria-hidden="true">●</span>{' '}
+                  {configuration.data?.mode === 'offline'
+                    ? 'Preparing offline guidance…'
+                    : partial
+                      ? 'Writing your reply…'
+                      : 'Thinking through your question…'}
+                </p>
+              )}
+              {error && (
+                <div>
+                  <p role="alert">{error}</p>
+                  {lastRequest && (
+                    <Button disabled={pending} onClick={() => void send(lastRequest)}>
+                      Retry message
+                    </Button>
+                  )}
+                  {selected && (
+                    <Button
+                      variant="outline"
+                      disabled={pending}
+                      onClick={() => void reloadHistory()}
+                    >
+                      Reload history
+                    </Button>
+                  )}
+                </div>
+              )}
+            </section>
+            <section className="mentor-composer">
+              <div className="mentor-suggestions">
+                {suggestions.map((suggestion) => (
+                  <Button
+                    key={suggestion}
+                    variant="outline"
+                    disabled={!ready || pending || remove.isPending}
+                    onClick={() => {
+                      setDraft(suggestion);
+                      composer.current?.focus();
+                    }}
+                  >
+                    {suggestion}
+                  </Button>
+                ))}
+              </div>
+              <form onSubmit={submit}>
+                <div className="form-field">
+                  <label htmlFor="mentor-message">Your learning question</label>
+                  <textarea
+                    ref={composer}
+                    id="mentor-message"
+                    required
+                    maxLength={1000}
+                    value={draft}
+                    disabled={!ready || pending || remove.isPending}
+                    onChange={(event) => setDraft(event.target.value)}
+                    placeholder="Ask for an explanation, a code example, or help with your next task…"
+                    onKeyDown={(event) => {
+                      if (
+                        event.key === 'Enter' &&
+                        (event.ctrlKey || event.metaKey) &&
+                        !event.nativeEvent.isComposing
+                      ) {
+                        event.preventDefault();
+                        event.currentTarget.form?.requestSubmit();
+                      }
+                    }}
+                  />
+                </div>
+                <p className="composer-hint">
+                  {draft.length}/1000 · Ctrl/⌘ + Enter to send · Up to 30 attempts per UTC day.
+                </p>
+                <Button
+                  variant="glow"
+                  type="submit"
+                  disabled={!ready || pending || !draft.trim() || remove.isPending}
+                >
+                  <Send size={16} aria-hidden="true" />
+                  Send message
+                </Button>{' '}
+                {pending && (
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() => controller.current?.abort()}
+                  >
+                    <Square size={14} aria-hidden="true" />
+                    Stop reply
+                  </Button>
+                )}
+              </form>
+              <p>
+                <Link to="/roadmap">Review roadmap</Link> ·{' '}
+                <Link to="/plan">Adjust weekly plan</Link> ·{' '}
+                <Link to="/progress">Learning logs and projects</Link>
+              </p>
+            </section>
+          </div>
+        </div>
       </main>
     </AccountLayout>
   );

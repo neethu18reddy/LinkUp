@@ -594,8 +594,15 @@
   --foreground: #1f302a;
   --primary: #163e30;
   --primary-foreground: #ffffff;
+  --secondary: #046d42;
+  --secondary-glow: #10b981;
+  --accent-cyan: #06b6d4;
   --border: #dfe6e1;
   --radius: 0.75rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {
@@ -725,13 +732,64 @@ h1 span {
 .button-primary {
   background: var(--primary);
   color: var(--primary-foreground);
+  box-shadow: 0 4px 14px rgba(22, 62, 48, 0.25);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .button-primary:hover {
-  background: #24543f;
+  background: #1f503e;
+  box-shadow: 0 6px 20px rgba(22, 62, 48, 0.35);
+  transform: translateY(-1px);
+}
+.button-glow {
+  background: linear-gradient(135deg, #046d42 0%, #10b981 100%);
+  color: #ffffff;
+  border-color: rgba(16, 185, 129, 0.4);
+  box-shadow:
+    0 0 20px rgba(16, 185, 129, 0.45),
+    0 4px 14px rgba(4, 109, 66, 0.3);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+.button-glow:hover {
+  background: linear-gradient(135deg, #035a36 0%, #059669 100%);
+  box-shadow:
+    0 0 28px rgba(16, 185, 129, 0.7),
+    0 8px 22px rgba(4, 109, 66, 0.4);
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+.button-glow:active {
+  transform: translateY(0);
+  box-shadow: 0 0 14px rgba(16, 185, 129, 0.4);
+}
+.button-secondary {
+  background: #ecfdf5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+.button-secondary:hover {
+  background: #d1fae5;
+  color: #047857;
+}
+.button-ghost {
+  background: transparent;
+  color: #374151;
+  border-color: transparent;
+}
+.button-ghost:hover {
+  background: #f3f4f6;
+  color: #111827;
 }
 .button-outline {
   border-color: var(--border);
   background: transparent;
+  transition: all 0.2s ease;
+}
+.button-outline:hover {
+  background: #f0fdf4;
+  border-color: #86efac;
 }
 .button:disabled {
   opacity: 0.6;

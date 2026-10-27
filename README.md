@@ -29,7 +29,7 @@ Knowing where you want to go is one thing. Knowing what to learn next is another
 
 |                                | Your learning companion                                                                                                                 |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 🎯 **Goals that fit you**      | Explore 24 career paths, search the catalogue, try an interest quiz, or add a custom goal.                                              |
+| 🎯 **Goals that fit you**      | Explore 36 career paths, search the catalogue, try an interest quiz, or add a custom goal.                                              |
 | 🧭 **A path forward**          | Compare your skills with role requirements and generate an ordered roadmap with practical projects.                                     |
 | 🗓️ **A manageable week**       | Preview and save Relaxed, Standard, Intensive or Deadline plans. Replan while keeping completed work.                                   |
 | 💬 **A mentor beside you**     | Gemini-powered streaming replies, conversation history, cancellation and retry. Offline guidance is available when live AI is disabled. |

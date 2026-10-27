@@ -2,6 +2,7 @@ import {
   ResponsiveContainer,
   BarChart,
   Bar,
+  CartesianGrid,
   XAxis,
   YAxis,
   Tooltip,
@@ -15,9 +16,19 @@ import type { ProgressSummary } from './progress.api';
 export function ProgressCharts({ data }: { data: ProgressSummary }) {
   return (
     <div className="progress-charts">
-      <section className="skills-card">
+      <section className="skills-card activity-chart">
+        <span className="section-kicker">CONSISTENCY OVER PERFECTION</span>
         <h2>Learning time</h2>
+        <div className="chart-total">
+          <strong>{data.loggedMinutesLast7Days}</strong>
+          <span>minutes this week</span>
+        </div>
         <p>Minutes logged across all goals, last seven UTC days.</p>
+        {!data.daily.some((day) => day.minutes > 0) && (
+          <p className="chart-empty">
+            Your first session starts the story. Log a few minutes of learning to see it here.
+          </p>
+        )}
         <ResponsiveContainer
           width="100%"
           height={220}
@@ -25,10 +36,33 @@ export function ProgressCharts({ data }: { data: ProgressSummary }) {
           initialDimension={{ width: 320, height: 220 }}
         >
           <BarChart data={data.daily} accessibilityLayer>
-            <XAxis dataKey="date" tickFormatter={(date) => String(date).slice(5)} />
-            <YAxis />
-            <Tooltip />
-            <Bar dataKey="minutes" fill="#285b46" isAnimationActive={false} />
+            <CartesianGrid vertical={false} stroke="#e8eee9" strokeDasharray="4 4" />
+            <XAxis
+              dataKey="date"
+              tickFormatter={(date) => String(date).slice(5)}
+              axisLine={false}
+              tickLine={false}
+              tick={{ fill: '#627568', fontSize: 11 }}
+            />
+            <YAxis
+              axisLine={false}
+              tickLine={false}
+              allowDecimals={false}
+              tick={{ fill: '#627568', fontSize: 11 }}
+              width={35}
+            />
+            <Tooltip
+              cursor={{ fill: '#eff5ed' }}
+              contentStyle={{ borderRadius: 14, borderColor: '#dce7dc' }}
+            />
+            <Bar
+              dataKey="minutes"
+              name="Minutes learned"
+              fill="#438b65"
+              radius={[7, 7, 0, 0]}
+              maxBarSize={36}
+              isAnimationActive={false}
+            />
           </BarChart>
         </ResponsiveContainer>
         <details>
@@ -42,7 +76,8 @@ export function ProgressCharts({ data }: { data: ProgressSummary }) {
           </ul>
         </details>
       </section>
-      <section className="skills-card">
+      <section className="skills-card skill-chart">
+        <span className="section-kicker">BUILDING YOUR FOUNDATION</span>
         <h2>Skill progress</h2>
         <p>
           Completed roadmap hours by skill; this is learning progress, not a proficiency assessment.
@@ -75,10 +110,14 @@ export function ProgressCharts({ data }: { data: ProgressSummary }) {
               : 'Generate a roadmap to see skill progress.'}
           </p>
         )}
-        <ul>
+        <ul className="skill-progress-list">
           {data.skills.map((skill) => (
             <li key={skill.skillId}>
-              {skill.name}: {skill.percent}%
+              <div>
+                <span>{skill.name}</span>
+                <strong>{skill.percent}%</strong>
+              </div>
+              <progress aria-label={`${skill.name} completion`} value={skill.percent} max={100} />
             </li>
           ))}
         </ul>

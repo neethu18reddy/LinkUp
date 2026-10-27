@@ -359,7 +359,7 @@ export function GoalsPage() {
                     </p>
                   )}
                   {!review && (
-                    <Button type="submit" disabled={!ready || save.isPending}>
+                    <Button variant="glow" type="submit" disabled={!ready || save.isPending}>
                       Review goal
                     </Button>
                   )}
@@ -384,7 +384,11 @@ export function GoalsPage() {
                   >
                     Keep editing
                   </Button>
-                  <Button disabled={save.isPending} onClick={() => save.mutate(review)}>
+                  <Button
+                    variant="glow"
+                    disabled={save.isPending}
+                    onClick={() => save.mutate(review)}
+                  >
                     {save.isPending ? 'Saving goal…' : 'Confirm goal'}
                   </Button>
                 </div>
