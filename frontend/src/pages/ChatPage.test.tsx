@@ -5,6 +5,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { beforeEach, describe, it, expect, vi } from 'vitest';
 import {
   getSessions,
+  getMentorConfig,
   getHistory,
   deleteHistory,
   streamMessage,
@@ -15,6 +16,7 @@ import { ChatPage } from './ChatPage';
 vi.mock('@/features/chat/chat.api', async (original) => ({
   ...(await original<typeof import('@/features/chat/chat.api')>()),
   getSessions: vi.fn(),
+  getMentorConfig: vi.fn(),
   getHistory: vi.fn(),
   deleteHistory: vi.fn(),
   streamMessage: vi.fn(),
@@ -37,6 +39,7 @@ function mount() {
 beforeEach(() => {
   vi.resetAllMocks();
   vi.mocked(getSessions).mockResolvedValue([]);
+  vi.mocked(getMentorConfig).mockResolvedValue({ mode: 'offline' });
   vi.mocked(getHistory).mockResolvedValue({
     session: chatSession,
     messages: chatMessages,
@@ -56,6 +59,22 @@ beforeEach(() => {
   });
 });
 describe('Mentor conversation UI', () => {
+  it('discloses external processing when the server enables AI', async () => {
+    vi.mocked(getMentorConfig).mockResolvedValue({ mode: 'groq' });
+    mount();
+    expect(await screen.findByText(/AI mentor is active/)).toHaveTextContent(
+      'anonymised learning context',
+    );
+    expect(screen.queryByText(/Offline guidance is active/)).not.toBeInTheDocument();
+  });
+  it('keeps sending disabled when provider mode cannot be checked', async () => {
+    vi.mocked(getMentorConfig).mockRejectedValue(new Error('Offline'));
+    mount();
+    expect(
+      await screen.findByRole('button', { name: 'Retry mentor availability' }),
+    ).toBeInTheDocument();
+    expect(streamMessage).not.toHaveBeenCalled();
+  });
   it('ignores an earlier-history response after switching conversations', async () => {
     const user = userEvent.setup(),
       second = {
@@ -94,7 +113,7 @@ describe('Mentor conversation UI', () => {
   it('labels offline mode and fills suggestions without sending automatically', async () => {
     const user = userEvent.setup();
     mount();
-    expect(screen.getByText(/Offline guidance is active/)).toBeInTheDocument();
+    expect(await screen.findByText(/Offline guidance is active/)).toBeInTheDocument();
     await user.click(await screen.findByRole('button', { name: 'What should I work on next?' }));
     expect(screen.getByLabelText('Your learning question')).toHaveValue(
       'What should I work on next?',

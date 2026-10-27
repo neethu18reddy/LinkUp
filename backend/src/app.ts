@@ -50,6 +50,7 @@ import type { ChatRepository } from './modules/chat/chat.types.js';
 import { ChatService } from './modules/chat/chat.service.js';
 import { chatRoutes } from './modules/chat/chat.routes.js';
 import type { MentorProvider } from './ai/mentor.provider.js';
+import { configuredMentorProvider } from './ai/mentor.groq.js';
 import { fileURLToPath } from 'node:url';
 import { documentationRoutes } from './docs/docs.routes.js';
 import { serveWeb } from './web.js';
@@ -146,7 +147,7 @@ export function createApp(
         options.chatRepository ?? new PrismaChatRepository(),
         options.progressRepository ?? new PrismaProgressRepository(),
         options.skillsRepository ?? new PrismaSkillsRepository(),
-        options.mentorProvider,
+        options.mentorProvider ?? configuredMentorProvider(),
       ),
       authService,
     ),

@@ -41,4 +41,14 @@ The build compiles both workspaces, then runs Prisma migrations through the dire
 
 ## External feature setup
 
+### AI mentor and roadmaps
+
+1. Sign in at [Groq Console](https://console.groq.com/) and open [API keys](https://console.groq.com/keys). Create a key for linkup. Keep the account on its free tier; do not add billing or enable a paid model unless you later choose to pay.
+2. In Vercel's private Production Environment settings, set `GROQ_API_KEY` to that key and `LLM_MODEL` to a text model available to your account. Confirm its access and free quota in the provider console; model availability can change. See [supported models](https://console.groq.com/docs/models).
+3. Set `LLM_PROVIDER=groq` and `LLM_LIVE_CALLS_APPROVED=true`, then redeploy. These same settings enable the approved roadmap and mentor adapters. A key alone does not enable external calls.
+4. Verify the mentor page reports AI mode before sending an ordinary test learning question. Questions, recent history and anonymised learning context go to Groq. Do not send credentials or private information.
+5. If quota or provider availability is exhausted, the mentor returns a safe retry error; roadmap generation can use its validated template fallback. Switch `LLM_PROVIDER=disabled` and redeploy to restore fully offline guidance.
+
+The mentor adapter is implemented and tested with mocked streaming, bounded output, cancellation and safe provider errors. No live API call has been made without valid owner-supplied configuration. AI free quotas are separate from free app hosting.
+
 The provider code and exact callback/environment details are being completed separately. Do not enable a provider flag before its corresponding code, credentials and configuration checks are ready. You will need to create a provider account/API key for AI, verify an email sender with the email provider, and create a Google OAuth web application. Secrets stay in private platform Environment settings.

@@ -18,6 +18,9 @@ export class ChatService {
     private skills: SkillsRepository,
     private provider: MentorProvider = new OfflineMentorProvider(),
   ) {}
+  configuration() {
+    return { mode: this.provider.mode };
+  }
   sessions(userId: string) {
     return this.repository.sessions(userId);
   }

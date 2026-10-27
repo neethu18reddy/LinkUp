@@ -206,18 +206,30 @@ add('post', '/projects', 'Progress', 'Upsert project evidence', {
     'Requires a public HTTPS link without credentials or notes of at least ten characters. Evidence is learner-reported.',
 });
 add('get', '/chat/sessions', 'Mentor', 'List conversations');
+add(
+  'get',
+  '/chat/config',
+  'Mentor',
+  'Read active mentor mode without exposing provider credentials',
+);
 add('get', '/chat/history', 'Mentor', 'Read ordered history', { query: historySchema });
 add('delete', '/chat/history', 'Mentor', 'Permanently delete owned history', {
   body: deleteHistorySchema,
   description:
     'sessionId selects one conversation; {} deletes all owned history. The UI requires confirmation.',
 });
-add('post', '/chat/message', 'Mentor', 'Stream offline mentor reply', {
-  body: messageSchema,
-  media: 'text/event-stream',
-  description:
-    'POST SSE via authenticated fetch (not EventSource). Events: meta, delta, done, error. New session: sessionId:null, expectedVersion:0. Reuse requestId to replay saved pairs. 30 turns/user/UTC day, 10/minute. Abort fetch to stop. Errors after headers are SSE error events.',
-});
+add(
+  'post',
+  '/chat/message',
+  'Mentor',
+  'Stream a mentor reply in the configured offline or AI mode',
+  {
+    body: messageSchema,
+    media: 'text/event-stream',
+    description:
+      'POST SSE via authenticated fetch (not EventSource). Events: meta, delta, done, error. New session: sessionId:null, expectedVersion:0. Reuse requestId to replay saved pairs. 30 turns/user/UTC day, 10/minute. Abort fetch to stop. Errors after headers are SSE error events.',
+  },
+);
 add('get', '/certificates', 'Certificates', 'List certificates and eligibility');
 add('post', '/certificates/issue', 'Certificates', 'Issue certificate idempotently', {
   body: z.strictObject({ roadmapId: uuid, publishAcknowledged: z.literal(true) }),

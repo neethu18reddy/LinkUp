@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import {
   getSessions,
+  getMentorConfig,
   getHistory,
   deleteHistory,
   streamMessage,
@@ -25,6 +26,11 @@ const suggestions = [
 ];
 export function ChatPage() {
   const client = useQueryClient();
+  const configuration = useQuery({
+    queryKey: ['mentor-config'],
+    queryFn: getMentorConfig,
+    retry: false,
+  });
   const sessions = useQuery({ queryKey: sessionsKey, queryFn: getSessions, retry: false });
   const [selection, setSelected] = useState<string | null | undefined>(undefined);
   const selected =
@@ -188,6 +194,7 @@ export function ChatPage() {
     }
   }
   const ready =
+    !!configuration.data &&
     !sessions.isPending &&
     !sessions.isError &&
     selected !== undefined &&
@@ -202,9 +209,19 @@ export function ChatPage() {
         <p className="eyebrow">A little guidance for your next step</p>
         <h1>Learning mentor</h1>
         <p className="mentor-notice">
-          Offline guidance is active. Replies use local rules and your saved progress; detailed AI
-          explanations are deferred. No messages are sent to external AI services.
+          {configuration.data?.mode === 'offline'
+            ? 'Offline guidance is active. Replies use local rules and your saved progress. No messages are sent to external AI services.'
+            : configuration.data
+              ? 'AI mentor is active. Your question, recent chat and anonymised learning context are sent to the configured AI provider. Avoid sharing private information. Replies can be inaccurate; check important explanations.'
+              : configuration.isError
+                ? 'Mentor availability could not be checked. Try reloading before sharing a question.'
+                : 'Checking mentor availability…'}
         </p>
+        {configuration.isError && (
+          <Button variant="outline" onClick={() => void configuration.refetch()}>
+            Retry mentor availability
+          </Button>
+        )}
         <section className="skills-card">
           <div className="form-field">
             <label htmlFor="mentor-session">Conversation</label>

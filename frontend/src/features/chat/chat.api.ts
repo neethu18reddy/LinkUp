@@ -51,6 +51,9 @@ const eventSchema = z.discriminatedUnion('event', [
 export type MentorEvent = z.infer<typeof eventSchema>;
 export class MentorError extends Error {}
 export const sessionsKey = ['mentor-sessions'] as const;
+export async function getMentorConfig() {
+  return z.object({ mode: z.string() }).parse((await api.get('/chat/config')).data.data);
+}
 export const historyKey = (id: string) => ['mentor-history', id] as const;
 export async function getSessions() {
   return z.array(sessionSchema).parse((await api.get('/chat/sessions')).data.data.sessions);

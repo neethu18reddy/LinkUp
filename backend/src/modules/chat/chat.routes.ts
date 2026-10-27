@@ -4,6 +4,7 @@ import { rateLimit } from 'express-rate-limit';
 import { requireAuth } from '../../middleware/requireAuth.js';
 import { validate } from '../../middleware/validate.js';
 import { failure } from '../../utils/response.js';
+import { success } from '../../utils/response.js';
 import type { AuthService } from '../auth/auth.service.js';
 import type { ChatService } from './chat.service.js';
 import { messageSchema, historySchema, deleteHistorySchema } from './chat.schemas.js';
@@ -17,6 +18,7 @@ export function chatRoutes(service: ChatService, auth: AuthService) {
     next();
   });
   router.get('/chat/sessions', empty, controller.sessions);
+  router.get('/chat/config', empty, (_req, res) => res.json(success(service.configuration())));
   router.get('/chat/history', validate(historySchema, 'query'), controller.history);
   router.delete('/chat/history', empty, validate(deleteHistorySchema), controller.delete);
   router.post(
