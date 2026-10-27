@@ -1,5 +1,15 @@
 # linkup build progress
 
+## Gemini provider follow-up
+
+The owner selected Google Gemini in place of Groq. Added Gemini mentor streaming
+and JSON roadmap generation through Google's official compatibility endpoint,
+using the existing bounded client, cancellation, safe errors and schema validation.
+Both explicit provider/approval switches remain required. No new dependency or
+database migration is needed. Added five mocked transport/configuration tests;
+all 160 backend unit/API tests pass. Live Gemini requests still require the owner
+to configure the private key and an available model in Vercel and redeploy.
+
 Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the UI minimal. Ask the owner before any external API integration. Commit and push after every completed phase, then wait for confirmation before starting the next phase.
 
 | Phase | Scope                                                   | Status                                          |

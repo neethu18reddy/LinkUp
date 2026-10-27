@@ -43,6 +43,30 @@ The build compiles both workspaces, then runs Prisma migrations through the dire
 
 ### AI mentor and roadmaps
 
+#### Gemini (selected provider)
+
+1. Create a Gemini API key in [Google AI Studio](https://aistudio.google.com/apikey).
+   Confirm the project has free-tier access and keep paid billing disabled for this demo.
+2. In Vercel's private **Production** environment settings, set `GEMINI_API_KEY`
+   to that key, `LLM_PROVIDER=gemini`, `LLM_LIVE_CALLS_APPROVED=true`, and
+   `LLM_MODEL=gemini-3.1-flash-lite` if that text model is available to your account.
+   Check the current [models](https://ai.google.dev/gemini-api/docs/models) and
+   [free quotas/pricing](https://ai.google.dev/gemini-api/docs/pricing); availability changes.
+3. Redeploy the latest `main` commit after saving the settings. Do not put this
+   key in `GROQ_API_KEY`, any `VITE_` variable, chat, screenshots or Git.
+4. Confirm `/api/v1/auth/options` reports `mentorMode: "gemini"`, then test
+   a simple mentor question and a career-role roadmap. Learner questions, recent
+   history and anonymised context are sent to Google. Free-tier data handling
+   follows Google's terms; avoid private information.
+
+Gemini uses Google's official OpenAI-compatible endpoint through the existing
+client. Both provider/approval switches are required; offline mode stays the
+default. Structured output is validated before storage, with template fallback.
+Custom goals without catalogue skill requirements retain their general starter roadmap.
+Google OAuth credentials are separate from the Gemini API key.
+
+#### Groq (alternative)
+
 1. Sign in at [Groq Console](https://console.groq.com/) and open [API keys](https://console.groq.com/keys). Create a key for linkup. Keep the account on its free tier; do not add billing or enable a paid model unless you later choose to pay.
 2. In Vercel's private Production Environment settings, set `GROQ_API_KEY` to that key and `LLM_MODEL` to a text model available to your account. Confirm its access and free quota in the provider console; model availability can change. See [supported models](https://console.groq.com/docs/models).
 3. Set `LLM_PROVIDER=groq` and `LLM_LIVE_CALLS_APPROVED=true`, then redeploy. These same settings enable the approved roadmap and mentor adapters. A key alone does not enable external calls.

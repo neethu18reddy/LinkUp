@@ -44,13 +44,14 @@ const envSchema = z
     LOG_LEVEL: z
       .enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'])
       .default('info'),
-    LLM_PROVIDER: z.enum(['disabled', 'groq']).default('disabled'),
+    LLM_PROVIDER: z.enum(['disabled', 'groq', 'gemini']).default('disabled'),
     LLM_LIVE_CALLS_APPROVED: z
       .enum(['true', 'false'])
       .default('false')
       .transform((value) => value === 'true'),
     LLM_MODEL: z.string().default(''),
     GROQ_API_KEY: z.string().optional(),
+    GEMINI_API_KEY: z.string().optional(),
     EMAIL_PROVIDER: z.enum(['disabled', 'brevo']).default('disabled'),
     EMAIL_LIVE_CALLS_APPROVED: z
       .enum(['true', 'false'])

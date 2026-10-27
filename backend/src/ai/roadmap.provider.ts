@@ -7,25 +7,33 @@ export interface LLMProvider {
   readonly name: string;
   generate(prompt: string): Promise<string>;
 }
-export class GroqProvider implements LLMProvider {
-  readonly name = 'groq';
+class CompatibleRoadmapProvider implements LLMProvider {
   private client: OpenAI;
   constructor(
     key: string,
     private model: string,
+    readonly name: 'groq' | 'gemini' = 'groq',
+    client?: OpenAI,
   ) {
-    this.client = new OpenAI({
-      apiKey: key,
-      baseURL: 'https://api.groq.com/openai/v1',
-      timeout: 20_000,
-      maxRetries: 0,
-    });
+    this.client =
+      client ??
+      new OpenAI({
+        apiKey: key,
+        baseURL:
+          name === 'gemini'
+            ? 'https://generativelanguage.googleapis.com/v1beta/openai/'
+            : 'https://api.groq.com/openai/v1',
+        timeout: 20_000,
+        maxRetries: 0,
+      });
   }
   async generate(prompt: string) {
     const response = await this.client.chat.completions.create({
       model: this.model,
       temperature: 0.2,
-      max_completion_tokens: 6000,
+      ...(this.name === 'gemini'
+        ? { max_tokens: 6000, reasoning_effort: 'low' as const }
+        : { max_completion_tokens: 6000 }),
       response_format: { type: 'json_object' },
       messages: [
         {
@@ -39,9 +47,20 @@ export class GroqProvider implements LLMProvider {
     return response.choices[0]?.message.content ?? '';
   }
 }
+export class GroqProvider extends CompatibleRoadmapProvider {}
+export class GeminiProvider extends CompatibleRoadmapProvider {
+  constructor(key: string, model: string, client?: OpenAI) {
+    super(key, model, 'gemini', client);
+  }
+}
 export function configuredProvider(): LLMProvider | undefined {
   // Two explicit switches; a key alone cannot turn on network access.
-  if (env.LLM_PROVIDER !== 'groq' || !env.LLM_LIVE_CALLS_APPROVED) return undefined;
+  if (env.LLM_PROVIDER === 'disabled' || !env.LLM_LIVE_CALLS_APPROVED) return undefined;
+  if (env.LLM_PROVIDER === 'gemini') {
+    if (!env.GEMINI_API_KEY || !env.LLM_MODEL)
+      throw new Error('Approved Gemini requires a key and model.');
+    return new GeminiProvider(env.GEMINI_API_KEY, env.LLM_MODEL);
+  }
   if (!env.GROQ_API_KEY || !env.LLM_MODEL)
     throw new Error('Approved Groq requires a key and model.');
   return new GroqProvider(env.GROQ_API_KEY, env.LLM_MODEL);
