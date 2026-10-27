@@ -12,21 +12,30 @@ The owner approved free hosting, AI mentor/roadmaps, email features and Google l
 
 ## Private Vercel environment settings
 
-| Field                   | Value                                                                         |
-| ----------------------- | ----------------------------------------------------------------------------- |
-| DATABASE_URL            | Neon pooled connection string with TLS enabled                                |
-| DATABASE_URL_UNPOOLED   | Neon direct connection string for checked-in migrations                       |
-| JWT_ACCESS_SECRET       | A new cryptographically random secret, at least 32 characters                 |
-| JWT_REFRESH_SECRET      | A different new random secret, at least 32 characters                         |
-| NODE_ENV                | production                                                                    |
-| SERVE_WEB               | false (Vercel CDN serves frontend assets)                                     |
-| TRUST_PROXY_HOPS        | 1; verify against the actual platform forwarding behavior during smoke checks |
-| PUBLIC_WEB_URL          | Exact production HTTPS origin, e.g. https://your-project.vercel.app           |
-| CLIENT_URL              | The same exact production HTTPS origin                                        |
-| VITE_API_BASE_URL       | /api/v1                                                                       |
-| LLM_PROVIDER            | disabled until AI credentials are configured                                  |
-| LLM_LIVE_CALLS_APPROVED | false until AI credentials are configured                                     |
-| LOCAL_JOBS_ENABLED      | false; serverless deployments need request-triggered scheduled jobs           |
+| Field                     | Value                                                                         |
+| ------------------------- | ----------------------------------------------------------------------------- |
+| DATABASE_URL              | Neon pooled connection string with TLS enabled                                |
+| DATABASE_URL_UNPOOLED     | Neon direct connection string for checked-in migrations                       |
+| JWT_ACCESS_SECRET         | A new cryptographically random secret, at least 32 characters                 |
+| JWT_REFRESH_SECRET        | A different new random secret, at least 32 characters                         |
+| NODE_ENV                  | production                                                                    |
+| SERVE_WEB                 | false (Vercel CDN serves frontend assets)                                     |
+| TRUST_PROXY_HOPS          | 1; verify against the actual platform forwarding behavior during smoke checks |
+| PUBLIC_WEB_URL            | https://linkup-seven-gamma.vercel.app                                         |
+| CLIENT_URL                | https://linkup-seven-gamma.vercel.app                                         |
+| VITE_API_BASE_URL         | /api/v1                                                                       |
+| GEMINI_API_KEY            | Private key from Google AI Studio                                             |
+| LLM_PROVIDER              | gemini                                                                        |
+| LLM_MODEL                 | gemini-3.1-flash-lite (only if available in your AI Studio project)           |
+| LLM_LIVE_CALLS_APPROVED   | true only after you choose to enable live Gemini requests                     |
+| BREVO_API_KEY             | Private transactional API key, after Brevo sender verification                |
+| EMAIL_FROM                | The exact sender address verified in Brevo                                    |
+| EMAIL_PROVIDER            | brevo                                                                         |
+| EMAIL_LIVE_CALLS_APPROVED | true only after you choose to send verification/reset/reminder email          |
+| GOOGLE_CLIENT_ID          | OAuth Web client ID from Google Cloud                                         |
+| GOOGLE_CLIENT_SECRET      | Private OAuth Web client secret                                               |
+| GOOGLE_OAUTH_ENABLED      | true only after Google OAuth redirect setup is complete                       |
+| LOCAL_JOBS_ENABLED        | false; serverless deployments need request-triggered scheduled jobs           |
 
 The origin can default to Vercel's platform-provided stable production URL. Explicit PUBLIC_WEB_URL and CLIENT_URL are recommended for a custom domain. Never derive allowed origins from an incoming Host header. Preview URLs are not automatically trusted.
 
@@ -47,8 +56,9 @@ The build compiles both workspaces, then runs Prisma migrations through the dire
 
 1. Create a Gemini API key in [Google AI Studio](https://aistudio.google.com/apikey).
    Confirm the project has free-tier access and keep paid billing disabled for this demo.
-2. In Vercel's private **Production** environment settings, set `GEMINI_API_KEY`
-   to that key, `LLM_PROVIDER=gemini`, `LLM_LIVE_CALLS_APPROVED=true`, and
+2. In Vercel → **linkup** → **Settings → Environment Variables**, edit the existing
+   `GEMINI_API_KEY` entry for **Production** (do not create a duplicate), and set
+   `LLM_PROVIDER=gemini`, `LLM_LIVE_CALLS_APPROVED=true`, and
    `LLM_MODEL=gemini-3.1-flash-lite` if that text model is available to your account.
    Check the current [models](https://ai.google.dev/gemini-api/docs/models) and
    [free quotas/pricing](https://ai.google.dev/gemini-api/docs/pricing); availability changes.
@@ -89,7 +99,7 @@ Unknown and registered email addresses receive the same public reset-request mes
 
 1. Open [Google Cloud Console](https://console.cloud.google.com/) and create/select a project called `linkup`. Open **Google Auth Platform**.
 2. Configure **Branding** with the app name `linkup` and your support/developer email. Choose **External** audience. For a personal demo, keep Testing status and add the people who will test Google login under **Test users**.
-3. Under **Clients**, create an OAuth client of type **Web application**. Set its authorized redirect URI to exactly `https://YOUR-APP.vercel.app/api/v1/auth/google/callback`, replacing the host with the real production host. Do not use a frontend route or a wildcard. If an authorized JavaScript origin is requested, enter only `https://YOUR-APP.vercel.app`.
+3. Under **Clients**, create an OAuth client of type **Web application**. Set its authorized redirect URI to exactly `https://linkup-seven-gamma.vercel.app/api/v1/auth/google/callback`. Do not use a frontend route or a wildcard. If an authorized JavaScript origin is requested, enter only `https://linkup-seven-gamma.vercel.app`.
 4. Copy the client ID and client secret privately into Vercel as `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`, then set `GOOGLE_OAUTH_ENABLED=true` and redeploy. The secret never belongs in a `VITE_` variable.
 5. Use **Continue with Google** on the login/register page. Test with an account whose email is not already registered through a password. Existing password accounts are deliberately not silently linked by matching email; use password login/recovery for those accounts.
 6. To support Google users beyond your test-user list, complete Google's publishing/verification prompts as required. This owner-controlled console step cannot be completed by source code alone.
