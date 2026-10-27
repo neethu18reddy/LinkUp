@@ -16,6 +16,7 @@ import {
   type GoalInput,
 } from '@/features/goals/goals.api';
 import { InterestQuiz } from '@/features/goals/InterestQuiz';
+import { PageHeader } from '@/components/layout/PageHeader';
 import { levelLabels } from '@/features/skills/skills.api';
 import { ArrowRight, Plus, Search, Target, Check } from 'lucide-react';
 
@@ -92,14 +93,18 @@ export function GoalsPage() {
     <AccountLayout>
       <main className="dashboard-main goals-page">
         <LearningSteps />
-        <p className="eyebrow">YOUR NEXT DIRECTION</p>
-        <h1>Where do you want to go?</h1>
-        <p className="auth-description">
-          Find your next challenge. Choose a career path or create a goal of your own.{' '}
-          <Link className="text-link" to="/skills">
-            Review your skills
-          </Link>
-        </p>
+        <PageHeader
+          eyebrow="YOUR NEXT DIRECTION"
+          title="Where do you want to go?"
+          description={
+            <>
+              Find your next challenge. Choose a career path or create a goal of your own.{' '}
+              <Link className="text-link" to="/skills">
+                Review your skills
+              </Link>
+            </>
+          }
+        />
         <section className="skills-card current-goal" aria-labelledby="current-goal-title">
           <h2 id="current-goal-title">Your current goal</h2>
           {current.isPending ? (

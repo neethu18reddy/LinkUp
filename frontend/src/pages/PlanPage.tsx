@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { PageHeader } from '@/components/layout/PageHeader';
 import { LearningSteps } from '@/components/layout/LearningSteps';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
@@ -224,11 +225,11 @@ export function PlanPage() {
     <AccountLayout>
       <main className="skills-page">
         <LearningSteps />
-        <p className="eyebrow">A pace you can keep</p>
-        <h1>Weekly plan</h1>
-        <p className="auth-description">
-          Big goals, manageable weeks. A schedule that fits your life, with room to adjust.
-        </p>
+        <PageHeader
+          eyebrow="A pace you can keep"
+          title="Weekly plan"
+          description="Big goals, manageable weeks. A schedule that fits your life, with room to adjust."
+        />
         {roadmap.isPending ? (
           <p role="status">Loading your roadmap…</p>
         ) : roadmap.isError ? (

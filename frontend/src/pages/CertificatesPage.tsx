@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { PageHeader } from '@/components/layout/PageHeader';
 import { Button } from '@/components/ui/button';
 import {
   getCertificates,
@@ -26,9 +27,11 @@ export function CertificatesPage() {
   return (
     <AccountLayout>
       <main className="skills-page">
-        <p className="eyebrow">Your achievements</p>
-        <h1>Certificates</h1>
-        <p>Complete every topic and submit each required project to unlock your certificate.</p>
+        <PageHeader
+          eyebrow="Your achievements"
+          title="Certificates"
+          description="Complete every topic and submit each required project to unlock your certificate."
+        />
         <p className="field-hint">
           These certificates record learner-reported completion and planned learning hours. They are
           not accredited qualifications.

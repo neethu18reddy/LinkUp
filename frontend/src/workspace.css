@@ -128,6 +128,30 @@
   margin: 0 auto;
   padding: 36px 44px 70px;
 }
+.page-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+.page-heading > div:first-child {
+  min-width: 0;
+}
+.page-heading h1 {
+  margin: 0;
+}
+.page-heading .eyebrow {
+  margin: 0 0 10px;
+}
+.page-heading .auth-description {
+  margin: 12px 0 0;
+}
+.page-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .workspace-content h1 {
   font-size: clamp(27px, 3vw, 38px);
   letter-spacing: -1.3px;
@@ -189,6 +213,18 @@
   background: #fdfefb;
   font: inherit;
   font-size: 13px;
+}
+.workspace-shell :is(a, button, input, select, textarea, summary):focus-visible {
+  outline: 3px solid #83a576;
+  outline-offset: 3px;
+}
+.workspace-shell .account-header nav a {
+  transition:
+    background-color 140ms ease,
+    color 140ms ease;
+}
+.workspace-shell .account-header nav a.active {
+  box-shadow: inset 3px 0 #638a4f;
 }
 .workspace-content .field-hint {
   font-size: 11px !important;
@@ -534,7 +570,8 @@
     display: block;
   }
   .workspace-shell .account-header {
-    position: static;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: auto;
     padding: 18px 22px !important;
@@ -553,6 +590,9 @@
     order: 3;
     width: 100%;
     overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+    scrollbar-color: #c8d6c4 transparent;
     margin: 0;
     gap: 3px;
   }
@@ -572,6 +612,9 @@
   }
   .workspace-content {
     margin-left: 0;
+  }
+  .page-heading {
+    align-items: flex-start;
   }
   .workspace-topbar {
     height: 50px;
@@ -595,6 +638,16 @@
   }
   .workspace-content .skills-card {
     padding: 20px;
+  }
+  .page-heading {
+    display: block;
+    margin-bottom: 22px;
+  }
+  .page-heading-actions {
+    margin-top: 16px;
+  }
+  .workspace-content .auth-description {
+    margin-bottom: 22px;
   }
   .goal-grid {
     grid-template-columns: 1fr;
@@ -631,6 +684,17 @@
   .custom-goal-callout > div {
     flex: 1;
     min-width: 150px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .workspace-shell *,
+  .workspace-shell *::before,
+  .workspace-shell *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 

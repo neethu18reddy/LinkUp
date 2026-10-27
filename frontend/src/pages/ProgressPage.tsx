@@ -2,6 +2,7 @@ import { useRef, useState, type FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { useInfiniteQuery, useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { PageHeader } from '@/components/layout/PageHeader';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import {
@@ -84,8 +85,11 @@ export function ProgressPage() {
   return (
     <AccountLayout>
       <main className="skills-page">
-        <p className="eyebrow">Small steps, recorded</p>
-        <h1>Learning and projects</h1>
+        <PageHeader
+          eyebrow="Small steps, recorded"
+          title="Learning and projects"
+          description="Record your study time, keep project work moving, and see the progress you’ve built."
+        />
         {message && <p role="status">{message}</p>}
         {summary.isPending ? (
           <p role="status">Loading your topics…</p>

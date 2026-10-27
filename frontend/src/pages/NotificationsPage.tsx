@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useInfiniteQuery, useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { PageHeader } from '@/components/layout/PageHeader';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import {
@@ -46,9 +47,11 @@ export function NotificationsPage() {
   return (
     <AccountLayout>
       <main className="skills-page">
-        <p className="eyebrow">Stay on track</p>
-        <h1>Notifications</h1>
-        <p>Weekly learning check-ins and gentle reminders when earlier work is unfinished.</p>
+        <PageHeader
+          eyebrow="Stay on track"
+          title="Notifications"
+          description="Weekly learning check-ins and gentle reminders when earlier work is unfinished."
+        />
         <p className="field-hint">
           Reminders use UTC weeks. Email reminders require a verified email and an enabled email
           provider. This preference controls future reminders.

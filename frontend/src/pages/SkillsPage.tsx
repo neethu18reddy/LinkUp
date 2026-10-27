@@ -3,6 +3,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { Plus, Trash2 } from 'lucide-react';
 import { toast } from 'sonner';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { PageHeader } from '@/components/layout/PageHeader';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import {
@@ -148,12 +149,11 @@ export function SkillsPage() {
   return (
     <AccountLayout>
       <main className="dashboard-main skills-page">
-        <p className="eyebrow">YOUR STARTING POINT</p>
-        <h1>What do you know?</h1>
-        <p className="auth-description">
-          Build a picture of your skills. Choose the level that feels right today—you can change it
-          any time.
-        </p>
+        <PageHeader
+          eyebrow="YOUR STARTING POINT"
+          title="What do you know?"
+          description="Build a picture of your skills. Choose the level that feels right today—you can change it any time."
+        />
         <section className="skills-card" aria-labelledby="add-skill-title">
           <h2 id="add-skill-title">Add a skill</h2>
           <form

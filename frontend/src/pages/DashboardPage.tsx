@@ -6,15 +6,18 @@ import { useAuth } from '@/store/auth';
 import { CurrentGoalCard } from '@/features/goals/CurrentGoalCard';
 import { DashboardProgress } from '@/features/progress/DashboardProgress';
 import { AccountAccessCard } from '@/features/auth/AccountAccessCard';
+import { PageHeader } from '@/components/layout/PageHeader';
 
 export function DashboardPage() {
   const user = useAuth((state) => state.user);
   return (
     <AccountLayout>
       <main className="dashboard-main">
-        <p className="eyebrow">YOUR LEARNING SPACE</p>
-        <h1>Welcome, {user?.name}.</h1>
-        <p className="auth-description">You’ve taken the first step. Let’s build from here.</p>
+        <PageHeader
+          eyebrow="YOUR LEARNING SPACE"
+          title={<>Welcome, {user?.name}.</>}
+          description="You’ve taken the first step. Let’s build from here."
+        />
         <DashboardProgress />
         <details className="dashboard-empty">
           <summary>Review your starting skills</summary>

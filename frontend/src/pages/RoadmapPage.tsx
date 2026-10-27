@@ -7,6 +7,7 @@ import { LearningSteps } from '@/components/layout/LearningSteps';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import { generateRoadmap, getCurrentRoadmap, roadmapKey } from '@/features/roadmap/roadmap.api';
+import { PageHeader } from '@/components/layout/PageHeader';
 
 export function RoadmapPage() {
   const client = useQueryClient();
@@ -43,11 +44,11 @@ export function RoadmapPage() {
     <AccountLayout>
       <main className="skills-page">
         <LearningSteps />
-        <p className="eyebrow">Your learning path</p>
-        <h1>Roadmap</h1>
-        <p className="auth-description">
-          A clear path from where you are to where you want to be. Learn one step at a time.
-        </p>
+        <PageHeader
+          eyebrow="Your learning path"
+          title="Roadmap"
+          description="A clear path from where you are to where you want to be. Learn one step at a time."
+        />
         {query.isPending ? (
           <p role="status">Comparing your skills with your goal…</p>
         ) : query.isError ? (

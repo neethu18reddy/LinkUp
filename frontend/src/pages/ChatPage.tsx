@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { AccountLayout } from '@/components/layout/AccountLayout';
+import { PageHeader } from '@/components/layout/PageHeader';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import {
@@ -206,8 +207,7 @@ export function ChatPage() {
   return (
     <AccountLayout>
       <main className="skills-page">
-        <p className="eyebrow">A little guidance for your next step</p>
-        <h1>Learning mentor</h1>
+        <PageHeader eyebrow="A little guidance for your next step" title="Learning mentor" />
         <p className="mentor-notice">
           {configuration.data?.mode === 'offline'
             ? 'Offline guidance is active. Replies use local rules and your saved progress. No messages are sent to external AI services.'
