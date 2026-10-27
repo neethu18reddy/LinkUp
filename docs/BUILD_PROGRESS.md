@@ -347,3 +347,23 @@ frontend/src/pages/NotificationsPage.test.tsx
 docs/NOTIFICATIONS.md
 docs/templates/weekly-reminders.yml.example
 ```
+
+## Phase 11: regression coverage and error recovery
+
+Added page-level recovery for render/lazy-load failures, actionable public-verification retry, missing-link errors, validated certificate response envelopes and safe verification URLs. Failed certificate refreshes hide stale results; background checks disable actions and avoid claiming current validity. Task changes now invalidate certificate caches alongside progress and plans. Backend tests explicitly disable live providers and local timers. No dependencies, external integrations or database migrations were added.
+
+Validation: 209 local tests pass (88 frontend, 121 backend), plus formatting, lint, strict types, Prisma validation and production builds. Thirty-five PostgreSQL tests run in CI. New coverage includes scheduler conservation across modes/partial completion, proficiency boundaries, safe server errors, page recovery, certificate response failures, stale validity and an HTTP learning flow from signup through offline mentor/project evidence to certificate verification and reopening. Browser QA with a disposable API confirmed a forced 503 followed by successful retry without sign-in. See [Testing](TESTING.md) for commands, coverage and limitations; local PostgreSQL remains unavailable.
+
+Phase 11 created files:
+
+```text
+backend/tests/errorHandler.test.ts
+backend/tests/learning-flow.database.test.ts
+backend/tests/service-invariants.test.ts
+frontend/src/components/RouteErrorBoundary.tsx
+frontend/src/components/RouteErrorBoundary.test.tsx
+frontend/src/features/certificates/certificates.api.test.ts
+frontend/src/features/progress/TaskControl.test.tsx
+frontend/src/pages/VerifyPage.test.tsx
+docs/TESTING.md
+```

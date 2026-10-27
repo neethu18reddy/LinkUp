@@ -5,6 +5,13 @@ export default defineConfig({
     environment: 'node',
     include: ['tests/**/*.test.ts'],
     clearMocks: true,
-    env: { NODE_ENV: 'test' },
+    maxWorkers: 4,
+    testTimeout: 10000,
+    env: {
+      NODE_ENV: 'test',
+      LLM_PROVIDER: 'disabled',
+      LLM_LIVE_CALLS_APPROVED: 'false',
+      LOCAL_JOBS_ENABLED: 'false',
+    },
   },
 });

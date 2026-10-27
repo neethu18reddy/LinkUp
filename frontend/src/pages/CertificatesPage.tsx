@@ -12,6 +12,7 @@ import { requestError } from '@/lib/http';
 export function CertificatesPage() {
   const client = useQueryClient();
   const query = useQuery({ queryKey: ['certificates'], queryFn: getCertificates, retry: false });
+  const data = query.isError ? undefined : query.data;
   const [acknowledged, setAcknowledged] = useState(false);
   const [message, setMessage] = useState('');
   const issue = useMutation({
@@ -42,9 +43,9 @@ export function CertificatesPage() {
           <p role="alert">{requestError(issue.error ?? download.error)}</p>
         )}
         {message && <p role="status">{message}</p>}
-        {query.data && (
+        {data && (
           <>
-            {!query.data.roadmaps.length && (
+            {!data.roadmaps.length && (
               <p>
                 Create a <Link to="/roadmap">roadmap</Link> to get started.
               </p>
@@ -58,7 +59,7 @@ export function CertificatesPage() {
               I understand that issuing a certificate makes my name, role, hours and issue date
               visible to anyone with its verification link.
             </label>
-            {query.data.roadmaps
+            {data.roadmaps
               .filter((row) => !row.certificateId)
               .map((row) => (
                 <section className="skills-card" key={row.id}>
@@ -69,14 +70,14 @@ export function CertificatesPage() {
                       : `${row.remainingTopics} unfinished topics; ${row.missingProjects} missing project submissions.`}
                   </p>
                   <Button
-                    disabled={!row.eligible || !acknowledged || issue.isPending}
+                    disabled={!row.eligible || !acknowledged || issue.isPending || query.isFetching}
                     onClick={() => issue.mutate(row.id)}
                   >
                     Issue certificate
                   </Button>
                 </section>
               ))}
-            {query.data.certificates.map((certificate) => (
+            {data.certificates.map((certificate) => (
               <section className="skills-card" key={certificate.id}>
                 <h2>{certificate.roleTitle}</h2>
                 <p>
@@ -84,12 +85,16 @@ export function CertificatesPage() {
                   {certificate.issuedAt.slice(0, 10)} (UTC)
                 </p>
                 <p>
-                  {certificate.status === 'VALID'
-                    ? 'Valid'
-                    : 'Inactive: complete reopened coursework to restore validity.'}
+                  {query.isFetching
+                    ? 'Checking current validity…'
+                    : certificate.status === 'VALID'
+                      ? 'Valid'
+                      : 'Inactive: complete reopened coursework to restore validity.'}
                 </p>
                 <Button
-                  disabled={certificate.status !== 'VALID' || download.isPending}
+                  disabled={
+                    certificate.status !== 'VALID' || download.isPending || query.isFetching
+                  }
                   onClick={() => download.mutate(certificate.id)}
                 >
                   Download PDF

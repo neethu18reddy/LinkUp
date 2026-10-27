@@ -19,6 +19,8 @@ export function TaskControl({
         client.invalidateQueries({ queryKey: progressKey }),
         client.invalidateQueries({ queryKey: ['plan'] }),
         client.invalidateQueries({ queryKey: ['current-roadmap'] }),
+        client.invalidateQueries({ queryKey: ['certificates'] }),
+        client.invalidateQueries({ queryKey: ['certificate-verification'] }),
       ]);
     },
     onError: () => {

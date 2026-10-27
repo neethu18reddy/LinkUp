@@ -6,6 +6,7 @@ import { Toaster } from 'sonner';
 import { App } from './App';
 import './index.css';
 import { SessionBoundary } from './features/auth/SessionBoundary';
+import { RouteErrorBoundary } from './components/RouteErrorBoundary';
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { retry: 1, staleTime: 30_000, refetchOnWindowFocus: false } },
@@ -16,7 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <SessionBoundary>
-          <App />
+          <RouteErrorBoundary>
+            <App />
+          </RouteErrorBoundary>
         </SessionBoundary>
         <Toaster richColors position="bottom-right" />
       </BrowserRouter>
