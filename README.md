@@ -10,7 +10,7 @@ Learners often know what they want to become but struggle to choose the next ski
 
 ## Features
 
-- Secure accounts, rotating refresh sessions, owned resources and account-isolated browser caches.
+- Secure accounts, rotating refresh sessions, owned resources and account-isolated browser caches. Optional verified email, expiring password recovery and Google sign-in are implemented behind private provider configuration.
 - Searchable skill catalogue, proficiency profiles, 24 career paths, searchable goal cards, custom learning goals and a local interest quiz.
 - Weighted gap analysis and curated roadmap templates with practical projects. A Groq adapter is prepared but live calls are disabled.
 - Relaxed, Standard, Intensive and Deadline schedules, preview-before-save, replanning and preserved completed work.
@@ -18,7 +18,7 @@ Learners often know what they want to become but struggle to choose the next ski
 - Tasks, private learning logs, project evidence, UTC streaks, progress charts and overdue work summaries.
 - Clearly labelled offline mentor with streamed replies, private history, stop/retry and copy.
 - Eligibility-gated PDF certificates with QR codes, public verification and LinkedIn share/profile links. Reopened coursework makes a certificate inactive.
-- In-app weekly reminders, behind-schedule notices, an owned inbox and reminder preferences. Scheduling is opt-in; email is not connected.
+- In-app weekly reminders, behind-schedule notices, an owned inbox and reminder preferences. The Vercel daily scheduler and verified-recipient email delivery are implemented; activation requires the private scheduler secret and email provider settings.
 - Accessible loading, empty, error and recovery states, strict server validation, safe errors, tests and CI.
 
 Choose a goal, generate its roadmap, then preview and confirm a weekly plan. Custom goals that match a catalogue skill or role use those requirements. Other custom goals receive a clearly labelled general starter roadmap with exploration, practice and a project; it can be scheduled and tracked without an external API. This is a general structure rather than a subject-specific curriculum.
@@ -134,7 +134,7 @@ Examples are in [backend/.env.example](backend/.env.example), [frontend/.env.exa
 | `VITE_API_BASE_URL`                       | Browser API base                                                 | `/api/v1` for development proxy or same-origin deployment      |
 | `POSTGRES_PASSWORD`                       | Local/Compose database password                                  | Local example only; generate a new production value            |
 
-OAuth placeholders are reserved for a future approved integration; OAuth and SMTP are not implemented or enabled. Local/example passwords must not be reused in production.
+Google OAuth and Brevo HTTP email are implemented behind disabled-by-default configuration. Follow [Launch](docs/LAUNCH.md) for exact environment fields, Google callback URI and provider steps. SMTP is not used. Local/example passwords must not be reused in production.
 
 ## Deployment
 
@@ -167,7 +167,7 @@ The implementation follows [LinkUp.md](LinkUp.md), rather than cloning an existi
 
 ## Limitations and future work
 
-- Live deployment, live AI, email, OAuth and hosted reminder scheduling are not enabled.
+- Live deployment and external providers require owner account connections and private production credentials. Code readiness and mocked tests do not confirm a live provider flow.
 - The mentor uses offline guidance rules, not a live language model. Custom roadmap goals currently support one catalogue skill.
 - Certificates reflect learner-reported completion and evidence, not accreditation or independent project review. PDF script support is documented in [certificates](docs/CERTIFICATES.md).
 - Local timers require an awake server; the hosted scheduler exists only as an inactive template. Reminder weeks and streaks use UTC.

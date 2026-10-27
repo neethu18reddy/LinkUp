@@ -1,0 +1,5 @@
+CREATE TABLE "ScheduledJobState" (
+  "id" VARCHAR(100) NOT NULL PRIMARY KEY,
+  "cursor" UUID,
+  "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

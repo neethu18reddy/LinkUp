@@ -55,7 +55,18 @@ export class PrismaAuthRepository implements AuthRepository {
     }
   }
 
-  async createSession(session: NewRefreshToken) {
+  async createSession(session: NewRefreshToken, expectedPasswordHash?: string) {
+    if (expectedPasswordHash !== undefined) {
+      await database().$transaction(async (tx) => {
+        const rows = await tx.$queryRaw<
+          { passwordHash: string }[]
+        >`SELECT "passwordHash" FROM "User" WHERE "id" = ${session.userId}::uuid FOR UPDATE`;
+        if (rows[0]?.passwordHash !== expectedPasswordHash)
+          throw new AppError(401, 'INVALID_CREDENTIALS', 'Email or password is incorrect.');
+        await tx.refreshToken.create({ data: session });
+      });
+      return;
+    }
     await database().refreshToken.create({ data: session });
   }
   findRefreshToken(tokenHash: string) {

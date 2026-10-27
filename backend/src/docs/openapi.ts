@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { registerSchema, loginSchema } from '../modules/auth/auth.schemas.js';
+import { forgotSchema, resetSchema, tokenSchema } from '../modules/auth/account.schemas.js';
 import {
   addSkillSchema,
   updateSkillSchema,
@@ -128,6 +129,31 @@ for (const action of ['refresh', 'logout'])
       'Uses linkup_refresh cookie at /api/v1/auth. Refresh rotates tokens and detects replay; logout revokes the family. Thirty requests/IP/minute.',
   });
 add('get', '/auth/me', 'Accounts', 'Read current public profile');
+add('get', '/auth/options', 'Accounts', 'Read enabled login and provider modes', { public: true });
+add('get', '/account/status', 'Accounts', 'Read owned email verification and Google-link status');
+add('post', '/auth/forgot-password', 'Accounts', 'Request a private expiring reset link', {
+  public: true,
+  body: forgotSchema,
+  authHeader: true,
+  description:
+    'Always returns the same public message for an eligible registered or unknown email. Email delivery must be configured.',
+});
+add(
+  'post',
+  '/auth/reset-password',
+  'Accounts',
+  'Consume a reset link and revoke existing sessions',
+  { public: true, body: resetSchema, authHeader: true },
+);
+add('post', '/auth/verify-email', 'Accounts', 'Consume an email verification link', {
+  public: true,
+  body: tokenSchema,
+  authHeader: true,
+});
+add('post', '/auth/request-verification', 'Accounts', 'Request an owned email verification link', {
+  body: empty,
+  authHeader: true,
+});
 add('get', '/skills', 'Skills', 'Search skill catalogue', {
   public: true,
   query: catalogueQuerySchema,
@@ -260,15 +286,44 @@ add('post', '/internal/jobs/weekly', 'Jobs', 'Run bounded reminder batch', {
   job: true,
   body: z.strictObject({ cursor: uuid.optional() }),
   description:
-    'Disabled without CRON_SECRET. Separate job bearer secret, never a user JWT. Up to 100 accounts; follow nextCursor until null, spacing requests at least 7 seconds apart. Weekly deduplication permits retries. Hosted jobs/email remain deferred.',
+    'Disabled without CRON_SECRET. Separate job bearer secret, never a user JWT. Up to 100 accounts; follow nextCursor until null, spacing requests at least 7 seconds apart. Weekly deduplication permits retries.',
 });
+add(
+  'get',
+  '/internal/jobs/daily',
+  'Jobs',
+  'Run scheduled weekly notices and approved email delivery',
+  {
+    job: true,
+    description:
+      'Vercel daily scheduler. Requires CRON_SECRET. Persists account pagination, deduplicates weekly notices, sends at most 20 eligible reminder emails per run, and removes expired account tokens. Email requires an enabled provider, verified recipient and active reminder preference.',
+  },
+);
+for (const action of ['start', 'callback'])
+  paths[`/auth/google/${action}`] = {
+    get: {
+      tags: ['Accounts'],
+      summary:
+        action === 'start'
+          ? 'Start state/nonce/PKCE-protected Google sign-in'
+          : 'Complete Google sign-in with server-verified identity',
+      security: [],
+      responses: {
+        '302': {
+          description:
+            'Redirects to Google, the workspace or a safe login error. Tokens are never included in redirect URLs.',
+        },
+        '503': { description: 'Google sign-in is not configured.' },
+      },
+    },
+  };
 export const openapi = {
   openapi: '3.0.3',
   info: {
     title: 'linkup API',
     version: '0.1.0',
     description:
-      'Local documentation: /api/docs. Standard JSON envelope: {success,data,error}; SSE/PDF are exceptions. Global limit: 120 requests/IP/minute. Cross-field runtime rules supplement input schemas. AI/email/hosted job integrations remain deferred.',
+      'Documentation: /api/docs. Standard JSON envelope: {success,data,error}; SSE/PDF/redirects are exceptions. Global limit: 120 requests/IP/minute. Cross-field runtime rules supplement input schemas. External integrations are opt-in and require private provider configuration.',
   },
   servers: [{ url: '/api/v1' }],
   paths,

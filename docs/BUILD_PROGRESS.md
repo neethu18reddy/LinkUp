@@ -2,20 +2,20 @@
 
 Source of scope: [LinkUp.md](../LinkUp.md). Product name: **linkup**. Keep the UI minimal. Ask the owner before any external API integration. Commit and push after every completed phase, then wait for confirmation before starting the next phase.
 
-| Phase | Scope                                                   | Status                                                |
-| ----- | ------------------------------------------------------- | ----------------------------------------------------- |
-| 1     | Monorepo, tooling, Docker PostgreSQL, Prisma schema, CI | Implemented; local checks passed                      |
-| 2     | Auth and protected routes                               | Implemented; local checks passed                      |
-| 3     | Skill catalogue and profiles                            | Implemented; local checks passed                      |
-| 4     | Goals, interest quiz, recommendations                   | Implemented; local checks passed                      |
-| 5     | Gap analysis and validated roadmap pipeline             | Implemented; Groq prepared, live calls disabled       |
-| 6     | Roadmap UI, scheduler, flexibility, replanning          | Implemented; offline scheduling                       |
-| 7     | Progress, logs, projects, streaks, charts               | Implemented; local checks passed                      |
-| 8     | Mentor context and streaming                            | Implemented offline; live AI remains deferred         |
-| 9     | Certificates, PDFs, public verification                 | Planned                                               |
-| 10    | Reminders and notifications                             | Planned; email integration requires approval          |
-| 11    | Service/API tests and error-state polish                | Planned; foundational tests begin in Phase 1          |
-| 12    | Deployment, README completion, Swagger, seed demo       | Planned; hosted service integration requires approval |
+| Phase | Scope                                                   | Status                                          |
+| ----- | ------------------------------------------------------- | ----------------------------------------------- |
+| 1     | Monorepo, tooling, Docker PostgreSQL, Prisma schema, CI | Implemented; local checks passed                |
+| 2     | Auth and protected routes                               | Implemented; local checks passed                |
+| 3     | Skill catalogue and profiles                            | Implemented; local checks passed                |
+| 4     | Goals, interest quiz, recommendations                   | Implemented; local checks passed                |
+| 5     | Gap analysis and validated roadmap pipeline             | Implemented; Groq prepared, live calls disabled |
+| 6     | Roadmap UI, scheduler, flexibility, replanning          | Implemented; offline scheduling                 |
+| 7     | Progress, logs, projects, streaks, charts               | Implemented; local checks passed                |
+| 8     | Mentor context and streaming                            | Implemented offline and approved Groq adapter   |
+| 9     | Certificates, PDFs, public verification                 | Implemented; local and PostgreSQL checks passed |
+| 10    | Reminders and notifications                             | In-app, scheduled and email code implemented    |
+| 11    | Service/API tests and error-state polish                | Implemented; regression suite maintained        |
+| 12    | Deployment, README completion, Swagger, seed demo       | Prepared; Vercel/Neon owner connection required |
 
 ## Phase 1 file groups
 
@@ -424,3 +424,13 @@ Eight deployment tests pass, including Vercel/Render origin defaults, explicit c
 Added a Groq streaming mentor adapter using the existing chat completion client, with a bounded reply length, anonymised context/history, cancellation, no automatic network retries and safe provider errors. It shares the existing explicit AI provider/approval switches with roadmap generation. A private key alone cannot enable calls. The mentor now reads authenticated server configuration and shows the active mode and external-processing disclosure before enabling questions. Offline mode remains the default.
 
 Added transport regression tests using mocked responses; no real AI request or credential validation was performed. Updated Swagger and owner instructions with exact private environment fields. Live AI verification requires a valid provider key, available model and owner-side account setup.
+
+## Launch step 3: account access and scheduled email
+
+Implemented Brevo transactional email, email verification, password recovery, Google sign-in and Vercel scheduled reminders. Account links are random, hashed in PostgreSQL, expiring and single-use. Resetting a password revokes existing sessions; password-based session creation rechecks the validated hash under a user row lock to prevent a concurrent old-password login from surviving a reset. Reset requests have generic responses, a uniform response delay and request-lifecycle-aware background delivery. Verification is an explicit action and resend issuance is bounded.
+
+Google sign-in uses Google's official client, signature/audience/expiry verification, verified email, nonce, PKCE, signed state cookies and a server callback. Existing password accounts are not silently linked just by email. Refresh credentials remain in private cookies; callback query values and redirect locations are removed/redacted from application logs. Incomplete provider configuration is rejected and defaults stay disabled. Live account integrations require HTTPS in production.
+
+Added public recovery screens, conditional Google buttons and owned account-verification status/actions. Vercel's daily authenticated request persists a pagination cursor, creates idempotent weekly notices, delivers bounded batches to verified opted-in recipients, claims delivery against overlap and cleans expired account tokens. Private production setup generates new JWT/cron secrets in an ignored file without printing them or overwriting existing settings. Provider/account instructions, exact callback URI and environment fields are in `docs/LAUNCH.md`.
+
+Local format, lint, strict types, schema validation, 100 frontend tests, 155 backend unit/API tests and production builds pass. All 42 PostgreSQL integration tests also pass in a newly created disposable database, removed after the run: 297 tests in total. The local learner database was not used for test fixtures. Browser QA confirmed the recovery screen. Live provider delivery/login and public deployment are not claimed: Vercel/Neon are not connected and provider credentials have not been configured.

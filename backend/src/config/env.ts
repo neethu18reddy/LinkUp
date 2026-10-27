@@ -51,10 +51,53 @@ const envSchema = z
       .transform((value) => value === 'true'),
     LLM_MODEL: z.string().default(''),
     GROQ_API_KEY: z.string().optional(),
+    EMAIL_PROVIDER: z.enum(['disabled', 'brevo']).default('disabled'),
+    EMAIL_LIVE_CALLS_APPROVED: z
+      .enum(['true', 'false'])
+      .default('false')
+      .transform((value) => value === 'true'),
+    BREVO_API_KEY: z.string().optional(),
+    EMAIL_FROM: z.preprocess((value) => value || undefined, z.email().optional()),
+    GOOGLE_OAUTH_ENABLED: z
+      .enum(['true', 'false'])
+      .default('false')
+      .transform((value) => value === 'true'),
+    GOOGLE_CLIENT_ID: z.string().optional(),
+    GOOGLE_CLIENT_SECRET: z.string().optional(),
     JWT_ACCESS_SECRET: z.preprocess((value) => value || undefined, z.string().min(32).optional()),
     JWT_REFRESH_SECRET: z.preprocess((value) => value || undefined, z.string().min(32).optional()),
   })
   .superRefine((value, ctx) => {
+    if (
+      value.NODE_ENV === 'production' &&
+      (value.GOOGLE_OAUTH_ENABLED ||
+        (value.EMAIL_PROVIDER === 'brevo' && value.EMAIL_LIVE_CALLS_APPROVED)) &&
+      !value.PUBLIC_WEB_URL?.startsWith('https://')
+    )
+      ctx.addIssue({
+        code: 'custom',
+        path: ['PUBLIC_WEB_URL'],
+        message: 'Live account integrations require HTTPS in production.',
+      });
+    if (value.EMAIL_PROVIDER === 'brevo' && value.EMAIL_LIVE_CALLS_APPROVED) {
+      for (const key of ['BREVO_API_KEY', 'EMAIL_FROM', 'PUBLIC_WEB_URL'] as const)
+        if (!value[key])
+          ctx.addIssue({
+            code: 'custom',
+            path: [key],
+            message: 'Required for approved email delivery.',
+          });
+    }
+    if (value.GOOGLE_OAUTH_ENABLED) {
+      for (const key of [
+        'GOOGLE_CLIENT_ID',
+        'GOOGLE_CLIENT_SECRET',
+        'PUBLIC_WEB_URL',
+        'JWT_ACCESS_SECRET',
+      ] as const)
+        if (!value[key])
+          ctx.addIssue({ code: 'custom', path: [key], message: 'Required for Google sign-in.' });
+    }
     if (value.JWT_ACCESS_SECRET && value.JWT_ACCESS_SECRET === value.JWT_REFRESH_SECRET) {
       ctx.addIssue({
         code: 'custom',

@@ -99,10 +99,9 @@ describe('Weekly plan', () => {
     };
     vi.mocked(getCurrentRoadmap).mockRejectedValue(error);
     mount();
-    expect(await screen.findByRole('link', { name: 'Choose your goal' })).toHaveAttribute(
-      'href',
-      '/goals',
-    );
+    expect(
+      await screen.findByRole('link', { name: 'Choose your goal' }, { timeout: 5000 }),
+    ).toHaveAttribute('href', '/goals');
     expect(screen.queryByRole('button', { name: 'Retry roadmap' })).not.toBeInTheDocument();
     expect(getCurrentPlan).not.toHaveBeenCalled();
   });

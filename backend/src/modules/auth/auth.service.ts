@@ -39,9 +39,16 @@ export class AuthService {
 
   async login(input: LoginInput) {
     const user = await this.repository.findUserByEmail(input.email);
-    const matches = await bcrypt.compare(input.password, user?.passwordHash ?? (await dummyHash));
+    const expectedPasswordHash = user?.passwordHash ?? (await dummyHash);
+    const matches = await bcrypt.compare(input.password, expectedPasswordHash);
     if (!user || !matches)
       throw new AppError(401, 'INVALID_CREDENTIALS', 'Email or password is incorrect.');
+    const issued = this.tokens.issue(user.id, randomUUID());
+    await this.repository.createSession(issued.session, expectedPasswordHash);
+    return { ...issued, user: publicUser(user) };
+  }
+
+  async externalSession(user: User) {
     const issued = this.tokens.issue(user.id, randomUUID());
     await this.repository.createSession(issued.session);
     return { ...issued, user: publicUser(user) };

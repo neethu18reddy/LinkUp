@@ -2,6 +2,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
+import { RecoveryPage } from './pages/RecoveryPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
 import { SkillsPage } from './pages/SkillsPage';
 const NotificationsPage = lazy(() =>
@@ -38,6 +39,9 @@ export function App() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<AuthPage key="login" mode="login" />} />
       <Route path="/register" element={<AuthPage key="register" mode="register" />} />
+      <Route path="/forgot-password" element={<RecoveryPage key="forgot" mode="forgot" />} />
+      <Route path="/reset-password" element={<RecoveryPage key="reset" mode="reset" />} />
+      <Route path="/verify-email" element={<RecoveryPage key="verify" mode="verify" />} />
       <Route
         path="/verify/:code"
         element={

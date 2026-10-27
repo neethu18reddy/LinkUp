@@ -9,6 +9,11 @@ import { ProtectedRoute } from '@/routes/ProtectedRoute';
 import { AuthPage } from './AuthPage';
 
 vi.mock('@/features/auth/auth.client', () => ({ signIn: vi.fn(), refreshSession: vi.fn() }));
+vi.mock('@/features/auth/account.api', () => ({
+  getAuthOptions: vi
+    .fn()
+    .mockResolvedValue({ googleEnabled: false, emailEnabled: false, mentorMode: 'offline' }),
+}));
 const user = {
   id: 'c08b8c88-e1a7-4ee9-9760-f2ade72183dc',
   name: 'Learner',

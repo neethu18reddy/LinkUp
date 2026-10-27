@@ -11,6 +11,7 @@ import { errorHandler } from './middleware/errorHandler.js';
 import { AppError } from './utils/AppError.js';
 import { failure, success } from './utils/response.js';
 import { authRoutes } from './modules/auth/auth.routes.js';
+import { accountRoutes } from './modules/auth/account.routes.js';
 import { PrismaAuthRepository } from './modules/auth/auth.repository.js';
 import { AuthService } from './modules/auth/auth.service.js';
 import { AuthTokens, type AuthSecrets } from './modules/auth/auth.tokens.js';
@@ -55,6 +56,7 @@ import { fileURLToPath } from 'node:url';
 import { documentationRoutes } from './docs/docs.routes.js';
 import { serveWeb } from './web.js';
 import { WeeklyJob } from './jobs/weekly.js';
+import { dailyRoutes } from './jobs/daily.routes.js';
 import { PrismaNotificationRepository } from './modules/notifications/notifications.repository.js';
 import type { NotificationRepository } from './modules/notifications/notifications.types.js';
 import { notificationRoutes } from './modules/notifications/notifications.routes.js';
@@ -101,7 +103,21 @@ export function createApp(
       },
     }),
   );
-  app.use(pinoHttp({ logger }));
+  app.use(
+    pinoHttp({
+      logger,
+      serializers: {
+        req(req) {
+          return {
+            id: req.id,
+            method: req.method,
+            url: String(req.url).split('?')[0],
+            remoteAddress: req.remoteAddress,
+          };
+        },
+      },
+    }),
+  );
   app.use(
     '/api',
     rateLimit({
@@ -123,6 +139,8 @@ export function createApp(
     new AuthTokens(options.authSecrets),
   );
   app.use('/api/v1/auth', authRoutes(authService));
+  app.use('/api/v1', accountRoutes(authService));
+  app.use('/api/v1', dailyRoutes());
   const notifications = options.notificationRepository ?? new PrismaNotificationRepository();
   app.use(
     '/api/v1',

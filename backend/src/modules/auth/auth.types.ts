@@ -12,7 +12,7 @@ export interface AuthRepository {
     user: Pick<User, 'id' | 'name' | 'email' | 'passwordHash'>,
     session: NewRefreshToken,
   ): Promise<User>;
-  createSession(session: NewRefreshToken): Promise<void>;
+  createSession(session: NewRefreshToken, expectedPasswordHash?: string): Promise<void>;
   findRefreshToken(hash: string): Promise<RefreshToken | null>;
   rotateSession(hash: string, replacement: NewRefreshToken): Promise<boolean>;
   revokeFamily(userId: string, familyId: string): Promise<void>;

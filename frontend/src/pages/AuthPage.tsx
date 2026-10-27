@@ -8,6 +8,7 @@ import { signIn } from '@/features/auth/auth.client';
 import { authFormSchema, type AuthFormValues } from '@/features/auth/auth.schemas';
 import { requestError } from '@/lib/http';
 import { useAuth } from '@/store/auth';
+import { GoogleSignIn } from '@/features/auth/GoogleSignIn';
 
 export function AuthPage({ mode }: { mode: 'login' | 'register' }) {
   const creating = mode === 'register';
@@ -171,6 +172,25 @@ export function AuthPage({ mode }: { mode: 'login' | 'register' }) {
             <ArrowUpRight size={16} aria-hidden="true" />
           </Button>
         </form>
+        {!creating && (
+          <p className="auth-switch">
+            <Link className="text-link" to="/forgot-password">
+              Forgot your password?
+            </Link>
+          </p>
+        )}
+        {location.search.includes('google=existing-account') && (
+          <p className="form-error" role="alert">
+            This email already has a linkup account. Sign in with your password or use password
+            recovery.
+          </p>
+        )}
+        {location.search.includes('google=failed') && (
+          <p className="form-error" role="alert">
+            Google sign-in could not be completed. Please try again.
+          </p>
+        )}
+        <GoogleSignIn />
         <p className="auth-switch">
           {creating ? 'Already have an account?' : 'New to linkup?'}{' '}
           <Link className="text-link" to={creating ? '/login' : '/register'}>

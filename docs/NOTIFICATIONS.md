@@ -1,12 +1,16 @@
 # Reminders and notifications
 
-Phase 10 implements database-backed in-app notifications. Email delivery and hosted scheduling remain deferred at the owner's request; no SMTP/API account is connected and no external reminder request is sent.
+Database-backed in-app notifications are implemented. The owner subsequently approved Brevo email and Vercel scheduled reminders. Both are implemented but remain disabled locally until private provider configuration is supplied. See [Launch](LAUNCH.md) for account setup and activation.
 
 ## Rules
 
 The job uses the active goal's latest roadmap and its active plan. Archived/completed roadmaps, future plans, empty/completed allocations and opted-out accounts are skipped. A topic already DONE does not trigger reminders through stale allocations. A weekly check-in is created when unfinished work has reached its start date. A behind-schedule notice is also created when an entire seven-day plan week has elapsed with unfinished allocations. SKIPPED allocations remain unfinished, matching dashboard progress. Behind-schedule hours are planned hours, not logged time.
 
-Weeks are Monday–Sunday in UTC. Each user receives at most one notification of each reminder type per UTC week, even across replans, concurrent workers, repeated requests or application restarts. Unique database deduplication keys enforce this. Re-running a partially completed batch safely fills remaining notices. No email `sentAt` is written. These are historical check-ins, so completing work later does not rewrite an existing message; open the plan for current progress.
+Weeks are Monday–Sunday in UTC. Each user receives at most one notification of each reminder type per UTC week, even across replans, concurrent workers, repeated requests or application restarts. Unique database deduplication keys enforce this. Re-running a partially completed batch safely fills remaining notices. Email `sentAt` is written only after provider acceptance. These are historical check-ins, so completing work later does not rewrite an existing message; open the plan for current progress.
+
+## Vercel scheduled delivery
+
+The daily authenticated GET endpoint `/api/v1/internal/jobs/daily` creates weekly notices using a persistent account cursor, then attempts up to 20 pending emails. Delivery requires an enabled Brevo provider, a verified recipient and an active reminder preference. Database claims prevent overlapping sends; provider idempotency keys and bounded retry attempts reduce duplicate delivery after transient failures. Provider acceptance is not proof of inbox delivery. The Vercel cron runs daily at 07:00 UTC, supplies `CRON_SECRET` as its bearer token, and never uses a user's session JWT. Leave `LOCAL_JOBS_ENABLED=false` for this deployment. Invalid/missing job credentials are rejected before database work.
 
 The inbox shows unread count, newest-first cursor pages (20 entries), retry states and idempotent mark-as-read. Reads, cursors and preferences are scoped to the authenticated owner. The opt-out stops future job inserts; existing notifications remain. A row lock coordinates preference writes with reminder inserts. Notifications are plain React text, never HTML.
 

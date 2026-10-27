@@ -4,6 +4,7 @@
   "installCommand": "HUSKY=0 npm ci --include=dev",
   "buildCommand": "npm run build && node scripts/vercel-migrate.mjs",
   "outputDirectory": "frontend/dist",
+  "crons": [{ "path": "/api/v1/internal/jobs/daily", "schedule": "0 7 * * *" }],
   "functions": {
     "api/index.mjs": {
       "maxDuration": 60,

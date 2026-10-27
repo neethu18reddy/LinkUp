@@ -95,6 +95,35 @@ model User {
   notifications      Notification[]
   dailyUsage         DailyUsage[]
   remindersEnabled   Boolean             @default(true)
+  identity           AccountIdentity?
+  accountTokens      AccountToken[]
+}
+
+model AccountIdentity {
+  userId        String    @id @db.Uuid
+  googleSubject String?   @unique @db.VarChar(255)
+  verifiedAt    DateTime?
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model AccountToken {
+  id        String    @id @default(uuid()) @db.Uuid
+  userId    String    @db.Uuid
+  kind      String    @db.VarChar(20)
+  tokenHash String    @unique @db.VarChar(64)
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, kind, createdAt])
+  @@index([expiresAt])
+}
+
+model ScheduledJobState {
+  id        String   @id @db.VarChar(100)
+  cursor    String?  @db.Uuid
+  updatedAt DateTime @default(now()) @updatedAt
 }
 
 model RefreshToken {
@@ -305,8 +334,8 @@ model LearningLog {
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   topic     Topic?   @relation(fields: [topicId], references: [id], onDelete: SetNull)
 
-  @@index([userId, loggedAt])
   @@unique([userId, requestId])
+  @@index([userId, loggedAt])
   @@index([topicId])
 }
 
@@ -353,9 +382,9 @@ model ChatMessage {
   createdAt DateTime    @default(now())
   session   ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
 
-  @@index([sessionId, createdAt])
   @@unique([sessionId, position])
   @@unique([sessionId, requestId, role])
+  @@index([sessionId, createdAt])
 }
 
 model Certificate {
@@ -384,6 +413,8 @@ model Notification {
   createdAt        DateTime         @default(now())
   readAt           DateTime?
   sentAt           DateTime?
+  emailClaimedAt   DateTime?
+  emailAttempts    Int              @default(0)
   user             User             @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId, readAt, createdAt])

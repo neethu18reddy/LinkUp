@@ -12,6 +12,9 @@ export default defineConfig({
       LLM_PROVIDER: 'disabled',
       LLM_LIVE_CALLS_APPROVED: 'false',
       LOCAL_JOBS_ENABLED: 'false',
+      EMAIL_PROVIDER: 'disabled',
+      EMAIL_LIVE_CALLS_APPROVED: 'false',
+      GOOGLE_OAUTH_ENABLED: 'false',
     },
   },
 });

@@ -49,7 +49,10 @@ export function NotificationsPage() {
         <p className="eyebrow">Stay on track</p>
         <h1>Notifications</h1>
         <p>Weekly learning check-ins and gentle reminders when earlier work is unfinished.</p>
-        <p className="field-hint">Reminders use UTC weeks. Email delivery is not connected.</p>
+        <p className="field-hint">
+          Reminders use UTC weeks. Email reminders require a verified email and an enabled email
+          provider. This preference controls future reminders.
+        </p>
         <section className="skills-card" aria-label="Reminder preferences">
           <h2>Reminder preferences</h2>
           {preferences.isPending && <p role="status">Loading preferences…</p>}

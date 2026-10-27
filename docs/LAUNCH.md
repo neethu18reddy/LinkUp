@@ -51,4 +51,33 @@ The build compiles both workspaces, then runs Prisma migrations through the dire
 
 The mentor adapter is implemented and tested with mocked streaming, bounded output, cancellation and safe provider errors. No live API call has been made without valid owner-supplied configuration. AI free quotas are separate from free app hosting.
 
-The provider code and exact callback/environment details are being completed separately. Do not enable a provider flag before its corresponding code, credentials and configuration checks are ready. You will need to create a provider account/API key for AI, verify an email sender with the email provider, and create a Google OAuth web application. Secrets stay in private platform Environment settings.
+### Email verification, password reset and reminders
+
+1. Create a Free account at [Brevo](https://www.brevo.com/). Complete the provider's account and transactional-email activation steps. The Free plan has daily limits; do not upgrade or add paid capacity for this demo.
+2. In Brevo's **Senders, Domains & Dedicated IPs → Senders**, add an email address you control and verify it using the email Brevo sends. Use an authenticated domain if you already own one. Free sender domains may be rewritten by Brevo for delivery compliance; do not buy a domain unless you choose to.
+3. Open **SMTP & API → API Keys**, create an API key and copy it privately into Vercel as `BREVO_API_KEY`. Use an API key, not an SMTP password.
+4. Set `EMAIL_FROM` to that verified sender, `EMAIL_PROVIDER=brevo` and `EMAIL_LIVE_CALLS_APPROVED=true`. Confirm `PUBLIC_WEB_URL` is the real HTTPS app origin, then redeploy.
+5. Register/sign in with your own email, open Overview and click **Send verification email**. The link opens `/verify-email`; click **Verify email** explicitly. On the login page, test **Forgot your password?** using your own account and confirm a reset invalidates previous sessions. Never share or record these private links.
+
+Unknown and registered email addresses receive the same public reset-request message. Tokens expire, are stored as hashes, and can be consumed only once. Verification expires after 24 hours; reset links after 30 minutes. Resends are limited to one token per account/type/minute. Email sending is not a guarantee of inbox delivery: check the provider's transactional logs and your spam folder.
+
+### Google sign-in
+
+1. Open [Google Cloud Console](https://console.cloud.google.com/) and create/select a project called `linkup`. Open **Google Auth Platform**.
+2. Configure **Branding** with the app name `linkup` and your support/developer email. Choose **External** audience. For a personal demo, keep Testing status and add the people who will test Google login under **Test users**.
+3. Under **Clients**, create an OAuth client of type **Web application**. Set its authorized redirect URI to exactly `https://YOUR-APP.vercel.app/api/v1/auth/google/callback`, replacing the host with the real production host. Do not use a frontend route or a wildcard. If an authorized JavaScript origin is requested, enter only `https://YOUR-APP.vercel.app`.
+4. Copy the client ID and client secret privately into Vercel as `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`, then set `GOOGLE_OAUTH_ENABLED=true` and redeploy. The secret never belongs in a `VITE_` variable.
+5. Use **Continue with Google** on the login/register page. Test with an account whose email is not already registered through a password. Existing password accounts are deliberately not silently linked by matching email; use password login/recovery for those accounts.
+6. To support Google users beyond your test-user list, complete Google's publishing/verification prompts as required. This owner-controlled console step cannot be completed by source code alone.
+
+The server verifies Google token signatures/audience/expiry with Google's official library, plus email verification, state, nonce and PKCE. Only a private refresh cookie is set; no session/access token is placed in a redirect URL. OAuth callback queries and redirect locations are excluded/redacted from application logs.
+
+### Scheduled reminders and private production secrets
+
+Run `npm run setup:production` locally. It creates ignored `deploy/.env.production.local` with new JWT secrets and a separate random `CRON_SECRET`, and leaves an existing file unchanged. Read it privately in your editor and copy the necessary values into **Vercel → Project → Settings → Environment Variables → Production**. Fill connection/provider values there; never paste this file into chat or Git. Redeploy after changing environment variables.
+
+Set the generated `CRON_SECRET` in Vercel. The checked-in daily cron invokes `/api/v1/internal/jobs/daily` at **07:00 UTC (12:30 India time)**. Vercel supplies the bearer secret. `LOCAL_JOBS_ENABLED` stays `false` on serverless hosting. Weekly notices are deduplicated, account pagination persists across restarts, and email sends require a verified address and enabled reminder preference. Users control reminders in Notifications. Failed email attempts are bounded and retry on later scheduled runs; email quotas still apply.
+
+## Live acceptance checks
+
+After accounts and private credentials are configured: verify HTTPS signup/login/reload/logout, Google login, email verification/reset, AI mentor streaming/cancellation/history, custom and career goal roadmaps, preview/save/replan, progress/project evidence, certificate PDF/QR/public verification, scheduled reminders and opt-out. Check `/api/v1/health/ready`, `/api/docs/`, Vercel logs and provider delivery logs. Automated/mocked tests do not replace these live checks. No live deployment is claimed before these steps actually run.

@@ -9,8 +9,8 @@ export function getDatabase(): PrismaClient | undefined {
   client ??= new PrismaClient({
     adapter: new PrismaPg({
       connectionString: env.DATABASE_URL,
-      connectionTimeoutMillis: 3000,
-      max: 5,
+      connectionTimeoutMillis: process.env.VERCEL === '1' ? 10000 : 3000,
+      max: process.env.VERCEL === '1' ? 2 : 5,
     }),
   });
   return client;

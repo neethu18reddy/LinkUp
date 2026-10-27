@@ -26,7 +26,12 @@ export class MemoryAuthRepository implements AuthRepository {
     await this.createSession(session);
     return user;
   }
-  async createSession(input: NewRefreshToken) {
+  async createSession(input: NewRefreshToken, expectedPasswordHash?: string) {
+    if (
+      expectedPasswordHash !== undefined &&
+      this.users.get(input.userId)?.passwordHash !== expectedPasswordHash
+    )
+      throw new AppError(401, 'INVALID_CREDENTIALS', 'Email or password is incorrect.');
     this.tokens.set(input.tokenHash, { ...input, createdAt: new Date(), revokedAt: null });
   }
   async findRefreshToken(hash: string) {

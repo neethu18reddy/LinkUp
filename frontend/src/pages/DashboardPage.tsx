@@ -5,6 +5,7 @@ import { AccountLayout } from '@/components/layout/AccountLayout';
 import { useAuth } from '@/store/auth';
 import { CurrentGoalCard } from '@/features/goals/CurrentGoalCard';
 import { DashboardProgress } from '@/features/progress/DashboardProgress';
+import { AccountAccessCard } from '@/features/auth/AccountAccessCard';
 
 export function DashboardPage() {
   const user = useAuth((state) => state.user);
@@ -33,6 +34,7 @@ export function DashboardPage() {
           </p>
         </details>
         <CurrentGoalCard />
+        <AccountAccessCard />
         <section className="account-summary" aria-labelledby="account-title">
           <h2 id="account-title">Your account</h2>
           <dl>

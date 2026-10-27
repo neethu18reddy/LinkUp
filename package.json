@@ -15,6 +15,7 @@
   "scripts": {
     "setup:env": "node scripts/setup-env.mjs",
     "setup:demo": "node scripts/setup-env.mjs --demo",
+    "setup:production": "node scripts/setup-production.mjs",
     "db:local:install": "npm install --prefix .local/postgres-runtime embedded-postgres@16.14.0-beta.17 --save-exact --no-fund --no-audit",
     "db:local:start": "node scripts/local-postgres.mjs",
     "db:local:stop": "node scripts/local-postgres.mjs --stop",
