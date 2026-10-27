@@ -13,11 +13,13 @@ for (const directory of ['', 'backend/', 'frontend/']) {
     content = await readFile(new URL(`${directory}.env.example`, root), 'utf8');
   }
   if (directory === 'backend/') {
-    for (const key of ['JWT_ACCESS_SECRET', 'JWT_REFRESH_SECRET']) {
+    const keys = ['JWT_ACCESS_SECRET', 'JWT_REFRESH_SECRET'];
+    if (process.argv.includes('--demo')) keys.push('DEMO_SEED_PASSWORD');
+    for (const key of keys) {
       const pattern = new RegExp(`^${key}=(.*)$`, 'm');
       const match = content.match(pattern);
       if (!match || !match[1].trim() || /^(""|'')$/.test(match[1].trim())) {
-        const entry = `${key}=${randomBytes(48).toString('hex')}`;
+        const entry = `${key}=${randomBytes(key === 'DEMO_SEED_PASSWORD' ? 24 : 48).toString('hex')}`;
         content = match ? content.replace(pattern, entry) : `${content.trimEnd()}\n${entry}\n`;
       }
     }

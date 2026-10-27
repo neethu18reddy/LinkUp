@@ -14,6 +14,10 @@
   },
   "scripts": {
     "setup:env": "node scripts/setup-env.mjs",
+    "setup:demo": "node scripts/setup-env.mjs --demo",
+    "db:local:install": "npm install --prefix .local/postgres-runtime embedded-postgres@16.14.0-beta.17 --save-exact --no-fund --no-audit",
+    "db:local:start": "node scripts/local-postgres.mjs",
+    "db:local:stop": "node scripts/local-postgres.mjs --stop",
     "dev": "concurrently -k -n api,web -c blue,green \"npm run dev -w backend\" \"npm run dev -w frontend\"",
     "build": "npm run build -w backend && npm run build -w frontend",
     "start": "npm run start -w backend",

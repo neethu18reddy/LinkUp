@@ -76,6 +76,24 @@ npm run dev
 
 Open [linkup](http://127.0.0.1:5173), [API liveness](http://localhost:4000/api/v1/health), [database readiness](http://localhost:4000/api/v1/health/ready) or [Swagger](http://localhost:4000/api/docs/). Create your account at `/register`. Account and learning features require a migrated database; unavailable persistence returns a safe 503.
 
+### Windows without Docker
+
+An optional portable PostgreSQL 16 runtime supports local development on Windows x64. After `npm ci` and `npm run setup:env`, run:
+
+```sh
+npm run db:local:install
+npm run db:local:start
+npm run db:generate
+npm run db:deploy
+npm run dev
+```
+
+The install command downloads the pinned runtime once into ignored `.local/postgres-runtime`. Startup reads local credentials from `backend/.env`, binds PostgreSQL to loopback and creates the configured database only if absent. It refuses production mode, remote hosts and occupied ports. It does not change system services or existing database installations. Database files and logs remain under ignored `.local/`, excluded from Docker builds and formatting/lint scans.
+
+Stop the API/frontend with Ctrl+C, then run `npm run db:local:stop` for a graceful database shutdown. Restart with `npm run db:local:start` and `npm run dev`; existing records remain intact. Keep database credentials unchanged after initialization. Do not delete `.local/postgres-data` to fix a startup issue: it contains your local accounts and progress. Avoid syncing the active database directory with OneDrive; shut down PostgreSQL before copying/backing up it. Docker remains the prepared deployment path.
+
+For optional sample data, run `npm run setup:demo`, then `npm run db:seed:demo`. The setup command fills an empty `DEMO_SEED_PASSWORD` in ignored `backend/.env` with a private generated password; existing values are preserved. The default email is `demo@linkup.example.invalid`. Read the password locally in that file; never commit or share it. You can also register your own account. See [Demo](docs/DEMO.md).
+
 Common commands:
 
 | Command                                    | Purpose                                                           |

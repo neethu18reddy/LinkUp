@@ -9,6 +9,8 @@ Demo records are clearly illustrative. They are not real learning evidence, accr
 3. Run `npm run db:seed:demo` from the repository root, then `npm run dev`.
 4. Sign in with those locally configured credentials.
 
+Alternatively, `npm run setup:demo` generates a private password only when `DEMO_SEED_PASSWORD` is missing or empty, then `npm run db:seed:demo` creates the sample records. This does not reset an existing account password. Windows x64 users without Docker can use the optional portable PostgreSQL commands in the README.
+
 The seed creates one dedicated demo user, a Python proficiency/goal, a two-week partial roadmap/plan, three dated logs, illustrative project evidence, an offline chat pair and one reminder. Records are written atomically. Reruns do nothing and do not reset passwords or progress. A collision with another account is rejected. Seeding refuses production mode. If you change the password setting after the first run, the existing login password remains unchanged; normal account records are never overwritten.
 
 No certificate is pre-issued: complete all allocations through Weekly plan and review the illustrative project evidence first. Certificate issuance still requires the UI acknowledgement that the name becomes public to holders of the link. The seed's full name is `linkup Demo Learner` so shared preview results are identifiable as examples. Local QR links work only against the configured local origin until an approved deployment exists.

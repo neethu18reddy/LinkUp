@@ -392,3 +392,13 @@ docs/DEMO.md
 docs/screenshots/dashboard.png
 docs/screenshots/mentor.png
 ```
+
+## Local run follow-up
+
+Added optional Windows x64 portable PostgreSQL 16 install/start/stop commands for development without Docker. The runtime, persistent database and logs stay in ignored `.local/`, excluded from Docker context and tool scans. The helper accepts only a local database URL, refuses production mode and occupied ports, preserves existing records and uses `pg_ctl` for graceful shutdown. Added opt-in private demo-password generation that preserves nonempty secrets. Docker deployment and deferred external integrations remain unchanged.
+
+Applied all seven migrations to the local database and seeded the illustrative demo account. Verified graceful stop/start, seed idempotency after restart, successful authenticated demo login, database readiness and the registration page. Checked that repeated demo environment setup preserves credentials, production startup is rejected and an occupied port leaves the running database ready. The API and Vite frontend are available locally; this does not publish the application.
+
+Changed files: `.gitignore`, `.dockerignore`, `.prettierignore`, `eslint.config.js`, `package.json`, `scripts/setup-env.mjs`, `scripts/local-postgres.mjs`, `README.md`, `docs/DEMO.md`, and this progress log. No API integration was enabled.
+
+Validation: all 215 local tests pass (88 frontend, 127 backend), along with formatting, lint, strict types, Prisma validation and production builds. The 36 disposable PostgreSQL integration tests remain part of CI; they were not run against the persistent local demo database.
