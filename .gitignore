@@ -15,3 +15,5 @@ Thumbs.db
 !.vscode/extensions.json
 playwright-report/
 test-results/
+
+.playwright-cli/

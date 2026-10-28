@@ -5,13 +5,14 @@ import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import { getProgress, progressKey } from './progress.api';
 import { TaskControl } from './TaskControl';
+import { LoadingState } from '@/components/ui/loading-state';
 import { ArrowUpRight, BookOpen, Clock3, Flame, Plus, Sparkles } from 'lucide-react';
 const Charts = lazy(() =>
   import('./ProgressCharts').then((module) => ({ default: module.ProgressCharts })),
 );
 export function DashboardProgress() {
   const query = useQuery({ queryKey: progressKey, queryFn: getProgress });
-  if (query.isPending) return <p role="status">Loading your progress…</p>;
+  if (query.isPending) return <LoadingState label="Loading your progress…" />;
   if (query.isError)
     return (
       <section className="skills-card">
@@ -20,12 +21,12 @@ export function DashboardProgress() {
       </section>
     );
   const data = query.data;
+  const nextTask = data.currentWeek?.tasks.find((task) => task.status !== 'DONE');
   return (
     <>
       <section className="skills-card learning-overview">
         <div className="overview-heading">
           <div>
-            <span className="section-kicker">YOUR MOMENTUM</span>
             <h2>{data.roadmap?.title ?? 'Your next step'}</h2>
           </div>
           <Button variant="glow" asChild>
@@ -35,19 +36,33 @@ export function DashboardProgress() {
             </Link>
           </Button>
         </div>
+        {nextTask && (
+          <div className="next-learning-action">
+            <div>
+              <span>Up next in your week</span>
+              <h3>{nextTask.title}</h3>
+              <p>{nextTask.allocatedHours} planned hours · Pick up where you left off.</p>
+            </div>
+            <Button asChild variant="outline">
+              <Link to="/plan">
+                Continue my plan <ArrowUpRight size={16} />
+              </Link>
+            </Button>
+          </div>
+        )}
         {data.roadmap ? (
           <>
             <div className="progress-metrics">
               <div className="metric-card metric-completion">
                 <div
-                  className="progress-ring shadow-lg shadow-emerald-900/10"
+                  className="progress-ring"
                   role="progressbar"
                   aria-label="Overall progress"
                   aria-valuemin={0}
                   aria-valuemax={100}
                   aria-valuenow={data.overallPercent}
                   style={{
-                    background: `conic-gradient(#10b981 ${data.overallPercent}%, #e0e6e1 0)`,
+                    background: `conic-gradient(#225c47 ${data.overallPercent}%, #e0e6e1 0)`,
                   }}
                 >
                   <strong>{data.overallPercent}%</strong>
@@ -59,26 +74,12 @@ export function DashboardProgress() {
               </div>
               <div className="metric-card metric-streak">
                 <span className="metric-icon">
-                  <Flame size={21} className="text-amber-500 animate-pulse" aria-hidden="true" />
+                  <Flame size={21} aria-hidden="true" />
                 </span>
                 <strong>
                   {data.streak} {data.streak === 1 ? 'day' : 'days'}
                 </strong>
                 <p>Learning streak (UTC)</p>
-                <div className="streak-dots my-2 flex gap-1.5 justify-center" aria-hidden="true">
-                  {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, i) => (
-                    <span
-                      key={i}
-                      className={`w-5 h-5 rounded-full flex items-center justify-center text-[9px] font-bold transition-all ${
-                        i < Math.min(data.streak, 7)
-                          ? 'bg-emerald-600 text-white shadow-[0_0_8px_rgba(16,185,129,0.6)]'
-                          : 'bg-emerald-950/10 text-emerald-950/50'
-                      }`}
-                    >
-                      {day}
-                    </span>
-                  ))}
-                </div>
                 <small>Keep showing up, one day at a time.</small>
               </div>
               <div className="metric-card metric-time">
@@ -107,7 +108,9 @@ export function DashboardProgress() {
             {data.behindSchedule && (
               <p role="status">
                 {data.overdueHours} estimated hours remain from past weeks.{' '}
-                <Link to="/plan">Review and replan</Link>
+                <Link className="text-link" to="/plan">
+                  Review and replan
+                </Link>
               </p>
             )}
           </>

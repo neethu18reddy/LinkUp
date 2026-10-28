@@ -1,10 +1,12 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
-import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
 import { RecoveryPage } from './pages/RecoveryPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
 import { SkillsPage } from './pages/SkillsPage';
+const LandingPage = lazy(() =>
+  import('./pages/LandingPage').then((module) => ({ default: module.LandingPage })),
+);
 const NotificationsPage = lazy(() =>
   import('./pages/NotificationsPage').then((module) => ({ default: module.NotificationsPage })),
 );
@@ -36,7 +38,20 @@ const ChatPage = lazy(() =>
 export function App() {
   return (
     <Routes>
-      <Route path="/" element={<LandingPage />} />
+      <Route
+        path="/"
+        element={
+          <Suspense
+            fallback={
+              <main className="session-screen" role="status">
+                Opening linkup…
+              </main>
+            }
+          >
+            <LandingPage />
+          </Suspense>
+        }
+      />
       <Route path="/login" element={<AuthPage key="login" mode="login" />} />
       <Route path="/register" element={<AuthPage key="register" mode="register" />} />
       <Route path="/forgot-password" element={<RecoveryPage key="forgot" mode="forgot" />} />

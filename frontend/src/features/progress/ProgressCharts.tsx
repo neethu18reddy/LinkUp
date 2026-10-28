@@ -17,11 +17,10 @@ export function ProgressCharts({ data }: { data: ProgressSummary }) {
   return (
     <div className="progress-charts">
       <section className="skills-card activity-chart">
-        <span className="section-kicker">CONSISTENCY OVER PERFECTION</span>
         <h2>Learning time</h2>
         <div className="chart-total">
           <strong>{data.loggedMinutesLast7Days}</strong>
-          <span>minutes this week</span>
+          <span>minutes in the last 7 days</span>
         </div>
         <p>Minutes logged across all goals, last seven UTC days.</p>
         {!data.daily.some((day) => day.minutes > 0) && (
@@ -77,7 +76,6 @@ export function ProgressCharts({ data }: { data: ProgressSummary }) {
         </details>
       </section>
       <section className="skills-card skill-chart">
-        <span className="section-kicker">BUILDING YOUR FOUNDATION</span>
         <h2>Skill progress</h2>
         <p>
           Completed roadmap hours by skill; this is learning progress, not a proficiency assessment.

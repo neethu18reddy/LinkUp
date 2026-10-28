@@ -1,51 +1,35 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
+import { MemoryRouter } from 'react-router-dom';
 import { describe, expect, it, vi } from 'vitest';
-import { getHealth } from '@/lib/api';
 import { LandingPage } from './LandingPage';
 
-vi.mock('@/lib/api', () => ({ getHealth: vi.fn() }));
-
+vi.mock('gsap', () => ({
+  default: { registerPlugin: vi.fn(), matchMedia: () => ({ add: vi.fn(), revert: vi.fn() }) },
+}));
+vi.mock('gsap/ScrollTrigger', () => ({ ScrollTrigger: {} }));
 function renderPage() {
-  const client = new QueryClient({
-    defaultOptions: { queries: { retry: false, retryDelay: 0, gcTime: 0 } },
-  });
   return render(
-    <QueryClientProvider client={client}>
+    <MemoryRouter>
       <LandingPage />
-    </QueryClientProvider>,
+    </MemoryRouter>,
   );
 }
-
-describe('landing API connection states', () => {
-  it('shows a connection state while the server request is pending', () => {
-    vi.mocked(getHealth).mockImplementation(() => new Promise(() => {}));
+describe('public introduction', () => {
+  it('explains the product and gives visitors a working starting point', () => {
     renderPage();
-    expect(screen.getByRole('status')).toHaveTextContent('Connecting to server');
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Your next chapter');
+    expect(screen.getByRole('link', { name: 'Build my learning path' })).toHaveAttribute(
+      'href',
+      '/register',
+    );
+    expect(screen.getAllByRole('link', { name: 'Sign in' })[0]).toHaveAttribute('href', '/login');
+    expect(screen.getByRole('region', { name: 'How linkup works' })).toBeInTheDocument();
   });
-
-  it('shows a successful connection', async () => {
-    vi.mocked(getHealth).mockResolvedValue({
-      name: 'linkup',
-      status: 'ok',
-      timestamp: new Date().toISOString(),
-    });
+  it('labels sample data and explains provider and certificate limitations', () => {
     renderPage();
-    expect(await screen.findByText('Server is running')).toBeInTheDocument();
-  });
-
-  it('allows retry after a failed request', async () => {
-    vi.mocked(getHealth).mockRejectedValue(new Error('Offline'));
-    renderPage();
-    expect(await screen.findByText('Server is unavailable')).toBeInTheDocument();
-    vi.mocked(getHealth).mockResolvedValue({
-      name: 'linkup',
-      status: 'ok',
-      timestamp: new Date().toISOString(),
-    });
-    await userEvent.click(screen.getByRole('button', { name: 'Retry' }));
-    expect(await screen.findByText('Server is running')).toBeInTheDocument();
+    expect(screen.getByText('Example roadmap')).toBeInTheDocument();
+    expect(screen.getByText(/not an accredited qualification/)).toBeInTheDocument();
+    expect(screen.getByText(/configured provider and its quota/)).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Skip to content' })).toHaveAttribute('href', '#main');
   });
 });

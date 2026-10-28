@@ -13,6 +13,8 @@ import {
   Award,
   Bell,
   Sparkles,
+  Menu,
+  X,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -32,6 +34,7 @@ const navItems = [
 ] as const;
 
 export function AccountLayout({ children }: { children: ReactNode }) {
+  const [menuOpen, setMenuOpen] = useState(false);
   const [pending, setPending] = useState(false);
   const [failure, setFailure] = useState('');
   async function logout() {
@@ -47,7 +50,10 @@ export function AccountLayout({ children }: { children: ReactNode }) {
   }
   return (
     <div className="workspace-shell">
-      <header className="site-header account-header">
+      <a className="skip-link" href="#workspace-main">
+        Skip to content
+      </a>
+      <header className={`site-header account-header ${menuOpen ? 'menu-open' : ''}`}>
         <Link to="/" className="brand">
           <motion.span
             className="brand-mark"
@@ -58,10 +64,25 @@ export function AccountLayout({ children }: { children: ReactNode }) {
           </motion.span>
           linkup<span className="brand-period">.</span>
         </Link>
-        <nav aria-label="Your workspace">
+        <Button
+          className="mobile-menu-toggle"
+          variant="outline"
+          aria-expanded={menuOpen}
+          aria-controls="workspace-navigation"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {menuOpen ? <X size={18} /> : <Menu size={18} />} {menuOpen ? 'Close' : 'Menu'}
+        </Button>
+        <nav
+          id="workspace-navigation"
+          aria-label="Your workspace"
+          onKeyDown={(event) => {
+            if (event.key === 'Escape') setMenuOpen(false);
+          }}
+        >
           <p className="nav-label">WORKSPACE</p>
           {navItems.map(([path, label, Icon]) => (
-            <NavLink key={path} to={path}>
+            <NavLink key={path} to={path} onClick={() => setMenuOpen(false)}>
               {({ isActive }) => (
                 <motion.span
                   className="flex items-center gap-[13px] w-full"
@@ -99,7 +120,7 @@ export function AccountLayout({ children }: { children: ReactNode }) {
           {pending ? 'Signing out…' : 'Sign out'}
         </Button>
       </header>
-      <div className="workspace-content">
+      <div className="workspace-content" id="workspace-main" tabIndex={-1}>
         <div className="workspace-topbar">
           <span>Your learning workspace</span>
           <motion.span
@@ -108,10 +129,7 @@ export function AccountLayout({ children }: { children: ReactNode }) {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <motion.span
-              animate={{ scale: [1, 1.3, 1] }}
-              transition={{ repeat: Infinity, duration: 2 }}
-            />
+            <span />
             Learning, at your pace
           </motion.span>
         </div>

@@ -381,7 +381,7 @@ export function AuthPage({ mode }: { mode: 'login' | 'register' }) {
         {/* Security / Honor code ribbon */}
         <div className="mt-6 flex items-center justify-center gap-1.5 text-[11px] text-gray-400">
           <ShieldCheck size={13} className="text-emerald-600" />
-          <span>Encrypted with 256-bit AES · Privacy First</span>
+          <span>Your learning journey, in your own workspace.</span>
         </div>
       </motion.main>
 
