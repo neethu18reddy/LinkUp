@@ -16,6 +16,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Button } from '@/components/ui/button';
 import { TiltCard } from '@/components/ui/tilt-card';
 import { useAuth } from '@/store/auth';
+import { BlossomScene } from '@/components/BlossomScene';
 
 gsap.registerPlugin(ScrollTrigger);
 const chapters = [
@@ -145,6 +146,7 @@ export function LandingPage() {
       </header>
       <main id="main">
         <section className="landing-hero">
+          <BlossomScene />
           <div className="landing-hero-copy">
             <h1>
               Your next chapter.

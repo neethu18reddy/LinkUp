@@ -22,7 +22,7 @@ export function LearningSteps() {
               <span className="step-num">{String(index + 1).padStart(2, '0')}</span>
               <Icon
                 size={15}
-                className={isActive ? 'text-[#225c47]' : 'text-[#8b968c]'}
+                className={isActive ? 'text-[#6750a4]' : 'text-[#696176]'}
                 aria-hidden="true"
               />
               <span className="step-text font-medium">{title}</span>

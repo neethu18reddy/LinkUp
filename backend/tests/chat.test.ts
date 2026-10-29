@@ -131,6 +131,31 @@ describe('mentor context and offline guidance', () => {
   });
 });
 describe('mentor turn lifecycle', () => {
+  it('keeps the preceding learner question when a long answer exceeds the history budget', () => {
+    const messages = [
+      { role: 'USER', content: 'Explain Python loops.' },
+      { role: 'ASSISTANT', content: 'A long explanation. '.repeat(700) },
+    ] as Parameters<typeof trimMentorHistory>[0];
+    const trimmed = trimMentorHistory(messages, user, 1000);
+    expect(trimmed).toHaveLength(2);
+    expect(trimmed[0]!.content).toBe('Explain Python loops.');
+    expect(trimmed[1]!.content.endsWith('…')).toBe(true);
+    expect(trimmed.reduce((sum, row) => sum + row.content.length, 0)).toBeLessThanOrEqual(1000);
+  });
+  it('does not substitute a roadmap checklist for an offline tutoring question', async () => {
+    let answer = '';
+    for await (const chunk of new OfflineMentorProvider().stream(
+      {
+        message: 'Explain JavaScript closures with an example',
+        history: [],
+        context: buildMentorContext(snapshot(), [], '2026-10-29', user),
+      },
+      new AbortController().signal,
+    ))
+      answer += chunk;
+    expect(answer).toContain('Live AI tutoring is not enabled');
+    expect(answer).not.toContain('Focus next on');
+  });
   it('streams and atomically saves a turn, then replays retries without another provider call', async () => {
     const generate = vi.fn();
     const provider: MentorProvider = {

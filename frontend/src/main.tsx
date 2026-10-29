@@ -9,6 +9,7 @@ import { App } from './App';
 import './index.css';
 import './workspace.css';
 import './design-system.css';
+import './blossom-theme.css';
 import { SessionBoundary } from './features/auth/SessionBoundary';
 import { RouteErrorBoundary } from './components/RouteErrorBoundary';
 

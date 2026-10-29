@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+:root {
+  --cloud-background: #fffcfa;
+  --cloud-ink: #302a43;
+  --cloud-muted: #696176;
+  --cloud-accent: #6750a4;
+  --cloud-lavender: #b8b5ec;
+  --cloud-peach: #ffd6bc;
+  --cloud-blush: #f5c7dc;
+  --cloud-yellow: #ffe8b8;
+  --cloud-border: #e3dded;
+  --cloud-soft: #f1edfa;
+  --cloud-action: linear-gradient(
+    115deg,
+    var(--cloud-peach),
+    var(--cloud-blush) 48%,
+    var(--cloud-lavender)
+  );
+  --primary: var(--cloud-accent);
+  --background: var(--cloud-background);
+  --foreground: var(--cloud-ink);
+  --border: var(--cloud-border);
+  --muted: var(--cloud-muted);
+  --sage: var(--cloud-border);
+  --mint: var(--cloud-soft);
+  font-family: 'Inter Tight', 'DM Sans Variable', sans-serif;
+}
+body {
+  background: var(--cloud-background);
+  color: var(--cloud-ink);
+}
+h1,
+h2,
+h3,
+.workspace-content h1 {
+  color: var(--cloud-ink);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+.button,
+.workspace-content .button {
+  border-radius: 999px;
+}
+/* Keep every primary action consistent, including the former glow variant. */
+.button.button-primary,
+.button.button-glow,
+.landing-final .button {
+  background: var(--cloud-action);
+  border-color: transparent;
+  color: var(--cloud-ink);
+  box-shadow:
+    inset 0 1px 0 #ffffff80,
+    0 4px 12px #6750a414;
+}
+.button.button-primary:hover,
+.button.button-glow:hover:not(:disabled),
+.landing-final .button:hover {
+  background: var(--cloud-action);
+  color: var(--cloud-ink);
+  box-shadow:
+    inset 0 1px 0 #ffffff90,
+    0 7px 20px #6750a426;
+}
+.button-outline,
+.button-secondary,
+.button-ghost {
+  color: var(--cloud-ink);
+  border-color: var(--cloud-lavender);
+}
+.button-outline:hover,
+.button-secondary:hover {
+  background: var(--cloud-border);
+}
+.brand-mark {
+  background: var(--cloud-ink);
+}
+.workspace-shell,
+.workspace-shell .account-header,
+.workspace-topbar {
+  background: var(--cloud-background);
+}
+.workspace-shell .account-header nav a.active {
+  background: var(--cloud-border);
+  color: var(--cloud-ink);
+}
+.workspace-content .skills-card,
+.auth-card,
+.mentor-workspace,
+.account-summary {
+  border-radius: 22px;
+  border-color: var(--cloud-border);
+  background: #fff;
+}
+.workspace-content
+  :is(.metric-card, .next-learning-action, .learning-metrics, .plan-preview, .custom-goal-callout),
+.mentor-sidebar {
+  background: var(--cloud-border);
+}
+.workspace-content .goal-option.selected,
+.mentor-user {
+  background: var(--cloud-soft);
+  border-color: var(--cloud-muted);
+}
+.workspace-content .text-link {
+  color: var(--cloud-ink);
+  border-color: var(--cloud-lavender);
+  border-radius: 999px;
+}
+.workspace-content .goal-option:hover,
+.mentor-message {
+  background: var(--cloud-soft);
+}
+.skill-progress-list progress,
+progress,
+input[type='checkbox'] {
+  accent-color: var(--cloud-accent);
+}
+.workspace-topbar {
+  border-bottom-color: var(--cloud-border);
+}
+.sidebar-note {
+  background: var(--cloud-soft);
+}
+.auth-shell {
+  background: radial-gradient(ellipse at 95% 10%, #f9e4ec80, transparent 45%);
+}
+.landing-v2 {
+  background: #fff;
+}
+.landing-nav {
+  position: absolute;
+  z-index: 5;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100% - 28px);
+  min-height: 62px;
+  gap: 60px;
+  padding: 7px 8px 7px 22px;
+  border-radius: 999px;
+  border: 1px solid var(--cloud-border);
+  background: #fffffff0;
+  box-shadow: 0 6px 22px #302a430d;
+}
+.landing-nav .brand {
+  font-size: 24px;
+}
+.landing-v2 main {
+  width: 100%;
+}
+.landing-hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 780px;
+  height: 100svh;
+  padding: 170px 24px 0;
+  overflow: hidden;
+}
+.landing-hero-copy {
+  position: relative;
+  z-index: 2;
+  max-width: 850px;
+  text-align: center;
+}
+.landing-hero h1 {
+  font-size: clamp(44px, 5.4vw, 78px);
+  font-weight: 400;
+}
+.landing-hero h1 span {
+  color: var(--cloud-ink);
+  font-style: italic;
+}
+.landing-hero-copy > p {
+  max-width: 580px;
+  margin: 22px auto;
+  color: var(--cloud-accent);
+  font-size: 17px;
+}
+.landing-actions {
+  justify-content: center;
+}
+.landing-hero .hero-path {
+  display: none;
+}
+.blossom-scene {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: #fff;
+}
+.blossom-scene video {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 74%;
+  object-fit: cover;
+  object-position: center 70%;
+  mask-image: linear-gradient(transparent, #000 30%);
+}
+.blossom-cloud {
+  position: absolute;
+  width: 40%;
+  top: 2%;
+  opacity: 0.8;
+  animation: cloud-drift 16s ease-in-out infinite alternate;
+}
+.cloud-left {
+  left: -12%;
+}
+.cloud-right {
+  right: -12%;
+  animation-direction: alternate-reverse;
+}
+.blossom-glass {
+  position: absolute;
+  inset: 65% 5% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blossom-glass span {
+  width: 55px;
+  height: 55px;
+  border: 1px solid #ffffff90;
+  border-radius: 12px;
+  backdrop-filter: blur(7px);
+  background: #ffffff15;
+}
+.blossom-glass span:nth-child(even) {
+  transform: translateY(45px);
+}
+.scene-toggle {
+  position: absolute;
+  z-index: 3;
+  right: 24px;
+  bottom: 24px;
+  border: 1px solid var(--cloud-lavender);
+  background: #ffffffeb;
+  color: var(--cloud-ink);
+  border-radius: 999px;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+.landing-intro,
+.journey-stage,
+.landing-features,
+.landing-faq {
+  width: min(1200px, calc(100% - 64px));
+  margin-inline: auto;
+}
+.landing-intro {
+  border: 0;
+  padding-top: 100px;
+}
+.journey-card {
+  background: var(--cloud-border);
+  border-radius: 22px;
+  transition:
+    background 0.3s,
+    box-shadow 0.3s;
+}
+.journey-card:hover,
+.journey-card:focus-within {
+  background: var(--cloud-border);
+  box-shadow: 0 14px 36px #302a4312;
+}
+.journey-number {
+  font-size: 65px;
+  color: var(--cloud-accent);
+  font-weight: 500;
+}
+.features-heading h2 span {
+  color: var(--cloud-accent);
+}
+.mini-roadmap span {
+  background: var(--cloud-border);
+}
+.feature-label,
+.journey-example svg {
+  color: var(--cloud-ink);
+}
+.landing-final {
+  position: relative;
+  border-radius: 0;
+  min-height: 680px;
+  margin-bottom: 0;
+  padding: 90px 24px;
+  background: #1c2942
+    url('https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20261021_093217_cc690198-ad8c-4127-8734-8485bd878351.png')
+    center/cover;
+}
+.landing-final h2 {
+  color: #fff;
+  text-shadow: 0 2px 20px #101c39;
+}
+.landing-final .button {
+  background: var(--cloud-border);
+  color: var(--cloud-ink);
+}
+.landing-final p {
+  color: #fff;
+}
+.landing-footer {
+  width: 100%;
+  padding: 35px max(24px, 8vw);
+  background: var(--cloud-muted);
+  color: var(--cloud-ink);
+}
+@keyframes cloud-drift {
+  to {
+    transform: translate(25px, 8px);
+  }
+}
+@media (max-width: 760px) {
+  .landing-nav {
+    gap: 20px;
+  }
+  .landing-nav nav > a:not(.button) {
+    display: none;
+  }
+  .landing-hero {
+    min-height: 760px;
+    padding-top: 150px;
+  }
+  .landing-hero-copy > p {
+    font-size: 16px;
+  }
+  .blossom-cloud {
+    width: 70%;
+  }
+  .cloud-left {
+    left: -30%;
+  }
+  .cloud-right {
+    right: -30%;
+  }
+  .landing-intro,
+  .journey-stage,
+  .landing-features,
+  .landing-faq {
+    width: calc(100% - 36px);
+  }
+  .landing-final {
+    min-height: 600px;
+  }
+  .blossom-glass span:nth-child(even) {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .blossom-cloud {
+    animation: none;
+  }
+}
+.journey-stage {
+  position: relative;
+  padding-bottom: 210px;
+}
+.journey-stage:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 210px;
+  background: url('https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20261021_093215_95f11900-c4a0-49ad-bb2d-bb927dd594ee.png')
+    center bottom/contain no-repeat;
+  pointer-events: none;
+}
+.landing-hero-copy {
+  animation: blossom-enter 0.9s ease-out both;
+}
+@keyframes blossom-enter {
+  from {
+    transform: translateY(16px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing-hero-copy {
+    animation: none;
+  }
+}
+/* Cloud palette across the public site and learning workspace. */
+.brand-mark {
+  background: var(--cloud-action);
+  color: var(--cloud-ink);
+}
+::selection {
+  background: var(--cloud-blush);
+  color: var(--cloud-ink);
+}
+.button-secondary {
+  background: var(--cloud-soft);
+}
+.button-ghost {
+  background: transparent;
+}
+.button:focus-visible,
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--cloud-accent);
+  outline-offset: 4px;
+}
+.button:active:not(:disabled) {
+  transform: translateY(1px) scale(0.98);
+}
+.button:disabled,
+.button[aria-disabled='true'] {
+  opacity: 0.55;
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+}
+.workspace-shell .account-header nav a.active {
+  background: var(--cloud-soft);
+  color: var(--cloud-accent);
+  box-shadow: inset 3px 0 var(--cloud-accent);
+}
+.dashboard-main .page-heading {
+  padding: clamp(22px, 3vw, 38px);
+  border: 1px solid var(--cloud-border);
+  border-radius: 24px;
+  background:
+    radial-gradient(ellipse at 90% 10%, #ffd6bc80, transparent 55%),
+    radial-gradient(ellipse at 10% 90%, #b8b5ec60, transparent 65%), #fff;
+}
+.workspace-content .metric-completion {
+  background: #efecfc;
+}
+.workspace-content .metric-streak {
+  background: #fff0e5;
+}
+.workspace-content .metric-time {
+  background: #fbeaf2;
+}
+.workspace-content .next-learning-action {
+  background: var(--cloud-soft);
+}
+.workspace-content .metric-card strong {
+  color: var(--cloud-ink);
+}
+.workspace-content .metric-icon {
+  color: var(--cloud-accent);
+}
+.mentor-sidebar {
+  background: #f1edfa;
+}
+.mentor-user {
+  background: #fbeaf2;
+}
+.mentor-message {
+  border-color: var(--cloud-border);
+}
+.sidebar-note {
+  background: linear-gradient(135deg, #fff0e5, #f1edfa);
+}
+.landing-hero h1 span,
+.journey-number,
+.feature-label {
+  color: var(--cloud-accent);
+}
+.landing-hero-copy > p,
+.auth-description {
+  color: var(--cloud-muted);
+}
+.journey-card {
+  background: #f1edfa;
+}
+.journey-card:nth-child(2) {
+  background: #fff0e5;
+}
+.journey-card:nth-child(3) {
+  background: #fbeaf2;
+}
+.journey-card:hover,
+.journey-card:focus-within {
+  background: #ece5f7;
+}
+.landing-footer {
+  background: var(--cloud-action);
+  color: var(--cloud-ink);
+}
+.landing-final .button {
+  background: var(--cloud-action);
+  color: var(--cloud-ink);
+}
+.scene-toggle {
+  color: var(--cloud-ink);
+  border-color: var(--cloud-border);
+}
+progress {
+  accent-color: var(--cloud-accent);
+}
+progress::-webkit-progress-value {
+  background: var(--cloud-accent);
+}
+progress::-moz-progress-bar {
+  background: var(--cloud-accent);
+}
+.skills-card,
+.goal-option,
+.metric-card {
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+@media (hover: hover) {
+  .skills-card:hover,
+  .goal-option:hover {
+    border-color: var(--cloud-lavender);
+  }
+  .button:hover:not(:disabled) {
+    transform: translateY(-2px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .button,
+  .skills-card,
+  .goal-option,
+  .metric-card {
+    transition: none;
+  }
+  .button:hover,
+  .button:active {
+    transform: none;
+  }
+}
+@media (max-width: 600px) {
+  .learning-steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .learning-steps > a {
+    min-width: 0;
+    width: 100%;
+  }
+  .learning-steps .step-text {
+    white-space: normal;
+  }
+}
+[data-sonner-toast][data-styled='true'][data-type='success'] {
+  background: var(--cloud-soft);
+  color: var(--cloud-ink);
+  border-color: var(--cloud-lavender);
+}

@@ -70,8 +70,17 @@ export function trimMentorHistory(
   const selected: { role: 'USER' | 'ASSISTANT'; content: string }[] = [];
   let remaining = budget;
   for (const message of messages.slice(-12).reverse()) {
-    const content = redactMentorText(message.content, identity);
-    if (content.length > remaining) break;
+    if (remaining <= 0) break;
+    // A long assistant answer used to discard the entire conversation, including
+    // the learner's preceding question. Reserve room for that question instead.
+    const limit =
+      message.role === 'ASSISTANT'
+        ? Math.min(3000, Math.floor(remaining / 2))
+        : Math.min(1000, remaining);
+    if (limit <= 0) continue;
+    const original = redactMentorText(message.content, identity);
+    const content =
+      original.length > limit ? `${original.slice(0, Math.max(0, limit - 1))}…` : original;
     selected.unshift({ role: message.role, content });
     remaining -= content.length;
   }

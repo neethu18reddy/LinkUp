@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Check, Sprout, ArrowRight, Sparkles } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { AccountLayout } from '@/components/layout/AccountLayout';
 import { useAuth } from '@/store/auth';
@@ -12,6 +12,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FadeIn } from '@/components/ui/animated-container';
 
 export function DashboardPage() {
+  const reducedMotion = useReducedMotion();
   const user = useAuth((state) => state.user);
   return (
     <AccountLayout>
@@ -21,7 +22,7 @@ export function DashboardPage() {
             eyebrow="YOUR LEARNING SPACE"
             title={
               <>
-                Welcome, <span className="text-[#438b65]">{user?.name}</span>.
+                Welcome, <span className="text-[#6750a4]">{user?.name}</span>.
               </>
             }
             description="You've taken the first step. Let's build from here."
@@ -35,16 +36,16 @@ export function DashboardPage() {
         <FadeIn delay={0.2}>
           <motion.details
             className="dashboard-empty"
-            whileHover={{ borderColor: '#a4c2af' }}
+            whileHover={{ borderColor: '#b8b5ec' }}
             transition={{ duration: 0.2 }}
           >
             <summary className="cursor-pointer">
-              <Sparkles size={16} className="inline mr-2 text-[#438b65]" aria-hidden="true" />
+              <Sparkles size={16} className="inline mr-2 text-[#6750a4]" aria-hidden="true" />
               Review your starting skills
             </summary>
             <span className="empty-icon">
               <motion.div
-                animate={{ rotate: [0, 10, -10, 0] }}
+                animate={reducedMotion ? undefined : { rotate: [0, 10, -10, 0] }}
                 transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
               >
                 <Sprout size={28} strokeWidth={1.4} />
@@ -82,11 +83,11 @@ export function DashboardPage() {
             <CardContent>
               <dl className="grid gap-4">
                 <div className="grid grid-cols-[80px_1fr] gap-5 text-xs">
-                  <dt className="text-[#65746b]">Name</dt>
+                  <dt className="text-[#6750a4]">Name</dt>
                   <dd className="m-0 font-medium overflow-wrap-anywhere">{user?.name}</dd>
                 </div>
                 <div className="grid grid-cols-[80px_1fr] gap-5 text-xs">
-                  <dt className="text-[#65746b]">Email</dt>
+                  <dt className="text-[#6750a4]">Email</dt>
                   <dd className="m-0 font-medium overflow-wrap-anywhere">{user?.email}</dd>
                 </div>
               </dl>

@@ -115,6 +115,6 @@ describe('Gemini provider', () => {
           new AbortController().signal,
         )
         .next(),
-    ).rejects.toMatchObject({ code: 'MENTOR_UNAVAILABLE' });
+    ).rejects.toMatchObject({ code: 'MENTOR_QUOTA', statusCode: 429 });
   });
 });

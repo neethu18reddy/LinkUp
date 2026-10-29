@@ -62,7 +62,7 @@ export function DashboardProgress() {
                   aria-valuemax={100}
                   aria-valuenow={data.overallPercent}
                   style={{
-                    background: `conic-gradient(#225c47 ${data.overallPercent}%, #e0e6e1 0)`,
+                    background: `conic-gradient(var(--cloud-accent) ${data.overallPercent}%, var(--cloud-border) 0)`,
                   }}
                 >
                   <strong>{data.overallPercent}%</strong>

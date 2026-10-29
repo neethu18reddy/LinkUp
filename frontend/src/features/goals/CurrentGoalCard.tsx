@@ -37,7 +37,7 @@ export function CurrentGoalCard() {
       ) : goal.data ? (
         <>
           <div className="flex items-center gap-2.5">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-[#225c47]/10 text-[#225c47]">
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-[#6750a4]/10 text-[#6750a4]">
               <Compass size={18} aria-hidden="true" />
             </span>
             <h3 className="m-0 text-xl font-semibold tracking-tight">{goal.data.targetRole}</h3>
@@ -46,7 +46,7 @@ export function CurrentGoalCard() {
             Your goal is saved. Review your skill gaps and build a roadmap.
           </p>
           <Link
-            className="text-link inline-flex items-center gap-1 font-medium text-sm text-[#225c47] hover:underline"
+            className="text-link inline-flex items-center gap-1 font-medium text-sm text-[#6750a4] hover:underline"
             to="/roadmap"
           >
             Open your roadmap <ArrowRight size={14} aria-hidden="true" />

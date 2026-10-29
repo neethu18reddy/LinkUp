@@ -9,12 +9,12 @@ const Progress = React.forwardRef<
 >(({ className, value, indicatorClassName, ...props }, ref) => (
   <ProgressPrimitive.Root
     ref={ref}
-    className={cn('relative h-2 w-full overflow-hidden rounded-full bg-[#e8ede6]', className)}
+    className={cn('relative h-2 w-full overflow-hidden rounded-full bg-[#f1edfa]', className)}
     {...props}
   >
     <motion.div
       className={cn(
-        'h-full rounded-full bg-gradient-to-r from-[#225c47] to-[#438b65]',
+        'h-full rounded-full bg-gradient-to-r from-[#6750a4] to-[#6750a4]',
         indicatorClassName,
       )}
       initial={{ width: 0 }}

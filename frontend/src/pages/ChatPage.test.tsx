@@ -119,6 +119,27 @@ describe('Mentor conversation UI', () => {
       'What should I work on next?',
     );
     expect(streamMessage).not.toHaveBeenCalled();
+    expect(screen.queryByRole('button', { name: /Quiz me/ })).not.toBeInTheDocument();
+  });
+  it('offers tutoring starters only when a live AI provider is configured', async () => {
+    vi.mocked(getMentorConfig).mockResolvedValue({ mode: 'gemini' });
+    mount();
+    await waitFor(() =>
+      expect(screen.getByRole('button', { name: /Quiz me on my current topic/ })).toBeEnabled(),
+    );
+    expect(screen.getByRole('button', { name: 'Help me debug my code.' })).toBeEnabled();
+  });
+  it('keeps the reserved conversation recoverable after an interrupted first reply', async () => {
+    const user = userEvent.setup();
+    vi.mocked(streamMessage).mockImplementationOnce(async (_input, _signal, onEvent) => {
+      onEvent({ event: 'meta', data: { session: chatSession, mode: 'offline' } });
+      throw new MentorError('Network interrupted');
+    });
+    mount();
+    await user.click(await screen.findByRole('button', { name: 'What should I work on next?' }));
+    await user.click(screen.getByRole('button', { name: 'Send message' }));
+    expect(await screen.findByRole('button', { name: 'Reload history' })).toBeInTheDocument();
+    expect(getHistory).toHaveBeenCalledWith(chatSession.id);
   });
   it('streams a reply and shows the saved turn', async () => {
     const user = userEvent.setup();

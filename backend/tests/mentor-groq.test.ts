@@ -36,6 +36,14 @@ describe('approved Groq mentor transport', () => {
     });
     expect(JSON.stringify(create.mock.calls[0]![0].messages)).not.toContain('private@example.test');
     expect(create.mock.calls[0]![0].messages.at(-1).content).toBe(input.message);
+    expect(create.mock.calls[0]![0].messages[0].content).toContain(
+      "Answer the learner's latest question first",
+    );
+    expect(create.mock.calls[0]![0].messages[0].content).toContain('ask ONE question at a time');
+    expect(create.mock.calls[0]![0].messages).toContainEqual({
+      role: 'user',
+      content: 'I am learning Python.',
+    });
   });
   it('returns a safe error instead of exposing provider credentials or internal failures', async () => {
     const create = vi.fn().mockRejectedValue(new Error('secret provider diagnostics'));

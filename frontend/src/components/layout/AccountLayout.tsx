@@ -93,7 +93,7 @@ export function AccountLayout({ children }: { children: ReactNode }) {
                   {label}
                   {isActive && (
                     <motion.span
-                      className="ml-auto h-1.5 w-1.5 rounded-full bg-[#438b65]"
+                      className="ml-auto h-1.5 w-1.5 rounded-full bg-[#6750a4]"
                       layoutId="nav-indicator"
                       transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                     />
@@ -110,7 +110,7 @@ export function AccountLayout({ children }: { children: ReactNode }) {
           transition={{ delay: 0.5 }}
         >
           <span className="sidebar-note-icon">
-            <Sparkles size={24} className="text-[#6f8a58]" />
+            <Sparkles size={24} className="text-[#696176]" />
           </span>
           <strong>Small steps. Real progress.</strong>
           <p>Your next chapter starts with a little time each week.</p>

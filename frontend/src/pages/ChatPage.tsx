@@ -21,13 +21,17 @@ import {
   type MessageInput,
   type MentorEvent,
 } from '@/features/chat/chat.api';
-const suggestions = [
+const offlineSuggestions = [
   'How am I doing?',
   'What should I work on next?',
   'Help me review my schedule',
   'How should I approach my project?',
-  'Explain my next topic with an example and a short exercise.',
+];
+const tutoringSuggestions = [
+  'Explain my next topic with a worked example.',
   'Quiz me on my current topic, one question at a time.',
+  'Help me debug my code.',
+  'What should I work on next?',
 ];
 export function ChatPage() {
   const client = useQueryClient();
@@ -64,6 +68,8 @@ export function ChatPage() {
   const composer = useRef<HTMLTextAreaElement>(null);
   const conversation = useRef<HTMLDivElement>(null);
   const followReply = useRef(true);
+  const suggestions =
+    configuration.data?.mode === 'offline' ? offlineSuggestions : tutoringSuggestions;
   useEffect(() => {
     const panel = conversation.current;
     if (panel && followReply.current) panel.scrollTop = panel.scrollHeight;
@@ -131,6 +137,19 @@ export function ChatPage() {
     try {
       await streamMessage(input, abort.signal, (event) => {
         if (epoch !== generation.current) return;
+        if (event.event === 'meta') {
+          // Keep the reserved session available after a network failure or cancellation.
+          setSelected(event.data.session.id);
+          client.setQueryData<HistoryPage>(
+            historyKey(event.data.session.id),
+            (old) =>
+              old ?? {
+                session: event.data.session,
+                messages: [],
+                nextBefore: null,
+              },
+          );
+        }
         if (event.event === 'delta') setPartial((previous) => previous + event.data.text);
         if (event.event === 'done') result = event.data;
       });
@@ -254,7 +273,7 @@ export function ChatPage() {
             </Button>
             <p className="mentor-notice">
               {configuration.data?.mode === 'offline'
-                ? 'Offline guidance is active. Replies use local rules and your saved progress. No messages are sent to external AI services.'
+                ? 'Offline guidance is active — this is not an AI tutor. It can summarise progress and suggest scheduled tasks, but cannot explain concepts, debug code, or quiz you. No messages are sent to external AI services.'
                 : configuration.data
                   ? 'AI mentor is active. Your question, recent chat and anonymised learning context are sent to the configured AI provider. Avoid sharing private information. Replies can be inaccurate; check important explanations.'
                   : configuration.isError
@@ -366,11 +385,19 @@ export function ChatPage() {
                       <span className="mentor-welcome-icon">
                         <Sparkles size={30} aria-hidden="true" />
                       </span>
-                      <h2>What will we figure out today?</h2>
+                      <h2>
+                        {configuration.data?.mode === 'offline'
+                          ? 'Review your learning progress'
+                          : 'What will we figure out today?'}
+                      </h2>
                       <p>
                         No messages yet. Ask about your progress, next topic, schedule or project.
                       </p>
-                      <small>Pick a starter below, or tell me where you are stuck.</small>
+                      <small>
+                        {configuration.data?.mode === 'offline'
+                          ? 'For detailed tutoring, enable AI in this environment. For now, choose a progress question below.'
+                          : 'Tell me the topic, what you have tried, and the part that feels unclear.'}
+                      </small>
                     </div>
                   )}
                   {messages.map((message) => (

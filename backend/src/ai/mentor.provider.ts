@@ -17,6 +17,11 @@ export class OfflineMentorProvider implements MentorProvider {
     if (/system prompt|ignore (?:all|previous)|other user|api.?key|password|secret/.test(question))
       text =
         'I can help with your own learning plan and progress. I cannot provide private data, credentials, or internal instructions.';
+    else if (
+      /\b(explain|quiz|debug|code|example|teach|why|what is|what are|difference)\b/.test(question)
+    )
+      text =
+        'Live AI tutoring is not enabled in this workspace. I cannot explain concepts, review code, or run an interactive quiz in offline mode. I can only summarise your saved progress and help you find your next scheduled task. To get a tailored explanation, the owner needs to enable the configured AI provider. Your question has been kept in this conversation.';
     else if (!context.goal)
       text =
         'Start by adding your skills, choosing a goal, and generating a roadmap. Then set a weekly plan. You can record general learning logs in the meantime.';

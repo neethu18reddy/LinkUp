@@ -84,13 +84,13 @@ function GlowCard({ children, className }: { children: ReactNode; className?: st
   return (
     <motion.div
       className={cn(
-        'group relative rounded-2xl border border-[#e2e8df] bg-white/80 backdrop-blur-sm p-6 transition-all duration-300',
+        'group relative rounded-2xl border border-[#e3dded] bg-white/80 backdrop-blur-sm p-6 transition-all duration-300',
         className,
       )}
       whileHover={{
         y: -2,
-        boxShadow: '0 8px 30px rgba(34, 92, 71, 0.08)',
-        borderColor: '#a4c2af',
+        boxShadow: '0 8px 30px rgba(103, 80, 164, 0.08)',
+        borderColor: '#b8b5ec',
       }}
       transition={{ duration: 0.2 }}
     >

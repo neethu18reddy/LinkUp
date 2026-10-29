@@ -35,29 +35,29 @@ export function ProgressCharts({ data }: { data: ProgressSummary }) {
           initialDimension={{ width: 320, height: 220 }}
         >
           <BarChart data={data.daily} accessibilityLayer>
-            <CartesianGrid vertical={false} stroke="#e8eee9" strokeDasharray="4 4" />
+            <CartesianGrid vertical={false} stroke="var(--cloud-soft)" strokeDasharray="4 4" />
             <XAxis
               dataKey="date"
               tickFormatter={(date) => String(date).slice(5)}
               axisLine={false}
               tickLine={false}
-              tick={{ fill: '#627568', fontSize: 11 }}
+              tick={{ fill: 'var(--cloud-accent)', fontSize: 11 }}
             />
             <YAxis
               axisLine={false}
               tickLine={false}
               allowDecimals={false}
-              tick={{ fill: '#627568', fontSize: 11 }}
+              tick={{ fill: 'var(--cloud-accent)', fontSize: 11 }}
               width={35}
             />
             <Tooltip
-              cursor={{ fill: '#eff5ed' }}
-              contentStyle={{ borderRadius: 14, borderColor: '#dce7dc' }}
+              cursor={{ fill: 'var(--cloud-soft)' }}
+              contentStyle={{ borderRadius: 14, borderColor: 'var(--cloud-border)' }}
             />
             <Bar
               dataKey="minutes"
               name="Minutes learned"
-              fill="#438b65"
+              fill="var(--cloud-accent)"
               radius={[7, 7, 0, 0]}
               maxBarSize={36}
               isAnimationActive={false}
@@ -93,8 +93,8 @@ export function ProgressCharts({ data }: { data: ProgressSummary }) {
               <PolarRadiusAxis domain={[0, 100]} />
               <Radar
                 dataKey="percent"
-                fill="#4f795e"
-                stroke="#285b46"
+                fill="var(--cloud-accent)"
+                stroke="var(--cloud-accent)"
                 fillOpacity={0.3}
                 isAnimationActive={false}
               />
