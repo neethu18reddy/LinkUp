@@ -22,6 +22,12 @@ All changes are local; no push or deployment was performed.
 
 ## Enabling real tutoring in the local preview
 
-Set the existing server-side fields in `backend/.env`: `GEMINI_API_KEY`, `LLM_PROVIDER=gemini`, `LLM_MODEL` to an available Gemini model, and `LLM_LIVE_CALLS_APPROVED=true`. Restart the local backend. Never put the key in frontend variables or commit it.
+Set the existing server-side fields in `backend/.env`: `GEMINI_API_KEY`, `LLM_PROVIDER=gemini`, and `LLM_LIVE_CALLS_APPROVED=true`. Restart the local backend. Never put the key in frontend variables or commit it.
+
+Google calls for both mentor and roadmaps are pinned to `gemini-3.5-flash-lite`, regardless of `LLM_MODEL`. There is no fallback to another Google model. Mentor replies are capped at 1,800 output tokens, roadmaps at 6,000; chat questions and history retain their existing input limits. SDK transport retries are disabled, and roadmap generation stops retrying on a Google 429. Invalid roadmap output can still use up to three calls, each subject to the shared budget.
+
+The shared in-memory budget permits one active Google call, five attempts per rolling minute and 50 attempts per rolling 24 hours per server process, counting failures. A Google 429 adds a one-minute cooldown. Existing durable per-user limits (30 mentor attempts per UTC day) remain in place. These conservative application limits do not guarantee Google's free quota or prevent billing if billing is enabled on the Google project. Google project quotas cover other apps using the same project too. Inspect actual project limits in Google AI Studio.
+
+The shared budget resets on process restart and is independent across serverless instances/replicas. A distributed quota store is required for a deployment-wide cap. Keep the Google project on the free tier for a provider-enforced spending boundary.
 
 After enabling it, start a fresh conversation and check: a worked explanation of closures; a follow-up asking why the example works; and a quiz that waits for each answer. The live site will continue using its previous code until publication is authorized.

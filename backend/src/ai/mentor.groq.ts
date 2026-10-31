@@ -1,4 +1,5 @@
 import OpenAI from 'openai';
+import { GEMINI_MODEL, geminiCallBudget } from './gemini.limits.js';
 import { env } from '../config/env.js';
 import { AppError } from '../utils/AppError.js';
 import { mentorInstructions } from './mentor.prompt.js';
@@ -25,10 +26,11 @@ class CompatibleMentorProvider implements MentorProvider {
       });
   }
   async *stream(input: MentorInput, signal: AbortSignal) {
+    const release = this.mode === 'gemini' ? geminiCallBudget.acquire() : undefined;
     try {
       const stream = await this.client.chat.completions.create(
         {
-          model: this.model,
+          model: this.mode === 'gemini' ? GEMINI_MODEL : this.model,
           stream: true,
           temperature: 0.4,
           ...(this.mode === 'gemini'
@@ -58,6 +60,9 @@ class CompatibleMentorProvider implements MentorProvider {
         if (text) yield text;
       }
     } catch (error) {
+      if (error instanceof AppError) throw error;
+      if (this.mode === 'gemini' && error instanceof OpenAI.APIError && error.status === 429)
+        geminiCallBudget.quotaExceeded();
       if (!signal.aborted && error instanceof OpenAI.APIError) {
         if (error.status === 429)
           throw new AppError(
@@ -85,6 +90,8 @@ class CompatibleMentorProvider implements MentorProvider {
           ? 'Reply cancelled.'
           : 'The AI mentor is unavailable. Please retry shortly or review your roadmap resources.',
       );
+    } finally {
+      release?.();
     }
   }
 }
@@ -101,9 +108,8 @@ export function configuredMentorProvider(): MentorProvider {
   if (env.LLM_PROVIDER === 'disabled' || !env.LLM_LIVE_CALLS_APPROVED)
     return new OfflineMentorProvider();
   if (env.LLM_PROVIDER === 'gemini') {
-    if (!env.GEMINI_API_KEY || !env.LLM_MODEL)
-      throw new Error('Approved Gemini requires a key and model.');
-    return new GeminiMentorProvider(env.GEMINI_API_KEY, env.LLM_MODEL);
+    if (!env.GEMINI_API_KEY?.trim()) throw new Error('Approved Gemini requires a GEMINI_API_KEY.');
+    return new GeminiMentorProvider(env.GEMINI_API_KEY, GEMINI_MODEL);
   }
   if (!env.GROQ_API_KEY || !env.LLM_MODEL)
     throw new Error('Approved Groq requires a key and model.');

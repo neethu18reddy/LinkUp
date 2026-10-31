@@ -1,8 +1,14 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { env, parseEnv } from '../src/config/env.js';
 import { GeminiMentorProvider, configuredMentorProvider } from '../src/ai/mentor.groq.js';
-import { GeminiProvider, configuredProvider } from '../src/ai/roadmap.provider.js';
+import {
+  GeminiProvider,
+  configuredProvider,
+  generateValidated,
+} from '../src/ai/roadmap.provider.js';
+import OpenAI from 'openai';
 import { buildMentorContext } from '../src/ai/mentor.context.js';
+import { GEMINI_MODEL, GeminiCallBudget } from '../src/ai/gemini.limits.js';
 
 const originalEnv = { ...env };
 
@@ -17,6 +23,7 @@ describe('Gemini provider', () => {
   it('accepts Gemini configuration but keeps calls disabled until explicitly approved', () => {
     expect(parseEnv({ NODE_ENV: 'test', LLM_PROVIDER: 'gemini' }).LLM_PROVIDER).toBe('gemini');
     env.LLM_PROVIDER = 'gemini';
+    env.LLM_LIVE_CALLS_APPROVED = false;
     env.GEMINI_API_KEY = 'fake-key';
     expect(configuredProvider()).toBeUndefined();
     expect(configuredMentorProvider().mode).toBe('offline');
@@ -26,10 +33,10 @@ describe('Gemini provider', () => {
     env.LLM_PROVIDER = 'gemini';
     env.LLM_LIVE_CALLS_APPROVED = true;
     env.GEMINI_API_KEY = undefined;
-    expect(() => configuredProvider()).toThrow('key and model');
-    expect(() => configuredMentorProvider()).toThrow('key and model');
+    expect(() => configuredProvider()).toThrow('GEMINI_API_KEY');
+    expect(() => configuredMentorProvider()).toThrow('GEMINI_API_KEY');
     env.GEMINI_API_KEY = 'fake-key';
-    env.LLM_MODEL = 'gemini-test-model';
+    env.LLM_MODEL = '';
     expect(configuredProvider()?.name).toBe('gemini');
     expect(configuredMentorProvider().mode).toBe('gemini');
   });
@@ -63,7 +70,12 @@ describe('Gemini provider', () => {
       'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions',
     );
     const payload = JSON.parse(transport.mock.calls[0]![1].body);
-    expect(payload).toMatchObject({ stream: true, max_tokens: 1800, reasoning_effort: 'low' });
+    expect(payload).toMatchObject({
+      model: GEMINI_MODEL,
+      stream: true,
+      max_tokens: 1800,
+      reasoning_effort: 'low',
+    });
     expect(JSON.stringify(payload)).not.toContain('private@example.test');
   });
 
@@ -82,7 +94,7 @@ describe('Gemini provider', () => {
     ).toBe('{"title":"A roadmap"}');
     const payload = JSON.parse(transport.mock.calls[0]![1].body);
     expect(payload).toMatchObject({
-      model: 'gemini-test-model',
+      model: GEMINI_MODEL,
       max_tokens: 6000,
       response_format: { type: 'json_object' },
     });
@@ -116,5 +128,51 @@ describe('Gemini provider', () => {
         )
         .next(),
     ).rejects.toMatchObject({ code: 'MENTOR_QUOTA', statusCode: 429 });
+  });
+});
+
+describe('shared Gemini application budget', () => {
+  it('does not retry roadmap calls after Google exhausts quota', async () => {
+    const generate = vi
+      .fn()
+      .mockRejectedValue(new OpenAI.APIError(429, {}, 'Quota exhausted', new Headers()));
+    const sleep = vi.fn();
+    expect(await generateValidated({ name: 'gemini', generate }, {}, new Set(), sleep)).toBeNull();
+    expect(generate).toHaveBeenCalledTimes(1);
+    expect(sleep).not.toHaveBeenCalled();
+  });
+
+  it('blocks concurrent calls and more than five attempts per rolling minute', () => {
+    let now = 0;
+    const budget = new GeminiCallBudget(() => now);
+    const release = budget.acquire();
+    expect(() => budget.acquire()).toThrow();
+    release();
+    for (let i = 0; i < 4; i++) budget.acquire()();
+    expect(() => budget.acquire()).toThrow();
+    now = 60_000;
+    expect(() => budget.acquire()()).not.toThrow();
+  });
+
+  it('limits attempts to 50 in a rolling day, including failed calls', () => {
+    let now = 0;
+    const budget = new GeminiCallBudget(() => now);
+    for (let i = 0; i < 50; i++) {
+      budget.acquire()();
+      now += 60_000;
+    }
+    expect(() => budget.acquire()).toThrow();
+    now = 86_400_000;
+    expect(() => budget.acquire()()).not.toThrow();
+  });
+
+  it('stops new calls for a minute after Google reports exhausted quota', () => {
+    let now = 0;
+    const budget = new GeminiCallBudget(() => now);
+    budget.acquire()();
+    budget.quotaExceeded();
+    expect(() => budget.acquire()).toThrow();
+    now = 60_000;
+    expect(() => budget.acquire()()).not.toThrow();
   });
 });
