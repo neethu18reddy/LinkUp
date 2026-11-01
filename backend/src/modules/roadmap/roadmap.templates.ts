@@ -3,6 +3,8 @@ import type { RoadmapDraft } from './roadmap.schemas.js';
 import type { analyzeGaps } from './roadmap.gaps.js';
 import { readFileSync } from 'node:fs';
 import { z } from 'zod';
+import { rolesById, skillsById } from '../../catalog/catalog.js';
+import { buildCatalogRoadmap } from '../../catalog/catalog.roadmaps.js';
 
 // Immutable role blueprints are loaded once, independently of personal skill data.
 const blueprints = z
@@ -67,6 +69,48 @@ export function buildTemplate(
   role: CareerRole,
   analysis: ReturnType<typeof analyzeGaps>,
 ): RoadmapDraft {
+  const catalogRole = role.catalogId ? rolesById.get(role.catalogId) : undefined;
+  if (catalogRole) {
+    const blueprint = buildCatalogRoadmap(catalogRole);
+    const gaps = new Map(analysis.gaps.map((gap) => [gap.skillId, gap]));
+    return {
+      title: `${role.title}: learning roadmap`,
+      phases: blueprint.stages.map((stage) => ({
+        title: stage.title,
+        description: `${stage.goal} Checkpoint: ${stage.checkpoint}`.slice(0, 1000),
+        topics: [
+          ...stage.skills
+            .filter((id) => gaps.has(skillsById.get(id)!.databaseId))
+            .map((id) => {
+              const skill = skillsById.get(id)!,
+                gap = gaps.get(skill.databaseId)!;
+              return {
+                title: skill.name,
+                skillId: skill.databaseId,
+                subtopics: [
+                  skill.description.slice(0, 200),
+                  `Practice ${skill.name} with an example relevant to ${role.title}`.slice(0, 200),
+                  'Explain the result, review errors and demonstrate independent use',
+                ],
+                estimatedHours: gap.currentLevel ? skill.estimatedHours / 2 : skill.estimatedHours,
+                difficulty: gap.requiredLevel,
+                resources: skill.resources.map(({ title, url }) => ({ title, url })),
+                isProject: false,
+              };
+            }),
+          {
+            title: `${role.title}: ${stage.title} milestone`.slice(0, 200),
+            skillId: null,
+            subtopics: [stage.milestoneProject.slice(0, 200), stage.checkpoint.slice(0, 200)],
+            estimatedHours: stage.title.startsWith('Advanced') ? 12 : 4,
+            difficulty: 'INTERMEDIATE' as const,
+            resources: [],
+            isProject: true,
+          },
+        ],
+      })),
+    };
+  }
   if (!role.requirements.length)
     return {
       title: `${role.title}: learning roadmap`,

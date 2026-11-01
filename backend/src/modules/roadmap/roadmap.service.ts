@@ -56,7 +56,7 @@ export class RoadmapService {
             });
     }
     const profile = await this.skills.listProfile(userId);
-    return { goal, role, analysis: analyzeGaps(role.requirements, profile) };
+    return { goal, role, analysis: analyzeGaps(role.requirements, profile, !!role.catalogId) };
   }
   async current(userId: string) {
     const context = await this.context(userId);
@@ -82,7 +82,7 @@ export class RoadmapService {
     const fallback = roadmapDraftSchema.parse(buildTemplate(role, analysis));
     let draft = fallback;
     let source = role.slug === 'custom-goal' ? 'template-custom' : 'template';
-    if (this.provider && role.requirements.length) {
+    if (this.provider && role.requirements.length && !role.catalogId) {
       const generated = await generateValidated(
         this.provider,
         {

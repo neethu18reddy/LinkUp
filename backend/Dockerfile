@@ -6,6 +6,7 @@ COPY backend/package.json ./backend/package.json
 COPY frontend/package.json ./frontend/package.json
 RUN HUSKY=0 npm ci --ignore-scripts
 COPY tsconfig.base.json ./
+COPY scripts ./scripts
 COPY backend ./backend
 COPY frontend ./frontend
 RUN npm run build

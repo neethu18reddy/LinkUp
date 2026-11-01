@@ -20,7 +20,7 @@
     "db:local:start": "node scripts/local-postgres.mjs",
     "db:local:stop": "node scripts/local-postgres.mjs --stop",
     "dev": "concurrently -k -n api,web -c blue,green \"npm run dev -w backend\" \"npm run dev -w frontend\"",
-    "build": "npm run build -w backend && npm run build -w frontend",
+    "build": "npm run catalog:validate && npm run build -w backend && npm run build -w frontend",
     "start": "npm run start -w backend",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix",
@@ -34,8 +34,11 @@
     "db:deploy": "npm run db:deploy -w backend",
     "db:studio": "npm run db:studio -w backend",
     "db:seed:demo": "npm run db:seed:demo -w backend",
-    "check": "npm run format:check && npm run lint && npm run typecheck && npm test && npm run db:validate && npm run build",
-    "prepare": "node scripts/prepare.mjs"
+    "check": "npm run catalog:validate && npm run format:check && npm run lint && npm run typecheck && npm test && npm run db:validate && npm run build",
+    "prepare": "node scripts/prepare.mjs",
+    "catalog:build": "node scripts/build-catalog.mjs",
+    "catalog:validate": "tsx scripts/validate-data.ts",
+    "catalog:seed": "tsx scripts/catalog-seed.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.0",

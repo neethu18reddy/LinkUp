@@ -1,6 +1,7 @@
 import { getDatabase } from '../../config/database.js';
 import { AppError } from '../../utils/AppError.js';
 import type { RolesRepository } from './roles.types.js';
+import { rolesByDatabaseId } from '../../catalog/catalog.js';
 
 const roleSelect = {
   id: true,
@@ -28,10 +29,29 @@ function database() {
   return client;
 }
 export class PrismaRolesRepository implements RolesRepository {
-  list() {
-    return database().roleTemplate.findMany({ select: roleSelect, orderBy: { title: 'asc' } });
+  async list() {
+    const roles = await database().roleTemplate.findMany({
+      select: roleSelect,
+      orderBy: { title: 'asc' },
+    });
+    return roles.map(enrichRole);
   }
-  find(id: string) {
-    return database().roleTemplate.findUnique({ where: { id }, select: roleSelect });
+  async find(id: string) {
+    const role = await database().roleTemplate.findUnique({ where: { id }, select: roleSelect });
+    return role ? enrichRole(role) : null;
   }
+}
+function enrichRole<T extends { id: string }>(role: T) {
+  const metadata = rolesByDatabaseId.get(role.id);
+  return {
+    ...role,
+    ...(metadata
+      ? {
+          catalogId: metadata.id,
+          category: metadata.category,
+          trending: metadata.trending,
+          demand: metadata.demand,
+        }
+      : {}),
+  };
 }

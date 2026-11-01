@@ -1,6 +1,10 @@
 import type { Proficiency } from '../../generated/prisma/client.js';
 
 export interface CareerRole {
+  catalogId?: string;
+  category?: string;
+  trending?: boolean;
+  demand?: string;
   id: string;
   slug: string;
   title: string;
