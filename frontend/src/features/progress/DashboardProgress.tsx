@@ -22,6 +22,7 @@ export function DashboardProgress() {
     );
   const data = query.data;
   const nextTask = data.currentWeek?.tasks.find((task) => task.status !== 'DONE');
+  const nextSkill = data.topics.find((topic) => !topic.isProject && topic.status !== 'DONE');
   return (
     <>
       <section className="skills-card learning-overview">
@@ -49,6 +50,14 @@ export function DashboardProgress() {
               </Link>
             </Button>
           </div>
+        )}
+        {nextSkill && (
+          <p className="next-learning-action">
+            Next skill to learn:{' '}
+            <Link className="text-link" to={`/roadmap#topic-${nextSkill.id}`}>
+              {nextSkill.title}
+            </Link>
+          </p>
         )}
         {data.roadmap ? (
           <>

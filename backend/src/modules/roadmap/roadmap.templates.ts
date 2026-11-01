@@ -3,7 +3,7 @@ import type { RoadmapDraft } from './roadmap.schemas.js';
 import type { analyzeGaps } from './roadmap.gaps.js';
 import { readFileSync } from 'node:fs';
 import { z } from 'zod';
-import { rolesById, skillsById } from '../../catalog/catalog.js';
+import { rolesById, skillsById, skillsByDatabaseId } from '../../catalog/catalog.js';
 import { buildCatalogRoadmap } from '../../catalog/catalog.roadmaps.js';
 
 // Immutable role blueprints are loaded once, independently of personal skill data.
@@ -215,7 +215,11 @@ export function buildTemplate(
           ],
           estimatedHours: row.score === 0 ? 2 : row.currentLevel ? 6 : 12,
           difficulty: row.requiredLevel,
-          resources: learningResources[row.name] ? [learningResources[row.name]!] : [],
+          resources: learningResources[row.name]
+            ? [learningResources[row.name]!]
+            : (skillsByDatabaseId
+                .get(row.skillId)
+                ?.resources.map(({ title, url }) => ({ title, url })) ?? []),
           isProject: false,
         })),
       },

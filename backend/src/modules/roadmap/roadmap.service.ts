@@ -64,7 +64,7 @@ export class RoadmapService {
       goalId: context.goal.id,
       analysis: context.analysis,
       roadmap: await this.repository.latest(userId, context.goal.id),
-      provider: this.provider?.name ?? 'template',
+      provider: context.role.catalogId ? 'template' : (this.provider?.name ?? 'template'),
     };
   }
   async get(userId: string, id: string) {

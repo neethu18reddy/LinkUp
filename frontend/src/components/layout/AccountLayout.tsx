@@ -25,6 +25,7 @@ const navItems = [
   ['/dashboard', 'Overview', LayoutDashboard],
   ['/skills', 'My skills', Layers],
   ['/goals', 'My goals', Target],
+  ['/roles', 'Explore careers', Target],
   ['/roadmap', 'Roadmap', Route],
   ['/plan', 'Weekly plan', CalendarDays],
   ['/progress', 'Learning logs', BookOpen],

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { Plus, Trash2 } from 'lucide-react';
 import { toast } from 'sonner';
@@ -6,6 +7,13 @@ import { AccountLayout } from '@/components/layout/AccountLayout';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
+import { lazy, Suspense } from 'react';
+const SkillExplorer = lazy(() =>
+  import('@/features/skills/SkillExplorer').then((module) => ({ default: module.SkillExplorer })),
+);
+const CareerMatches = lazy(() =>
+  import('@/features/goals/CareerMatches').then((module) => ({ default: module.CareerMatches })),
+);
 import {
   addProfileSkill,
   getCatalogue,
@@ -28,14 +36,20 @@ function SkillRow({ entry }: { entry: ProfileSkill }) {
     onSuccess: () => {
       setMessage('Level saved.');
       toast.success(`${entry.skill.name} updated`);
-      return client.invalidateQueries({ queryKey: skillKeys.profile });
+      return Promise.all([
+        client.invalidateQueries({ queryKey: skillKeys.profile }),
+        client.invalidateQueries({ queryKey: ['career-matches'] }),
+      ]);
     },
   });
   const remove = useMutation({
     mutationFn: removeProfileSkill,
     onSuccess: () => {
       toast.success(`${entry.skill.name} removed`);
-      return client.invalidateQueries({ queryKey: skillKeys.profile });
+      return Promise.all([
+        client.invalidateQueries({ queryKey: skillKeys.profile }),
+        client.invalidateQueries({ queryKey: ['career-matches'] }),
+      ]);
     },
   });
   const pending = update.isPending || remove.isPending;
@@ -109,6 +123,7 @@ function SkillRow({ entry }: { entry: ProfileSkill }) {
 }
 
 export function SkillsPage() {
+  const [exploring, setExploring] = useState(false);
   const client = useQueryClient();
   const [search, setSearch] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
@@ -130,7 +145,10 @@ export function SkillsPage() {
       setSelected('');
       setFeedback(`${entry.skill.name} added to your profile.`);
       toast.success(`${entry.skill.name} added`);
-      return client.invalidateQueries({ queryKey: skillKeys.profile });
+      return Promise.all([
+        client.invalidateQueries({ queryKey: skillKeys.profile }),
+        client.invalidateQueries({ queryKey: ['career-matches'] }),
+      ]);
     },
   });
   const available = (catalogue.data ?? []).filter(
@@ -154,6 +172,24 @@ export function SkillsPage() {
           title="What do you know?"
           description="Build a picture of your skills. Choose the level that feels right today—you can change it any time."
         />
+        <div className="goal-actions">
+          <Button
+            variant="outline"
+            aria-expanded={exploring}
+            onClick={() => setExploring(!exploring)}
+          >
+            {exploring ? 'Close skill explorer' : 'Browse all domains and select multiple skills'}
+          </Button>
+          <Button asChild variant="outline">
+            <Link to="/roles">Explore career paths</Link>
+          </Button>
+        </div>
+        {exploring && (
+          <Suspense fallback={<p role="status">Loading skill explorer…</p>}>
+            <SkillExplorer />
+            <CareerMatches />
+          </Suspense>
+        )}
         <section className="skills-card" aria-labelledby="add-skill-title">
           <h2 id="add-skill-title">Add a skill</h2>
           <form

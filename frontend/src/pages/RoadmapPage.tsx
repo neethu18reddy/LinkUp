@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import { generateRoadmap, getCurrentRoadmap, roadmapKey } from '@/features/roadmap/roadmap.api';
 import { PageHeader } from '@/components/layout/PageHeader';
+import { TopicCompletion } from '@/features/roadmap/TopicCompletion';
 
 export function RoadmapPage() {
   const client = useQueryClient();
@@ -83,7 +84,10 @@ export function RoadmapPage() {
                 {data.analysis.gaps.length ? (
                   <ol>
                     {data.analysis.gaps.map((gap) => (
-                      <li key={gap.skillId}>
+                      <li
+                        key={gap.skillId}
+                        className={`career-gap ${gap.currentLevel ? 'partial' : 'missing'}`}
+                      >
                         <strong>{gap.name}</strong> —{' '}
                         {gap.currentLevel?.toLowerCase() ?? 'not added'} →{' '}
                         {gap.requiredLevel.toLowerCase()} (priority {gap.score})
@@ -99,7 +103,8 @@ export function RoadmapPage() {
                 )}
                 {!!data.analysis.strengths.length && (
                   <p>
-                    Strong areas: {data.analysis.strengths.map((skill) => skill.name).join(', ')}.
+                    Completed starting skills:{' '}
+                    {data.analysis.strengths.map((skill) => skill.name).join(', ')}.
                   </p>
                 )}
                 <p className="field-hint">
@@ -197,6 +202,12 @@ export function RoadmapPage() {
                               {topic.difficulty.toLowerCase()}
                             </span>
                             <p>{topic.subtopics.join(' · ')}</p>
+                            <TopicCompletion
+                              id={topic.id}
+                              title={topic.title}
+                              status={topic.status}
+                              project={topic.isProject}
+                            />
                             {topic.resources.map((resource) => (
                               <p key={resource.url}>
                                 <a

@@ -2,6 +2,10 @@ import { z } from 'zod';
 import { api } from '@/lib/api';
 
 const roleSchema = z.object({
+  categoryName: z.string().optional(),
+  trending: z.boolean().optional(),
+  skillCount: z.number().optional(),
+  coreSkillCount: z.number().optional(),
   id: z.uuid(),
   slug: z.string(),
   title: z.string(),
@@ -69,8 +73,11 @@ export const goalKeys = {
   quiz: ['latest-quiz'] as const,
 };
 export async function getRoles() {
-  const response = await api.get('/roles');
+  const response = await api.get('/roles', { params: { summary: 'true' } });
   return z.object({ roles: z.array(roleSchema) }).parse(response.data.data).roles;
+}
+export async function getRole(id: string) {
+  return roleSchema.parse((await api.get(`/roles/${encodeURIComponent(id)}`)).data.data.role);
 }
 export async function getCurrentGoal() {
   const response = await api.get('/goals/current');

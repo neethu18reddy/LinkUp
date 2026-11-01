@@ -78,6 +78,71 @@ async function updateRoadmap(tx: Prisma.TransactionClient, userId: string, roadm
   });
 }
 export class PrismaProgressRepository implements ProgressRepository {
+  async updateTopic(userId: string, id: string, expectedStatus: string, complete: boolean) {
+    return transaction(async (tx) => {
+      const topic = await ownedTopic(tx, userId, id);
+      const roadmap = await tx.roadmap.findFirst({
+        where: { id: topic.phase.roadmapId, userId, goal: { status: 'ACTIVE' } },
+      });
+      const latest = roadmap
+        ? await tx.roadmap.findFirst({
+            where: { goalId: roadmap.goalId, userId },
+            orderBy: { version: 'desc' },
+            select: { id: true },
+          })
+        : null;
+      if (!roadmap || roadmap.status === 'ARCHIVED' || latest?.id !== roadmap.id)
+        throw new AppError(409, 'ROADMAP_CHANGED', 'Refresh your current roadmap before updating.');
+      const status = complete ? 'DONE' : 'TODO';
+      if (topic.status === status) return { id, status };
+      if (topic.status !== expectedStatus)
+        throw new AppError(
+          409,
+          'TOPIC_CHANGED',
+          'This topic changed. Refresh before trying again.',
+        );
+      if (
+        complete &&
+        topic.isProject &&
+        !(await tx.projectSubmission.findUnique({
+          where: { userId_topicId: { userId, topicId: id } },
+        }))
+      )
+        throw new AppError(
+          422,
+          'PROJECT_REQUIRED',
+          'Submit project evidence in Learning logs before completing this milestone.',
+        );
+      const now = new Date();
+      await tx.topic.update({
+        where: { id },
+        data: { status, completedAt: complete ? now : null },
+      });
+      await tx.planItem.updateMany({
+        where: { topicId: id, planWeek: { plan: { isActive: true } } },
+        data: { status, completedAt: complete ? now : null },
+      });
+      if (complete && topic.skillId)
+        await tx.userSkill.upsert({
+          where: { userId_skillId: { userId, skillId: topic.skillId } },
+          create: { userId, skillId: topic.skillId, level: topic.difficulty },
+          update: {},
+        });
+      if (complete && topic.skillId && topic.difficulty !== 'BEGINNER')
+        await tx.userSkill.updateMany({
+          where: {
+            userId,
+            skillId: topic.skillId,
+            level: {
+              in: topic.difficulty === 'ADVANCED' ? ['BEGINNER', 'INTERMEDIATE'] : ['BEGINNER'],
+            },
+          },
+          data: { level: topic.difficulty },
+        });
+      await updateRoadmap(tx, userId, roadmap.id);
+      return { id, status };
+    });
+  }
   async snapshot(
     userId: string,
     roadmapId: string | undefined,

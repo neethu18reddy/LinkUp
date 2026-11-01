@@ -4,6 +4,12 @@ import { AuthPage } from './pages/AuthPage';
 import { RecoveryPage } from './pages/RecoveryPage';
 import { ProtectedRoute } from './routes/ProtectedRoute';
 import { SkillsPage } from './pages/SkillsPage';
+const CareersPage = lazy(() =>
+  import('./pages/CareersPage').then((module) => ({ default: module.CareersPage })),
+);
+const CareerDetailPage = lazy(() =>
+  import('./pages/CareerDetailPage').then((module) => ({ default: module.CareerDetailPage })),
+);
 const LandingPage = lazy(() =>
   import('./pages/LandingPage').then((module) => ({ default: module.LandingPage })),
 );
@@ -66,6 +72,22 @@ export function App() {
         }
       />
       <Route element={<ProtectedRoute />}>
+        <Route
+          path="/roles"
+          element={
+            <Suspense fallback={<main role="status">Loading career paths…</main>}>
+              <CareersPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/roles/:slug"
+          element={
+            <Suspense fallback={<main role="status">Loading role…</main>}>
+              <CareerDetailPage />
+            </Suspense>
+          }
+        />
         <Route
           path="/notifications"
           element={

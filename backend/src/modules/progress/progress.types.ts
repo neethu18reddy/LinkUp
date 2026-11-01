@@ -51,6 +51,12 @@ export interface PublicProject {
   submittedAt: string;
 }
 export interface ProgressRepository {
+  updateTopic?(
+    userId: string,
+    id: string,
+    expectedStatus: string,
+    complete: boolean,
+  ): Promise<{ id: string; status: string }>;
   snapshot(userId: string, roadmapId: string | undefined, now: Date): Promise<ProgressSnapshot>;
   updateTask(userId: string, id: string, input: TaskInput): Promise<{ id: string; status: string }>;
   addLog(userId: string, input: LogInput): Promise<PublicLog>;

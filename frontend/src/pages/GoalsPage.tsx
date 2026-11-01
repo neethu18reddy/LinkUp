@@ -11,6 +11,7 @@ import {
   customGoalSchema,
   getCurrentGoal,
   getRoles,
+  getRole,
   goalKeys,
   saveGoal,
   type GoalInput,
@@ -20,7 +21,8 @@ import { PageHeader } from '@/components/layout/PageHeader';
 import { levelLabels } from '@/features/skills/skills.api';
 import { ArrowRight, Plus, Search, Target, Check } from 'lucide-react';
 
-function roleCategory(title: string) {
+function roleCategory(title: string, categoryName?: string) {
+  if (categoryName) return categoryName;
   if (/data|analyst|scientist|\bBI\b/i.test(title)) return 'Data';
   if (/design|research/i.test(title)) return 'Design';
   if (/devops|platform|linux/i.test(title)) return 'Infrastructure';
@@ -41,6 +43,7 @@ export function GoalsPage() {
   const [feedback, setFeedback] = useState('');
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('All');
+  const [page, setPage] = useState(1);
   const save = useMutation({
     mutationFn: saveGoal,
     onSuccess: (goal) => {
@@ -61,7 +64,19 @@ export function GoalsPage() {
       }
     },
   });
-  const role = roles.data?.find((entry) => entry.id === selection);
+  const summary = roles.data?.find((entry) => entry.id === selection);
+  const details = useQuery({
+    queryKey: ['goal-role-detail', selection],
+    queryFn: () => getRole(selection),
+    enabled: !!summary && summary.requirements.length === 0,
+  });
+  const role = details.data ?? summary;
+  const filteredRoles =
+    roles.data?.filter(
+      (entry) =>
+        (category === 'All' || roleCategory(entry.title, entry.categoryName) === category) &&
+        `${entry.title} ${entry.description}`.toLowerCase().includes(search.toLowerCase()),
+    ) ?? [];
   const ready = !current.isPending && !current.isError && !current.isFetching;
   function resetDraft() {
     setReview(null);
@@ -99,6 +114,10 @@ export function GoalsPage() {
           description={
             <>
               Find your next challenge. Choose a career path or create a goal of your own.{' '}
+              <Link className="text-link" to="/roles">
+                Explore every career domain
+              </Link>
+              {' · '}
               <Link className="text-link" to="/skills">
                 Review your skills
               </Link>
@@ -242,33 +261,44 @@ export function GoalsPage() {
                       aria-label="Search goals"
                       placeholder="Search careers, skills or interests…"
                       value={search}
-                      onChange={(event) => setSearch(event.target.value)}
+                      onChange={(event) => {
+                        setSearch(event.target.value);
+                        setPage(1);
+                      }}
                     />
                   </div>
                   <div className="goal-filters" aria-label="Goal categories">
-                    {['All', 'Development', 'Data', 'Design', 'Infrastructure', 'Quality'].map(
-                      (value) => (
-                        <button
-                          key={value}
-                          type="button"
-                          aria-pressed={category === value}
-                          onClick={() => setCategory(value)}
-                        >
-                          {value}
-                        </button>
+                    {[
+                      'All',
+                      ...new Set(
+                        roles.data.map((entry) => roleCategory(entry.title, entry.categoryName)),
                       ),
-                    )}
+                    ].map((value) => (
+                      <button
+                        key={value}
+                        type="button"
+                        aria-pressed={category === value}
+                        onClick={() => {
+                          setCategory(value);
+                          setPage(1);
+                        }}
+                      >
+                        {value}
+                      </button>
+                    ))}
                   </div>
                   <p className="goal-results">{roles.data.length} career paths to explore</p>
                   <div className="goal-grid">
                     {roles.data
                       .filter(
                         (entry) =>
-                          (category === 'All' || roleCategory(entry.title) === category) &&
+                          (category === 'All' ||
+                            roleCategory(entry.title, entry.categoryName) === category) &&
                           `${entry.title} ${entry.description} ${entry.requirements.map((item) => item.skill.name).join(' ')}`
                             .toLowerCase()
                             .includes(search.toLowerCase()),
                       )
+                      .slice((page - 1) * 24, page * 24)
                       .map((entry) => (
                         <button
                           key={entry.id}
@@ -283,7 +313,9 @@ export function GoalsPage() {
                           }}
                         >
                           <span className="goal-option-top">
-                            <span className="goal-category">{roleCategory(entry.title)}</span>
+                            <span className="goal-category">
+                              {roleCategory(entry.title, entry.categoryName)}
+                            </span>
                             {selection === entry.id ? (
                               <Check size={18} aria-hidden="true" />
                             ) : (
@@ -293,14 +325,39 @@ export function GoalsPage() {
                           <strong>{entry.title}</strong>
                           <span className="goal-option-description">{entry.description}</span>
                           <span className="goal-skill-count">
-                            {entry.requirements.length} core skills · Guided roadmap
+                            {entry.coreSkillCount ?? entry.requirements.length} core skills · Guided
+                            roadmap
                           </span>
                         </button>
                       ))}
                   </div>
+                  {filteredRoles.length > 24 && (
+                    <nav className="goal-actions" aria-label="Goal result pages">
+                      <Button
+                        type="button"
+                        variant="outline"
+                        disabled={page <= 1}
+                        onClick={() => setPage(page - 1)}
+                      >
+                        Previous roles
+                      </Button>
+                      <span>
+                        Page {page} of {Math.ceil(filteredRoles.length / 24)}
+                      </span>
+                      <Button
+                        type="button"
+                        variant="outline"
+                        disabled={page * 24 >= filteredRoles.length}
+                        onClick={() => setPage(page + 1)}
+                      >
+                        More roles
+                      </Button>
+                    </nav>
+                  )}
                   {!roles.data.some(
                     (entry) =>
-                      (category === 'All' || roleCategory(entry.title) === category) &&
+                      (category === 'All' ||
+                        roleCategory(entry.title, entry.categoryName) === category) &&
                       `${entry.title} ${entry.description} ${entry.requirements.map((item) => item.skill.name).join(' ')}`
                         .toLowerCase()
                         .includes(search.toLowerCase()),
@@ -339,6 +396,21 @@ export function GoalsPage() {
                     <div className="role-preview">
                       <h3>{role.title}</h3>
                       <p>{role.description}</p>
+                      {details.isFetching && !role.requirements.length && (
+                        <p role="status">Loading the role’s skills…</p>
+                      )}
+                      {details.isError && (
+                        <div>
+                          <p role="alert">{requestError(details.error)}</p>
+                          <Button
+                            type="button"
+                            variant="outline"
+                            onClick={() => void details.refetch()}
+                          >
+                            Retry role skills
+                          </Button>
+                        </div>
+                      )}
                       <h4>Starting skills for this role</h4>
                       <ul className="role-skills">
                         {role.requirements.map((item) => (

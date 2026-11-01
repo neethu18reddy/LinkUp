@@ -37,6 +37,11 @@ export async function addProfileSkill(input: { skillId: string; level: SkillLeve
   const response = await api.post('/me/skills', input);
   return profileSkillSchema.parse(response.data.data.skill);
 }
+export async function addCustomSkill(name: string, level: SkillLevel) {
+  return profileSkillSchema.parse(
+    (await api.post('/me/skills/custom', { name, level })).data.data.skill,
+  );
+}
 export async function updateProfileSkill(input: { skillId: string; level: SkillLevel }) {
   const response = await api.patch(`/me/skills/${encodeURIComponent(input.skillId)}`, {
     level: input.level,

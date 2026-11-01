@@ -17,6 +17,11 @@ export class ProgressService {
   updateTask(userId: string, id: string, input: TaskInput) {
     return this.repository.updateTask(userId, id, input);
   }
+  updateTopic(userId: string, id: string, expectedStatus: string, complete: boolean) {
+    if (!this.repository.updateTopic)
+      throw new AppError(503, 'TOPIC_UPDATE_UNAVAILABLE', 'Topic updates are unavailable.');
+    return this.repository.updateTopic(userId, id, expectedStatus, complete);
+  }
   addLog(userId: string, input: LogInput) {
     const today = this.now().toISOString().slice(0, 10);
     const oldest = new Date(Date.parse(today) - 365 * 86400000).toISOString().slice(0, 10);

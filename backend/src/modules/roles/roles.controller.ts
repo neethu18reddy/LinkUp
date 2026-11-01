@@ -4,8 +4,15 @@ import type { RolesService } from './roles.service.js';
 
 export function rolesController(service: RolesService) {
   return {
-    list: asyncHandler(async (_req, res) => {
-      res.json(success({ roles: await service.list() }));
+    list: asyncHandler(async (req, res) => {
+      res.json(
+        success({
+          roles: req.query.summary === 'true' ? await service.summaries() : await service.list(),
+        }),
+      );
+    }),
+    find: asyncHandler(async (req, res) => {
+      res.json(success({ role: await service.find(req.params.id!) }));
     }),
   };
 }
