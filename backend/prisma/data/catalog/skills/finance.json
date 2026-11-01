@@ -1,0 +1,6272 @@
+[
+  {
+    "id": "financial-accounting",
+    "databaseId": "e81ee4ef-da36-43bd-a408-ba6901fb470a",
+    "name": "Financial Accounting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Accounting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-modeling",
+    "databaseId": "05a10734-56fc-4a16-a5cd-4a92b4404ee1",
+    "name": "Financial Modeling",
+    "aliases": ["financial modelling"],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Modeling supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "budgeting",
+    "databaseId": "7a07e964-1200-4e20-ac19-4207abd7239d",
+    "name": "Budgeting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Budgeting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-analysis",
+    "databaseId": "04e78088-0662-4b16-a1b3-4d17b0487329",
+    "name": "Financial Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "three-statement-modeling",
+    "databaseId": "edcdb60b-93cd-4dcc-aa8a-cca1d467dbb0",
+    "name": "Three-statement Modeling",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["financial-accounting", "financial-modeling"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Three-statement Modeling supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "income-statement-analysis",
+    "databaseId": "39cf855d-4131-464a-acf5-858e7666b427",
+    "name": "Income Statement Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Income Statement Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "balance-sheet-analysis",
+    "databaseId": "eab5527d-99ba-4148-a3c6-8591cf3b77cb",
+    "name": "Balance Sheet Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Balance Sheet Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cash-flow-analysis",
+    "databaseId": "b4eedaf4-d08c-4bd2-a3be-71dde64ba4fb",
+    "name": "Cash Flow Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cash Flow Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "budget-forecasting",
+    "databaseId": "b66a435e-4449-434d-acde-6fd03dc04c2e",
+    "name": "Budget Forecasting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Budget Forecasting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "rolling-forecasts",
+    "databaseId": "7d774e7f-238c-41d3-aa67-14570b6176f9",
+    "name": "Rolling Forecasts",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Rolling Forecasts supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "variance-analysis",
+    "databaseId": "ac7f19cf-325e-4f99-a2c9-ace8f639f342",
+    "name": "Variance Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Variance Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scenario-analysis",
+    "databaseId": "29cdfbc8-7d85-4138-a5a1-2adfbfee155f",
+    "name": "Scenario Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Scenario Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sensitivity-analysis",
+    "databaseId": "467d3c1e-1155-4584-aa1c-0cc9b38ef7e8",
+    "name": "Sensitivity Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sensitivity Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "capital-budgeting",
+    "databaseId": "65e3bce2-a113-4c43-a1c8-98ac2a0f1927",
+    "name": "Capital Budgeting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Capital Budgeting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "net-present-value",
+    "databaseId": "8667b0fd-0bbd-47e6-a426-4501d7d76525",
+    "name": "Net Present Value",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Net Present Value supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "internal-rate-of-return",
+    "databaseId": "2c748934-ef95-4269-a49d-011c618b52c9",
+    "name": "Internal Rate of Return",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Internal Rate of Return supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "weighted-average-cost-of-capital",
+    "databaseId": "ef76b73f-c680-4e4c-a993-5e55fc4fc639",
+    "name": "Weighted Average Cost of Capital",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Weighted Average Cost of Capital supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "working-capital-management",
+    "databaseId": "27c350e3-012b-4af2-afd2-98705f3c6343",
+    "name": "Working Capital Management",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Working Capital Management supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cash-forecasting",
+    "databaseId": "09717296-7610-468b-a251-a42e5972126b",
+    "name": "Cash Forecasting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cash Forecasting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "treasury-management",
+    "databaseId": "cc6cbbe8-0361-42db-a77b-588d0d523c8b",
+    "name": "Treasury Management",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Treasury Management supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "liquidity-management",
+    "databaseId": "8dd6fb62-273c-498a-a179-55907152824a",
+    "name": "Liquidity Management",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Liquidity Management supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "debt-financing",
+    "databaseId": "a276f2d7-fae5-4f42-aa4a-6ef17582190f",
+    "name": "Debt Financing",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Debt Financing supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "capital-structure",
+    "databaseId": "9de42c3d-47db-4a5e-a4a5-9473bab94c13",
+    "name": "Capital Structure",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Capital Structure supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cost-accounting",
+    "databaseId": "0b2d2e07-746e-4596-a323-2b1afb57c985",
+    "name": "Cost Accounting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cost Accounting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "activity-based-costing",
+    "databaseId": "30a027e3-5af2-49f7-a3e2-40ce2cef0aa1",
+    "name": "Activity-based Costing",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Activity-based Costing supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "standard-costing",
+    "databaseId": "612c903e-0167-4bab-a047-48795d3cb58a",
+    "name": "Standard Costing",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Standard Costing supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "break-even-analysis",
+    "databaseId": "2d1f0610-3dc9-4db7-a698-2e6931e96cd9",
+    "name": "Break-even Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Break-even Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "unit-cost-analysis",
+    "databaseId": "34b890a8-8863-4ba8-acd2-15b9d3b66309",
+    "name": "Unit Cost Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Unit Cost Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "contribution-margin-analysis",
+    "databaseId": "72d2abb1-7ce3-4bf5-ab2b-84e4c7bbcdc0",
+    "name": "Contribution Margin Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Contribution Margin Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "management-accounting",
+    "databaseId": "5abd0808-1746-406f-aaf5-aef94819b0d2",
+    "name": "Management Accounting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Management Accounting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-planning",
+    "databaseId": "9af4d085-7b42-43fd-a214-d15fa6ef5b3f",
+    "name": "Financial Planning",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Planning supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "business-performance-reporting",
+    "databaseId": "f187335d-2dc8-4bb8-a576-2d88acca4b5c",
+    "name": "Business Performance Reporting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Business Performance Reporting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "board-financial-reporting",
+    "databaseId": "62fb7404-bb78-4ec3-a11f-5e789f9f98bf",
+    "name": "Board Financial Reporting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Board Financial Reporting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "revenue-forecasting",
+    "databaseId": "c2a1846b-3711-4fed-af4e-23599934ba8e",
+    "name": "Revenue Forecasting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Revenue Forecasting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "expense-forecasting",
+    "databaseId": "2de5c051-a565-4dce-a9ff-9c5c2c5f8b65",
+    "name": "Expense Forecasting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Expense Forecasting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "headcount-planning",
+    "databaseId": "b446df4f-d2d0-4664-ad3e-3c895328ff9e",
+    "name": "Headcount Planning",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Headcount Planning supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "capex-planning",
+    "databaseId": "92a61236-6edc-416d-a025-6b825720431b",
+    "name": "CAPEX Planning",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "CAPEX Planning supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-consolidation",
+    "databaseId": "837624cd-7a4a-4294-a85b-0f091bcb6869",
+    "name": "Financial Consolidation",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Consolidation supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "intercompany-accounting",
+    "databaseId": "08d0418f-ea83-4de4-a88f-28758b8b6012",
+    "name": "Intercompany Accounting",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Intercompany Accounting supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "anaplan",
+    "databaseId": "a700f844-cd1b-4ba3-ae6e-ae308171b5e5",
+    "name": "Anaplan",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Anaplan supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "oracle-hyperion",
+    "databaseId": "b8fbf551-2962-4328-a27a-48f78c50e895",
+    "name": "Oracle Hyperion",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Oracle Hyperion supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sap-analytics-cloud",
+    "databaseId": "08974977-c54e-43b7-a382-69dc11c96f7d",
+    "name": "SAP Analytics Cloud",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "SAP Analytics Cloud supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "adaptive-planning",
+    "databaseId": "40edcc6c-2ff6-4e60-a367-75efc71843dc",
+    "name": "Adaptive Planning",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Adaptive Planning supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "excel-financial-modeling",
+    "databaseId": "7004d86f-4255-49c9-a271-e95ab87837df",
+    "name": "Excel Financial Modeling",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Excel Financial Modeling supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-model-auditing",
+    "databaseId": "28501da7-2ca0-4a68-a99e-2f91c50e9b4e",
+    "name": "Financial Model Auditing",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Model Auditing supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-controls",
+    "databaseId": "4789c43f-c2f6-48bd-a2af-e3b290f7cf61",
+    "name": "Financial Controls",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Controls supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cost-allocation",
+    "databaseId": "29b9b980-a080-4b84-a466-306909a49050",
+    "name": "Cost Allocation",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cost Allocation supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "driver-based-planning",
+    "databaseId": "e4c2bf09-7ad5-43ee-a629-6f0a23d15a1e",
+    "name": "Driver-based Planning",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Driver-based Planning supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "covenant-monitoring",
+    "databaseId": "610780b3-2794-4eb0-a30e-d775ad33cc80",
+    "name": "Covenant Monitoring",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Covenant Monitoring supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cash-pooling",
+    "databaseId": "0ff2c9e0-91f1-46c5-a334-16892bd8d864",
+    "name": "Cash Pooling",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cash Pooling supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hedging-fundamentals",
+    "databaseId": "1734c65b-21b0-44d0-ac4d-67d8c8f7669b",
+    "name": "Hedging Fundamentals",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Hedging Fundamentals supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-ratio-analysis",
+    "databaseId": "582e819a-16d2-48c2-a3df-358620a3daab",
+    "name": "Financial Ratio Analysis",
+    "aliases": [],
+    "category": "corporate-finance",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Ratio Analysis supports the practical knowledge needed to analyze financial performance and allocate capital.",
+    "resources": [
+      {
+        "title": "corporate finance learning reference",
+        "url": "https://www.corporatefinanceinstitute.com/resources/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "valuation",
+    "databaseId": "87070216-ba77-4551-a901-57463d327281",
+    "name": "Valuation",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Valuation supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "investment-research",
+    "databaseId": "d8d9c1bc-889f-4db4-a67e-cadb33dec70d",
+    "name": "Investment Research",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Investment Research supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-management",
+    "databaseId": "248425b1-5d63-4184-a2a2-5f2de4d47051",
+    "name": "Risk Management",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Risk Management supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "discounted-cash-flow-valuation",
+    "databaseId": "3bc1246a-6e2a-438b-a1be-eb8e48f615e8",
+    "name": "Discounted Cash Flow Valuation",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["financial-modeling", "valuation"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Discounted Cash Flow Valuation supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "comparable-company-analysis",
+    "databaseId": "e255e2d7-0c0a-4a40-afce-69eb659ced41",
+    "name": "Comparable Company Analysis",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Comparable Company Analysis supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "precedent-transactions",
+    "databaseId": "2c059991-c25d-4734-a4d0-7366cebd4944",
+    "name": "Precedent Transactions",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Precedent Transactions supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "enterprise-value",
+    "databaseId": "81ddd7e9-6d08-4fdd-a572-93d5e5146f9f",
+    "name": "Enterprise Value",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Enterprise Value supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "equity-value",
+    "databaseId": "17cee020-a981-4cd4-af10-6eeb9d432554",
+    "name": "Equity Value",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Equity Value supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "free-cash-flow",
+    "databaseId": "98911027-3b20-4571-aec1-54f49607f64f",
+    "name": "Free Cash Flow",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Free Cash Flow supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "terminal-value",
+    "databaseId": "e7a7e33c-f751-446b-a903-6daba426f50c",
+    "name": "Terminal Value",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Terminal Value supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "equity-research",
+    "databaseId": "8166e910-d554-4db5-aa80-e320fdaa9e4d",
+    "name": "Equity Research",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Equity Research supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "investment-thesis-writing",
+    "databaseId": "14661ccf-d170-417c-a6e5-ccb326410d24",
+    "name": "Investment Thesis Writing",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Investment Thesis Writing supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "industry-analysis",
+    "databaseId": "a30d0664-6663-4861-a466-d1aeef5978e2",
+    "name": "Industry Analysis",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Industry Analysis supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "securities-analysis",
+    "databaseId": "e676a0a1-e857-40db-ab49-46d4221476b4",
+    "name": "Securities Analysis",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Securities Analysis supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "portfolio-theory",
+    "databaseId": "beb5debe-1aee-4dac-a7e5-eb9f58f4b62f",
+    "name": "Portfolio Theory",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Portfolio Theory supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "asset-allocation",
+    "databaseId": "22dc2d40-0153-43b4-aaff-2f7181bc2455",
+    "name": "Asset Allocation",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Asset Allocation supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "portfolio-construction",
+    "databaseId": "6bff6055-cc23-4e31-aca2-1d8cd44f06d1",
+    "name": "Portfolio Construction",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["portfolio-theory"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Portfolio Construction supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "portfolio-rebalancing",
+    "databaseId": "db5c5b25-c5f5-45f5-a1fb-0f95a3a5e5ba",
+    "name": "Portfolio Rebalancing",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Portfolio Rebalancing supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "performance-attribution",
+    "databaseId": "f07a150d-6d7a-460b-add3-80261dcde5f4",
+    "name": "Performance Attribution",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Performance Attribution supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "benchmark-selection",
+    "databaseId": "eea494e5-457c-455e-ab04-ce01f1413184",
+    "name": "Benchmark Selection",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Benchmark Selection supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fixed-income",
+    "databaseId": "5f4382ec-a243-4688-a6c9-5cb940345160",
+    "name": "Fixed Income",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Fixed Income supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bond-valuation",
+    "databaseId": "3256416b-f333-4ad5-a799-761239395345",
+    "name": "Bond Valuation",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bond Valuation supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "duration-and-convexity",
+    "databaseId": "4909ac85-7f34-4d7d-a382-41157a40c513",
+    "name": "Duration and Convexity",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Duration and Convexity supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "yield-curves",
+    "databaseId": "29085c03-3251-426f-a61a-a635ece3b694",
+    "name": "Yield Curves",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Yield Curves supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "derivatives",
+    "databaseId": "a226ca40-00f9-4729-a492-95237820b825",
+    "name": "Derivatives",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Derivatives supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "options-pricing",
+    "databaseId": "00b36729-78a5-4616-a068-27475e05c006",
+    "name": "Options Pricing",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["derivatives", "probability"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Options Pricing supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "futures",
+    "databaseId": "cb00caed-4320-4364-a497-146fa342d6e8",
+    "name": "Futures",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Futures supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "swaps",
+    "databaseId": "fcfdaf5b-2146-44b5-a99a-dd795c87de17",
+    "name": "Swaps",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Swaps supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "market-microstructure",
+    "databaseId": "3a69e9fe-391e-448b-aedd-b7d354bacbf0",
+    "name": "Market Microstructure",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Market Microstructure supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "algorithmic-trading",
+    "databaseId": "bb5ff726-1735-482d-a2c0-c4a9ee86007a",
+    "name": "Algorithmic Trading",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Algorithmic Trading supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "trading-execution",
+    "databaseId": "ea5d1bd9-4679-40cd-a631-506fc0a4899a",
+    "name": "Trading Execution",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Trading Execution supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "backtesting",
+    "databaseId": "80dbadf5-7301-4c21-a6ec-4186f9b31552",
+    "name": "Backtesting",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Backtesting supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bloomberg-terminal",
+    "databaseId": "556821b0-2e8f-4efa-a99a-12527d28875c",
+    "name": "Bloomberg Terminal",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bloomberg Terminal supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "refinitiv-eikon",
+    "databaseId": "e628830e-a3bf-4d3c-aa93-770ee9a57679",
+    "name": "Refinitiv Eikon",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Refinitiv Eikon supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "morningstar",
+    "databaseId": "7897e942-fd51-4922-a455-ed5c1f1d9458",
+    "name": "Morningstar",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Morningstar supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "deal-screening",
+    "databaseId": "2ca4b245-a95a-4a1a-a9ec-7f2c4d9fc879",
+    "name": "Deal Screening",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Deal Screening supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "due-diligence",
+    "databaseId": "de718e01-a716-4fd4-a0d1-d8f19f822857",
+    "name": "Due Diligence",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Due Diligence supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "m-a-modeling",
+    "databaseId": "d8d871d6-97fd-4079-a863-8b99d68f0335",
+    "name": "M&A Modeling",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["financial-modeling"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "M&A Modeling supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "accretion-dilution-analysis",
+    "databaseId": "77d4336d-5857-4e21-ade3-a95921748286",
+    "name": "Accretion Dilution Analysis",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["m-a-modeling"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Accretion Dilution Analysis supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "leveraged-buyout-modeling",
+    "databaseId": "6a8dc8a0-7f0a-476b-aaf5-b2c791383b1b",
+    "name": "Leveraged Buyout Modeling",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Leveraged Buyout Modeling supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "venture-capital-modeling",
+    "databaseId": "d3c4dd80-bda0-43a8-a64b-24d2792c427a",
+    "name": "Venture Capital Modeling",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Venture Capital Modeling supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "startup-valuation",
+    "databaseId": "0da70e47-12de-4ac9-aaa7-1ed4d7432956",
+    "name": "Startup Valuation",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Startup Valuation supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cap-tables",
+    "databaseId": "ee45fdae-b937-43d8-aa71-f9eec628e0a3",
+    "name": "Cap Tables",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cap Tables supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "term-sheet-analysis",
+    "databaseId": "ffc5cdbc-3f18-4a25-a852-bbb5463d648b",
+    "name": "Term Sheet Analysis",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Term Sheet Analysis supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fund-economics",
+    "databaseId": "5b3cae6a-6c37-4e0f-a3c0-182fd7486f8d",
+    "name": "Fund Economics",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Fund Economics supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "investment-committee-memos",
+    "databaseId": "9fedf4bc-dfca-426a-aba2-94466ec7ded1",
+    "name": "Investment Committee Memos",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Investment Committee Memos supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "retirement-planning",
+    "databaseId": "d113f363-1b45-426b-a64d-56d3d8b0da39",
+    "name": "Retirement Planning",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Retirement Planning supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "investor-suitability",
+    "databaseId": "6d26138e-a615-4c5a-a47f-b1a60cb5fe65",
+    "name": "Investor Suitability",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Investor Suitability supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "behavioral-finance",
+    "databaseId": "eb79b3b1-ca2d-4c41-a367-eed8e8ef1485",
+    "name": "Behavioral Finance",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Behavioral Finance supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cfa-certification-preparation",
+    "databaseId": "63ebc34e-3503-4548-a0cb-73f75d3b5e83",
+    "name": "CFA Certification Preparation",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "CFA Certification Preparation supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "private-equity-analysis",
+    "databaseId": "d2b70e20-a596-428a-a8fd-d361b8da5ae0",
+    "name": "Private Equity Analysis",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Private Equity Analysis supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "investment-reporting",
+    "databaseId": "6cc8c2bb-76bf-475a-aca8-0da1405b78e7",
+    "name": "Investment Reporting",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Investment Reporting supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "responsible-investing",
+    "databaseId": "cc7bacf8-f761-4e0d-a567-cc64137eb6af",
+    "name": "Responsible Investing",
+    "aliases": [],
+    "category": "investments",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Responsible Investing supports the practical knowledge needed to evaluate investments and communicate portfolio decisions.",
+    "resources": [
+      {
+        "title": "investments learning reference",
+        "url": "https://www.cfainstitute.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bookkeeping",
+    "databaseId": "b2a7dd51-45df-47b4-a365-f82fe890b4c3",
+    "name": "Bookkeeping",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bookkeeping supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "account-reconciliation",
+    "databaseId": "f9318d95-5d3e-4fcc-a1fe-e23b275c03b1",
+    "name": "Account Reconciliation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Account Reconciliation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "internal-controls",
+    "databaseId": "f97e3666-2cc8-4a24-af0b-2907fdfac98f",
+    "name": "Internal Controls",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Internal Controls supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "double-entry-accounting",
+    "databaseId": "74365d62-a428-4533-a41f-d9834284ebc4",
+    "name": "Double-entry Accounting",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Double-entry Accounting supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "general-ledger",
+    "databaseId": "3c3ae04c-5d97-44ed-a9ea-ca6a2107fd09",
+    "name": "General Ledger",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "General Ledger supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "trial-balance",
+    "databaseId": "d9543a13-1eb8-4110-a52a-3113f9976a57",
+    "name": "Trial Balance",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Trial Balance supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "journal-entries",
+    "databaseId": "2ee97701-770a-4f51-a90a-d48f8384a55f",
+    "name": "Journal Entries",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Journal Entries supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "accounts-payable",
+    "databaseId": "a5e4e93f-a5ce-4371-a392-48899d0ccfe7",
+    "name": "Accounts Payable",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Accounts Payable supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "accounts-receivable",
+    "databaseId": "0cec3e0a-487d-4281-a20e-6e0350bd8e25",
+    "name": "Accounts Receivable",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Accounts Receivable supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bank-reconciliation",
+    "databaseId": "9393dccb-e25f-4d9c-a91f-b60f904a9608",
+    "name": "Bank Reconciliation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bank Reconciliation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "month-end-close",
+    "databaseId": "8a976dda-7452-47ee-a1b0-f51960dcc226",
+    "name": "Month-end Close",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Month-end Close supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "year-end-close",
+    "databaseId": "0ab7643f-62ba-47ea-adff-cade8c3f30ef",
+    "name": "Year-end Close",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Year-end Close supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "revenue-recognition",
+    "databaseId": "4c7eca04-dab2-4e58-a524-7bb4466f161c",
+    "name": "Revenue Recognition",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Revenue Recognition supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "lease-accounting",
+    "databaseId": "0969190d-d9db-4817-ab73-e22b552076a2",
+    "name": "Lease Accounting",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Lease Accounting supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "inventory-accounting",
+    "databaseId": "bb2b2913-229a-4f75-a743-b0ee971ad7e3",
+    "name": "Inventory Accounting",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Inventory Accounting supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fixed-asset-accounting",
+    "databaseId": "1aab5a6c-165e-4e52-ab63-5a79a85c12c4",
+    "name": "Fixed Asset Accounting",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Fixed Asset Accounting supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "depreciation",
+    "databaseId": "e1deb0b4-c1f9-4dfc-a204-f01f292707fa",
+    "name": "Depreciation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Depreciation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "accrual-accounting",
+    "databaseId": "8354a41b-936d-4dcc-a8e7-3df57b5def91",
+    "name": "Accrual Accounting",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Accrual Accounting supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ifrs",
+    "databaseId": "144ec7ff-1b3d-4246-abb8-b034cd679a58",
+    "name": "IFRS",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "IFRS supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "us-gaap",
+    "databaseId": "ee14e67c-ef0b-4799-a737-fca8866d0a89",
+    "name": "US GAAP",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "US GAAP supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "consolidation-accounting",
+    "databaseId": "0e3073d8-94c8-49a4-a2ef-48e40837a9b4",
+    "name": "Consolidation Accounting",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Consolidation Accounting supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-statement-preparation",
+    "databaseId": "4cd83cc8-32fc-4182-ae19-13653b2b69aa",
+    "name": "Financial Statement Preparation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": ["double-entry-accounting"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Statement Preparation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "audit-planning",
+    "databaseId": "ae9d8bf6-6d21-4f94-a63e-cefc6f408ea1",
+    "name": "Audit Planning",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Audit Planning supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "audit-sampling",
+    "databaseId": "b4c24fed-3f94-45d1-a840-1491d7d5cb3c",
+    "name": "Audit Sampling",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Audit Sampling supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "substantive-testing",
+    "databaseId": "d636613c-c3b1-401e-a133-fea374922fd3",
+    "name": "Substantive Testing",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Substantive Testing supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "audit-working-papers",
+    "databaseId": "7b4b04ee-ed8e-4ce1-a15d-63e6071c1d31",
+    "name": "Audit Working Papers",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Audit Working Papers supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "internal-audit",
+    "databaseId": "b1956abc-d5eb-40ef-a965-b4b015cebfe7",
+    "name": "Internal Audit",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Internal Audit supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "external-audit",
+    "databaseId": "7b058ed6-de6c-4793-ad9a-b8d90e5a283d",
+    "name": "External Audit",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "External Audit supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fraud-investigation",
+    "databaseId": "6a0e2e84-9138-43a8-a646-56968527c6cc",
+    "name": "Fraud Investigation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Fraud Investigation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "forensic-accounting",
+    "databaseId": "a3929da6-4c3a-404c-a52a-f49addb64bf2",
+    "name": "Forensic Accounting",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Forensic Accounting supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tax-research",
+    "databaseId": "8c6e1698-233e-43a8-afe8-7716207bf4a6",
+    "name": "Tax Research",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Tax Research supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "corporate-tax-fundamentals",
+    "databaseId": "da2a1ae2-ae4b-4569-af36-c74f56e3b644",
+    "name": "Corporate Tax Fundamentals",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Corporate Tax Fundamentals supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "indirect-tax-fundamentals",
+    "databaseId": "cbdaf150-3062-46bb-a47c-bc63674d47cd",
+    "name": "Indirect Tax Fundamentals",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Indirect Tax Fundamentals supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "transfer-pricing-fundamentals",
+    "databaseId": "43e2fe66-2d8c-4800-a9bd-29fbd0e3319c",
+    "name": "Transfer Pricing Fundamentals",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Transfer Pricing Fundamentals supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "deferred-tax",
+    "databaseId": "186de6c4-38ea-4a91-a5ec-62c62cf7fafa",
+    "name": "Deferred Tax",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Deferred Tax supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tax-reconciliation",
+    "databaseId": "cb42d76c-7190-4130-a8d0-360d374514fb",
+    "name": "Tax Reconciliation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Tax Reconciliation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "payroll-processing",
+    "databaseId": "27d292e2-f824-4590-a777-cdc8a3259982",
+    "name": "Payroll Processing",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Payroll Processing supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "payroll-reconciliation",
+    "databaseId": "2c1a93a6-60db-48cd-a446-9e7e42fa592c",
+    "name": "Payroll Reconciliation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Payroll Reconciliation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "employee-expense-controls",
+    "databaseId": "5481ff55-5117-4277-a74a-1e1a628a8068",
+    "name": "Employee Expense Controls",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Employee Expense Controls supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quickbooks",
+    "databaseId": "95d81ee7-e108-4377-a434-ab37c0f44a7e",
+    "name": "QuickBooks",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "QuickBooks supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "xero",
+    "databaseId": "7ecb9e8a-cb24-465e-a280-026ba5e247c9",
+    "name": "Xero",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Xero supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tally",
+    "databaseId": "14aad644-5eba-48f8-a7e1-a04d7ed0faa4",
+    "name": "Tally",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Tally supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sap-fico",
+    "databaseId": "8bba0fa5-ee68-4385-a9ae-693d2387341b",
+    "name": "SAP FICO",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "SAP FICO supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "oracle-financials",
+    "databaseId": "405211b6-ab95-4b74-a1db-055dc61a5bbb",
+    "name": "Oracle Financials",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Oracle Financials supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "netsuite",
+    "databaseId": "a7b3abff-f987-48aa-a2f5-913b1563b94c",
+    "name": "NetSuite",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "NetSuite supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "accounting-automation",
+    "databaseId": "cf045a1f-46f7-4bd9-a031-10e9389afdc0",
+    "name": "Accounting Automation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Accounting Automation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "document-retention",
+    "databaseId": "18f5bd31-59cc-401b-adc5-5be4aebe9583",
+    "name": "Document Retention",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Document Retention supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "segregation-of-duties",
+    "databaseId": "a4f79738-3c27-473f-ac45-e16061fe01b0",
+    "name": "Segregation of Duties",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Segregation of Duties supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cpa-certification-preparation",
+    "databaseId": "82eab563-b74f-4bb3-a100-416868d887c7",
+    "name": "CPA Certification Preparation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "CPA Certification Preparation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "acca-certification-preparation",
+    "databaseId": "1d467f38-3156-4ee9-a5bd-30c5c4b3cb8b",
+    "name": "ACCA Certification Preparation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "ACCA Certification Preparation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "chartered-accountancy-preparation",
+    "databaseId": "c58d76ff-ef26-4792-aac3-5accea09b1aa",
+    "name": "Chartered Accountancy Preparation",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Chartered Accountancy Preparation supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "audit-analytics",
+    "databaseId": "aa1187ac-9ce1-433f-a3f1-cfa5aca3d0e5",
+    "name": "Audit Analytics",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Audit Analytics supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-reporting-controls",
+    "databaseId": "5e61bedf-5a10-42ec-ae43-0c6d0a4e444c",
+    "name": "Financial Reporting Controls",
+    "aliases": [],
+    "category": "accounting",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Reporting Controls supports the practical knowledge needed to maintain accurate and auditable financial records.",
+    "resources": [
+      {
+        "title": "accounting learning reference",
+        "url": "https://www.ifrs.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "regulatory-research",
+    "databaseId": "05fb3508-57ed-4370-afac-1dbbb17802db",
+    "name": "Regulatory Research",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Regulatory Research supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "credit-risk",
+    "databaseId": "afac9b3a-4d6b-4e84-a467-c4d627e697a7",
+    "name": "Credit Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Credit Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "market-risk",
+    "databaseId": "3e93805b-4ef9-4ad7-afba-d3376539816e",
+    "name": "Market Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Market Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "operational-risk",
+    "databaseId": "f00f5fee-23e7-4ab8-a5ae-d628c73fb11b",
+    "name": "Operational Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Operational Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "liquidity-risk",
+    "databaseId": "1da73e06-c287-4c70-ae91-754814d456fb",
+    "name": "Liquidity Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Liquidity Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "counterparty-risk",
+    "databaseId": "11af0b59-d96c-4c78-a933-671f770e6269",
+    "name": "Counterparty Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Counterparty Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "credit-scoring",
+    "databaseId": "8ac0affc-3f74-4f11-acb4-cbd6f765a0ab",
+    "name": "Credit Scoring",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Credit Scoring supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "credit-underwriting",
+    "databaseId": "d31d9536-161c-4ba2-a7c0-bc7325ae5311",
+    "name": "Credit Underwriting",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Credit Underwriting supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-covenant-analysis",
+    "databaseId": "a64daafb-0315-499f-aa54-dd4253891a91",
+    "name": "Financial Covenant Analysis",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Covenant Analysis supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "probability-of-default",
+    "databaseId": "015947ad-8806-4a21-a10d-8906559459fe",
+    "name": "Probability of Default",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Probability of Default supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "loss-given-default",
+    "databaseId": "db111ed0-caf0-4225-a226-6c60e6cfec3b",
+    "name": "Loss Given Default",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Loss Given Default supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "exposure-at-default",
+    "databaseId": "644de60b-e889-4b8a-afe6-4bd6b015d7fb",
+    "name": "Exposure at Default",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Exposure at Default supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "expected-credit-loss",
+    "databaseId": "e0a094c1-3173-4c5d-a0f3-58395116c813",
+    "name": "Expected Credit Loss",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["credit-risk"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Expected Credit Loss supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "value-at-risk",
+    "databaseId": "10016c58-2330-44fa-a8f0-fc4737550910",
+    "name": "Value at Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Value at Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "expected-shortfall",
+    "databaseId": "95bf3e0a-9ffa-4e4a-ad47-27c324c6ca63",
+    "name": "Expected Shortfall",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Expected Shortfall supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-limit-monitoring",
+    "databaseId": "124d59e5-74b0-4ec3-af78-c697f0b2460b",
+    "name": "Risk Limit Monitoring",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Risk Limit Monitoring supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-adjusted-returns",
+    "databaseId": "c91c56b0-ba1f-4166-a2c4-f5f6ee3990e8",
+    "name": "Risk-adjusted Returns",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Risk-adjusted Returns supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "basel-framework-fundamentals",
+    "databaseId": "cfce54b2-dd76-4630-a7c1-ccb36c0948a5",
+    "name": "Basel Framework Fundamentals",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Basel Framework Fundamentals supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "capital-adequacy",
+    "databaseId": "1fe860b5-3dcf-4e22-abee-50467a07b989",
+    "name": "Capital Adequacy",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Capital Adequacy supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "asset-liability-management",
+    "databaseId": "74c67bed-8c98-4434-a4ff-8d06b7f88cab",
+    "name": "Asset Liability Management",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Asset Liability Management supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-risk-management",
+    "databaseId": "d615db85-e4cd-4121-a64f-31924f2aa24e",
+    "name": "Model Risk Management",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Model Risk Management supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-model-validation",
+    "databaseId": "8b7db490-03c7-4b4a-ae3d-21ac7b57bffa",
+    "name": "Risk Model Validation",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Risk Model Validation supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "actuarial-mathematics",
+    "databaseId": "7f2e0e18-8c4e-4aa0-a368-2e1494e0afa4",
+    "name": "Actuarial Mathematics",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Actuarial Mathematics supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "loss-reserving",
+    "databaseId": "c43ffecc-53f8-4186-a896-4795b9c5a23f",
+    "name": "Loss Reserving",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Loss Reserving supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "insurance-pricing",
+    "databaseId": "93a6338d-4321-4b42-a202-c7bad9050921",
+    "name": "Insurance Pricing",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Insurance Pricing supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "claims-analysis",
+    "databaseId": "65c0cb8c-c2a5-442d-a49f-bd4269cb20f4",
+    "name": "Claims Analysis",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Claims Analysis supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "underwriting-analysis",
+    "databaseId": "6ef5b013-7967-4e0b-a2b9-af456ee3453e",
+    "name": "Underwriting Analysis",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Underwriting Analysis supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "reinsurance-fundamentals",
+    "databaseId": "bebeccbb-d440-41ea-ac6e-fa7177f2ecbe",
+    "name": "Reinsurance Fundamentals",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Reinsurance Fundamentals supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "solvency-modeling",
+    "databaseId": "3eff3a43-194c-40fc-a55e-621986d13c52",
+    "name": "Solvency Modeling",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Solvency Modeling supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-compliance",
+    "databaseId": "72ce1783-25a4-4394-a43f-24bd87fbb017",
+    "name": "Financial Compliance",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Compliance supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aml",
+    "databaseId": "8d10ad57-90c0-4628-a109-afcee8261512",
+    "name": "AML",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "AML supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kyc",
+    "databaseId": "fb5ce932-b7f7-48b0-a9ae-b5cc8aabd0b0",
+    "name": "KYC",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "KYC supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-due-diligence",
+    "databaseId": "2de6da7c-b494-4e9d-a86c-127b05b739e7",
+    "name": "Customer Due Diligence",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Customer Due Diligence supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "enhanced-due-diligence",
+    "databaseId": "4a4dea8c-ee16-4df1-a631-87c7223df271",
+    "name": "Enhanced Due Diligence",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Enhanced Due Diligence supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "transaction-monitoring",
+    "databaseId": "ed7d2b03-ba06-4cf7-a8a6-5355a3b7e505",
+    "name": "Transaction Monitoring",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Transaction Monitoring supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sanctions-screening",
+    "databaseId": "f24602cd-a002-4266-a0f0-aab25ffd1164",
+    "name": "Sanctions Screening",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sanctions Screening supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "suspicious-activity-investigation",
+    "databaseId": "cabefdd2-5382-4e98-aabf-5da75fd21931",
+    "name": "Suspicious Activity Investigation",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Suspicious Activity Investigation supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-crime-risk",
+    "databaseId": "600da955-5ac4-41ed-a9ae-2db358dccdb2",
+    "name": "Financial Crime Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Crime Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "esg-analysis",
+    "databaseId": "1370b273-e636-443c-ad74-f016cd851a41",
+    "name": "ESG Analysis",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "ESG Analysis supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "climate-financial-risk",
+    "databaseId": "904fb27e-6c76-4952-a978-8dbe1b4e30c5",
+    "name": "Climate Financial Risk",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Climate Financial Risk supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sustainability-reporting",
+    "databaseId": "bc299edb-c83b-46a7-a52c-854350fc43f6",
+    "name": "Sustainability Reporting",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sustainability Reporting supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "materiality-assessment",
+    "databaseId": "1d26fcdb-461b-4a07-aaf5-3ff2b998550a",
+    "name": "Materiality Assessment",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Materiality Assessment supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fintech-business-models",
+    "databaseId": "99bde2bd-e844-4aa4-ad44-513e4a47b58b",
+    "name": "Fintech Business Models",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Fintech Business Models supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "payment-systems",
+    "databaseId": "8c23fcab-b8d0-4965-a320-38b417ef3aaf",
+    "name": "Payment Systems",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Payment Systems supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "open-banking",
+    "databaseId": "229ba12c-f2de-46a3-a334-feb1bead99b0",
+    "name": "Open Banking",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Open Banking supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fraud-analytics",
+    "databaseId": "7e587243-74d1-47db-a2db-c01aef302259",
+    "name": "Fraud Analytics",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Fraud Analytics supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "frm-certification-preparation",
+    "databaseId": "56f2471c-41c0-4cc9-aa06-75f242c7e599",
+    "name": "FRM Certification Preparation",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "FRM Certification Preparation supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "actuarial-exam-preparation",
+    "databaseId": "279009b3-6d4e-4cba-a362-12c32cb0b230",
+    "name": "Actuarial Exam Preparation",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Actuarial Exam Preparation supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "compliance-testing",
+    "databaseId": "e5ee7f48-7251-4569-aec7-9f5ac3b68d49",
+    "name": "Compliance Testing",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Compliance Testing supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "regulatory-reporting",
+    "databaseId": "2c1c4426-204f-4eaa-ab69-461d8842417d",
+    "name": "Regulatory Reporting",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Regulatory Reporting supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-consumer-protection",
+    "databaseId": "b875a1c2-6c34-4050-a07d-d1538630e6a1",
+    "name": "Financial Consumer Protection",
+    "aliases": [],
+    "category": "financial-risk",
+    "domains": ["finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Financial Consumer Protection supports the practical knowledge needed to measure financial uncertainty and regulatory exposure.",
+    "resources": [
+      {
+        "title": "financial risk learning reference",
+        "url": "https://www.garp.org/",
+        "type": "course",
+        "free": false
+      },
+      {
+        "title": "OpenStax business textbooks",
+        "url": "https://openstax.org/subjects/business",
+        "type": "course",
+        "free": true
+      }
+    ]
+  }
+]

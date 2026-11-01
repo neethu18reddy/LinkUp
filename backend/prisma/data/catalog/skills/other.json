@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "scientific-communication",
+    "databaseId": "9285e14a-e43d-48a4-ac53-d1c9fbe67059",
+    "name": "Scientific Communication",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "soft",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Scientific Communication supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "healthcare-informatics",
+    "databaseId": "e340e8ce-02e8-4d2c-adcb-f1511904a9bc",
+    "name": "Healthcare Informatics",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Healthcare Informatics supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "electronic-health-records",
+    "databaseId": "c50b7c40-77bd-4544-a9bb-cfbe0e5958ea",
+    "name": "Electronic Health Records",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Electronic Health Records supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-workflows",
+    "databaseId": "f907d5d1-52f8-4972-a811-4f8a16fd796e",
+    "name": "Clinical Workflows",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Clinical Workflows supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "health-information-exchange",
+    "databaseId": "cf231562-6598-427f-a4c9-90513826016d",
+    "name": "Health Information Exchange",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Health Information Exchange supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hl7",
+    "databaseId": "e307bd75-0c17-44da-aabe-3f5bd9d3328e",
+    "name": "HL7",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "HL7 supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fhir",
+    "databaseId": "f528a4e1-d6cd-42ab-a994-2f8e0574e245",
+    "name": "FHIR",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "FHIR supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dicom",
+    "databaseId": "08b535b6-3073-49eb-a56f-4c3ea3230bb1",
+    "name": "DICOM",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "DICOM supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-terminologies",
+    "databaseId": "40ce4c41-4bdf-49e1-a8bf-633325af9620",
+    "name": "Clinical Terminologies",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Clinical Terminologies supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "snomed-ct",
+    "databaseId": "df9ced7a-ed4b-48d3-af0a-0921dc05bab1",
+    "name": "SNOMED CT",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "SNOMED CT supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "loinc",
+    "databaseId": "266b9cbc-7e0f-4eb8-af7e-903bec65ecff",
+    "name": "LOINC",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "LOINC supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "icd-coding-fundamentals",
+    "databaseId": "2b7cea2b-a52a-4b5f-afcb-6a5652c62bd0",
+    "name": "ICD Coding Fundamentals",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "ICD Coding Fundamentals supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-decision-support",
+    "databaseId": "b6fd35e1-c558-409a-a41d-f25c90317feb",
+    "name": "Clinical Decision Support",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Clinical Decision Support supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "healthcare-interoperability",
+    "databaseId": "bb6409d7-630c-4c77-abba-934b7b8908d8",
+    "name": "Healthcare Interoperability",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Healthcare Interoperability supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "health-data-quality",
+    "databaseId": "56bf5fca-2ec6-4465-aee0-dd7fa9235711",
+    "name": "Health Data Quality",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Health Data Quality supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "patient-safety-informatics",
+    "databaseId": "ce8c779c-15f4-4b41-af8d-ae5fd228595f",
+    "name": "Patient Safety Informatics",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Patient Safety Informatics supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-data-standards",
+    "databaseId": "c558767b-8595-4a2b-a037-c2b77c28ba80",
+    "name": "Clinical Data Standards",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Clinical Data Standards supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-study-design",
+    "databaseId": "77928736-a46a-4945-aaa9-2a8bcb280a70",
+    "name": "Clinical Study Design",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Clinical Study Design supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "epidemiology",
+    "databaseId": "3eeb96c8-262b-44ca-a822-53dcd158015c",
+    "name": "Epidemiology",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Epidemiology supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "public-health-surveillance",
+    "databaseId": "089bfa14-3aa1-4468-a9e4-644223de4326",
+    "name": "Public Health Surveillance",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Public Health Surveillance supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bioinformatics",
+    "databaseId": "cf2a0cb3-937f-4488-a52e-26ba227f2b5c",
+    "name": "Bioinformatics",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bioinformatics supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "molecular-biology",
+    "databaseId": "f3447740-e6a2-4bcf-aa45-798b057385d7",
+    "name": "Molecular Biology",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Molecular Biology supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "genetics",
+    "databaseId": "241768f3-e986-4137-ac09-2b3ef938ace0",
+    "name": "Genetics",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Genetics supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "genomics",
+    "databaseId": "675105b0-2d21-48c8-aa0d-c7df81534d0a",
+    "name": "Genomics",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Genomics supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sequence-alignment",
+    "databaseId": "69be8d8d-a91a-4d05-a245-9c24afc4123a",
+    "name": "Sequence Alignment",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sequence Alignment supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "blast",
+    "databaseId": "de4498b9-c03e-4293-a1eb-b56de474aa97",
+    "name": "BLAST",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "BLAST supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "fasta-formats",
+    "databaseId": "25668fbe-3b17-413c-af7c-105b19509d2b",
+    "name": "FASTA Formats",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "FASTA Formats supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sam-bam-formats",
+    "databaseId": "3b9838a6-64fd-4a96-ab9e-da4bd22ce67e",
+    "name": "SAM/BAM Formats",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "SAM/BAM Formats supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "variant-calling",
+    "databaseId": "c0685a52-fe16-4caa-a3ae-0aea232939b9",
+    "name": "Variant Calling",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Variant Calling supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "rna-seq-analysis",
+    "databaseId": "6476b0e9-8cbe-4a3f-aacf-864a502d68ae",
+    "name": "RNA-seq Analysis",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["genomics", "statistics"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "RNA-seq Analysis supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "single-cell-analysis",
+    "databaseId": "22b39bb4-e7ca-4e7e-a439-d9a7eb2101f8",
+    "name": "Single-cell Analysis",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Single-cell Analysis supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "genome-annotation",
+    "databaseId": "41f52bdc-822c-43c8-a6ac-634f96792e1d",
+    "name": "Genome Annotation",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Genome Annotation supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "phylogenetics",
+    "databaseId": "c7e288cc-f28a-4bd9-a3a5-7451c8a9b6b5",
+    "name": "Phylogenetics",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Phylogenetics supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "protein-structure-analysis",
+    "databaseId": "74e337a9-d962-41a7-abfb-255a3ec616dc",
+    "name": "Protein Structure Analysis",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Protein Structure Analysis supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bioconductor",
+    "databaseId": "474efd2b-3ff3-4ed8-a3f3-e30eb0d830fe",
+    "name": "Bioconductor",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bioconductor supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "biopython",
+    "databaseId": "86ab3f38-2745-432f-a88f-d1b6ac26ab32",
+    "name": "Biopython",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Biopython supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "nextflow",
+    "databaseId": "e6edd07a-e729-4a78-ab03-d08861f3f6ee",
+    "name": "Nextflow",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Nextflow supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "snakemake",
+    "databaseId": "eff3a2ba-5298-447b-a7d3-591da2b7eda4",
+    "name": "Snakemake",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Snakemake supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "galaxy",
+    "databaseId": "e13238c1-ddfe-414e-aac1-1c6af551aa30",
+    "name": "Galaxy",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Galaxy supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "reproducible-scientific-workflows",
+    "databaseId": "a8d91491-fbc9-4331-a216-21d5f5dfb990",
+    "name": "Reproducible Scientific Workflows",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Reproducible Scientific Workflows supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "laboratory-information-systems",
+    "databaseId": "e3ac7002-c516-44c2-a180-98f7b1d33924",
+    "name": "Laboratory Information Systems",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Laboratory Information Systems supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "biomedical-ontologies",
+    "databaseId": "3a6d2822-e2a8-47d9-aacc-aae654134311",
+    "name": "Biomedical Ontologies",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Biomedical Ontologies supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "research-data-management",
+    "databaseId": "24e66009-5da6-4ed5-aa33-a3bc26b17653",
+    "name": "Research Data Management",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Research Data Management supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-data-privacy",
+    "databaseId": "48fbbbba-03f1-4ac0-ad44-efac0da4cbfc",
+    "name": "Clinical Data Privacy",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Clinical Data Privacy supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "computational-biology",
+    "databaseId": "c5e34cb9-adae-4261-a45c-792277a50539",
+    "name": "Computational Biology",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Computational Biology supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "biological-networks",
+    "databaseId": "8971423f-67e5-4442-a49f-8d69b7426cb2",
+    "name": "Biological Networks",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Biological Networks supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pathway-analysis",
+    "databaseId": "6ec94aab-c889-4c29-a77e-0814cd598bd9",
+    "name": "Pathway Analysis",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Pathway Analysis supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scientific-data-visualization",
+    "databaseId": "95f8e442-494e-41b9-abe8-51a9e7819518",
+    "name": "Scientific Data Visualization",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Scientific Data Visualization supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "research-ethics",
+    "databaseId": "dc3b13aa-a13c-426e-a247-07cae4aeb78e",
+    "name": "Research Ethics",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Research Ethics supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-validation",
+    "databaseId": "8dfffd90-25df-4546-a791-e660835caae4",
+    "name": "Clinical Validation",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Clinical Validation supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bioscience-literature-search",
+    "databaseId": "cd0b21bd-fd20-48d7-a54e-0c5898a294e2",
+    "name": "Bioscience Literature Search",
+    "aliases": [],
+    "category": "science-health",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bioscience Literature Search supports the practical knowledge needed to apply computation and evidence in specialist domains.",
+    "resources": [
+      {
+        "title": "science health learning reference",
+        "url": "https://www.ncbi.nlm.nih.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "technical-communication",
+    "databaseId": "6deff31a-4d84-4ce0-abf6-7d3de134a0c8",
+    "name": "Technical Communication",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "soft",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Technical Communication supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "instructional-design",
+    "databaseId": "4e849baf-aa7b-4551-aee0-21c9faebe685",
+    "name": "Instructional Design",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Instructional Design supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "addie",
+    "databaseId": "aeaff86e-58f9-409f-a38a-ea6e626f2429",
+    "name": "ADDIE",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "ADDIE supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "backward-design",
+    "databaseId": "6c7d3fcc-9a63-42af-a240-77e31305dbaa",
+    "name": "Backward Design",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Backward Design supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bloom-taxonomy",
+    "databaseId": "b3fc76ea-ce44-4ddc-ac7c-47e671cac03e",
+    "name": "Bloom Taxonomy",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Bloom Taxonomy supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "learning-objectives",
+    "databaseId": "1585f1dd-ec6c-4ebf-a7a7-0245c97ff42b",
+    "name": "Learning Objectives",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Learning Objectives supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "assessment-design",
+    "databaseId": "2c06ff77-9a65-4651-a9ce-1b4e6dc0f9b1",
+    "name": "Assessment Design",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Assessment Design supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "e-learning-storyboards",
+    "databaseId": "629c6982-2778-4c4c-af75-78c0603ad57f",
+    "name": "E-learning Storyboards",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "E-learning Storyboards supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "articulate-storyline",
+    "databaseId": "b23b7a4c-7b1d-47d9-a7dc-5341af119f9c",
+    "name": "Articulate Storyline",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Articulate Storyline supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "articulate-rise",
+    "databaseId": "7b7d5e00-c9b3-433e-a3a6-104b00c2ae53",
+    "name": "Articulate Rise",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Articulate Rise supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "h5p",
+    "databaseId": "d5e7f351-22e1-455d-a393-29b6f8951115",
+    "name": "H5P",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "H5P supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scorm",
+    "databaseId": "f1386232-7f9d-493c-a6a2-e7a076ffeeaf",
+    "name": "SCORM",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "SCORM supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "xapi",
+    "databaseId": "6932b776-0e23-4657-adea-c131955bc4a0",
+    "name": "xAPI",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "xAPI supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "universal-design-for-learning",
+    "databaseId": "7746699b-246b-40a0-a731-51f2918e5189",
+    "name": "Universal Design for Learning",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Universal Design for Learning supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "learning-analytics",
+    "databaseId": "ac8e4dfe-5081-4dc9-a676-f9783016f04a",
+    "name": "Learning Analytics",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Learning Analytics supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "educational-technology-evaluation",
+    "databaseId": "b9ea91c5-bb8e-46ea-a5b8-42d0ccfbba80",
+    "name": "Educational Technology Evaluation",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Educational Technology Evaluation supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "legal-technology",
+    "databaseId": "a1a6d8be-e4e8-422b-ab77-f1f2ee8192ad",
+    "name": "Legal Technology",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Legal Technology supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "legal-research",
+    "databaseId": "4b080543-81fc-4c66-aa5d-0cec30d8764c",
+    "name": "Legal Research",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Legal Research supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "contract-lifecycle-management",
+    "databaseId": "a83a4d04-8078-433d-a530-a6a3704b6d93",
+    "name": "Contract Lifecycle Management",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Contract Lifecycle Management supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "e-discovery",
+    "databaseId": "ae0b3986-e78a-4725-ad3d-ce7630d0ecce",
+    "name": "E-discovery",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "E-discovery supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "legal-document-automation",
+    "databaseId": "352a6500-e821-4f83-aa06-c6b587d2caeb",
+    "name": "Legal Document Automation",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Legal Document Automation supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "legal-operations",
+    "databaseId": "544ab792-3eb8-4804-a512-32c97a5dc071",
+    "name": "Legal Operations",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Legal Operations supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "legal-knowledge-management",
+    "databaseId": "d341b4ab-f04f-4f24-a7a1-f4e7028e30c7",
+    "name": "Legal Knowledge Management",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Legal Knowledge Management supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sustainability-analysis",
+    "databaseId": "a88c23cb-3bdc-4787-a225-391e4495f7e7",
+    "name": "Sustainability Analysis",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sustainability Analysis supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "greenhouse-gas-accounting",
+    "databaseId": "130c6d42-930b-4574-a81b-07dcb41fcdf2",
+    "name": "Greenhouse Gas Accounting",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Greenhouse Gas Accounting supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "carbon-footprinting",
+    "databaseId": "16dabbd2-0735-4b00-ac04-2c8417dc6494",
+    "name": "Carbon Footprinting",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Carbon Footprinting supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scope-1-emissions",
+    "databaseId": "047f65bc-8fc2-47dc-a101-33c3923ab5c1",
+    "name": "Scope 1 Emissions",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Scope 1 Emissions supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scope-2-emissions",
+    "databaseId": "1c323d33-defb-4628-a9fa-5d62dea740ec",
+    "name": "Scope 2 Emissions",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Scope 2 Emissions supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scope-3-emissions",
+    "databaseId": "d3a735f6-59b5-4a91-a18d-59773a873dd6",
+    "name": "Scope 3 Emissions",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Scope 3 Emissions supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "life-cycle-assessment",
+    "databaseId": "63cc248a-ae86-4725-a47d-e5cc8e295be0",
+    "name": "Life Cycle Assessment",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Life Cycle Assessment supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "climate-scenario-analysis",
+    "databaseId": "c3b80e0c-b4ef-42a2-a804-c2a623d2a13b",
+    "name": "Climate Scenario Analysis",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Climate Scenario Analysis supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "energy-systems",
+    "databaseId": "41f0617e-7c81-4545-ac30-85b65ed94e6f",
+    "name": "Energy Systems",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Energy Systems supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "renewable-energy-analysis",
+    "databaseId": "61cfe45f-2b48-45be-abdf-a8c7bacc9bc1",
+    "name": "Renewable Energy Analysis",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Renewable Energy Analysis supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "environmental-data-analysis",
+    "databaseId": "b1b75c85-cdd0-4d98-af85-c90d813dd176",
+    "name": "Environmental Data Analysis",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Environmental Data Analysis supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "circular-economy",
+    "databaseId": "fa1619db-65c8-49d3-a1a2-ae066db7fcd7",
+    "name": "Circular Economy",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Circular Economy supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "esg-data-management",
+    "databaseId": "b729da18-dbe4-4bf3-aabe-3d4a3ef7b3c2",
+    "name": "ESG Data Management",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "ESG Data Management supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "geospatial-development",
+    "databaseId": "4917c351-9b86-4421-a2cd-a895a3b918ff",
+    "name": "Geospatial Development",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Geospatial Development supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "geopandas",
+    "databaseId": "118201a5-3e67-4fe3-a1b7-309c438b7d84",
+    "name": "GeoPandas",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "GeoPandas supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "rasterio",
+    "databaseId": "6d3477dd-73ca-49bb-acf7-64910aa73991",
+    "name": "Rasterio",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Rasterio supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gdal",
+    "databaseId": "1f3f100b-3e5a-4d61-ae6b-6b6874e09409",
+    "name": "GDAL",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "GDAL supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "leaflet",
+    "databaseId": "ae7e34e1-7801-4650-a8eb-8e50619080dd",
+    "name": "Leaflet",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Leaflet supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mapbox",
+    "databaseId": "3d629305-64cb-41f2-a8b0-4b8c41602cc8",
+    "name": "Mapbox",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Mapbox supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "remote-sensing",
+    "databaseId": "75866058-abe9-427d-a238-dc7629f47b0e",
+    "name": "Remote Sensing",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Remote Sensing supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "satellite-imagery-analysis",
+    "databaseId": "69b17a57-7e7e-4797-a36a-f1b101e1e9b3",
+    "name": "Satellite Imagery Analysis",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Satellite Imagery Analysis supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "earth-engine",
+    "databaseId": "1996e69a-8496-40c8-a257-c40db6a1f076",
+    "name": "Earth Engine",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Earth Engine supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quantum-computing",
+    "databaseId": "26e70b7d-13dc-43ea-a738-239f23d51b12",
+    "name": "Quantum Computing",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantum Computing supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "qiskit",
+    "databaseId": "21d2adae-907f-49fb-ab75-e344b987a6e6",
+    "name": "Qiskit",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Qiskit supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cirq",
+    "databaseId": "b296c863-4725-41df-a7a5-1c4200eb89b8",
+    "name": "Cirq",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cirq supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quantum-circuits",
+    "databaseId": "1f78d4a1-3c18-4695-aa76-8163028059da",
+    "name": "Quantum Circuits",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": ["linear-algebra"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantum Circuits supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quantum-gates",
+    "databaseId": "f986d599-6d38-4e9a-a601-7d1b59f349d6",
+    "name": "Quantum Gates",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantum Gates supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quantum-algorithms",
+    "databaseId": "739022ea-b148-4da3-a10a-a01161162ec6",
+    "name": "Quantum Algorithms",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": ["quantum-circuits"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantum Algorithms supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quantum-error-correction",
+    "databaseId": "abc07801-a2ea-4c67-a16d-f90bba0a44ce",
+    "name": "Quantum Error Correction",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantum Error Correction supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quantum-simulation",
+    "databaseId": "3425375e-e3a6-4563-a211-04ae818716ea",
+    "name": "Quantum Simulation",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantum Simulation supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quantum-information-theory",
+    "databaseId": "267f8631-e347-4b47-a5bb-f23f67c73bfa",
+    "name": "Quantum Information Theory",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantum Information Theory supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "assistive-technology-evaluation",
+    "databaseId": "cb5a8bef-dc25-45c1-a91f-9d59eb4593b8",
+    "name": "Assistive Technology Evaluation",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Assistive Technology Evaluation supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "accessible-document-design",
+    "databaseId": "32582bf9-2ca6-42cb-ab6c-6bd66d06710d",
+    "name": "Accessible Document Design",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Accessible Document Design supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "inclusive-service-evaluation",
+    "databaseId": "6b922dc4-084e-4ae1-aafe-d783e6790200",
+    "name": "Inclusive Service Evaluation",
+    "aliases": [],
+    "category": "emerging-domains",
+    "domains": ["other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Inclusive Service Evaluation supports the practical knowledge needed to combine specialist knowledge with practical digital methods.",
+    "resources": [
+      {
+        "title": "emerging domains learning reference",
+        "url": "https://www.edx.org/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn courses",
+        "url": "https://www.open.edu/openlearn/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  }
+]

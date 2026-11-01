@@ -1,0 +1,3182 @@
+[
+  {
+    "id": "product-discovery",
+    "databaseId": "3bc13005-2e7b-4c30-ab8f-7ca59a31cd5e",
+    "name": "Product Discovery",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Discovery supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "stakeholder-management",
+    "databaseId": "280368a1-a946-4951-a356-e5d17fe3c9d5",
+    "name": "Stakeholder Management",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management", "business"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Stakeholder Management supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "requirements-analysis",
+    "databaseId": "da069532-319b-4fc8-aff2-fa9887fca05e",
+    "name": "Requirements Analysis",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Requirements Analysis supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "prioritization",
+    "databaseId": "c44d07be-2b9a-4c7f-a8fc-c8353cd79467",
+    "name": "Prioritization",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Prioritization supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-strategy",
+    "databaseId": "ddf580cb-6255-41ac-ab5b-de51512cf374",
+    "name": "Product Strategy",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Strategy supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-vision",
+    "databaseId": "1493658c-a9a4-4d87-a44e-91492250f9b7",
+    "name": "Product Vision",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Vision supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-roadmapping",
+    "databaseId": "44def173-f416-4bdd-a399-3cd8e2c94c03",
+    "name": "Product Roadmapping",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Roadmapping supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "opportunity-assessment",
+    "databaseId": "1137cca2-1e9f-4843-acfe-6dcaa9e798f5",
+    "name": "Opportunity Assessment",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Opportunity Assessment supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "problem-framing",
+    "databaseId": "fb40f42d-6285-4e32-a51c-4eed299d6109",
+    "name": "Problem Framing",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Problem Framing supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-discovery",
+    "databaseId": "14ace04d-5be8-4e33-a155-7763be959357",
+    "name": "Customer Discovery",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management", "business"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Customer Discovery supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-market-fit",
+    "databaseId": "35b91855-def7-4fbd-a63e-bd10d2946072",
+    "name": "Product-market Fit",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product-market Fit supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "value-propositions",
+    "databaseId": "e4ad2e90-52e9-4aff-a423-9a16e0ed8b74",
+    "name": "Value Propositions",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Value Propositions supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "competitive-analysis",
+    "databaseId": "2c2712ec-addf-4263-aeed-0baf1a9e161c",
+    "name": "Competitive Analysis",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Competitive Analysis supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "market-sizing",
+    "databaseId": "694281f1-a831-4daa-ad90-5306a087fcd4",
+    "name": "Market Sizing",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Market Sizing supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "user-stories",
+    "databaseId": "b410b654-113d-4ed3-ab64-c5984a273ddd",
+    "name": "User Stories",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "User Stories supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "acceptance-criteria",
+    "databaseId": "bd602361-3c6d-4160-ab90-1f081836f81c",
+    "name": "Acceptance Criteria",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Acceptance Criteria supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "backlog-management",
+    "databaseId": "208b96f2-49ff-4e99-a933-b15b08aa1243",
+    "name": "Backlog Management",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Backlog Management supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "rice-prioritization",
+    "databaseId": "50d664bc-189e-48bb-a009-6f8b3a2d4045",
+    "name": "RICE Prioritization",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "RICE Prioritization supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "moscow-prioritization",
+    "databaseId": "b77b4912-b3fd-4a1c-a95f-bd706b78a5c1",
+    "name": "MoSCoW Prioritization",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "MoSCoW Prioritization supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kano-model",
+    "databaseId": "8e926618-0047-4190-a5c4-bcf2731c7e5c",
+    "name": "Kano Model",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Kano Model supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "opportunity-solution-trees",
+    "databaseId": "ddba0516-a98e-4956-a689-84fb18b4a331",
+    "name": "Opportunity Solution Trees",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Opportunity Solution Trees supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "outcome-based-planning",
+    "databaseId": "1c7c2820-696b-4b5d-a709-ec7df2d4fe68",
+    "name": "Outcome-based Planning",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Outcome-based Planning supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "okrs",
+    "databaseId": "f5e3beb1-3cc3-4450-a950-60c7c896e29a",
+    "name": "OKRs",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "OKRs supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-analytics",
+    "databaseId": "578c4280-ebb8-408e-a47e-5ca64d24df4a",
+    "name": "Product Analytics",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Analytics supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "feature-adoption",
+    "databaseId": "85afb997-5f09-4836-accf-1ef2cccee5ec",
+    "name": "Feature Adoption",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Feature Adoption supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-experimentation",
+    "databaseId": "9e180a2b-31cf-482f-a961-187a8604a5bf",
+    "name": "Product Experimentation",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Experimentation supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pricing-strategy",
+    "databaseId": "ea2467f4-dcbe-4a15-a73e-3e889bf99ee0",
+    "name": "Pricing Strategy",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Pricing Strategy supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "go-to-market-planning",
+    "databaseId": "04e1ee02-1951-45b0-a978-e5162dc7e3ef",
+    "name": "Go-to-market Planning",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Go-to-market Planning supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-launches",
+    "databaseId": "8c98d862-9b97-4eac-a4f2-ee41dd010305",
+    "name": "Product Launches",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Launches supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "release-communication",
+    "databaseId": "a51d6b84-8eef-4cf3-affe-74678f7c3232",
+    "name": "Release Communication",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Release Communication supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-documentation",
+    "databaseId": "3b712cb5-7b01-4656-ad96-4276d8a6224e",
+    "name": "Product Documentation",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Documentation supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "technical-feasibility-assessment",
+    "databaseId": "c117965f-74fa-406c-aeb8-a817af623529",
+    "name": "Technical Feasibility Assessment",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Technical Feasibility Assessment supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "api-product-management",
+    "databaseId": "a1466bd1-53a6-4638-a48e-56728d64c301",
+    "name": "API Product Management",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "API Product Management supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "platform-product-management",
+    "databaseId": "584dc940-616f-4161-a31d-0eceb995416e",
+    "name": "Platform Product Management",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Platform Product Management supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-operations",
+    "databaseId": "7854d9c7-fa83-4867-ac55-5837d9326cb0",
+    "name": "Product Operations",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Operations supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "feedback-management",
+    "databaseId": "a0eec75c-7a70-48bc-a79b-77fc473721ff",
+    "name": "Feedback Management",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Feedback Management supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-advisory-boards",
+    "databaseId": "91f95b17-8dc6-4045-a4b6-e2d231ff220e",
+    "name": "Customer Advisory Boards",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Customer Advisory Boards supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "business-case-development",
+    "databaseId": "dc3159b2-5ccd-4dee-a301-7570cd621fbf",
+    "name": "Business Case Development",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Business Case Development supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "benefits-realization",
+    "databaseId": "c62be75b-6ddc-415b-a1cc-55631fe8b25d",
+    "name": "Benefits Realization",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Benefits Realization supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "requirements-traceability",
+    "databaseId": "d409d25c-6ded-4ae1-afc7-6dfaf448227f",
+    "name": "Requirements Traceability",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Requirements Traceability supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "use-case-modeling",
+    "databaseId": "ee934ba8-72cf-4d67-aba2-69e5b7c5ec92",
+    "name": "Use Case Modeling",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Use Case Modeling supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "uml",
+    "databaseId": "00e4b392-236d-4ffc-a0b8-ca354d1fabbd",
+    "name": "UML",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "UML supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bpmn",
+    "databaseId": "38cc6074-275a-498f-a676-bfc26980dabb",
+    "name": "BPMN",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "BPMN supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "systems-analysis",
+    "databaseId": "b171135b-ea91-4762-a038-0fa4072912eb",
+    "name": "Systems Analysis",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Systems Analysis supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "solution-consulting",
+    "databaseId": "1035ec9d-e695-4d8f-a58f-14ab4ae3e106",
+    "name": "Solution Consulting",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Solution Consulting supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "implementation-planning",
+    "databaseId": "cb676cbd-aa38-4fb8-a7cf-76abac28cd72",
+    "name": "Implementation Planning",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Implementation Planning supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "user-acceptance-coordination",
+    "databaseId": "47ba5443-d09c-430f-a33c-43c76b10c994",
+    "name": "User Acceptance Coordination",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "User Acceptance Coordination supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-enablement",
+    "databaseId": "a3acb7e1-9e74-44bf-a5b1-eb4d6570bf54",
+    "name": "Product Enablement",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Enablement supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-feedback-loops",
+    "databaseId": "2e46d013-0ae9-4060-a6ee-2999d08f41ee",
+    "name": "Product Feedback Loops",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Feedback Loops supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "roadmap-communication",
+    "databaseId": "4e7bb823-a6c1-4370-a78c-56ef5459cb16",
+    "name": "Roadmap Communication",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Roadmap Communication supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-decision-logs",
+    "databaseId": "1bb18f18-a09b-4ea0-afc2-204c8ccc6cb2",
+    "name": "Product Decision Logs",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Decision Logs supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "discovery-interviewing",
+    "databaseId": "c7e33cab-bb09-473a-a915-bdec63651468",
+    "name": "Discovery Interviewing",
+    "aliases": [],
+    "category": "product-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Discovery Interviewing supports the practical knowledge needed to align product decisions with user and business outcomes.",
+    "resources": [
+      {
+        "title": "product leadership learning reference",
+        "url": "https://www.atlassian.com/agile",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "communication",
+    "databaseId": "d531d696-1ee8-47b4-a4db-67a47492d276",
+    "name": "Communication",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management", "business"],
+    "type": "soft",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Communication supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "leadership",
+    "databaseId": "ddd678fa-163d-4f4b-a919-873aa72380cd",
+    "name": "Leadership",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "soft",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Leadership supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "project-planning",
+    "databaseId": "b025a0a4-5f78-40b5-af57-19df91dfb5b9",
+    "name": "Project Planning",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Project Planning supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "agile",
+    "databaseId": "e30b88af-3244-456b-a07f-c8e1c0d53be8",
+    "name": "Agile",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Agile supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scrum",
+    "databaseId": "74f8f4e9-bf76-4941-acec-7c4500fa47d4",
+    "name": "Scrum",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Scrum supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kanban",
+    "databaseId": "ec493ea1-699e-46f0-a79b-1c92a8ace179",
+    "name": "Kanban",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Kanban supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "lean-delivery",
+    "databaseId": "918fb3c8-d762-4b8e-ae93-92bc397126c7",
+    "name": "Lean Delivery",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Lean Delivery supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sprint-planning",
+    "databaseId": "3b759e4e-09d5-47eb-afce-95ecfc27642c",
+    "name": "Sprint Planning",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sprint Planning supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sprint-reviews",
+    "databaseId": "787cdbcf-39d7-4fa0-aefa-4d5ea231df83",
+    "name": "Sprint Reviews",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sprint Reviews supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "retrospectives",
+    "databaseId": "8e0e8230-d2d8-4433-aff0-2aa043b9f48f",
+    "name": "Retrospectives",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Retrospectives supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "daily-facilitation",
+    "databaseId": "355677bc-0a59-4d99-acd4-c5763c1296d2",
+    "name": "Daily Facilitation",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Daily Facilitation supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "flow-metrics",
+    "databaseId": "83fe9571-8faf-413b-ae05-e8d51c3b9614",
+    "name": "Flow Metrics",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Flow Metrics supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "work-in-progress-limits",
+    "databaseId": "5d9094ed-f165-48ef-a09f-e29993155910",
+    "name": "Work in Progress Limits",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Work in Progress Limits supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "program-governance",
+    "databaseId": "aa026f24-963c-4eb9-a1b5-ad6d1f80e04c",
+    "name": "Program Governance",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Program Governance supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "project-scheduling",
+    "databaseId": "db3311a4-8d97-4a12-ab21-2f476d8842b9",
+    "name": "Project Scheduling",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Project Scheduling supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "work-breakdown-structures",
+    "databaseId": "3db65d09-0485-4295-a7d9-f46d97e58018",
+    "name": "Work Breakdown Structures",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Work Breakdown Structures supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "critical-path-method",
+    "databaseId": "5ef0e01a-7d39-4f8c-ad5d-26af28a5d600",
+    "name": "Critical Path Method",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Critical Path Method supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "resource-planning",
+    "databaseId": "42c98dba-ce33-41ad-a9f0-a3fe50a3224d",
+    "name": "Resource Planning",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Resource Planning supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "project-budgeting",
+    "databaseId": "1940d71b-4beb-4b07-ac94-617e80c04505",
+    "name": "Project Budgeting",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Project Budgeting supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "project-risk-management",
+    "databaseId": "dbbbb163-4aec-4308-ac36-42a0bbad299a",
+    "name": "Project Risk Management",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Project Risk Management supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "issue-management",
+    "databaseId": "713fcfd0-d9d1-4ad8-ac19-4eaf64b86924",
+    "name": "Issue Management",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Issue Management supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "change-control",
+    "databaseId": "ecc5bcdb-5960-499c-aea8-9937a78790d0",
+    "name": "Change Control",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Change Control supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "project-status-reporting",
+    "databaseId": "af507304-1154-4e67-a459-984af4460345",
+    "name": "Project Status Reporting",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Project Status Reporting supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "jira",
+    "databaseId": "9af6cad3-b9a7-46d6-a86e-2935f485f1ac",
+    "name": "Jira",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Jira supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "confluence",
+    "databaseId": "1efaa556-95eb-48cc-a496-a4b8d232bdd1",
+    "name": "Confluence",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Confluence supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "asana",
+    "databaseId": "47d44074-6ff7-4634-a780-dfb66f8351a3",
+    "name": "Asana",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Asana supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "trello",
+    "databaseId": "70972e6f-9420-442c-ad7c-d05f20be4599",
+    "name": "Trello",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Trello supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "microsoft-project",
+    "databaseId": "c4f6b41f-4858-49bc-a8ce-5d3576d2117e",
+    "name": "Microsoft Project",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Microsoft Project supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "smartsheet",
+    "databaseId": "7e77ef46-07e2-485e-abc4-476dc72964d8",
+    "name": "Smartsheet",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Smartsheet supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "team-coaching",
+    "databaseId": "bdea00a3-56d9-4dfe-af04-eadeea938133",
+    "name": "Team Coaching",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Team Coaching supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "conflict-resolution",
+    "databaseId": "d704158b-d40d-44a9-aa43-6838969d9214",
+    "name": "Conflict Resolution",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Conflict Resolution supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "negotiation",
+    "databaseId": "4924ed42-3649-4b8d-a845-7aa8395526f0",
+    "name": "Negotiation",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Negotiation supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "facilitation",
+    "databaseId": "2d50dc07-3ea0-42f0-ad67-563ae94d04ae",
+    "name": "Facilitation",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management", "business"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Facilitation supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "decision-making",
+    "databaseId": "02e6e2eb-675f-4ffe-af26-503f72d31ae9",
+    "name": "Decision Making",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Decision Making supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "engineering-hiring",
+    "databaseId": "30fc3318-783a-4b04-ac3f-4952a0ab077d",
+    "name": "Engineering Hiring",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Engineering Hiring supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "performance-feedback",
+    "databaseId": "a7aee2e1-bf01-4257-a9e4-b1c42b3e6043",
+    "name": "Performance Feedback",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Performance Feedback supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "career-development",
+    "databaseId": "24d335fc-85ca-40b5-a241-8aaea4a8d251",
+    "name": "Career Development",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Career Development supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mentoring",
+    "databaseId": "de12230a-ee96-4ab3-aac4-c1b13868cb06",
+    "name": "Mentoring",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Mentoring supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "psychological-safety",
+    "databaseId": "b095bcba-f9b9-4b8c-ac14-4eee4e02762f",
+    "name": "Psychological Safety",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Psychological Safety supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "technical-debt-management",
+    "databaseId": "33d6024a-9d2a-4015-a829-8d0a5978eebd",
+    "name": "Technical Debt Management",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Technical Debt Management supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "engineering-metrics",
+    "databaseId": "5b6b72e1-c84b-4759-a75a-4bc5c75de989",
+    "name": "Engineering Metrics",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Engineering Metrics supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "team-capacity-planning",
+    "databaseId": "07994da5-19a5-4531-af27-78a126bd2138",
+    "name": "Team Capacity Planning",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Team Capacity Planning supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-success-planning",
+    "databaseId": "9aaa060e-a995-488d-a17f-87bbd15e32ed",
+    "name": "Customer Success Planning",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Customer Success Planning supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-health-scores",
+    "databaseId": "695f6619-9690-434d-a8ee-62d4c1d9bf80",
+    "name": "Customer Health Scores",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Customer Health Scores supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-onboarding",
+    "databaseId": "6c9f3927-1d71-4d64-a120-66c35b91a003",
+    "name": "Customer Onboarding",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Customer Onboarding supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "renewal-planning",
+    "databaseId": "4c16481a-bdc9-4698-a7a1-53637b324d3b",
+    "name": "Renewal Planning",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Renewal Planning supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "executive-business-reviews",
+    "databaseId": "349ac1dd-cbc2-44be-a7fb-85b4ad698688",
+    "name": "Executive Business Reviews",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Executive Business Reviews supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "escalation-management",
+    "databaseId": "da451ee6-4edd-4a15-a383-1966f7c77899",
+    "name": "Escalation Management",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Escalation Management supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pmp-certification",
+    "databaseId": "94bec603-cd84-4776-aad1-cb79ad403861",
+    "name": "PMP Certification",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "PMP Certification supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "certified-scrummaster-certification",
+    "databaseId": "af260a55-d48e-436a-a6c8-12ea6d692db0",
+    "name": "Certified ScrumMaster Certification",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Certified ScrumMaster Certification supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "prince2-foundation-preparation",
+    "databaseId": "2f7c022c-be8f-425c-a228-64040905da45",
+    "name": "PRINCE2 Foundation Preparation",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "PRINCE2 Foundation Preparation supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "program-benefits-management",
+    "databaseId": "86b8a504-874b-4345-a0d9-bd799fbf5c2a",
+    "name": "Program Benefits Management",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Program Benefits Management supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "stakeholder-mapping",
+    "databaseId": "3de230f5-88dd-45d7-a33f-6061303be3e7",
+    "name": "Stakeholder Mapping",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Stakeholder Mapping supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "delivery-forecasting",
+    "databaseId": "70475946-33f3-4c4b-a07d-06f35f8213a6",
+    "name": "Delivery Forecasting",
+    "aliases": [],
+    "category": "delivery-leadership",
+    "domains": ["product-management"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Delivery Forecasting supports the practical knowledge needed to coordinate teams and deliver accountable outcomes.",
+    "resources": [
+      {
+        "title": "delivery leadership learning reference",
+        "url": "https://scrumguides.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Atlassian teamwork guides",
+        "url": "https://www.atlassian.com/team-playbook",
+        "type": "course",
+        "free": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "test-design",
+    "databaseId": "b25a53e5-e1b5-422e-a884-1322b5f9bf53",
+    "name": "Test Design",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test Design supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "defect-reporting",
+    "databaseId": "5fab2a27-e783-4b67-a35c-fabc364b8635",
+    "name": "Defect Reporting",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Defect Reporting supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "quality-assurance",
+    "databaseId": "20078144-cc2c-4eb6-ac28-f776930654c3",
+    "name": "Quality Assurance",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quality Assurance supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "playwright",
+    "databaseId": "73fdd112-28c8-4743-af98-b66fe5ebd021",
+    "name": "Playwright",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Playwright supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "selenium",
+    "databaseId": "1291ba36-16eb-4401-a386-648fab709347",
+    "name": "Selenium",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Selenium supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "cypress",
+    "databaseId": "53fcae33-2340-4653-ab41-3b8cb94a5bf0",
+    "name": "Cypress",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cypress supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "webdriverio",
+    "databaseId": "8fb198e5-05d9-4945-ad77-9899ca368e3c",
+    "name": "WebdriverIO",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "WebdriverIO supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "robot-framework",
+    "databaseId": "9409c590-22f6-4ae1-a688-1a131adbfdda",
+    "name": "Robot Framework",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Robot Framework supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "cucumber",
+    "databaseId": "800fc5ac-b7db-407a-a044-9f310e10bb0c",
+    "name": "Cucumber",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cucumber supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "gherkin",
+    "databaseId": "ea5c2a6e-0b18-4e6c-a58a-2bc667f4dd25",
+    "name": "Gherkin",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Gherkin supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "behavior-driven-development",
+    "databaseId": "2c1af82e-d023-42bf-a62a-05ecfd6322f3",
+    "name": "Behavior-driven Development",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Behavior-driven Development supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "test-driven-development",
+    "databaseId": "9a754653-dff9-4ace-a518-bd817eee49e1",
+    "name": "Test-driven Development",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test-driven Development supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "exploratory-testing",
+    "databaseId": "720284fe-f2a4-4018-a9a0-87d4dac5b007",
+    "name": "Exploratory Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Exploratory Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "regression-testing",
+    "databaseId": "0f767764-92ba-4f91-ad0e-ccc493d096dc",
+    "name": "Regression Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Regression Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "smoke-testing",
+    "databaseId": "53fa2165-4483-4c07-a412-a2ab262bc6d5",
+    "name": "Smoke Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Smoke Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "acceptance-testing",
+    "databaseId": "aa66a0d8-20f1-4150-a015-ab142334aa58",
+    "name": "Acceptance Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Acceptance Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "boundary-value-analysis",
+    "databaseId": "9f6fa749-2456-404e-a59a-8180af92e5b4",
+    "name": "Boundary Value Analysis",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Boundary Value Analysis supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "equivalence-partitioning",
+    "databaseId": "dd46b0e2-fe85-4dd5-aa27-f730bbff94ef",
+    "name": "Equivalence Partitioning",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Equivalence Partitioning supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "decision-table-testing",
+    "databaseId": "75de2942-7e84-45a0-ad78-fd681e3a6492",
+    "name": "Decision Table Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Decision Table Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "pairwise-testing",
+    "databaseId": "7d388a99-98e0-4853-a94d-ceecde669304",
+    "name": "Pairwise Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Pairwise Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "state-transition-testing",
+    "databaseId": "1cca64ba-8704-423e-a623-cc645803a2d0",
+    "name": "State Transition Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "State Transition Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "risk-based-testing",
+    "databaseId": "715d0f74-f014-4232-a006-d03a4a6ca487",
+    "name": "Risk-based Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Risk-based Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "test-planning",
+    "databaseId": "e2dc04df-32e1-4c65-a674-9e9ee5de1eaa",
+    "name": "Test Planning",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test Planning supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "test-data-management",
+    "databaseId": "ba320899-1f5a-4a83-a97d-4913dc04ce02",
+    "name": "Test Data Management",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test Data Management supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "test-environment-management",
+    "databaseId": "107097b4-eda2-48b0-a427-3951dfb4c08e",
+    "name": "Test Environment Management",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test Environment Management supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "test-coverage-analysis",
+    "databaseId": "392e6227-de1b-4686-ad3e-e701f7c58692",
+    "name": "Test Coverage Analysis",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test Coverage Analysis supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "test-reporting",
+    "databaseId": "276cb502-8ab9-408f-a0ac-ad7ad0313916",
+    "name": "Test Reporting",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test Reporting supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "flaky-test-diagnosis",
+    "databaseId": "8fe4b937-e3df-45c4-a634-0598788cd4c6",
+    "name": "Flaky Test Diagnosis",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Flaky Test Diagnosis supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "mocking",
+    "databaseId": "e75dfc9d-efa1-4292-a0d4-162cd5bdbfae",
+    "name": "Mocking",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Mocking supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "service-virtualization",
+    "databaseId": "898d4158-c643-4d35-a743-285b1d744761",
+    "name": "Service Virtualization",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Service Virtualization supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "postman",
+    "databaseId": "52de8018-70ed-4eac-a820-a9d009c94d6b",
+    "name": "Postman",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Postman supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "rest-assured",
+    "databaseId": "b9dd7199-e730-41a6-a2db-3f6861946885",
+    "name": "REST Assured",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "REST Assured supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "pact",
+    "databaseId": "550a0845-8d22-4527-a06d-6e836fd397e7",
+    "name": "Pact",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Pact supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "jmeter",
+    "databaseId": "0828bca6-5c60-40e2-af6d-d3dc61e6f732",
+    "name": "JMeter",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "JMeter supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "k6",
+    "databaseId": "1012ee3f-dc7e-4c44-a4cf-1d3c8a75a3db",
+    "name": "k6",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "k6 supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "gatling",
+    "databaseId": "8497ad19-3537-4465-a1ca-eeb5bd20db92",
+    "name": "Gatling",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Gatling supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "locust",
+    "databaseId": "9adf6942-f994-417e-aa4f-53414abcf3da",
+    "name": "Locust",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Locust supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "load-testing",
+    "databaseId": "8124a5d1-e01b-4880-a2a8-b170717ee8aa",
+    "name": "Load Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Load Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "stress-testing",
+    "databaseId": "4803f430-9851-45a3-a649-486658d1f0d2",
+    "name": "Stress Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality", "finance"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Stress Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "soak-testing",
+    "databaseId": "bffb4c30-f3af-42e5-a419-76871ea24b20",
+    "name": "Soak Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Soak Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "performance-bottleneck-analysis",
+    "databaseId": "cf14d21c-9024-43e8-ae5b-bee151820a30",
+    "name": "Performance Bottleneck Analysis",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Performance Bottleneck Analysis supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "axe-core",
+    "databaseId": "7ddc19fe-d42b-4e3a-a972-6c30c0e2e6a7",
+    "name": "axe-core",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "axe-core supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "wcag",
+    "databaseId": "52ed4235-54b2-4262-a49f-924c8052c021",
+    "name": "WCAG",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "WCAG supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "screen-reader-testing",
+    "databaseId": "d2dcb12e-d7fd-4ca7-a305-d5cdddccef78",
+    "name": "Screen Reader Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Screen Reader Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "keyboard-navigation-testing",
+    "databaseId": "34987318-1b17-475c-ac02-b134655993f0",
+    "name": "Keyboard Navigation Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Keyboard Navigation Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "nvda",
+    "databaseId": "5d0ede53-27ff-4adc-a72b-f629d1a01320",
+    "name": "NVDA",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "NVDA supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "jaws",
+    "databaseId": "d9b9cfd2-3ebe-48ba-ac1f-551e6d012f9f",
+    "name": "JAWS",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "JAWS supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "voiceover",
+    "databaseId": "2475ffa0-c933-49d4-af51-5b2bf2f0ef52",
+    "name": "VoiceOver",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "VoiceOver supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "game-compatibility-testing",
+    "databaseId": "d7eca997-7ee0-4844-a6cd-907367e840bc",
+    "name": "Game Compatibility Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Game Compatibility Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "localization-testing",
+    "databaseId": "af1d52e8-6817-4cf5-ad7c-3118b689b63c",
+    "name": "Localization Testing",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Localization Testing supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "release-readiness-reviews",
+    "databaseId": "113f1c19-e4f1-484d-a57e-0bb6e1396ff1",
+    "name": "Release Readiness Reviews",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Release Readiness Reviews supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "quality-metrics",
+    "databaseId": "a6c4c30d-7875-48be-aa0b-d8679321232f",
+    "name": "Quality Metrics",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quality Metrics supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "test-management",
+    "databaseId": "492dc200-dd42-440b-a08b-ca2252987dc3",
+    "name": "Test Management",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Test Management supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "istqb-foundation-certification",
+    "databaseId": "14a9c363-3a23-451a-ad32-fcb9029a8443",
+    "name": "ISTQB Foundation Certification",
+    "aliases": [],
+    "category": "quality-testing",
+    "domains": ["quality"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "ISTQB Foundation Certification supports the practical knowledge needed to evaluate software behavior and release quality.",
+    "resources": [
+      {
+        "title": "quality testing learning reference",
+        "url": "https://playwright.dev/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Ministry of Testing resources",
+        "url": "https://www.ministryoftesting.com/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  }
+]

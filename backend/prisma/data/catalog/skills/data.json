@@ -1,0 +1,4706 @@
+[
+  {
+    "id": "spreadsheets",
+    "databaseId": "00000000-0000-4000-8000-000000000031",
+    "name": "Spreadsheets",
+    "aliases": ["excel", "googlesheets"],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Spreadsheets supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "statistics",
+    "databaseId": "00000000-0000-4000-8000-000000000028",
+    "name": "Statistics",
+    "aliases": ["stats"],
+    "category": "data-analysis",
+    "domains": ["data", "finance", "other"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Statistics supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-visualization",
+    "databaseId": "00000000-0000-4000-8000-000000000030",
+    "name": "Data Visualization",
+    "aliases": ["dataviz", "datavisualisation"],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Visualization supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-cleaning",
+    "databaseId": "bf3b4c21-f41d-44c0-a298-f59939819fc5",
+    "name": "Data Cleaning",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Cleaning supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "exploratory-data-analysis",
+    "databaseId": "c6f9706e-7e9d-4388-a50e-6fa8ee4374f3",
+    "name": "Exploratory Data Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Exploratory Data Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-profiling",
+    "databaseId": "2ebfd111-7a33-4835-afa2-a0510d0bdbb7",
+    "name": "Data Profiling",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Profiling supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "missing-data-treatment",
+    "databaseId": "03240544-aa38-4000-a0ce-5cd20ef3bca5",
+    "name": "Missing Data Treatment",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Missing Data Treatment supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "outlier-detection",
+    "databaseId": "904bc0f5-e9e2-40f0-a339-bc35ed7dfd59",
+    "name": "Outlier Detection",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Outlier Detection supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "descriptive-statistics",
+    "databaseId": "37e70072-5457-448b-a029-3be61a5c321d",
+    "name": "Descriptive Statistics",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Descriptive Statistics supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "inferential-statistics",
+    "databaseId": "326225bb-e7fc-41e2-acb3-3c8b34b61fd3",
+    "name": "Inferential Statistics",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Inferential Statistics supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hypothesis-testing",
+    "databaseId": "00b918d1-9cba-42a9-a1eb-b9a03b064aa3",
+    "name": "Hypothesis Testing",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Hypothesis Testing supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "confidence-intervals",
+    "databaseId": "5f8f145c-16cf-4d9a-a39d-052ad148ffae",
+    "name": "Confidence Intervals",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Confidence Intervals supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sampling-methods",
+    "databaseId": "3ac9a453-4d91-4dc7-a6e3-dc5a7b616fdd",
+    "name": "Sampling Methods",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Sampling Methods supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "survey-analysis",
+    "databaseId": "91661c90-e4f3-4b1e-ab81-357ae4b5fd43",
+    "name": "Survey Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Survey Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cohort-analysis",
+    "databaseId": "9226f209-4df3-4e9a-a1e0-fc69198aaf96",
+    "name": "Cohort Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cohort Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "funnel-analysis",
+    "databaseId": "9463430e-391a-4bdc-a42a-c5c9ef745844",
+    "name": "Funnel Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Funnel Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "retention-analysis",
+    "databaseId": "bd0c4ea1-5035-437a-adab-d5bd3b3c1042",
+    "name": "Retention Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Retention Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-segmentation",
+    "databaseId": "338a4010-2280-4d84-aa2e-1593f19c29c5",
+    "name": "Customer Segmentation",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data", "business"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Customer Segmentation supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "customer-lifetime-value",
+    "databaseId": "51e568b1-b563-4991-a42f-a7a8a894a48e",
+    "name": "Customer Lifetime Value",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Customer Lifetime Value supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "churn-analysis",
+    "databaseId": "6bfa6fa3-77a6-44e5-af80-7405f4cb4492",
+    "name": "Churn Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Churn Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "attribution-modeling",
+    "databaseId": "d7837e61-5a74-4940-ad32-301c26993ce0",
+    "name": "Attribution Modeling",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Attribution Modeling supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "marketing-mix-modeling",
+    "databaseId": "34f64b95-0d4f-4bcb-ade5-0d9f6d583bca",
+    "name": "Marketing Mix Modeling",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Marketing Mix Modeling supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "product-metrics",
+    "databaseId": "8e16d210-bad1-4c36-ab6e-e92cc3f284f7",
+    "name": "Product Metrics",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Product Metrics supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "north-star-metrics",
+    "databaseId": "460eb9d2-c722-41e5-af6f-42e4b8b7520b",
+    "name": "North Star Metrics",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "North Star Metrics supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kpi-design",
+    "databaseId": "448e55b7-448a-474a-aecd-0fe340d3c304",
+    "name": "KPI Design",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "KPI Design supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "business-requirements-analysis",
+    "databaseId": "2d91d64f-d9d2-483d-a73d-7cfedf4eb3f2",
+    "name": "Business Requirements Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Business Requirements Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "stakeholder-interviews",
+    "databaseId": "64f06453-bedc-4ced-ac72-70b624f6342a",
+    "name": "Stakeholder Interviews",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Stakeholder Interviews supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "process-mapping",
+    "databaseId": "c3f25bec-5989-4b71-ab12-5f1effccd44a",
+    "name": "Process Mapping",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Process Mapping supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "root-cause-analysis",
+    "databaseId": "02616c8e-2f39-478a-a60b-37081b1bd0c1",
+    "name": "Root Cause Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Root Cause Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-storytelling",
+    "databaseId": "34bdd41e-1af9-4440-aede-b3971158fe7a",
+    "name": "Data Storytelling",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Storytelling supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dashboard-design",
+    "databaseId": "fb42079c-440e-4536-a930-4821e1a9df7b",
+    "name": "Dashboard Design",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Dashboard Design supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "metric-definitions",
+    "databaseId": "29f12115-ca58-443e-a6c1-1a887ce16ef4",
+    "name": "Metric Definitions",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Metric Definitions supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pandas",
+    "databaseId": "00000000-0000-4000-8000-000000000029",
+    "name": "Pandas",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["python"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Pandas supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "numpy",
+    "databaseId": "5757d45b-2b66-4f0e-a2aa-09f5fb1009df",
+    "name": "NumPy",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["python"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "NumPy supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "r",
+    "databaseId": "d18946c2-62b5-465b-a875-b544b7034f5d",
+    "name": "R",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": ["python"],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "R supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tidyverse",
+    "databaseId": "633d194e-ce02-4b15-adc6-57d41efa1dff",
+    "name": "Tidyverse",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Tidyverse supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dplyr",
+    "databaseId": "15fefd10-ffa1-437d-a4ef-9f2e732de013",
+    "name": "dplyr",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "dplyr supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tidyr",
+    "databaseId": "9b4dd9d2-398e-4402-a1d2-d0d28b2ac83e",
+    "name": "tidyr",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "tidyr supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "jupyter",
+    "databaseId": "342fb74a-33bc-4dbd-a9f7-b6de7c125280",
+    "name": "Jupyter",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Jupyter supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "quarto",
+    "databaseId": "284777f0-f2eb-4ba6-a0a1-25c09f2ce56a",
+    "name": "Quarto",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Quarto supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "excel",
+    "databaseId": "07597428-b928-4d15-a9de-c38a35cdbdc4",
+    "name": "Excel",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Excel supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pivot-tables",
+    "databaseId": "27f49986-bac4-4eb0-aab0-10f466b14748",
+    "name": "Pivot Tables",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Pivot Tables supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "power-query",
+    "databaseId": "b74603ed-498b-4884-aa84-998bd69297d1",
+    "name": "Power Query",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Power Query supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dax",
+    "databaseId": "e250ae71-97d4-4193-a3fb-99bb422b9ef3",
+    "name": "DAX",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "DAX supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "google-sheets",
+    "databaseId": "7c9ca77f-cc71-4d52-a866-41a790519628",
+    "name": "Google Sheets",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Google Sheets supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "spreadsheet-formulas",
+    "databaseId": "baff5e50-1a3a-41f9-a152-66378666fc51",
+    "name": "Spreadsheet Formulas",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Spreadsheet Formulas supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "spreadsheet-data-validation",
+    "databaseId": "ab8dcc29-59ba-4990-a8b0-b11eb681f7fd",
+    "name": "Spreadsheet Data Validation",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Spreadsheet Data Validation supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "financial-data-reconciliation",
+    "databaseId": "fa7665c5-c51c-4de5-a35a-b6efa0872d93",
+    "name": "Financial Data Reconciliation",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Financial Data Reconciliation supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clinical-data-analysis",
+    "databaseId": "2c4aaddd-a5f4-47c4-a84b-243d3922286a",
+    "name": "Clinical Data Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Clinical Data Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "healthcare-quality-metrics",
+    "databaseId": "46a15082-8b7d-4a45-a3db-4a36f3b6af9f",
+    "name": "Healthcare Quality Metrics",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Healthcare Quality Metrics supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-ethics",
+    "databaseId": "d1e59327-b22f-4f77-abec-4193e6fd7e1f",
+    "name": "Data Ethics",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data", "other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Ethics supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "research-methods",
+    "databaseId": "3a383ec5-2bb3-4392-ad0c-9e79ec97f6a9",
+    "name": "Research Methods",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data", "other"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Research Methods supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "a-b-testing",
+    "databaseId": "49d100ac-415a-4cde-aec7-d5eb1f0f9723",
+    "name": "A/B Testing",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "A/B Testing supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "experiment-analysis",
+    "databaseId": "96001641-58ec-46ac-a925-a4cfbe71e123",
+    "name": "Experiment Analysis",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Experiment Analysis supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "measurement-planning",
+    "databaseId": "31a2bc99-dea9-4cf1-ad4d-50d98c976503",
+    "name": "Measurement Planning",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Measurement Planning supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-presentation",
+    "databaseId": "0579f58b-8602-4c0e-ae2f-491150714088",
+    "name": "Data Presentation",
+    "aliases": [],
+    "category": "data-analysis",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Presentation supports the practical knowledge needed to turn data into defensible decisions.",
+    "resources": [
+      {
+        "title": "data analysis learning reference",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-modeling",
+    "databaseId": "c6698e3e-1181-4d67-a2f1-68e934ce2fb4",
+    "name": "Data Modeling",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Modeling supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-pipelines",
+    "databaseId": "d9bd84d9-d5c1-4a4c-a132-779c7be1d223",
+    "name": "Data Pipelines",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Pipelines supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "postgresql",
+    "databaseId": "00000000-0000-4000-8000-000000000012",
+    "name": "PostgreSQL",
+    "aliases": ["postgres", "psql"],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["sql"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "PostgreSQL supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mysql",
+    "databaseId": "f2d6c346-2a1e-4892-ab95-624da9ebd605",
+    "name": "MySQL",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "MySQL supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sql-server",
+    "databaseId": "df967360-acbc-4284-ae9a-3654365485ae",
+    "name": "SQL Server",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "SQL Server supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "oracle-database",
+    "databaseId": "b5a547c5-1e2c-493a-afc3-8a6bd78b3eda",
+    "name": "Oracle Database",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Oracle Database supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mongodb",
+    "databaseId": "00000000-0000-4000-8000-000000000014",
+    "name": "MongoDB",
+    "aliases": ["mongo"],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "MongoDB supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cassandra",
+    "databaseId": "162bcbfc-ea17-4119-a18c-c3ca090d0c46",
+    "name": "Cassandra",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cassandra supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dynamodb",
+    "databaseId": "73cb78f1-b1eb-4214-ac77-303b0bf2d512",
+    "name": "DynamoDB",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "DynamoDB supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "elasticsearch",
+    "databaseId": "348cd044-ec11-41d5-ada8-238c078ef7e3",
+    "name": "Elasticsearch",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Elasticsearch supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "snowflake",
+    "databaseId": "4c9485f4-0890-454a-afbe-b074921b3cee",
+    "name": "Snowflake",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Snowflake supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "databricks",
+    "databaseId": "bb6e7c30-dd2a-479d-a017-b794c865bba2",
+    "name": "Databricks",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Databricks supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bigquery",
+    "databaseId": "f7396250-a478-4c18-a3c2-0f123d7f6af1",
+    "name": "BigQuery",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "BigQuery supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "redshift",
+    "databaseId": "fd95194e-c951-4042-aa43-e4f744ff23bb",
+    "name": "Redshift",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Redshift supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-spark",
+    "databaseId": "37225df6-5ffc-4757-a1d9-237f20ed1faa",
+    "name": "Apache Spark",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Spark supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pyspark",
+    "databaseId": "313aee63-37b4-4a9c-aa77-a77bbb90c8b3",
+    "name": "PySpark",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["python", "apache-spark"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "PySpark supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-hadoop",
+    "databaseId": "1bfcab3a-d37d-4d3e-a33a-475f437a5f06",
+    "name": "Apache Hadoop",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Hadoop supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hdfs",
+    "databaseId": "b7d68815-b049-4139-ada2-a6ace32a1d58",
+    "name": "HDFS",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "HDFS supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-hive",
+    "databaseId": "6c94f2c1-e4d5-49b8-a2d4-9627c10f25fc",
+    "name": "Apache Hive",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Hive supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-kafka",
+    "databaseId": "1e0bb23b-1996-4fa1-a31e-301db3274b4b",
+    "name": "Apache Kafka",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Kafka supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kafka-streams",
+    "databaseId": "1fe97a67-98be-4fc5-a33c-1a6cf4d20dab",
+    "name": "Kafka Streams",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kafka Streams supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-flink",
+    "databaseId": "05bcdd74-f8f4-49c3-a748-fb8dc7c20651",
+    "name": "Apache Flink",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Flink supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-beam",
+    "databaseId": "66e34830-e2f5-4f75-a7d7-7eb01657bbd2",
+    "name": "Apache Beam",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Beam supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-airflow",
+    "databaseId": "8765a9d3-3fce-49fb-ac39-00be1968ed43",
+    "name": "Apache Airflow",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["python"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Airflow supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dagster",
+    "databaseId": "c33fc86e-ac1d-4738-a286-3896a7f0b1ae",
+    "name": "Dagster",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Dagster supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "prefect",
+    "databaseId": "9c671800-575a-4220-adee-c2c1daeb7372",
+    "name": "Prefect",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Prefect supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dbt",
+    "databaseId": "21603661-6c2d-4dc6-a144-c9d52571f98d",
+    "name": "dbt",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["sql", "data-modeling"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "dbt supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "etl",
+    "databaseId": "4596846f-b97c-4a17-a64d-f0ae5a35f1a3",
+    "name": "ETL",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "ETL supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "elt",
+    "databaseId": "0c584df5-95d0-4a30-aed1-ccb00c11b930",
+    "name": "ELT",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "ELT supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "change-data-capture",
+    "databaseId": "639fe158-d1cc-47ac-a5b4-e6e2d6b9bbd7",
+    "name": "Change Data Capture",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Change Data Capture supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "debezium",
+    "databaseId": "91774817-8114-48c4-ac5e-b68c0abd5c56",
+    "name": "Debezium",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Debezium supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-warehousing",
+    "databaseId": "e0818a35-91e0-454a-a154-59284bd62c75",
+    "name": "Data Warehousing",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Warehousing supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-lakes",
+    "databaseId": "cf93be33-f36d-469f-a129-52f8c5c7c516",
+    "name": "Data Lakes",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Lakes supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "lakehouse-architecture",
+    "databaseId": "ffdf58c9-6484-4013-a03e-2dc777ebf325",
+    "name": "Lakehouse Architecture",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Lakehouse Architecture supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "delta-lake",
+    "databaseId": "217857c0-b08c-4749-a31a-852580a2e03a",
+    "name": "Delta Lake",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Delta Lake supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-iceberg",
+    "databaseId": "5ff84b04-2be0-4db9-a5bb-e9cd8df3d492",
+    "name": "Apache Iceberg",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Iceberg supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-hudi",
+    "databaseId": "332e33a3-e07b-4453-a409-e8c4e1623b76",
+    "name": "Apache Hudi",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Hudi supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-parquet",
+    "databaseId": "c7c768c7-ffdd-4df7-aa8d-f92ddede6d15",
+    "name": "Apache Parquet",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Parquet supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-avro",
+    "databaseId": "eaecdb6c-b141-4e0f-aa4d-f2c4e696fde0",
+    "name": "Apache Avro",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Avro supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dimensional-modeling",
+    "databaseId": "54c321b7-bcae-4e18-a55e-e9663e517b12",
+    "name": "Dimensional Modeling",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Dimensional Modeling supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "star-schema",
+    "databaseId": "7dda0e83-5f9f-4d4c-af13-4ea7d4ce64eb",
+    "name": "Star Schema",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Star Schema supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "slowly-changing-dimensions",
+    "databaseId": "e12e97f7-f687-4f05-afd2-568a7d498a95",
+    "name": "Slowly Changing Dimensions",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Slowly Changing Dimensions supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-partitioning",
+    "databaseId": "84d3f4a1-77c3-4e30-a97c-260b6a79333b",
+    "name": "Data Partitioning",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Partitioning supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "query-optimization",
+    "databaseId": "1012b2df-1a69-43ce-ada5-7847b7484a54",
+    "name": "Query Optimization",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": ["sql"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Query Optimization supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "query-execution-plans",
+    "databaseId": "351ae734-3a88-4295-ae44-ce7a130455b8",
+    "name": "Query Execution Plans",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Query Execution Plans supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "database-indexing",
+    "databaseId": "74fbbf72-178e-473c-a012-a7ef9a29c2d9",
+    "name": "Database Indexing",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Database Indexing supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "database-replication",
+    "databaseId": "676c6c6e-5d61-4212-a5ce-eba554ca202f",
+    "name": "Database Replication",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Database Replication supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "database-backup-and-recovery",
+    "databaseId": "f3f20ce2-2021-4cd5-a754-87646dc0565f",
+    "name": "Database Backup and Recovery",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Database Backup and Recovery supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "database-security",
+    "databaseId": "bc8d05b8-b223-446a-ab6e-f1749af91976",
+    "name": "Database Security",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Database Security supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "database-migrations",
+    "databaseId": "fc6d147b-4f9c-40a7-a45b-da61f5f3a0b0",
+    "name": "Database Migrations",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Database Migrations supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "connection-management",
+    "databaseId": "d4ddb616-7620-45fc-ae0c-44077c16af58",
+    "name": "Connection Management",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Connection Management supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "stream-processing",
+    "databaseId": "23090c54-2c22-44ee-ae6f-712096521485",
+    "name": "Stream Processing",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Stream Processing supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "batch-processing",
+    "databaseId": "37c4be54-7ea2-4ce0-ae51-de7ab9e9ace0",
+    "name": "Batch Processing",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Batch Processing supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-contracts",
+    "databaseId": "cbe14bb0-4086-4c3e-adc1-6889bc81fa59",
+    "name": "Data Contracts",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Contracts supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "schema-evolution",
+    "databaseId": "894d32a4-5173-4680-ab82-c5cc2513cb61",
+    "name": "Schema Evolution",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Schema Evolution supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-lineage",
+    "databaseId": "76485065-0603-48a6-ad16-05171d6514e7",
+    "name": "Data Lineage",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Lineage supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-catalogs",
+    "databaseId": "dbf79176-d958-48ac-a662-5d881fca2c59",
+    "name": "Data Catalogs",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Catalogs supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-orchestration",
+    "databaseId": "75d3b3c3-a971-4892-acd8-0e1522ce6a5e",
+    "name": "Data Orchestration",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Orchestration supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "medallion-architecture",
+    "databaseId": "b597318f-ce09-4a1c-a7d8-bddc72fab73c",
+    "name": "Medallion Architecture",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Medallion Architecture supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-mesh",
+    "databaseId": "1249b339-4122-4700-a67a-4fe7f904659f",
+    "name": "Data Mesh",
+    "aliases": [],
+    "category": "data-engineering",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Mesh supports the practical knowledge needed to build trusted data pipelines and storage.",
+    "resources": [
+      {
+        "title": "data engineering learning reference",
+        "url": "https://spark.apache.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "power-bi",
+    "databaseId": "e0e691f4-e4a0-4185-a883-e2bc15b58eba",
+    "name": "Power BI",
+    "aliases": ["powerbi"],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": ["tableau"],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Power BI supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tableau",
+    "databaseId": "c4046e57-c057-484a-a26c-5dfb61f2e662",
+    "name": "Tableau",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": ["power-bi"],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Tableau supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "looker",
+    "databaseId": "38790d30-2727-41b6-aed1-9d4aa07896ac",
+    "name": "Looker",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Looker supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "looker-studio",
+    "databaseId": "4df9edff-879b-4e7f-a289-d421bf4ca5e6",
+    "name": "Looker Studio",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Looker Studio supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "qlik-sense",
+    "databaseId": "cd6dfd64-1b98-43ea-ae97-5a7f53cca8a6",
+    "name": "Qlik Sense",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Qlik Sense supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "apache-superset",
+    "databaseId": "70227a24-1c92-450d-af60-fffbc5877830",
+    "name": "Apache Superset",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Apache Superset supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "metabase",
+    "databaseId": "d67d3de5-bd70-4501-ad82-4d6c14701d9e",
+    "name": "Metabase",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Metabase supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "matplotlib",
+    "databaseId": "59d70f41-92b7-434d-ac53-262ba26c0b5b",
+    "name": "Matplotlib",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Matplotlib supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "seaborn",
+    "databaseId": "cedf4e6f-e280-4966-abc7-c189b8320b48",
+    "name": "Seaborn",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Seaborn supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "plotly",
+    "databaseId": "2c458e80-ee38-4e4c-ae78-1fe56a8c5954",
+    "name": "Plotly",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Plotly supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ggplot2",
+    "databaseId": "c5b6ae4b-2b34-484e-a658-c4291a2292b7",
+    "name": "ggplot2",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "ggplot2 supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "d3-js",
+    "databaseId": "24496ba1-4ee0-475f-a631-e1e4d7a0f35c",
+    "name": "D3.js",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "D3.js supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vega-lite",
+    "databaseId": "158e34dd-5556-46a2-a466-8afe0428c5a7",
+    "name": "Vega-Lite",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Vega-Lite supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "observable",
+    "databaseId": "81c12d56-5d57-4317-a02b-3d532ddd6340",
+    "name": "Observable",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Observable supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "geospatial-analysis",
+    "databaseId": "c0db9ad9-38d6-43f6-a3e2-2535d6966be5",
+    "name": "Geospatial Analysis",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Geospatial Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "qgis",
+    "databaseId": "f5729ba1-f295-4c72-a308-603e33fb1054",
+    "name": "QGIS",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "QGIS supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "arcgis",
+    "databaseId": "38ff16ad-8cda-4855-add3-7e1c462eb337",
+    "name": "ArcGIS",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "ArcGIS supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "geojson",
+    "databaseId": "57ef260c-d497-4781-aa73-2fed491132d6",
+    "name": "GeoJSON",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GeoJSON supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "spatial-sql",
+    "databaseId": "024960e0-e3fe-4326-ab24-dbbf28b1e73d",
+    "name": "Spatial SQL",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["sql"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Spatial SQL supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "postgis",
+    "databaseId": "12968057-221e-46ca-a662-8ccb3e4c1f62",
+    "name": "PostGIS",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "PostGIS supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "coordinate-reference-systems",
+    "databaseId": "eda98412-8e47-4f86-aed9-129a1a9deaf3",
+    "name": "Coordinate Reference Systems",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Coordinate Reference Systems supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cartographic-design",
+    "databaseId": "dd1fa6f7-f615-467c-a463-05eadb7cd640",
+    "name": "Cartographic Design",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cartographic Design supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "statistical-modeling",
+    "databaseId": "c43d14c0-a873-494e-a5c8-2bc6a035e279",
+    "name": "Statistical Modeling",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Statistical Modeling supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bayesian-statistics",
+    "databaseId": "ce8b09fd-cd1d-4b26-ae19-9a3f605a0247",
+    "name": "Bayesian Statistics",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Bayesian Statistics supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "time-series-analysis",
+    "databaseId": "1760d378-61e4-4b39-a329-8c05e21c5de9",
+    "name": "Time Series Analysis",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Time Series Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "forecasting",
+    "databaseId": "fd92f9bb-aeed-4f40-a9f2-e290f28ae9c1",
+    "name": "Forecasting",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Forecasting supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "survival-analysis",
+    "databaseId": "64bd632e-cd86-4675-a439-acad04d80bb7",
+    "name": "Survival Analysis",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Survival Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "multivariate-analysis",
+    "databaseId": "2d450933-30cd-4720-aea2-bd0df32977b6",
+    "name": "Multivariate Analysis",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Multivariate Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "generalized-linear-models",
+    "databaseId": "b6b872cb-3aa9-42ff-ae9e-7cffb7b90065",
+    "name": "Generalized Linear Models",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Generalized Linear Models supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mixed-effects-models",
+    "databaseId": "55f4ad54-3d6f-4b1b-a130-1b5600aa66d8",
+    "name": "Mixed Effects Models",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Mixed Effects Models supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "causal-inference",
+    "databaseId": "ec4eff3d-9465-40cc-a0a2-9fbc07842ace",
+    "name": "Causal Inference",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Causal Inference supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "propensity-score-matching",
+    "databaseId": "3d62538b-520a-4473-ae6c-d3d005718d04",
+    "name": "Propensity Score Matching",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Propensity Score Matching supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "linear-programming",
+    "databaseId": "7c8b353c-638a-4b71-a4ea-803059708d83",
+    "name": "Linear Programming",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Linear Programming supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "integer-programming",
+    "databaseId": "d950d172-0577-4284-acd5-c842ab477d1e",
+    "name": "Integer Programming",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Integer Programming supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "simulation-modeling",
+    "databaseId": "6d4732d9-7163-40e9-af3f-58e02a6cd81d",
+    "name": "Simulation Modeling",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Simulation Modeling supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "monte-carlo-simulation",
+    "databaseId": "eefcc077-fd02-4fe6-ac99-c8b654f87547",
+    "name": "Monte Carlo Simulation",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Monte Carlo Simulation supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "queueing-theory",
+    "databaseId": "272a8691-4430-4bcb-a7c0-5a57e79b63a1",
+    "name": "Queueing Theory",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Queueing Theory supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "optimization-modeling",
+    "databaseId": "4ee237a9-9805-4207-a8db-39f95d2f6fa7",
+    "name": "Optimization Modeling",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Optimization Modeling supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-stewardship",
+    "databaseId": "8089311a-71ad-472c-aada-390ae376616c",
+    "name": "Data Stewardship",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Stewardship supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "master-data-management",
+    "databaseId": "669bcccd-4224-4596-a34c-95851b8a034f",
+    "name": "Master Data Management",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Master Data Management supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "metadata-management",
+    "databaseId": "b7ecb491-da45-474d-acdb-b9a536ad2ec4",
+    "name": "Metadata Management",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Metadata Management supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-retention",
+    "databaseId": "d9e22ee4-2c37-44e8-a21b-a68739c455d8",
+    "name": "Data Retention",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Retention supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-classification",
+    "databaseId": "19f47c0e-c3be-482c-ad6d-6f92d32344f2",
+    "name": "Data Classification",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Classification supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-quality-rules",
+    "databaseId": "c0f8037b-46a4-456e-a709-098f76d98351",
+    "name": "Data Quality Rules",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Quality Rules supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "great-expectations",
+    "databaseId": "60f03e58-6bf9-4180-a151-af1cd1a5e90b",
+    "name": "Great Expectations",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Great Expectations supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "soda",
+    "databaseId": "1a9ddd67-a1f1-431d-a24e-784fcdb39aaa",
+    "name": "Soda",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Soda supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-observability",
+    "databaseId": "a0fe2a94-51c1-4e2e-aae4-db8469e3ac55",
+    "name": "Data Observability",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Observability supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-ownership",
+    "databaseId": "7caa0828-a525-47af-a4d6-e9c3ffdca018",
+    "name": "Data Ownership",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Ownership supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "business-glossaries",
+    "databaseId": "fe6c0917-fab8-45dd-a83a-bd23f3961077",
+    "name": "Business Glossaries",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Business Glossaries supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "statistical-process-control",
+    "databaseId": "b4777971-41fe-4ee7-aa38-1cd5884b97b4",
+    "name": "Statistical Process Control",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Statistical Process Control supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-access-policies",
+    "databaseId": "ee645828-8f51-4763-a07b-719c9282a731",
+    "name": "Data Access Policies",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Access Policies supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-reconciliation",
+    "databaseId": "3161fc42-23b9-436d-a8fe-f62f5d60ad53",
+    "name": "Data Reconciliation",
+    "aliases": [],
+    "category": "data-specialisms",
+    "domains": ["data"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Data Reconciliation supports the practical knowledge needed to communicate, govern and model complex evidence.",
+    "resources": [
+      {
+        "title": "data specialisms learning reference",
+        "url": "https://www.openintro.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Kaggle Learn",
+        "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      }
+    ]
+  }
+]

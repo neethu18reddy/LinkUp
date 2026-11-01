@@ -1,0 +1,4226 @@
+[
+  {
+    "id": "security-fundamentals",
+    "databaseId": "ab0565b3-7903-4711-ad9b-94016f236fae",
+    "name": "Security Fundamentals",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Fundamentals supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "threat-modeling",
+    "databaseId": "0443e666-6a6d-4c97-a8ad-b5bd180914f4",
+    "name": "Threat Modeling",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Threat Modeling supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "incident-response",
+    "databaseId": "97746b2f-0e07-4d15-acd2-edd2af125882",
+    "name": "Incident Response",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Incident Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "siem",
+    "databaseId": "ebbe0b33-c773-4d28-acfe-d6e15054ab73",
+    "name": "SIEM",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SIEM supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "soar",
+    "databaseId": "1cacb594-dfd6-430f-afda-22f21bf44873",
+    "name": "SOAR",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SOAR supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "splunk",
+    "databaseId": "e618d345-9e9c-4cd2-a229-6a2d2c152b90",
+    "name": "Splunk",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Splunk supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "microsoft-sentinel",
+    "databaseId": "60bce075-1a9c-45fc-a4ad-d877e2512182",
+    "name": "Microsoft Sentinel",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Microsoft Sentinel supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "elastic-security",
+    "databaseId": "09646361-b444-4a4d-a17c-945f83c26bd4",
+    "name": "Elastic Security",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Elastic Security supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-onion",
+    "databaseId": "2ae84627-9d4a-4a89-a8c6-d0edcf4db560",
+    "name": "Security Onion",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Onion supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "wazuh",
+    "databaseId": "5b916775-91b4-4e9d-af74-e951db827b34",
+    "name": "Wazuh",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Wazuh supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "log-analysis",
+    "databaseId": "049d481a-9824-454b-a2eb-f20422a80bcd",
+    "name": "Log Analysis",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Log Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "threat-hunting",
+    "databaseId": "3c31e74e-eab2-41a1-afa5-eff37a7d40ca",
+    "name": "Threat Hunting",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Threat Hunting supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mitre-att-ck",
+    "databaseId": "31bbc3a1-01a3-482e-afda-284c2cd4574d",
+    "name": "MITRE ATT&CK",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "MITRE ATT&CK supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sigma-rules",
+    "databaseId": "89559a3c-513f-4d51-a5c4-353913dc7548",
+    "name": "Sigma Rules",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Sigma Rules supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "yara-rules",
+    "databaseId": "3cffc641-f96d-4207-a650-cc9495097ed2",
+    "name": "YARA Rules",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "YARA Rules supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "detection-engineering",
+    "databaseId": "46e28447-e1cf-4827-a585-5015235c4450",
+    "name": "Detection Engineering",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Detection Engineering supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "endpoint-detection-and-response",
+    "databaseId": "3866bdf0-16c8-4e72-ac8b-a0d0aaefc6ed",
+    "name": "Endpoint Detection and Response",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Endpoint Detection and Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "network-detection-and-response",
+    "databaseId": "04345630-e706-4044-a4f4-72bb31497197",
+    "name": "Network Detection and Response",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Network Detection and Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "indicators-of-compromise",
+    "databaseId": "8144e8aa-8256-4924-ab29-fd26eb663d0b",
+    "name": "Indicators of Compromise",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Indicators of Compromise supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "threat-intelligence",
+    "databaseId": "f3edfc71-7ee2-4858-a865-75069fa49035",
+    "name": "Threat Intelligence",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Threat Intelligence supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "osint",
+    "databaseId": "7b9b2d26-da89-4650-abd0-99b63ece44a4",
+    "name": "OSINT",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "OSINT supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "intelligence-analysis",
+    "databaseId": "f5f7272a-1afc-4b7b-ab43-048d9daf1b63",
+    "name": "Intelligence Analysis",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Intelligence Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "incident-triage",
+    "databaseId": "9f923c26-e274-4f9b-ac7f-4643c43272dd",
+    "name": "Incident Triage",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Incident Triage supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "incident-containment",
+    "databaseId": "6b360e61-3b3c-49d4-aeda-fbdb4427681a",
+    "name": "Incident Containment",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Incident Containment supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "incident-eradication",
+    "databaseId": "4e10287c-3743-4ed7-acc9-cedeffdc19d2",
+    "name": "Incident Eradication",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Incident Eradication supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "incident-recovery",
+    "databaseId": "1d4b4b4e-e5bb-4c5a-ad41-25c3aa0d3aac",
+    "name": "Incident Recovery",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Incident Recovery supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "digital-forensics",
+    "databaseId": "18e02988-f162-4ad2-a0e7-be79c245891e",
+    "name": "Digital Forensics",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Digital Forensics supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "disk-imaging",
+    "databaseId": "c600ec1a-54c0-4ff4-a8d1-92dfc3a3aa24",
+    "name": "Disk Imaging",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Disk Imaging supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "memory-forensics",
+    "databaseId": "bb632dcf-3a4a-4193-a617-8370ac0a26b2",
+    "name": "Memory Forensics",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Memory Forensics supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "volatility",
+    "databaseId": "80b408ef-89dd-41c2-abf4-b9b8692347a8",
+    "name": "Volatility",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Volatility supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "autopsy",
+    "databaseId": "2a3a3616-c63f-4cec-a580-516397ed2e0a",
+    "name": "Autopsy",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Autopsy supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "chain-of-custody",
+    "databaseId": "9735a6e1-553a-414b-a8da-ae0bdaebd227",
+    "name": "Chain of Custody",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Chain of Custody supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "malware-analysis",
+    "databaseId": "910ca0bc-8220-4b5d-abdd-97882fdc0540",
+    "name": "Malware Analysis",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Malware Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "static-malware-analysis",
+    "databaseId": "9c8a8904-ea43-4d64-a243-bf00fbe7232c",
+    "name": "Static Malware Analysis",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Static Malware Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dynamic-malware-analysis",
+    "databaseId": "6d80e737-0d99-4efb-ac19-3f7d6dd06929",
+    "name": "Dynamic Malware Analysis",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Dynamic Malware Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ghidra",
+    "databaseId": "3034f650-d924-427c-aca3-e18e83e2b714",
+    "name": "Ghidra",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Ghidra supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ida-free",
+    "databaseId": "92965d58-07fa-4586-ad97-1dcb7a1e8746",
+    "name": "IDA Free",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "IDA Free supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "reverse-engineering",
+    "databaseId": "ae582a69-5b4e-4e6f-a5a6-2704213d0954",
+    "name": "Reverse Engineering",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Reverse Engineering supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sandboxing",
+    "databaseId": "3aaa4bd1-ceac-4ccf-a588-327938174ca4",
+    "name": "Sandboxing",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Sandboxing supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "packet-analysis",
+    "databaseId": "933bd3c9-6092-45ed-a73a-68661439e74f",
+    "name": "Packet Analysis",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Packet Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vulnerability-scanning",
+    "databaseId": "a4b24ca1-5cfb-4827-aad5-a039904438b6",
+    "name": "Vulnerability Scanning",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Vulnerability Scanning supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "nessus",
+    "databaseId": "19e8d779-3cbe-49d2-acd6-ac6e3cad5c78",
+    "name": "Nessus",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Nessus supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "openvas",
+    "databaseId": "fea70ac8-c7b9-4afe-a03f-c2a741547fdd",
+    "name": "OpenVAS",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "OpenVAS supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cvss",
+    "databaseId": "d4547fcb-bf24-48c5-a849-8d2ae883ca85",
+    "name": "CVSS",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CVSS supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vulnerability-prioritization",
+    "databaseId": "31cb4a2c-38ab-4ff3-a679-33951267382f",
+    "name": "Vulnerability Prioritization",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Vulnerability Prioritization supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "patch-verification",
+    "databaseId": "e73a78be-dfbc-4776-a873-109c63e5af2e",
+    "name": "Patch Verification",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Patch Verification supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-playbooks",
+    "databaseId": "472d25de-ffad-47e8-a022-0c16faa1681a",
+    "name": "Security Playbooks",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Playbooks supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "phishing-analysis",
+    "databaseId": "6fbb7eda-8e1c-49e8-aff9-1dd87dcb7b9a",
+    "name": "Phishing Analysis",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Phishing Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "email-security",
+    "databaseId": "59442e83-89e6-4cc4-af6a-bdf88af612cf",
+    "name": "Email Security",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Email Security supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ransomware-response",
+    "databaseId": "785378e0-938d-475b-adb4-cd734b60d5e2",
+    "name": "Ransomware Response",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Ransomware Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-metrics",
+    "databaseId": "92570ee0-14a3-4126-ac94-618bc821f6c0",
+    "name": "Security Metrics",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Metrics supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "comptia-securityplus-certification",
+    "databaseId": "0f2e0919-3d30-4780-af2e-1a9b46f523d1",
+    "name": "CompTIA Security+ Certification",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CompTIA Security+ Certification supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "giac-certification-preparation",
+    "databaseId": "5124fb5d-568b-477d-a61e-cc94fd53a238",
+    "name": "GIAC Certification Preparation",
+    "aliases": [],
+    "category": "security-operations",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "GIAC Certification Preparation supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "resources": [
+      {
+        "title": "security operations learning reference",
+        "url": "https://www.cisa.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-testing",
+    "databaseId": "9297357b-565b-4466-ac52-d29bd980f560",
+    "name": "Security Testing",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Testing supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "owasp-top-10",
+    "databaseId": "06b96603-e992-4f84-a898-29222e1990dd",
+    "name": "OWASP Top 10",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "OWASP Top 10 supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "owasp-asvs",
+    "databaseId": "1246d2f7-f45f-490c-a38a-557a5e4e2d71",
+    "name": "OWASP ASVS",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "OWASP ASVS supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "owasp-wstg",
+    "databaseId": "8651607e-4401-471b-a3b1-baf67ce8f380",
+    "name": "OWASP WSTG",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "OWASP WSTG supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "burp-suite",
+    "databaseId": "1d17d4cb-1486-438a-ade9-6ea42f6a04f9",
+    "name": "Burp Suite",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Burp Suite supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "owasp-zap",
+    "databaseId": "5bf26a9c-aa66-4624-a796-9f59aed497dc",
+    "name": "OWASP ZAP",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "OWASP ZAP supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "nmap",
+    "databaseId": "20c7d38e-43da-495a-ad51-2debf760a388",
+    "name": "Nmap",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Nmap supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "metasploit",
+    "databaseId": "f99b2283-5252-4b80-a46d-b2f895c75b3e",
+    "name": "Metasploit",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Metasploit supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "web-penetration-testing",
+    "databaseId": "5107b5b8-4c63-4ab4-a657-11f875492597",
+    "name": "Web Penetration Testing",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Web Penetration Testing supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "api-security-testing",
+    "databaseId": "97097fb4-eece-4fce-a887-aad91538f0b9",
+    "name": "API Security Testing",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "API Security Testing supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mobile-security-testing",
+    "databaseId": "c758c779-54f7-4309-a9bf-bbe7545a6950",
+    "name": "Mobile Security Testing",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Mobile Security Testing supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "authorization-testing",
+    "databaseId": "7806d62b-e3c5-435a-aa36-286f2a37f2d1",
+    "name": "Authorization Testing",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Authorization Testing supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sql-injection-prevention",
+    "databaseId": "fe39d186-2473-4b86-a176-6cd90d9244d8",
+    "name": "SQL Injection Prevention",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SQL Injection Prevention supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cross-site-scripting-prevention",
+    "databaseId": "8f4d6925-4a5b-43f5-a4c4-0204e2943ee9",
+    "name": "Cross-site Scripting Prevention",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Cross-site Scripting Prevention supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "csrf-prevention",
+    "databaseId": "83bc30b9-31c7-4c25-a49c-1fe437d18edb",
+    "name": "CSRF Prevention",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CSRF Prevention supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "server-side-request-forgery-prevention",
+    "databaseId": "2baf675f-6d40-43d7-a140-e35001cdefdf",
+    "name": "Server-side Request Forgery Prevention",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Server-side Request Forgery Prevention supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "secure-authentication",
+    "databaseId": "94170dfa-ab94-4099-a902-7e95bb4ffa64",
+    "name": "Secure Authentication",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Secure Authentication supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sast",
+    "databaseId": "54ec9eb6-23eb-4e54-af80-add35e89f564",
+    "name": "SAST",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SAST supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dast",
+    "databaseId": "c772bc0b-a119-48b5-af5a-2abae9082f59",
+    "name": "DAST",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "DAST supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "software-composition-analysis",
+    "databaseId": "bc2561c5-cd81-4a5c-a528-071a62cea703",
+    "name": "Software Composition Analysis",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Software Composition Analysis supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "secret-scanning",
+    "databaseId": "e59d7b79-6368-4fc5-a7db-cc16912c574c",
+    "name": "Secret Scanning",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Secret Scanning supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dependency-security",
+    "databaseId": "a520ef1e-f5e7-4922-a4e1-a2f284d56572",
+    "name": "Dependency Security",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Dependency Security supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "container-security",
+    "databaseId": "da278191-9de5-47d0-a773-25c3edd0983e",
+    "name": "Container Security",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Container Security supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-security",
+    "databaseId": "635efb08-34fd-4a3f-a6a5-21d7460beae0",
+    "name": "Kubernetes Security",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Kubernetes Security supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-security-posture-management",
+    "databaseId": "e21edebd-34ed-4d0c-aaab-ea0e8b614048",
+    "name": "Cloud Security Posture Management",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Cloud Security Posture Management supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "infrastructure-security-scanning",
+    "databaseId": "01dce8e7-3d87-4235-a988-23bf874dad28",
+    "name": "Infrastructure Security Scanning",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Infrastructure Security Scanning supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "policy-as-code",
+    "databaseId": "66a9a675-0609-4212-a51e-f82083310bd5",
+    "name": "Policy as Code",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Policy as Code supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "open-policy-agent",
+    "databaseId": "670fea4a-c2a2-4ff5-a417-39b17ca0569e",
+    "name": "Open Policy Agent",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Open Policy Agent supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "key-management",
+    "databaseId": "0dcc79f3-3140-4dd0-a741-b7fc27120917",
+    "name": "Key Management",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Key Management supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "secrets-management",
+    "databaseId": "bceaead3-2ae7-4047-a657-0dc8b07e9424",
+    "name": "Secrets Management",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Secrets Management supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hashicorp-vault",
+    "databaseId": "24a6d753-d175-4a99-a4af-fcba78163e8c",
+    "name": "HashiCorp Vault",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "HashiCorp Vault supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "public-key-infrastructure",
+    "databaseId": "03a1994b-5d61-4b84-a5a8-ff89d275f40f",
+    "name": "Public Key Infrastructure",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Public Key Infrastructure supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tls",
+    "databaseId": "937da2b4-f142-4fb3-a61d-e94350f7f65d",
+    "name": "TLS",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "TLS supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "certificate-management",
+    "databaseId": "caefcd07-a379-4cce-a3f3-8eb28f2e6dcb",
+    "name": "Certificate Management",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Certificate Management supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "zero-trust",
+    "databaseId": "a6b1fdc0-8140-4f8d-a2b3-b1ad60d1b5e4",
+    "name": "Zero Trust",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Zero Trust supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "privileged-access-management",
+    "databaseId": "fb6ef5c1-8d48-4603-acd8-56537e1ed9a8",
+    "name": "Privileged Access Management",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Privileged Access Management supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "saml",
+    "databaseId": "160ba857-542e-4902-aea6-df41b4561af8",
+    "name": "SAML",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SAML supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "openid-connect",
+    "databaseId": "3e922b27-63c5-4431-a4fa-619ac20d97fe",
+    "name": "OpenID Connect",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "OpenID Connect supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scim",
+    "databaseId": "02935e92-7f59-4d08-aaf3-10ca27242aaa",
+    "name": "SCIM",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SCIM supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "role-based-access-control",
+    "databaseId": "613c7dae-406e-4ec5-a346-07aff5b8871b",
+    "name": "Role-based Access Control",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Role-based Access Control supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "attribute-based-access-control",
+    "databaseId": "1671a688-5845-4628-a069-3d66ce46794c",
+    "name": "Attribute-based Access Control",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Attribute-based Access Control supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "access-reviews",
+    "databaseId": "f5ab81c3-7e5e-42d5-a9b8-0e9eef448eac",
+    "name": "Access Reviews",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Access Reviews supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "identity-governance",
+    "databaseId": "9e23beb4-55df-4e67-a464-acb39bf29285",
+    "name": "Identity Governance",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Identity Governance supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-architecture-reviews",
+    "databaseId": "e6cdb1a7-b1be-407e-a89a-6d6a81c9eaf6",
+    "name": "Security Architecture Reviews",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Architecture Reviews supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "secure-design-patterns",
+    "databaseId": "f965e0f3-91ad-47eb-a6f4-2d006fb16cad",
+    "name": "Secure Design Patterns",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Secure Design Patterns supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cryptographic-protocols",
+    "databaseId": "1a8ce2ae-f6f3-466a-a041-69ad120c5072",
+    "name": "Cryptographic Protocols",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Cryptographic Protocols supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "network-segmentation",
+    "databaseId": "3a56ec03-5cb5-4c7d-a03e-2c317aee0a91",
+    "name": "Network Segmentation",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Network Segmentation supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "attack-surface-management",
+    "databaseId": "5a989e24-b254-4145-af44-d9f6a76c5056",
+    "name": "Attack Surface Management",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Attack Surface Management supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "penetration-test-reporting",
+    "databaseId": "3272ab6a-e07c-4112-adaf-8d2af55907e3",
+    "name": "Penetration Test Reporting",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Penetration Test Reporting supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ceh-certification",
+    "databaseId": "12659574-2a81-4300-a4b1-1da16bcae567",
+    "name": "CEH Certification",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CEH Certification supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cissp-certification",
+    "databaseId": "48598e3e-2fbb-472c-a988-74e520ebd852",
+    "name": "CISSP Certification",
+    "aliases": [],
+    "category": "security-engineering",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CISSP Certification supports the practical knowledge needed to design and verify secure systems.",
+    "resources": [
+      {
+        "title": "security engineering learning reference",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-assessment",
+    "databaseId": "0255e4d5-c291-48be-a21c-5a5edf301c4c",
+    "name": "Risk Assessment",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Risk Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "policy-writing",
+    "databaseId": "0c966e1c-954e-4bf5-ac2b-55626ece51f0",
+    "name": "Policy Writing",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Policy Writing supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "control-testing",
+    "databaseId": "e9d341f2-acd2-4169-a4d4-c4885660882b",
+    "name": "Control Testing",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Control Testing supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "privacy-principles",
+    "databaseId": "c3ff99f9-1dfd-4235-ae0d-d3d037f90c34",
+    "name": "Privacy Principles",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Privacy Principles supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "governance-risk-and-compliance",
+    "databaseId": "aae48ba7-b58c-4f25-a67a-292ac569a3af",
+    "name": "Governance Risk and Compliance",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Governance Risk and Compliance supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "nist-cybersecurity-framework",
+    "databaseId": "aa47a93c-7d06-4799-a57d-577ccc8022bc",
+    "name": "NIST Cybersecurity Framework",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "NIST Cybersecurity Framework supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "iso-27001",
+    "databaseId": "3bfde07a-0f4d-4cb9-abd5-6d610ec21b65",
+    "name": "ISO 27001",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "ISO 27001 supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "iso-27002",
+    "databaseId": "28c728d3-ae23-494b-a428-7428e53834b9",
+    "name": "ISO 27002",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "ISO 27002 supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "soc-2",
+    "databaseId": "2f7f4111-bdc5-4896-a8ef-64f93c99e258",
+    "name": "SOC 2",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SOC 2 supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "control-mapping",
+    "databaseId": "36bf3d2e-b5c3-4df1-aad4-2e213f394686",
+    "name": "Control Mapping",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Control Mapping supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-registers",
+    "databaseId": "3a724a8f-0563-4b06-a107-38cb715b7687",
+    "name": "Risk Registers",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Risk Registers supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-treatment",
+    "databaseId": "6d13005d-b118-4be8-af0f-e78c4eb18483",
+    "name": "Risk Treatment",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Risk Treatment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-policies",
+    "databaseId": "257e0d56-34e8-44c7-a0cb-98461ab50e01",
+    "name": "Security Policies",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Policies supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "business-continuity-planning",
+    "databaseId": "11b2e940-c1e4-40ae-a6fb-40f50645f473",
+    "name": "Business Continuity Planning",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Business Continuity Planning supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "business-impact-analysis",
+    "databaseId": "b58e1396-9fa1-4d98-a984-9d93118cae66",
+    "name": "Business Impact Analysis",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Business Impact Analysis supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "audit-evidence",
+    "databaseId": "11949693-6841-4003-ab31-19f565d2c362",
+    "name": "Audit Evidence",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Audit Evidence supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "audit-readiness",
+    "databaseId": "45859841-8259-4ba6-aab0-37847ecfb766",
+    "name": "Audit Readiness",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Audit Readiness supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "third-party-risk-management",
+    "databaseId": "28f6c4b8-1dc1-45a6-a52d-b9c5f8cbafad",
+    "name": "Third-party Risk Management",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Third-party Risk Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vendor-security-assessment",
+    "databaseId": "a91116ee-c006-4fe2-a1de-ec64c343449a",
+    "name": "Vendor Security Assessment",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Vendor Security Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-questionnaires",
+    "databaseId": "cc637d1d-817e-4475-a91c-eefa53f8771e",
+    "name": "Security Questionnaires",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Questionnaires supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-protection-impact-assessment",
+    "databaseId": "cc0493af-c90c-4bab-aa3f-f40c042f99bf",
+    "name": "Data Protection Impact Assessment",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Protection Impact Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "privacy-by-design",
+    "databaseId": "13ec20ab-d8aa-48fa-a83d-946fd186a249",
+    "name": "Privacy by Design",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Privacy by Design supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-minimization",
+    "databaseId": "39b2cebe-b331-4ecc-ade6-8056374e8f20",
+    "name": "Data Minimization",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Minimization supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "consent-management",
+    "databaseId": "38252f93-02b5-4665-ad78-b8e9605494c0",
+    "name": "Consent Management",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Consent Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-subject-rights",
+    "databaseId": "d51cd232-afd9-4f41-a49a-05d98fe4a4eb",
+    "name": "Data Subject Rights",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Subject Rights supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "records-of-processing",
+    "databaseId": "1949cea3-91f8-4336-a1b2-1133e0f18ba7",
+    "name": "Records of Processing",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Records of Processing supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-transfer-assessment",
+    "databaseId": "706f294f-b0f8-4dd8-a4cd-fa6d8e3bc918",
+    "name": "Data Transfer Assessment",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Transfer Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "privacy-notices",
+    "databaseId": "15564b2a-bece-464e-ad92-4fcd9206e766",
+    "name": "Privacy Notices",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Privacy Notices supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-discovery",
+    "databaseId": "669cfb7c-17ae-4643-a0af-5d2d8911ebaf",
+    "name": "Data Discovery",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Discovery supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-loss-prevention",
+    "databaseId": "6aaac870-3622-48ec-a42e-67b8671dfd13",
+    "name": "Data Loss Prevention",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Loss Prevention supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "retention-schedules",
+    "databaseId": "237d0909-6b6a-47df-a598-291a452b194e",
+    "name": "Retention Schedules",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Retention Schedules supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "privacy-threat-modeling",
+    "databaseId": "6327f788-2adb-4b57-a0de-6a26d2055270",
+    "name": "Privacy Threat Modeling",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Privacy Threat Modeling supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pseudonymization",
+    "databaseId": "54cbefd2-65a9-4d4a-a524-f80254e8135a",
+    "name": "Pseudonymization",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Pseudonymization supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "anonymization",
+    "databaseId": "5e1ca0ec-fd9c-4e54-a466-f08251ca929b",
+    "name": "Anonymization",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Anonymization supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-awareness-training",
+    "databaseId": "5d8794f7-4393-42d3-a1c1-985f4860abd4",
+    "name": "Security Awareness Training",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Awareness Training supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "compliance-monitoring",
+    "databaseId": "c106b710-cf5b-42a6-a941-0ea85c6476c6",
+    "name": "Compliance Monitoring",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Compliance Monitoring supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "regulatory-change-management",
+    "databaseId": "770a7c56-7ea2-445f-acf6-17728a1a7622",
+    "name": "Regulatory Change Management",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Regulatory Change Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "exception-management",
+    "databaseId": "61d5ac80-2673-4372-a98a-f28fee95c4e9",
+    "name": "Exception Management",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Exception Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "risk-reporting",
+    "databaseId": "b4d702ed-85a1-4d02-aa77-fcdd231f4477",
+    "name": "Risk Reporting",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Risk Reporting supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "board-risk-communication",
+    "databaseId": "d5851170-fd9a-42c2-a9aa-33e2cd0ceae8",
+    "name": "Board Risk Communication",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Board Risk Communication supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "information-security-management-systems",
+    "databaseId": "5739b013-ba34-476c-af49-742eb3da716c",
+    "name": "Information Security Management Systems",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Information Security Management Systems supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "security-control-design",
+    "databaseId": "c31b4ec6-9de5-4f6b-aaa5-e2ddd0cace21",
+    "name": "Security Control Design",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Security Control Design supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "privacy-engineering",
+    "databaseId": "7303e697-0013-41f8-a3e4-a2ad66fed9e2",
+    "name": "Privacy Engineering",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Privacy Engineering supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cisa-certification",
+    "databaseId": "e6ab4d4a-1ebe-4d71-a8ee-12a14855b23d",
+    "name": "CISA Certification",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CISA Certification supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cism-certification",
+    "databaseId": "ebb57575-8edf-44a1-a277-8877881bcf3e",
+    "name": "CISM Certification",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CISM Certification supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "crisc-certification",
+    "databaseId": "db8f6caf-2870-42db-a74f-aeaac430d1a7",
+    "name": "CRISC Certification",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "CRISC Certification supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "iso-27001-auditor-preparation",
+    "databaseId": "e06c08d5-4e97-48d6-a8f8-6c8d1d47c0eb",
+    "name": "ISO 27001 Auditor Preparation",
+    "aliases": [],
+    "category": "governance",
+    "domains": ["cybersecurity"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "ISO 27001 Auditor Preparation supports the practical knowledge needed to translate risk and privacy obligations into controls.",
+    "resources": [
+      {
+        "title": "governance learning reference",
+        "url": "https://www.nist.gov/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OWASP learning resources",
+        "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  }
+]

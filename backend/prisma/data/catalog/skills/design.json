@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "user-research",
+    "databaseId": "1f42b31e-2d74-4237-a1c5-0da6ea49b506",
+    "name": "User Research",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "User Research supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "wireframing",
+    "databaseId": "12dbc5b3-7db0-4f46-a85f-440b5a4193e1",
+    "name": "Wireframing",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Wireframing supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "prototyping",
+    "databaseId": "a27833b2-daa6-4d9e-acbf-6e79b6f72897",
+    "name": "Prototyping",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Prototyping supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "usability-testing",
+    "databaseId": "ef8c2215-8f84-4d07-a63c-61b3ab1ee4e4",
+    "name": "Usability Testing",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Usability Testing supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "figma",
+    "databaseId": "00000000-0000-4000-8000-000000000025",
+    "name": "Figma",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": ["sketch", "adobe-xd"],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Figma supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "sketch",
+    "databaseId": "5f86bad2-80b0-4c22-a9c3-7d177916fdbd",
+    "name": "Sketch",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sketch supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "adobe-xd",
+    "databaseId": "d15402e7-bb6e-4aac-a45d-02322b4d18ae",
+    "name": "Adobe XD",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Adobe XD supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "figjam",
+    "databaseId": "e8e61405-2c17-4c23-a51f-ec5e85be1e59",
+    "name": "FigJam",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "FigJam supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "miro",
+    "databaseId": "dca022d0-e1ed-423a-a854-e041eed43e49",
+    "name": "Miro",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Miro supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-thinking",
+    "databaseId": "d6109704-e302-422f-a796-e6aac71590ee",
+    "name": "Design Thinking",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Thinking supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "double-diamond",
+    "databaseId": "5dd13d03-1bec-4557-a5ac-a192a3fb60a7",
+    "name": "Double Diamond",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Double Diamond supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "user-interviews",
+    "databaseId": "5c162ca2-0487-4a18-a1f8-1fcc81167131",
+    "name": "User Interviews",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "User Interviews supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "contextual-inquiry",
+    "databaseId": "9c1b6a13-b2e9-4c01-ad6e-cebe47439285",
+    "name": "Contextual Inquiry",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Contextual Inquiry supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "diary-studies",
+    "databaseId": "da5834f4-28c9-45ba-a576-ff5aeba7e0ef",
+    "name": "Diary Studies",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Diary Studies supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "card-sorting",
+    "databaseId": "d8549927-d4bc-4305-adcc-60b24326c6c4",
+    "name": "Card Sorting",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Card Sorting supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "tree-testing",
+    "databaseId": "772fcdd0-9c83-4b4d-ab56-6789315215ac",
+    "name": "Tree Testing",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Tree Testing supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "heuristic-evaluation",
+    "databaseId": "bdd34e50-d163-48ba-aa18-ff7d25361aaf",
+    "name": "Heuristic Evaluation",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Heuristic Evaluation supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "user-personas",
+    "databaseId": "e6390550-9de5-418f-a0a0-2df6e1177dfa",
+    "name": "User Personas",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "User Personas supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "jobs-to-be-done",
+    "databaseId": "feb3115d-42ce-4439-a6c6-bebbd537c9d2",
+    "name": "Jobs to Be Done",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Jobs to Be Done supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "journey-mapping",
+    "databaseId": "c182620e-8ebd-4824-a528-ac12627a6f68",
+    "name": "Journey Mapping",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Journey Mapping supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "service-blueprints",
+    "databaseId": "80d99cd8-1660-485f-a95f-3f88315c3f18",
+    "name": "Service Blueprints",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Service Blueprints supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "affinity-mapping",
+    "databaseId": "e2116969-4238-4625-a78e-c43791ebd0a3",
+    "name": "Affinity Mapping",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Affinity Mapping supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "research-synthesis",
+    "databaseId": "d580c0ff-6bb7-49d7-a3af-2c20d93bbda0",
+    "name": "Research Synthesis",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Research Synthesis supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "research-recruitment",
+    "databaseId": "285d4087-6e2a-4913-adca-ebdc77670981",
+    "name": "Research Recruitment",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Research Recruitment supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "research-consent",
+    "databaseId": "477518ac-66fb-44cf-a4c1-b41eafc89bd6",
+    "name": "Research Consent",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Research Consent supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "research-repositories",
+    "databaseId": "903ba846-590d-401e-aa6b-3392933ecbac",
+    "name": "Research Repositories",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Research Repositories supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "interaction-design",
+    "databaseId": "2d9f9654-e065-4bd9-aba9-63a89f49c3b1",
+    "name": "Interaction Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Interaction Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "ui-design",
+    "databaseId": "00000000-0000-4000-8000-000000000026",
+    "name": "UI Design",
+    "aliases": ["ui", "userinterface"],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "UI Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "visual-hierarchy",
+    "databaseId": "343200dc-fb91-4632-a748-9cf9ea2e6301",
+    "name": "Visual Hierarchy",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Visual Hierarchy supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "layout-design",
+    "databaseId": "89768ff3-4450-449f-a305-6d2cae186f11",
+    "name": "Layout Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Layout Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "responsive-prototyping",
+    "databaseId": "4958410c-af26-4417-a37f-d9029e48413c",
+    "name": "Responsive Prototyping",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Responsive Prototyping supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-systems",
+    "databaseId": "4aa13199-050f-41a1-ae08-2ac67b41bbaa",
+    "name": "Design Systems",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Systems supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-tokens",
+    "databaseId": "366e65f3-dab6-4011-af3e-a6552c97d9e8",
+    "name": "Design Tokens",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Tokens supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "component-libraries",
+    "databaseId": "729a65ed-c7fa-408a-ac4a-605a63a868b3",
+    "name": "Component Libraries",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Component Libraries supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-documentation",
+    "databaseId": "f32abf6e-ed0f-4689-acd4-8853d4f0ee38",
+    "name": "Design Documentation",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Documentation supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "inclusive-design",
+    "databaseId": "d6761967-a293-4016-a8f3-a996b7800617",
+    "name": "Inclusive Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Inclusive Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "accessible-design",
+    "databaseId": "b13d0db1-5c22-45e3-a306-e1b365f10abb",
+    "name": "Accessible Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Accessible Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "ux-writing",
+    "databaseId": "b9d5efa6-9398-4759-a9d3-6b78a6a5b21b",
+    "name": "UX Writing",
+    "aliases": ["ux copy"],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "UX Writing supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "microcopy",
+    "databaseId": "c781c69d-ef2d-40ac-a5fa-b5b1d318cf98",
+    "name": "Microcopy",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Microcopy supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "content-design",
+    "databaseId": "d39f6329-0ded-4b98-afd8-5be0f7590b52",
+    "name": "Content Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Content Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "content-modeling",
+    "databaseId": "5383bea7-3291-491b-a8ba-6acb00f1745e",
+    "name": "Content Modeling",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Content Modeling supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "error-message-design",
+    "databaseId": "a74dbdaf-b6b5-49a2-a5a4-bb4f0d37ec6a",
+    "name": "Error Message Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Error Message Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "navigation-design",
+    "databaseId": "83fd9e54-49c2-447b-a276-2a6c7b76857b",
+    "name": "Navigation Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Navigation Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "form-design",
+    "databaseId": "122192a8-7cf4-4cc3-abde-773c18ea4d50",
+    "name": "Form Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Form Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "onboarding-design",
+    "databaseId": "beea69dd-b985-4391-a6ff-8840137721d9",
+    "name": "Onboarding Design",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Onboarding Design supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-critique",
+    "databaseId": "8ede5324-37da-41f7-a792-d91a6cb78628",
+    "name": "Design Critique",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Critique supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-handoff",
+    "databaseId": "780c909f-bf6f-44ea-a867-772127a5aa5f",
+    "name": "Design Handoff",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Handoff supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-qa",
+    "databaseId": "95b57317-9af0-408b-a23c-0516a0414cbc",
+    "name": "Design QA",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design QA supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "product-discovery-research",
+    "databaseId": "ee80c91c-c041-4176-aa24-24536bf31b4e",
+    "name": "Product Discovery Research",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Discovery Research supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "quantitative-ux-research",
+    "databaseId": "9e457b9f-c458-48ec-ad8d-eb9e56a93101",
+    "name": "Quantitative UX Research",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Quantitative UX Research supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "mixed-methods-research",
+    "databaseId": "00a6266a-05d2-4535-ad6b-c572d79931e1",
+    "name": "Mixed Methods Research",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Mixed Methods Research supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "usability-metrics",
+    "databaseId": "98648a9e-0cc0-4c81-aec8-13896c29e926",
+    "name": "Usability Metrics",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Usability Metrics supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "sus",
+    "databaseId": "1dbd74d0-3f85-4e90-adf9-403e7f50e171",
+    "name": "SUS",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "SUS supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "research-operations",
+    "databaseId": "54c1ac2d-b574-4de2-a31a-c5d76311dc31",
+    "name": "Research Operations",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Research Operations supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "ux-strategy",
+    "databaseId": "aad7d6af-5f5d-4fcc-ad68-883f7aab375d",
+    "name": "UX Strategy",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "UX Strategy supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-facilitation",
+    "databaseId": "2de750a9-1b5f-4e58-aa8f-edaf5065e348",
+    "name": "Design Facilitation",
+    "aliases": [],
+    "category": "experience-design",
+    "domains": ["design"],
+    "type": "soft",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Facilitation supports the practical knowledge needed to research and design useful experiences.",
+    "resources": [
+      {
+        "title": "experience design learning reference",
+        "url": "https://www.nngroup.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "composition",
+    "databaseId": "316a1ae9-ca1f-45f7-ae9b-e78f07517898",
+    "name": "Composition",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design", "creative"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Composition supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "color-theory",
+    "databaseId": "4c0330d9-5e02-47af-a719-7c3951dac9cc",
+    "name": "Color Theory",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design", "creative"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Color Theory supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "typography",
+    "databaseId": "aaf37389-1e7c-42e8-ad57-a006d8783911",
+    "name": "Typography",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Typography supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "visual-communication",
+    "databaseId": "f5d9f677-8d63-4ae9-a059-8d0a0f974d09",
+    "name": "Visual Communication",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "soft",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "medium",
+    "trending": false,
+    "description": "Visual Communication supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "adobe-photoshop",
+    "databaseId": "79f9cfbc-ae48-4c20-abb3-5cc6d7317de3",
+    "name": "Adobe Photoshop",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Adobe Photoshop supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "adobe-illustrator",
+    "databaseId": "b970a3a6-e6f9-48f8-afc1-1b26122b377e",
+    "name": "Adobe Illustrator",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Adobe Illustrator supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "adobe-indesign",
+    "databaseId": "0b6cd2d1-e34e-46dd-a3c2-137af1f64559",
+    "name": "Adobe InDesign",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Adobe InDesign supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "affinity-designer",
+    "databaseId": "727725d3-c9f0-4bbc-a1af-60d0889b2757",
+    "name": "Affinity Designer",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Affinity Designer supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "affinity-publisher",
+    "databaseId": "ba263343-4a51-42eb-a4ba-444c3a533c87",
+    "name": "Affinity Publisher",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Affinity Publisher supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "canva",
+    "databaseId": "096095d6-2cfe-4173-a412-446df6879605",
+    "name": "Canva",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Canva supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "brand-strategy",
+    "databaseId": "4f225546-ac19-4151-a187-4dae629a0f39",
+    "name": "Brand Strategy",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Brand Strategy supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "brand-identity",
+    "databaseId": "9241c08c-8a4d-493f-ab17-3929a1989a65",
+    "name": "Brand Identity",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Brand Identity supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "logo-design",
+    "databaseId": "8ea308eb-120e-4504-a74d-b1cdca2be7c1",
+    "name": "Logo Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Logo Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "brand-guidelines",
+    "databaseId": "2809d220-eb0a-4e04-a39b-f5132c71cecd",
+    "name": "Brand Guidelines",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Brand Guidelines supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "art-direction",
+    "databaseId": "e5148c6f-62c7-4d0b-a404-c039adb2c9ac",
+    "name": "Art Direction",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design", "creative"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Art Direction supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "creative-briefs",
+    "databaseId": "c1242651-d087-4ecb-a5d8-080998f66dce",
+    "name": "Creative Briefs",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Creative Briefs supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "grid-systems",
+    "databaseId": "38e45a00-194a-474b-a0b7-e556fda752fc",
+    "name": "Grid Systems",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Grid Systems supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "editorial-design",
+    "databaseId": "d8c077db-4c2c-4e65-a84d-f747e487450b",
+    "name": "Editorial Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Editorial Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "print-production",
+    "databaseId": "a69a4006-0b13-4705-a26b-74588194c358",
+    "name": "Print Production",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Print Production supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "prepress",
+    "databaseId": "1e430367-41d5-48dc-af59-90a43709e540",
+    "name": "Prepress",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Prepress supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "color-management",
+    "databaseId": "558f7ffa-bfaf-4ac6-a5d2-637b1d5e7cac",
+    "name": "Color Management",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Color Management supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "cmyk-workflows",
+    "databaseId": "fd936871-0910-4234-a847-9360ca287a6b",
+    "name": "CMYK Workflows",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "CMYK Workflows supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "rgb-workflows",
+    "databaseId": "11e73ac1-0aca-4352-af86-7184aae644d9",
+    "name": "RGB Workflows",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "RGB Workflows supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "vector-illustration",
+    "databaseId": "42a24b7f-40a9-4aec-a49f-601cd1b1ac1d",
+    "name": "Vector Illustration",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Vector Illustration supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "icon-design",
+    "databaseId": "6cdee121-5fb6-4b57-a0e8-f46276ff3591",
+    "name": "Icon Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Icon Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "infographics",
+    "databaseId": "9af2adff-8f7f-4385-a6bc-536ead4241fb",
+    "name": "Infographics",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Infographics supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "presentation-design",
+    "databaseId": "632e6de9-8dc6-402e-a21c-8aeeae93c857",
+    "name": "Presentation Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Presentation Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "data-driven-slides",
+    "databaseId": "2e560e4f-5512-4b2c-aaed-420f5181b2ce",
+    "name": "Data-driven Slides",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Data-driven Slides supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "slide-master-design",
+    "databaseId": "27473cde-5db1-45c3-a169-2acc766b67ed",
+    "name": "Slide Master Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Slide Master Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "storyboarding",
+    "databaseId": "ef7d70a3-bd9c-415b-a15d-088d62fe28c3",
+    "name": "Storyboarding",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design", "creative"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Storyboarding supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "motion-design",
+    "databaseId": "ce96dfe5-067d-48e7-af61-9cc42cbd1626",
+    "name": "Motion Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Motion Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "adobe-after-effects",
+    "databaseId": "dca8a550-4e67-4e49-a1c3-ea999ba94866",
+    "name": "Adobe After Effects",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Adobe After Effects supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "cinema-4d",
+    "databaseId": "b55aaf83-6ce9-4afe-ad11-6f80921f927e",
+    "name": "Cinema 4D",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Cinema 4D supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "blender",
+    "databaseId": "358990c3-7f96-4093-abdc-baec5413ec12",
+    "name": "Blender",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Blender supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "3d-modeling",
+    "databaseId": "082b0ea4-4711-44a2-a99b-1061dbab96ff",
+    "name": "3D Modeling",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "3D Modeling supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "product-rendering",
+    "databaseId": "7bdfa0e6-755c-49af-a282-716326a71cad",
+    "name": "Product Rendering",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Product Rendering supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "cad",
+    "databaseId": "52696e1f-a029-4da7-a387-ba71f91407e2",
+    "name": "CAD",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "CAD supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "fusion-360",
+    "databaseId": "451b7e79-5573-42e7-a7c4-7fa85e1536f7",
+    "name": "Fusion 360",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Fusion 360 supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "solidworks",
+    "databaseId": "c8d551ff-9b52-4b2c-a580-6f9ef6cf8701",
+    "name": "SolidWorks",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "SolidWorks supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "industrial-design",
+    "databaseId": "b74dadd3-d16d-4829-a778-4bafbcc2f97d",
+    "name": "Industrial Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Industrial Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "ergonomics",
+    "databaseId": "d54a32eb-2b5a-4879-a31b-934711c9a61f",
+    "name": "Ergonomics",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Ergonomics supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-for-manufacturing",
+    "databaseId": "a44295b0-3402-4459-a8f3-3a68394c9672",
+    "name": "Design for Manufacturing",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design for Manufacturing supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "packaging-dielines",
+    "databaseId": "8a706495-4ff5-40ba-a25a-a2a88ccabfc7",
+    "name": "Packaging Dielines",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Packaging Dielines supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "packaging-materials",
+    "databaseId": "36c51562-1d2c-433c-aa5a-44ab7f3c4f8a",
+    "name": "Packaging Materials",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Packaging Materials supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "sustainable-packaging",
+    "databaseId": "0791fc87-1336-48e5-abd9-61275f58499a",
+    "name": "Sustainable Packaging",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Sustainable Packaging supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "typeface-design",
+    "databaseId": "84c63cc8-1add-4e01-ac82-f6bbc0404e5b",
+    "name": "Typeface Design",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Typeface Design supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "font-licensing",
+    "databaseId": "dbce54f2-1670-4dfe-aab8-a2f55215c89b",
+    "name": "Font Licensing",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Font Licensing supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "lettering",
+    "databaseId": "a4f9e475-7556-4f39-a6e8-802321cde758",
+    "name": "Lettering",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Lettering supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "illustration",
+    "databaseId": "81bda76c-473c-4a1c-a255-caac23f0a0af",
+    "name": "Illustration",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Illustration supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "digital-painting",
+    "databaseId": "ba1a8a69-ec23-42d3-a288-ff68c53de1b5",
+    "name": "Digital Painting",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Digital Painting supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "concept-sketching",
+    "databaseId": "1375937c-141f-4ba1-a6ac-6485fb5bb044",
+    "name": "Concept Sketching",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Concept Sketching supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "visual-storytelling",
+    "databaseId": "adde134e-6476-44e6-a4d4-a52662906996",
+    "name": "Visual Storytelling",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Visual Storytelling supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "design-portfolio-curation",
+    "databaseId": "56fc4975-2552-4ff1-aa33-61c004418178",
+    "name": "Design Portfolio Curation",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Design Portfolio Curation supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "creative-project-management",
+    "databaseId": "e351ac58-a529-4d5c-ae6b-363867643829",
+    "name": "Creative Project Management",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Creative Project Management supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "client-design-presentations",
+    "databaseId": "911cf73f-d63a-4357-a351-3757d623222b",
+    "name": "Client Design Presentations",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Client Design Presentations supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  },
+  {
+    "id": "print-accessibility",
+    "databaseId": "784a02f9-27bb-4592-abc6-8d76e6623558",
+    "name": "Print Accessibility",
+    "aliases": [],
+    "category": "visual-design",
+    "domains": ["design"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "medium",
+    "trending": false,
+    "description": "Print Accessibility supports the practical knowledge needed to communicate ideas through visual systems.",
+    "resources": [
+      {
+        "title": "visual design learning reference",
+        "url": "https://www.adobe.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Interaction Design Foundation",
+        "url": "https://www.interaction-design.org/",
+        "type": "course",
+        "free": false
+      }
+    ]
+  }
+]

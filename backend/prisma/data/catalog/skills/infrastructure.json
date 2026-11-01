@@ -1,0 +1,5252 @@
+[
+  {
+    "id": "cloud-computing",
+    "databaseId": "45f11336-ff46-4538-a3f3-465ce0ff53a2",
+    "name": "Cloud Computing",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Computing supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "networking",
+    "databaseId": "c122aa23-7f82-498c-ab85-c6831c99109e",
+    "name": "Networking",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure", "cybersecurity"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Networking supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "linux",
+    "databaseId": "00000000-0000-4000-8000-000000000023",
+    "name": "Linux",
+    "aliases": ["bash", "shell"],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Linux supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "identity-and-access-management",
+    "databaseId": "a8e8e35f-3bf2-4c44-a589-fee631e21bef",
+    "name": "Identity and Access Management",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Identity and Access Management supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws",
+    "databaseId": "e30073a1-865e-4ab7-a9ba-a2682ab6be1e",
+    "name": "AWS",
+    "aliases": ["amazon web services"],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": ["microsoft-azure", "google-cloud"],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "microsoft-azure",
+    "databaseId": "3176f2f1-a2fb-45b5-ab80-acd886fb4ccb",
+    "name": "Microsoft Azure",
+    "aliases": ["azure"],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": ["aws", "google-cloud"],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Microsoft Azure supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "google-cloud",
+    "databaseId": "4a0655b1-dce8-4cf2-ad83-e6c59b22b3f7",
+    "name": "Google Cloud",
+    "aliases": ["gcp", "google cloud platform"],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Google Cloud supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-ec2",
+    "databaseId": "bb6ffe3c-a45a-4415-adef-a76462218e70",
+    "name": "AWS EC2",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["aws"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS EC2 supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-s3",
+    "databaseId": "579fe1df-8aa8-4b1b-a610-5f28d66acb0b",
+    "name": "AWS S3",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS S3 supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-lambda",
+    "databaseId": "468c2a42-aa63-42ae-adcd-062f1946615a",
+    "name": "AWS Lambda",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["aws"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS Lambda supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-vpc",
+    "databaseId": "378ab645-fa2b-4337-a418-21f5db1f756c",
+    "name": "AWS VPC",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS VPC supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-iam",
+    "databaseId": "d23e0974-7e55-4fa6-a8fe-4e53501d932b",
+    "name": "AWS IAM",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS IAM supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-rds",
+    "databaseId": "21c7d007-4fcc-4f8f-abce-62e418ab0b32",
+    "name": "AWS RDS",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS RDS supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-cloudformation",
+    "databaseId": "09895f20-e12e-4132-a567-c3eb2eb114e6",
+    "name": "AWS CloudFormation",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS CloudFormation supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-cloudwatch",
+    "databaseId": "2938072d-6da2-403e-ac7f-ac715ee64a93",
+    "name": "AWS CloudWatch",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS CloudWatch supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-ecs",
+    "databaseId": "e3326be2-adcd-4373-a415-aebce6ee289c",
+    "name": "AWS ECS",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS ECS supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-eks",
+    "databaseId": "2278faf7-b483-4fd4-ab03-79eb80013379",
+    "name": "AWS EKS",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["aws", "kubernetes"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS EKS supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-route-53",
+    "databaseId": "a25055dd-e1e6-49bc-af24-343d08d43aae",
+    "name": "AWS Route 53",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS Route 53 supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-cloudfront",
+    "databaseId": "528095b0-daf0-462e-a3f1-1c31ab4dbc37",
+    "name": "AWS CloudFront",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS CloudFront supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-organizations",
+    "databaseId": "2d69bfd2-60b2-4819-a795-7b07df2eccc4",
+    "name": "AWS Organizations",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS Organizations supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-virtual-machines",
+    "databaseId": "436591ad-21c0-4af5-a05d-e2a3277bd7af",
+    "name": "Azure Virtual Machines",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Virtual Machines supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-storage",
+    "databaseId": "3657133f-2b5d-4b42-af9b-c3c432a53049",
+    "name": "Azure Storage",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Storage supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-functions",
+    "databaseId": "b364dedb-e2cf-4020-a616-7737e1c12058",
+    "name": "Azure Functions",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Functions supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-virtual-network",
+    "databaseId": "9084b818-6603-49a9-a593-a1fbdf4b80cc",
+    "name": "Azure Virtual Network",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Virtual Network supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-entra-id",
+    "databaseId": "b84bf7a5-d39b-43b6-aed2-cadec1cb7ded",
+    "name": "Azure Entra ID",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Entra ID supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-sql",
+    "databaseId": "b3366029-39eb-4e53-a1f2-726e50bb270e",
+    "name": "Azure SQL",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure SQL supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-monitor",
+    "databaseId": "6de7b4b9-6a65-42f4-af2c-fb290e655ad5",
+    "name": "Azure Monitor",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Monitor supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-app-service",
+    "databaseId": "c52e636b-a841-4446-a724-b1414ffe83b7",
+    "name": "Azure App Service",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure App Service supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-aks",
+    "databaseId": "1e9bd12d-06e8-4f4c-a5ac-3e1b25ac0ea5",
+    "name": "Azure AKS",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["microsoft-azure", "kubernetes"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure AKS supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-resource-manager",
+    "databaseId": "d3ad033a-f872-4d59-a119-9d5916303ee1",
+    "name": "Azure Resource Manager",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Resource Manager supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-bicep",
+    "databaseId": "c7c94499-8b14-4468-a648-34d2f718a4de",
+    "name": "Azure Bicep",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Bicep supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gcp-compute-engine",
+    "databaseId": "4090ea28-bd59-470b-a01e-154cf49db990",
+    "name": "GCP Compute Engine",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GCP Compute Engine supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "google-cloud-storage",
+    "databaseId": "c73ba7ae-ce25-4469-a0c3-35db370d4c89",
+    "name": "Google Cloud Storage",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Google Cloud Storage supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "google-cloud-run",
+    "databaseId": "66a3f6ec-0cf9-4f07-a159-1f7b5a4fce0c",
+    "name": "Google Cloud Run",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Google Cloud Run supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gcp-cloud-functions",
+    "databaseId": "e18b8d3e-6973-49a2-ade7-7683d70b800c",
+    "name": "GCP Cloud Functions",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GCP Cloud Functions supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gcp-vpc",
+    "databaseId": "190209a0-d314-489e-ac1d-127ad83bc306",
+    "name": "GCP VPC",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GCP VPC supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gcp-iam",
+    "databaseId": "ca610ced-6126-4688-a261-43b9c410ab40",
+    "name": "GCP IAM",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GCP IAM supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gcp-cloud-sql",
+    "databaseId": "7212e508-7dde-4510-a79f-53890f97c32e",
+    "name": "GCP Cloud SQL",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GCP Cloud SQL supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gcp-gke",
+    "databaseId": "93366ec2-26df-4181-a917-729cf6eee98b",
+    "name": "GCP GKE",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["google-cloud", "kubernetes"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GCP GKE supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gcp-cloud-monitoring",
+    "databaseId": "adeccc75-43d7-4f3d-a2ef-75bd7a07b7be",
+    "name": "GCP Cloud Monitoring",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GCP Cloud Monitoring supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-networking",
+    "databaseId": "7baf3885-fb57-4a8d-a102-da57eb575646",
+    "name": "Cloud Networking",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Networking supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-migration",
+    "databaseId": "e354b921-c478-4fc5-a45e-f482147c58cd",
+    "name": "Cloud Migration",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Migration supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-landing-zones",
+    "databaseId": "9685a0eb-2f82-4cb7-adc8-29fd0d72bad9",
+    "name": "Cloud Landing Zones",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Landing Zones supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-disaster-recovery",
+    "databaseId": "5fbbc980-188e-4629-a54e-251a4076b6a6",
+    "name": "Cloud Disaster Recovery",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Disaster Recovery supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "multi-cloud-architecture",
+    "databaseId": "b0203e9e-da33-41ce-a65a-18f9262b1e4c",
+    "name": "Multi-cloud Architecture",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Multi-cloud Architecture supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-capacity-planning",
+    "databaseId": "6f71b66e-7b94-465a-a263-41b4c8e71ded",
+    "name": "Cloud Capacity Planning",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Capacity Planning supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-cost-allocation",
+    "databaseId": "475de06a-08e8-4f26-ae8c-1080cbb39360",
+    "name": "Cloud Cost Allocation",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Cost Allocation supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-tagging",
+    "databaseId": "9d163bf9-1b15-4511-ad01-de26f69ee08d",
+    "name": "Cloud Tagging",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Tagging supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-service-quotas",
+    "databaseId": "84b0510c-9f61-40e0-a69e-63493e190e94",
+    "name": "Cloud Service Quotas",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Service Quotas supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "shared-responsibility-model",
+    "databaseId": "c885e2cf-eacc-4a25-a310-92dd3a251d6c",
+    "name": "Shared Responsibility Model",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Shared Responsibility Model supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-resilience",
+    "databaseId": "61c10c14-e010-4889-ab06-563969c14f07",
+    "name": "Cloud Resilience",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Resilience supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-well-architected-reviews",
+    "databaseId": "58eeb998-bd53-48da-a21b-22d0e5ce5dce",
+    "name": "Cloud Well-Architected Reviews",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Well-Architected Reviews supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "serverless-architecture",
+    "databaseId": "7252cf97-4289-447d-acd6-d495980cd939",
+    "name": "Serverless Architecture",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Serverless Architecture supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-data-transfer",
+    "databaseId": "984f73af-5016-4466-af5b-22fcc1e78b31",
+    "name": "Cloud Data Transfer",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Data Transfer supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-backup",
+    "databaseId": "55ae828d-1a57-4307-afeb-ab2785406b70",
+    "name": "Cloud Backup",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Backup supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-infrastructure-security",
+    "databaseId": "84e4f505-c3bd-41bc-a436-3d055620cc9a",
+    "name": "Cloud Infrastructure Security",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Infrastructure Security supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "aws-solutions-architect-certification",
+    "databaseId": "a5e960ef-6d0d-417c-ac22-70c14cf3e16b",
+    "name": "AWS Solutions Architect Certification",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "AWS Solutions Architect Certification supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "azure-administrator-certification",
+    "databaseId": "58e1f83d-917b-4e54-a544-78f562b754c2",
+    "name": "Azure Administrator Certification",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Azure Administrator Certification supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "google-cloud-associate-cloud-engineer",
+    "databaseId": "66ec90d3-d7ab-43ca-a544-2d847b22c67d",
+    "name": "Google Cloud Associate Cloud Engineer",
+    "aliases": [],
+    "category": "cloud-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Google Cloud Associate Cloud Engineer supports the practical knowledge needed to operate scalable cloud infrastructure.",
+    "resources": [
+      {
+        "title": "cloud platforms learning reference",
+        "url": "https://learn.microsoft.com/training/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ci-cd",
+    "databaseId": "00000000-0000-4000-8000-000000000024",
+    "name": "CI/CD",
+    "aliases": ["continuousintegration", "continuousdelivery", "cicd"],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "CI/CD supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "infrastructure-as-code",
+    "databaseId": "e291c90b-cc05-4e61-a397-4e90a82830ad",
+    "name": "Infrastructure as Code",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Infrastructure as Code supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "docker",
+    "databaseId": "00000000-0000-4000-8000-000000000022",
+    "name": "Docker",
+    "aliases": ["containers", "containerization"],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Docker supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "databaseId": "16139929-397c-414b-ac9f-f1868fb45d03",
+    "name": "Kubernetes",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["docker", "networking"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "terraform",
+    "databaseId": "ffae42d0-86c6-4e11-a3f1-87f99518574b",
+    "name": "Terraform",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["infrastructure-as-code"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Terraform supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ansible",
+    "databaseId": "053b43aa-084f-4a35-a933-46f3af494300",
+    "name": "Ansible",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["linux"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Ansible supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pulumi",
+    "databaseId": "6dca46ac-1c20-4e9c-ac78-9ac036095151",
+    "name": "Pulumi",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Pulumi supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "opentofu",
+    "databaseId": "615d0cb1-ba49-4f62-a5aa-5f7cfbc52797",
+    "name": "OpenTofu",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "OpenTofu supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "packer",
+    "databaseId": "276e1ad1-0c4a-4405-a885-f4a06f5b18b4",
+    "name": "Packer",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Packer supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vagrant",
+    "databaseId": "fd823749-db0c-4ef2-ae60-f94552b5b165",
+    "name": "Vagrant",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Vagrant supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "helm",
+    "databaseId": "76004036-6cc7-4e57-a26d-7fe4ccd19b3a",
+    "name": "Helm",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["kubernetes"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Helm supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kustomize",
+    "databaseId": "a4d2995a-a167-4528-a27a-d916c612941a",
+    "name": "Kustomize",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kustomize supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "argo-cd",
+    "databaseId": "c52d85d1-47b0-4f3f-a20f-b8fcd1811fcd",
+    "name": "Argo CD",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Argo CD supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "flux",
+    "databaseId": "cacf5f45-e233-4554-a091-37dc1a702f22",
+    "name": "Flux",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Flux supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "jenkins",
+    "databaseId": "923fee96-fd2e-46b1-aeeb-f7027f145859",
+    "name": "Jenkins",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Jenkins supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "github-actions",
+    "databaseId": "cc189cbb-6c1c-4503-ab70-1c59be2181b8",
+    "name": "GitHub Actions",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["git", "ci-cd"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GitHub Actions supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gitlab-ci",
+    "databaseId": "86ce0ef3-b7c7-4f39-a59c-1ec7c18b9c78",
+    "name": "GitLab CI",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GitLab CI supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "circleci",
+    "databaseId": "3479c091-6b71-4ab8-a464-851a3182d7c6",
+    "name": "CircleCI",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "CircleCI supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "buildkite",
+    "databaseId": "ad9c9a8e-05a5-4381-ab88-b635ac7d1720",
+    "name": "Buildkite",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Buildkite supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tekton",
+    "databaseId": "ab8447fe-b3cb-4d4b-ac21-917fd5ff3ec6",
+    "name": "Tekton",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Tekton supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "container-registries",
+    "databaseId": "3655aa7c-ce3a-4fe8-a01b-5e268b20c883",
+    "name": "Container Registries",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Container Registries supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "container-image-hardening",
+    "databaseId": "61bf4ab1-784d-4325-a71d-88ec4d81a589",
+    "name": "Container Image Hardening",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Container Image Hardening supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-networking",
+    "databaseId": "b616e57a-0a10-47fb-ac27-c21b361d28b0",
+    "name": "Kubernetes Networking",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes Networking supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-rbac",
+    "databaseId": "2e334a34-911c-48a9-ab39-9766e613465f",
+    "name": "Kubernetes RBAC",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes RBAC supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-storage",
+    "databaseId": "95f54a57-1301-4d7d-ae64-567fdc56b716",
+    "name": "Kubernetes Storage",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes Storage supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-operators",
+    "databaseId": "62155a28-8dd9-4ee0-a8f0-8f7c1d787367",
+    "name": "Kubernetes Operators",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["kubernetes"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes Operators supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-autoscaling",
+    "databaseId": "1414f9bb-a92a-4b0c-a0a6-cf61c8270d4e",
+    "name": "Kubernetes Autoscaling",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "tool",
+    "level": "intermediate",
+    "prerequisites": ["kubernetes"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes Autoscaling supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "service-mesh",
+    "databaseId": "6e128075-987b-46cd-ae92-cab6dd9daae7",
+    "name": "Service Mesh",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Service Mesh supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "istio",
+    "databaseId": "7c1f10aa-8570-419a-acd2-36441afec701",
+    "name": "Istio",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Istio supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "linkerd",
+    "databaseId": "c5cdaf84-9610-45ad-a177-78ab9af8eae3",
+    "name": "Linkerd",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Linkerd supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "prometheus",
+    "databaseId": "5def672c-536c-48c3-aac4-60a114dd8a38",
+    "name": "Prometheus",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Prometheus supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "grafana",
+    "databaseId": "13364a5b-5e4c-4839-a7aa-8c0cd093c9f7",
+    "name": "Grafana",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Grafana supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "opentelemetry",
+    "databaseId": "a56764ee-8973-4f97-a057-875f6657a949",
+    "name": "OpenTelemetry",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "OpenTelemetry supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "jaeger",
+    "databaseId": "676dfbfa-a41c-4e59-a857-f2586e3dfd97",
+    "name": "Jaeger",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Jaeger supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "zipkin",
+    "databaseId": "8d3cc631-e5c3-4bc3-a978-aaffc2d9dd5d",
+    "name": "Zipkin",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Zipkin supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "loki",
+    "databaseId": "a29386d2-1985-4515-ab7e-525a38c00827",
+    "name": "Loki",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Loki supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "elastic-stack",
+    "databaseId": "2d994c02-d981-48d5-a927-365e0f7e7ba3",
+    "name": "Elastic Stack",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Elastic Stack supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "datadog",
+    "databaseId": "2102d82d-bf58-42c6-a700-e38380861733",
+    "name": "Datadog",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Datadog supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "distributed-tracing",
+    "databaseId": "07f4d6ac-f1e7-4b0a-a5c7-5cb13d0f5e9d",
+    "name": "Distributed Tracing",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Distributed Tracing supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "service-level-indicators",
+    "databaseId": "3153b560-6b3a-4998-a0e7-b12c7f20cfdc",
+    "name": "Service Level Indicators",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Service Level Indicators supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "service-level-objectives",
+    "databaseId": "0f856871-3b6a-4a63-ab67-6d7dc1501834",
+    "name": "Service Level Objectives",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Service Level Objectives supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "error-budgets",
+    "databaseId": "8ba1273c-0b96-4a51-ad00-ac60efac1b4a",
+    "name": "Error Budgets",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Error Budgets supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "incident-management",
+    "databaseId": "27783509-8711-4b37-a682-0fbae7ef200b",
+    "name": "Incident Management",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Incident Management supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "postmortems",
+    "databaseId": "97733904-ab16-43d8-a038-7635599f5c56",
+    "name": "Postmortems",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Postmortems supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "chaos-engineering",
+    "databaseId": "0f007e73-c5e7-4fc0-aea4-25ef37c9ed3d",
+    "name": "Chaos Engineering",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Chaos Engineering supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gitops",
+    "databaseId": "146c6f91-fe24-49f1-a833-0365039ac8e8",
+    "name": "GitOps",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "GitOps supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "blue-green-deployment",
+    "databaseId": "c196e0fb-a2d4-4e40-a70e-3a4660c01bf9",
+    "name": "Blue-green Deployment",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Blue-green Deployment supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "canary-releases",
+    "databaseId": "82adafc5-d2b1-4367-a672-5ee018d69057",
+    "name": "Canary Releases",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Canary Releases supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "deployment-rollbacks",
+    "databaseId": "61f99cb6-436b-46e6-ad6e-24adfe11d30d",
+    "name": "Deployment Rollbacks",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Deployment Rollbacks supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "build-reproducibility",
+    "databaseId": "d98381d1-504c-4519-aae9-101294047269",
+    "name": "Build Reproducibility",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Build Reproducibility supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "software-bill-of-materials",
+    "databaseId": "d7d04fdd-4ac7-4aed-a4bc-81cca710f22c",
+    "name": "Software Bill of Materials",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Software Bill of Materials supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "artifact-management",
+    "databaseId": "18c39045-99db-4fa2-a8de-31612d08703e",
+    "name": "Artifact Management",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Artifact Management supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "finops",
+    "databaseId": "375a6b02-e006-4b25-a1ee-1d18ba7e1be8",
+    "name": "FinOps",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "FinOps supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "reserved-capacity-planning",
+    "databaseId": "f3467003-131d-4cf1-aedc-ba32ec93354b",
+    "name": "Reserved Capacity Planning",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Reserved Capacity Planning supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cloud-cost-forecasting",
+    "databaseId": "7c781f16-a0b5-47ff-af5b-b626eb2bb0f7",
+    "name": "Cloud Cost Forecasting",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cloud Cost Forecasting supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "unit-economics",
+    "databaseId": "e28aa153-85e5-4205-a97f-81b4215fd266",
+    "name": "Unit Economics",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Unit Economics supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-cka-certification",
+    "databaseId": "7e127b3c-7261-41f0-a6fe-19f503f09360",
+    "name": "Kubernetes CKA Certification",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes CKA Certification supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubernetes-ckad-certification",
+    "databaseId": "4ef3d7a4-9662-403a-aff6-9136fe1ff72a",
+    "name": "Kubernetes CKAD Certification",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Kubernetes CKAD Certification supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "terraform-associate-certification",
+    "databaseId": "8c0d0a75-9a3a-40fa-aeaa-8e88ca7edcbc",
+    "name": "Terraform Associate Certification",
+    "aliases": [],
+    "category": "delivery-platforms",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Terraform Associate Certification supports the practical knowledge needed to automate safe and reliable software delivery.",
+    "resources": [
+      {
+        "title": "delivery platforms learning reference",
+        "url": "https://kubernetes.io/docs/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "troubleshooting",
+    "databaseId": "84f4def8-bae8-4639-a75d-f321c8b22ca9",
+    "name": "Troubleshooting",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Troubleshooting supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "technical-support",
+    "databaseId": "ae824fcb-d714-4bd6-a038-8ccb214680b5",
+    "name": "Technical Support",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": false,
+    "description": "Technical Support supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bash",
+    "databaseId": "a11231ac-60d4-4826-ad26-7b77b7a09239",
+    "name": "Bash",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Bash supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "powershell",
+    "databaseId": "8dd8edc9-4bf1-4cae-a597-da8039328722",
+    "name": "PowerShell",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "PowerShell supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "windows-server",
+    "databaseId": "f1abd7da-a2d6-4673-a03b-2c123a823e0a",
+    "name": "Windows Server",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Windows Server supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "active-directory",
+    "databaseId": "60df4270-dabb-46e5-a56f-8cb3dbb4a201",
+    "name": "Active Directory",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Active Directory supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "group-policy",
+    "databaseId": "dd137014-d5fe-4762-ad45-85073b49598d",
+    "name": "Group Policy",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Group Policy supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dns",
+    "databaseId": "4c1d912a-dbdf-43ed-a3a3-eadede59b5cc",
+    "name": "DNS",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "DNS supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dhcp",
+    "databaseId": "9e24de89-550a-4b0d-a208-6aed5e3fc855",
+    "name": "DHCP",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "DHCP supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tcp-ip",
+    "databaseId": "cadeca65-9c08-465a-a254-e2553626355a",
+    "name": "TCP/IP",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "TCP/IP supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "routing",
+    "databaseId": "645fb5db-b7d3-4064-af8c-523571d3ba5d",
+    "name": "Routing",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Routing supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "switching",
+    "databaseId": "3d427a65-b269-4ac3-a6fb-5ffffbe89711",
+    "name": "Switching",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Switching supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vlans",
+    "databaseId": "a88f2d0a-61f7-4066-a14c-bb824c6d9ea3",
+    "name": "VLANs",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "VLANs supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vpn",
+    "databaseId": "866cf3bd-30b3-41db-aa50-0b85f89c4a13",
+    "name": "VPN",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "VPN supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bgp",
+    "databaseId": "f195564c-3ed0-4336-a6ae-ef7b7357cbc7",
+    "name": "BGP",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "BGP supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ospf",
+    "databaseId": "ad5b4dee-ee03-4be3-a9a9-cbf28fe8cf37",
+    "name": "OSPF",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "OSPF supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ipv6",
+    "databaseId": "33ee6b77-9a0c-470e-a456-1a929ce5009e",
+    "name": "IPv6",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "IPv6 supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "network-address-translation",
+    "databaseId": "b4c839f7-bbcc-4150-aaea-8241b16b36ce",
+    "name": "Network Address Translation",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Network Address Translation supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "firewalls",
+    "databaseId": "5363ee0e-0498-4419-ad9e-2685c305e4f5",
+    "name": "Firewalls",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Firewalls supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "wi-fi-administration",
+    "databaseId": "4248291f-7895-431f-a585-aa821f67c108",
+    "name": "Wi-Fi Administration",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Wi-Fi Administration supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "network-monitoring",
+    "databaseId": "d3c0f13b-722d-4252-a5e7-7024678449f5",
+    "name": "Network Monitoring",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Network Monitoring supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "wireshark",
+    "databaseId": "e306e84a-0f6e-45b2-a415-78a7600dd727",
+    "name": "Wireshark",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Wireshark supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tcpdump",
+    "databaseId": "0a6d42d2-c938-4486-a89e-05123de165e6",
+    "name": "tcpdump",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "tcpdump supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "snmp",
+    "databaseId": "e741a3bb-ada2-4f2d-ac55-09cab95b384c",
+    "name": "SNMP",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "SNMP supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "network-automation",
+    "databaseId": "b0305d74-035e-4d5d-a028-065fd23ba2fa",
+    "name": "Network Automation",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Network Automation supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cisco-ios",
+    "databaseId": "16965ed0-b9a1-4882-a50e-54a696f2fba0",
+    "name": "Cisco IOS",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Cisco IOS supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "juniper-junos",
+    "databaseId": "450d5d4a-387e-4d56-a5cf-44652f7c05bd",
+    "name": "Juniper Junos",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Juniper Junos supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vmware-vsphere",
+    "databaseId": "392c02f7-7beb-4264-aed0-9f862ab834c7",
+    "name": "VMware vSphere",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "VMware vSphere supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hyper-v",
+    "databaseId": "7679e94c-498a-4b58-a868-a2b92fed38ce",
+    "name": "Hyper-V",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Hyper-V supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kvm",
+    "databaseId": "1943f757-10d7-44c5-ab72-e5ddc5f5d226",
+    "name": "KVM",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "KVM supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "proxmox",
+    "databaseId": "e8c7c418-d859-4d52-a596-9307d4bec4b0",
+    "name": "Proxmox",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Proxmox supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "virtual-machine-migration",
+    "databaseId": "efe8e9d0-60f2-40cb-a55f-67ff62c16f36",
+    "name": "Virtual Machine Migration",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Virtual Machine Migration supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "san",
+    "databaseId": "87f3b245-94e2-4742-ac4c-0e610bde993c",
+    "name": "SAN",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "SAN supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "nas",
+    "databaseId": "cfd8d8ea-e7c5-41bf-a534-e211e82d9933",
+    "name": "NAS",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "NAS supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "raid",
+    "databaseId": "c6b4cc43-8d18-45a1-a1ad-0273acdd2eb6",
+    "name": "RAID",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "RAID supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "storage-provisioning",
+    "databaseId": "45a84f0e-a209-43da-a22f-535308102f00",
+    "name": "Storage Provisioning",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Storage Provisioning supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "backup-strategy",
+    "databaseId": "124c91e9-da65-4ea0-a524-74aba1f6c302",
+    "name": "Backup Strategy",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Backup Strategy supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "recovery-point-objectives",
+    "databaseId": "5c000585-79c2-46aa-a56d-6e12366429ca",
+    "name": "Recovery Point Objectives",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Recovery Point Objectives supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "recovery-time-objectives",
+    "databaseId": "3c2f9329-6ed9-47f3-ae23-d9992f235054",
+    "name": "Recovery Time Objectives",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Recovery Time Objectives supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "disaster-recovery-testing",
+    "databaseId": "3aecac73-299b-468b-a446-14fd36aa7955",
+    "name": "Disaster Recovery Testing",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Disaster Recovery Testing supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "patch-management",
+    "databaseId": "bf55d7c5-e580-4afd-a4ad-f82fdbadb259",
+    "name": "Patch Management",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Patch Management supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "endpoint-management",
+    "databaseId": "abb04408-a210-434c-a97f-bae405cb2ab2",
+    "name": "Endpoint Management",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Endpoint Management supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "microsoft-intune",
+    "databaseId": "7a67cedd-2b3d-4f5e-a243-c3cbd6b13b95",
+    "name": "Microsoft Intune",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Microsoft Intune supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sccm",
+    "databaseId": "4e39af05-7641-497b-a51b-43b9f9385603",
+    "name": "SCCM",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "SCCM supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "remote-desktop-support",
+    "databaseId": "8c173294-68da-4f1c-a379-fe7708cc6993",
+    "name": "Remote Desktop Support",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Remote Desktop Support supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ticket-triage",
+    "databaseId": "965033c6-d41c-4e59-aba1-2685064af744",
+    "name": "Ticket Triage",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Ticket Triage supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "service-desk-knowledge-bases",
+    "databaseId": "f1f3b280-4918-4f71-af24-f2e5586e1185",
+    "name": "Service Desk Knowledge Bases",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Service Desk Knowledge Bases supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "it-asset-management",
+    "databaseId": "bfb6899e-d870-4ff7-ab7b-124c8cddd3d5",
+    "name": "IT Asset Management",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "IT Asset Management supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "itil",
+    "databaseId": "63c2ae41-9df7-4733-a2c4-06b1fb4b5d7c",
+    "name": "ITIL",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "ITIL supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "print-services",
+    "databaseId": "7912330c-eb1c-408c-a8c2-3191b09ee8c3",
+    "name": "Print Services",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Print Services supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "email-administration",
+    "databaseId": "28e86738-db02-4992-ab2e-107e7e9a80eb",
+    "name": "Email Administration",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Email Administration supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "microsoft-365-administration",
+    "databaseId": "64fe40cc-73fe-49bd-a4fa-44f80941ff62",
+    "name": "Microsoft 365 Administration",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Microsoft 365 Administration supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "google-workspace-administration",
+    "databaseId": "e910918f-1661-4cf5-a426-4bc3820d1328",
+    "name": "Google Workspace Administration",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Google Workspace Administration supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hardware-diagnostics",
+    "databaseId": "e8c4b43f-2e5b-4533-ae33-358cb0d2e747",
+    "name": "Hardware Diagnostics",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "Hardware Diagnostics supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ccna-certification",
+    "databaseId": "8285c358-dca6-4812-abc7-9a1f766e1d39",
+    "name": "CCNA Certification",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "CCNA Certification supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "comptia-aplus-certification",
+    "databaseId": "5bcd0571-bd33-4928-a790-0222a9b2b513",
+    "name": "CompTIA A+ Certification",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "CompTIA A+ Certification supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "comptia-networkplus-certification",
+    "databaseId": "5a114f04-4fb1-4c1c-a8c3-cd25f9ce5a8d",
+    "name": "CompTIA Network+ Certification",
+    "aliases": [],
+    "category": "it-operations",
+    "domains": ["infrastructure"],
+    "type": "certification",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": false,
+    "description": "CompTIA Network+ Certification supports the practical knowledge needed to maintain dependable networks and user systems.",
+    "resources": [
+      {
+        "title": "it operations learning reference",
+        "url": "https://learn.microsoft.com/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "AWS Skill Builder",
+        "url": "https://skillbuilder.aws/",
+        "type": "course",
+        "free": true
+      }
+    ]
+  }
+]

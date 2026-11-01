@@ -2,7 +2,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { catalogSkillSchema, catalogRoleSchema } from '../backend/src/catalog/catalog.schemas.js';
 import { validateCatalog } from '../backend/src/catalog/catalog.validation.js';
 
-const root = new URL('../backend/src/catalog/data/', import.meta.url);
+const root = new URL('../backend/prisma/data/catalog/', import.meta.url);
 const read = (domain: string) =>
   readdirSync(new URL(domain, root))
     .filter((file) => file.endsWith('.json'))

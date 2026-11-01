@@ -1,0 +1,5072 @@
+[
+  {
+    "id": "machine-learning-fundamentals",
+    "databaseId": "427c1be1-2e03-42cc-ad4c-4eba67bb3b87",
+    "name": "Machine Learning Fundamentals",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Machine Learning Fundamentals supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-evaluation",
+    "databaseId": "e60a78cd-bb05-43b7-ad95-54b4f64375c2",
+    "name": "Model Evaluation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Evaluation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "responsible-ai",
+    "databaseId": "e402556f-9e6f-40e9-a476-5fdb7825c8d9",
+    "name": "Responsible AI",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Responsible AI supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "prompt-engineering",
+    "databaseId": "b777b092-1a3c-4469-af60-9b9946eb6984",
+    "name": "Prompt Engineering",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Prompt Engineering supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "in-context-learning",
+    "databaseId": "397b8dbb-27ff-4fad-ad51-6dff33bb2e5c",
+    "name": "In-context Learning",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "In-context Learning supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "few-shot-prompting",
+    "databaseId": "a50d215a-815f-4a05-a897-d9ebc1f3059c",
+    "name": "Few-shot Prompting",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Few-shot Prompting supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "structured-generation",
+    "databaseId": "4a5d169f-e1c7-4ddc-a9d3-096647868251",
+    "name": "Structured Generation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Structured Generation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tool-calling",
+    "databaseId": "67c2c438-c715-43b8-aa94-de308769df7a",
+    "name": "Tool Calling",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Tool Calling supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-agents",
+    "databaseId": "02a189ea-99e0-4928-a7c4-f95b22561e96",
+    "name": "AI Agents",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Agents supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "multi-agent-orchestration",
+    "databaseId": "a8d9e921-0dd0-40ac-a22a-8b2c61ee7fbe",
+    "name": "Multi-agent Orchestration",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Multi-agent Orchestration supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "retrieval-augmented-generation",
+    "databaseId": "b5f2b97b-e2b2-4e37-a785-7bb6188eb762",
+    "name": "Retrieval-augmented Generation",
+    "aliases": ["rag"],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["embeddings", "vector-search"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Retrieval-augmented Generation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "embeddings",
+    "databaseId": "eae83a9d-b107-4ed4-a04e-1f3e2bd200f7",
+    "name": "Embeddings",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Embeddings supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "vector-search",
+    "databaseId": "b4ec43e3-d70c-43ee-a0d3-56a30378fd35",
+    "name": "Vector Search",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["embeddings"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Vector Search supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hybrid-search",
+    "databaseId": "88c1385c-36a7-4187-acfd-b7eaccb4e78d",
+    "name": "Hybrid Search",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Hybrid Search supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "reranking",
+    "databaseId": "63a710e2-83ee-4dfc-ada8-1da73a5865e0",
+    "name": "Reranking",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Reranking supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "chunking-strategies",
+    "databaseId": "86530a10-c4e8-4b41-a2ec-6114988a39ed",
+    "name": "Chunking Strategies",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Chunking Strategies supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "retrieval-evaluation",
+    "databaseId": "ef47ba35-960c-447c-a3aa-682b36b93569",
+    "name": "Retrieval Evaluation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Retrieval Evaluation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "grounded-generation",
+    "databaseId": "92163264-c3b2-4222-af1b-f5de7da0b2c5",
+    "name": "Grounded Generation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Grounded Generation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hallucination-evaluation",
+    "databaseId": "90904287-2f17-4a9e-a991-46e8256a5139",
+    "name": "Hallucination Evaluation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Hallucination Evaluation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "prompt-injection-defense",
+    "databaseId": "a7bf5f5a-0420-4d5a-ae61-e1fee04ffc84",
+    "name": "Prompt Injection Defense",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Prompt Injection Defense supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "llm-guardrails",
+    "databaseId": "8cf7d345-a79b-4c49-ac2c-44f5482e6eca",
+    "name": "LLM Guardrails",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LLM Guardrails supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "llm-observability",
+    "databaseId": "bb40a4ee-8fcf-48bd-ae11-f32f3c28f885",
+    "name": "LLM Observability",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LLM Observability supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "llm-caching",
+    "databaseId": "7185bc55-5b84-4ffb-ab55-5dceaf0f4daf",
+    "name": "LLM Caching",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LLM Caching supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "token-budgeting",
+    "databaseId": "5303ec3a-7fb7-4b45-ae8b-af4d49cdf7bb",
+    "name": "Token Budgeting",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Token Budgeting supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-routing",
+    "databaseId": "79216659-48e9-4b1e-a4e4-db2bd15d39dc",
+    "name": "Model Routing",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Routing supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "langchain",
+    "databaseId": "03e29b28-792c-48d4-a8ac-e210c519eccc",
+    "name": "LangChain",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LangChain supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "llamaindex",
+    "databaseId": "201b131a-004b-4f37-afe4-a48a744bd51b",
+    "name": "LlamaIndex",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LlamaIndex supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "langgraph",
+    "databaseId": "b32810de-70dd-4c70-aa0e-e2d1d8d62d94",
+    "name": "LangGraph",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LangGraph supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "semantic-kernel",
+    "databaseId": "06ea13d5-20b7-45d7-ad45-8d0c188ea638",
+    "name": "Semantic Kernel",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Semantic Kernel supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dspy",
+    "databaseId": "0a54bba2-9286-4864-a533-7a906abeb742",
+    "name": "DSPy",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "DSPy supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hugging-face-transformers",
+    "databaseId": "6c14c434-3cf7-4c9b-ae46-3926de9bbf28",
+    "name": "Hugging Face Transformers",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["python", "transformers"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Hugging Face Transformers supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "sentence-transformers",
+    "databaseId": "c698ed2e-e917-4b2f-a1fc-dd14e352754e",
+    "name": "Sentence Transformers",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Sentence Transformers supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "faiss",
+    "databaseId": "682f28d3-c4f2-464e-aab2-7537a14a891b",
+    "name": "FAISS",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "FAISS supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "chroma",
+    "databaseId": "51dc74a4-25cb-404a-a8c0-141c10c0bbbe",
+    "name": "Chroma",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Chroma supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "qdrant",
+    "databaseId": "e24691d5-38a3-4cb2-aa88-35f81a467675",
+    "name": "Qdrant",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Qdrant supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "milvus",
+    "databaseId": "525d5bef-17f9-461e-abbd-12bf19412136",
+    "name": "Milvus",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Milvus supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "weaviate",
+    "databaseId": "75b1aa91-d437-40aa-a1b4-560afc5c099e",
+    "name": "Weaviate",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Weaviate supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pgvector",
+    "databaseId": "1ea62559-9c5a-4544-ae4a-6bbed0208703",
+    "name": "pgvector",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "pgvector supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pinecone",
+    "databaseId": "0deda684-605d-4694-ad4d-27d290b5344b",
+    "name": "Pinecone",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Pinecone supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "llm-fine-tuning",
+    "databaseId": "0f5da4a1-7c21-49f4-abdc-b466c3f4f671",
+    "name": "LLM Fine-tuning",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["pytorch"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LLM Fine-tuning supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "lora",
+    "databaseId": "bec7edad-a250-412a-a1f5-8e30ffffb590",
+    "name": "LoRA",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["llm-fine-tuning"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LoRA supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "qlora",
+    "databaseId": "3d66c022-0256-44be-a827-01b54e9c6a81",
+    "name": "QLoRA",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["lora"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "QLoRA supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "instruction-tuning",
+    "databaseId": "c827d85a-6a9d-43a8-ac44-d98c5a452e8a",
+    "name": "Instruction Tuning",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Instruction Tuning supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "preference-optimization",
+    "databaseId": "37b6bfd3-b432-41ef-ae30-848c63bc7278",
+    "name": "Preference Optimization",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Preference Optimization supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "synthetic-data-generation",
+    "databaseId": "191544dc-ee57-4cf5-adf4-cd4968fa7cc9",
+    "name": "Synthetic Data Generation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Synthetic Data Generation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "human-in-the-loop-ai",
+    "databaseId": "1f260dd7-b820-4390-a441-5f9d5daa40ec",
+    "name": "Human-in-the-loop AI",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Human-in-the-loop AI supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "conversation-design",
+    "databaseId": "c322d450-5477-49b8-a6ae-855322b2ad68",
+    "name": "Conversation Design",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Conversation Design supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dialogue-state-tracking",
+    "databaseId": "24633366-c344-4b5c-a586-52d469855c53",
+    "name": "Dialogue State Tracking",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Dialogue State Tracking supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "intent-classification",
+    "databaseId": "e9a748a3-11e8-4c29-ac7e-fac74e3d5f26",
+    "name": "Intent Classification",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Intent Classification supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-workflow-automation",
+    "databaseId": "31e7f997-1ed6-4390-a62e-eb9ae3d3c9f9",
+    "name": "AI Workflow Automation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Workflow Automation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "agent-evaluation",
+    "databaseId": "55d1510a-d1cb-4052-ae94-ec3a7267b12b",
+    "name": "Agent Evaluation",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Agent Evaluation supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "llm-cost-optimization",
+    "databaseId": "dda80eee-6da2-491f-a62e-d03562e80c76",
+    "name": "LLM Cost Optimization",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LLM Cost Optimization supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "multimodal-prompting",
+    "databaseId": "5d6ea8e8-9ad8-410a-ae23-26bb3bf7b231",
+    "name": "Multimodal Prompting",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Multimodal Prompting supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-red-teaming",
+    "databaseId": "8eebd897-e64a-45e3-ab51-504f92be8dca",
+    "name": "AI Red Teaming",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Red Teaming supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-context-protocol",
+    "databaseId": "4a76f6e5-18be-43c3-a4f9-9e3b39f10e3a",
+    "name": "Model Context Protocol",
+    "aliases": [],
+    "category": "applied-ai",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Context Protocol supports the practical knowledge needed to build and evaluate language-model applications.",
+    "resources": [
+      {
+        "title": "applied ai learning reference",
+        "url": "https://huggingface.co/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "linear-algebra",
+    "databaseId": "53a78c36-feb6-4be9-a04a-b16235e450a7",
+    "name": "Linear Algebra",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Linear Algebra supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "probability",
+    "databaseId": "c8cddd6f-f08f-4320-a118-cf1eef30408e",
+    "name": "Probability",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Probability supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "experimental-design",
+    "databaseId": "ebc4480f-088e-44d8-a7ff-5aa928caf316",
+    "name": "Experimental Design",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Experimental Design supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "supervised-learning",
+    "databaseId": "1a4e35ca-100b-4d28-a4ef-36aab95149d2",
+    "name": "Supervised Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Supervised Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "unsupervised-learning",
+    "databaseId": "2217c14f-02c7-4f86-a67c-052975ba50eb",
+    "name": "Unsupervised Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Unsupervised Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "regression",
+    "databaseId": "4ab46eee-3f15-4998-a41e-e84506c12e37",
+    "name": "Regression",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Regression supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "classification",
+    "databaseId": "7fac43b7-8207-4208-a99d-20c1fd8eafde",
+    "name": "Classification",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Classification supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "clustering",
+    "databaseId": "b19a9c6b-0d9e-4ebe-afeb-85c6306f2e16",
+    "name": "Clustering",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Clustering supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "decision-trees",
+    "databaseId": "65b488ef-537e-453b-a0d3-00fba24ad6f4",
+    "name": "Decision Trees",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Decision Trees supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "random-forests",
+    "databaseId": "ec64432e-40b1-4dfa-a719-4a1c8e466ef6",
+    "name": "Random Forests",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Random Forests supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gradient-boosting",
+    "databaseId": "2f73dfe6-e6e5-43f4-a0bc-0658da799286",
+    "name": "Gradient Boosting",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Gradient Boosting supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "xgboost",
+    "databaseId": "3ef89330-78f3-4d07-a029-fac2651a37ae",
+    "name": "XGBoost",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "XGBoost supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "lightgbm",
+    "databaseId": "a14d97b5-6393-46a8-aca6-331f17d247d0",
+    "name": "LightGBM",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LightGBM supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scikit-learn",
+    "databaseId": "02bbf370-a526-44c0-a459-905e4d2bda6c",
+    "name": "scikit-learn",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "scikit-learn supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "pytorch",
+    "databaseId": "94ae53f2-0961-4f55-ac82-863cdc4749cb",
+    "name": "PyTorch",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["python", "linear-algebra"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "PyTorch supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tensorflow",
+    "databaseId": "6af0e12b-7416-4d7c-a4b1-eb1f7a6ae39c",
+    "name": "TensorFlow",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["python"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "TensorFlow supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "jax",
+    "databaseId": "83a7b083-5703-486b-a11e-2e6b485ae4dd",
+    "name": "JAX",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "JAX supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "neural-networks",
+    "databaseId": "dc64c662-dacc-4c3a-a659-411bc31cb5a4",
+    "name": "Neural Networks",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["machine-learning-fundamentals", "linear-algebra"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Neural Networks supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "backpropagation",
+    "databaseId": "23c0c671-9928-4f39-a519-43b3ed9cc931",
+    "name": "Backpropagation",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Backpropagation supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "optimization-algorithms",
+    "databaseId": "10c0f7e2-482d-4d4a-a9ad-e1ab90cf2e64",
+    "name": "Optimization Algorithms",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Optimization Algorithms supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "regularization",
+    "databaseId": "9f8f9cc3-536c-462c-a341-8d21da2af52a",
+    "name": "Regularization",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Regularization supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "feature-engineering",
+    "databaseId": "2dd5bd27-3eac-4fdb-a923-b25bbd388f92",
+    "name": "Feature Engineering",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Feature Engineering supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "cross-validation",
+    "databaseId": "15e08417-d7c3-4276-a2d2-540c8de946c7",
+    "name": "Cross-validation",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Cross-validation supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "hyperparameter-optimization",
+    "databaseId": "c1b45f9f-3b43-479e-a2e2-ac79adb93d97",
+    "name": "Hyperparameter Optimization",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Hyperparameter Optimization supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bayesian-optimization",
+    "databaseId": "5bab4c2f-8425-49a3-a9ee-d3f9e9123ec3",
+    "name": "Bayesian Optimization",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Bayesian Optimization supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "transformers",
+    "databaseId": "e85a6b47-e060-4f8a-ad1d-c224de8f58b1",
+    "name": "Transformers",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["neural-networks"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Transformers supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "attention-mechanisms",
+    "databaseId": "6f312443-7fcc-471b-a8c3-fa0dba4e0dea",
+    "name": "Attention Mechanisms",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Attention Mechanisms supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "convolutional-neural-networks",
+    "databaseId": "6eaa05b3-c0bf-4014-a0f2-e0b3cffb2f8c",
+    "name": "Convolutional Neural Networks",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Convolutional Neural Networks supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "recurrent-neural-networks",
+    "databaseId": "aca9f195-28b3-4cab-a0de-bfbfdabe2be1",
+    "name": "Recurrent Neural Networks",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Recurrent Neural Networks supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "diffusion-models",
+    "databaseId": "3fff1a12-61cb-4cec-a95d-ceb282bf5ffd",
+    "name": "Diffusion Models",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Diffusion Models supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "generative-adversarial-networks",
+    "databaseId": "dadde8f8-b073-48ae-ac66-478647e0f51d",
+    "name": "Generative Adversarial Networks",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Generative Adversarial Networks supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "computer-vision",
+    "databaseId": "11f8b621-2aa0-461c-ade6-870a7273ccd4",
+    "name": "Computer Vision",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Computer Vision supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "image-classification",
+    "databaseId": "f212bb4e-2b2c-4a61-a995-c2497ed48188",
+    "name": "Image Classification",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Image Classification supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "object-detection",
+    "databaseId": "861a89bb-e6b9-4fa5-af3f-be13738371cf",
+    "name": "Object Detection",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Object Detection supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "image-segmentation",
+    "databaseId": "f8f67663-db10-4ac2-a900-e88addb77db9",
+    "name": "Image Segmentation",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Image Segmentation supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "optical-character-recognition",
+    "databaseId": "2548826d-d333-49e4-a224-7acde2710c09",
+    "name": "Optical Character Recognition",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Optical Character Recognition supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "natural-language-processing",
+    "databaseId": "145d0907-a5d4-4cc2-a5b4-75dce0aa27bb",
+    "name": "Natural Language Processing",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Natural Language Processing supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tokenization",
+    "databaseId": "ec1c8f80-dfb1-44b3-aa1c-58deb9db0561",
+    "name": "Tokenization",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Tokenization supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "named-entity-recognition",
+    "databaseId": "b6ec36e7-31ba-4468-af0e-7d0594a34a3f",
+    "name": "Named Entity Recognition",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Named Entity Recognition supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "text-classification",
+    "databaseId": "fc3e6a8b-1eb9-4970-afba-69faa76252d5",
+    "name": "Text Classification",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Text Classification supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "speech-recognition",
+    "databaseId": "b1f43b36-38a3-4788-a2b0-ebf32517aba4",
+    "name": "Speech Recognition",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Speech Recognition supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "audio-feature-extraction",
+    "databaseId": "8ac22aa8-80d3-4076-aa45-15b17368a895",
+    "name": "Audio Feature Extraction",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Audio Feature Extraction supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "text-to-speech-modeling",
+    "databaseId": "02e78459-3b87-4b88-a0ba-76654e7444e1",
+    "name": "Text-to-speech Modeling",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Text-to-speech Modeling supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "reinforcement-learning",
+    "databaseId": "1fb46ed1-14a5-4adf-a465-0d4349210ac5",
+    "name": "Reinforcement Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Reinforcement Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "markov-decision-processes",
+    "databaseId": "d6f77434-a96d-4912-a087-8f69a97faa9e",
+    "name": "Markov Decision Processes",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Markov Decision Processes supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "policy-gradients",
+    "databaseId": "029ffcb4-b697-4967-a149-a0807bd6ed27",
+    "name": "Policy Gradients",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Policy Gradients supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "q-learning",
+    "databaseId": "ba47df92-ad45-481a-a2ed-cc4152219d9b",
+    "name": "Q-learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Q-learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "offline-reinforcement-learning",
+    "databaseId": "3c76c206-02ad-4147-a138-c7aecebddd29",
+    "name": "Offline Reinforcement Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Offline Reinforcement Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "causal-machine-learning",
+    "databaseId": "ca7ae5a3-496a-471f-a3c8-ee26910bd24b",
+    "name": "Causal Machine Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Causal Machine Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "graph-neural-networks",
+    "databaseId": "5daaf077-c4e3-4871-a6c8-d1f49d97508f",
+    "name": "Graph Neural Networks",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Graph Neural Networks supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "contrastive-learning",
+    "databaseId": "07a91b7a-2be6-4331-ab6b-cbac7048ca2a",
+    "name": "Contrastive Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Contrastive Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "self-supervised-learning",
+    "databaseId": "1ce914d7-f845-4b04-ab37-9162af0b603a",
+    "name": "Self-supervised Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Self-supervised Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "multimodal-learning",
+    "databaseId": "ffa12e9d-10e5-4111-adae-8f770f1dbd6e",
+    "name": "Multimodal Learning",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Multimodal Learning supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "research-reproducibility",
+    "databaseId": "7aa6f51f-c599-4161-aac2-6794fa691215",
+    "name": "Research Reproducibility",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Research Reproducibility supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ablation-studies",
+    "databaseId": "89b5766a-00f2-4233-a210-a3ff5254b53c",
+    "name": "Ablation Studies",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Ablation Studies supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "scientific-literature-review",
+    "databaseId": "4a947dcc-62c8-4f00-aea4-f47bbc21a22a",
+    "name": "Scientific Literature Review",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Scientific Literature Review supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-calibration",
+    "databaseId": "051ba504-2c04-42f4-a06e-1f9646e468a8",
+    "name": "Model Calibration",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Calibration supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "uncertainty-estimation",
+    "databaseId": "2c005fa3-ff03-454c-a38d-0ad31aaedede",
+    "name": "Uncertainty Estimation",
+    "aliases": [],
+    "category": "ml-research",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Uncertainty Estimation supports the practical knowledge needed to develop and test learning algorithms.",
+    "resources": [
+      {
+        "title": "ml research learning reference",
+        "url": "https://pytorch.org/tutorials/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-quality",
+    "databaseId": "67ef5a3e-b4ac-42e4-a2a2-1622aac16fb5",
+    "name": "Data Quality",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml", "data"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Quality supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-lifecycle-management",
+    "databaseId": "5da42d1f-4923-4795-a66d-21e97ac1620a",
+    "name": "Model Lifecycle Management",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "beginner",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 16,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Lifecycle Management supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "mlflow",
+    "databaseId": "296f5cd5-61e4-428f-ab21-4cf69b2687ee",
+    "name": "MLflow",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "MLflow supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kubeflow",
+    "databaseId": "3d317e9c-996f-4cd2-ab77-fd939c9ba5b0",
+    "name": "Kubeflow",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Kubeflow supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "kserve",
+    "databaseId": "fc4e49cb-fb25-4dd5-a1fe-69f3c9f773f3",
+    "name": "KServe",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "KServe supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bentoml",
+    "databaseId": "969960f3-658b-42b9-ab27-093756259d40",
+    "name": "BentoML",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "BentoML supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "seldon",
+    "databaseId": "22060035-fedb-4965-a596-ae58d0471175",
+    "name": "Seldon",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Seldon supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-registries",
+    "databaseId": "4ca8b653-d9a8-4b23-a485-414470dcd00e",
+    "name": "Model Registries",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Registries supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "feature-stores",
+    "databaseId": "f03d8618-7b80-4847-a08f-5eee1bb7686f",
+    "name": "Feature Stores",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Feature Stores supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "feast",
+    "databaseId": "d702016a-60bd-4eb1-a528-23027a2063ed",
+    "name": "Feast",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Feast supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-serving",
+    "databaseId": "06e74a30-c59a-4d34-a877-ca4fc3847af5",
+    "name": "Model Serving",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": ["model-evaluation"],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Serving supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-monitoring",
+    "databaseId": "dc9d1b16-c280-4a99-a491-3d676d90ea37",
+    "name": "Model Monitoring",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Monitoring supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-drift-detection",
+    "databaseId": "bb431b1a-90dc-4ed5-a853-ade531c4635a",
+    "name": "Data Drift Detection",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Drift Detection supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "concept-drift-detection",
+    "databaseId": "2ff6184f-9d92-4173-a65e-c746073ca03b",
+    "name": "Concept Drift Detection",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Concept Drift Detection supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "training-pipelines",
+    "databaseId": "a20772ae-7ba7-4a5a-a0d9-0aba74faa2f4",
+    "name": "Training Pipelines",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Training Pipelines supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-ci-cd",
+    "databaseId": "a8e4a883-0d27-468a-a13c-85375b18a107",
+    "name": "Model CI/CD",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model CI/CD supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-versioning",
+    "databaseId": "90320c98-fcb8-4f49-a6ac-b49038b0d7a1",
+    "name": "Model Versioning",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Versioning supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dataset-versioning",
+    "databaseId": "1f61741d-5db8-49e2-ad4d-00039166d41d",
+    "name": "Dataset Versioning",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Dataset Versioning supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "dvc",
+    "databaseId": "e1155ab4-32d0-4914-a228-b25aa740110c",
+    "name": "DVC",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "DVC supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "experiment-tracking",
+    "databaseId": "4f2c0c68-fb5f-4f3f-a974-900a9c9efaf7",
+    "name": "Experiment Tracking",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Experiment Tracking supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "a-b-model-testing",
+    "databaseId": "fdd60073-a709-4ace-a676-39b6ee3085c5",
+    "name": "A/B Model Testing",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "A/B Model Testing supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "canary-model-deployment",
+    "databaseId": "fe126a38-3156-45d8-a0e0-372018067d50",
+    "name": "Canary Model Deployment",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Canary Model Deployment supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "shadow-model-deployment",
+    "databaseId": "3b9b3b03-96d7-4040-ae48-e7dd3212c3bc",
+    "name": "Shadow Model Deployment",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Shadow Model Deployment supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-rollback",
+    "databaseId": "cfcc7f64-fc69-4041-a0ec-02a0adeeb509",
+    "name": "Model Rollback",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Rollback supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-quantization",
+    "databaseId": "6578f1b3-27a2-4c4e-a5bc-96be6b41d444",
+    "name": "Model Quantization",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Quantization supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "knowledge-distillation",
+    "databaseId": "505bc7be-6946-4d12-a60b-06d9a8937048",
+    "name": "Knowledge Distillation",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Knowledge Distillation supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "onnx",
+    "databaseId": "e96b5d63-3ecd-40da-a82a-2aee857a75c1",
+    "name": "ONNX",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "ONNX supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tensorrt",
+    "databaseId": "489da653-9dd2-4446-a154-4b104f033492",
+    "name": "TensorRT",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "TensorRT supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "tflite",
+    "databaseId": "e1929255-e69c-4651-a841-23a8e5d88895",
+    "name": "TFLite",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "TFLite supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "gpu-scheduling",
+    "databaseId": "8c7f9692-3ae6-4d01-a525-29a365d1880a",
+    "name": "GPU Scheduling",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "GPU Scheduling supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "distributed-training",
+    "databaseId": "978d5ca9-57f8-4867-a64f-e4a4c1f14083",
+    "name": "Distributed Training",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "advanced",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Distributed Training supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "data-labeling",
+    "databaseId": "f7ba6ac3-11f4-484c-a8a2-90fa878e3f4f",
+    "name": "Data Labeling",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Data Labeling supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "annotation-guidelines",
+    "databaseId": "fefe74a5-1d30-4384-a262-c9d90d691ad5",
+    "name": "Annotation Guidelines",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Annotation Guidelines supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "inter-annotator-agreement",
+    "databaseId": "48329feb-64c4-4b6d-a2e6-c0b3d6ccf2cd",
+    "name": "Inter-annotator Agreement",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Inter-annotator Agreement supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "label-quality-audits",
+    "databaseId": "bf5e1188-5468-4fe7-a9fc-e6a18d802a75",
+    "name": "Label Quality Audits",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Label Quality Audits supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "active-learning",
+    "databaseId": "71bb66e7-d20b-4f47-ac43-7eeb5363b337",
+    "name": "Active Learning",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Active Learning supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-impact-assessment",
+    "databaseId": "803d8720-410d-41dd-a85f-1b0ad41725aa",
+    "name": "AI Impact Assessment",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Impact Assessment supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "algorithmic-fairness",
+    "databaseId": "e6cb6086-9052-4c26-a133-be014145e025",
+    "name": "Algorithmic Fairness",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Algorithmic Fairness supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "bias-measurement",
+    "databaseId": "a11cf356-679b-4e4a-abb8-357599696bc9",
+    "name": "Bias Measurement",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Bias Measurement supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "explainable-ai",
+    "databaseId": "7bcb6209-724b-4b2e-a639-92e35a01e020",
+    "name": "Explainable AI",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Explainable AI supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "shap",
+    "databaseId": "ca8b6357-312f-4987-a632-59bdccb6d7da",
+    "name": "SHAP",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "SHAP supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "lime",
+    "databaseId": "d3efac74-f04d-4afc-a362-26bc768c5efc",
+    "name": "LIME",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "LIME supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-cards",
+    "databaseId": "f65c985b-f239-4cc4-a3e8-5fdc23a7dfe8",
+    "name": "Model Cards",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Cards supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "datasheets-for-datasets",
+    "databaseId": "b582e2c0-ec98-438b-ada5-7830e3655f1b",
+    "name": "Datasheets for Datasets",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Datasheets for Datasets supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-risk-management",
+    "databaseId": "00726e86-3b26-43c7-a699-d2299514e05e",
+    "name": "AI Risk Management",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Risk Management supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-governance",
+    "databaseId": "83cf10b7-65fc-44e6-a810-2dab39ad4975",
+    "name": "AI Governance",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Governance supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-product-discovery",
+    "databaseId": "427e3458-b562-4d15-a2f8-fd6d1bcc6069",
+    "name": "AI Product Discovery",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Product Discovery supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-success-metrics",
+    "databaseId": "4faee9c0-77e0-4307-a1b8-7d31e3460f17",
+    "name": "AI Success Metrics",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Success Metrics supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-procurement",
+    "databaseId": "d8236180-24e6-4b84-a67c-2b803d77fe8a",
+    "name": "AI Procurement",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Procurement supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "model-licensing",
+    "databaseId": "5127e9dc-2ed9-4b76-ae7e-cec14a9fd731",
+    "name": "Model Licensing",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Model Licensing supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "ai-incident-response",
+    "databaseId": "cc962d32-3460-48de-a509-6d704004e5af",
+    "name": "AI Incident Response",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "AI Incident Response supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "human-oversight-design",
+    "databaseId": "ed347811-7e01-4e9a-a8b6-e9a70a869de9",
+    "name": "Human Oversight Design",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Human Oversight Design supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "nist-ai-rmf",
+    "databaseId": "3ac903b1-d93e-40fb-a77d-44c25de74a8b",
+    "name": "NIST AI RMF",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "NIST AI RMF supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "privacy-preserving-ml",
+    "databaseId": "4aef74d5-6cfe-4856-aaa0-09f81a1f8aa6",
+    "name": "Privacy-preserving ML",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Privacy-preserving ML supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "federated-learning",
+    "databaseId": "92c206c3-8650-436f-a7d3-2a04954cd4be",
+    "name": "Federated Learning",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Federated Learning supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  },
+  {
+    "id": "differential-privacy",
+    "databaseId": "a850a639-e95d-410e-ac74-df3f5dc9dc21",
+    "name": "Differential Privacy",
+    "aliases": [],
+    "category": "ml-operations",
+    "domains": ["ai-ml"],
+    "type": "concept",
+    "level": "intermediate",
+    "prerequisites": [],
+    "related": [],
+    "estimatedHours": 12,
+    "demand": "high",
+    "trending": true,
+    "description": "Differential Privacy supports the practical knowledge needed to operate reliable and governed AI systems.",
+    "resources": [
+      {
+        "title": "ml operations learning reference",
+        "url": "https://mlflow.org/docs/latest/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "Google machine learning education",
+        "url": "https://developers.google.com/machine-learning",
+        "type": "course",
+        "free": true
+      }
+    ]
+  }
+]
