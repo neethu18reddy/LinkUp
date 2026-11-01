@@ -23,4 +23,12 @@ Use existing tables for catalog skills/roles and requirement weights; keep riche
 
 ## Progress
 
-- Phase 0: audit and architecture written. Implementation and verification pending.
+- Phases 0–4: audit, schemas, validation and domain catalogs implemented. The catalog has 2,252 skills, 326 roles, 42 families and 12 categories; the coverage manifest checks every requested occupation and category.
+- Phase 5: five-stage family roadmaps implemented, with six stages for senior roles, role-specific projects, missing prerequisites and proficiency-aware gaps.
+- Phase 6: weighted matching implemented with partial levels, adjacent credit, three recommendations, five alternatives and stretch roles; mathematical fixtures and a full-catalog performance assertion cover the engine.
+- Phase 7: eight-question guided onboarding and direct multi-select skill entry implemented, including aliases, fuzzy search, private custom skills and saved answers. The legacy quiz remains available.
+- Phase 8: paginated browsing, role details, gap indicators, completion controls and dashboard continuity implemented in the existing design language.
+- Phase 9: catalogs remain server-side; role summaries and details load separately. Reviewed React component structure, accessible labels/focus, status contrast and 390px mobile overflow. Production browser checks passed for both entry paths and completion after reload.
+- Phase 10: final verification passed: 102 frontend unit tests, 178 backend unit tests, 47 database tests, catalog validation, formatting, lint, both type checks, production build and both browser entry paths. Detailed evidence and limits are recorded in `docs/QA.md`.
+
+No deployment or production database changes are included. The local verification helpers disable external AI, email and OAuth calls and remove their own disposable fixtures.
