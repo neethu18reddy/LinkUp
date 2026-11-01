@@ -1,0 +1,3322 @@
+[
+  {
+    "id": "digital-marketing-specialist",
+    "databaseId": "f6fbafbb-cfa0-474c-ae1d-326d65fd952a",
+    "name": "Digital Marketing Specialist",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on digital marketing specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "digital", "marketing", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "seo",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "google-analytics-4",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "campaign-reporting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "funnel-optimization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "retention-marketing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "marketing-budget-allocation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "display-advertising",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["seo-specialist", "sem-ppc-specialist", "growth-marketer"],
+    "careerPath": {
+      "from": [],
+      "to": ["e-commerce-manager", "marketing-analytics-manager"]
+    },
+    "project": "Digital Marketing Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate SEO, Google Analytics 4, Campaign Reporting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "seo-specialist",
+    "databaseId": "dfd17d5a-0ca9-4f19-acc1-16657cde227c",
+    "name": "SEO Specialist",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on seo specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "seo", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "technical-seo",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "keyword-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "google-search-console",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "seo",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-data-platforms",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "programmatic-advertising",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["digital-marketing-specialist", "sem-ppc-specialist", "growth-marketer"],
+    "careerPath": {
+      "from": [],
+      "to": ["e-commerce-manager", "marketing-analytics-manager"]
+    },
+    "project": "SEO Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate Technical SEO, Keyword Research, Google Search Console in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "sem-ppc-specialist",
+    "databaseId": "71477b12-eb2d-4529-a810-42757bbf2435",
+    "name": "SEM/PPC Specialist",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on sem/ppc specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "sem", "ppc", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "google-ads",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ppc-campaign-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bid-optimization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "roas-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "klaviyo",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "a-b-landing-page-testing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "growth-marketer"],
+    "careerPath": {
+      "from": [],
+      "to": ["e-commerce-manager", "marketing-analytics-manager"]
+    },
+    "project": "SEM/PPC Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate Google Ads, PPC Campaign Management, Bid Optimization in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "growth-marketer",
+    "databaseId": "1bd6a611-de8c-43a7-a8ac-b8b807b5da5b",
+    "name": "Growth Marketer",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on growth marketer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "growth", "marketer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "marketing-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "off-page-seo",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microsoft-advertising",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tiktok-ads",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "growth-experiments",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hubspot",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "merchandising",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["e-commerce-manager", "marketing-analytics-manager"]
+    },
+    "project": "Growth Marketer: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "performance-marketer",
+    "databaseId": "597bc343-5b6e-4a7c-a5a3-4d7ac4ffffaa",
+    "name": "Performance Marketer",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on performance marketer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "performance", "marketer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "marketing-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "link-building",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "meta-ads",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "landing-page-optimization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incrementality-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "marketo",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "google-merchant-center",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["e-commerce-manager", "marketing-analytics-manager"]
+    },
+    "project": "Performance Marketer: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "marketing-automation-specialist",
+    "databaseId": "19068d75-2d06-4ddb-a851-6f4edcaf156e",
+    "name": "Marketing Automation Specialist",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on marketing automation specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "marketing", "automation", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "marketing-automation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "search-engine-marketing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "conversion-rate-optimization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "referral-programs",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "marketing-attribution",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-feed-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["e-commerce-manager", "marketing-analytics-manager"]
+    },
+    "project": "Marketing Automation Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate Marketing Automation, Marketing Strategy, Marketing Analytics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "e-commerce-manager",
+    "databaseId": "7ea2fe5c-cc7f-46ef-a917-bb358dee9894",
+    "name": "E-commerce Manager",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on e-commerce manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "e", "commerce", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "marketing-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "on-page-seo",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "seo-audits",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "linkedin-ads",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "acquisition-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cac-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "segment",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "e-commerce-analytics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
+    "careerPath": {
+      "from": ["digital-marketing-specialist", "seo-specialist"],
+      "to": []
+    },
+    "project": "E-commerce Manager: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "marketing-analytics-manager",
+    "databaseId": "cb8d322e-5863-474c-accb-e2471b5f35f7",
+    "name": "Marketing Analytics Manager",
+    "category": "business",
+    "family": "digital-marketing",
+    "description": "Measure and improve customer acquisition with a focus on marketing analytics manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "digital-marketing", "marketing", "analytics", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "marketing-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "marketing-analytics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-segmentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "experimentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "search-intent-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "google-tag-manager",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "conversion-tracking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "activation-metrics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lifecycle-marketing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "salesforce-marketing-cloud",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "affiliate-marketing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "google-analytics-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
+    "careerPath": {
+      "from": ["digital-marketing-specialist", "seo-specialist"],
+      "to": []
+    },
+    "project": "Marketing Analytics Manager: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
+    "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "social-media-manager",
+    "databaseId": "d612cb07-fd6b-4a4a-ad14-e00a23c8347e",
+    "name": "Social Media Manager",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on social media manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "social", "media", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "social-media-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "social-listening",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "media-relations",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "media-pitches",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "campaign-briefing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "social-media-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["content-strategist", "content-marketer", "email-marketing-specialist"],
+    "careerPath": {
+      "from": ["content-strategist", "content-marketer"],
+      "to": []
+    },
+    "project": "Social Media Manager: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "content-strategist",
+    "databaseId": "4ca5d337-0bdd-49f4-a2be-acdea689dcb6",
+    "name": "Content Strategist",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on content strategist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "content", "strategist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "content-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "content-auditing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "newsletter-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "crisis-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "internal-communication",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "content-accessibility",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["social-media-manager", "content-marketer", "email-marketing-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["social-media-manager", "brand-manager"]
+    },
+    "project": "Content Strategist: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "content-marketer",
+    "databaseId": "4b085505-bfeb-4e11-a20c-45781188d6aa",
+    "name": "Content Marketer",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on content marketer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "content", "marketer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editorial-calendars",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "content-distribution",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "content-repurposing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "press-releases",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "corporate-communication",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "community-guidelines",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["social-media-manager", "content-strategist", "email-marketing-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["social-media-manager", "brand-manager"]
+    },
+    "project": "Content Marketer: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "email-marketing-specialist",
+    "databaseId": "94c75e23-6d75-471c-a252-fffbf39e29be",
+    "name": "Email Marketing Specialist",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on email marketing specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "email", "marketing", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "email-marketing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "consumer-insights",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "market-segmentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "email-copywriting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "email-deliverability",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "email-list-hygiene",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "email-segmentation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "email-automation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
+    "careerPath": {
+      "from": [],
+      "to": ["social-media-manager", "brand-manager"]
+    },
+    "project": "Email Marketing Specialist: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Email Marketing, Content Strategy, Audience Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "brand-manager",
+    "databaseId": "e895daa1-d062-494b-aea3-c23d3819f069",
+    "name": "Brand Manager",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on brand manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "brand", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "community-engagement",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-voice",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-architecture",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-tracking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-campaigns",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sponsorship-strategy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-safety",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
+    "careerPath": {
+      "from": ["content-strategist", "content-marketer"],
+      "to": []
+    },
+    "project": "Brand Manager: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "influencer-marketing-manager",
+    "databaseId": "72bc5949-e694-4b2e-a606-716f5fbcc27e",
+    "name": "Influencer Marketing Manager",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on influencer marketing manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "influencer", "marketing", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "messaging-frameworks",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "survey-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "influencer-discovery",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "influencer-partnerships",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "influencer-campaign-measurement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "integrated-marketing-communication",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
+    "careerPath": {
+      "from": ["content-strategist", "content-marketer"],
+      "to": []
+    },
+    "project": "Influencer Marketing Manager: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "public-relations-specialist",
+    "databaseId": "aae3c5f7-4517-43ef-a3ca-b8be20b3e0ed",
+    "name": "Public Relations Specialist",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on public relations specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "public", "relations", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "public-relations",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "focus-groups",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creator-briefs",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "reputation-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "communications-measurement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
+    "careerPath": {
+      "from": [],
+      "to": ["social-media-manager", "brand-manager"]
+    },
+    "project": "Public Relations Specialist: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Public Relations, Content Strategy, Audience Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "market-research-analyst",
+    "databaseId": "39489cb5-f2e8-4240-a718-764ff099e255",
+    "name": "Market Research Analyst",
+    "category": "business",
+    "family": "brand-content",
+    "description": "Build coherent audience and brand communication with a focus on market research analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "brand-content", "market", "research", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "content-strategy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audience-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-positioning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "brand-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "qualitative-market-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quantitative-market-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "competitor-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "positioning-research",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "utm-governance",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
+    "careerPath": {
+      "from": [],
+      "to": ["social-media-manager", "brand-manager"]
+    },
+    "project": "Market Research Analyst: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
+    "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "sales-development-rep",
+    "databaseId": "2559d198-d796-4e55-a210-69f730324cae",
+    "name": "Sales Development Rep",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on sales development rep practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "sales", "development", "rep"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "sales-discovery",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sales-negotiation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sales-proposals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "freshdesk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-feedback-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["account-executive", "sales-engineer", "business-development-manager"],
+    "careerPath": {
+      "from": ["customer-support-specialist"],
+      "to": ["business-development-manager", "community-manager"]
+    },
+    "project": "Sales Development Rep: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "account-executive",
+    "databaseId": "7ac256ac-f82e-4cbc-a9f8-62df39ca56d4",
+    "name": "Account Executive",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on account executive practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "account", "executive"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prospecting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "account-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "account-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "salesforce-administration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "knowledge-base-writing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lead-scoring",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "sales-engineer", "business-development-manager"],
+    "careerPath": {
+      "from": ["customer-support-specialist"],
+      "to": ["business-development-manager", "community-manager"]
+    },
+    "project": "Account Executive: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "sales-engineer",
+    "databaseId": "d5251886-ceee-45e5-ad25-e5b98fca8c61",
+    "name": "Sales Engineer",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on sales engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "sales", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "sales-demonstrations",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sales-forecasting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "channel-sales",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "de-escalation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sales-enablement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "business-development-manager"],
+    "careerPath": {
+      "from": ["customer-support-specialist"],
+      "to": ["business-development-manager", "community-manager"]
+    },
+    "project": "Sales Engineer: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "business-development-manager",
+    "databaseId": "1462ad27-c94e-4d87-a0dc-c884657c1ce1",
+    "name": "Business Development Manager",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on business development manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "business", "development", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "lead-qualification",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "technical-demonstrations",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "territory-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hubspot-crm",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "net-promoter-score",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
+    "careerPath": {
+      "from": ["sales-development-rep", "account-executive"],
+      "to": []
+    },
+    "project": "Business Development Manager: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "customer-support-specialist",
+    "databaseId": "fdd054d6-9b0d-4170-a030-54a518f8536a",
+    "name": "Customer Support Specialist",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on customer support specialist practice.",
+    "experienceBand": "entry",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "customer", "support", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "consultative-selling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "objection-handling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "contract-negotiation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "zendesk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "support-ticket-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-empathy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "support-quality-assurance",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-satisfaction-measurement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-advocacy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-education",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "support-automation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["business-development-manager", "community-manager"]
+    },
+    "project": "Customer Support Specialist: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "community-manager",
+    "databaseId": "2c64002f-aad0-46ac-a964-03d69be08162",
+    "name": "Community Manager",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on community manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "community", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cold-outreach",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "proof-of-concept-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rfp-responses",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pipedrive",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "community-moderation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "community-programming",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "community-analytics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
+    "careerPath": {
+      "from": ["sales-development-rep", "account-executive"],
+      "to": []
+    },
+    "project": "Community Manager: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "revenue-operations-analyst",
+    "databaseId": "4b4ad6b4-d4c9-4a09-ad03-509183d448fb",
+    "name": "Revenue Operations Analyst",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on revenue operations analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "revenue", "operations", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "revenue-operations",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "opportunity-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sales-operations",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "intercom",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "service-level-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "revenue-funnel-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
+    "careerPath": {
+      "from": ["customer-support-specialist"],
+      "to": ["business-development-manager", "community-manager"]
+    },
+    "project": "Revenue Operations Analyst: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Revenue Operations, Communication, Customer Discovery in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "partnerships-manager",
+    "databaseId": "8024bf76-e2c1-4049-aa9d-0de6863607a2",
+    "name": "Partnerships Manager",
+    "category": "business",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on partnerships manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "partnerships", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "crm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "solution-selling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pipeline-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "partner-enablement",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "partnership-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "online-event-hosting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
+    "careerPath": {
+      "from": ["sales-development-rep", "account-executive"],
+      "to": []
+    },
+    "project": "Partnerships Manager: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "operations-manager",
+    "databaseId": "a6c268cb-65e9-47b2-a3ee-c196fa1c3b1b",
+    "name": "Operations Manager",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on operations manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "operations", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "lean-six-sigma",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "economic-order-quantity",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "total-cost-of-ownership",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "five-forces-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "strategic-partnerships",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "service-operations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sustainability-operations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["supply-chain-analyst", "procurement-specialist", "management-consultant"],
+    "careerPath": {
+      "from": ["supply-chain-analyst", "procurement-specialist"],
+      "to": []
+    },
+    "project": "Operations Manager: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "supply-chain-analyst",
+    "databaseId": "934515d0-7253-4574-a178-7e33798406c9",
+    "name": "Supply Chain Analyst",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on supply chain analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "supply", "chain", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bottleneck-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "supply-chain-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "supply-chain-forecasting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fundraising-preparation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "executive-presentations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["operations-manager", "procurement-specialist", "management-consultant"],
+    "careerPath": {
+      "from": [],
+      "to": ["operations-manager"]
+    },
+    "project": "Supply Chain Analyst: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "procurement-specialist",
+    "databaseId": "5bbe6241-979a-4f2d-a222-04f82cc89482",
+    "name": "Procurement Specialist",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on procurement specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "procurement", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "procurement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "transportation-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "spend-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "unit-economics-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hypothesis-driven-problem-solving",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "process-mining",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["operations-manager", "supply-chain-analyst", "management-consultant"],
+    "careerPath": {
+      "from": [],
+      "to": ["operations-manager"]
+    },
+    "project": "Procurement Specialist: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Procurement, Problem Solving, Business Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "management-consultant",
+    "databaseId": "d15ebc46-01a9-41e8-a3cb-6a1b8d600211",
+    "name": "Management Consultant",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on management consultant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "management", "consultant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-optimization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "inventory-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "supplier-relationship-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "purchase-order-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "contract-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "category-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "management-consulting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "change-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["operations-manager"]
+    },
+    "project": "Management Consultant: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "strategy-analyst",
+    "databaseId": "53e94aa3-6cb8-4b2d-ad86-77ce4067720a",
+    "name": "Strategy Analyst",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on strategy analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "strategy", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "value-stream-mapping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "strategic-sourcing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mvp-scoping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "issue-trees",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["operations-manager"]
+    },
+    "project": "Strategy Analyst: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "entrepreneur-startup-founder-track",
+    "databaseId": "97feca41-ad19-4dff-a296-4ea8994e751e",
+    "name": "Entrepreneur / Startup Founder track",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on entrepreneur / startup founder track practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "entrepreneur", "startup", "founder", "track"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "operating-models",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "demand-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "supplier-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "swot-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "startup-customer-validation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kpi-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lean-startup",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["operations-manager"]
+    },
+    "project": "Entrepreneur / Startup Founder track: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "business-operations-analyst",
+    "databaseId": "8e266932-e94a-421b-a455-0d3739c00a7e",
+    "name": "Business Operations Analyst",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on business operations analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "business", "operations", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "operations-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "capacity-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "warehouse-operations",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "strategic-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-model-canvas",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-process-automation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-continuity",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["operations-manager"]
+    },
+    "project": "Business Operations Analyst: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "logistics-coordinator",
+    "databaseId": "2b72a36a-6ce7-41b0-ab19-e15bb3c32d32",
+    "name": "Logistics Coordinator",
+    "category": "business",
+    "family": "operations-strategy",
+    "description": "Improve business systems and operational decisions with a focus on logistics coordinator practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "operations-strategy", "logistics", "coordinator"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "business-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "process-improvement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "standard-operating-procedures",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "safety-stock",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "logistics-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pestle-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pitch-decks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "organizational-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": ["operations-manager"]
+    },
+    "project": "Logistics Coordinator: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
+    "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "hr-generalist",
+    "databaseId": "91e11e33-b5ad-48ca-a7ee-349eff7d8670",
+    "name": "HR Generalist",
+    "category": "business",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on hr generalist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "hr", "generalist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "job-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "interview-scorecards",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "employee-onboarding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "job-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "training-facilitation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "moodle",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "inclusive-hiring",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "technical-recruiter",
+      "talent-acquisition-specialist",
+      "learning-development-specialist"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "HR Generalist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "technical-recruiter",
+    "databaseId": "a35c0f21-4468-43c3-a7d6-2f51f083ad1b",
+    "name": "Technical Recruiter",
+    "category": "business",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on technical recruiter practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "technical", "recruiter"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-screening",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lever",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "benefits-administration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "attrition-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "coaching",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "remote-facilitation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "hr-generalist",
+      "talent-acquisition-specialist",
+      "learning-development-specialist"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Technical Recruiter: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "talent-acquisition-specialist",
+    "databaseId": "50180d44-2a24-4431-a52d-7e72752fd9bc",
+    "name": "Talent Acquisition Specialist",
+    "category": "business",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on talent acquisition specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "talent", "acquisition", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "boolean-talent-search",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "greenhouse",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hris-administration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "workforce-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kirkpatrick-model",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "competency-frameworks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["hr-generalist", "technical-recruiter", "learning-development-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Talent Acquisition Specialist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "learning-development-specialist",
+    "databaseId": "32db7809-7251-4019-a667-3af4b1e185bc",
+    "name": "Learning & Development Specialist",
+    "category": "business",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on learning & development specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "learning", "development", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "job-description-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "candidate-experience",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "employee-relations",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "performance-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "learning-needs-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "learning-program-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "adult-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "leadership-development",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "learning-management-systems",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "learning-accessibility",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "organizational-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Learning & Development Specialist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "people-analytics-analyst",
+    "databaseId": "cd61adb3-d473-4566-aede-614c85bab998",
+    "name": "People Analytics Analyst",
+    "category": "business",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on people analytics analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "people", "analytics", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "people-analytics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "applicant-tracking-systems",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "recruitment-analytics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "engagement-surveys",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "headcount-analytics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "talentlms",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "employee-listening",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "People Analytics Analyst: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate People Analytics, Communication, Interviewing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "corporate-trainer",
+    "databaseId": "408a1770-dc51-4d91-aa66-b05e7eca7efe",
+    "name": "Corporate Trainer",
+    "category": "business",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on corporate trainer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "corporate", "trainer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recruitment-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "structured-interviews",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "offer-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "compensation-benchmarking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pay-equity-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "succession-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "knowledge-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Corporate Trainer: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "people-operations-specialist",
+    "databaseId": "91f6956a-6a50-45a4-a5df-cc3cb0ff1c30",
+    "name": "People Operations Specialist",
+    "category": "business",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on people operations specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "people", "operations", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "candidate-sourcing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "workday",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hr-policies",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "employee-experience",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "training-evaluation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "skills-assessment",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "People Operations Specialist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

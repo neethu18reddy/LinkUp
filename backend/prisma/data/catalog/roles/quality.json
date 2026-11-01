@@ -1,0 +1,832 @@
+[
+  {
+    "id": "qa-engineer",
+    "databaseId": "10000000-0000-4000-8000-000000000019",
+    "name": "QA Engineer",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Design test cases, investigate defects and automate quality checks.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "qa", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cypress",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gherkin",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "equivalence-partitioning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mocking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "istqb-foundation-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["test-automation-engineer", "sdet", "manual-tester"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "QA Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "test-automation-engineer",
+    "databaseId": "10000000-0000-4000-8000-000000000020",
+    "name": "Test Automation Engineer",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Create maintainable automated tests and delivery checks.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "test", "automation", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "playwright",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "flaky-test-diagnosis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-reporting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "locust",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "test-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "sdet", "manual-tester"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "Test Automation Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Playwright, Flaky Test Diagnosis, Test Reporting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "sdet",
+    "databaseId": "7ed3178b-a9e1-4882-a897-5423e0ca487a",
+    "name": "SDET",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on sdet practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "sdet"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "test-driven-development",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "contract-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-coverage-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gatling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "manual-tester"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "SDET: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Test-driven Development, Contract Testing, Test Coverage Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "manual-tester",
+    "databaseId": "c2e7f51c-f703-4532-a36f-6e9b513aa842",
+    "name": "Manual Tester",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on manual tester practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "manual", "tester"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "exploratory-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "boundary-value-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regression-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "test-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "nvda",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "Manual Tester: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Exploratory Testing, Boundary Value Analysis, Regression Testing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "performance-test-engineer",
+    "databaseId": "2feb75dd-7fc0-4b14-acf0-0ea1f4554914",
+    "name": "Performance Test Engineer",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on performance test engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "performance", "test", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "k6",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "load-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "performance-bottleneck-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "test-environment-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "voiceover",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "Performance Test Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate k6, Load Testing, Performance Bottleneck Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "mobile-test-engineer",
+    "databaseId": "1536d1de-330f-407e-ac35-42a49e228607",
+    "name": "Mobile Test Engineer",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on mobile test engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "mobile", "test", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "appium",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "localization-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regression-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "test-data-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "jaws",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "Mobile Test Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Appium, Localization Testing, Regression Testing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "api-test-engineer",
+    "databaseId": "e29ae691-bd60-4cb3-a2aa-5869a12220eb",
+    "name": "API Test Engineer",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on api test engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "api", "test", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "postman",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "rest-assured",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "pact",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "state-transition-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "soak-testing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "API Test Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Postman, REST Assured, Pact in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "qa-lead-manager",
+    "databaseId": "e96e3642-22b8-4bf7-ad7f-341813427d05",
+    "name": "QA Lead / Manager",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on qa lead / manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "qa", "lead", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "webdriverio",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "behavior-driven-development",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "decision-table-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "service-virtualization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": ["qa-engineer", "test-automation-engineer"],
+      "to": []
+    },
+    "project": "QA Lead / Manager: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "web-accessibility-specialist",
+    "databaseId": "10000000-0000-4000-8000-000000000024",
+    "name": "Web Accessibility Specialist",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate and improve accessible web experiences.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "web", "accessibility", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "wcag",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "screen-reader-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "keyboard-navigation-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "stress-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "Web Accessibility Specialist: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate WCAG, Screen Reader Testing, Keyboard Navigation Testing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "game-qa-tester",
+    "databaseId": "4690d912-470c-43d6-acd6-b9e3fdf80e5b",
+    "name": "Game QA Tester",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on game qa tester practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "game", "qa", "tester"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "selenium",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cucumber",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "acceptance-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-based-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "axe-core",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "game-compatibility-testing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "Game QA Tester: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "release-quality-analyst",
+    "databaseId": "680b8dea-8c1e-4c2f-abad-2648c0fb9981",
+    "name": "Release Quality Analyst",
+    "category": "quality",
+    "family": "quality-testing",
+    "description": "Evaluate software behavior and release quality with a focus on release quality analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["quality", "quality-testing", "release", "quality", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "test-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "defect-reporting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "quality-assurance",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "robot-framework",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "smoke-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pairwise-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "jmeter",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "release-readiness-reviews",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quality-metrics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
+    "careerPath": {
+      "from": [],
+      "to": ["qa-lead-manager"]
+    },
+    "project": "Release Quality Analyst: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
+    "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

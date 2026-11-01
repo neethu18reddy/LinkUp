@@ -1,0 +1,1903 @@
+[
+  {
+    "id": "security-analyst-soc",
+    "databaseId": "22aa78e6-c660-467b-a2c0-234943513a5d",
+    "name": "Security Analyst (SOC)",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on security analyst (soc) practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "security", "analyst", "soc"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "siem",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "incident-triage",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "log-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "autopsy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "nessus",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "email-security",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "comptia-securityplus-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cybersecurity-engineer", "threat-intelligence-analyst", "incident-responder"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Security Analyst (SOC): investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate SIEM, Incident Triage, Log Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "cybersecurity-engineer",
+    "databaseId": "98e86a4d-a43d-4280-a508-13f813d45cbd",
+    "name": "Cybersecurity Engineer",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on cybersecurity engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "cybersecurity", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "soar",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microsoft-sentinel",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "elastic-security",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-onion",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "reverse-engineering",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cvss",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-metrics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["security-analyst-soc", "threat-intelligence-analyst", "incident-responder"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Cybersecurity Engineer: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate Security Fundamentals, Networking, Threat Modeling in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "threat-intelligence-analyst",
+    "databaseId": "82986b94-f05a-488a-a695-28b233d6e8b6",
+    "name": "Threat Intelligence Analyst",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on threat intelligence analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "threat", "intelligence", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "threat-intelligence",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "osint",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "mitre-att-ck",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "intelligence-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "openvas",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "giac-certification-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["security-analyst-soc", "cybersecurity-engineer", "incident-responder"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Threat Intelligence Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate Threat Intelligence, OSINT, MITRE ATT&CK in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "incident-responder",
+    "databaseId": "74871964-686d-4cf6-a959-284dfa61a397",
+    "name": "Incident Responder",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on incident responder practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "incident", "responder"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "incident-containment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "incident-recovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-playbooks",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incident-eradication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "packet-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ransomware-response",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "security-analyst-soc",
+      "cybersecurity-engineer",
+      "threat-intelligence-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Incident Responder: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate Incident Containment, Incident Recovery, Security Playbooks in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "digital-forensics-analyst",
+    "databaseId": "eec39d60-4ee7-4fda-a4c3-e54c9316664f",
+    "name": "Digital Forensics Analyst",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on digital forensics analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "digital", "forensics", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "digital-forensics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "memory-forensics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "chain-of-custody",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "disk-imaging",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sandboxing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "phishing-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "security-analyst-soc",
+      "cybersecurity-engineer",
+      "threat-intelligence-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Digital Forensics Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate Digital Forensics, Memory Forensics, Chain of Custody in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "malware-analyst",
+    "databaseId": "e0e3b56e-826c-4167-ac84-3d10e6df65e5",
+    "name": "Malware Analyst",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on malware analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "malware", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "malware-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ghidra",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "yara-rules",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "volatility",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "static-malware-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dynamic-malware-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "security-analyst-soc",
+      "cybersecurity-engineer",
+      "threat-intelligence-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Malware Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate Malware Analysis, Ghidra, YARA Rules in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "vulnerability-management-analyst",
+    "databaseId": "43dd95de-3b7f-4662-a661-293e2af710f8",
+    "name": "Vulnerability Management Analyst",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on vulnerability management analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "vulnerability", "management", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "splunk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "wazuh",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "indicators-of-compromise",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ida-free",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vulnerability-scanning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vulnerability-prioritization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "security-analyst-soc",
+      "cybersecurity-engineer",
+      "threat-intelligence-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Vulnerability Management Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate Security Fundamentals, Networking, Threat Modeling in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "detection-engineer",
+    "databaseId": "ac0ff623-1be7-4d25-a0f1-025bba7a0e3d",
+    "name": "Detection Engineer",
+    "category": "cybersecurity",
+    "family": "security-operations",
+    "description": "Detect, investigate and respond to security threats with a focus on detection engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-operations", "detection", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "detection-engineering",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "sigma-rules",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-hunting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "incident-response",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "endpoint-detection-and-response",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "network-detection-and-response",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "patch-verification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "security-analyst-soc",
+      "cybersecurity-engineer",
+      "threat-intelligence-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Detection Engineer: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
+    "checkpoint": "Demonstrate Detection Engineering, Sigma Rules, Threat Hunting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "penetration-tester",
+    "databaseId": "cf5e744a-88cb-4a25-a54a-4bf192ae0280",
+    "name": "Penetration Tester",
+    "category": "cybersecurity",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on penetration tester practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-engineering", "penetration", "tester"],
+    "aliases": ["Ethical Hacker"],
+    "skills": [
+      {
+        "skillId": "web-penetration-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "burp-suite",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "penetration-test-reporting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "csrf-prevention",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hashicorp-vault",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-design-patterns",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cissp-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "application-security-engineer",
+      "cloud-security-engineer",
+      "devsecops-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-architect"]
+    },
+    "project": "Penetration Tester: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate Web Penetration Testing, Burp Suite, Penetration Test Reporting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "application-security-engineer",
+    "databaseId": "8daba586-d055-4cbf-a8d3-59bc7e356a1a",
+    "name": "Application Security Engineer",
+    "category": "cybersecurity",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on application security engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-engineering", "application", "security", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "sast",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "owasp-asvs",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "dependency-security",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mobile-security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dast",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tls",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "network-segmentation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["penetration-tester", "cloud-security-engineer", "devsecops-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["security-architect"]
+    },
+    "project": "Application Security Engineer: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate SAST, OWASP ASVS, Dependency Security in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "cloud-security-engineer",
+    "databaseId": "d1391a65-7cd6-431c-ae49-ec32f6d8a1d9",
+    "name": "Cloud Security Engineer",
+    "category": "cybersecurity",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on cloud security engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-engineering", "cloud", "security", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "cloud-security-posture-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-infrastructure-security",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "key-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "authorization-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubernetes-security",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "zero-trust",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "attack-surface-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["penetration-tester", "application-security-engineer", "devsecops-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["security-architect"]
+    },
+    "project": "Cloud Security Engineer: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate Cloud Security Posture Management, Cloud Infrastructure Security, Key Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "devsecops-engineer",
+    "databaseId": "b6fea695-4ed0-4d28-ab74-32b209681d88",
+    "name": "DevSecOps Engineer",
+    "category": "cybersecurity",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on devsecops engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-engineering", "devsecops", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "software-composition-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "secret-scanning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "container-security",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sql-injection-prevention",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "policy-as-code",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scim",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ceh-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "penetration-tester",
+      "application-security-engineer",
+      "cloud-security-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-architect"]
+    },
+    "project": "DevSecOps Engineer: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate Software Composition Analysis, Secret Scanning, Container Security in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "security-architect",
+    "databaseId": "ff61a52d-f2da-4c18-a348-dbe39e0b3edf",
+    "name": "Security Architect",
+    "category": "cybersecurity",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on security architect practice.",
+    "experienceBand": "senior",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-engineering", "security", "architect"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "owasp-top-10",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "owasp-zap",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "metasploit",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "server-side-request-forgery-prevention",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-security-scanning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-architecture-reviews",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "penetration-tester",
+      "application-security-engineer",
+      "cloud-security-engineer"
+    ],
+    "careerPath": {
+      "from": ["penetration-tester", "application-security-engineer"],
+      "to": []
+    },
+    "project": "Security Architect: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate Security Fundamentals, Threat Modeling, Secure Coding in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "identity-access-management-specialist",
+    "databaseId": "2f0b0c37-3c5f-43b9-ae2c-615504840785",
+    "name": "Identity & Access Management Specialist",
+    "category": "cybersecurity",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on identity & access management specialist practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": [
+      "cybersecurity",
+      "security-engineering",
+      "identity",
+      "access",
+      "management",
+      "specialist"
+    ],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "openid-connect",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "saml",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "identity-governance",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cross-site-scripting-prevention",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "open-policy-agent",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secrets-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "certificate-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "privileged-access-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "role-based-access-control",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "attribute-based-access-control",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "access-reviews",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "penetration-tester",
+      "application-security-engineer",
+      "cloud-security-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-architect"]
+    },
+    "project": "Identity & Access Management Specialist: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate OpenID Connect, SAML, Identity Governance in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "security-tester",
+    "databaseId": "9c35ebe2-3b6a-4705-a6cb-a1cc85fa742d",
+    "name": "Security Tester",
+    "category": "cybersecurity",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on security tester practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-engineering", "security", "tester"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "owasp-wstg",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "nmap",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "api-security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-authentication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "public-key-infrastructure",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cryptographic-protocols",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "penetration-tester",
+      "application-security-engineer",
+      "cloud-security-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-architect"]
+    },
+    "project": "Security Tester: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate Security Fundamentals, Threat Modeling, Secure Coding in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "grc-compliance-analyst",
+    "databaseId": "4ab1318f-8422-4541-ab04-0ff4affea269",
+    "name": "GRC / Compliance Analyst",
+    "category": "cybersecurity",
+    "family": "governance",
+    "description": "Translate risk and privacy obligations into controls with a focus on grc / compliance analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "governance", "grc", "compliance", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "control-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "privacy-principles",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "governance-risk-and-compliance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "control-mapping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-impact-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "records-of-processing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "compliance-monitoring",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cisa-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cism-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "privacy-data-protection-officer",
+      "security-compliance-manager",
+      "third-party-risk-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-compliance-manager"]
+    },
+    "project": "GRC / Compliance Analyst: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
+    "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "privacy-data-protection-officer",
+    "databaseId": "b6d2c6ed-c6a6-41ef-a394-93650fa31fa5",
+    "name": "Privacy / Data Protection Officer",
+    "category": "cybersecurity",
+    "family": "governance",
+    "description": "Translate risk and privacy obligations into controls with a focus on privacy / data protection officer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "governance", "privacy", "data", "protection", "officer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "data-protection-impact-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "privacy-notices",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-subject-rights",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "risk-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "control-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "privacy-principles",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "privacy-by-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-minimization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-transfer-assessment",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-discovery",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-loss-prevention",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "grc-compliance-analyst",
+      "security-compliance-manager",
+      "third-party-risk-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-compliance-manager"]
+    },
+    "project": "Privacy / Data Protection Officer: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
+    "checkpoint": "Demonstrate Data Protection Impact Assessment, Privacy Notices, Data Subject Rights in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "security-compliance-manager",
+    "databaseId": "e4d9f772-3a80-4ca8-ade6-efcafdb041ab",
+    "name": "Security Compliance Manager",
+    "category": "cybersecurity",
+    "family": "governance",
+    "description": "Translate risk and privacy obligations into controls with a focus on security compliance manager practice.",
+    "experienceBand": "senior",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "governance", "security", "compliance", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "control-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "privacy-principles",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "iso-27001",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-policies",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audit-readiness",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vendor-security-assessment",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-questionnaires",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-awareness-training",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "information-security-management-systems",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "security-control-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "grc-compliance-analyst",
+      "privacy-data-protection-officer",
+      "third-party-risk-analyst"
+    ],
+    "careerPath": {
+      "from": ["grc-compliance-analyst", "privacy-data-protection-officer"],
+      "to": []
+    },
+    "project": "Security Compliance Manager: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
+    "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "third-party-risk-analyst",
+    "databaseId": "dfab477d-92d1-41b9-a48a-25dc9ecf7cda",
+    "name": "Third-party Risk Analyst",
+    "category": "cybersecurity",
+    "family": "governance",
+    "description": "Translate risk and privacy obligations into controls with a focus on third-party risk analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "governance", "third", "party", "risk", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "control-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "privacy-principles",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "soc-2",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-treatment",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "third-party-risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "anonymization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "exception-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "board-risk-communication",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "grc-compliance-analyst",
+      "privacy-data-protection-officer",
+      "security-compliance-manager"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-compliance-manager"]
+    },
+    "project": "Third-party Risk Analyst: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
+    "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "technology-risk-analyst",
+    "databaseId": "d9dda39d-64c4-49e6-a315-fe3a9c6a5e9d",
+    "name": "Technology Risk Analyst",
+    "category": "cybersecurity",
+    "family": "governance",
+    "description": "Translate risk and privacy obligations into controls with a focus on technology risk analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "governance", "technology", "risk", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "control-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "privacy-principles",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "iso-27002",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-registers",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "consent-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pseudonymization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "regulatory-change-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "iso-27001-auditor-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "grc-compliance-analyst",
+      "privacy-data-protection-officer",
+      "security-compliance-manager"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-compliance-manager"]
+    },
+    "project": "Technology Risk Analyst: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
+    "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "privacy-engineer",
+    "databaseId": "3eb9f82a-cdd0-4c60-ac06-b7cc4d31fb79",
+    "name": "Privacy Engineer",
+    "category": "cybersecurity",
+    "family": "governance",
+    "description": "Translate risk and privacy obligations into controls with a focus on privacy engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "governance", "privacy", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "control-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "privacy-principles",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "nist-cybersecurity-framework",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-continuity-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audit-evidence",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "retention-schedules",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "privacy-threat-modeling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "privacy-engineering",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "crisc-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "grc-compliance-analyst",
+      "privacy-data-protection-officer",
+      "security-compliance-manager"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["security-compliance-manager"]
+    },
+    "project": "Privacy Engineer: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
+    "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

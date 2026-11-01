@@ -1,0 +1,2686 @@
+[
+  {
+    "id": "financial-analyst",
+    "databaseId": "1abbc2fa-35fd-4896-a652-8546f83c4047",
+    "name": "Financial Analyst",
+    "category": "finance",
+    "family": "corporate-finance",
+    "description": "Analyze financial performance and allocate capital with a focus on financial analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "corporate-finance", "financial", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-ratio-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cash-flow-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "budgeting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "working-capital-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "break-even-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-consolidation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "excel-financial-modeling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-controls",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["corporate-finance-associate", "fp-a-analyst", "financial-modeler"],
+    "careerPath": {
+      "from": ["corporate-finance-associate"],
+      "to": []
+    },
+    "project": "Financial Analyst: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
+    "checkpoint": "Demonstrate Financial Ratio Analysis, Cash Flow Analysis, Financial Modeling in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "corporate-finance-associate",
+    "databaseId": "a31536d3-7c80-458f-ad01-ca7455720856",
+    "name": "Corporate Finance Associate",
+    "category": "finance",
+    "family": "corporate-finance",
+    "description": "Analyze financial performance and allocate capital with a focus on corporate finance associate practice.",
+    "experienceBand": "entry",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "corporate-finance", "corporate", "finance", "associate"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "budgeting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "three-statement-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "budget-forecasting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "capital-budgeting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "internal-rate-of-return",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "revenue-forecasting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "intercompany-accounting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "driver-based-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["financial-analyst", "fp-a-analyst", "financial-modeler"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Corporate Finance Associate: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
+    "checkpoint": "Demonstrate Financial Accounting, Financial Modeling, Budgeting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "fp-a-analyst",
+    "databaseId": "e7ac8321-874c-4b4f-ad37-62b63d1b2332",
+    "name": "FP&A Analyst",
+    "category": "finance",
+    "family": "corporate-finance",
+    "description": "Analyze financial performance and allocate capital with a focus on fp&a analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "corporate-finance", "fp", "a", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "rolling-forecasts",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "variance-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "headcount-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "budgeting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "management-accounting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "expense-forecasting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sap-analytics-cloud",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["financial-analyst", "corporate-finance-associate", "financial-modeler"],
+    "careerPath": {
+      "from": ["corporate-finance-associate"],
+      "to": []
+    },
+    "project": "FP&A Analyst: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
+    "checkpoint": "Demonstrate Rolling Forecasts, Variance Analysis, Headcount Planning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "financial-modeler",
+    "databaseId": "81198e88-e740-42d3-a0c6-70290800716a",
+    "name": "Financial Modeler",
+    "category": "finance",
+    "family": "corporate-finance",
+    "description": "Analyze financial performance and allocate capital with a focus on financial modeler practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "corporate-finance", "financial", "modeler"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "budgeting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "balance-sheet-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sensitivity-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "debt-financing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "contribution-margin-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "board-financial-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "oracle-hyperion",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-model-auditing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
+    "careerPath": {
+      "from": ["corporate-finance-associate"],
+      "to": []
+    },
+    "project": "Financial Modeler: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
+    "checkpoint": "Demonstrate Financial Accounting, Financial Modeling, Budgeting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "treasury-analyst",
+    "databaseId": "88293c36-c2d0-4924-adb8-0bed9791be9f",
+    "name": "Treasury Analyst",
+    "category": "finance",
+    "family": "corporate-finance",
+    "description": "Analyze financial performance and allocate capital with a focus on treasury analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "corporate-finance", "treasury", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "cash-forecasting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "liquidity-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cash-pooling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "budgeting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "treasury-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "capex-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "adaptive-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
+    "careerPath": {
+      "from": ["corporate-finance-associate"],
+      "to": []
+    },
+    "project": "Treasury Analyst: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
+    "checkpoint": "Demonstrate Cash Forecasting, Liquidity Management, Cash Pooling in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "cost-accountant",
+    "databaseId": "aa8cf3c7-69ce-4e09-a963-9c725a1bfc78",
+    "name": "Cost Accountant",
+    "category": "finance",
+    "family": "corporate-finance",
+    "description": "Analyze financial performance and allocate capital with a focus on cost accountant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "corporate-finance", "cost", "accountant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "standard-costing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "activity-based-costing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cost-allocation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "budgeting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "weighted-average-cost-of-capital",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cost-accounting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "unit-cost-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "covenant-monitoring",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
+    "careerPath": {
+      "from": ["corporate-finance-associate"],
+      "to": []
+    },
+    "project": "Cost Accountant: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
+    "checkpoint": "Demonstrate Standard Costing, Activity-based Costing, Cost Allocation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "finance-business-partner",
+    "databaseId": "6bcc7c99-5e13-4479-a2ed-6af4214cd95c",
+    "name": "Finance Business Partner",
+    "category": "finance",
+    "family": "corporate-finance",
+    "description": "Analyze financial performance and allocate capital with a focus on finance business partner practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "corporate-finance", "finance", "business", "partner"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "budgeting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "income-statement-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scenario-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "net-present-value",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "capital-structure",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-performance-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "anaplan",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hedging-fundamentals",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
+    "careerPath": {
+      "from": ["corporate-finance-associate"],
+      "to": []
+    },
+    "project": "Finance Business Partner: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
+    "checkpoint": "Demonstrate Financial Accounting, Financial Modeling, Budgeting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "investment-analyst",
+    "databaseId": "31bbce14-eec5-4506-aeda-0ea21d68f43f",
+    "name": "Investment Analyst",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on investment analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "investment", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "valuation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "investment-thesis-writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "securities-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bond-valuation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "options-pricing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "morningstar",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investment-committee-memos",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investment-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["equity-research-analyst", "investment-banking-analyst", "portfolio-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
+    },
+    "project": "Investment Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Valuation, Investment Thesis Writing, Securities Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "equity-research-analyst",
+    "databaseId": "26877958-8461-4f63-a786-d56c8baaa689",
+    "name": "Equity Research Analyst",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on equity research analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "equity", "research", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "equity-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "discounted-cash-flow-valuation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "industry-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "valuation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "equity-value",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "refinitiv-eikon",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fund-economics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cfa-certification-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "private-equity-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["investment-analyst", "investment-banking-analyst", "portfolio-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
+    },
+    "project": "Equity Research Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Equity Research, Discounted Cash Flow Valuation, Industry Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "investment-banking-analyst",
+    "databaseId": "8701a413-b269-4328-a4ea-ed9dcba3df69",
+    "name": "Investment Banking Analyst",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on investment banking analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "investment", "banking", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "comparable-company-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "m-a-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "valuation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "futures",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "deal-screening",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "retirement-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-investing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["investment-analyst", "equity-research-analyst", "portfolio-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
+    },
+    "project": "Investment Banking Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Comparable Company Analysis, M&A Modeling, Financial Modeling in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "portfolio-manager",
+    "databaseId": "fe583ef8-d3c4-46b8-ac59-42074cc2945e",
+    "name": "Portfolio Manager",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on portfolio manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "portfolio", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "portfolio-construction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "performance-attribution",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "asset-allocation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "valuation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "portfolio-theory",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "portfolio-rebalancing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "behavioral-finance",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
+    "careerPath": {
+      "from": ["investment-analyst", "equity-research-analyst"],
+      "to": []
+    },
+    "project": "Portfolio Manager: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Portfolio Construction, Performance Attribution, Asset Allocation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "wealth-manager-financial-planner",
+    "databaseId": "7ad8f49e-68cc-487d-a4b3-000ee28870c9",
+    "name": "Wealth Manager/Financial Planner",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on wealth manager/financial planner practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "wealth", "manager", "financial", "planner"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "valuation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "free-cash-flow",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fixed-income",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "derivatives",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bloomberg-terminal",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "term-sheet-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
+    "careerPath": {
+      "from": ["investment-analyst", "equity-research-analyst"],
+      "to": []
+    },
+    "project": "Wealth Manager/Financial Planner: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Financial Analysis, Valuation, Investment Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "trading-analyst",
+    "databaseId": "4ab55332-75da-4b0a-ae5f-99f5148d38ed",
+    "name": "Trading Analyst",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on trading analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "trading", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "valuation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "enterprise-value",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "benchmark-selection",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "yield-curves",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "market-microstructure",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "algorithmic-trading",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "trading-execution",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
+    },
+    "project": "Trading Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Financial Analysis, Valuation, Investment Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "mergers-acquisitions-analyst",
+    "databaseId": "64be9628-dfca-40e4-a716-a1c2e9a9a13d",
+    "name": "Mergers & Acquisitions Analyst",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on mergers & acquisitions analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "mergers", "acquisitions", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "valuation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "precedent-transactions",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "terminal-value",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "duration-and-convexity",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "swaps",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accretion-dilution-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investor-suitability",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
+    },
+    "project": "Mergers & Acquisitions Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Financial Analysis, Valuation, Investment Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "venture-capital-analyst",
+    "databaseId": "3e7a6f7f-6a85-4f86-ac5f-eafb3a16b981",
+    "name": "Venture Capital Analyst",
+    "category": "finance",
+    "family": "investments",
+    "description": "Evaluate investments and communicate portfolio decisions with a focus on venture capital analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "investments", "venture", "capital", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "startup-valuation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cap-tables",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "due-diligence",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "valuation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investment-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "backtesting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "leveraged-buyout-modeling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "venture-capital-modeling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
+    },
+    "project": "Venture Capital Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
+    "checkpoint": "Demonstrate Startup Valuation, Cap Tables, Due Diligence in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "accountant",
+    "databaseId": "f2f7f50b-ec86-4fd9-ad9f-1a95d088e0e9",
+    "name": "Accountant",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on accountant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "accountant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "general-ledger",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "month-end-close",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-statement-preparation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "substantive-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "employee-expense-controls",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "netsuite",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["chartered-accountant-ca-track", "auditor", "tax-analyst-consultant"],
+    "careerPath": {
+      "from": ["bookkeeper"],
+      "to": []
+    },
+    "project": "Accountant: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate General Ledger, Month-end Close, Financial Statement Preparation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "chartered-accountant-ca-track",
+    "databaseId": "2b0077d3-de96-4fef-a1d6-f8f11fab959b",
+    "name": "Chartered Accountant (CA) track",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on chartered accountant (ca) track practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "chartered", "accountant", "ca", "track"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "journal-entries",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "year-end-close",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ifrs",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "corporate-tax-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "xero",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cpa-certification-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "chartered-accountancy-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["accountant", "auditor", "tax-analyst-consultant"],
+    "careerPath": {
+      "from": ["bookkeeper"],
+      "to": []
+    },
+    "project": "Chartered Accountant (CA) track: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "auditor",
+    "databaseId": "fc83f8de-a23f-47fc-a92f-4439c3955e04",
+    "name": "Auditor",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on auditor practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "auditor"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "audit-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audit-sampling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audit-working-papers",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "internal-audit",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "external-audit",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "document-retention",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audit-analytics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["accountant", "chartered-accountant-ca-track", "tax-analyst-consultant"],
+    "careerPath": {
+      "from": ["bookkeeper"],
+      "to": []
+    },
+    "project": "Auditor: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate Audit Planning, Audit Sampling, Audit Working Papers in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "tax-analyst-consultant",
+    "databaseId": "5b603f29-4781-4a46-a824-0c38423f46e6",
+    "name": "Tax Analyst/Consultant",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on tax analyst/consultant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "tax", "analyst", "consultant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "tax-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "tax-reconciliation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "deferred-tax",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "transfer-pricing-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "oracle-financials",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
+    "careerPath": {
+      "from": ["bookkeeper"],
+      "to": []
+    },
+    "project": "Tax Analyst/Consultant: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate Tax Research, Tax Reconciliation, Deferred Tax in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "bookkeeper",
+    "databaseId": "528f5488-8230-427a-aef5-a61da9803bdb",
+    "name": "Bookkeeper",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on bookkeeper practice.",
+    "experienceBand": "entry",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "bookkeeper"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "trial-balance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bank-reconciliation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "depreciation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fraud-investigation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quickbooks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "segregation-of-duties",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Bookkeeper: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "payroll-specialist",
+    "databaseId": "1a6807bd-c41d-456d-ab4b-0428a0eca98d",
+    "name": "Payroll Specialist",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on payroll specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "payroll", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "payroll-processing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "payroll-reconciliation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-controls",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "indirect-tax-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sap-fico",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-reporting-controls",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
+    "careerPath": {
+      "from": ["bookkeeper"],
+      "to": []
+    },
+    "project": "Payroll Specialist: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate Payroll Processing, Payroll Reconciliation, Financial Controls in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "forensic-accountant",
+    "databaseId": "9b6ceb11-5183-4ebd-a06d-ec7cf1d0f60c",
+    "name": "Forensic Accountant",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on forensic accountant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "forensic", "accountant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "accounts-payable",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "revenue-recognition",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "us-gaap",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "forensic-accounting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tally",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "acca-certification-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
+    "careerPath": {
+      "from": ["bookkeeper"],
+      "to": []
+    },
+    "project": "Forensic Accountant: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "accounting-systems-analyst",
+    "databaseId": "94ac7e9e-5945-4df5-a8be-93247594fb82",
+    "name": "Accounting Systems Analyst",
+    "category": "finance",
+    "family": "accounting",
+    "description": "Maintain accurate and auditable financial records with a focus on accounting systems analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "accounting", "accounting", "systems", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "financial-accounting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bookkeeping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "account-reconciliation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "internal-controls",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "double-entry-accounting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accounts-receivable",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lease-accounting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "inventory-accounting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fixed-asset-accounting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accrual-accounting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "consolidation-accounting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accounting-automation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
+    "careerPath": {
+      "from": ["bookkeeper"],
+      "to": []
+    },
+    "project": "Accounting Systems Analyst: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
+    "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "credit-analyst",
+    "databaseId": "00a3df9e-1400-4a62-a7ac-2e7830063f13",
+    "name": "Credit Analyst",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on credit analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "credit", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "credit-risk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "credit-scoring",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "credit-underwriting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "expected-credit-loss",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "payment-systems",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "regulatory-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["risk-analyst", "quantitative-risk-analyst", "actuary"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Credit Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "risk-analyst",
+    "databaseId": "d974523d-d0af-4924-a59a-9cbec71de95d",
+    "name": "Risk Analyst",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on risk analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "risk", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "operational-risk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "counterparty-risk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-limit-monitoring",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-crime-risk",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "quantitative-risk-analyst", "actuary"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Risk Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "quantitative-risk-analyst",
+    "databaseId": "37ad7489-95fa-40d3-a2a1-8cb5d455d979",
+    "name": "Quantitative Risk Analyst",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on quantitative risk analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "quantitative", "risk", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "market-risk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "liquidity-risk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "value-at-risk",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-adjusted-returns",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "risk-model-validation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "climate-financial-risk",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "risk-analyst", "actuary"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Quantitative Risk Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "actuary",
+    "databaseId": "0349caf5-e1b6-42c0-af03-83cfa85dbaf3",
+    "name": "Actuary",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on actuary practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "actuary"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-covenant-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "stress-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "loss-reserving",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-due-diligence",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "esg-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "frm-certification-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Actuary: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "compliance-officer-finance",
+    "databaseId": "669be0e1-1010-448c-a56f-daf3e908193e",
+    "name": "Compliance Officer (Finance)",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on compliance officer (finance) practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "compliance", "officer", "finance"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "probability-of-default",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "basel-framework-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "underwriting-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-compliance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "materiality-assessment",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "compliance-testing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Compliance Officer (Finance): create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "aml-kyc-analyst",
+    "databaseId": "4ebd19bc-7580-4614-a510-1f01b38af58d",
+    "name": "AML/KYC Analyst",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on aml/kyc analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "aml", "kyc", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "aml",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "kyc",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "claims-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "enhanced-due-diligence",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sustainability-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "actuarial-exam-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "AML/KYC Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate AML, KYC, Risk Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "esg-analyst",
+    "databaseId": "8311546e-b8b1-4e7b-aaba-d6665fa5029d",
+    "name": "ESG Analyst",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on esg analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "esg", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "loss-given-default",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "capital-adequacy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "reinsurance-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "transaction-monitoring",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "open-banking",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "financial-consumer-protection",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "ESG Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "insurance-underwriter",
+    "databaseId": "a5d5c8ae-ff9d-4ea4-ad5b-c6e851400b56",
+    "name": "Insurance Underwriter",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on insurance underwriter practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "insurance", "underwriter"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "expected-shortfall",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "actuarial-mathematics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "insurance-pricing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "suspicious-activity-investigation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fraud-analytics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Insurance Underwriter: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "fintech-product-analyst",
+    "databaseId": "05e72e8e-1c3e-4dbf-af26-06ffd2a5305e",
+    "name": "Fintech Product Analyst",
+    "category": "finance",
+    "family": "financial-risk",
+    "description": "Measure financial uncertainty and regulatory exposure with a focus on fintech product analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "medium",
+    "keywords": ["finance", "financial-risk", "fintech", "product", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "financial-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "regulatory-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "exposure-at-default",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "asset-liability-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "solvency-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sanctions-screening",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fintech-business-models",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Fintech Product Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
+    "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

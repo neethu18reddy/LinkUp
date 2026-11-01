@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "product-manager",
+    "databaseId": "97160724-4eac-4f75-a395-ce1e477999a0",
+    "name": "Product Manager",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on product manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "product", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "product-vision",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "acceptance-criteria",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-analytics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "api-product-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "user-acceptance-coordination",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["technical-product-manager", "associate-product-manager", "product-owner"],
+    "careerPath": {
+      "from": ["product-owner", "business-systems-analyst"],
+      "to": []
+    },
+    "project": "Product Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "technical-product-manager",
+    "databaseId": "02c9173f-5293-4bed-a30d-51d56c3de02f",
+    "name": "Technical Product Manager",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on technical product manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "technical", "product", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "product-market-fit",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "outcome-based-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-launches",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "technical-feasibility-assessment",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-decision-logs",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "associate-product-manager", "product-owner"],
+    "careerPath": {
+      "from": ["product-owner", "business-systems-analyst"],
+      "to": []
+    },
+    "project": "Technical Product Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "associate-product-manager",
+    "databaseId": "3016708f-009e-40a2-a4a9-c7c253d50f15",
+    "name": "Associate Product Manager",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on associate product manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "associate", "product", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "product-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "competitive-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "okrs",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-documentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "uml",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "discovery-interviewing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "technical-product-manager", "product-owner"],
+    "careerPath": {
+      "from": ["product-owner", "business-systems-analyst"],
+      "to": []
+    },
+    "project": "Associate Product Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "product-owner",
+    "databaseId": "6eb76f7d-9df5-4c96-a684-7f7c22b328e2",
+    "name": "Product Owner",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on product owner practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "product", "owner"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "product-roadmapping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rice-prioritization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "go-to-market-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "benefits-realization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-feedback-loops",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["product-manager", "technical-product-manager"]
+    },
+    "project": "Product Owner: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "product-operations-manager",
+    "databaseId": "470d74d1-9a4d-411d-ae06-d212e88d2be8",
+    "name": "Product Operations Manager",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on product operations manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "product", "operations", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-operations",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "backlog-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-experimentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "platform-product-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-enablement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
+    "careerPath": {
+      "from": ["product-owner", "business-systems-analyst"],
+      "to": []
+    },
+    "project": "Product Operations Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Operations, Product Discovery, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "business-systems-analyst",
+    "databaseId": "4a504440-f414-4249-ab4a-14da430b0c85",
+    "name": "Business Systems Analyst",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on business systems analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "business", "systems", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "opportunity-assessment",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "market-sizing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "feature-adoption",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "feedback-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "business-case-development",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "systems-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["product-manager", "technical-product-manager"]
+    },
+    "project": "Business Systems Analyst: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "requirements-analyst",
+    "databaseId": "bcc16ec6-86de-4927-ab75-4b2f3a76c02d",
+    "name": "Requirements Analyst",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on requirements analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "requirements", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "moscow-prioritization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "release-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "requirements-traceability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "roadmap-communication",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["product-manager", "technical-product-manager"]
+    },
+    "project": "Requirements Analyst: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "solutions-consultant",
+    "databaseId": "1a91bf5c-92fc-4a0f-a14b-694760ee205c",
+    "name": "Solutions Consultant",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on solutions consultant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "solutions", "consultant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "value-propositions",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kano-model",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "opportunity-solution-trees",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "use-case-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "solution-consulting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["product-manager", "technical-product-manager"]
+    },
+    "project": "Solutions Consultant: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "implementation-consultant",
+    "databaseId": "5ddbf46c-2016-4a0d-a873-7642f3b9bccf",
+    "name": "Implementation Consultant",
+    "category": "product-management",
+    "family": "product-leadership",
+    "description": "Align product decisions with user and business outcomes with a focus on implementation consultant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "product-leadership", "implementation", "consultant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "requirements-analysis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prioritization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-framing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "user-stories",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pricing-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-advisory-boards",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bpmn",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "implementation-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["product-manager", "technical-product-manager"]
+    },
+    "project": "Implementation Consultant: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
+    "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "scrum-master",
+    "databaseId": "29c2789e-c5ed-4132-aa0a-40559ec391d8",
+    "name": "Scrum Master",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on scrum master practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "scrum", "master"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "scrum",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "issue-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "conflict-resolution",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "psychological-safety",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pmp-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["agile-coach", "project-manager", "program-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["agile-coach", "project-manager"]
+    },
+    "project": "Scrum Master: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Scrum, Communication, Leadership in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "agile-coach",
+    "databaseId": "ac0ed887-fad9-4a51-aad3-be0e27a2384c",
+    "name": "Agile Coach",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on agile coach practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "agile", "coach"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "agile",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "work-in-progress-limits",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "jira",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "team-capacity-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prince2-foundation-preparation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "project-manager", "program-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Agile Coach: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Agile, Communication, Leadership in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "project-manager",
+    "databaseId": "9504ad8c-9d6d-4515-a305-4b89719da38f",
+    "name": "Project Manager",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on project manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "project", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "daily-facilitation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "project-scheduling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "project-budgeting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "project-risk-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "project-status-reporting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microsoft-project",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "agile-coach", "program-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Project Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "program-manager",
+    "databaseId": "a4a71984-bfca-4463-aa40-2039cf780fe6",
+    "name": "Program Manager",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on program manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "program", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "retrospectives",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "program-governance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "team-coaching",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mentoring",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "escalation-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "program-benefits-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Program Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "delivery-manager",
+    "databaseId": "044c415a-f1ba-4ad7-ab66-160f71ecb975",
+    "name": "Delivery Manager",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on delivery manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "delivery", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "lean-delivery",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "work-breakdown-structures",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "asana",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "performance-feedback",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "renewal-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "stakeholder-mapping",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Delivery Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "engineering-manager",
+    "databaseId": "1e9c8250-f17a-4b06-a52e-8237e7a1d1b7",
+    "name": "Engineering Manager",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on engineering manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "engineering", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "sprint-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "critical-path-method",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "trello",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "engineering-hiring",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "engineering-metrics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Engineering Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "technical-program-manager",
+    "databaseId": "bc0b6d87-0eed-4118-a0ad-415db2466a19",
+    "name": "Technical Program Manager",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on technical program manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "technical", "program", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "flow-metrics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "change-control",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "negotiation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "technical-debt-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "certified-scrummaster-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Technical Program Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "customer-success-manager",
+    "databaseId": "b3c628b6-35be-42b9-aab2-a885cdd34423",
+    "name": "Customer Success Manager",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on customer success manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "customer", "success", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "kanban",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dependency-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "confluence",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "decision-making",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-success-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-health-scores",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-onboarding",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Customer Success Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "portfolio-delivery-manager",
+    "databaseId": "d46045f2-970d-41ea-a3f9-39f75b140028",
+    "name": "Portfolio Delivery Manager",
+    "category": "product-management",
+    "family": "delivery-leadership",
+    "description": "Coordinate teams and deliver accountable outcomes with a focus on portfolio delivery manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["product-management", "delivery-leadership", "portfolio", "delivery", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leadership",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "stakeholder-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "project-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "sprint-reviews",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "resource-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "smartsheet",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "career-development",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "executive-business-reviews",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "delivery-forecasting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
+    "careerPath": {
+      "from": ["scrum-master"],
+      "to": []
+    },
+    "project": "Portfolio Delivery Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
+    "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

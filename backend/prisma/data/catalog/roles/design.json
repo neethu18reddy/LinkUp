@@ -1,0 +1,1558 @@
+[
+  {
+    "id": "product-designer",
+    "databaseId": "10000000-0000-4000-8000-000000000018",
+    "name": "Product Designer",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Explore user needs, prototype solutions and refine interfaces.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "product", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "figma",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "product-discovery-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "design-systems",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsive-prototyping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "form-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ux-strategy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ui-designer", "ux-designer", "ux-researcher"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "Product Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate Figma, Product Discovery Research, Design Systems in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ui-designer",
+    "databaseId": "10000000-0000-4000-8000-000000000005",
+    "name": "UI Designer",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Design clear interfaces, test ideas with users, and refine accessible experiences.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "ui", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "ui-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-hierarchy",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "layout-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-tokens",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-critique",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ux-designer", "ux-researcher"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "UI Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate UI Design, Visual Hierarchy, Layout Design in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ux-designer",
+    "databaseId": "40cf2d73-5210-4a8b-ae3f-ed1dab998728",
+    "name": "UX Designer",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Research and design useful experiences with a focus on ux designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "ux", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "journey-mapping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interaction-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "inclusive-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "component-libraries",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-handoff",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ui-designer", "ux-researcher"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "UX Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate Journey Mapping, Interaction Design, Inclusive Design in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ux-researcher",
+    "databaseId": "10000000-0000-4000-8000-000000000017",
+    "name": "UX Researcher",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Plan user research and turn observations into design decisions.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "ux", "researcher"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "user-interviews",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-synthesis",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-consent",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "research-recruitment",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "research-repositories",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quantitative-ux-research",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mixed-methods-research",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "research-operations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "UX Researcher: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate User Interviews, Research Synthesis, Research Consent in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "interaction-designer",
+    "databaseId": "4c5d4e24-8492-4f5f-ae40-d8d459940073",
+    "name": "Interaction Designer",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Research and design useful experiences with a focus on interaction designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "interaction", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "interaction-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-thinking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "card-sorting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "affinity-mapping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "navigation-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sus",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "Interaction Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate Interaction Design, User Research, Wireframing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "design-systems-designer",
+    "databaseId": "71938e5b-80a3-4386-a270-74ce3aa93cc5",
+    "name": "Design Systems Designer",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Research and design useful experiences with a focus on design systems designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "design", "systems", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "design-systems",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "figjam",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "contextual-inquiry",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "user-personas",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accessible-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-qa",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "Design Systems Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate Design Systems, User Research, Wireframing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "content-designer-ux-writer",
+    "databaseId": "dba229a9-9b07-408f-aac1-dab6f2df67f2",
+    "name": "Content Designer / UX Writer",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Research and design useful experiences with a focus on content designer / ux writer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "content", "designer", "ux", "writer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "ux-writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "content-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "error-message-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "heuristic-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-documentation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "content-modeling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "Content Designer / UX Writer: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate UX Writing, Content Design, Error Message Design in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "service-designer",
+    "databaseId": "d9777514-da1e-4e05-afbc-8519bcd36060",
+    "name": "Service Designer",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Research and design useful experiences with a focus on service designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "service", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "adobe-xd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "double-diamond",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tree-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "service-blueprints",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "onboarding-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-facilitation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["information-architect"]
+    },
+    "project": "Service Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate User Research, Wireframing, Prototyping in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "information-architect",
+    "databaseId": "44de956e-e461-4752-a569-66b058ca7159",
+    "name": "Information Architect",
+    "category": "design",
+    "family": "experience-design",
+    "description": "Research and design useful experiences with a focus on information architect practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "experience-design", "information", "architect"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "user-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "wireframing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "usability-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "sketch",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "miro",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "diary-studies",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "jobs-to-be-done",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microcopy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "usability-metrics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
+    "careerPath": {
+      "from": ["product-designer", "ui-designer"],
+      "to": []
+    },
+    "project": "Information Architect: research a real task, prototype an improved experience and document usability findings and iterations.",
+    "checkpoint": "Demonstrate User Research, Wireframing, Prototyping in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "visual-designer",
+    "databaseId": "e923f22c-b137-439c-ab9b-277abba41f34",
+    "name": "Visual Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on visual designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "visual", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "grid-systems",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "icon-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "solidworks",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "concept-sketching",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "visual-storytelling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["graphic-designer", "brand-designer", "motion-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Visual Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "graphic-designer",
+    "databaseId": "e9ad6e1d-d7dd-432d-aa4d-d4265a44963d",
+    "name": "Graphic Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on graphic designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "graphic", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "affinity-designer",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "print-production",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "slide-master-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-for-manufacturing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "print-accessibility",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "brand-designer", "motion-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Graphic Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "brand-designer",
+    "databaseId": "70d0ba6b-1e6e-4c22-a3d1-7d1b2f235731",
+    "name": "Brand Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on brand designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "brand", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "adobe-indesign",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-strategy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-identity",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "brand-guidelines",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "client-design-presentations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "motion-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Brand Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "motion-designer",
+    "databaseId": "f52b75ce-7d74-4579-a9d2-910577717f14",
+    "name": "Motion Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on motion designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "motion", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "motion-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cmyk-workflows",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "blender",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "typeface-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Motion Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Motion Design, Composition, Color Theory in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "3d-designer",
+    "databaseId": "04c10578-0f5c-400c-aee6-39886863ff8f",
+    "name": "3D Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on 3d designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "3d", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "adobe-photoshop",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "editorial-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-driven-slides",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ergonomics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "design-portfolio-curation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "3D Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "industrial-product-designer",
+    "databaseId": "861ae5a1-963f-4acc-ace4-f54dbcf5a210",
+    "name": "Industrial/Product Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on industrial/product designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "industrial", "product", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "canva",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "color-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cinema-4d",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "product-rendering",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "industrial-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Industrial/Product Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "packaging-designer",
+    "databaseId": "7b2d9301-1802-4de3-afad-2998d25b1d74",
+    "name": "Packaging Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on packaging designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "packaging", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "logo-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rgb-workflows",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "3d-modeling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "packaging-dielines",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "packaging-materials",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sustainable-packaging",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Packaging Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "typographer",
+    "databaseId": "7d1bee70-13d3-4276-a167-537fbe15261d",
+    "name": "Typographer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on typographer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "typographer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infographics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fusion-360",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "digital-painting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Typographer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "illustrator",
+    "databaseId": "629a5625-fcb1-4d0f-afab-b3833ff21678",
+    "name": "Illustrator",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on illustrator practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "illustrator"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "adobe-illustrator",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prepress",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "adobe-after-effects",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lettering",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Illustrator: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "creative-director",
+    "databaseId": "97e26f93-a3f4-4274-a68c-2fb9633267bd",
+    "name": "Creative Director",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on creative director practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "creative", "director"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "affinity-publisher",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creative-briefs",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "font-licensing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creative-project-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": ["visual-designer", "graphic-designer"],
+      "to": []
+    },
+    "project": "Creative Director: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "presentation-designer",
+    "databaseId": "9b943136-0447-4a3a-ae58-c44715480314",
+    "name": "Presentation Designer",
+    "category": "design",
+    "family": "visual-design",
+    "description": "Communicate ideas through visual systems with a focus on presentation designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["design", "visual-design", "presentation", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "presentation-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "typography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "visual-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vector-illustration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cad",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "illustration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
+    "careerPath": {
+      "from": [],
+      "to": ["creative-director"]
+    },
+    "project": "Presentation Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
+    "checkpoint": "Demonstrate Presentation Design, Composition, Color Theory in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

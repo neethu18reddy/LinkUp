@@ -1,0 +1,2149 @@
+[
+  {
+    "id": "cloud-engineer",
+    "databaseId": "856b88bb-1ba7-4cd4-a34e-a6d0f1c019aa",
+    "name": "Cloud Engineer",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on cloud engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "cloud", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-backup",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-rds",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-ecs",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-cloudfront",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-data-transfer",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-architect", "aws-engineer", "azure-engineer"],
+    "careerPath": {
+      "from": ["cloud-support-engineer"],
+      "to": ["cloud-architect", "solutions-architect"]
+    },
+    "project": "Cloud Engineer: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate Cloud Computing, Cloud Networking, Cloud Backup in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "cloud-architect",
+    "databaseId": "f507f0a3-b30b-4a75-af6f-6de786b6c571",
+    "name": "Cloud Architect",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on cloud architect practice.",
+    "experienceBand": "senior",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "cloud", "architect"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "aws-s3",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-lambda",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-vpc",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-cloudwatch",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-route-53",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-bicep",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "google-cloud-storage",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "google-cloud-run",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gcp-cloud-functions",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gcp-cloud-sql",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gcp-cloud-monitoring",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-engineer", "aws-engineer", "azure-engineer"],
+    "careerPath": {
+      "from": ["cloud-engineer", "aws-engineer"],
+      "to": []
+    },
+    "project": "Cloud Architect: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate Cloud Computing, Networking, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "aws-engineer",
+    "databaseId": "a159b2d7-52d8-4ca5-ac7b-20cc2b0c75e1",
+    "name": "AWS Engineer",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on aws engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "aws", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "aws",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "aws-ec2",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "aws-iam",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "linux",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-cloudformation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-eks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-organizations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "aws-solutions-architect-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-engineer", "cloud-architect", "azure-engineer"],
+    "careerPath": {
+      "from": ["cloud-support-engineer"],
+      "to": ["cloud-architect", "solutions-architect"]
+    },
+    "project": "AWS Engineer: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate AWS, AWS EC2, AWS IAM in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "azure-engineer",
+    "databaseId": "c654098c-5c60-4fbe-ac41-d9422792decb",
+    "name": "Azure Engineer",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on azure engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "azure", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "microsoft-azure",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "azure-virtual-machines",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "azure-entra-id",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "linux",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-storage",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-functions",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-virtual-network",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-sql",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-monitor",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-app-service",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-aks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-resource-manager",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-engineer", "cloud-architect", "aws-engineer"],
+    "careerPath": {
+      "from": ["cloud-support-engineer"],
+      "to": ["cloud-architect", "solutions-architect"]
+    },
+    "project": "Azure Engineer: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate Microsoft Azure, Azure Virtual Machines, Azure Entra ID in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "gcp-engineer",
+    "databaseId": "5986dc38-0bca-4d83-a97f-e2037e4024a6",
+    "name": "GCP Engineer",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on gcp engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "gcp", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "google-cloud",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "gcp-compute-engine",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "gcp-iam",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "linux",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gcp-vpc",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gcp-gke",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "google-cloud-associate-cloud-engineer",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-engineer", "cloud-architect", "aws-engineer"],
+    "careerPath": {
+      "from": ["cloud-support-engineer"],
+      "to": ["cloud-architect", "solutions-architect"]
+    },
+    "project": "GCP Engineer: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate Google Cloud, GCP Compute Engine, GCP IAM in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "cloud-support-engineer",
+    "databaseId": "5a914f59-f113-410d-a4b0-2398101ab0b7",
+    "name": "Cloud Support Engineer",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on cloud support engineer practice.",
+    "experienceBand": "entry",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "cloud", "support", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-landing-zones",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "multi-cloud-architecture",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-cost-allocation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-service-quotas",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-well-architected-reviews",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-engineer", "cloud-architect", "aws-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["cloud-architect", "solutions-architect"]
+    },
+    "project": "Cloud Support Engineer: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate Cloud Computing, Networking, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "solutions-architect",
+    "databaseId": "56dd69e8-4434-4e8b-af5e-82e2220e0d14",
+    "name": "Solutions Architect",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on solutions architect practice.",
+    "experienceBand": "senior",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "solutions", "architect"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "shared-responsibility-model",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "serverless-architecture",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "azure-administrator-certification",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-engineer", "cloud-architect", "aws-engineer"],
+    "careerPath": {
+      "from": ["cloud-engineer", "aws-engineer"],
+      "to": []
+    },
+    "project": "Solutions Architect: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate Cloud Computing, Networking, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "cloud-migration-engineer",
+    "databaseId": "6bb51cf6-9e69-49c1-a3c5-d98cd838fb8f",
+    "name": "Cloud Migration Engineer",
+    "category": "infrastructure",
+    "family": "cloud-platforms",
+    "description": "Operate scalable cloud infrastructure with a focus on cloud migration engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "cloud-platforms", "cloud", "migration", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "cloud-migration",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "identity-and-access-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-disaster-recovery",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-capacity-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-tagging",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-resilience",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cloud-infrastructure-security",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["cloud-engineer", "cloud-architect", "aws-engineer"],
+    "careerPath": {
+      "from": ["cloud-support-engineer"],
+      "to": ["cloud-architect", "solutions-architect"]
+    },
+    "project": "Cloud Migration Engineer: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
+    "checkpoint": "Demonstrate Cloud Migration, Cloud Computing, Networking in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "devops-engineer",
+    "databaseId": "10000000-0000-4000-8000-000000000006",
+    "name": "DevOps Engineer",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Automate delivery and learn to operate dependable application environments.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "delivery-platforms", "devops", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "docker",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "terraform",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ansible",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "opentofu",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "circleci",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "jaeger",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "chaos-engineering",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "platform-engineer",
+      "site-reliability-engineer-sre",
+      "kubernetes-container-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "DevOps Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate Docker, CI/CD, Terraform in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "platform-engineer",
+    "databaseId": "10000000-0000-4000-8000-000000000021",
+    "name": "Platform Engineer",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Build reproducible environments and improve delivery workflows.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "delivery-platforms", "platform", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "kubernetes",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "gitops",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "artifact-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "flux",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "istio",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "datadog",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "reserved-capacity-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "devops-engineer",
+      "site-reliability-engineer-sre",
+      "kubernetes-container-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Platform Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate Kubernetes, GitOps, Artifact Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "site-reliability-engineer-sre",
+    "databaseId": "07967318-b16c-4dcd-a58d-f9abe8d7c502",
+    "name": "Site Reliability Engineer (SRE)",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Automate safe and reliable software delivery with a focus on site reliability engineer (sre) practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "delivery-platforms", "site", "reliability", "engineer", "sre"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "service-level-objectives",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "error-budgets",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "incident-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gitlab-ci",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "grafana",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "postmortems",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "terraform-associate-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["devops-engineer", "platform-engineer", "kubernetes-container-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Site Reliability Engineer (SRE): create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate Service Level Objectives, Error Budgets, Incident Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "kubernetes-container-engineer",
+    "databaseId": "e2e0cff7-d257-4145-a738-f764868887c5",
+    "name": "Kubernetes/Container Engineer",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Automate safe and reliable software delivery with a focus on kubernetes/container engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "delivery-platforms", "kubernetes", "container", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "kubernetes",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "helm",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "kubernetes-networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kustomize",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "container-registries",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "container-image-hardening",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubernetes-rbac",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubernetes-storage",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubernetes-operators",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubernetes-autoscaling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubernetes-cka-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Kubernetes/Container Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate Kubernetes, Helm, Kubernetes Networking in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "infrastructure-as-code-engineer",
+    "databaseId": "29251e3c-b05c-45b4-ab28-9d999a510e58",
+    "name": "Infrastructure as Code Engineer",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Automate safe and reliable software delivery with a focus on infrastructure as code engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": [
+      "infrastructure",
+      "delivery-platforms",
+      "infrastructure",
+      "as",
+      "code",
+      "engineer"
+    ],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "terraform",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "pulumi",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-as-code",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vagrant",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tekton",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "loki",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "canary-releases",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Infrastructure as Code Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate Terraform, Pulumi, Policy as Code in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "release-build-engineer",
+    "databaseId": "7e58c56e-02cd-4f41-a062-0c8548d1501e",
+    "name": "Release/Build Engineer",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Automate safe and reliable software delivery with a focus on release/build engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "delivery-platforms", "release", "build", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "build-reproducibility",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "github-actions",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "deployment-rollbacks",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "jenkins",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "linkerd",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "service-level-indicators",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubernetes-ckad-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Release/Build Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate Build Reproducibility, GitHub Actions, Deployment Rollbacks in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "observability-engineer",
+    "databaseId": "93f20e91-d47f-4788-a918-e72c7074b3aa",
+    "name": "Observability Engineer",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Automate safe and reliable software delivery with a focus on observability engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "delivery-platforms", "observability", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "opentelemetry",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prometheus",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "distributed-tracing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "argo-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "service-mesh",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "elastic-stack",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "software-bill-of-materials",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Observability Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate OpenTelemetry, Prometheus, Distributed Tracing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "finops-practitioner",
+    "databaseId": "7acfbd26-5a93-454c-a2da-4feecfe56795",
+    "name": "FinOps Practitioner",
+    "category": "infrastructure",
+    "family": "delivery-platforms",
+    "description": "Automate safe and reliable software delivery with a focus on finops practitioner practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "delivery-platforms", "finops", "practitioner"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "finops",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cloud-cost-forecasting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "unit-economics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "git",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ci-cd",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "infrastructure-as-code",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "packer",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "buildkite",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "zipkin",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "blue-green-deployment",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "FinOps Practitioner: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
+    "checkpoint": "Demonstrate FinOps, Cloud Cost Forecasting, Unit Economics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "linux-administrator",
+    "databaseId": "10000000-0000-4000-8000-000000000022",
+    "name": "Linux Administrator",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Practice Linux operations, scripting and repeatable environment setup.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "it-operations", "linux", "administrator"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "windows-server",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vlans",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tcpdump",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kvm",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "recovery-time-objectives",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ticket-triage",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "google-workspace-administration",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["systems-administrator", "network-engineer", "network-security-engineer"],
+    "careerPath": {
+      "from": ["it-support-engineer", "help-desk-technical-support-specialist"],
+      "to": []
+    },
+    "project": "Linux Administrator: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "systems-administrator",
+    "databaseId": "d2f55bc7-333b-44f0-a23f-130e7ad05032",
+    "name": "Systems Administrator",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Maintain dependable networks and user systems with a focus on systems administrator practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "it-operations", "systems", "administrator"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "dhcp",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ipv6",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cisco-ios",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "nas",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "endpoint-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "print-services",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["linux-administrator", "network-engineer", "network-security-engineer"],
+    "careerPath": {
+      "from": ["it-support-engineer", "help-desk-technical-support-specialist"],
+      "to": []
+    },
+    "project": "Systems Administrator: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "network-engineer",
+    "databaseId": "8477b309-f799-4501-a1a2-17df6000615b",
+    "name": "Network Engineer",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Maintain dependable networks and user systems with a focus on network engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "it-operations", "network", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "active-directory",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vpn",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "network-address-translation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "network-automation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "disaster-recovery-testing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "it-asset-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hardware-diagnostics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "comptia-networkplus-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["linux-administrator", "systems-administrator", "network-security-engineer"],
+    "careerPath": {
+      "from": ["it-support-engineer", "help-desk-technical-support-specialist"],
+      "to": []
+    },
+    "project": "Network Engineer: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "network-security-engineer",
+    "databaseId": "1d43e6b3-83fb-4805-a162-965f76347b32",
+    "name": "Network Security Engineer",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Maintain dependable networks and user systems with a focus on network security engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "it-operations", "network", "security", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "group-policy",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bgp",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "network-monitoring",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "proxmox",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "patch-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "itil",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ccna-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["linux-administrator", "systems-administrator", "network-engineer"],
+    "careerPath": {
+      "from": ["it-support-engineer", "help-desk-technical-support-specialist"],
+      "to": []
+    },
+    "project": "Network Security Engineer: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "virtualization-engineer",
+    "databaseId": "7a9c3e52-abd8-4937-a072-8d7cdb7838e8",
+    "name": "Virtualization Engineer",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Maintain dependable networks and user systems with a focus on virtualization engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "it-operations", "virtualization", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "tcp-ip",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "firewalls",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "juniper-junos",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "virtual-machine-migration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microsoft-intune",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "email-administration",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["linux-administrator", "systems-administrator", "network-engineer"],
+    "careerPath": {
+      "from": ["it-support-engineer", "help-desk-technical-support-specialist"],
+      "to": []
+    },
+    "project": "Virtualization Engineer: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "storage-backup-administrator",
+    "databaseId": "b7ca1f82-2d14-4ba0-ab3f-65fbaac739bd",
+    "name": "Storage/Backup Administrator",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Maintain dependable networks and user systems with a focus on storage/backup administrator practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "it-operations", "storage", "backup", "administrator"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "dns",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ospf",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "snmp",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "san",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "storage-provisioning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "backup-strategy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "comptia-aplus-certification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["linux-administrator", "systems-administrator", "network-engineer"],
+    "careerPath": {
+      "from": ["it-support-engineer", "help-desk-technical-support-specialist"],
+      "to": []
+    },
+    "project": "Storage/Backup Administrator: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "it-support-engineer",
+    "databaseId": "0c64f2da-e855-4f1f-afc6-107d51f7e8e7",
+    "name": "IT Support Engineer",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Maintain dependable networks and user systems with a focus on it support engineer practice.",
+    "experienceBand": "entry",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["infrastructure", "it-operations", "it", "support", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "powershell",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "switching",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "wireshark",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hyper-v",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "recovery-point-objectives",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "remote-desktop-support",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microsoft-365-administration",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["linux-administrator", "systems-administrator", "network-engineer"],
+    "careerPath": {
+      "from": ["help-desk-technical-support-specialist"],
+      "to": []
+    },
+    "project": "IT Support Engineer: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "help-desk-technical-support-specialist",
+    "databaseId": "efc3b405-32d4-4411-a7c8-01a19494ead5",
+    "name": "Help Desk / Technical Support Specialist",
+    "category": "infrastructure",
+    "family": "it-operations",
+    "description": "Maintain dependable networks and user systems with a focus on help desk / technical support specialist practice.",
+    "experienceBand": "entry",
+    "trending": true,
+    "demand": "high",
+    "keywords": [
+      "infrastructure",
+      "it-operations",
+      "help",
+      "desk",
+      "technical",
+      "support",
+      "specialist"
+    ],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "networking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "troubleshooting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linux",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-support",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "bash",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "routing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "wi-fi-administration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vmware-vsphere",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "raid",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sccm",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "service-desk-knowledge-bases",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["linux-administrator", "systems-administrator", "network-engineer"],
+    "careerPath": {
+      "from": ["it-support-engineer"],
+      "to": []
+    },
+    "project": "Help Desk / Technical Support Specialist: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
+    "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

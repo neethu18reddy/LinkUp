@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "healthcare-informatics-specialist",
+    "databaseId": "48d976bc-56f9-4d6c-a5a0-9d2c5386b10c",
+    "name": "Healthcare Informatics Specialist",
+    "category": "other",
+    "family": "science-health",
+    "description": "Apply computation and evidence in specialist domains with a focus on healthcare informatics specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "science-health", "healthcare", "informatics", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "healthcare-informatics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "scientific-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "snomed-ct",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "healthcare-interoperability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "public-health-surveillance",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "blast",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rna-seq-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bioconductor",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "laboratory-information-systems",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "biological-networks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "bioinformatics-analyst",
+      "clinical-informatics-analyst",
+      "computational-biologist"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Healthcare Informatics Specialist: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
+    "checkpoint": "Demonstrate Healthcare Informatics, Research Methods, Statistics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "bioinformatics-analyst",
+    "databaseId": "e30bdccb-826a-428d-a0f5-ac66e0f462e1",
+    "name": "Bioinformatics Analyst",
+    "category": "other",
+    "family": "science-health",
+    "description": "Apply computation and evidence in specialist domains with a focus on bioinformatics analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "science-health", "bioinformatics", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "bioinformatics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "sequence-alignment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "biopython",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scientific-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "patient-safety-informatics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "molecular-biology",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fasta-formats",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "single-cell-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "nextflow",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "biomedical-ontologies",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pathway-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "healthcare-informatics-specialist",
+      "clinical-informatics-analyst",
+      "computational-biologist"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Bioinformatics Analyst: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
+    "checkpoint": "Demonstrate Bioinformatics, Sequence Alignment, Biopython in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "clinical-informatics-analyst",
+    "databaseId": "2e9d5bbf-2ee6-4d9f-a643-54309395d080",
+    "name": "Clinical Informatics Analyst",
+    "category": "other",
+    "family": "science-health",
+    "description": "Apply computation and evidence in specialist domains with a focus on clinical informatics analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "science-health", "clinical", "informatics", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "scientific-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "clinical-workflows",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fhir",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clinical-terminologies",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clinical-decision-support",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clinical-data-standards",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clinical-study-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "genome-annotation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "snakemake",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clinical-data-privacy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "research-ethics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clinical-validation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "healthcare-informatics-specialist",
+      "bioinformatics-analyst",
+      "computational-biologist"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Clinical Informatics Analyst: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
+    "checkpoint": "Demonstrate Research Methods, Statistics, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "computational-biologist",
+    "databaseId": "71a204ff-16ad-40e5-a51f-442ab74cae37",
+    "name": "Computational Biologist",
+    "category": "other",
+    "family": "science-health",
+    "description": "Apply computation and evidence in specialist domains with a focus on computational biologist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "science-health", "computational", "biologist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "scientific-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "hl7",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dicom",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "loinc",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "epidemiology",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "genetics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sam-bam-formats",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "phylogenetics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "galaxy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "computational-biology",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bioscience-literature-search",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "healthcare-informatics-specialist",
+      "bioinformatics-analyst",
+      "clinical-informatics-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Computational Biologist: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
+    "checkpoint": "Demonstrate Research Methods, Statistics, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "health-data-engineer",
+    "databaseId": "0a8781ca-d1d0-4fed-ac48-a17c760eb724",
+    "name": "Health Data Engineer",
+    "category": "other",
+    "family": "science-health",
+    "description": "Apply computation and evidence in specialist domains with a focus on health data engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "science-health", "health", "data", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "statistics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "scientific-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "electronic-health-records",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "health-information-exchange",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "icd-coding-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "health-data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "genomics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "variant-calling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "protein-structure-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "reproducible-scientific-workflows",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "research-data-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scientific-data-visualization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "healthcare-informatics-specialist",
+      "bioinformatics-analyst",
+      "clinical-informatics-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Health Data Engineer: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
+    "checkpoint": "Demonstrate Research Methods, Statistics, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "edtech-instructional-designer",
+    "databaseId": "bc80af08-cd95-4155-a94a-1f1a91917b64",
+    "name": "EdTech Instructional Designer",
+    "category": "other",
+    "family": "emerging-domains",
+    "description": "Combine specialist knowledge with practical digital methods with a focus on edtech instructional designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "emerging-domains", "edtech", "instructional", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "instructional-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "learning-objectives",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "articulate-storyline",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "technical-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "addie",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "backward-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bloom-taxonomy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "assessment-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "e-learning-storyboards",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "articulate-rise",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "h5p",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scorm",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "legal-tech-analyst",
+      "sustainability-climate-tech-analyst",
+      "geospatial-developer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "EdTech Instructional Designer: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
+    "checkpoint": "Demonstrate Instructional Design, Learning Objectives, Articulate Storyline in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "legal-tech-analyst",
+    "databaseId": "b7dd4431-8469-4503-aab9-7209ec7b093e",
+    "name": "Legal Tech Analyst",
+    "category": "other",
+    "family": "emerging-domains",
+    "description": "Combine specialist knowledge with practical digital methods with a focus on legal tech analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "emerging-domains", "legal", "tech", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "learning-analytics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "legal-technology",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "legal-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "contract-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "e-discovery",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "legal-document-automation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "legal-operations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "legal-knowledge-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "edtech-instructional-designer",
+      "sustainability-climate-tech-analyst",
+      "geospatial-developer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Legal Tech Analyst: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
+    "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "sustainability-climate-tech-analyst",
+    "databaseId": "3002bdd4-b3c2-463f-abc9-a2b9e7b90dc0",
+    "name": "Sustainability/Climate Tech Analyst",
+    "category": "other",
+    "family": "emerging-domains",
+    "description": "Combine specialist knowledge with practical digital methods with a focus on sustainability/climate tech analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "emerging-domains", "sustainability", "climate", "tech", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "educational-technology-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sustainability-analysis",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scope-2-emissions",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "life-cycle-assessment",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "climate-scenario-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "circular-economy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["edtech-instructional-designer", "legal-tech-analyst", "geospatial-developer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Sustainability/Climate Tech Analyst: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
+    "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "geospatial-developer",
+    "databaseId": "65b1f7d5-6b2a-4e3a-aa84-7f75ea3dc13b",
+    "name": "Geospatial Developer",
+    "category": "other",
+    "family": "emerging-domains",
+    "description": "Combine specialist knowledge with practical digital methods with a focus on geospatial developer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "emerging-domains", "geospatial", "developer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "geopandas",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "gdal",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "leaflet",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "technical-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "geospatial-development",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rasterio",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mapbox",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "remote-sensing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "satellite-imagery-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "earth-engine",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "edtech-instructional-designer",
+      "legal-tech-analyst",
+      "sustainability-climate-tech-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Geospatial Developer: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
+    "checkpoint": "Demonstrate GeoPandas, GDAL, Leaflet in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "quantum-computing-developer",
+    "databaseId": "0b9d15fe-e362-4eb2-a69e-8348b979652e",
+    "name": "Quantum Computing Developer",
+    "category": "other",
+    "family": "emerging-domains",
+    "description": "Combine specialist knowledge with practical digital methods with a focus on quantum computing developer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "emerging-domains", "quantum", "computing", "developer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "quantum-circuits",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "quantum-algorithms",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "qiskit",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "quantum-computing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-methods",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "technical-communication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cirq",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quantum-gates",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quantum-error-correction",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quantum-simulation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "quantum-information-theory",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "edtech-instructional-designer",
+      "legal-tech-analyst",
+      "sustainability-climate-tech-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Quantum Computing Developer: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
+    "checkpoint": "Demonstrate Quantum Circuits, Quantum Algorithms, Qiskit in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "energy-data-analyst",
+    "databaseId": "dd23edb8-1d02-4d2d-af8d-aa58f8b55b4a",
+    "name": "Energy Data Analyst",
+    "category": "other",
+    "family": "emerging-domains",
+    "description": "Combine specialist knowledge with practical digital methods with a focus on energy data analyst practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "emerging-domains", "energy", "data", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "universal-design-for-learning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "carbon-footprinting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scope-1-emissions",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scope-3-emissions",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "energy-systems",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "renewable-energy-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "environmental-data-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "esg-data-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "edtech-instructional-designer",
+      "legal-tech-analyst",
+      "sustainability-climate-tech-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Energy Data Analyst: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
+    "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "digital-accessibility-consultant",
+    "databaseId": "fcccaa09-8863-4f05-aea8-6ea8cdb90c3f",
+    "name": "Digital Accessibility Consultant",
+    "category": "other",
+    "family": "emerging-domains",
+    "description": "Combine specialist knowledge with practical digital methods with a focus on digital accessibility consultant practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["other", "emerging-domains", "digital", "accessibility", "consultant"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "research-methods",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "problem-solving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-ethics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "technical-communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "xapi",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "greenhouse-gas-accounting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "assistive-technology-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accessible-document-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "inclusive-service-evaluation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "edtech-instructional-designer",
+      "legal-tech-analyst",
+      "sustainability-climate-tech-analyst"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Digital Accessibility Consultant: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
+    "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

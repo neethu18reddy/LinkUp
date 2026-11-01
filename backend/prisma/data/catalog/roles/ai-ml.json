@@ -1,0 +1,2218 @@
+[
+  {
+    "id": "ai-engineer",
+    "databaseId": "5ea9ccd2-6367-4f15-aeb4-d82f8427e3cd",
+    "name": "AI Engineer",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on ai engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "ai", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "embeddings",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "structured-generation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "in-context-learning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "reranking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dspy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lora",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["llm-engineer", "generative-ai-developer", "prompt-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "AI Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate Embeddings, Structured Generation, Model Evaluation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "llm-engineer",
+    "databaseId": "f3e38b4b-e154-4c00-a34d-8a90958a4c49",
+    "name": "LLM Engineer",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on llm engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "llm", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "llm-fine-tuning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "token-budgeting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-routing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "llm-caching",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "qdrant",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ai-red-teaming",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "generative-ai-developer", "prompt-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "LLM Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate LLM Fine-tuning, Token Budgeting, Model Routing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "generative-ai-developer",
+    "databaseId": "fc170b7f-224e-43bd-ab1a-6677bbb35b70",
+    "name": "Generative AI Developer",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on generative ai developer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "generative", "ai", "developer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "multimodal-prompting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "hugging-face-transformers",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "synthetic-data-generation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hallucination-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "chroma",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "preference-optimization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "llm-engineer", "prompt-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "Generative AI Developer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate Multimodal Prompting, Hugging Face Transformers, Synthetic Data Generation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "prompt-engineer",
+    "databaseId": "c9b110f2-6e0b-4257-aeeb-6ea5b98839b0",
+    "name": "Prompt Engineer",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on prompt engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "prompt", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "prompt-engineering",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "few-shot-prompting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prompt-injection-defense",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "langchain",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "milvus",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-context-protocol",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "Prompt Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate Prompt Engineering, Few-shot Prompting, Prompt Injection Defense in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ai-agent-developer",
+    "databaseId": "f162231a-652e-4d30-a437-6a489e11f5af",
+    "name": "AI Agent Developer",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on ai agent developer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "ai", "agent", "developer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "ai-agents",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "tool-calling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "agent-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "multi-agent-orchestration",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "langgraph",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pgvector",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "AI Agent Developer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate AI Agents, Tool Calling, Agent Evaluation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "rag-engineer",
+    "databaseId": "3e925220-f730-4f14-a185-5f7528d6b8e9",
+    "name": "RAG Engineer",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on rag engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "rag", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "retrieval-augmented-generation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "hybrid-search",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "retrieval-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "llamaindex",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "weaviate",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "RAG Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate Retrieval-augmented Generation, Hybrid Search, Retrieval Evaluation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "conversational-ai-chatbot-developer",
+    "databaseId": "baa0fb08-9c7b-4272-aa15-a48538530e2e",
+    "name": "Conversational AI / Chatbot Developer",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on conversational ai / chatbot developer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "conversational", "ai", "chatbot", "developer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "conversation-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "dialogue-state-tracking",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "intent-classification",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "grounded-generation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "faiss",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "instruction-tuning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "Conversational AI / Chatbot Developer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate Conversation Design, Dialogue State Tracking, Intent Classification in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ai-automation-specialist",
+    "databaseId": "c1d3c3ce-fd5c-40a0-a9a3-a9876470e3d2",
+    "name": "AI Automation Specialist",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on ai automation specialist practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "ai", "automation", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "ai-workflow-automation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "human-in-the-loop-ai",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "llm-observability",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vector-search",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "semantic-kernel",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pinecone",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-solutions-architect"]
+    },
+    "project": "AI Automation Specialist: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate AI Workflow Automation, Human-in-the-loop AI, LLM Observability in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ai-solutions-architect",
+    "databaseId": "3747fd02-1b5c-47a4-a6ba-daca642e19d4",
+    "name": "AI Solutions Architect",
+    "category": "ai-ml",
+    "family": "applied-ai",
+    "description": "Build and evaluate language-model applications with a focus on ai solutions architect practice.",
+    "experienceBand": "senior",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "applied-ai", "ai", "solutions", "architect"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "model-routing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "llm-cost-optimization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "llm-guardrails",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "machine-learning-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "chunking-strategies",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sentence-transformers",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "qlora",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
+    "careerPath": {
+      "from": ["ai-engineer", "llm-engineer"],
+      "to": []
+    },
+    "project": "AI Solutions Architect: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
+    "checkpoint": "Demonstrate Model Routing, LLM Cost Optimization, LLM Guardrails in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "machine-learning-engineer",
+    "databaseId": "3050061e-524e-479f-a350-8343abf87f50",
+    "name": "Machine Learning Engineer",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on machine learning engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "machine", "learning", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "scikit-learn",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "feature-engineering",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "cross-validation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "unsupervised-learning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bayesian-optimization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "causal-machine-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "multimodal-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["deep-learning-engineer", "computer-vision-engineer", "nlp-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "Machine Learning Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate scikit-learn, Feature Engineering, Cross-validation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "deep-learning-engineer",
+    "databaseId": "623ea890-b1a7-4481-aad9-529a6ab47dd2",
+    "name": "Deep Learning Engineer",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on deep learning engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "deep", "learning", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "pytorch",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "neural-networks",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "backpropagation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "supervised-learning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hyperparameter-optimization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "image-classification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "contrastive-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["machine-learning-engineer", "computer-vision-engineer", "nlp-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "Deep Learning Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate PyTorch, Neural Networks, Backpropagation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "computer-vision-engineer",
+    "databaseId": "5794e78e-22da-4610-abc2-11bf523a1f84",
+    "name": "Computer Vision Engineer",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on computer vision engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "computer", "vision", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "computer-vision",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "object-detection",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "image-segmentation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "decision-trees",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "optimization-algorithms",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "convolutional-neural-networks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "optical-character-recognition",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["machine-learning-engineer", "deep-learning-engineer", "nlp-engineer"],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "Computer Vision Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Computer Vision, Object Detection, Image Segmentation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "nlp-engineer",
+    "databaseId": "0d6e3e7c-0ffa-4245-a057-548b9a783fee",
+    "name": "NLP Engineer",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on nlp engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "nlp", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "natural-language-processing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "tokenization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "named-entity-recognition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gradient-boosting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "transformers",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "text-classification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "deep-learning-engineer",
+      "computer-vision-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "NLP Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Natural Language Processing, Tokenization, Named Entity Recognition in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "speech-audio-ai-engineer",
+    "databaseId": "f5070cf3-45c2-4e9b-a952-aade3dc3872b",
+    "name": "Speech/Audio AI Engineer",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on speech/audio ai engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "speech", "audio", "ai", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "speech-recognition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-feature-extraction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "text-to-speech-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tensorflow",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "diffusion-models",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "deep-learning-engineer",
+      "computer-vision-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "Speech/Audio AI Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Speech Recognition, Audio Feature Extraction, Text-to-speech Modeling in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "reinforcement-learning-engineer",
+    "databaseId": "32839413-5bc5-4ba7-adfc-8e9509945f29",
+    "name": "Reinforcement Learning Engineer",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on reinforcement learning engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "reinforcement", "learning", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "reinforcement-learning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "markov-decision-processes",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "policy-gradients",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "xgboost",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "attention-mechanisms",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "q-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "offline-reinforcement-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "deep-learning-engineer",
+      "computer-vision-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "Reinforcement Learning Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Reinforcement Learning, Markov Decision Processes, Policy Gradients in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "applied-scientist",
+    "databaseId": "085257d1-ea3a-4b84-a20b-dd9b3cab3406",
+    "name": "Applied Scientist",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on applied scientist practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "applied", "scientist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "experimental-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ablation-studies",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "uncertainty-estimation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "regression",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clustering",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "jax",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "generative-adversarial-networks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "deep-learning-engineer",
+      "computer-vision-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "Applied Scientist: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Experimental Design, Ablation Studies, Uncertainty Estimation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "research-scientist-ai",
+    "databaseId": "e77904b6-e6a5-4b31-a5a9-500dbbf17019",
+    "name": "Research Scientist (AI)",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Develop and test learning algorithms with a focus on research scientist (ai) practice.",
+    "experienceBand": "senior",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "research", "scientist", "ai"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "scientific-literature-review",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research-reproducibility",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "self-supervised-learning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lightgbm",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "recurrent-neural-networks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-calibration",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "deep-learning-engineer",
+      "computer-vision-engineer"
+    ],
+    "careerPath": {
+      "from": ["machine-learning-engineer", "deep-learning-engineer"],
+      "to": []
+    },
+    "project": "Research Scientist (AI): reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Scientific Literature Review, Research Reproducibility, Self-supervised Learning in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "data-scientist",
+    "databaseId": "10000000-0000-4000-8000-000000000014",
+    "name": "Data Scientist",
+    "category": "ai-ml",
+    "family": "ml-research",
+    "description": "Investigate datasets, test hypotheses and communicate findings.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "data", "scientist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "statistical-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "causal-inference",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "python",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "linear-algebra",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "classification",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "random-forests",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "regularization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "graph-neural-networks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "deep-learning-engineer",
+      "computer-vision-engineer"
+    ],
+    "careerPath": {
+      "from": [],
+      "to": ["research-scientist-ai"]
+    },
+    "project": "Data Scientist: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Statistical Modeling, Causal Inference, Python in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "mlops-engineer",
+    "databaseId": "2f1a5b2f-2e39-4f8a-a489-aafd91bceb4f",
+    "name": "MLOps Engineer",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on mlops engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "mlops", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "mlflow",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-serving",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-monitoring",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "concept-drift-detection",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tensorrt",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lime",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["llmops-engineer", "ai-product-manager", "ai-ethics-governance-specialist"],
+    "careerPath": {
+      "from": ["data-annotation-ml-data-specialist"],
+      "to": ["ai-product-manager"]
+    },
+    "project": "MLOps Engineer: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate MLflow, Model Serving, Model Monitoring in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "llmops-engineer",
+    "databaseId": "c5efa4ae-d2bc-444d-a57f-c98e83722fe5",
+    "name": "LLMOps Engineer",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on llmops engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "llmops", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "model-registries",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-ci-cd",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-quantization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "feast",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "onnx",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "shap",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["mlops-engineer", "ai-product-manager", "ai-ethics-governance-specialist"],
+    "careerPath": {
+      "from": ["data-annotation-ml-data-specialist"],
+      "to": ["ai-product-manager"]
+    },
+    "project": "LLMOps Engineer: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate Model Registries, Model CI/CD, Model Quantization in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ai-product-manager",
+    "databaseId": "51c4520b-582a-4355-aa8d-7b6bf9ed7675",
+    "name": "AI Product Manager",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on ai product manager practice.",
+    "experienceBand": "senior",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "ai", "product", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "ai-product-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ai-success-metrics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ai-procurement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bentoml",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experiment-tracking",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "distributed-training",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "privacy-preserving-ml",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-ethics-governance-specialist"],
+    "careerPath": {
+      "from": ["mlops-engineer", "llmops-engineer"],
+      "to": []
+    },
+    "project": "AI Product Manager: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate AI Product Discovery, AI Success Metrics, AI Procurement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ai-ethics-governance-specialist",
+    "databaseId": "4f6e77c5-17a8-4d6f-a226-0f31e669c575",
+    "name": "AI Ethics & Governance Specialist",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on ai ethics & governance specialist practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "ai", "ethics", "governance", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "ai-governance",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ai-impact-assessment",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "algorithmic-fairness",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kserve",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dvc",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gpu-scheduling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "nist-ai-rmf",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
+    "careerPath": {
+      "from": ["data-annotation-ml-data-specialist"],
+      "to": ["ai-product-manager"]
+    },
+    "project": "AI Ethics & Governance Specialist: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate AI Governance, AI Impact Assessment, Algorithmic Fairness in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "responsible-ai-analyst",
+    "databaseId": "a173d367-cfc4-4966-a540-ac695d55261e",
+    "name": "Responsible AI Analyst",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on responsible ai analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "responsible", "ai", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "bias-measurement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "explainable-ai",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-cards",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dataset-versioning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tflite",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "datasheets-for-datasets",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
+    "careerPath": {
+      "from": ["data-annotation-ml-data-specialist"],
+      "to": ["ai-product-manager"]
+    },
+    "project": "Responsible AI Analyst: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate Bias Measurement, Explainable AI, Model Cards in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "data-annotation-ml-data-specialist",
+    "databaseId": "06bfb745-1560-4152-a22d-4012dd38fa5f",
+    "name": "Data Annotation/ML Data Specialist",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on data annotation/ml data specialist practice.",
+    "experienceBand": "entry",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "data", "annotation", "ml", "data", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "data-labeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "annotation-guidelines",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "inter-annotator-agreement",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "feature-stores",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-drift-detection",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "active-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "differential-privacy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
+    "careerPath": {
+      "from": [],
+      "to": ["ai-product-manager"]
+    },
+    "project": "Data Annotation/ML Data Specialist: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate Data Labeling, Annotation Guidelines, Inter-annotator Agreement in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ai-safety-engineer",
+    "databaseId": "5359737a-63a3-4a14-a110-6155b3ebb8e6",
+    "name": "AI Safety Engineer",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on ai safety engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "ai", "safety", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "human-oversight-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ai-incident-response",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ai-risk-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "seldon",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "knowledge-distillation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "label-quality-audits",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "federated-learning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
+    "careerPath": {
+      "from": ["data-annotation-ml-data-specialist"],
+      "to": ["ai-product-manager"]
+    },
+    "project": "AI Safety Engineer: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate Human Oversight Design, AI Incident Response, AI Risk Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "model-validation-analyst",
+    "databaseId": "b6643cc5-7866-4d88-a223-4b97fe3701c9",
+    "name": "Model Validation Analyst",
+    "category": "ai-ml",
+    "family": "ml-operations",
+    "description": "Operate reliable and governed AI systems with a focus on model validation analyst practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-operations", "model", "validation", "analyst"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "model-calibration",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "model-evaluation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "uncertainty-estimation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "data-quality",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "responsible-ai",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-lifecycle-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kubeflow",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "training-pipelines",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-versioning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "a-b-model-testing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "canary-model-deployment",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "shadow-model-deployment",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-rollback",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-licensing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
+    "careerPath": {
+      "from": ["data-annotation-ml-data-specialist"],
+      "to": ["ai-product-manager"]
+    },
+    "project": "Model Validation Analyst: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
+    "checkpoint": "Demonstrate Model Calibration, Model Evaluation, Uncertainty Estimation in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]

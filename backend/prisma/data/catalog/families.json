@@ -1,0 +1,296 @@
+[
+  {
+    "id": "web-interfaces",
+    "category": "development",
+    "purpose": "build usable browser interfaces",
+    "resource": "https://developer.mozilla.org/",
+    "project": "Build and evaluate an accessible, responsive task workspace with documented performance measurements"
+  },
+  {
+    "id": "backend-services",
+    "category": "development",
+    "purpose": "deliver reliable application services",
+    "resource": "https://developer.mozilla.org/",
+    "project": "Deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration"
+  },
+  {
+    "id": "language-platforms",
+    "category": "development",
+    "purpose": "write maintainable platform-specific applications",
+    "resource": "https://learn.microsoft.com/",
+    "project": "Create a platform-native application with typed boundaries, persistence, tests and a reproducible build"
+  },
+  {
+    "id": "mobile-apps",
+    "category": "development",
+    "purpose": "ship accessible mobile experiences",
+    "resource": "https://developer.android.com/",
+    "project": "Ship an offline-capable mobile planner with accessibility checks and a recorded device test"
+  },
+  {
+    "id": "games-xr",
+    "category": "development",
+    "purpose": "create interactive games and immersive experiences",
+    "resource": "https://learn.unity.com/",
+    "project": "Publish a playable vertical slice with clear controls, performance budgets and playtest findings"
+  },
+  {
+    "id": "embedded-iot",
+    "category": "development",
+    "purpose": "build dependable connected hardware",
+    "resource": "https://docs.zephyrproject.org/",
+    "project": "Demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing"
+  },
+  {
+    "id": "business-platforms",
+    "category": "development",
+    "purpose": "configure and extend business application platforms",
+    "resource": "https://trailhead.salesforce.com/",
+    "project": "Implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation"
+  },
+  {
+    "id": "blockchain",
+    "category": "development",
+    "purpose": "implement verifiable decentralized applications",
+    "resource": "https://ethereum.org/",
+    "project": "Deploy a tested contract to a test network with a threat model and documented transaction costs"
+  },
+  {
+    "id": "developer-education",
+    "category": "development",
+    "purpose": "help developers understand and adopt technology",
+    "resource": "https://diataxis.fr/",
+    "project": "Publish a tested quickstart and API guide, then run a small developer workshop and incorporate feedback"
+  },
+  {
+    "id": "applied-ai",
+    "category": "ai-ml",
+    "purpose": "build and evaluate language-model applications",
+    "resource": "https://huggingface.co/learn",
+    "project": "Build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report"
+  },
+  {
+    "id": "ml-research",
+    "category": "ai-ml",
+    "purpose": "develop and test learning algorithms",
+    "resource": "https://pytorch.org/tutorials/",
+    "project": "Reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations"
+  },
+  {
+    "id": "ml-operations",
+    "category": "ai-ml",
+    "purpose": "operate reliable and governed AI systems",
+    "resource": "https://mlflow.org/docs/latest/",
+    "project": "Create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment"
+  },
+  {
+    "id": "data-analysis",
+    "category": "data",
+    "purpose": "turn data into defensible decisions",
+    "resource": "https://www.kaggle.com/learn",
+    "project": "Analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder"
+  },
+  {
+    "id": "data-engineering",
+    "category": "data",
+    "purpose": "build trusted data pipelines and storage",
+    "resource": "https://spark.apache.org/docs/latest/",
+    "project": "Build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests"
+  },
+  {
+    "id": "data-specialisms",
+    "category": "data",
+    "purpose": "communicate, govern and model complex evidence",
+    "resource": "https://www.openintro.org/",
+    "project": "Deliver a reproducible analytical model and an accessible evidence report with governance and quality checks"
+  },
+  {
+    "id": "cloud-platforms",
+    "category": "infrastructure",
+    "purpose": "operate scalable cloud infrastructure",
+    "resource": "https://learn.microsoft.com/training/",
+    "project": "Provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate"
+  },
+  {
+    "id": "delivery-platforms",
+    "category": "infrastructure",
+    "purpose": "automate safe and reliable software delivery",
+    "resource": "https://kubernetes.io/docs/",
+    "project": "Create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook"
+  },
+  {
+    "id": "it-operations",
+    "category": "infrastructure",
+    "purpose": "maintain dependable networks and user systems",
+    "resource": "https://learn.microsoft.com/",
+    "project": "Build a small network lab, resolve simulated incidents and verify backup restoration with a runbook"
+  },
+  {
+    "id": "security-operations",
+    "category": "cybersecurity",
+    "purpose": "detect, investigate and respond to security threats",
+    "resource": "https://www.cisa.gov/",
+    "project": "Investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report"
+  },
+  {
+    "id": "security-engineering",
+    "category": "cybersecurity",
+    "purpose": "design and verify secure systems",
+    "resource": "https://owasp.org/",
+    "project": "Assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls"
+  },
+  {
+    "id": "governance",
+    "category": "cybersecurity",
+    "purpose": "translate risk and privacy obligations into controls",
+    "resource": "https://www.nist.gov/",
+    "project": "Produce a risk register, control evidence pack and privacy assessment for a fictional service"
+  },
+  {
+    "id": "quality-testing",
+    "category": "quality",
+    "purpose": "evaluate software behavior and release quality",
+    "resource": "https://playwright.dev/",
+    "project": "Deliver a risk-based test plan, automated regression suite and evidence-based release recommendation"
+  },
+  {
+    "id": "experience-design",
+    "category": "design",
+    "purpose": "research and design useful experiences",
+    "resource": "https://www.nngroup.com/",
+    "project": "Research a real task, prototype an improved experience and document usability findings and iterations"
+  },
+  {
+    "id": "visual-design",
+    "category": "design",
+    "purpose": "communicate ideas through visual systems",
+    "resource": "https://www.adobe.com/learn",
+    "project": "Create a coherent visual identity and presentation system with production-ready assets and rationale"
+  },
+  {
+    "id": "product-leadership",
+    "category": "product-management",
+    "purpose": "align product decisions with user and business outcomes",
+    "resource": "https://www.atlassian.com/agile",
+    "project": "Present a researched product opportunity, prioritized roadmap and measurable launch experiment"
+  },
+  {
+    "id": "delivery-leadership",
+    "category": "product-management",
+    "purpose": "coordinate teams and deliver accountable outcomes",
+    "resource": "https://scrumguides.org/",
+    "project": "Create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures"
+  },
+  {
+    "id": "corporate-finance",
+    "category": "finance",
+    "purpose": "analyze financial performance and allocate capital",
+    "resource": "https://www.corporatefinanceinstitute.com/resources/",
+    "project": "Build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo"
+  },
+  {
+    "id": "investments",
+    "category": "finance",
+    "purpose": "evaluate investments and communicate portfolio decisions",
+    "resource": "https://www.cfainstitute.org/",
+    "project": "Prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios"
+  },
+  {
+    "id": "accounting",
+    "category": "finance",
+    "purpose": "maintain accurate and auditable financial records",
+    "resource": "https://www.ifrs.org/",
+    "project": "Close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack"
+  },
+  {
+    "id": "financial-risk",
+    "category": "finance",
+    "purpose": "measure financial uncertainty and regulatory exposure",
+    "resource": "https://www.garp.org/",
+    "project": "Create a synthetic risk assessment with a validated model, control tests and a concise oversight report"
+  },
+  {
+    "id": "digital-marketing",
+    "category": "business",
+    "purpose": "measure and improve customer acquisition",
+    "resource": "https://skillshop.withgoogle.com/",
+    "project": "Design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout"
+  },
+  {
+    "id": "brand-content",
+    "category": "business",
+    "purpose": "build coherent audience and brand communication",
+    "resource": "https://academy.hubspot.com/",
+    "project": "Produce a researched audience strategy and coordinated content campaign with a measurement framework"
+  },
+  {
+    "id": "sales-success",
+    "category": "business",
+    "purpose": "understand customer needs and grow accountable relationships",
+    "resource": "https://trailhead.salesforce.com/",
+    "project": "Run a simulated customer engagement from discovery to solution demo, handover and success measurement"
+  },
+  {
+    "id": "operations-strategy",
+    "category": "business",
+    "purpose": "improve business systems and operational decisions",
+    "resource": "https://openstax.org/subjects/business",
+    "project": "Diagnose an operational bottleneck, compare options and present an implementable improvement plan"
+  },
+  {
+    "id": "people-learning",
+    "category": "business",
+    "purpose": "support effective and fair people development",
+    "resource": "https://www.cipd.org/",
+    "project": "Design an evidence-based hiring or learning program with fair assessment and measurable outcomes"
+  },
+  {
+    "id": "video-production",
+    "category": "creative",
+    "purpose": "produce coherent visual stories",
+    "resource": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+    "project": "Produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown"
+  },
+  {
+    "id": "animation-art",
+    "category": "creative",
+    "purpose": "create expressive animation and game assets",
+    "resource": "https://docs.blender.org/manual/en/latest/",
+    "project": "Create a coherent animated scene or game asset pack with process studies and technical breakdowns"
+  },
+  {
+    "id": "photography-spaces",
+    "category": "creative",
+    "purpose": "develop intentional images and spatial design",
+    "resource": "https://www.adobe.com/learn",
+    "project": "Develop a cohesive client portfolio with research, production studies and clear usage or material specifications"
+  },
+  {
+    "id": "audio-production",
+    "category": "creative",
+    "purpose": "record and shape clear expressive audio",
+    "resource": "https://learningmusic.ableton.com/",
+    "project": "Produce and master a short audio story or soundscape with intelligibility checks and delivery specifications"
+  },
+  {
+    "id": "writing-media",
+    "category": "creative",
+    "purpose": "research and publish accurate engaging content",
+    "resource": "https://www.poynter.org/",
+    "project": "Publish a researched multimedia story with verified sources, editorial revisions and audience feedback"
+  },
+  {
+    "id": "science-health",
+    "category": "other",
+    "purpose": "apply computation and evidence in specialist domains",
+    "resource": "https://www.ncbi.nlm.nih.gov/",
+    "project": "Analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations"
+  },
+  {
+    "id": "emerging-domains",
+    "category": "other",
+    "purpose": "combine specialist knowledge with practical digital methods",
+    "resource": "https://www.edx.org/learn",
+    "project": "Deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements"
+  }
+]

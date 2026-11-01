@@ -1,0 +1,3206 @@
+[
+  {
+    "id": "video-editor",
+    "databaseId": "4dddf207-0b3c-4791-a9d5-44c296c9095f",
+    "name": "Video Editor",
+    "category": "creative",
+    "family": "video-production",
+    "description": "Produce coherent visual stories with a focus on video editor practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "video-production", "video", "editor"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "nonlinear-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "continuity-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "video-color-correction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "video-production",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "green-screen-production",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fusion-compositing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "video-encoding",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "shot-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["videographer", "cinematographer", "motion-graphics-artist"],
+    "careerPath": {
+      "from": [],
+      "to": ["architectural-visualizer"]
+    },
+    "project": "Video Editor: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
+    "checkpoint": "Demonstrate Nonlinear Editing, Continuity Editing, Video Color Correction in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "videographer",
+    "databaseId": "71824f84-4929-4f10-a221-8019ad1a9293",
+    "name": "Videographer",
+    "category": "creative",
+    "family": "video-production",
+    "description": "Produce coherent visual stories with a focus on videographer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "video-production", "videographer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "video-production",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "avid-media-composer",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "multicam-editing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "video-scopes",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rotoscoping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "title-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accessible-video-production",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "video-rights-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["video-editor", "cinematographer", "motion-graphics-artist"],
+    "careerPath": {
+      "from": [],
+      "to": ["architectural-visualizer"]
+    },
+    "project": "Videographer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
+    "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "cinematographer",
+    "databaseId": "a0b37446-2664-4d86-af10-9f8e79093831",
+    "name": "Cinematographer",
+    "category": "creative",
+    "family": "video-production",
+    "description": "Produce coherent visual stories with a focus on cinematographer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "video-production", "cinematographer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "camera-exposure",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "lens-selection",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "lighting-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "video-production",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "camera-movement",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vfx-compositing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "broadcast-standards",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "v-ray",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["video-editor", "videographer", "motion-graphics-artist"],
+    "careerPath": {
+      "from": [],
+      "to": ["architectural-visualizer"]
+    },
+    "project": "Cinematographer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
+    "checkpoint": "Demonstrate Camera Exposure, Lens Selection, Lighting Design in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "motion-graphics-artist",
+    "databaseId": "33ffb4ea-be07-43fc-a430-4434f8188dd0",
+    "name": "Motion Graphics Artist",
+    "category": "creative",
+    "family": "video-production",
+    "description": "Produce coherent visual stories with a focus on motion graphics artist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "video-production", "motion", "graphics", "artist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "motion-graphics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "video-production",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "proxy-workflows",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "color-grading",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "three-point-lighting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "motion-tracking",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "captions-and-subtitles",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "corona-renderer",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["video-editor", "videographer", "cinematographer"],
+    "careerPath": {
+      "from": [],
+      "to": ["architectural-visualizer"]
+    },
+    "project": "Motion Graphics Artist: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
+    "checkpoint": "Demonstrate Motion Graphics, Storytelling, Composition in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "vfx-artist",
+    "databaseId": "6f1dd8c0-9ee6-4517-a4c2-582198bb6393",
+    "name": "VFX Artist",
+    "category": "creative",
+    "family": "video-production",
+    "description": "Produce coherent visual stories with a focus on vfx artist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "video-production", "vfx", "artist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "video-production",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "adobe-premiere-pro",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "editing-rhythm",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lut-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "location-sound-recording",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "nuke",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "unreal-archviz",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "virtual-production",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["video-editor", "videographer", "cinematographer"],
+    "careerPath": {
+      "from": [],
+      "to": ["architectural-visualizer"]
+    },
+    "project": "VFX Artist: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
+    "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "architectural-visualizer",
+    "databaseId": "a2e48770-7ae8-4d48-a3c8-1db9ae1db6d9",
+    "name": "Architectural Visualizer",
+    "category": "creative",
+    "family": "video-production",
+    "description": "Produce coherent visual stories with a focus on architectural visualizer practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "video-production", "architectural", "visualizer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "video-production",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "davinci-resolve",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "media-organization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "documentary-editing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "camera-operation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "camera-tracking",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "kinetic-typography",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "architectural-rendering",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "stock-footage-licensing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["video-editor", "videographer", "cinematographer"],
+    "careerPath": {
+      "from": ["video-editor", "videographer"],
+      "to": []
+    },
+    "project": "Architectural Visualizer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
+    "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "video-producer",
+    "databaseId": "23252c86-0ef7-46af-a799-f96dedfd570e",
+    "name": "Video Producer",
+    "category": "creative",
+    "family": "video-production",
+    "description": "Produce coherent visual stories with a focus on video producer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "video-production", "video", "producer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storyboarding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "video-production",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "final-cut-pro",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "video-ingest",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hdr-workflows",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "chroma-keying",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "after-effects-expressions",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "video-delivery-formats",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "production-scheduling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["video-editor", "videographer", "cinematographer"],
+    "careerPath": {
+      "from": [],
+      "to": ["architectural-visualizer"]
+    },
+    "project": "Video Producer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
+    "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "animator-2d",
+    "databaseId": "eb269399-647f-4f65-ae24-fa0e5b336ff1",
+    "name": "Animator (2D)",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on animator (2d) practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "animator", "2d"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "animation-principles",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "walk-cycles",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "motion-capture-cleanup",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "spine-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pbr-materials",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "particle-effects",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-3d", "concept-artist", "digital-artist-illustrator"],
+    "careerPath": {
+      "from": [],
+      "to": ["art-director"]
+    },
+    "project": "Animator (2D): create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "animator-3d",
+    "databaseId": "93fc20f5-6f77-4e70-ab00-9153c55ab7ac",
+    "name": "Animator (3D)",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on animator (3d) practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "animator", "3d"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "2d-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "acting-for-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "blender-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dragonbones",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "substance-painter",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "asset-pipelines",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-2d", "concept-artist", "digital-artist-illustrator"],
+    "careerPath": {
+      "from": [],
+      "to": ["art-director"]
+    },
+    "project": "Animator (3D): create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "concept-artist",
+    "databaseId": "93b2a2f5-c244-496a-a33a-9b237ef0e496",
+    "name": "Concept Artist",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on concept artist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "concept", "artist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "concept-art",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "facial-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "autodesk-3ds-max",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gesture-drawing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "retopology",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lighting-for-games",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-2d", "animator-3d", "digital-artist-illustrator"],
+    "careerPath": {
+      "from": [],
+      "to": ["art-director"]
+    },
+    "project": "Concept Artist: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Concept Art, Drawing Fundamentals, Anatomy for Artists in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "digital-artist-illustrator",
+    "databaseId": "ad4dde2e-414c-4344-acd2-67ccc7691f22",
+    "name": "Digital Artist/Illustrator",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on digital artist/illustrator practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "digital", "artist", "illustrator"],
+    "aliases": ["Digital Illustrator"],
+    "skills": [
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "keyframe-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rigging",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "toon-boom-harmony",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "color-scripts",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "digital-sculpting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "art-style-guides",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
+    "careerPath": {
+      "from": [],
+      "to": ["art-director"]
+    },
+    "project": "Digital Artist/Illustrator: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "game-artist",
+    "databaseId": "78060c14-953c-4621-abc3-47dacc37a381",
+    "name": "Game Artist",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on game artist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "game", "artist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "tweening",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "skinning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "tvpaint",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "texture-painting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "procedural-modeling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "game-asset-optimization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
+    "careerPath": {
+      "from": [],
+      "to": ["art-director"]
+    },
+    "project": "Game Artist: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "character-designer",
+    "databaseId": "143e918d-8c64-491e-a6b1-c0ad26db0624",
+    "name": "Character Designer",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on character designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "character", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "character-design",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "character-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "character-rigging",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "environment-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creature-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "prop-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "silhouette-design",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "substance-designer",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
+    "careerPath": {
+      "from": [],
+      "to": ["art-director"]
+    },
+    "project": "Character Designer: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Character Design, Drawing Fundamentals, Anatomy for Artists in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "technical-artist",
+    "databaseId": "d4abe435-23da-476e-a4e2-a2a40d0bbc02",
+    "name": "Technical Artist",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on technical artist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "technical", "artist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "technical-art",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "inverse-kinematics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "adobe-animate",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "uv-mapping",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "houdini",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "portfolio-art-direction",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
+    "careerPath": {
+      "from": [],
+      "to": ["art-director"]
+    },
+    "project": "Technical Artist: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Technical Art, Drawing Fundamentals, Anatomy for Artists in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "art-director",
+    "databaseId": "79b89274-3064-4afe-a42d-4955054aa5c8",
+    "name": "Art Director",
+    "category": "creative",
+    "family": "animation-art",
+    "description": "Create expressive animation and game assets with a focus on art director practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "animation-art", "art", "director"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "drawing-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "anatomy-for-artists",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "perspective-drawing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "art-direction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "3d-animation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lip-sync",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "autodesk-maya",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "stop-motion",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "zbrush",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "material-authoring",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
+    "careerPath": {
+      "from": ["animator-2d", "animator-3d"],
+      "to": []
+    },
+    "project": "Art Director: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
+    "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "photographer",
+    "databaseId": "06624e97-ac7c-40ff-aed6-a628860ada85",
+    "name": "Photographer",
+    "category": "creative",
+    "family": "photography-spaces",
+    "description": "Develop intentional images and spatial design with a focus on photographer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "photography-spaces", "photographer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "photography",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "exposure-triangle",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "studio-lighting",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creative-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "client-briefing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "photo-editing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "digital-asset-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "interior-visualization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "processing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["photo-retoucher", "fashion-designer", "interior-designer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Photographer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
+    "checkpoint": "Demonstrate Photography, Exposure Triangle, Studio Lighting in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "photo-retoucher",
+    "databaseId": "7ee01ed8-fa2e-47ee-abc5-141283facfb7",
+    "name": "Photo Retoucher",
+    "category": "creative",
+    "family": "photography-spaces",
+    "description": "Develop intentional images and spatial design with a focus on photo retoucher practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "photography-spaces", "photo", "retoucher"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "creative-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "client-briefing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "portrait-photography",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "event-photography",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "flash-photography",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "photo-composition",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "photo-color-correction",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "material-boards",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "touchdesigner",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "projection-mapping",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["photographer", "fashion-designer", "interior-designer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Photo Retoucher: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Creative Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "fashion-designer",
+    "databaseId": "079ae8c2-a4c5-43f8-a1a0-556a5f6288e1",
+    "name": "Fashion Designer",
+    "category": "creative",
+    "family": "photography-spaces",
+    "description": "Develop intentional images and spatial design with a focus on fashion designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "photography-spaces", "fashion", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "fashion-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "pattern-making",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "garment-construction",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creative-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "client-briefing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "capture-one",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dodge-and-burn",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "image-licensing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fashion-illustration",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "textile-knowledge",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "draping",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "clo-3d",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fashion-collection-development",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["photographer", "photo-retoucher", "interior-designer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Fashion Designer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
+    "checkpoint": "Demonstrate Fashion Research, Pattern Making, Garment Construction in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "interior-designer",
+    "databaseId": "860f05ae-c57e-4483-a948-6dadda4ebf3d",
+    "name": "Interior Designer",
+    "category": "creative",
+    "family": "photography-spaces",
+    "description": "Develop intentional images and spatial design with a focus on interior designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "photography-spaces", "interior", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "interior-space-planning",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interior-materials",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "autocad",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creative-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "client-briefing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "raw-processing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "image-masking",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sustainable-fashion",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "furniture-specification",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "interior-lighting",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sketchup",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "revit",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "building-information-modeling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["photographer", "photo-retoucher", "fashion-designer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Interior Designer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
+    "checkpoint": "Demonstrate Interior Space Planning, Interior Materials, AutoCAD in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "creative-technologist",
+    "databaseId": "f01cc604-8b50-499e-aa2f-530aa3a57d99",
+    "name": "Creative Technologist",
+    "category": "creative",
+    "family": "photography-spaces",
+    "description": "Develop intentional images and spatial design with a focus on creative technologist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "photography-spaces", "creative", "technologist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "creative-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "client-briefing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "manual-camera-control",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "architectural-photography",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "natural-light-photography",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "adobe-lightroom",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "frequency-separation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "model-releases",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "interactive-installations",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creative-coding",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["photographer", "photo-retoucher", "fashion-designer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Creative Technologist: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Creative Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "product-photographer",
+    "databaseId": "c1c9c426-4a24-4e2f-a077-b35dd3fc1e00",
+    "name": "Product Photographer",
+    "category": "creative",
+    "family": "photography-spaces",
+    "description": "Develop intentional images and spatial design with a focus on product photographer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "photography-spaces", "product", "photographer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "composition",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "color-theory",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "creative-research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "client-briefing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "product-photography",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "documentary-photography",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "light-metering",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "photo-retouching",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "photo-metadata",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "spatial-storytelling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "p5-js",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["photographer", "photo-retoucher", "fashion-designer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Product Photographer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
+    "checkpoint": "Demonstrate Composition, Color Theory, Creative Research in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "sound-designer",
+    "databaseId": "c58ef75f-c73f-40c6-a5f2-34a180fb03e1",
+    "name": "Sound Designer",
+    "category": "creative",
+    "family": "audio-production",
+    "description": "Record and shape clear expressive audio with a focus on sound designer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "audio-production", "sound", "designer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "critical-listening",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-signal-flow",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recording-techniques",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "reaper",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sample-rates",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "delay-effects",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sound-effects-editing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sampling",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mastering",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fmod",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audiobook-production",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["audio-engineer", "music-producer", "podcast-producer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Sound Designer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
+    "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "audio-engineer",
+    "databaseId": "b40b5c68-d5e7-4668-ae3e-0531414239e3",
+    "name": "Audio Engineer",
+    "category": "creative",
+    "family": "audio-production",
+    "description": "Record and shape clear expressive audio with a focus on audio engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "audio-production", "audio", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "critical-listening",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-signal-flow",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recording-techniques",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "digital-audio-workstations",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audacity",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audio-interfaces",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audio-latency",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audio-compression",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "harmony",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "lufs-metering",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "spatial-audio",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "game-audio",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audio-rights-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sound-designer", "music-producer", "podcast-producer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Audio Engineer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
+    "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "music-producer",
+    "databaseId": "4ed97ae6-05b0-42b2-aa86-8339bf2c0ba5",
+    "name": "Music Producer",
+    "category": "creative",
+    "family": "audio-production",
+    "description": "Record and shape clear expressive audio with a focus on music producer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "audio-production", "music", "producer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "critical-listening",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-signal-flow",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recording-techniques",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "logic-pro",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microphone-selection",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "limiting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dialogue-editing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "subtractive-synthesis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "music-theory",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "music-arrangement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "vocal-performance",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "monitor-mixing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sound-designer", "audio-engineer", "podcast-producer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Music Producer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
+    "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "podcast-producer",
+    "databaseId": "f40d38ad-a9a4-4684-a5dc-8e3e881e9455",
+    "name": "Podcast Producer",
+    "category": "creative",
+    "family": "audio-production",
+    "description": "Record and shape clear expressive audio with a focus on podcast producer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "audio-production", "podcast", "producer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "critical-listening",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-signal-flow",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recording-techniques",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "pro-tools",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "gain-staging",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "reverb",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "foley-recording",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "fm-synthesis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mixing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dolby-atmos-fundamentals",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "podcast-editing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "podcast-distribution",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sound-designer", "audio-engineer", "music-producer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Podcast Producer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
+    "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "voice-over-artist",
+    "databaseId": "af8ce8c1-4ad6-4ff8-ac78-328592fd27ca",
+    "name": "Voice-Over Artist",
+    "category": "creative",
+    "family": "audio-production",
+    "description": "Record and shape clear expressive audio with a focus on voice-over artist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "audio-production", "voice", "over", "artist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "critical-listening",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-signal-flow",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recording-techniques",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "fl-studio",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "bit-depth",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "noise-reduction",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "field-recording",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "midi",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "loudness-standards",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "wwise",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "voice-direction",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sound-designer", "audio-engineer", "music-producer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Voice-Over Artist: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
+    "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "live-sound-engineer",
+    "databaseId": "89b6b927-e4be-4a61-a75b-c6915fc6c1f6",
+    "name": "Live Sound Engineer",
+    "category": "creative",
+    "family": "audio-production",
+    "description": "Record and shape clear expressive audio with a focus on live sound engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "audio-production", "live", "sound", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "critical-listening",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-signal-flow",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recording-techniques",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "audio-editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "ableton-live",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "microphone-techniques",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "equalization",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "de-essing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "sound-synthesis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rhythm-programming",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "ambisonics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rss-feeds-for-podcasts",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "live-sound-reinforcement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sound-designer", "audio-engineer", "music-producer"],
+    "careerPath": {
+      "from": [],
+      "to": []
+    },
+    "project": "Live Sound Engineer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
+    "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "copywriter",
+    "databaseId": "961fbba2-51d5-4927-aaf1-f6bcee96c4a4",
+    "name": "Copywriter",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on copywriter practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "copywriter"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "persuasive-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "media-ethics",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "story-development",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "copy-editing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "streamlabs",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "memoq",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["content-writer", "technical-writer", "scriptwriter"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "Copywriter: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "content-writer",
+    "databaseId": "48f9fa26-1a88-4a7f-aa75-1b02bb18f354",
+    "name": "Content Writer",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on content writer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "content", "writer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "copywriting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "source-verification",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "dialogue-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "publication-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "obs-studio",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "trados",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "technical-writer", "scriptwriter"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "Content Writer: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "technical-writer",
+    "databaseId": "e239c143-b175-46db-a2a9-2577dc9fb1ce",
+    "name": "Technical Writer",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on technical writer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "technical", "writer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interview-techniques",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "headline-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "proofreading",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "on-camera-presentation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "translation-memory",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "content-writer", "scriptwriter"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "Technical Writer: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "scriptwriter",
+    "databaseId": "4af67afa-027e-4d0a-a2ff-4437a2b19c56",
+    "name": "Scriptwriter",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on scriptwriter practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "scriptwriter"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "feature-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "mobile-journalism",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "script-coverage",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accessible-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "transcreation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "editorial-project-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "Scriptwriter: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "journalist-digital-journalist",
+    "databaseId": "77edb0f9-0d96-4d52-aa39-246c78899adc",
+    "name": "Journalist/Digital Journalist",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on journalist/digital journalist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "journalist", "digital", "journalist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "web-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "data-journalism",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "character-development",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "search-friendly-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "translation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cultural-adaptation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "Journalist/Digital Journalist: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "editor-proofreader",
+    "databaseId": "72737313-593a-4681-a11d-23ae0e5acb3b",
+    "name": "Editor/Proofreader",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on editor/proofreader practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "editor", "proofreader"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "long-form-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "investigative-research",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "narrative-structure",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "wordpress-publishing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "audience-engagement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "subtitle-translation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "Editor/Proofreader: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "ugc-creator-content-creator",
+    "databaseId": "856aa051-a89d-41ec-a365-a32062c3ad0b",
+    "name": "UGC Creator / Content Creator",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on ugc creator / content creator practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "ugc", "creator", "content", "creator"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "fact-checking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "screenplay-structure",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "editorial-judgment",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "content-management-systems",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creator-content-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creator-analytics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "creator-monetization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "UGC Creator / Content Creator: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "streamer-community-manager",
+    "databaseId": "5c4e254c-6fa5-4f9d-a782-3de4e1c84c2f",
+    "name": "Streamer/Community Manager",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on streamer/community manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "streamer", "community", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "news-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "newsletter-writing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "developmental-editing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "short-form-video-scripting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "terminology-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
+    "careerPath": {
+      "from": ["copywriter", "content-writer"],
+      "to": []
+    },
+    "project": "Streamer/Community Manager: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "translator-localization-specialist",
+    "databaseId": "8934ee99-162d-461b-a2d3-3f28126ddb61",
+    "name": "Translator/Localization Specialist",
+    "category": "creative",
+    "family": "writing-media",
+    "description": "Research and publish accurate engaging content with a focus on translator/localization specialist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["creative", "writing-media", "translator", "localization", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "localization",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "writing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "research",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "editing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "storytelling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "scriptwriting",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "style-sheet-creation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "livestream-production",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cat-tools",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "localization-qa",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
+    "careerPath": {
+      "from": [],
+      "to": ["streamer-community-manager"]
+    },
+    "project": "Translator/Localization Specialist: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
+    "checkpoint": "Demonstrate Localization, Writing, Research in the project, justify decisions and document limitations without following a walkthrough."
+  }
+]
