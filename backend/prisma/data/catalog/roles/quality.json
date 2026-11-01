@@ -1,5 +1,83 @@
 [
   {
+    "id": "security-tester",
+    "databaseId": "9c35ebe2-3b6a-4705-a6cb-a1cc85fa742d",
+    "name": "Security Tester",
+    "category": "quality",
+    "family": "security-engineering",
+    "description": "Design and verify secure systems with a focus on security tester practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["cybersecurity", "security-engineering", "security", "tester"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "security-fundamentals",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "threat-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "secure-coding",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "security-testing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "owasp-wstg",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      { "skillId": "nmap", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      {
+        "skillId": "api-security-testing",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "secure-authentication",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "public-key-infrastructure",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "cryptographic-protocols",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "penetration-tester",
+      "application-security-engineer",
+      "cloud-security-engineer"
+    ],
+    "careerPath": { "from": [], "to": ["security-architect"] },
+    "project": "Security Tester: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
+    "checkpoint": "Demonstrate Security Fundamentals, Threat Modeling, Secure Coding in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
     "id": "qa-engineer",
     "databaseId": "10000000-0000-4000-8000-000000000019",
     "name": "QA Engineer",
@@ -12,12 +90,7 @@
     "keywords": ["quality", "quality-testing", "qa", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "core",
@@ -36,30 +109,15 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "cypress",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "gherkin",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "cypress", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "gherkin", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "equivalence-partitioning",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "mocking",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "mocking", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "istqb-foundation-certification",
         "importance": "nice-to-have",
@@ -68,10 +126,7 @@
       }
     ],
     "relatedRoles": ["test-automation-engineer", "sdet", "manual-tester"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "QA Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -106,12 +161,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "important",
@@ -130,12 +180,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "locust",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "locust", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "test-management",
         "importance": "nice-to-have",
@@ -144,10 +189,7 @@
       }
     ],
     "relatedRoles": ["qa-engineer", "sdet", "manual-tester"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "Test Automation Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Playwright, Flaky Test Diagnosis, Test Reporting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -182,12 +224,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "important",
@@ -206,18 +243,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "gatling",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "gatling", "importance": "important", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "manual-tester"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "SDET: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Test-driven Development, Contract Testing, Test Coverage Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -228,7 +257,7 @@
     "category": "quality",
     "family": "quality-testing",
     "description": "Evaluate software behavior and release quality with a focus on manual tester practice.",
-    "experienceBand": "mid",
+    "experienceBand": "entry",
     "trending": false,
     "demand": "medium",
     "keywords": ["quality", "quality-testing", "manual", "tester"],
@@ -252,12 +281,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "important",
@@ -282,18 +306,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "nvda",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "nvda", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": [], "to": ["qa-lead-manager"] },
     "project": "Manual Tester: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Exploratory Testing, Boundary Value Analysis, Regression Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -310,12 +326,7 @@
     "keywords": ["quality", "quality-testing", "performance", "test", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "k6",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "k6", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "load-testing",
         "importance": "core",
@@ -328,12 +339,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "important",
@@ -366,10 +372,7 @@
       }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "Performance Test Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate k6, Load Testing, Performance Bottleneck Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -386,12 +389,7 @@
     "keywords": ["quality", "quality-testing", "mobile", "test", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "appium",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "appium", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "localization-testing",
         "importance": "core",
@@ -404,12 +402,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "important",
@@ -434,18 +427,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "jaws",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "jaws", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "Mobile Test Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Appium, Localization Testing, Regression Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -462,30 +447,15 @@
     "keywords": ["quality", "quality-testing", "api", "test", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "postman",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "postman", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rest-assured",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "pact",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "pact", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "important",
@@ -518,10 +488,7 @@
       }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "API Test Engineer: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Postman, REST Assured, Pact in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -538,12 +505,7 @@
     "keywords": ["quality", "quality-testing", "qa", "lead", "manager"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "core",
@@ -588,10 +550,7 @@
       }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": ["qa-engineer", "test-automation-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["qa-engineer", "test-automation-engineer"], "to": [] },
     "project": "QA Lead / Manager: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -608,12 +567,7 @@
     "keywords": ["quality", "quality-testing", "web", "accessibility", "specialist"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "wcag",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "wcag", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "screen-reader-testing",
         "importance": "core",
@@ -626,12 +580,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "important",
@@ -658,10 +607,7 @@
       }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "Web Accessibility Specialist: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate WCAG, Screen Reader Testing, Keyboard Navigation Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -678,12 +624,7 @@
     "keywords": ["quality", "quality-testing", "game", "qa", "tester"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "core",
@@ -740,10 +681,7 @@
       }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "Game QA Tester: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -760,12 +698,7 @@
     "keywords": ["quality", "quality-testing", "release", "quality", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "testing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "test-design",
         "importance": "core",
@@ -802,12 +735,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "jmeter",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "jmeter", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "release-readiness-reviews",
         "importance": "nice-to-have",
@@ -822,10 +750,7 @@
       }
     ],
     "relatedRoles": ["qa-engineer", "test-automation-engineer", "sdet"],
-    "careerPath": {
-      "from": [],
-      "to": ["qa-lead-manager"]
-    },
+    "careerPath": { "from": ["manual-tester"], "to": ["qa-lead-manager"] },
     "project": "Release Quality Analyst: deliver a risk-based test plan, automated regression suite and evidence-based release recommendation.",
     "checkpoint": "Demonstrate Testing, Test Design, Defect Reporting in the project, justify decisions and document limitations without following a walkthrough."
   }

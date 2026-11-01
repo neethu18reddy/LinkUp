@@ -1,23 +1,96 @@
 [
   {
+    "id": "data-scientist",
+    "databaseId": "10000000-0000-4000-8000-000000000014",
+    "name": "Data Scientist",
+    "category": "data",
+    "family": "ml-research",
+    "description": "Investigate datasets, test hypotheses and communicate findings.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["ai-ml", "ml-research", "data", "scientist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "statistical-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "causal-inference",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      {
+        "skillId": "linear-algebra",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "probability",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "experimental-design",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "classification",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "random-forests",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "regularization",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "graph-neural-networks",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": [
+      "machine-learning-engineer",
+      "deep-learning-engineer",
+      "computer-vision-engineer"
+    ],
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
+    "project": "Data Scientist: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
+    "checkpoint": "Demonstrate Statistical Modeling, Causal Inference, Python in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
     "id": "data-analyst",
     "databaseId": "10000000-0000-4000-8000-000000000004",
     "name": "Data Analyst",
     "category": "data",
     "family": "data-analysis",
     "description": "Explore datasets, explain patterns, and communicate useful findings.",
-    "experienceBand": "mid",
+    "experienceBand": "entry",
     "trending": true,
     "demand": "high",
     "keywords": ["data", "data-analysis", "data", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -80,10 +153,7 @@
       }
     ],
     "relatedRoles": ["bi-analyst", "business-analyst", "product-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Data Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -100,12 +170,7 @@
     "keywords": ["data", "data-analysis", "bi", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -142,12 +207,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "pandas",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "pandas", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "quarto",
         "importance": "nice-to-have",
@@ -162,10 +222,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "business-analyst", "product-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "BI Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -182,12 +239,7 @@
     "keywords": ["data", "data-analysis", "business", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -244,10 +296,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "bi-analyst", "product-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "Business Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -264,12 +313,7 @@
     "keywords": ["data", "data-analysis", "product", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -306,12 +350,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "dplyr",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "dplyr", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "spreadsheet-formulas",
         "importance": "nice-to-have",
@@ -320,10 +359,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "bi-analyst", "business-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "Product Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -340,12 +376,7 @@
     "keywords": ["data", "data-analysis", "marketing", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -396,10 +427,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "bi-analyst", "business-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "Marketing Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -416,12 +444,7 @@
     "keywords": ["data", "data-analysis", "financial", "data", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -458,12 +481,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "numpy",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "numpy", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "power-query",
         "importance": "nice-to-have",
@@ -484,10 +502,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "bi-analyst", "business-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "Financial Data Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -504,12 +519,7 @@
     "keywords": ["data", "data-analysis", "healthcare", "data", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -546,18 +556,8 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "r",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "dax",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "r", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "dax", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "clinical-data-analysis",
         "importance": "nice-to-have",
@@ -572,10 +572,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "bi-analyst", "business-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "Healthcare Data Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -592,12 +589,7 @@
     "keywords": ["data", "data-analysis", "reporting", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -634,12 +626,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "tidyr",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "tidyr", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "a-b-testing",
         "importance": "nice-to-have",
@@ -648,10 +635,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "bi-analyst", "business-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "Reporting Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -668,12 +652,7 @@
     "keywords": ["data", "data-analysis", "research", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "spreadsheets",
         "importance": "core",
@@ -710,12 +689,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "jupyter",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "jupyter", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "research-methods",
         "importance": "nice-to-have",
@@ -724,10 +698,7 @@
       }
     ],
     "relatedRoles": ["data-analyst", "bi-analyst", "business-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["data-analyst"], "to": [] },
     "project": "Research Analyst: analyze an open dataset, publish a decision dashboard and explain data limitations to a stakeholder.",
     "checkpoint": "Demonstrate SQL, Spreadsheets, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -750,24 +721,14 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "etl",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "etl", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-contracts",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -792,12 +753,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "hdfs",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "hdfs", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-lakes",
         "importance": "nice-to-have",
@@ -818,10 +774,7 @@
       }
     ],
     "relatedRoles": ["analytics-engineer", "database-developer", "database-administrator"],
-    "careerPath": {
-      "from": [],
-      "to": ["data-architect"]
-    },
+    "careerPath": { "from": [], "to": ["data-architect"] },
     "project": "Data Engineer: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate Apache Airflow, ETL, Data Contracts in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -838,12 +791,7 @@
     "keywords": ["data", "data-engineering", "analytics", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "dbt",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "dbt", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "dimensional-modeling",
         "importance": "core",
@@ -856,12 +804,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -874,12 +817,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "mysql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "mysql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "sql-server",
         "importance": "important",
@@ -912,10 +850,7 @@
       }
     ],
     "relatedRoles": ["data-engineer", "database-developer", "database-administrator"],
-    "careerPath": {
-      "from": [],
-      "to": ["data-architect"]
-    },
+    "careerPath": { "from": [], "to": ["data-architect"] },
     "project": "Analytics Engineer: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate dbt, Dimensional Modeling, Data Quality in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -950,12 +885,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -1000,10 +930,7 @@
       }
     ],
     "relatedRoles": ["data-engineer", "analytics-engineer", "database-administrator"],
-    "careerPath": {
-      "from": [],
-      "to": ["data-architect"]
-    },
+    "careerPath": { "from": [], "to": ["data-architect"] },
     "project": "Database Developer: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate PostgreSQL, Query Optimization, Database Indexing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1038,12 +965,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -1088,10 +1010,7 @@
       }
     ],
     "relatedRoles": ["data-engineer", "analytics-engineer", "database-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["data-architect"]
-    },
+    "careerPath": { "from": [], "to": ["data-architect"] },
     "project": "Database Administrator: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate Database Backup and Recovery, Database Replication, Database Security in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1126,12 +1045,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -1150,24 +1064,14 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "mongodb",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "mongodb", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "bigquery",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "elt",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "elt", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "star-schema",
         "importance": "nice-to-have",
@@ -1182,10 +1086,7 @@
       }
     ],
     "relatedRoles": ["data-engineer", "analytics-engineer", "database-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["data-architect"]
-    },
+    "careerPath": { "from": [], "to": ["data-architect"] },
     "project": "Big Data Engineer: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate Apache Spark, Apache Kafka, Apache Flink in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1220,12 +1121,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -1276,10 +1172,7 @@
       }
     ],
     "relatedRoles": ["data-engineer", "analytics-engineer", "database-developer"],
-    "careerPath": {
-      "from": ["data-engineer", "analytics-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["data-engineer", "analytics-engineer"], "to": [] },
     "project": "Data Architect: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate Data Warehousing, Data Mesh, Data Contracts in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1296,12 +1189,7 @@
     "keywords": ["data", "data-engineering", "etl", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "etl",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "etl", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "change-data-capture",
         "importance": "core",
@@ -1314,12 +1202,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -1364,10 +1247,7 @@
       }
     ],
     "relatedRoles": ["data-engineer", "analytics-engineer", "database-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["data-architect"]
-    },
+    "careerPath": { "from": [], "to": ["data-architect"] },
     "project": "ETL Developer: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate ETL, Change Data Capture, Data Orchestration in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1402,12 +1282,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sql", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "data-modeling",
         "importance": "important",
@@ -1458,10 +1333,7 @@
       }
     ],
     "relatedRoles": ["data-engineer", "analytics-engineer", "database-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["data-architect"]
-    },
+    "careerPath": { "from": [], "to": ["data-architect"] },
     "project": "Data Platform Engineer: build a reproducible ingestion-to-analytics pipeline with quality checks, lineage and recovery tests.",
     "checkpoint": "Demonstrate Databricks, Apache Iceberg, Data Observability in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1502,30 +1374,15 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "looker",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "looker", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "apache-superset",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "seaborn",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "d3-js",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "seaborn", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "d3-js", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "survival-analysis",
         "importance": "nice-to-have",
@@ -1552,10 +1409,7 @@
       }
     ],
     "relatedRoles": ["data-quality-analyst", "power-bi-developer", "tableau-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Data Governance Analyst: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Statistics, Data Modeling, Data Visualization in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1608,12 +1462,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "plotly",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "plotly", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "vega-lite",
         "importance": "important",
@@ -1646,10 +1495,7 @@
       }
     ],
     "relatedRoles": ["data-governance-analyst", "power-bi-developer", "tableau-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Data Quality Analyst: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Statistics, Data Modeling, Data Visualization in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1666,18 +1512,8 @@
     "keywords": ["data", "data-specialisms", "power", "bi", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "power-bi",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "dax",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "power-bi", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "dax", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "power-query",
         "importance": "core",
@@ -1728,10 +1564,7 @@
       }
     ],
     "relatedRoles": ["data-governance-analyst", "data-quality-analyst", "tableau-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Power BI Developer: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Power BI, DAX, Power Query in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1748,12 +1581,7 @@
     "keywords": ["data", "data-specialisms", "tableau", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "tableau",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "tableau", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "dashboard-design",
         "importance": "core",
@@ -1804,10 +1632,7 @@
       }
     ],
     "relatedRoles": ["data-governance-analyst", "data-quality-analyst", "power-bi-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Tableau Developer: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Tableau, Dashboard Design, Data Storytelling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1860,12 +1685,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "ggplot2",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "ggplot2", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "observable",
         "importance": "important",
@@ -1898,10 +1718,7 @@
       }
     ],
     "relatedRoles": ["data-governance-analyst", "data-quality-analyst", "power-bi-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Data Visualization Specialist: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Statistics, Data Modeling, Data Visualization in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1974,10 +1791,7 @@
       }
     ],
     "relatedRoles": ["data-governance-analyst", "data-quality-analyst", "power-bi-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Statistician: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Bayesian Statistics, Hypothesis Testing, Statistical Modeling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2036,12 +1850,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "postgis",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "postgis", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "simulation-modeling",
         "importance": "nice-to-have",
@@ -2050,10 +1859,7 @@
       }
     ],
     "relatedRoles": ["data-governance-analyst", "data-quality-analyst", "power-bi-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Quantitative Analyst: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Monte Carlo Simulation, Time Series Analysis, Optimization Modeling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2112,12 +1918,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "geojson",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "geojson", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "causal-inference",
         "importance": "nice-to-have",
@@ -2132,10 +1933,7 @@
       }
     ],
     "relatedRoles": ["data-governance-analyst", "data-quality-analyst", "power-bi-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Operations Research Analyst: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate Linear Programming, Integer Programming, Queueing Theory in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2152,12 +1950,7 @@
     "keywords": ["data", "data-specialisms", "gis", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "qgis",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "qgis", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "geospatial-analysis",
         "importance": "core",
@@ -2194,30 +1987,17 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "arcgis",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "arcgis", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "mixed-effects-models",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "soda",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "soda", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["data-governance-analyst", "data-quality-analyst", "power-bi-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "GIS Analyst: deliver a reproducible analytical model and an accessible evidence report with governance and quality checks.",
     "checkpoint": "Demonstrate QGIS, Geospatial Analysis, Coordinate Reference Systems in the project, justify decisions and document limitations without following a walkthrough."
   }

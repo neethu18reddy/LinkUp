@@ -1,50 +1,14 @@
 [
-  {
-    "id": "development",
-    "name": "Development"
-  },
-  {
-    "id": "ai-ml",
-    "name": "AI & Machine Learning"
-  },
-  {
-    "id": "data",
-    "name": "Data"
-  },
-  {
-    "id": "infrastructure",
-    "name": "Infrastructure"
-  },
-  {
-    "id": "cybersecurity",
-    "name": "Cybersecurity"
-  },
-  {
-    "id": "quality",
-    "name": "Quality"
-  },
-  {
-    "id": "design",
-    "name": "Design"
-  },
-  {
-    "id": "product-management",
-    "name": "Product & Project Management"
-  },
-  {
-    "id": "finance",
-    "name": "Finance & Accounting"
-  },
-  {
-    "id": "business",
-    "name": "Business, Marketing & Sales"
-  },
-  {
-    "id": "creative",
-    "name": "Arts, Media & Creative"
-  },
-  {
-    "id": "other",
-    "name": "Other high-demand fields"
-  }
+  { "id": "development", "name": "Development" },
+  { "id": "ai-ml", "name": "AI & Machine Learning" },
+  { "id": "data", "name": "Data" },
+  { "id": "infrastructure", "name": "Infrastructure" },
+  { "id": "cybersecurity", "name": "Cybersecurity" },
+  { "id": "quality", "name": "Quality" },
+  { "id": "design", "name": "Design" },
+  { "id": "product-management", "name": "Product & Project Management" },
+  { "id": "finance", "name": "Finance & Accounting" },
+  { "id": "business", "name": "Business, Marketing & Sales" },
+  { "id": "creative", "name": "Arts, Media & Creative" },
+  { "id": "other", "name": "Other high-demand fields" }
 ]

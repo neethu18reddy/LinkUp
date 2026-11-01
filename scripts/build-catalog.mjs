@@ -1,13 +1,22 @@
 import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { families } from './catalog-source.mjs';
-import { focus, ownership } from './catalog-focus.mjs';
+import { focus, ownership, roleCategories, entryRoles } from './catalog-focus.mjs';
+import { questionnaire } from './catalog-questionnaire.mjs';
+import { format } from 'prettier';
+import { officialResources, descriptions } from './catalog-resources.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = (path) => JSON.parse(readFileSync(new URL(path, root), 'utf8'));
+const formatting = read('.prettierrc.json');
+const pendingWrites = [];
 const save = (path, data) => {
   mkdirSync(new URL('.', new URL(path, root)), { recursive: true });
-  writeFileSync(new URL(path, root), `${JSON.stringify(data, null, 2)}\n`);
+  pendingWrites.push(
+    format(JSON.stringify(data), { ...formatting, parser: 'json' }).then((content) =>
+      writeFileSync(new URL(path, root), content),
+    ),
+  );
 };
 const normalize = (text) =>
   text
@@ -52,6 +61,18 @@ const aliases = {
   'UX Writing': ['ux copy'],
   'Financial Modeling': ['financial modelling'],
 };
+Object.assign(aliases, {
+  Go: ['golang'],
+  Python: ['py'],
+  Bash: ['shell', 'unix shell'],
+  'Google Analytics 4': ['ga4'],
+  'Object-oriented Programming': ['oop'],
+  'Machine Learning Fundamentals': ['ml', 'machine learning'],
+  Mixing: ['sound mixing', 'audio mixing'],
+  Collaboration: ['teamwork'],
+  'Operating Systems': ['os', 'operating system fundamentals'],
+  'Presentation Skills': ['presentation', 'public speaking'],
+});
 const prerequisites = {
   React: ['JavaScript', 'HTML', 'CSS'],
   Vue: ['JavaScript', 'HTML', 'CSS'],
@@ -129,6 +150,33 @@ const prerequisites = {
   'Quantum Circuits': ['Linear Algebra'],
   'RNA-seq Analysis': ['Genomics', 'Statistics'],
 };
+Object.assign(prerequisites, {
+  'Responsive Design': ['HTML', 'CSS'],
+  'Web Performance': ['JavaScript'],
+  'Server-side Rendering': ['JavaScript'],
+  'Financial Modeling': ['Financial Accounting', 'Spreadsheets'],
+  'Financial Ratio Analysis': ['Financial Accounting'],
+  'Cash Flow Analysis': ['Financial Accounting'],
+  'Account Reconciliation': ['Bookkeeping'],
+  Bookkeeping: ['Double-entry Accounting'],
+  Prototyping: ['Wireframing'],
+  Wireframing: ['User Research'],
+  'UI Design': ['Typography', 'Color Theory'],
+  'Hypothesis Testing': ['Statistics', 'Probability'],
+  'Linear Programming': ['Linear Algebra'],
+  'Statistical Modeling': ['Statistics'],
+  'Model Evaluation': ['Statistics'],
+  'Data Visualization': ['Statistics'],
+  ETL: ['SQL'],
+  'Database Replication': ['SQL'],
+  'Network Security': ['Networking'],
+  'Memory Forensics': ['Digital Forensics'],
+  '3D Animation': ['3D Modeling'],
+  'Color Grading': ['Video Color Correction'],
+  Mixing: ['Audio Signal Flow'],
+  Mastering: ['Mixing'],
+});
+prerequisites.MATLAB = ['Linear Algebra'];
 const related = {
   React: ['Vue', 'Angular', 'Svelte'],
   Vue: ['React', 'Svelte'],
@@ -255,7 +303,66 @@ const byName = (name) => {
   if (!skill) throw new Error(`Unknown skill ${name}`);
   return skill;
 };
+const softFoundations = new Set([
+  'Collaboration',
+  'Critical Thinking',
+  'Time Management',
+  'Adaptability',
+  'Ownership',
+  'Presentation Skills',
+  'Empathy',
+  'Active Listening',
+]);
 for (const skill of skills.values()) {
+  if (softFoundations.has(skill.name)) {
+    skill.type = 'soft';
+    skill.level = 'beginner';
+    skill.domains = [...new Set([...skill.domains, ...Object.keys(labels)])];
+  }
+  if (skill.name === 'MATLAB') {
+    skill.type = 'technical';
+    skill.domains = [...new Set([...skill.domains, 'data'])];
+  }
+  skill.aliases = [...new Set([...skill.aliases, ...(aliases[skill.name] ?? [])])];
+  skill.estimatedHours =
+    {
+      Python: 40,
+      JavaScript: 40,
+      TypeScript: 24,
+      React: 40,
+      CSS: 24,
+      HTML: 16,
+      SQL: 32,
+      Git: 8,
+      Statistics: 40,
+      'Financial Modeling': 32,
+      MATLAB: 40,
+      'Operating Systems': 32,
+      Collaboration: 8,
+      'Critical Thinking': 12,
+      'Time Management': 8,
+      Adaptability: 8,
+      Ownership: 8,
+      'Presentation Skills': 12,
+      Empathy: 8,
+      'Active Listening': 8,
+    }[skill.name] ?? (skill.level === 'advanced' ? 32 : skill.level === 'beginner' ? 12 : 16);
+  const official = officialResources[skill.name];
+  if (official && !skill.resources.some((resource) => resource.url === official))
+    skill.resources.unshift({
+      title: `${skill.name} official learning reference`,
+      url: official,
+      type: 'docs',
+      free: true,
+    });
+  if (descriptions[skill.name]) skill.description = descriptions[skill.name];
+  if (skill.resources.length < 2)
+    skill.resources.push({
+      title: 'OpenLearn learning library',
+      url: 'https://www.open.edu/openlearn/',
+      type: 'course',
+      free: true,
+    });
   skill.prerequisites = (prerequisites[skill.name] ?? []).map((name) => byName(name).id);
   skill.related = (related[skill.name] ?? []).map((name) => byName(name).id);
 }
@@ -379,6 +486,19 @@ for (const family of families) {
 for (const old of oldRoles)
   if (!roles.some((role) => role.databaseId === old.id))
     throw new Error(`Original role missing: ${old.title}`);
+const skillsByContentId = new Map([...skills.values()].map((skill) => [skill.id, skill]));
+for (const role of roles) {
+  role.category = roleCategories[role.name] ?? role.category;
+  if (entryRoles.includes(role.name)) role.experienceBand = 'entry';
+  if (['ai-ml', 'data', 'infrastructure', 'cybersecurity'].includes(role.category)) {
+    role.trending = true;
+    role.demand = 'high';
+  }
+  for (const row of role.skills) {
+    const skill = skillsByContentId.get(row.skillId);
+    if (!skill.domains.includes(role.category)) skill.domains.push(role.category);
+  }
+}
 for (const role of roles) {
   const siblings = roles.filter((other) => other.family === role.family && other.id !== role.id);
   role.relatedRoles = siblings.slice(0, 3).map((other) => other.id);
@@ -413,6 +533,10 @@ save(
   Object.entries(labels).map(([id, name]) => ({ id, name })),
 );
 save(
+  `${dataRoot}questionnaire.json`,
+  questionnaire(Object.entries(labels).map(([id, name]) => ({ id, name }))),
+);
+save(
   `${dataRoot}aliases.json`,
   Object.fromEntries(roles.flatMap((role) => role.aliases.map((alias) => [alias, role.id]))),
 );
@@ -429,3 +553,4 @@ save(
 console.log(
   `Authored catalog: ${skills.size} skills, ${roles.length} roles, ${families.length} families`,
 );
+await Promise.all(pendingWrites);

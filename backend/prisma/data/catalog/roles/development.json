@@ -6,7 +6,7 @@
     "category": "development",
     "family": "web-interfaces",
     "description": "Build responsive, accessible interfaces and bring web experiences to life.",
-    "experienceBand": "mid",
+    "experienceBand": "entry",
     "trending": false,
     "demand": "medium",
     "keywords": ["development", "web-interfaces", "frontend", "developer"],
@@ -30,36 +30,16 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "accessibility",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "redux",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "zustand",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "redux", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "zustand", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "webpack",
         "importance": "nice-to-have",
@@ -80,10 +60,7 @@
       }
     ],
     "relatedRoles": ["react-developer", "vue-developer", "angular-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Frontend Developer: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
     "checkpoint": "Demonstrate JavaScript, Responsive Design, Web Performance in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -100,12 +77,7 @@
     "keywords": ["development", "web-interfaces", "react", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "react",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "react", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "react-hooks",
         "importance": "core",
@@ -118,18 +90,8 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "javascript",
         "importance": "important",
@@ -160,18 +122,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "aria",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "aria", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["frontend-developer", "vue-developer", "angular-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["frontend-developer"], "to": [] },
     "project": "React Developer: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
     "checkpoint": "Demonstrate React, React Hooks, TypeScript in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -188,36 +142,16 @@
     "keywords": ["development", "web-interfaces", "vue", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "vue",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "vue", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "vue-composition-api",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "nuxt",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "nuxt", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "javascript",
         "importance": "important",
@@ -250,10 +184,7 @@
       }
     ],
     "relatedRoles": ["frontend-developer", "react-developer", "angular-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["frontend-developer"], "to": [] },
     "project": "Vue Developer: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
     "checkpoint": "Demonstrate Vue, Vue Composition API, Nuxt in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -270,12 +201,7 @@
     "keywords": ["development", "web-interfaces", "angular", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "angular",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "angular", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "typescript",
         "importance": "core",
@@ -288,18 +214,8 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "javascript",
         "importance": "important",
@@ -312,12 +228,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "flexbox",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "flexbox", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "tailwind-css",
         "importance": "nice-to-have",
@@ -338,10 +249,7 @@
       }
     ],
     "relatedRoles": ["frontend-developer", "react-developer", "vue-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["frontend-developer"], "to": [] },
     "project": "Angular Developer: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
     "checkpoint": "Demonstrate Angular, TypeScript, Angular Signals in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -358,36 +266,16 @@
     "keywords": ["development", "web-interfaces", "next", "js", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "next-js",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "react",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "next-js", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "react", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "server-side-rendering",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "javascript",
         "importance": "important",
@@ -426,10 +314,7 @@
       }
     ],
     "relatedRoles": ["frontend-developer", "react-developer", "vue-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["frontend-developer"], "to": [] },
     "project": "Next.js Developer: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
     "checkpoint": "Demonstrate Next.js, React, Server-side Rendering in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -446,36 +331,16 @@
     "keywords": ["development", "web-interfaces", "svelte", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "svelte",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "svelte", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "svelte-runes",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "vite",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "vite", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "javascript",
         "importance": "important",
@@ -508,10 +373,7 @@
       }
     ],
     "relatedRoles": ["frontend-developer", "react-developer", "vue-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["frontend-developer"], "to": [] },
     "project": "Svelte Developer: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
     "checkpoint": "Demonstrate Svelte, Svelte Runes, Vite in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -546,18 +408,8 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "accessibility",
         "importance": "important",
@@ -590,100 +442,9 @@
       }
     ],
     "relatedRoles": ["frontend-developer", "react-developer", "vue-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": ["frontend-developer"], "to": [] },
     "project": "WebAssembly Developer: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
     "checkpoint": "Demonstrate WebAssembly, Web Workers, JavaScript in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "design-technologist",
-    "databaseId": "1ee2024a-82d4-4809-a76b-f9b0fbf4e5c3",
-    "name": "Design Technologist",
-    "category": "development",
-    "family": "web-interfaces",
-    "description": "Build usable browser interfaces with a focus on design technologist practice.",
-    "experienceBand": "mid",
-    "trending": false,
-    "demand": "medium",
-    "keywords": ["development", "web-interfaces", "design", "technologist"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "web-components",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css-animations",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "prototyping",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "html",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "css",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "javascript",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "accessibility",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "semantic-html",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "sass",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "static-site-generation",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "http-caching",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": ["frontend-developer", "react-developer", "vue-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
-    "project": "Design Technologist: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
-    "checkpoint": "Demonstrate Web Components, CSS Animations, Prototyping in the project, justify decisions and document limitations without following a walkthrough."
   },
   {
     "id": "backend-developer",
@@ -698,12 +459,7 @@
     "keywords": ["development", "backend-services", "backend", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "node-js",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "node-js", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "postgresql",
         "importance": "core",
@@ -722,30 +478,10 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "fastify",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "fastify", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "session-management",
         "importance": "nice-to-have",
@@ -765,17 +501,14 @@
         "weight": 1
       },
       {
-        "skillId": "ux-research",
+        "skillId": "data-structures-algorithms",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       }
     ],
     "relatedRoles": ["fullstack-developer", "software-engineer", "node-js-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["microservices-architect", "software-architect"]
-    },
+    "careerPath": { "from": [], "to": ["microservices-architect", "software-architect"] },
     "project": "Backend Developer: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate Node.js, PostgreSQL, API Versioning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -792,12 +525,7 @@
     "keywords": ["development", "backend-services", "full", "stack", "developer"],
     "aliases": ["Fullstack Developer"],
     "skills": [
-      {
-        "skillId": "node-js",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "node-js", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "javascript",
         "importance": "core",
@@ -816,30 +544,10 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "graphql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "graphql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "password-hashing",
         "importance": "nice-to-have",
@@ -857,13 +565,16 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "ux-research",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["backend-developer", "software-engineer", "node-js-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["microservices-architect", "software-architect"]
-    },
+    "careerPath": { "from": [], "to": ["microservices-architect", "software-architect"] },
     "project": "Full Stack Developer: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate Node.js, JavaScript, PostgreSQL in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -904,24 +615,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "oauth-2-0",
         "importance": "important",
@@ -948,10 +644,7 @@
       }
     ],
     "relatedRoles": ["backend-developer", "fullstack-developer", "node-js-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["microservices-architect", "software-architect"]
-    },
+    "careerPath": { "from": [], "to": ["microservices-architect", "software-architect"] },
     "project": "Software Engineer: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate Algorithms, Data Structures, System Design in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -968,18 +661,8 @@
     "keywords": ["development", "backend-services", "node", "js", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "node-js",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "express",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "node-js", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "express", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "asynchronous-programming",
         "importance": "core",
@@ -992,24 +675,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "websockets",
         "importance": "important",
@@ -1036,10 +704,7 @@
       }
     ],
     "relatedRoles": ["backend-developer", "fullstack-developer", "software-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["microservices-architect", "software-architect"]
-    },
+    "careerPath": { "from": [], "to": ["microservices-architect", "software-architect"] },
     "project": "Node.js Developer: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate Node.js, Express, Asynchronous Programming in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1056,12 +721,7 @@
     "keywords": ["development", "backend-services", "api", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "openapi",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "openapi", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "api-pagination",
         "importance": "core",
@@ -1080,30 +740,10 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "nestjs",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "nestjs", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "json-web-tokens",
         "importance": "nice-to-have",
@@ -1123,17 +763,14 @@
         "weight": 1
       },
       {
-        "skillId": "data-structures-algorithms",
+        "skillId": "operating-systems",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       }
     ],
     "relatedRoles": ["backend-developer", "fullstack-developer", "software-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["microservices-architect", "software-architect"]
-    },
+    "careerPath": { "from": [], "to": ["microservices-architect", "software-architect"] },
     "project": "API Developer: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate OpenAPI, API Pagination, Contract Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1174,24 +811,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "api-rate-limiting",
         "importance": "important",
@@ -1204,12 +826,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "nats",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "nats", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "service-discovery",
         "importance": "nice-to-have",
@@ -1218,10 +835,7 @@
       }
     ],
     "relatedRoles": ["backend-developer", "fullstack-developer", "software-engineer"],
-    "careerPath": {
-      "from": ["backend-developer", "fullstack-developer"],
-      "to": []
-    },
+    "careerPath": { "from": ["backend-developer", "fullstack-developer"], "to": [] },
     "project": "Microservices Architect: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate Microservices, Distributed Transactions, Event-driven Architecture in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1262,24 +876,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "server-sent-events",
         "importance": "important",
@@ -1306,10 +905,7 @@
       }
     ],
     "relatedRoles": ["backend-developer", "fullstack-developer", "software-engineer"],
-    "careerPath": {
-      "from": ["backend-developer", "fullstack-developer"],
-      "to": []
-    },
+    "careerPath": { "from": ["backend-developer", "fullstack-developer"], "to": [] },
     "project": "Software Architect: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate System Design, Design Patterns, Domain-driven Design in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1326,12 +922,7 @@
     "keywords": ["development", "backend-services", "integration", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "webhooks",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "webhooks", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "message-queues",
         "importance": "core",
@@ -1350,30 +941,10 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "grpc",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "grpc", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "object-oriented-programming",
         "importance": "nice-to-have",
@@ -1394,10 +965,7 @@
       }
     ],
     "relatedRoles": ["backend-developer", "fullstack-developer", "software-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["microservices-architect", "software-architect"]
-    },
+    "careerPath": { "from": [], "to": ["microservices-architect", "software-architect"] },
     "project": "Integration Developer: deliver a documented service with authentication, durable storage, automated tests and a failure-recovery demonstration.",
     "checkpoint": "Demonstrate Webhooks, Message Queues, API Gateways in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1414,60 +982,30 @@
     "keywords": ["development", "language-platforms", "python", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "python-type-hints",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "pytest",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "pytest", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "python-virtual-environments",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "pip",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "pip", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "celery",
         "importance": "nice-to-have",
@@ -1476,10 +1014,7 @@
       }
     ],
     "relatedRoles": ["django-flask-developer", "java-developer", "spring-boot-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Python Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Python, Python Type Hints, pytest in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1496,54 +1031,24 @@
     "keywords": ["development", "language-platforms", "django", "flask", "developer"],
     "aliases": ["Django Developer", "Flask Developer"],
     "skills": [
-      {
-        "skillId": "django",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "flask",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "django", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "flask", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "sqlalchemy",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "fastapi",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "fastapi", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "poetry",
         "importance": "nice-to-have",
@@ -1558,10 +1063,7 @@
       }
     ],
     "relatedRoles": ["python-developer", "java-developer", "spring-boot-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Django/Flask Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Django, Flask, SQLAlchemy in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1578,48 +1080,23 @@
     "keywords": ["development", "language-platforms", "java", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "java",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "java", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "java-generics",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "maven",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "maven", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "java-streams",
         "importance": "important",
@@ -1632,18 +1109,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "julia",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "julia", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "spring-boot-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Java Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Java, Java Generics, Maven in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1678,30 +1147,15 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "spring-data",
         "importance": "important",
@@ -1716,10 +1170,7 @@
       }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "java-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Spring Boot Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Spring Boot, Spring Security, Hibernate in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1736,78 +1187,40 @@
     "keywords": ["development", "language-platforms", "net", "c", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "csharp",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "net",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "csharp", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "net", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "asp-net-core",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "entity-framework-core",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "linq",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linq", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "csharp-async-await",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "nuget",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "nuget", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "java-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": ".NET/C# Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate C#, .NET, ASP.NET Core in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1824,12 +1237,7 @@
     "keywords": ["development", "language-platforms", "go", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "go",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "go", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "go-goroutines",
         "importance": "core",
@@ -1842,30 +1250,15 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "go-channels",
         "importance": "important",
@@ -1886,10 +1279,7 @@
       }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "java-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Go Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Go, Go Goroutines, Go Modules in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1906,48 +1296,23 @@
     "keywords": ["development", "language-platforms", "rust", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "rust",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "rust", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rust-ownership",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "cargo",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "cargo", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "rust-lifetimes",
         "importance": "important",
@@ -1968,10 +1333,7 @@
       }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "java-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Rust Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Rust, Rust Ownership, Cargo in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1988,48 +1350,18 @@
     "keywords": ["development", "language-platforms", "php", "laravel", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "php",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "laravel",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "composer",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "php", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "laravel", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "composer", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "eloquent-orm",
         "importance": "important",
@@ -2042,18 +1374,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "scala",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "scala", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "java-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "PHP/Laravel Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate PHP, Laravel, Composer in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2070,48 +1394,23 @@
     "keywords": ["development", "language-platforms", "ruby", "on", "rails", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "ruby",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "ruby", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "ruby-on-rails",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "rspec",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "rspec", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "active-record",
         "importance": "important",
@@ -2124,18 +1423,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "c",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "c", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "java-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Ruby on Rails Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Ruby, Ruby on Rails, RSpec in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2152,48 +1443,18 @@
     "keywords": ["development", "language-platforms", "kotlin", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "kotlin",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "gradle",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "java",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "kotlin", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "gradle", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "java", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "testing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "data-structures",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "jvm-profiling",
         "importance": "important",
@@ -2206,18 +1467,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "lua",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "lua", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["python-developer", "django-flask-developer", "java-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Kotlin Developer: create a platform-native application with typed boundaries, persistence, tests and a reproducible build.",
     "checkpoint": "Demonstrate Kotlin, Gradle, Java in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2234,30 +1487,10 @@
     "keywords": ["development", "mobile-apps", "swift", "ios", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "swift",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "swiftui",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "xcode",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "swift", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "swiftui", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "xcode", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rest-apis",
         "importance": "important",
@@ -2276,12 +1509,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "uikit",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "uikit", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "combine",
         "importance": "nice-to-have",
@@ -2308,10 +1536,7 @@
       }
     ],
     "relatedRoles": ["android-developer", "react-native-developer", "flutter-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["mobile-app-architect"]
-    },
+    "careerPath": { "from": [], "to": ["mobile-app-architect"] },
     "project": "Swift/iOS Developer: ship an offline-capable mobile planner with accessibility checks and a recorded device test.",
     "checkpoint": "Demonstrate Swift, SwiftUI, Xcode in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2328,12 +1553,7 @@
     "keywords": ["development", "mobile-apps", "android", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "kotlin",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "kotlin", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "android-sdk",
         "importance": "core",
@@ -2346,12 +1566,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rest-apis",
         "importance": "important",
@@ -2402,10 +1617,7 @@
       }
     ],
     "relatedRoles": ["swift-ios-developer", "react-native-developer", "flutter-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["mobile-app-architect"]
-    },
+    "careerPath": { "from": [], "to": ["mobile-app-architect"] },
     "project": "Android Developer: ship an offline-capable mobile planner with accessibility checks and a recorded device test.",
     "checkpoint": "Demonstrate Kotlin, Android SDK, Jetpack Compose in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2428,24 +1640,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "expo",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "react",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "expo", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "react", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rest-apis",
         "importance": "important",
@@ -2490,10 +1687,7 @@
       }
     ],
     "relatedRoles": ["swift-ios-developer", "android-developer", "flutter-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["mobile-app-architect"]
-    },
+    "careerPath": { "from": [], "to": ["mobile-app-architect"] },
     "project": "React Native Developer: ship an offline-capable mobile planner with accessibility checks and a recorded device test.",
     "checkpoint": "Demonstrate React Native, Expo, React in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2510,30 +1704,15 @@
     "keywords": ["development", "mobile-apps", "flutter", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "flutter",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "dart",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "flutter", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "dart", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "flutter-widget-testing",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rest-apis",
         "importance": "important",
@@ -2578,10 +1757,7 @@
       }
     ],
     "relatedRoles": ["swift-ios-developer", "android-developer", "react-native-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["mobile-app-architect"]
-    },
+    "careerPath": { "from": [], "to": ["mobile-app-architect"] },
     "project": "Flutter Developer: ship an offline-capable mobile planner with accessibility checks and a recorded device test.",
     "checkpoint": "Demonstrate Flutter, Dart, Flutter Widget Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2598,12 +1774,7 @@
     "keywords": ["development", "mobile-apps", "cross", "platform", "mobile", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "flutter",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "flutter", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "react-native",
         "importance": "core",
@@ -2616,12 +1787,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rest-apis",
         "importance": "important",
@@ -2640,12 +1806,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sqlite",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sqlite", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "mobile-networking",
         "importance": "nice-to-have",
@@ -2684,10 +1845,7 @@
       }
     ],
     "relatedRoles": ["swift-ios-developer", "android-developer", "react-native-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["mobile-app-architect"]
-    },
+    "careerPath": { "from": [], "to": ["mobile-app-architect"] },
     "project": "Cross-Platform Mobile Developer: ship an offline-capable mobile planner with accessibility checks and a recorded device test.",
     "checkpoint": "Demonstrate Flutter, React Native, Offline-first Mobile Design in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2722,12 +1880,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "git",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "git", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "rest-apis",
         "importance": "important",
@@ -2790,10 +1943,7 @@
       }
     ],
     "relatedRoles": ["swift-ios-developer", "android-developer", "react-native-developer"],
-    "careerPath": {
-      "from": ["swift-ios-developer", "android-developer"],
-      "to": []
-    },
+    "careerPath": { "from": ["swift-ios-developer", "android-developer"], "to": [] },
     "project": "Mobile App Architect: ship an offline-capable mobile planner with accessibility checks and a recorded device test.",
     "checkpoint": "Demonstrate Mobile State Management, Mobile Secure Storage, Mobile CI/CD in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2810,12 +1960,7 @@
     "keywords": ["development", "games-xr", "game", "developer", "unity"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "unity",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "unity", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "unity-csharp-scripting",
         "importance": "core",
@@ -2884,10 +2029,7 @@
       }
     ],
     "relatedRoles": ["game-developer-unreal", "ar-vr-developer", "gameplay-programmer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Game Developer (Unity): publish a playable vertical slice with clear controls, performance budgets and playtest findings.",
     "checkpoint": "Demonstrate Unity, Unity C# Scripting, Game Physics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2978,10 +2120,7 @@
       }
     ],
     "relatedRoles": ["game-developer-unity", "ar-vr-developer", "gameplay-programmer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Game Developer (Unreal): publish a playable vertical slice with clear controls, performance budgets and playtest findings.",
     "checkpoint": "Demonstrate Unreal Engine, Unreal Blueprints, Unreal C++ in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2998,12 +2137,7 @@
     "keywords": ["development", "games-xr", "ar", "vr", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "openxr",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "openxr", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "ar-foundation",
         "importance": "core",
@@ -3040,24 +2174,14 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "godot",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "godot", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "behavior-trees",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "glsl",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "glsl", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "procedural-generation",
         "importance": "nice-to-have",
@@ -3066,10 +2190,7 @@
       }
     ],
     "relatedRoles": ["game-developer-unity", "game-developer-unreal", "gameplay-programmer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "AR/VR Developer: publish a playable vertical slice with clear controls, performance budgets and playtest findings.",
     "checkpoint": "Demonstrate OpenXR, AR Foundation, VR Interaction in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3086,12 +2207,7 @@
     "keywords": ["development", "games-xr", "gameplay", "programmer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "game-ai",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "game-ai", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "game-input-systems",
         "importance": "core",
@@ -3154,10 +2270,7 @@
       }
     ],
     "relatedRoles": ["game-developer-unity", "game-developer-unreal", "ar-vr-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Gameplay Programmer: publish a playable vertical slice with clear controls, performance budgets and playtest findings.",
     "checkpoint": "Demonstrate Game AI, Game Input Systems, Finite State Machines in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3216,12 +2329,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "game-ui",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "game-ui", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "shader-programming",
         "importance": "nice-to-have",
@@ -3248,10 +2356,7 @@
       }
     ],
     "relatedRoles": ["game-developer-unity", "game-developer-unreal", "ar-vr-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Technical Game Designer: publish a playable vertical slice with clear controls, performance budgets and playtest findings.",
     "checkpoint": "Demonstrate Game Balancing, Level Streaming, Playtesting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3316,12 +2421,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "hlsl",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "hlsl", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "addressable-assets",
         "importance": "nice-to-have",
@@ -3336,10 +2436,7 @@
       }
     ],
     "relatedRoles": ["game-developer-unity", "game-developer-unreal", "ar-vr-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "XR Interaction Designer: publish a playable vertical slice with clear controls, performance budgets and playtest findings.",
     "checkpoint": "Demonstrate Hand Tracking, XR Accessibility, Spatial Anchors in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3362,24 +2459,14 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "freertos",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "freertos", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "arm-architecture",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "c",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "c", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "electronics-fundamentals",
         "importance": "important",
@@ -3430,10 +2517,7 @@
       }
     ],
     "relatedRoles": ["firmware-engineer", "iot-developer", "robotics-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Embedded Systems Engineer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
     "checkpoint": "Demonstrate Microcontrollers, FreeRTOS, ARM Architecture in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3468,12 +2552,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "c",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "c", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "electronics-fundamentals",
         "importance": "important",
@@ -3524,10 +2603,7 @@
       }
     ],
     "relatedRoles": ["embedded-systems-engineer", "iot-developer", "robotics-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Firmware Engineer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
     "checkpoint": "Demonstrate Bootloaders, Device Drivers, Secure Boot in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3544,30 +2620,15 @@
     "keywords": ["development", "embedded-iot", "iot", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "mqtt",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "coap",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "mqtt", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "coap", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "sensor-calibration",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "c",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "c", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "electronics-fundamentals",
         "importance": "important",
@@ -3586,18 +2647,8 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "dma",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ble",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "dma", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ble", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "oscilloscope-operation",
         "importance": "nice-to-have",
@@ -3612,194 +2663,9 @@
       }
     ],
     "relatedRoles": ["embedded-systems-engineer", "firmware-engineer", "robotics-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "IoT Developer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
     "checkpoint": "Demonstrate MQTT, CoAP, Sensor Calibration in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "robotics-engineer",
-    "databaseId": "95465bbe-9ca6-4247-a207-9f3f730103a3",
-    "name": "Robotics Engineer",
-    "category": "development",
-    "family": "embedded-iot",
-    "description": "Build dependable connected hardware with a focus on robotics engineer practice.",
-    "experienceBand": "mid",
-    "trending": false,
-    "demand": "medium",
-    "keywords": ["development", "embedded-iot", "robotics", "engineer"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "ros-2",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "robot-kinematics",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "slam",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "c",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "electronics-fundamentals",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "embedded-debugging",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "hardware-interfaces",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "uart",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "zigbee",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "logic-analyzers",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "software-in-the-loop-testing",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": ["embedded-systems-engineer", "firmware-engineer", "iot-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
-    "project": "Robotics Engineer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
-    "checkpoint": "Demonstrate ROS 2, Robot Kinematics, SLAM in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "digital-twin-engineer",
-    "databaseId": "5bcb4054-6f63-4915-a0cd-bd5d8cdce614",
-    "name": "Digital Twin Engineer",
-    "category": "development",
-    "family": "embedded-iot",
-    "description": "Build dependable connected hardware with a focus on digital twin engineer practice.",
-    "experienceBand": "mid",
-    "trending": false,
-    "demand": "medium",
-    "keywords": ["development", "embedded-iot", "digital", "twin", "engineer"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "digital-twin-modeling",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "opc-ua",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "industrial-iot",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "c",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "electronics-fundamentals",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "embedded-debugging",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "hardware-interfaces",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "risc-v",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "spi",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "lorawan",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "jtag",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "path-planning",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": ["embedded-systems-engineer", "firmware-engineer", "iot-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
-    "project": "Digital Twin Engineer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
-    "checkpoint": "Demonstrate Digital Twin Modeling, OPC UA, Industrial IoT in the project, justify decisions and document limitations without following a walkthrough."
   },
   {
     "id": "edge-computing-engineer",
@@ -3832,12 +2698,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "c",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "c", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "electronics-fundamentals",
         "importance": "important",
@@ -3856,30 +2717,15 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "zephyr",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "i2c",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "zephyr", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "i2c", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "signal-conditioning",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "swd",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "swd", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "pid-control",
         "importance": "nice-to-have",
@@ -3888,10 +2734,7 @@
       }
     ],
     "relatedRoles": ["embedded-systems-engineer", "firmware-engineer", "iot-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Edge Computing Engineer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
     "checkpoint": "Demonstrate Edge Inference, Embedded Linux, Power Optimization in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3908,24 +2751,9 @@
     "keywords": ["development", "business-platforms", "low", "code", "no", "code", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "bubble",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "webflow",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "retool",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "bubble", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "webflow", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "retool", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "business-process-modeling",
         "importance": "core",
@@ -3970,10 +2798,7 @@
       }
     ],
     "relatedRoles": ["wordpress-developer", "shopify-developer", "erp-sap-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Low-Code/No-Code Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate Bubble, Webflow, Retool in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4046,10 +2871,7 @@
       }
     ],
     "relatedRoles": ["low-code-no-code-developer", "shopify-developer", "erp-sap-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "WordPress Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate WordPress, WordPress Plugin Development, Gutenberg Blocks in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4066,12 +2888,7 @@
     "keywords": ["development", "business-platforms", "shopify", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "shopify",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "shopify", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "liquid-templates",
         "importance": "core",
@@ -4122,10 +2939,7 @@
       }
     ],
     "relatedRoles": ["low-code-no-code-developer", "wordpress-developer", "erp-sap-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Shopify Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate Shopify, Liquid Templates, Shopify Admin API in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4142,24 +2956,14 @@
     "keywords": ["development", "business-platforms", "erp", "sap", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sap-abap",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sap-abap", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "sap-fiori",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sap-btp",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sap-btp", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "business-process-modeling",
         "importance": "core",
@@ -4204,10 +3008,7 @@
       }
     ],
     "relatedRoles": ["low-code-no-code-developer", "wordpress-developer", "shopify-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "ERP/SAP Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate SAP ABAP, SAP Fiori, SAP BTP in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4224,12 +3025,7 @@
     "keywords": ["development", "business-platforms", "salesforce", "developer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "apex",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "apex", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "lightning-web-components",
         "importance": "core",
@@ -4266,12 +3062,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "soql",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "soql", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "salesforce-flow",
         "importance": "nice-to-have",
@@ -4292,10 +3083,7 @@
       }
     ],
     "relatedRoles": ["low-code-no-code-developer", "wordpress-developer", "shopify-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Salesforce Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate Apex, Lightning Web Components, Salesforce in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4360,18 +3148,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "n8n",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "n8n", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["low-code-no-code-developer", "wordpress-developer", "shopify-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "ServiceNow Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate ServiceNow, ServiceNow Scripting, ServiceNow Flow Designer in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4436,12 +3216,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "make",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "make", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "platform-governance",
         "importance": "nice-to-have",
@@ -4450,10 +3225,7 @@
       }
     ],
     "relatedRoles": ["low-code-no-code-developer", "wordpress-developer", "shopify-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Power Platform Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate Power Apps, Power Automate, Dataverse in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4512,12 +3284,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "mendix",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "mendix", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "airtable",
         "importance": "nice-to-have",
@@ -4532,10 +3299,7 @@
       }
     ],
     "relatedRoles": ["low-code-no-code-developer", "wordpress-developer", "shopify-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "CRM Developer: implement an approval workflow in a platform sandbox with roles, validation, integration and user documentation.",
     "checkpoint": "Demonstrate Microsoft Dynamics 365, CRM Data Migration, CRM Reporting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4582,18 +3346,8 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "foundry",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "viem",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "foundry", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "viem", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "reentrancy-prevention",
         "importance": "important",
@@ -4648,10 +3402,7 @@
       "web3-security-engineer",
       "blockchain-protocol-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Blockchain Developer: deploy a tested contract to a test network with a threat model and documented transaction costs.",
     "checkpoint": "Demonstrate Cryptography Fundamentals, Distributed Systems, Smart Contracts in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4668,12 +3419,7 @@
     "keywords": ["development", "blockchain", "smart", "contract", "developer", "solidity"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "solidity",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "solidity", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "cryptography-fundamentals",
         "importance": "core",
@@ -4758,10 +3504,7 @@
       "web3-security-engineer",
       "blockchain-protocol-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Smart Contract Developer (Solidity): deploy a tested contract to a test network with a threat model and documented transaction costs.",
     "checkpoint": "Demonstrate Solidity, Cryptography Fundamentals, Distributed Systems in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4802,12 +3545,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "vyper",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "vyper", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "ethers-js",
         "importance": "important",
@@ -4820,12 +3558,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "erc-721",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "erc-721", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "decentralized-identity",
         "importance": "nice-to-have",
@@ -4838,12 +3571,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "ipfs",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "ipfs", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "oracle-integration",
         "importance": "nice-to-have",
@@ -4862,10 +3590,7 @@
       "smart-contract-developer-solidity",
       "blockchain-protocol-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Web3 Security Engineer: deploy a tested contract to a test network with a threat model and documented transaction costs.",
     "checkpoint": "Demonstrate Cryptography Fundamentals, Distributed Systems, Smart Contracts in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -4906,30 +3631,10 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "evm",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "hardhat",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "wagmi",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "erc-20",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "evm", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "hardhat", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "wagmi", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "erc-20", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "defi-protocols",
         "importance": "nice-to-have",
@@ -4972,10 +3677,7 @@
       "smart-contract-developer-solidity",
       "web3-security-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Blockchain Protocol Engineer: deploy a tested contract to a test network with a threat model and documented transaction costs.",
     "checkpoint": "Demonstrate Cryptography Fundamentals, Distributed Systems, Smart Contracts in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -5077,10 +3779,7 @@
       "api-documentation-engineer",
       "developer-educator"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Technical Writer / Developer Advocate: publish a tested quickstart and API guide, then run a small developer workshop and incorporate feedback.",
     "checkpoint": "Demonstrate Technical Writing, Audience Analysis, Developer Experience in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -5127,12 +3826,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sphinx",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sphinx", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "style-guides",
         "importance": "important",
@@ -5175,10 +3869,7 @@
       "api-documentation-engineer",
       "developer-educator"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Developer Relations Engineer: publish a tested quickstart and API guide, then run a small developer workshop and incorporate feedback.",
     "checkpoint": "Demonstrate Technical Writing, Audience Analysis, Developer Experience in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -5273,10 +3964,7 @@
       "developer-relations-engineer",
       "developer-educator"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "API Documentation Engineer: publish a tested quickstart and API guide, then run a small developer workshop and incorporate feedback.",
     "checkpoint": "Demonstrate API Documentation, Technical Writing, Audience Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -5323,12 +4011,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "mkdocs",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "mkdocs", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "code-sample-testing",
         "importance": "important",
@@ -5371,10 +4054,7 @@
       "developer-relations-engineer",
       "api-documentation-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Developer Educator: publish a tested quickstart and API guide, then run a small developer workshop and incorporate feedback.",
     "checkpoint": "Demonstrate Technical Writing, Audience Analysis, Developer Experience in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -5469,10 +4149,7 @@
       "developer-relations-engineer",
       "api-documentation-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Documentation Engineer: publish a tested quickstart and API guide, then run a small developer workshop and incorporate feedback.",
     "checkpoint": "Demonstrate Technical Writing, Audience Analysis, Developer Experience in the project, justify decisions and document limitations without following a walkthrough."
   }

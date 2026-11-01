@@ -12,12 +12,7 @@
     "keywords": ["business", "digital-marketing", "digital", "marketing", "specialist"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "seo",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "seo", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "google-analytics-4",
         "importance": "core",
@@ -80,10 +75,7 @@
       }
     ],
     "relatedRoles": ["seo-specialist", "sem-ppc-specialist", "growth-marketer"],
-    "careerPath": {
-      "from": [],
-      "to": ["e-commerce-manager", "marketing-analytics-manager"]
-    },
+    "careerPath": { "from": [], "to": ["e-commerce-manager", "marketing-analytics-manager"] },
     "project": "Digital Marketing Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate SEO, Google Analytics 4, Campaign Reporting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -118,12 +110,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "seo",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "seo", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "marketing-strategy",
         "importance": "important",
@@ -162,10 +149,7 @@
       }
     ],
     "relatedRoles": ["digital-marketing-specialist", "sem-ppc-specialist", "growth-marketer"],
-    "careerPath": {
-      "from": [],
-      "to": ["e-commerce-manager", "marketing-analytics-manager"]
-    },
+    "careerPath": { "from": [], "to": ["e-commerce-manager", "marketing-analytics-manager"] },
     "project": "SEO Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate Technical SEO, Keyword Research, Google Search Console in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -244,10 +228,7 @@
       }
     ],
     "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "growth-marketer"],
-    "careerPath": {
-      "from": [],
-      "to": ["e-commerce-manager", "marketing-analytics-manager"]
-    },
+    "careerPath": { "from": [], "to": ["e-commerce-manager", "marketing-analytics-manager"] },
     "project": "SEM/PPC Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate Google Ads, PPC Campaign Management, Bid Optimization in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -326,10 +307,7 @@
       }
     ],
     "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["e-commerce-manager", "marketing-analytics-manager"]
-    },
+    "careerPath": { "from": [], "to": ["e-commerce-manager", "marketing-analytics-manager"] },
     "project": "Growth Marketer: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -408,10 +386,7 @@
       }
     ],
     "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["e-commerce-manager", "marketing-analytics-manager"]
-    },
+    "careerPath": { "from": [], "to": ["e-commerce-manager", "marketing-analytics-manager"] },
     "project": "Performance Marketer: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -490,10 +465,7 @@
       }
     ],
     "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["e-commerce-manager", "marketing-analytics-manager"]
-    },
+    "careerPath": { "from": [], "to": ["e-commerce-manager", "marketing-analytics-manager"] },
     "project": "Marketing Automation Specialist: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate Marketing Automation, Marketing Strategy, Marketing Analytics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -578,10 +550,7 @@
       }
     ],
     "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
-    "careerPath": {
-      "from": ["digital-marketing-specialist", "seo-specialist"],
-      "to": []
-    },
+    "careerPath": { "from": ["digital-marketing-specialist", "seo-specialist"], "to": [] },
     "project": "E-commerce Manager: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -672,10 +641,7 @@
       }
     ],
     "relatedRoles": ["digital-marketing-specialist", "seo-specialist", "sem-ppc-specialist"],
-    "careerPath": {
-      "from": ["digital-marketing-specialist", "seo-specialist"],
-      "to": []
-    },
+    "careerPath": { "from": ["digital-marketing-specialist", "seo-specialist"], "to": [] },
     "project": "Marketing Analytics Manager: design and measure a small acquisition campaign with a landing page, tracking plan and experiment readout.",
     "checkpoint": "Demonstrate Marketing Strategy, Marketing Analytics, Customer Segmentation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -754,10 +720,7 @@
       }
     ],
     "relatedRoles": ["content-strategist", "content-marketer", "email-marketing-specialist"],
-    "careerPath": {
-      "from": ["content-strategist", "content-marketer"],
-      "to": []
-    },
+    "careerPath": { "from": ["content-strategist", "content-marketer"], "to": [] },
     "project": "Social Media Manager: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -836,10 +799,7 @@
       }
     ],
     "relatedRoles": ["social-media-manager", "content-marketer", "email-marketing-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["social-media-manager", "brand-manager"]
-    },
+    "careerPath": { "from": [], "to": ["social-media-manager", "brand-manager"] },
     "project": "Content Strategist: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -918,10 +878,7 @@
       }
     ],
     "relatedRoles": ["social-media-manager", "content-strategist", "email-marketing-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["social-media-manager", "brand-manager"]
-    },
+    "careerPath": { "from": [], "to": ["social-media-manager", "brand-manager"] },
     "project": "Content Marketer: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1012,10 +969,7 @@
       }
     ],
     "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
-    "careerPath": {
-      "from": [],
-      "to": ["social-media-manager", "brand-manager"]
-    },
+    "careerPath": { "from": [], "to": ["social-media-manager", "brand-manager"] },
     "project": "Email Marketing Specialist: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Email Marketing, Content Strategy, Audience Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1100,10 +1054,7 @@
       }
     ],
     "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
-    "careerPath": {
-      "from": ["content-strategist", "content-marketer"],
-      "to": []
-    },
+    "careerPath": { "from": ["content-strategist", "content-marketer"], "to": [] },
     "project": "Brand Manager: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1182,10 +1133,7 @@
       }
     ],
     "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
-    "careerPath": {
-      "from": ["content-strategist", "content-marketer"],
-      "to": []
-    },
+    "careerPath": { "from": ["content-strategist", "content-marketer"], "to": [] },
     "project": "Influencer Marketing Manager: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1258,10 +1206,7 @@
       }
     ],
     "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
-    "careerPath": {
-      "from": [],
-      "to": ["social-media-manager", "brand-manager"]
-    },
+    "careerPath": { "from": [], "to": ["social-media-manager", "brand-manager"] },
     "project": "Public Relations Specialist: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Public Relations, Content Strategy, Audience Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1340,10 +1285,7 @@
       }
     ],
     "relatedRoles": ["social-media-manager", "content-strategist", "content-marketer"],
-    "careerPath": {
-      "from": [],
-      "to": ["social-media-manager", "brand-manager"]
-    },
+    "careerPath": { "from": [], "to": ["social-media-manager", "brand-manager"] },
     "project": "Market Research Analyst: produce a researched audience strategy and coordinated content campaign with a measurement framework.",
     "checkpoint": "Demonstrate Content Strategy, Audience Research, Brand Positioning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1354,7 +1296,7 @@
     "category": "business",
     "family": "sales-success",
     "description": "Understand customer needs and grow accountable relationships with a focus on sales development rep practice.",
-    "experienceBand": "mid",
+    "experienceBand": "entry",
     "trending": false,
     "demand": "medium",
     "keywords": ["business", "sales-success", "sales", "development", "rep"],
@@ -1378,12 +1320,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "crm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "crm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "sales-discovery",
         "importance": "important",
@@ -1454,12 +1391,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "crm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "crm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "prospecting",
         "importance": "important",
@@ -1499,7 +1431,7 @@
     ],
     "relatedRoles": ["sales-development-rep", "sales-engineer", "business-development-manager"],
     "careerPath": {
-      "from": ["customer-support-specialist"],
+      "from": ["sales-development-rep", "customer-support-specialist"],
       "to": ["business-development-manager", "community-manager"]
     },
     "project": "Account Executive: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
@@ -1536,12 +1468,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "crm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "crm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "sales-demonstrations",
         "importance": "important",
@@ -1575,7 +1502,7 @@
     ],
     "relatedRoles": ["sales-development-rep", "account-executive", "business-development-manager"],
     "careerPath": {
-      "from": ["customer-support-specialist"],
+      "from": ["sales-development-rep", "customer-support-specialist"],
       "to": ["business-development-manager", "community-manager"]
     },
     "project": "Sales Engineer: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
@@ -1612,12 +1539,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "crm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "crm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "lead-qualification",
         "importance": "important",
@@ -1650,211 +1572,8 @@
       }
     ],
     "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
-    "careerPath": {
-      "from": ["sales-development-rep", "account-executive"],
-      "to": []
-    },
+    "careerPath": { "from": ["sales-development-rep", "account-executive"], "to": [] },
     "project": "Business Development Manager: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
-    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "customer-support-specialist",
-    "databaseId": "fdd054d6-9b0d-4170-a030-54a518f8536a",
-    "name": "Customer Support Specialist",
-    "category": "business",
-    "family": "sales-success",
-    "description": "Understand customer needs and grow accountable relationships with a focus on customer support specialist practice.",
-    "experienceBand": "entry",
-    "trending": false,
-    "demand": "medium",
-    "keywords": ["business", "sales-success", "customer", "support", "specialist"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "communication",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "customer-discovery",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "relationship-management",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "crm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "consultative-selling",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "objection-handling",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "contract-negotiation",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "zendesk",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "support-ticket-management",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "customer-empathy",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "support-quality-assurance",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "customer-satisfaction-measurement",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "customer-advocacy",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "customer-education",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "support-automation",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["business-development-manager", "community-manager"]
-    },
-    "project": "Customer Support Specialist: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
-    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "community-manager",
-    "databaseId": "2c64002f-aad0-46ac-a964-03d69be08162",
-    "name": "Community Manager",
-    "category": "business",
-    "family": "sales-success",
-    "description": "Understand customer needs and grow accountable relationships with a focus on community manager practice.",
-    "experienceBand": "senior",
-    "trending": false,
-    "demand": "medium",
-    "keywords": ["business", "sales-success", "community", "manager"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "communication",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "customer-discovery",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "relationship-management",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "crm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "cold-outreach",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "proof-of-concept-planning",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "rfp-responses",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "pipedrive",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "community-moderation",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "community-programming",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "community-analytics",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
-    "careerPath": {
-      "from": ["sales-development-rep", "account-executive"],
-      "to": []
-    },
-    "project": "Community Manager: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
     "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
   },
   {
@@ -1894,12 +1613,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "crm",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "crm", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "opportunity-management",
         "importance": "important",
@@ -1933,7 +1647,7 @@
     ],
     "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
     "careerPath": {
-      "from": ["customer-support-specialist"],
+      "from": ["sales-development-rep", "customer-support-specialist"],
       "to": ["business-development-manager", "community-manager"]
     },
     "project": "Revenue Operations Analyst: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
@@ -1970,12 +1684,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "crm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "crm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "solution-selling",
         "importance": "important",
@@ -2008,10 +1717,7 @@
       }
     ],
     "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
-    "careerPath": {
-      "from": ["sales-development-rep", "account-executive"],
-      "to": []
-    },
+    "careerPath": { "from": ["sales-development-rep", "account-executive"], "to": [] },
     "project": "Partnerships Manager: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
     "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2096,10 +1802,7 @@
       }
     ],
     "relatedRoles": ["supply-chain-analyst", "procurement-specialist", "management-consultant"],
-    "careerPath": {
-      "from": ["supply-chain-analyst", "procurement-specialist"],
-      "to": []
-    },
+    "careerPath": { "from": ["supply-chain-analyst", "procurement-specialist"], "to": [] },
     "project": "Operations Manager: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2172,10 +1875,7 @@
       }
     ],
     "relatedRoles": ["operations-manager", "procurement-specialist", "management-consultant"],
-    "careerPath": {
-      "from": [],
-      "to": ["operations-manager"]
-    },
+    "careerPath": { "from": [], "to": ["operations-manager"] },
     "project": "Supply Chain Analyst: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2254,10 +1954,7 @@
       }
     ],
     "relatedRoles": ["operations-manager", "supply-chain-analyst", "management-consultant"],
-    "careerPath": {
-      "from": [],
-      "to": ["operations-manager"]
-    },
+    "careerPath": { "from": [], "to": ["operations-manager"] },
     "project": "Procurement Specialist: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Procurement, Problem Solving, Business Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2348,10 +2045,7 @@
       }
     ],
     "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["operations-manager"]
-    },
+    "careerPath": { "from": [], "to": ["operations-manager"] },
     "project": "Management Consultant: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2424,10 +2118,7 @@
       }
     ],
     "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["operations-manager"]
-    },
+    "careerPath": { "from": [], "to": ["operations-manager"] },
     "project": "Strategy Analyst: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2512,10 +2203,7 @@
       }
     ],
     "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["operations-manager"]
-    },
+    "careerPath": { "from": [], "to": ["operations-manager"] },
     "project": "Entrepreneur / Startup Founder track: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2600,10 +2288,7 @@
       }
     ],
     "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["operations-manager"]
-    },
+    "careerPath": { "from": [], "to": ["operations-manager"] },
     "project": "Business Operations Analyst: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2682,10 +2367,7 @@
       }
     ],
     "relatedRoles": ["operations-manager", "supply-chain-analyst", "procurement-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": ["operations-manager"]
-    },
+    "careerPath": { "from": [], "to": ["operations-manager"] },
     "project": "Logistics Coordinator: diagnose an operational bottleneck, compare options and present an implementable improvement plan.",
     "checkpoint": "Demonstrate Problem Solving, Business Analysis, Process Improvement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2774,10 +2456,7 @@
       "talent-acquisition-specialist",
       "learning-development-specialist"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "HR Generalist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
     "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2824,12 +2503,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "lever",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "lever", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "benefits-administration",
         "importance": "important",
@@ -2860,10 +2534,7 @@
       "talent-acquisition-specialist",
       "learning-development-specialist"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Technical Recruiter: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
     "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2942,10 +2613,7 @@
       }
     ],
     "relatedRoles": ["hr-generalist", "technical-recruiter", "learning-development-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Talent Acquisition Specialist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
     "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3054,10 +2722,7 @@
       }
     ],
     "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Learning & Development Specialist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
     "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3142,100 +2807,9 @@
       }
     ],
     "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "People Analytics Analyst: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
     "checkpoint": "Demonstrate People Analytics, Communication, Interviewing in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "corporate-trainer",
-    "databaseId": "408a1770-dc51-4d91-aa66-b05e7eca7efe",
-    "name": "Corporate Trainer",
-    "category": "business",
-    "family": "people-learning",
-    "description": "Support effective and fair people development with a focus on corporate trainer practice.",
-    "experienceBand": "mid",
-    "trending": false,
-    "demand": "medium",
-    "keywords": ["business", "people-learning", "corporate", "trainer"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "communication",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "interviewing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "facilitation",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "people-management",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "recruitment-planning",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "structured-interviews",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "offer-management",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "compensation-benchmarking",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "pay-equity-analysis",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "succession-planning",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "knowledge-management",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
-    "project": "Corporate Trainer: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
-    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
   },
   {
     "id": "people-operations-specialist",
@@ -3280,12 +2854,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "workday",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "workday", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "hr-policies",
         "importance": "important",
@@ -3312,10 +2881,7 @@
       }
     ],
     "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "People Operations Specialist: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
     "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
   }

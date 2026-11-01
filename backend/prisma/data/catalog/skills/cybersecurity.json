@@ -5,12 +5,12 @@
     "name": "Security Fundamentals",
     "aliases": [],
     "category": "security-operations",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
     "description": "Security Fundamentals supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -35,15 +35,15 @@
     "name": "Threat Modeling",
     "aliases": [],
     "category": "security-operations",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
-    "description": "Threat Modeling supports the practical knowledge needed to detect, investigate and respond to security threats.",
+    "description": "Threat modeling identifies plausible attacks and the controls needed to protect a system.",
     "resources": [
       {
         "title": "security operations learning reference",
@@ -70,7 +70,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
     "description": "Incident Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -100,7 +100,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "SIEM supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -130,7 +130,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "SOAR supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -160,7 +160,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Splunk supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -190,7 +190,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Microsoft Sentinel supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -220,7 +220,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Elastic Security supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -250,7 +250,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Security Onion supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -280,7 +280,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Wazuh supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -310,7 +310,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Log Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -340,7 +340,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Threat Hunting supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -370,7 +370,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "MITRE ATT&CK supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -400,7 +400,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Sigma Rules supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -430,7 +430,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "YARA Rules supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -460,7 +460,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Detection Engineering supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -490,7 +490,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Endpoint Detection and Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -520,7 +520,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Network Detection and Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -550,7 +550,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Indicators of Compromise supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -580,7 +580,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Threat Intelligence supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -610,7 +610,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "OSINT supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -640,7 +640,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Intelligence Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -670,7 +670,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Incident Triage supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -700,7 +700,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Incident Containment supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -730,7 +730,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Incident Eradication supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -760,7 +760,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Incident Recovery supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -790,7 +790,7 @@
     "level": "advanced",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 32,
     "demand": "high",
     "trending": true,
     "description": "Digital Forensics supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -820,7 +820,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Disk Imaging supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -848,9 +848,9 @@
     "domains": ["cybersecurity"],
     "type": "concept",
     "level": "advanced",
-    "prerequisites": [],
+    "prerequisites": ["digital-forensics"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 32,
     "demand": "high",
     "trending": true,
     "description": "Memory Forensics supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -880,7 +880,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Volatility supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -910,7 +910,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Autopsy supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -940,7 +940,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Chain of Custody supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -970,7 +970,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Malware Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1000,7 +1000,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Static Malware Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1030,7 +1030,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Dynamic Malware Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1060,7 +1060,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Ghidra supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1090,7 +1090,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "IDA Free supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1120,7 +1120,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Reverse Engineering supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1150,7 +1150,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Sandboxing supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1180,7 +1180,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Packet Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1210,7 +1210,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Vulnerability Scanning supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1240,7 +1240,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Nessus supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1270,7 +1270,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "OpenVAS supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1300,7 +1300,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CVSS supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1330,7 +1330,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Vulnerability Prioritization supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1360,7 +1360,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Patch Verification supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1390,7 +1390,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Security Playbooks supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1420,7 +1420,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Phishing Analysis supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1450,7 +1450,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Email Security supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1480,7 +1480,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Ransomware Response supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1510,7 +1510,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Security Metrics supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1540,7 +1540,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CompTIA Security+ Certification supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1570,7 +1570,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "GIAC Certification Preparation supports the practical knowledge needed to detect, investigate and respond to security threats.",
@@ -1595,12 +1595,12 @@
     "name": "Security Testing",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
     "description": "Security Testing supports the practical knowledge needed to design and verify secure systems.",
@@ -1608,6 +1608,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1624,7 +1630,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "OWASP Top 10 supports the practical knowledge needed to design and verify secure systems.",
@@ -1632,6 +1638,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1648,7 +1660,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "OWASP ASVS supports the practical knowledge needed to design and verify secure systems.",
@@ -1656,6 +1668,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1667,12 +1685,12 @@
     "name": "OWASP WSTG",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "OWASP WSTG supports the practical knowledge needed to design and verify secure systems.",
@@ -1680,6 +1698,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1696,7 +1720,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Burp Suite supports the practical knowledge needed to design and verify secure systems.",
@@ -1704,6 +1728,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1720,7 +1750,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "OWASP ZAP supports the practical knowledge needed to design and verify secure systems.",
@@ -1728,6 +1758,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1739,12 +1775,12 @@
     "name": "Nmap",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Nmap supports the practical knowledge needed to design and verify secure systems.",
@@ -1752,6 +1788,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1768,7 +1810,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Metasploit supports the practical knowledge needed to design and verify secure systems.",
@@ -1776,6 +1818,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1792,7 +1840,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Web Penetration Testing supports the practical knowledge needed to design and verify secure systems.",
@@ -1800,6 +1848,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1811,12 +1865,12 @@
     "name": "API Security Testing",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "API Security Testing supports the practical knowledge needed to design and verify secure systems.",
@@ -1824,6 +1878,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1840,7 +1900,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Mobile Security Testing supports the practical knowledge needed to design and verify secure systems.",
@@ -1848,6 +1908,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1864,7 +1930,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Authorization Testing supports the practical knowledge needed to design and verify secure systems.",
@@ -1872,6 +1938,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1888,7 +1960,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "SQL Injection Prevention supports the practical knowledge needed to design and verify secure systems.",
@@ -1896,6 +1968,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1912,7 +1990,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Cross-site Scripting Prevention supports the practical knowledge needed to design and verify secure systems.",
@@ -1920,6 +1998,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1936,7 +2020,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CSRF Prevention supports the practical knowledge needed to design and verify secure systems.",
@@ -1944,6 +2028,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1960,7 +2050,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Server-side Request Forgery Prevention supports the practical knowledge needed to design and verify secure systems.",
@@ -1968,6 +2058,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1979,12 +2075,12 @@
     "name": "Secure Authentication",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Secure Authentication supports the practical knowledge needed to design and verify secure systems.",
@@ -1992,6 +2088,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2008,7 +2110,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "SAST supports the practical knowledge needed to design and verify secure systems.",
@@ -2016,6 +2118,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2032,7 +2140,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "DAST supports the practical knowledge needed to design and verify secure systems.",
@@ -2040,6 +2148,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2056,7 +2170,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Software Composition Analysis supports the practical knowledge needed to design and verify secure systems.",
@@ -2064,6 +2178,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2080,7 +2200,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Secret Scanning supports the practical knowledge needed to design and verify secure systems.",
@@ -2088,6 +2208,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2104,7 +2230,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Dependency Security supports the practical knowledge needed to design and verify secure systems.",
@@ -2112,6 +2238,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2128,7 +2260,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Container Security supports the practical knowledge needed to design and verify secure systems.",
@@ -2136,6 +2268,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2152,7 +2290,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Kubernetes Security supports the practical knowledge needed to design and verify secure systems.",
@@ -2160,6 +2298,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2176,7 +2320,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Cloud Security Posture Management supports the practical knowledge needed to design and verify secure systems.",
@@ -2184,6 +2328,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2200,7 +2350,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Infrastructure Security Scanning supports the practical knowledge needed to design and verify secure systems.",
@@ -2208,6 +2358,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2219,12 +2375,12 @@
     "name": "Policy as Code",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "infrastructure"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Policy as Code supports the practical knowledge needed to design and verify secure systems.",
@@ -2232,6 +2388,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2248,7 +2410,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Open Policy Agent supports the practical knowledge needed to design and verify secure systems.",
@@ -2256,6 +2418,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2272,7 +2440,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Key Management supports the practical knowledge needed to design and verify secure systems.",
@@ -2280,6 +2448,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2296,7 +2470,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Secrets Management supports the practical knowledge needed to design and verify secure systems.",
@@ -2304,6 +2478,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2320,7 +2500,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "HashiCorp Vault supports the practical knowledge needed to design and verify secure systems.",
@@ -2328,6 +2508,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2339,12 +2525,12 @@
     "name": "Public Key Infrastructure",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Public Key Infrastructure supports the practical knowledge needed to design and verify secure systems.",
@@ -2352,6 +2538,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2368,7 +2560,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "TLS supports the practical knowledge needed to design and verify secure systems.",
@@ -2376,6 +2568,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2392,7 +2590,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Certificate Management supports the practical knowledge needed to design and verify secure systems.",
@@ -2400,6 +2598,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2416,7 +2620,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Zero Trust supports the practical knowledge needed to design and verify secure systems.",
@@ -2424,6 +2628,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2440,7 +2650,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Privileged Access Management supports the practical knowledge needed to design and verify secure systems.",
@@ -2448,6 +2658,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2464,7 +2680,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "SAML supports the practical knowledge needed to design and verify secure systems.",
@@ -2472,6 +2688,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2488,7 +2710,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "OpenID Connect supports the practical knowledge needed to design and verify secure systems.",
@@ -2496,6 +2718,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2512,7 +2740,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "SCIM supports the practical knowledge needed to design and verify secure systems.",
@@ -2520,6 +2748,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2536,7 +2770,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Role-based Access Control supports the practical knowledge needed to design and verify secure systems.",
@@ -2544,6 +2778,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2560,7 +2800,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Attribute-based Access Control supports the practical knowledge needed to design and verify secure systems.",
@@ -2568,6 +2808,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2584,7 +2830,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Access Reviews supports the practical knowledge needed to design and verify secure systems.",
@@ -2592,6 +2838,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2608,7 +2860,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Identity Governance supports the practical knowledge needed to design and verify secure systems.",
@@ -2616,6 +2868,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2632,7 +2890,7 @@
     "level": "advanced",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 32,
     "demand": "high",
     "trending": true,
     "description": "Security Architecture Reviews supports the practical knowledge needed to design and verify secure systems.",
@@ -2640,6 +2898,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2656,7 +2920,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Secure Design Patterns supports the practical knowledge needed to design and verify secure systems.",
@@ -2664,6 +2928,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2675,12 +2945,12 @@
     "name": "Cryptographic Protocols",
     "aliases": [],
     "category": "security-engineering",
-    "domains": ["cybersecurity"],
+    "domains": ["cybersecurity", "quality"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Cryptographic Protocols supports the practical knowledge needed to design and verify secure systems.",
@@ -2688,6 +2958,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2704,7 +2980,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Network Segmentation supports the practical knowledge needed to design and verify secure systems.",
@@ -2712,6 +2988,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2728,7 +3010,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Attack Surface Management supports the practical knowledge needed to design and verify secure systems.",
@@ -2736,6 +3018,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2752,7 +3040,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Penetration Test Reporting supports the practical knowledge needed to design and verify secure systems.",
@@ -2760,6 +3048,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2776,7 +3070,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CEH Certification supports the practical knowledge needed to design and verify secure systems.",
@@ -2784,6 +3078,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2800,7 +3100,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CISSP Certification supports the practical knowledge needed to design and verify secure systems.",
@@ -2808,6 +3108,12 @@
       {
         "title": "security engineering learning reference",
         "url": "https://owasp.org/",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -2824,7 +3130,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
     "description": "Risk Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -2854,7 +3160,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
     "description": "Policy Writing supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -2884,7 +3190,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
     "description": "Control Testing supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -2914,7 +3220,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": true,
     "description": "Privacy Principles supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -2944,7 +3250,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Governance Risk and Compliance supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -2974,7 +3280,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "NIST Cybersecurity Framework supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3004,7 +3310,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "ISO 27001 supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3034,7 +3340,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "ISO 27002 supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3064,7 +3370,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "SOC 2 supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3094,7 +3400,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Control Mapping supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3124,7 +3430,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Risk Registers supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3154,7 +3460,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Risk Treatment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3184,7 +3490,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Security Policies supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3214,7 +3520,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Business Continuity Planning supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3244,7 +3550,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Business Impact Analysis supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3274,7 +3580,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Audit Evidence supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3304,7 +3610,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Audit Readiness supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3334,7 +3640,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Third-party Risk Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3364,7 +3670,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Vendor Security Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3394,7 +3700,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Security Questionnaires supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3424,7 +3730,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Data Protection Impact Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3454,7 +3760,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Privacy by Design supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3484,7 +3790,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Data Minimization supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3514,7 +3820,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Consent Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3544,7 +3850,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Data Subject Rights supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3574,7 +3880,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Records of Processing supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3604,7 +3910,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Data Transfer Assessment supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3634,7 +3940,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Privacy Notices supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3664,7 +3970,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Data Discovery supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3694,7 +4000,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Data Loss Prevention supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3724,7 +4030,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Retention Schedules supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3754,7 +4060,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Privacy Threat Modeling supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3784,7 +4090,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Pseudonymization supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3814,7 +4120,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Anonymization supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3844,7 +4150,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Security Awareness Training supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3874,7 +4180,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Compliance Monitoring supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3904,7 +4210,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Regulatory Change Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3934,7 +4240,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Exception Management supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3964,7 +4270,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Risk Reporting supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -3994,7 +4300,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Board Risk Communication supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -4024,7 +4330,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Information Security Management Systems supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -4054,7 +4360,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Security Control Design supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -4084,7 +4390,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "Privacy Engineering supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -4114,7 +4420,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CISA Certification supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -4144,7 +4450,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CISM Certification supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -4174,7 +4480,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "CRISC Certification supports the practical knowledge needed to translate risk and privacy obligations into controls.",
@@ -4204,7 +4510,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": true,
     "description": "ISO 27001 Auditor Preparation supports the practical knowledge needed to translate risk and privacy obligations into controls.",

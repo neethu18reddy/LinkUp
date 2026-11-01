@@ -1,5 +1,70 @@
 [
   {
+    "id": "robotics-engineer",
+    "databaseId": "95465bbe-9ca6-4247-a207-9f3f730103a3",
+    "name": "Robotics Engineer",
+    "category": "ai-ml",
+    "family": "embedded-iot",
+    "description": "Build dependable connected hardware with a focus on robotics engineer practice.",
+    "experienceBand": "mid",
+    "trending": true,
+    "demand": "high",
+    "keywords": ["development", "embedded-iot", "robotics", "engineer"],
+    "aliases": [],
+    "skills": [
+      { "skillId": "ros-2", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      {
+        "skillId": "robot-kinematics",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      { "skillId": "slam", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "c", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      {
+        "skillId": "electronics-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "embedded-debugging",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hardware-interfaces",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      { "skillId": "uart", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      {
+        "skillId": "zigbee",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "logic-analyzers",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "software-in-the-loop-testing",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["embedded-systems-engineer", "firmware-engineer", "iot-developer"],
+    "careerPath": { "from": [], "to": [] },
+    "project": "Robotics Engineer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
+    "checkpoint": "Demonstrate ROS 2, Robot Kinematics, SLAM in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
     "id": "ai-engineer",
     "databaseId": "5ea9ccd2-6367-4f15-aeb4-d82f8427e3cd",
     "name": "AI Engineer",
@@ -30,12 +95,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -60,24 +120,11 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "dspy",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "lora",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "dspy", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "lora", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["llm-engineer", "generative-ai-developer", "prompt-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "AI Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate Embeddings, Structured Generation, Model Evaluation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -112,12 +159,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -156,10 +198,7 @@
       }
     ],
     "relatedRoles": ["ai-engineer", "generative-ai-developer", "prompt-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "LLM Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate LLM Fine-tuning, Token Budgeting, Model Routing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -194,12 +233,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -238,10 +272,7 @@
       }
     ],
     "relatedRoles": ["ai-engineer", "llm-engineer", "prompt-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "Generative AI Developer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate Multimodal Prompting, Hugging Face Transformers, Synthetic Data Generation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -276,12 +307,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -320,10 +346,7 @@
       }
     ],
     "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "Prompt Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate Prompt Engineering, Few-shot Prompting, Prompt Injection Defense in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -358,12 +381,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -402,10 +420,7 @@
       }
     ],
     "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "AI Agent Developer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate AI Agents, Tool Calling, Agent Evaluation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -440,12 +455,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -478,10 +488,7 @@
       }
     ],
     "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "RAG Engineer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate Retrieval-augmented Generation, Hybrid Search, Retrieval Evaluation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -516,12 +523,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -560,10 +562,7 @@
       }
     ],
     "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "Conversational AI / Chatbot Developer: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate Conversation Design, Dialogue State Tracking, Intent Classification in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -598,12 +597,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -642,10 +636,7 @@
       }
     ],
     "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["ai-solutions-architect"] },
     "project": "AI Automation Specialist: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate AI Workflow Automation, Human-in-the-loop AI, LLM Observability in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -680,12 +671,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "machine-learning-fundamentals",
         "importance": "important",
@@ -716,18 +702,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "qlora",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "qlora", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["ai-engineer", "llm-engineer", "generative-ai-developer"],
-    "careerPath": {
-      "from": ["ai-engineer", "llm-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["ai-engineer", "llm-engineer"], "to": [] },
     "project": "AI Solutions Architect: build a grounded assistant with cited retrieval, a held-out evaluation set, safety checks and a cost report.",
     "checkpoint": "Demonstrate Model Routing, LLM Cost Optimization, LLM Guardrails in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -762,12 +740,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -812,10 +785,7 @@
       }
     ],
     "relatedRoles": ["deep-learning-engineer", "computer-vision-engineer", "nlp-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
     "project": "Machine Learning Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate scikit-learn, Feature Engineering, Cross-validation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -832,12 +802,7 @@
     "keywords": ["ai-ml", "ml-research", "deep", "learning", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "pytorch",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "pytorch", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "neural-networks",
         "importance": "core",
@@ -850,12 +815,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -900,10 +860,7 @@
       }
     ],
     "relatedRoles": ["machine-learning-engineer", "computer-vision-engineer", "nlp-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
     "project": "Deep Learning Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate PyTorch, Neural Networks, Backpropagation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -938,12 +895,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -988,10 +940,7 @@
       }
     ],
     "relatedRoles": ["machine-learning-engineer", "deep-learning-engineer", "nlp-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
     "project": "Computer Vision Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate Computer Vision, Object Detection, Image Segmentation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1026,12 +975,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -1074,10 +1018,7 @@
       "deep-learning-engineer",
       "computer-vision-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
     "project": "NLP Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate Natural Language Processing, Tokenization, Named Entity Recognition in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1112,12 +1053,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -1147,6 +1083,12 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "matlab",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": [
@@ -1154,10 +1096,7 @@
       "deep-learning-engineer",
       "computer-vision-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
     "project": "Speech/Audio AI Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate Speech Recognition, Audio Feature Extraction, Text-to-speech Modeling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1192,12 +1131,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -1216,12 +1150,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "xgboost",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "xgboost", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "attention-mechanisms",
         "importance": "nice-to-have",
@@ -1246,10 +1175,7 @@
       "deep-learning-engineer",
       "computer-vision-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
     "project": "Reinforcement Learning Engineer: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate Reinforcement Learning, Markov Decision Processes, Policy Gradients in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1284,12 +1210,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -1314,12 +1235,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "jax",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "jax", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "generative-adversarial-networks",
         "importance": "nice-to-have",
@@ -1332,10 +1248,7 @@
       "deep-learning-engineer",
       "computer-vision-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
+    "careerPath": { "from": [], "to": ["research-scientist-ai"] },
     "project": "Applied Scientist: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate Experimental Design, Ablation Studies, Uncertainty Estimation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1370,12 +1283,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "python", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "linear-algebra",
         "importance": "important",
@@ -1418,98 +1326,9 @@
       "deep-learning-engineer",
       "computer-vision-engineer"
     ],
-    "careerPath": {
-      "from": ["machine-learning-engineer", "deep-learning-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["machine-learning-engineer", "deep-learning-engineer"], "to": [] },
     "project": "Research Scientist (AI): reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
     "checkpoint": "Demonstrate Scientific Literature Review, Research Reproducibility, Self-supervised Learning in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "data-scientist",
-    "databaseId": "10000000-0000-4000-8000-000000000014",
-    "name": "Data Scientist",
-    "category": "ai-ml",
-    "family": "ml-research",
-    "description": "Investigate datasets, test hypotheses and communicate findings.",
-    "experienceBand": "mid",
-    "trending": true,
-    "demand": "high",
-    "keywords": ["ai-ml", "ml-research", "data", "scientist"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "statistical-modeling",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "causal-inference",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "python",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "linear-algebra",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "probability",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "experimental-design",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "classification",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "random-forests",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "regularization",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "graph-neural-networks",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": [
-      "machine-learning-engineer",
-      "deep-learning-engineer",
-      "computer-vision-engineer"
-    ],
-    "careerPath": {
-      "from": [],
-      "to": ["research-scientist-ai"]
-    },
-    "project": "Data Scientist: reproduce a published baseline on public data, compare alternatives and report uncertainty and limitations.",
-    "checkpoint": "Demonstrate Statistical Modeling, Causal Inference, Python in the project, justify decisions and document limitations without following a walkthrough."
   },
   {
     "id": "mlops-engineer",
@@ -1524,12 +1343,7 @@
     "keywords": ["ai-ml", "ml-operations", "mlops", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "mlflow",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "mlflow", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "model-serving",
         "importance": "core",
@@ -1578,18 +1392,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "lime",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "lime", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["llmops-engineer", "ai-product-manager", "ai-ethics-governance-specialist"],
-    "careerPath": {
-      "from": ["data-annotation-ml-data-specialist"],
-      "to": ["ai-product-manager"]
-    },
+    "careerPath": { "from": ["data-annotation-ml-data-specialist"], "to": ["ai-product-manager"] },
     "project": "MLOps Engineer: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate MLflow, Model Serving, Model Monitoring in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1648,30 +1454,12 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "feast",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "onnx",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "shap",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "feast", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "onnx", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "shap", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["mlops-engineer", "ai-product-manager", "ai-ethics-governance-specialist"],
-    "careerPath": {
-      "from": ["data-annotation-ml-data-specialist"],
-      "to": ["ai-product-manager"]
-    },
+    "careerPath": { "from": ["data-annotation-ml-data-specialist"], "to": ["ai-product-manager"] },
     "project": "LLMOps Engineer: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate Model Registries, Model CI/CD, Model Quantization in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1730,12 +1518,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "bentoml",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "bentoml", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "experiment-tracking",
         "importance": "nice-to-have",
@@ -1756,10 +1539,7 @@
       }
     ],
     "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-ethics-governance-specialist"],
-    "careerPath": {
-      "from": ["mlops-engineer", "llmops-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["mlops-engineer", "llmops-engineer"], "to": [] },
     "project": "AI Product Manager: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate AI Product Discovery, AI Success Metrics, AI Procurement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1818,18 +1598,8 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "kserve",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "dvc",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "kserve", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "dvc", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "gpu-scheduling",
         "importance": "nice-to-have",
@@ -1844,10 +1614,7 @@
       }
     ],
     "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
-    "careerPath": {
-      "from": ["data-annotation-ml-data-specialist"],
-      "to": ["ai-product-manager"]
-    },
+    "careerPath": { "from": ["data-annotation-ml-data-specialist"], "to": ["ai-product-manager"] },
     "project": "AI Ethics & Governance Specialist: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate AI Governance, AI Impact Assessment, Algorithmic Fairness in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1926,10 +1693,7 @@
       }
     ],
     "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
-    "careerPath": {
-      "from": ["data-annotation-ml-data-specialist"],
-      "to": ["ai-product-manager"]
-    },
+    "careerPath": { "from": ["data-annotation-ml-data-specialist"], "to": ["ai-product-manager"] },
     "project": "Responsible AI Analyst: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate Bias Measurement, Explainable AI, Model Cards in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2014,10 +1778,7 @@
       }
     ],
     "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
-    "careerPath": {
-      "from": [],
-      "to": ["ai-product-manager"]
-    },
+    "careerPath": { "from": [], "to": ["ai-product-manager"] },
     "project": "Data Annotation/ML Data Specialist: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate Data Labeling, Annotation Guidelines, Inter-annotator Agreement in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2076,12 +1837,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "seldon",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "seldon", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "knowledge-distillation",
         "importance": "nice-to-have",
@@ -2102,10 +1858,7 @@
       }
     ],
     "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
-    "careerPath": {
-      "from": ["data-annotation-ml-data-specialist"],
-      "to": ["ai-product-manager"]
-    },
+    "careerPath": { "from": ["data-annotation-ml-data-specialist"], "to": ["ai-product-manager"] },
     "project": "AI Safety Engineer: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate Human Oversight Design, AI Incident Response, AI Risk Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2208,10 +1961,7 @@
       }
     ],
     "relatedRoles": ["mlops-engineer", "llmops-engineer", "ai-product-manager"],
-    "careerPath": {
-      "from": ["data-annotation-ml-data-specialist"],
-      "to": ["ai-product-manager"]
-    },
+    "careerPath": { "from": ["data-annotation-ml-data-specialist"], "to": ["ai-product-manager"] },
     "project": "Model Validation Analyst: create a versioned model release with monitoring, rollback, annotation checks and a documented risk assessment.",
     "checkpoint": "Demonstrate Model Calibration, Model Evaluation, Uncertainty Estimation in the project, justify decisions and document limitations without following a walkthrough."
   }

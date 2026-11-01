@@ -1,0 +1,1150 @@
+[
+  {
+    "title": "Software Engineer",
+    "category": "development"
+  },
+  {
+    "title": "Frontend Developer",
+    "category": "development"
+  },
+  {
+    "title": "Backend Developer",
+    "category": "development"
+  },
+  {
+    "title": "Full Stack Developer",
+    "category": "development"
+  },
+  {
+    "title": "Angular Developer",
+    "category": "development"
+  },
+  {
+    "title": "React Developer",
+    "category": "development"
+  },
+  {
+    "title": "Vue Developer",
+    "category": "development"
+  },
+  {
+    "title": "Next.js Developer",
+    "category": "development"
+  },
+  {
+    "title": "Svelte Developer",
+    "category": "development"
+  },
+  {
+    "title": "Java Developer",
+    "category": "development"
+  },
+  {
+    "title": "Spring Boot Developer",
+    "category": "development"
+  },
+  {
+    "title": "Python Developer",
+    "category": "development"
+  },
+  {
+    "title": "Django/Flask Developer",
+    "category": "development"
+  },
+  {
+    "title": "Node.js Developer",
+    "category": "development"
+  },
+  {
+    "title": ".NET/C# Developer",
+    "category": "development"
+  },
+  {
+    "title": "Go Developer",
+    "category": "development"
+  },
+  {
+    "title": "Rust Developer",
+    "category": "development"
+  },
+  {
+    "title": "PHP/Laravel Developer",
+    "category": "development"
+  },
+  {
+    "title": "Ruby on Rails Developer",
+    "category": "development"
+  },
+  {
+    "title": "Kotlin Developer",
+    "category": "development"
+  },
+  {
+    "title": "Swift/iOS Developer",
+    "category": "development"
+  },
+  {
+    "title": "Android Developer",
+    "category": "development"
+  },
+  {
+    "title": "React Native Developer",
+    "category": "development"
+  },
+  {
+    "title": "Flutter Developer",
+    "category": "development"
+  },
+  {
+    "title": "Cross-Platform Mobile Developer",
+    "category": "development"
+  },
+  {
+    "title": "Game Developer (Unity)",
+    "category": "development"
+  },
+  {
+    "title": "Game Developer (Unreal)",
+    "category": "development"
+  },
+  {
+    "title": "Embedded Systems Engineer",
+    "category": "development"
+  },
+  {
+    "title": "Firmware Engineer",
+    "category": "development"
+  },
+  {
+    "title": "IoT Developer",
+    "category": "development"
+  },
+  {
+    "title": "AR/VR Developer",
+    "category": "development"
+  },
+  {
+    "title": "Blockchain Developer",
+    "category": "development"
+  },
+  {
+    "title": "Smart Contract Developer (Solidity)",
+    "category": "development"
+  },
+  {
+    "title": "WebAssembly Developer",
+    "category": "development"
+  },
+  {
+    "title": "API Developer",
+    "category": "development"
+  },
+  {
+    "title": "Microservices Architect",
+    "category": "development"
+  },
+  {
+    "title": "Software Architect",
+    "category": "development"
+  },
+  {
+    "title": "Low-Code/No-Code Developer",
+    "category": "development"
+  },
+  {
+    "title": "WordPress Developer",
+    "category": "development"
+  },
+  {
+    "title": "Shopify Developer",
+    "category": "development"
+  },
+  {
+    "title": "ERP/SAP Developer",
+    "category": "development"
+  },
+  {
+    "title": "Salesforce Developer",
+    "category": "development"
+  },
+  {
+    "title": "ServiceNow Developer",
+    "category": "development"
+  },
+  {
+    "title": "Technical Writer / Developer Advocate",
+    "category": "development"
+  },
+  {
+    "title": "Developer Relations Engineer",
+    "category": "development"
+  },
+  {
+    "title": "AI Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "LLM Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Generative AI Developer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Prompt Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "AI Agent Developer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "RAG Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "MLOps Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "LLMOps Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Deep Learning Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Computer Vision Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "NLP Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Speech/Audio AI Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Reinforcement Learning Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Applied Scientist",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Research Scientist (AI)",
+    "category": "ai-ml"
+  },
+  {
+    "title": "AI Product Manager",
+    "category": "ai-ml"
+  },
+  {
+    "title": "AI Ethics & Governance Specialist",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Responsible AI Analyst",
+    "category": "ai-ml"
+  },
+  {
+    "title": "AI Solutions Architect",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Robotics Engineer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Data Annotation/ML Data Specialist",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Conversational AI / Chatbot Developer",
+    "category": "ai-ml"
+  },
+  {
+    "title": "AI Automation Specialist",
+    "category": "ai-ml"
+  },
+  {
+    "title": "Data Analyst",
+    "category": "data"
+  },
+  {
+    "title": "BI Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Business Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Data Engineer",
+    "category": "data"
+  },
+  {
+    "title": "Analytics Engineer",
+    "category": "data"
+  },
+  {
+    "title": "Data Scientist",
+    "category": "data"
+  },
+  {
+    "title": "Database Developer",
+    "category": "data"
+  },
+  {
+    "title": "Database Administrator",
+    "category": "data"
+  },
+  {
+    "title": "Big Data Engineer",
+    "category": "data"
+  },
+  {
+    "title": "Data Architect",
+    "category": "data"
+  },
+  {
+    "title": "Data Governance Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Data Quality Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Product Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Marketing Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Financial Data Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Healthcare Data Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Reporting Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Power BI Developer",
+    "category": "data"
+  },
+  {
+    "title": "Tableau Developer",
+    "category": "data"
+  },
+  {
+    "title": "ETL Developer",
+    "category": "data"
+  },
+  {
+    "title": "Data Visualization Specialist",
+    "category": "data"
+  },
+  {
+    "title": "Statistician",
+    "category": "data"
+  },
+  {
+    "title": "Quantitative Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Operations Research Analyst",
+    "category": "data"
+  },
+  {
+    "title": "GIS Analyst",
+    "category": "data"
+  },
+  {
+    "title": "Research Analyst",
+    "category": "data"
+  },
+  {
+    "title": "DevOps Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Platform Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Site Reliability Engineer (SRE)",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Cloud Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Cloud Architect",
+    "category": "infrastructure"
+  },
+  {
+    "title": "AWS Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Azure Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "GCP Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Kubernetes/Container Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Linux Administrator",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Systems Administrator",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Network Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Network Security Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Infrastructure as Code Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "FinOps Practitioner",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Release/Build Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Observability Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "IT Support Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Help Desk / Technical Support Specialist",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Cloud Support Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Solutions Architect",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Virtualization Engineer",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Storage/Backup Administrator",
+    "category": "infrastructure"
+  },
+  {
+    "title": "Security Analyst (SOC)",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Cybersecurity Engineer",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Penetration Tester",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Ethical Hacker",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Application Security Engineer",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Cloud Security Engineer",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "DevSecOps Engineer",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Threat Intelligence Analyst",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Incident Responder",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Digital Forensics Analyst",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Malware Analyst",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "GRC / Compliance Analyst",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Security Architect",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Identity & Access Management Specialist",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Privacy / Data Protection Officer",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "Vulnerability Management Analyst",
+    "category": "cybersecurity"
+  },
+  {
+    "title": "QA Engineer",
+    "category": "quality"
+  },
+  {
+    "title": "Test Automation Engineer",
+    "category": "quality"
+  },
+  {
+    "title": "SDET",
+    "category": "quality"
+  },
+  {
+    "title": "Manual Tester",
+    "category": "quality"
+  },
+  {
+    "title": "Performance Test Engineer",
+    "category": "quality"
+  },
+  {
+    "title": "Security Tester",
+    "category": "quality"
+  },
+  {
+    "title": "Mobile Test Engineer",
+    "category": "quality"
+  },
+  {
+    "title": "API Test Engineer",
+    "category": "quality"
+  },
+  {
+    "title": "QA Lead / Manager",
+    "category": "quality"
+  },
+  {
+    "title": "Web Accessibility Specialist",
+    "category": "quality"
+  },
+  {
+    "title": "Game QA Tester",
+    "category": "quality"
+  },
+  {
+    "title": "Release Quality Analyst",
+    "category": "quality"
+  },
+  {
+    "title": "Product Designer",
+    "category": "design"
+  },
+  {
+    "title": "UI Designer",
+    "category": "design"
+  },
+  {
+    "title": "UX Designer",
+    "category": "design"
+  },
+  {
+    "title": "UX Researcher",
+    "category": "design"
+  },
+  {
+    "title": "Interaction Designer",
+    "category": "design"
+  },
+  {
+    "title": "Visual Designer",
+    "category": "design"
+  },
+  {
+    "title": "Graphic Designer",
+    "category": "design"
+  },
+  {
+    "title": "Brand Designer",
+    "category": "design"
+  },
+  {
+    "title": "Motion Designer",
+    "category": "design"
+  },
+  {
+    "title": "3D Designer",
+    "category": "design"
+  },
+  {
+    "title": "Design Systems Designer",
+    "category": "design"
+  },
+  {
+    "title": "Content Designer / UX Writer",
+    "category": "design"
+  },
+  {
+    "title": "Service Designer",
+    "category": "design"
+  },
+  {
+    "title": "Information Architect",
+    "category": "design"
+  },
+  {
+    "title": "Industrial/Product Designer",
+    "category": "design"
+  },
+  {
+    "title": "Packaging Designer",
+    "category": "design"
+  },
+  {
+    "title": "Typographer",
+    "category": "design"
+  },
+  {
+    "title": "Illustrator",
+    "category": "design"
+  },
+  {
+    "title": "Design Technologist",
+    "category": "design"
+  },
+  {
+    "title": "Creative Director",
+    "category": "design"
+  },
+  {
+    "title": "Presentation Designer",
+    "category": "design"
+  },
+  {
+    "title": "Product Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Technical Product Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Associate Product Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Product Owner",
+    "category": "product-management"
+  },
+  {
+    "title": "Scrum Master",
+    "category": "product-management"
+  },
+  {
+    "title": "Agile Coach",
+    "category": "product-management"
+  },
+  {
+    "title": "Project Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Program Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Delivery Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Engineering Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Technical Program Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Business Systems Analyst",
+    "category": "product-management"
+  },
+  {
+    "title": "Requirements Analyst",
+    "category": "product-management"
+  },
+  {
+    "title": "Customer Success Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Solutions Consultant",
+    "category": "product-management"
+  },
+  {
+    "title": "Implementation Consultant",
+    "category": "product-management"
+  },
+  {
+    "title": "Product Operations Manager",
+    "category": "product-management"
+  },
+  {
+    "title": "Financial Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Investment Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Equity Research Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Investment Banking Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Corporate Finance Associate",
+    "category": "finance"
+  },
+  {
+    "title": "FP&A Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Accountant",
+    "category": "finance"
+  },
+  {
+    "title": "Chartered Accountant (CA) track",
+    "category": "finance"
+  },
+  {
+    "title": "Auditor",
+    "category": "finance"
+  },
+  {
+    "title": "Tax Analyst/Consultant",
+    "category": "finance"
+  },
+  {
+    "title": "Credit Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Risk Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Quantitative Risk Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Portfolio Manager",
+    "category": "finance"
+  },
+  {
+    "title": "Wealth Manager/Financial Planner",
+    "category": "finance"
+  },
+  {
+    "title": "Treasury Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Fintech Product Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Financial Modeler",
+    "category": "finance"
+  },
+  {
+    "title": "Actuary",
+    "category": "finance"
+  },
+  {
+    "title": "Compliance Officer (Finance)",
+    "category": "finance"
+  },
+  {
+    "title": "AML/KYC Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Bookkeeper",
+    "category": "finance"
+  },
+  {
+    "title": "Payroll Specialist",
+    "category": "finance"
+  },
+  {
+    "title": "ESG Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Trading Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Insurance Underwriter",
+    "category": "finance"
+  },
+  {
+    "title": "Cost Accountant",
+    "category": "finance"
+  },
+  {
+    "title": "Forensic Accountant",
+    "category": "finance"
+  },
+  {
+    "title": "Mergers & Acquisitions Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Venture Capital Analyst",
+    "category": "finance"
+  },
+  {
+    "title": "Digital Marketing Specialist",
+    "category": "business"
+  },
+  {
+    "title": "SEO Specialist",
+    "category": "business"
+  },
+  {
+    "title": "SEM/PPC Specialist",
+    "category": "business"
+  },
+  {
+    "title": "Social Media Manager",
+    "category": "business"
+  },
+  {
+    "title": "Content Strategist",
+    "category": "business"
+  },
+  {
+    "title": "Content Marketer",
+    "category": "business"
+  },
+  {
+    "title": "Email Marketing Specialist",
+    "category": "business"
+  },
+  {
+    "title": "Growth Marketer",
+    "category": "business"
+  },
+  {
+    "title": "Performance Marketer",
+    "category": "business"
+  },
+  {
+    "title": "Brand Manager",
+    "category": "business"
+  },
+  {
+    "title": "Marketing Automation Specialist",
+    "category": "business"
+  },
+  {
+    "title": "Influencer Marketing Manager",
+    "category": "business"
+  },
+  {
+    "title": "E-commerce Manager",
+    "category": "business"
+  },
+  {
+    "title": "Sales Development Rep",
+    "category": "business"
+  },
+  {
+    "title": "Account Executive",
+    "category": "business"
+  },
+  {
+    "title": "Sales Engineer",
+    "category": "business"
+  },
+  {
+    "title": "Business Development Manager",
+    "category": "business"
+  },
+  {
+    "title": "Operations Manager",
+    "category": "business"
+  },
+  {
+    "title": "Supply Chain Analyst",
+    "category": "business"
+  },
+  {
+    "title": "Procurement Specialist",
+    "category": "business"
+  },
+  {
+    "title": "HR Generalist",
+    "category": "business"
+  },
+  {
+    "title": "Technical Recruiter",
+    "category": "business"
+  },
+  {
+    "title": "Talent Acquisition Specialist",
+    "category": "business"
+  },
+  {
+    "title": "Learning & Development Specialist",
+    "category": "business"
+  },
+  {
+    "title": "People Analytics Analyst",
+    "category": "business"
+  },
+  {
+    "title": "Management Consultant",
+    "category": "business"
+  },
+  {
+    "title": "Strategy Analyst",
+    "category": "business"
+  },
+  {
+    "title": "Entrepreneur / Startup Founder track",
+    "category": "business"
+  },
+  {
+    "title": "Market Research Analyst",
+    "category": "business"
+  },
+  {
+    "title": "Public Relations Specialist",
+    "category": "business"
+  },
+  {
+    "title": "Video Editor",
+    "category": "creative"
+  },
+  {
+    "title": "Videographer",
+    "category": "creative"
+  },
+  {
+    "title": "Cinematographer",
+    "category": "creative"
+  },
+  {
+    "title": "Motion Graphics Artist",
+    "category": "creative"
+  },
+  {
+    "title": "Animator (2D)",
+    "category": "creative"
+  },
+  {
+    "title": "Animator (3D)",
+    "category": "creative"
+  },
+  {
+    "title": "VFX Artist",
+    "category": "creative"
+  },
+  {
+    "title": "Concept Artist",
+    "category": "creative"
+  },
+  {
+    "title": "Digital Artist/Illustrator",
+    "category": "creative"
+  },
+  {
+    "title": "Game Artist",
+    "category": "creative"
+  },
+  {
+    "title": "Character Designer",
+    "category": "creative"
+  },
+  {
+    "title": "Photographer",
+    "category": "creative"
+  },
+  {
+    "title": "Photo Retoucher",
+    "category": "creative"
+  },
+  {
+    "title": "Sound Designer",
+    "category": "creative"
+  },
+  {
+    "title": "Audio Engineer",
+    "category": "creative"
+  },
+  {
+    "title": "Music Producer",
+    "category": "creative"
+  },
+  {
+    "title": "Podcast Producer",
+    "category": "creative"
+  },
+  {
+    "title": "Voice-Over Artist",
+    "category": "creative"
+  },
+  {
+    "title": "Copywriter",
+    "category": "creative"
+  },
+  {
+    "title": "Content Writer",
+    "category": "creative"
+  },
+  {
+    "title": "Technical Writer",
+    "category": "creative"
+  },
+  {
+    "title": "Scriptwriter",
+    "category": "creative"
+  },
+  {
+    "title": "Journalist/Digital Journalist",
+    "category": "creative"
+  },
+  {
+    "title": "Editor/Proofreader",
+    "category": "creative"
+  },
+  {
+    "title": "Fashion Designer",
+    "category": "creative"
+  },
+  {
+    "title": "Interior Designer",
+    "category": "creative"
+  },
+  {
+    "title": "Architectural Visualizer",
+    "category": "creative"
+  },
+  {
+    "title": "Art Director",
+    "category": "creative"
+  },
+  {
+    "title": "Creative Technologist",
+    "category": "creative"
+  },
+  {
+    "title": "UGC Creator / Content Creator",
+    "category": "creative"
+  },
+  {
+    "title": "Streamer/Community Manager",
+    "category": "creative"
+  },
+  {
+    "title": "Translator/Localization Specialist",
+    "category": "creative"
+  },
+  {
+    "title": "Healthcare Informatics Specialist",
+    "category": "other"
+  },
+  {
+    "title": "Bioinformatics Analyst",
+    "category": "other"
+  },
+  {
+    "title": "EdTech Instructional Designer",
+    "category": "other"
+  },
+  {
+    "title": "Corporate Trainer",
+    "category": "other"
+  },
+  {
+    "title": "Legal Tech Analyst",
+    "category": "other"
+  },
+  {
+    "title": "Sustainability/Climate Tech Analyst",
+    "category": "other"
+  },
+  {
+    "title": "Geospatial Developer",
+    "category": "other"
+  },
+  {
+    "title": "Quantum Computing Developer",
+    "category": "other"
+  },
+  {
+    "title": "Digital Twin Engineer",
+    "category": "other"
+  },
+  {
+    "title": "Customer Support Specialist",
+    "category": "other"
+  },
+  {
+    "title": "Community Manager",
+    "category": "other"
+  }
+]

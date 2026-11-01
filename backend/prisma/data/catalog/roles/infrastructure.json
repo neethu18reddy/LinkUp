@@ -36,30 +36,15 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "identity-and-access-management",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "aws-rds",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "aws-ecs",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "aws-rds", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "aws-ecs", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "aws-cloudfront",
         "importance": "nice-to-have",
@@ -106,36 +91,21 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "identity-and-access-management",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "aws-s3",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "aws-s3", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "aws-lambda",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "aws-vpc",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "aws-vpc", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "aws-cloudwatch",
         "importance": "important",
@@ -186,10 +156,7 @@
       }
     ],
     "relatedRoles": ["cloud-engineer", "aws-engineer", "azure-engineer"],
-    "careerPath": {
-      "from": ["cloud-engineer", "aws-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["cloud-engineer", "aws-engineer"], "to": [] },
     "project": "Cloud Architect: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
     "checkpoint": "Demonstrate Cloud Computing, Networking, Linux in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -206,24 +173,9 @@
     "keywords": ["infrastructure", "cloud-platforms", "aws", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "aws",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "aws-ec2",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "aws-iam",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "aws", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "aws-ec2", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "aws-iam", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "cloud-computing",
         "importance": "core",
@@ -236,12 +188,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "linux",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "identity-and-access-management",
         "importance": "important",
@@ -324,12 +271,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "linux",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "identity-and-access-management",
         "importance": "important",
@@ -418,12 +360,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "gcp-iam",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "gcp-iam", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "cloud-computing",
         "importance": "core",
@@ -436,24 +373,14 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "linux",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "identity-and-access-management",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "gcp-vpc",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "gcp-vpc", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "gcp-gke",
         "importance": "nice-to-have",
@@ -500,12 +427,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "identity-and-access-management",
         "importance": "core",
@@ -544,10 +466,7 @@
       }
     ],
     "relatedRoles": ["cloud-engineer", "cloud-architect", "aws-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["cloud-architect", "solutions-architect"]
-    },
+    "careerPath": { "from": [], "to": ["cloud-architect", "solutions-architect"] },
     "project": "Cloud Support Engineer: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
     "checkpoint": "Demonstrate Cloud Computing, Networking, Linux in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -576,12 +495,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "identity-and-access-management",
         "importance": "core",
@@ -608,10 +522,7 @@
       }
     ],
     "relatedRoles": ["cloud-engineer", "cloud-architect", "aws-engineer"],
-    "careerPath": {
-      "from": ["cloud-engineer", "aws-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["cloud-engineer", "aws-engineer"], "to": [] },
     "project": "Solutions Architect: provision a secure cloud workload with infrastructure code, recovery procedures and a cost estimate.",
     "checkpoint": "Demonstrate Cloud Computing, Networking, Linux in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -646,12 +557,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "identity-and-access-management",
         "importance": "important",
@@ -710,48 +616,23 @@
     "keywords": ["infrastructure", "delivery-platforms", "devops", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "docker",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "docker", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "ci-cd", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "terraform",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "ansible",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "ansible", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "opentofu",
         "importance": "important",
@@ -782,10 +663,7 @@
       "site-reliability-engineer-sre",
       "kubernetes-container-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "DevOps Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate Docker, CI/CD, Terraform in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -808,48 +686,23 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "gitops",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "gitops", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "artifact-management",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ci-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "flux",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "flux", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "istio",
         "importance": "nice-to-have",
@@ -874,10 +727,7 @@
       "site-reliability-engineer-sre",
       "kubernetes-container-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Platform Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate Kubernetes, GitOps, Artifact Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -912,24 +762,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ci-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
@@ -962,10 +797,7 @@
       }
     ],
     "relatedRoles": ["devops-engineer", "platform-engineer", "kubernetes-container-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Site Reliability Engineer (SRE): create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate Service Level Objectives, Error Budgets, Incident Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -988,36 +820,16 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "helm",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "helm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "kubernetes-networking",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ci-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
@@ -1074,10 +886,7 @@
       }
     ],
     "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Kubernetes/Container Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate Kubernetes, Helm, Kubernetes Networking in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1107,60 +916,30 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "pulumi",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "pulumi", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "policy-as-code",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ci-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "vagrant",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "vagrant", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "tekton",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "loki",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "loki", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "canary-releases",
         "importance": "nice-to-have",
@@ -1169,10 +948,7 @@
       }
     ],
     "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Infrastructure as Code Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate Terraform, Pulumi, Policy as Code in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1207,36 +983,16 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ci-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "jenkins",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "jenkins", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "linkerd",
         "importance": "nice-to-have",
@@ -1257,10 +1013,7 @@
       }
     ],
     "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Release/Build Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate Build Reproducibility, GitHub Actions, Deployment Rollbacks in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1295,36 +1048,16 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ci-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "argo-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "argo-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "service-mesh",
         "importance": "nice-to-have",
@@ -1345,10 +1078,7 @@
       }
     ],
     "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Observability Engineer: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate OpenTelemetry, Prometheus, Distributed Tracing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1365,12 +1095,7 @@
     "keywords": ["infrastructure", "delivery-platforms", "finops", "practitioner"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "finops",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "finops", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "cloud-cost-forecasting",
         "importance": "core",
@@ -1383,36 +1108,16 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "git",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ci-cd",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "git", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ci-cd", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "infrastructure-as-code",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "packer",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "packer", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "buildkite",
         "importance": "nice-to-have",
@@ -1433,10 +1138,7 @@
       }
     ],
     "relatedRoles": ["devops-engineer", "platform-engineer", "site-reliability-engineer-sre"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "FinOps Practitioner: create a repeatable delivery platform with service objectives, telemetry and a tested rollback runbook.",
     "checkpoint": "Demonstrate FinOps, Cloud Cost Forecasting, Unit Economics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1465,12 +1167,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
@@ -1483,24 +1180,9 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "vlans",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "tcpdump",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "kvm",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "vlans", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "tcpdump", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "kvm", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "recovery-time-objectives",
         "importance": "nice-to-have",
@@ -1553,42 +1235,22 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "dhcp",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ipv6",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "dhcp", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ipv6", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "cisco-ios",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "nas",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "nas", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "endpoint-management",
         "importance": "nice-to-have",
@@ -1635,12 +1297,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
@@ -1653,12 +1310,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "vpn",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "vpn", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "network-address-translation",
         "importance": "important",
@@ -1729,12 +1381,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
@@ -1747,36 +1394,21 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "bgp",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "bgp", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "network-monitoring",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "proxmox",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "proxmox", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "patch-management",
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "itil",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "itil", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "ccna-certification",
         "importance": "nice-to-have",
@@ -1817,24 +1449,14 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "tcp-ip",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "tcp-ip", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "firewalls",
         "importance": "important",
@@ -1899,42 +1521,17 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "dns",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "ospf",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "snmp",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "san",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "dns", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "ospf", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "snmp", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "san", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "storage-provisioning",
         "importance": "nice-to-have",
@@ -1987,12 +1584,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
@@ -2017,12 +1609,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "hyper-v",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "hyper-v", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "recovery-point-objectives",
         "importance": "nice-to-have",
@@ -2043,10 +1630,7 @@
       }
     ],
     "relatedRoles": ["linux-administrator", "systems-administrator", "network-engineer"],
-    "careerPath": {
-      "from": ["help-desk-technical-support-specialist"],
-      "to": []
-    },
+    "careerPath": { "from": ["help-desk-technical-support-specialist"], "to": [] },
     "project": "IT Support Engineer: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
     "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2083,30 +1667,15 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "linux",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "linux", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "technical-support",
         "importance": "core",
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "bash",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "routing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "bash", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "routing", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "wi-fi-administration",
         "importance": "important",
@@ -2119,18 +1688,8 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "raid",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "sccm",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "raid", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "sccm", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "service-desk-knowledge-bases",
         "importance": "nice-to-have",
@@ -2139,10 +1698,7 @@
       }
     ],
     "relatedRoles": ["linux-administrator", "systems-administrator", "network-engineer"],
-    "careerPath": {
-      "from": ["it-support-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["it-support-engineer"], "to": [] },
     "project": "Help Desk / Technical Support Specialist: build a small network lab, resolve simulated incidents and verify backup restoration with a runbook.",
     "checkpoint": "Demonstrate Networking, Troubleshooting, Linux in the project, justify decisions and document limitations without following a walkthrough."
   }

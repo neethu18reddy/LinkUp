@@ -86,10 +86,7 @@
       }
     ],
     "relatedRoles": ["corporate-finance-associate", "fp-a-analyst", "financial-modeler"],
-    "careerPath": {
-      "from": ["corporate-finance-associate"],
-      "to": []
-    },
+    "careerPath": { "from": ["corporate-finance-associate"], "to": [] },
     "project": "Financial Analyst: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
     "checkpoint": "Demonstrate Financial Ratio Analysis, Cash Flow Analysis, Financial Modeling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -174,10 +171,7 @@
       }
     ],
     "relatedRoles": ["financial-analyst", "fp-a-analyst", "financial-modeler"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Corporate Finance Associate: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
     "checkpoint": "Demonstrate Financial Accounting, Financial Modeling, Budgeting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -256,10 +250,7 @@
       }
     ],
     "relatedRoles": ["financial-analyst", "corporate-finance-associate", "financial-modeler"],
-    "careerPath": {
-      "from": ["corporate-finance-associate"],
-      "to": []
-    },
+    "careerPath": { "from": ["corporate-finance-associate"], "to": [] },
     "project": "FP&A Analyst: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
     "checkpoint": "Demonstrate Rolling Forecasts, Variance Analysis, Headcount Planning in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -344,10 +335,7 @@
       }
     ],
     "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
-    "careerPath": {
-      "from": ["corporate-finance-associate"],
-      "to": []
-    },
+    "careerPath": { "from": ["corporate-finance-associate"], "to": [] },
     "project": "Financial Modeler: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
     "checkpoint": "Demonstrate Financial Accounting, Financial Modeling, Budgeting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -426,10 +414,7 @@
       }
     ],
     "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
-    "careerPath": {
-      "from": ["corporate-finance-associate"],
-      "to": []
-    },
+    "careerPath": { "from": ["corporate-finance-associate"], "to": [] },
     "project": "Treasury Analyst: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
     "checkpoint": "Demonstrate Cash Forecasting, Liquidity Management, Cash Pooling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -514,10 +499,7 @@
       }
     ],
     "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
-    "careerPath": {
-      "from": ["corporate-finance-associate"],
-      "to": []
-    },
+    "careerPath": { "from": ["corporate-finance-associate"], "to": [] },
     "project": "Cost Accountant: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
     "checkpoint": "Demonstrate Standard Costing, Activity-based Costing, Cost Allocation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -602,10 +584,7 @@
       }
     ],
     "relatedRoles": ["financial-analyst", "corporate-finance-associate", "fp-a-analyst"],
-    "careerPath": {
-      "from": ["corporate-finance-associate"],
-      "to": []
-    },
+    "careerPath": { "from": ["corporate-finance-associate"], "to": [] },
     "project": "Finance Business Partner: build an auditable budget and cash-flow model from synthetic statements, with scenarios and an investment memo.",
     "checkpoint": "Demonstrate Financial Accounting, Financial Modeling, Budgeting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -690,10 +669,7 @@
       }
     ],
     "relatedRoles": ["equity-research-analyst", "investment-banking-analyst", "portfolio-manager"],
-    "careerPath": {
-      "from": [],
-      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
-    },
+    "careerPath": { "from": [], "to": ["portfolio-manager", "wealth-manager-financial-planner"] },
     "project": "Investment Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Valuation, Investment Thesis Writing, Securities Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -784,10 +760,7 @@
       }
     ],
     "relatedRoles": ["investment-analyst", "investment-banking-analyst", "portfolio-manager"],
-    "careerPath": {
-      "from": [],
-      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
-    },
+    "careerPath": { "from": [], "to": ["portfolio-manager", "wealth-manager-financial-planner"] },
     "project": "Equity Research Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Equity Research, Discounted Cash Flow Valuation, Industry Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -846,12 +819,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "futures",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "futures", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "deal-screening",
         "importance": "nice-to-have",
@@ -872,10 +840,7 @@
       }
     ],
     "relatedRoles": ["investment-analyst", "equity-research-analyst", "portfolio-manager"],
-    "careerPath": {
-      "from": [],
-      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
-    },
+    "careerPath": { "from": [], "to": ["portfolio-manager", "wealth-manager-financial-planner"] },
     "project": "Investment Banking Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Comparable Company Analysis, M&A Modeling, Financial Modeling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -954,10 +919,7 @@
       }
     ],
     "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
-    "careerPath": {
-      "from": ["investment-analyst", "equity-research-analyst"],
-      "to": []
-    },
+    "careerPath": { "from": ["investment-analyst", "equity-research-analyst"], "to": [] },
     "project": "Portfolio Manager: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Portfolio Construction, Performance Attribution, Asset Allocation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1036,10 +998,7 @@
       }
     ],
     "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
-    "careerPath": {
-      "from": ["investment-analyst", "equity-research-analyst"],
-      "to": []
-    },
+    "careerPath": { "from": ["investment-analyst", "equity-research-analyst"], "to": [] },
     "project": "Wealth Manager/Financial Planner: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Financial Analysis, Valuation, Investment Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1118,10 +1077,7 @@
       }
     ],
     "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
-    },
+    "careerPath": { "from": [], "to": ["portfolio-manager", "wealth-manager-financial-planner"] },
     "project": "Trading Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Financial Analysis, Valuation, Investment Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1180,12 +1136,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "swaps",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "swaps", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "accretion-dilution-analysis",
         "importance": "nice-to-have",
@@ -1200,10 +1151,7 @@
       }
     ],
     "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
-    },
+    "careerPath": { "from": [], "to": ["portfolio-manager", "wealth-manager-financial-planner"] },
     "project": "Mergers & Acquisitions Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Financial Analysis, Valuation, Investment Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1282,10 +1230,7 @@
       }
     ],
     "relatedRoles": ["investment-analyst", "equity-research-analyst", "investment-banking-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": ["portfolio-manager", "wealth-manager-financial-planner"]
-    },
+    "careerPath": { "from": [], "to": ["portfolio-manager", "wealth-manager-financial-planner"] },
     "project": "Venture Capital Analyst: prepare a valuation model and investment committee memo using public historical data and explicit risk scenarios.",
     "checkpoint": "Demonstrate Startup Valuation, Cap Tables, Due Diligence in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1364,10 +1309,7 @@
       }
     ],
     "relatedRoles": ["chartered-accountant-ca-track", "auditor", "tax-analyst-consultant"],
-    "careerPath": {
-      "from": ["bookkeeper"],
-      "to": []
-    },
+    "careerPath": { "from": ["bookkeeper"], "to": [] },
     "project": "Accountant: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate General Ledger, Month-end Close, Financial Statement Preparation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1420,24 +1362,14 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "ifrs",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "ifrs", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "corporate-tax-fundamentals",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "xero",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "xero", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "cpa-certification-preparation",
         "importance": "nice-to-have",
@@ -1452,10 +1384,7 @@
       }
     ],
     "relatedRoles": ["accountant", "auditor", "tax-analyst-consultant"],
-    "careerPath": {
-      "from": ["bookkeeper"],
-      "to": []
-    },
+    "careerPath": { "from": ["bookkeeper"], "to": [] },
     "project": "Chartered Accountant (CA) track: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1540,10 +1469,7 @@
       }
     ],
     "relatedRoles": ["accountant", "chartered-accountant-ca-track", "tax-analyst-consultant"],
-    "careerPath": {
-      "from": ["bookkeeper"],
-      "to": []
-    },
+    "careerPath": { "from": ["bookkeeper"], "to": [] },
     "project": "Auditor: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate Audit Planning, Audit Sampling, Audit Working Papers in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1616,10 +1542,7 @@
       }
     ],
     "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
-    "careerPath": {
-      "from": ["bookkeeper"],
-      "to": []
-    },
+    "careerPath": { "from": ["bookkeeper"], "to": [] },
     "project": "Tax Analyst/Consultant: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate Tax Research, Tax Reconciliation, Deferred Tax in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1698,10 +1621,7 @@
       }
     ],
     "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Bookkeeper: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1780,10 +1700,7 @@
       }
     ],
     "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
-    "careerPath": {
-      "from": ["bookkeeper"],
-      "to": []
-    },
+    "careerPath": { "from": ["bookkeeper"], "to": [] },
     "project": "Payroll Specialist: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate Payroll Processing, Payroll Reconciliation, Financial Controls in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1836,12 +1753,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "us-gaap",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "us-gaap", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "forensic-accounting",
         "importance": "important",
@@ -1862,10 +1774,7 @@
       }
     ],
     "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
-    "careerPath": {
-      "from": ["bookkeeper"],
-      "to": []
-    },
+    "careerPath": { "from": ["bookkeeper"], "to": [] },
     "project": "Forensic Accountant: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1956,10 +1865,7 @@
       }
     ],
     "relatedRoles": ["accountant", "chartered-accountant-ca-track", "auditor"],
-    "careerPath": {
-      "from": ["bookkeeper"],
-      "to": []
-    },
+    "careerPath": { "from": ["bookkeeper"], "to": [] },
     "project": "Accounting Systems Analyst: close a synthetic ledger, reconcile balances and prepare a financial statement and audit evidence pack.",
     "checkpoint": "Demonstrate Financial Accounting, Bookkeeping, Account Reconciliation in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2038,10 +1944,7 @@
       }
     ],
     "relatedRoles": ["risk-analyst", "quantitative-risk-analyst", "actuary"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Credit Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2114,10 +2017,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "quantitative-risk-analyst", "actuary"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Risk Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2196,10 +2096,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "risk-analyst", "actuary"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Quantitative Risk Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2278,10 +2175,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Actuary: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2360,10 +2254,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Compliance Officer (Finance): create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2380,18 +2271,8 @@
     "keywords": ["finance", "financial-risk", "aml", "kyc", "analyst"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "aml",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "kyc",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "aml", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "kyc", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "risk-management",
         "importance": "core",
@@ -2442,10 +2323,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "AML/KYC Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate AML, KYC, Risk Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2524,10 +2402,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "ESG Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2600,10 +2475,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Insurance Underwriter: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2676,10 +2548,7 @@
       }
     ],
     "relatedRoles": ["credit-analyst", "risk-analyst", "quantitative-risk-analyst"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Fintech Product Analyst: create a synthetic risk assessment with a validated model, control tests and a concise oversight report.",
     "checkpoint": "Demonstrate Risk Management, Statistics, Financial Analysis in the project, justify decisions and document limitations without following a walkthrough."
   }

@@ -1,4 +1,5 @@
 import { readFileSync, readdirSync } from 'node:fs';
+import { z } from 'zod';
 import { catalogSkillSchema, catalogRoleSchema } from '../backend/src/catalog/catalog.schemas.js';
 import { validateCatalog } from '../backend/src/catalog/catalog.validation.js';
 import { buildCatalogRoadmap } from '../backend/src/catalog/catalog.roadmaps.js';
@@ -27,3 +28,27 @@ for (const role of roles) {
     }
 }
 console.log(`Validated ${roles.length} role roadmaps and prerequisite order.`);
+const requiredRoles = z
+  .array(z.object({ title: z.string().min(2), category: z.string().min(2) }))
+  .parse(JSON.parse(readFileSync(new URL('coverage.json', root), 'utf8')));
+const normalize = (text: string) =>
+  text
+    .toLowerCase()
+    .replace(/\+/g, 'plus')
+    .replace(/#/g, 'sharp')
+    .replace(/[^a-z0-9]/g, '');
+const titles = new Map(
+  roles.flatMap((role) =>
+    [role.name, ...role.aliases].map((name) => [normalize(name), role] as const),
+  ),
+);
+for (const requirement of requiredRoles) {
+  const role = titles.get(normalize(requirement.title));
+  if (!role || role.category !== requirement.category)
+    throw new Error(
+      `Required role/category missing: ${requirement.title} (${requirement.category})`,
+    );
+}
+console.log(
+  `Covered all ${requiredRoles.length} requested role titles and categories, including merge aliases.`,
+);

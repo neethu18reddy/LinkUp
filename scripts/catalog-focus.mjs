@@ -272,3 +272,24 @@ export const ownership = [
   [/Interior|Furniture|AutoCAD|SketchUp|Revit|Building Information|Material Boards/, /Interior/],
   [/Fashion|Textile|Pattern Making|Garment|Draping|CLO 3D/, /Fashion/],
 ];
+
+// Preserve the brief’s category placement for specialties shared by several families.
+export const roleCategories = {
+  'Data Scientist': 'data',
+  'Robotics Engineer': 'ai-ml',
+  'Design Technologist': 'design',
+  'Security Tester': 'quality',
+  'Corporate Trainer': 'other',
+  'Digital Twin Engineer': 'other',
+  'Customer Support Specialist': 'other',
+  'Community Manager': 'other',
+};
+export const entryRoles = [
+  'Associate Product Manager',
+  'Data Analyst',
+  'Manual Tester',
+  'Frontend Developer',
+  'UI Designer',
+  'Graphic Designer',
+  'Sales Development Rep',
+];

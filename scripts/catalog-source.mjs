@@ -475,3 +475,24 @@ family(
   'Instructional Design; ADDIE; Backward Design; Bloom Taxonomy; Learning Objectives; Assessment Design; E-learning Storyboards; Articulate Storyline; Articulate Rise; H5P; SCORM; xAPI; Universal Design for Learning; Learning Analytics; Educational Technology Evaluation; Legal Technology; Legal Research; Contract Lifecycle Management; E-discovery; Legal Document Automation; Legal Operations; Legal Knowledge Management; Sustainability Analysis; Greenhouse Gas Accounting; Carbon Footprinting; Scope 1 Emissions; Scope 2 Emissions; Scope 3 Emissions; Life Cycle Assessment; Climate Scenario Analysis; Energy Systems; Renewable Energy Analysis; Environmental Data Analysis; Circular Economy; ESG Data Management; Geospatial Development; GeoPandas; Rasterio; GDAL; Leaflet; Mapbox; Remote Sensing; Satellite Imagery Analysis; Earth Engine; Quantum Computing; Qiskit; Cirq; Quantum Circuits; Quantum Gates; Quantum Algorithms; Quantum Error Correction; Quantum Simulation; Quantum Information Theory; Assistive Technology Evaluation; Accessible Document Design; Inclusive Service Evaluation',
   'Deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements',
 );
+
+// Common transferable foundations from the brief remain explicit catalog entries.
+const foundations = {
+  'delivery-leadership': [
+    'Collaboration',
+    'Critical Thinking',
+    'Time Management',
+    'Adaptability',
+    'Ownership',
+    'Presentation Skills',
+    'Empathy',
+    'Active Listening',
+  ],
+  'ml-research': ['MATLAB'],
+  'backend-services': ['Operating Systems'],
+};
+for (const [id, names] of Object.entries(foundations)) {
+  const target = families.find((family) => family.id === id);
+  if (!target) throw new Error('Missing foundation family: ' + id);
+  target.skills.push(...names.filter((name) => !target.skills.includes(name)));
+}

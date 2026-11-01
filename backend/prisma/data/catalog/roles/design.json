@@ -1,5 +1,75 @@
 [
   {
+    "id": "design-technologist",
+    "databaseId": "1ee2024a-82d4-4809-a76b-f9b0fbf4e5c3",
+    "name": "Design Technologist",
+    "category": "design",
+    "family": "web-interfaces",
+    "description": "Build usable browser interfaces with a focus on design technologist practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["development", "web-interfaces", "design", "technologist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "web-components",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "css-animations",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "prototyping",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      { "skillId": "html", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "css", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      {
+        "skillId": "javascript",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "accessibility",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "semantic-html",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      { "skillId": "sass", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      {
+        "skillId": "static-site-generation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "http-caching",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["frontend-developer", "react-developer", "vue-developer"],
+    "careerPath": { "from": ["frontend-developer"], "to": [] },
+    "project": "Design Technologist: build and evaluate an accessible, responsive task workspace with documented performance measurements.",
+    "checkpoint": "Demonstrate Web Components, CSS Animations, Prototyping in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
     "id": "product-designer",
     "databaseId": "10000000-0000-4000-8000-000000000018",
     "name": "Product Designer",
@@ -12,12 +82,7 @@
     "keywords": ["design", "experience-design", "product", "designer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "figma",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "figma", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "product-discovery-research",
         "importance": "core",
@@ -74,10 +139,7 @@
       }
     ],
     "relatedRoles": ["ui-designer", "ux-designer", "ux-researcher"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": ["ui-designer"], "to": ["information-architect"] },
     "project": "Product Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate Figma, Product Discovery Research, Design Systems in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -88,7 +150,7 @@
     "category": "design",
     "family": "experience-design",
     "description": "Design clear interfaces, test ideas with users, and refine accessible experiences.",
-    "experienceBand": "mid",
+    "experienceBand": "entry",
     "trending": false,
     "demand": "medium",
     "keywords": ["design", "experience-design", "ui", "designer"],
@@ -150,10 +212,7 @@
       }
     ],
     "relatedRoles": ["product-designer", "ux-designer", "ux-researcher"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": [], "to": ["information-architect"] },
     "project": "UI Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate UI Design, Visual Hierarchy, Layout Design in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -226,10 +285,7 @@
       }
     ],
     "relatedRoles": ["product-designer", "ui-designer", "ux-researcher"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": ["ui-designer"], "to": ["information-architect"] },
     "project": "UX Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate Journey Mapping, Interaction Design, Inclusive Design in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -320,10 +376,7 @@
       }
     ],
     "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": ["ui-designer"], "to": ["information-architect"] },
     "project": "UX Researcher: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate User Interviews, Research Synthesis, Research Consent in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -394,18 +447,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "sus",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "sus", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": ["ui-designer"], "to": ["information-architect"] },
     "project": "Interaction Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate Interaction Design, User Research, Wireframing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -452,12 +497,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "figjam",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "figjam", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "contextual-inquiry",
         "importance": "important",
@@ -484,10 +524,7 @@
       }
     ],
     "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": ["ui-designer"], "to": ["information-architect"] },
     "project": "Design Systems Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate Design Systems, User Research, Wireframing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -566,10 +603,7 @@
       }
     ],
     "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": ["ui-designer"], "to": ["information-architect"] },
     "project": "Content Designer / UX Writer: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate UX Writing, Content Design, Error Message Design in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -648,10 +682,7 @@
       }
     ],
     "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["information-architect"]
-    },
+    "careerPath": { "from": ["ui-designer"], "to": ["information-architect"] },
     "project": "Service Designer: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate User Research, Wireframing, Prototyping in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -692,18 +723,8 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "sketch",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "miro",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "sketch", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "miro", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "diary-studies",
         "importance": "important",
@@ -730,10 +751,7 @@
       }
     ],
     "relatedRoles": ["product-designer", "ui-designer", "ux-designer"],
-    "careerPath": {
-      "from": ["product-designer", "ui-designer"],
-      "to": []
-    },
+    "careerPath": { "from": ["product-designer", "ui-designer"], "to": [] },
     "project": "Information Architect: research a real task, prototype an improved experience and document usability findings and iterations.",
     "checkpoint": "Demonstrate User Research, Wireframing, Prototyping in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -806,10 +824,7 @@
       }
     ],
     "relatedRoles": ["graphic-designer", "brand-designer", "motion-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Visual Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -820,7 +835,7 @@
     "category": "design",
     "family": "visual-design",
     "description": "Communicate ideas through visual systems with a focus on graphic designer practice.",
-    "experienceBand": "mid",
+    "experienceBand": "entry",
     "trending": false,
     "demand": "medium",
     "keywords": ["design", "visual-design", "graphic", "designer"],
@@ -882,10 +897,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "brand-designer", "motion-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": [], "to": ["creative-director"] },
     "project": "Graphic Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -958,10 +970,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "motion-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Brand Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1014,12 +1023,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "blender",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "blender", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "typeface-design",
         "importance": "important",
@@ -1028,10 +1032,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Motion Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Motion Design, Composition, Color Theory in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1104,10 +1105,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "3D Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1148,12 +1146,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "canva",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "canva", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "color-management",
         "importance": "important",
@@ -1180,10 +1173,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Industrial/Product Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1262,10 +1252,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Packaging Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1332,10 +1319,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Typographer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1402,10 +1386,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Illustrator: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1478,10 +1459,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": ["visual-designer", "graphic-designer"],
-      "to": []
-    },
+    "careerPath": { "from": ["visual-designer", "graphic-designer"], "to": [] },
     "project": "Creative Director: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Composition, Color Theory, Typography in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1534,12 +1512,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "cad",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "cad", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "illustration",
         "importance": "important",
@@ -1548,10 +1521,7 @@
       }
     ],
     "relatedRoles": ["visual-designer", "graphic-designer", "brand-designer"],
-    "careerPath": {
-      "from": [],
-      "to": ["creative-director"]
-    },
+    "careerPath": { "from": ["graphic-designer"], "to": ["creative-director"] },
     "project": "Presentation Designer: create a coherent visual identity and presentation system with production-ready assets and rationale.",
     "checkpoint": "Demonstrate Presentation Design, Composition, Color Theory in the project, justify decisions and document limitations without following a walkthrough."
   }

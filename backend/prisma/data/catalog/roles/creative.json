@@ -80,10 +80,7 @@
       }
     ],
     "relatedRoles": ["videographer", "cinematographer", "motion-graphics-artist"],
-    "careerPath": {
-      "from": [],
-      "to": ["architectural-visualizer"]
-    },
+    "careerPath": { "from": [], "to": ["architectural-visualizer"] },
     "project": "Video Editor: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
     "checkpoint": "Demonstrate Nonlinear Editing, Continuity Editing, Video Color Correction in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -168,10 +165,7 @@
       }
     ],
     "relatedRoles": ["video-editor", "cinematographer", "motion-graphics-artist"],
-    "careerPath": {
-      "from": [],
-      "to": ["architectural-visualizer"]
-    },
+    "careerPath": { "from": [], "to": ["architectural-visualizer"] },
     "project": "Videographer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
     "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -248,18 +242,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "v-ray",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "v-ray", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["video-editor", "videographer", "motion-graphics-artist"],
-    "careerPath": {
-      "from": [],
-      "to": ["architectural-visualizer"]
-    },
+    "careerPath": { "from": [], "to": ["architectural-visualizer"] },
     "project": "Cinematographer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
     "checkpoint": "Demonstrate Camera Exposure, Lens Selection, Lighting Design in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -344,10 +330,7 @@
       }
     ],
     "relatedRoles": ["video-editor", "videographer", "cinematographer"],
-    "careerPath": {
-      "from": [],
-      "to": ["architectural-visualizer"]
-    },
+    "careerPath": { "from": [], "to": ["architectural-visualizer"] },
     "project": "Motion Graphics Artist: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
     "checkpoint": "Demonstrate Motion Graphics, Storytelling, Composition in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -412,12 +395,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "nuke",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "nuke", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "unreal-archviz",
         "importance": "nice-to-have",
@@ -432,10 +410,7 @@
       }
     ],
     "relatedRoles": ["video-editor", "videographer", "cinematographer"],
-    "careerPath": {
-      "from": [],
-      "to": ["architectural-visualizer"]
-    },
+    "careerPath": { "from": [], "to": ["architectural-visualizer"] },
     "project": "VFX Artist: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
     "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -526,10 +501,7 @@
       }
     ],
     "relatedRoles": ["video-editor", "videographer", "cinematographer"],
-    "careerPath": {
-      "from": ["video-editor", "videographer"],
-      "to": []
-    },
+    "careerPath": { "from": ["video-editor", "videographer"], "to": [] },
     "project": "Architectural Visualizer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
     "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -614,10 +586,7 @@
       }
     ],
     "relatedRoles": ["video-editor", "videographer", "cinematographer"],
-    "careerPath": {
-      "from": [],
-      "to": ["architectural-visualizer"]
-    },
+    "careerPath": { "from": [], "to": ["architectural-visualizer"] },
     "project": "Video Producer: produce a short visual story with a shot plan, graded edit, accessible captions and a production breakdown.",
     "checkpoint": "Demonstrate Storytelling, Composition, Storyboarding in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -696,10 +665,7 @@
       }
     ],
     "relatedRoles": ["animator-3d", "concept-artist", "digital-artist-illustrator"],
-    "careerPath": {
-      "from": [],
-      "to": ["art-director"]
-    },
+    "careerPath": { "from": [], "to": ["art-director"] },
     "project": "Animator (2D): create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -778,10 +744,7 @@
       }
     ],
     "relatedRoles": ["animator-2d", "concept-artist", "digital-artist-illustrator"],
-    "careerPath": {
-      "from": [],
-      "to": ["art-director"]
-    },
+    "careerPath": { "from": [], "to": ["art-director"] },
     "project": "Animator (3D): create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -860,10 +823,7 @@
       }
     ],
     "relatedRoles": ["animator-2d", "animator-3d", "digital-artist-illustrator"],
-    "careerPath": {
-      "from": [],
-      "to": ["art-director"]
-    },
+    "careerPath": { "from": [], "to": ["art-director"] },
     "project": "Concept Artist: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Concept Art, Drawing Fundamentals, Anatomy for Artists in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -910,12 +870,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "rigging",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "rigging", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "toon-boom-harmony",
         "importance": "important",
@@ -942,10 +897,7 @@
       }
     ],
     "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
-    "careerPath": {
-      "from": [],
-      "to": ["art-director"]
-    },
+    "careerPath": { "from": [], "to": ["art-director"] },
     "project": "Digital Artist/Illustrator: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -998,12 +950,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "tvpaint",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "tvpaint", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "texture-painting",
         "importance": "important",
@@ -1024,10 +971,7 @@
       }
     ],
     "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
-    "careerPath": {
-      "from": [],
-      "to": ["art-director"]
-    },
+    "careerPath": { "from": [], "to": ["art-director"] },
     "project": "Game Artist: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1118,10 +1062,7 @@
       }
     ],
     "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
-    "careerPath": {
-      "from": [],
-      "to": ["art-director"]
-    },
+    "careerPath": { "from": [], "to": ["art-director"] },
     "project": "Character Designer: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Character Design, Drawing Fundamentals, Anatomy for Artists in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1200,10 +1141,7 @@
       }
     ],
     "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
-    "careerPath": {
-      "from": [],
-      "to": ["art-director"]
-    },
+    "careerPath": { "from": [], "to": ["art-director"] },
     "project": "Technical Artist: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Technical Art, Drawing Fundamentals, Anatomy for Artists in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1282,10 +1220,7 @@
       }
     ],
     "relatedRoles": ["animator-2d", "animator-3d", "concept-artist"],
-    "careerPath": {
-      "from": ["animator-2d", "animator-3d"],
-      "to": []
-    },
+    "careerPath": { "from": ["animator-2d", "animator-3d"], "to": [] },
     "project": "Art Director: create a coherent animated scene or game asset pack with process studies and technical breakdowns.",
     "checkpoint": "Demonstrate Drawing Fundamentals, Anatomy for Artists, Perspective Drawing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1370,10 +1305,7 @@
       }
     ],
     "relatedRoles": ["photo-retoucher", "fashion-designer", "interior-designer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Photographer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
     "checkpoint": "Demonstrate Photography, Exposure Triangle, Studio Lighting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1464,10 +1396,7 @@
       }
     ],
     "relatedRoles": ["photographer", "fashion-designer", "interior-designer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Photo Retoucher: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
     "checkpoint": "Demonstrate Composition, Color Theory, Creative Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1576,10 +1505,7 @@
       }
     ],
     "relatedRoles": ["photographer", "photo-retoucher", "interior-designer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Fashion Designer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
     "checkpoint": "Demonstrate Fashion Research, Pattern Making, Garment Construction in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1608,12 +1534,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "autocad",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "autocad", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "composition",
         "importance": "core",
@@ -1688,10 +1609,7 @@
       }
     ],
     "relatedRoles": ["photographer", "photo-retoucher", "fashion-designer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Interior Designer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
     "checkpoint": "Demonstrate Interior Space Planning, Interior Materials, AutoCAD in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1782,10 +1700,7 @@
       }
     ],
     "relatedRoles": ["photographer", "photo-retoucher", "fashion-designer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Creative Technologist: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
     "checkpoint": "Demonstrate Composition, Color Theory, Creative Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1862,18 +1777,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "p5-js",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "p5-js", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["photographer", "photo-retoucher", "fashion-designer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Product Photographer: develop a cohesive client portfolio with research, production studies and clear usage or material specifications.",
     "checkpoint": "Demonstrate Composition, Color Theory, Creative Research in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1914,12 +1821,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "reaper",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "reaper", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "sample-rates",
         "importance": "important",
@@ -1950,12 +1852,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "fmod",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "fmod", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "audiobook-production",
         "importance": "nice-to-have",
@@ -1964,10 +1861,7 @@
       }
     ],
     "relatedRoles": ["audio-engineer", "music-producer", "podcast-producer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Sound Designer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
     "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2070,10 +1964,7 @@
       }
     ],
     "relatedRoles": ["sound-designer", "music-producer", "podcast-producer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Audio Engineer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
     "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2170,10 +2061,7 @@
       }
     ],
     "relatedRoles": ["sound-designer", "audio-engineer", "podcast-producer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Music Producer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
     "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2226,12 +2114,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "reverb",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "reverb", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "foley-recording",
         "importance": "important",
@@ -2270,10 +2153,7 @@
       }
     ],
     "relatedRoles": ["sound-designer", "audio-engineer", "music-producer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Podcast Producer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
     "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2338,12 +2218,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "midi",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "midi", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "loudness-standards",
         "importance": "nice-to-have",
@@ -2364,10 +2239,7 @@
       }
     ],
     "relatedRoles": ["sound-designer", "audio-engineer", "music-producer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Voice-Over Artist: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
     "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2464,10 +2336,7 @@
       }
     ],
     "relatedRoles": ["sound-designer", "audio-engineer", "music-producer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Live Sound Engineer: produce and master a short audio story or soundscape with intelligibility checks and delivery specifications.",
     "checkpoint": "Demonstrate Critical Listening, Audio Signal Flow, Recording Techniques in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2484,24 +2353,9 @@
     "keywords": ["creative", "writing-media", "copywriter"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -2538,18 +2392,10 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "memoq",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "memoq", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": ["content-writer", "technical-writer", "scriptwriter"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "Copywriter: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2566,24 +2412,9 @@
     "keywords": ["creative", "writing-media", "content", "writer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -2628,10 +2459,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "technical-writer", "scriptwriter"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "Content Writer: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2648,24 +2476,9 @@
     "keywords": ["creative", "writing-media", "technical", "writer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -2704,10 +2517,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "content-writer", "scriptwriter"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "Technical Writer: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2724,24 +2534,9 @@
     "keywords": ["creative", "writing-media", "scriptwriter"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -2786,10 +2581,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "Scriptwriter: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2806,24 +2598,9 @@
     "keywords": ["creative", "writing-media", "journalist", "digital", "journalist"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -2868,10 +2645,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "Journalist/Digital Journalist: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2888,24 +2662,9 @@
     "keywords": ["creative", "writing-media", "editor", "proofreader"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -2950,10 +2709,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "Editor/Proofreader: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -2970,24 +2726,9 @@
     "keywords": ["creative", "writing-media", "ugc", "creator", "content", "creator"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -3038,10 +2779,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "UGC Creator / Content Creator: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3058,24 +2796,9 @@
     "keywords": ["creative", "writing-media", "streamer", "community", "manager"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "core",
@@ -3114,10 +2837,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
-    "careerPath": {
-      "from": ["copywriter", "content-writer"],
-      "to": []
-    },
+    "careerPath": { "from": ["copywriter", "content-writer"], "to": [] },
     "project": "Streamer/Community Manager: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Writing, Research, Editing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -3140,24 +2860,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "writing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "research",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "editing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "writing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "research", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "editing", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "storytelling",
         "importance": "important",
@@ -3196,10 +2901,7 @@
       }
     ],
     "relatedRoles": ["copywriter", "content-writer", "technical-writer"],
-    "careerPath": {
-      "from": [],
-      "to": ["streamer-community-manager"]
-    },
+    "careerPath": { "from": [], "to": ["streamer-community-manager"] },
     "project": "Translator/Localization Specialist: publish a researched multimedia story with verified sources, editorial revisions and audience feedback.",
     "checkpoint": "Demonstrate Localization, Writing, Research in the project, justify decisions and document limitations without following a walkthrough."
   }

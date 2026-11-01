@@ -1,5 +1,338 @@
 [
   {
+    "id": "digital-twin-engineer",
+    "databaseId": "5bcb4054-6f63-4915-a0cd-bd5d8cdce614",
+    "name": "Digital Twin Engineer",
+    "category": "other",
+    "family": "embedded-iot",
+    "description": "Build dependable connected hardware with a focus on digital twin engineer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["development", "embedded-iot", "digital", "twin", "engineer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "digital-twin-modeling",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      { "skillId": "opc-ua", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      {
+        "skillId": "industrial-iot",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      { "skillId": "c", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      {
+        "skillId": "electronics-fundamentals",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "embedded-debugging",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "hardware-interfaces",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      { "skillId": "risc-v", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "spi", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      {
+        "skillId": "lorawan",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      { "skillId": "jtag", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      {
+        "skillId": "path-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["embedded-systems-engineer", "firmware-engineer", "iot-developer"],
+    "careerPath": { "from": [], "to": [] },
+    "project": "Digital Twin Engineer: demonstrate a sensor-to-dashboard system with fault handling, a simulated device and measured timing.",
+    "checkpoint": "Demonstrate Digital Twin Modeling, OPC UA, Industrial IoT in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "customer-support-specialist",
+    "databaseId": "fdd054d6-9b0d-4170-a030-54a518f8536a",
+    "name": "Customer Support Specialist",
+    "category": "other",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on customer support specialist practice.",
+    "experienceBand": "entry",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "customer", "support", "specialist"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      { "skillId": "crm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      {
+        "skillId": "consultative-selling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "objection-handling",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "contract-negotiation",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      { "skillId": "zendesk", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      {
+        "skillId": "support-ticket-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-empathy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "support-quality-assurance",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-satisfaction-measurement",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-advocacy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "customer-education",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "support-automation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
+    "careerPath": {
+      "from": ["sales-development-rep"],
+      "to": ["business-development-manager", "community-manager"]
+    },
+    "project": "Customer Support Specialist: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "community-manager",
+    "databaseId": "2c64002f-aad0-46ac-a964-03d69be08162",
+    "name": "Community Manager",
+    "category": "other",
+    "family": "sales-success",
+    "description": "Understand customer needs and grow accountable relationships with a focus on community manager practice.",
+    "experienceBand": "senior",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "sales-success", "community", "manager"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "customer-discovery",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "relationship-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      { "skillId": "crm", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      {
+        "skillId": "cold-outreach",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "proof-of-concept-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "rfp-responses",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pipedrive",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "community-moderation",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "community-programming",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "community-analytics",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["sales-development-rep", "account-executive", "sales-engineer"],
+    "careerPath": { "from": ["sales-development-rep", "account-executive"], "to": [] },
+    "project": "Community Manager: run a simulated customer engagement from discovery to solution demo, handover and success measurement.",
+    "checkpoint": "Demonstrate Communication, Customer Discovery, Relationship Management in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
+    "id": "corporate-trainer",
+    "databaseId": "408a1770-dc51-4d91-aa66-b05e7eca7efe",
+    "name": "Corporate Trainer",
+    "category": "other",
+    "family": "people-learning",
+    "description": "Support effective and fair people development with a focus on corporate trainer practice.",
+    "experienceBand": "mid",
+    "trending": false,
+    "demand": "medium",
+    "keywords": ["business", "people-learning", "corporate", "trainer"],
+    "aliases": [],
+    "skills": [
+      {
+        "skillId": "communication",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "interviewing",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "facilitation",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "people-management",
+        "importance": "core",
+        "requiredLevel": "intermediate",
+        "weight": 3
+      },
+      {
+        "skillId": "recruitment-planning",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "structured-interviews",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "offer-management",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "compensation-benchmarking",
+        "importance": "important",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "pay-equity-analysis",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "succession-planning",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "knowledge-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      }
+    ],
+    "relatedRoles": ["hr-generalist", "technical-recruiter", "talent-acquisition-specialist"],
+    "careerPath": { "from": [], "to": [] },
+    "project": "Corporate Trainer: design an evidence-based hiring or learning program with fair assessment and measurable outcomes.",
+    "checkpoint": "Demonstrate Communication, Interviewing, Facilitation in the project, justify decisions and document limitations without following a walkthrough."
+  },
+  {
     "id": "healthcare-informatics-specialist",
     "databaseId": "48d976bc-56f9-4d6c-a5a0-9d2c5386b10c",
     "name": "Healthcare Informatics Specialist",
@@ -96,10 +429,7 @@
       "clinical-informatics-analyst",
       "computational-biologist"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Healthcare Informatics Specialist: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
     "checkpoint": "Demonstrate Healthcare Informatics, Research Methods, Statistics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -206,10 +536,7 @@
       "clinical-informatics-analyst",
       "computational-biologist"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Bioinformatics Analyst: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
     "checkpoint": "Demonstrate Bioinformatics, Sequence Alignment, Biopython in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -256,12 +583,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "fhir",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "fhir", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "clinical-terminologies",
         "importance": "important",
@@ -322,10 +644,7 @@
       "bioinformatics-analyst",
       "computational-biologist"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Clinical Informatics Analyst: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
     "checkpoint": "Demonstrate Research Methods, Statistics, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -366,24 +685,9 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "hl7",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "dicom",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "loinc",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "hl7", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "dicom", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "loinc", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "epidemiology",
         "importance": "important",
@@ -432,10 +736,7 @@
       "bioinformatics-analyst",
       "clinical-informatics-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Computational Biologist: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
     "checkpoint": "Demonstrate Research Methods, Statistics, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -542,10 +843,7 @@
       "bioinformatics-analyst",
       "clinical-informatics-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Health Data Engineer: analyze de-identified public scientific data with a reproducible workflow, validation and ethical limitations.",
     "checkpoint": "Demonstrate Research Methods, Statistics, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -604,12 +902,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "addie",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "addie", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "backward-design",
         "importance": "nice-to-have",
@@ -640,28 +933,15 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "h5p",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "scorm",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
+      { "skillId": "h5p", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "scorm", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 }
     ],
     "relatedRoles": [
       "legal-tech-analyst",
       "sustainability-climate-tech-analyst",
       "geospatial-developer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "EdTech Instructional Designer: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
     "checkpoint": "Demonstrate Instructional Design, Learning Objectives, Articulate Storyline in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -756,10 +1036,7 @@
       "sustainability-climate-tech-analyst",
       "geospatial-developer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Legal Tech Analyst: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
     "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -838,10 +1115,7 @@
       }
     ],
     "relatedRoles": ["edtech-instructional-designer", "legal-tech-analyst", "geospatial-developer"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Sustainability/Climate Tech Analyst: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
     "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -864,18 +1138,8 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "gdal",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "leaflet",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "gdal", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
+      { "skillId": "leaflet", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "research-methods",
         "importance": "core",
@@ -942,10 +1206,7 @@
       "legal-tech-analyst",
       "sustainability-climate-tech-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Geospatial Developer: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
     "checkpoint": "Demonstrate GeoPandas, GDAL, Leaflet in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -974,12 +1235,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "qiskit",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "qiskit", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "quantum-computing",
         "importance": "core",
@@ -1010,12 +1266,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "cirq",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "cirq", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "quantum-gates",
         "importance": "nice-to-have",
@@ -1046,10 +1297,7 @@
       "legal-tech-analyst",
       "sustainability-climate-tech-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Quantum Computing Developer: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
     "checkpoint": "Demonstrate Quantum Circuits, Quantum Algorithms, Qiskit in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1144,10 +1392,7 @@
       "legal-tech-analyst",
       "sustainability-climate-tech-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Energy Data Analyst: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
     "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1188,12 +1433,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "xapi",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "xapi", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "greenhouse-gas-accounting",
         "importance": "important",
@@ -1224,10 +1464,7 @@
       "legal-tech-analyst",
       "sustainability-climate-tech-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Digital Accessibility Consultant: deliver a domain-specific prototype and evidence report, identifying professional review and qualification requirements.",
     "checkpoint": "Demonstrate Research Methods, Problem Solving, Data Ethics in the project, justify decisions and document limitations without following a walkthrough."
   }

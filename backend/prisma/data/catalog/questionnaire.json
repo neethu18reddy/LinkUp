@@ -1,0 +1,177 @@
+[
+  {
+    "id": "interest",
+    "prompt": "Which area would you like to explore?",
+    "multiple": false,
+    "options": [
+      { "id": "development", "label": "Development" },
+      { "id": "ai-ml", "label": "AI & Machine Learning" },
+      { "id": "data", "label": "Data" },
+      { "id": "infrastructure", "label": "Infrastructure" },
+      { "id": "cybersecurity", "label": "Cybersecurity" },
+      { "id": "quality", "label": "Quality" },
+      { "id": "design", "label": "Design" },
+      { "id": "product-management", "label": "Product & Project Management" },
+      { "id": "finance", "label": "Finance & Accounting" },
+      { "id": "business", "label": "Business, Marketing & Sales" },
+      { "id": "creative", "label": "Arts, Media & Creative" },
+      { "id": "other", "label": "Other high-demand fields" }
+    ]
+  },
+  {
+    "id": "experience",
+    "prompt": "How much practical experience do you have?",
+    "multiple": false,
+    "options": [
+      { "id": "new", "label": "I am getting started" },
+      { "id": "studying", "label": "I have studied or practised" },
+      { "id": "working", "label": "I have professional experience" }
+    ]
+  },
+  {
+    "id": "tools",
+    "prompt": "Which have you actually used? Choose all that apply.",
+    "multiple": true,
+    "options": [
+      { "id": "none", "label": "None yet" },
+      {
+        "id": "python",
+        "label": "Python",
+        "domains": ["development", "ai-ml", "data", "other"],
+        "skill": "Python"
+      },
+      {
+        "id": "javascript",
+        "label": "JavaScript",
+        "domains": ["development"],
+        "skill": "JavaScript"
+      },
+      {
+        "id": "sql",
+        "label": "SQL",
+        "domains": ["development", "data", "finance"],
+        "skill": "SQL"
+      },
+      {
+        "id": "excel",
+        "label": "Excel",
+        "domains": ["data", "finance", "business", "product-management"],
+        "skill": "Excel"
+      },
+      { "id": "figma", "label": "Figma", "domains": ["design", "development"], "skill": "Figma" },
+      {
+        "id": "photoshop",
+        "label": "Photoshop",
+        "domains": ["design", "creative"],
+        "skill": "Adobe Photoshop"
+      },
+      {
+        "id": "linux",
+        "label": "Linux",
+        "domains": ["infrastructure", "cybersecurity"],
+        "skill": "Linux"
+      },
+      {
+        "id": "docker",
+        "label": "Docker",
+        "domains": ["infrastructure", "development", "ai-ml"],
+        "skill": "Docker"
+      },
+      {
+        "id": "wireshark",
+        "label": "Wireshark",
+        "domains": ["cybersecurity", "infrastructure"],
+        "skill": "Wireshark"
+      },
+      {
+        "id": "playwright",
+        "label": "Playwright",
+        "domains": ["quality", "development"],
+        "skill": "Playwright"
+      },
+      {
+        "id": "jira",
+        "label": "Jira",
+        "domains": ["product-management", "quality"],
+        "skill": "Jira"
+      },
+      { "id": "quickbooks", "label": "QuickBooks", "domains": ["finance"], "skill": "QuickBooks" },
+      {
+        "id": "ga4",
+        "label": "Google Analytics",
+        "domains": ["business", "data"],
+        "skill": "Google Analytics 4"
+      },
+      {
+        "id": "blender",
+        "label": "Blender",
+        "domains": ["creative", "design"],
+        "skill": "Blender"
+      },
+      { "id": "qgis", "label": "QGIS", "domains": ["other", "data"], "skill": "QGIS" },
+      {
+        "id": "git",
+        "label": "Git",
+        "domains": ["development", "ai-ml", "infrastructure", "quality"],
+        "skill": "Git"
+      }
+    ]
+  },
+  {
+    "id": "enjoy",
+    "prompt": "What kind of work do you enjoy most?",
+    "multiple": false,
+    "options": [
+      { "id": "build", "label": "Building practical things" },
+      { "id": "analyze", "label": "Analyzing evidence" },
+      { "id": "design", "label": "Designing experiences" },
+      { "id": "write", "label": "Writing and telling stories" },
+      { "id": "manage", "label": "Organizing people and projects" },
+      { "id": "secure", "label": "Finding risks and protecting systems" }
+    ]
+  },
+  {
+    "id": "weekly-hours",
+    "prompt": "How much time can you usually learn each week?",
+    "multiple": false,
+    "options": [
+      { "id": "3", "label": "About 3 hours" },
+      { "id": "5", "label": "About 5 hours" },
+      { "id": "10", "label": "About 10 hours" },
+      { "id": "15", "label": "About 15 hours" }
+    ]
+  },
+  {
+    "id": "timeline",
+    "prompt": "When would you like to review your progress?",
+    "multiple": false,
+    "options": [
+      { "id": "12", "label": "In 3 months" },
+      { "id": "26", "label": "In 6 months" },
+      { "id": "52", "label": "In a year" },
+      { "id": "flexible", "label": "I prefer a flexible timeline" }
+    ]
+  },
+  {
+    "id": "style",
+    "prompt": "How do you prefer to learn?",
+    "multiple": false,
+    "options": [
+      { "id": "practice", "label": "Small practical projects" },
+      { "id": "reading", "label": "Reading documentation and examples" },
+      { "id": "video", "label": "Video demonstrations" },
+      { "id": "structured", "label": "A structured course" }
+    ]
+  },
+  {
+    "id": "starting-point",
+    "prompt": "Which starting point fits you best?",
+    "multiple": false,
+    "options": [
+      { "id": "student", "label": "Student or recent graduate" },
+      { "id": "switcher", "label": "Changing career direction" },
+      { "id": "professional", "label": "Developing my current career" },
+      { "id": "exploring", "label": "Exploring possibilities" }
+    ]
+  }
+]

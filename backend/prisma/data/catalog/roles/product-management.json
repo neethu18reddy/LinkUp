@@ -68,10 +68,7 @@
       }
     ],
     "relatedRoles": ["technical-product-manager", "associate-product-manager", "product-owner"],
-    "careerPath": {
-      "from": ["product-owner", "business-systems-analyst"],
-      "to": []
-    },
+    "careerPath": { "from": ["associate-product-manager", "product-owner"], "to": [] },
     "project": "Product Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
     "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -144,10 +141,7 @@
       }
     ],
     "relatedRoles": ["product-manager", "associate-product-manager", "product-owner"],
-    "careerPath": {
-      "from": ["product-owner", "business-systems-analyst"],
-      "to": []
-    },
+    "careerPath": { "from": ["associate-product-manager", "product-owner"], "to": [] },
     "project": "Technical Product Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
     "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -158,7 +152,7 @@
     "category": "product-management",
     "family": "product-leadership",
     "description": "Align product decisions with user and business outcomes with a focus on associate product manager practice.",
-    "experienceBand": "senior",
+    "experienceBand": "entry",
     "trending": false,
     "demand": "medium",
     "keywords": ["product-management", "product-leadership", "associate", "product", "manager"],
@@ -200,24 +194,14 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "okrs",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "okrs", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "product-documentation",
         "importance": "important",
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "uml",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "uml", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "discovery-interviewing",
         "importance": "nice-to-have",
@@ -226,10 +210,7 @@
       }
     ],
     "relatedRoles": ["product-manager", "technical-product-manager", "product-owner"],
-    "careerPath": {
-      "from": ["product-owner", "business-systems-analyst"],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": ["product-manager", "technical-product-manager"] },
     "project": "Associate Product Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
     "checkpoint": "Demonstrate Product Discovery, Stakeholder Management, Requirements Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -303,7 +284,7 @@
     ],
     "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
     "careerPath": {
-      "from": [],
+      "from": ["associate-product-manager"],
       "to": ["product-manager", "technical-product-manager"]
     },
     "project": "Product Owner: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
@@ -378,10 +359,7 @@
       }
     ],
     "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
-    "careerPath": {
-      "from": ["product-owner", "business-systems-analyst"],
-      "to": []
-    },
+    "careerPath": { "from": ["associate-product-manager", "product-owner"], "to": [] },
     "project": "Product Operations Manager: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
     "checkpoint": "Demonstrate Product Operations, Product Discovery, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -461,7 +439,7 @@
     ],
     "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
     "careerPath": {
-      "from": [],
+      "from": ["associate-product-manager"],
       "to": ["product-manager", "technical-product-manager"]
     },
     "project": "Business Systems Analyst: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
@@ -537,7 +515,7 @@
     ],
     "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
     "careerPath": {
-      "from": [],
+      "from": ["associate-product-manager"],
       "to": ["product-manager", "technical-product-manager"]
     },
     "project": "Requirements Analyst: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
@@ -613,7 +591,7 @@
     ],
     "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
     "careerPath": {
-      "from": [],
+      "from": ["associate-product-manager"],
       "to": ["product-manager", "technical-product-manager"]
     },
     "project": "Solutions Consultant: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
@@ -680,12 +658,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "bpmn",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "bpmn", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "implementation-planning",
         "importance": "nice-to-have",
@@ -695,7 +668,7 @@
     ],
     "relatedRoles": ["product-manager", "technical-product-manager", "associate-product-manager"],
     "careerPath": {
-      "from": [],
+      "from": ["associate-product-manager"],
       "to": ["product-manager", "technical-product-manager"]
     },
     "project": "Implementation Consultant: present a researched product opportunity, prioritized roadmap and measurable launch experiment.",
@@ -714,12 +687,7 @@
     "keywords": ["product-management", "delivery-leadership", "scrum", "master"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "scrum",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "scrum", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "communication",
         "importance": "core",
@@ -767,13 +735,16 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "critical-thinking",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["agile-coach", "project-manager", "program-manager"],
-    "careerPath": {
-      "from": [],
-      "to": ["agile-coach", "project-manager"]
-    },
+    "careerPath": { "from": [], "to": ["agile-coach", "project-manager"] },
     "project": "Scrum Master: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Scrum, Communication, Leadership in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -790,12 +761,7 @@
     "keywords": ["product-management", "delivery-leadership", "agile", "coach"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "agile",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "agile", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "communication",
         "importance": "core",
@@ -826,12 +792,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "jira",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "jira", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "facilitation",
         "importance": "important",
@@ -849,13 +810,16 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "adaptability",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["scrum-master", "project-manager", "program-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Agile Coach: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Agile, Communication, Leadership in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -934,10 +898,7 @@
       }
     ],
     "relatedRoles": ["scrum-master", "agile-coach", "program-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Project Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1013,13 +974,16 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "active-listening",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Program Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1072,12 +1036,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "asana",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "asana", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "performance-feedback",
         "importance": "important",
@@ -1095,13 +1054,16 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "ownership",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Delivery Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1154,12 +1116,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "trello",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "trello", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "engineering-hiring",
         "importance": "important",
@@ -1171,13 +1128,22 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "collaboration",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
+      },
+      {
+        "skillId": "presentation-skills",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Engineering Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1247,13 +1213,16 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "time-management",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Technical Program Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1294,12 +1263,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "kanban",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "kanban", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "dependency-management",
         "importance": "important",
@@ -1338,10 +1302,7 @@
       }
     ],
     "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Customer Success Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1417,13 +1378,16 @@
         "importance": "nice-to-have",
         "requiredLevel": "beginner",
         "weight": 1
+      },
+      {
+        "skillId": "empathy",
+        "importance": "nice-to-have",
+        "requiredLevel": "beginner",
+        "weight": 1
       }
     ],
     "relatedRoles": ["scrum-master", "agile-coach", "project-manager"],
-    "careerPath": {
-      "from": ["scrum-master"],
-      "to": []
-    },
+    "careerPath": { "from": ["scrum-master"], "to": [] },
     "project": "Portfolio Delivery Manager: create and run a delivery plan with a risk log, team cadence, stakeholder review and outcome measures.",
     "checkpoint": "Demonstrate Communication, Leadership, Stakeholder Management in the project, justify decisions and document limitations without following a walkthrough."
   }

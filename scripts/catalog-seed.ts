@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { catalogRoles, catalogSkills, skillsById } from '../backend/src/catalog/catalog.js';
 
 const quote = (value: string) => `'${value.replaceAll("'", "''")}'`;
@@ -42,12 +42,18 @@ DELETE FROM "RoleRequirement" WHERE "roleTemplateId" IN (${catalogRoles.map((rol
 INSERT INTO "RoleRequirement" ("roleTemplateId", "skillId", "requiredLevel", "weight") VALUES
 ${requirements.join(',\n')};
 `;
-const destination = new URL(
-  '../backend/prisma/migrations/20261101000100_career_catalog/',
-  import.meta.url,
-);
+const migration = process.argv[2] ?? '20261101000100_career_catalog';
+if (!/^\d{14}_[a-z0-9_]+$/.test(migration))
+  throw new Error('Use a timestamped migration name without path separators.');
+const destination = new URL(`../backend/prisma/migrations/${migration}/`, import.meta.url);
 mkdirSync(destination, { recursive: true });
-writeFileSync(new URL('migration.sql', destination), sql);
+const output = new URL('migration.sql', destination);
+if (existsSync(output)) {
+  if (readFileSync(output, 'utf8') !== sql)
+    throw new Error(
+      'Existing migration differs. Choose a NEW timestamped migration name; applied migrations must not be overwritten.',
+    );
+} else writeFileSync(output, sql, { flag: 'wx' });
 console.log(
   `Catalog migration generated: ${catalogSkills.length} skills, ${catalogRoles.length} roles, ${requirements.length} requirements`,
 );

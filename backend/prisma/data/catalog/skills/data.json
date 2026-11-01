@@ -10,7 +10,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": false,
     "description": "Spreadsheets supports the practical knowledge needed to turn data into defensible decisions.",
@@ -18,6 +18,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -34,7 +40,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 40,
     "demand": "high",
     "trending": false,
     "description": "Statistics supports the practical knowledge needed to turn data into defensible decisions.",
@@ -42,6 +48,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -56,9 +68,9 @@
     "domains": ["data"],
     "type": "concept",
     "level": "beginner",
-    "prerequisites": [],
+    "prerequisites": ["statistics"],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": false,
     "description": "Data Visualization supports the practical knowledge needed to turn data into defensible decisions.",
@@ -66,6 +78,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -82,7 +100,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Cleaning supports the practical knowledge needed to turn data into defensible decisions.",
@@ -90,6 +108,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -106,7 +130,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Exploratory Data Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -114,6 +138,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -130,7 +160,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Profiling supports the practical knowledge needed to turn data into defensible decisions.",
@@ -138,6 +168,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -154,7 +190,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Missing Data Treatment supports the practical knowledge needed to turn data into defensible decisions.",
@@ -162,6 +198,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -178,7 +220,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Outlier Detection supports the practical knowledge needed to turn data into defensible decisions.",
@@ -186,6 +228,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -202,7 +250,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Descriptive Statistics supports the practical knowledge needed to turn data into defensible decisions.",
@@ -210,6 +258,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -226,7 +280,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Inferential Statistics supports the practical knowledge needed to turn data into defensible decisions.",
@@ -234,6 +288,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -248,9 +308,9 @@
     "domains": ["data"],
     "type": "concept",
     "level": "intermediate",
-    "prerequisites": [],
+    "prerequisites": ["statistics", "probability"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Hypothesis Testing supports the practical knowledge needed to turn data into defensible decisions.",
@@ -258,6 +318,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -274,7 +340,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Confidence Intervals supports the practical knowledge needed to turn data into defensible decisions.",
@@ -282,6 +348,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -298,7 +370,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Sampling Methods supports the practical knowledge needed to turn data into defensible decisions.",
@@ -306,6 +378,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -322,7 +400,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Survey Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -330,6 +408,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -346,7 +430,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Cohort Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -354,6 +438,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -370,7 +460,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Funnel Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -378,6 +468,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -394,7 +490,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Retention Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -402,6 +498,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -418,7 +520,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Customer Segmentation supports the practical knowledge needed to turn data into defensible decisions.",
@@ -426,6 +528,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -442,7 +550,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Customer Lifetime Value supports the practical knowledge needed to turn data into defensible decisions.",
@@ -450,6 +558,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -466,7 +580,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Churn Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -474,6 +588,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -490,7 +610,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Attribution Modeling supports the practical knowledge needed to turn data into defensible decisions.",
@@ -498,6 +618,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -514,7 +640,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Marketing Mix Modeling supports the practical knowledge needed to turn data into defensible decisions.",
@@ -522,6 +648,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -538,7 +670,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Product Metrics supports the practical knowledge needed to turn data into defensible decisions.",
@@ -546,6 +678,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -562,7 +700,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "North Star Metrics supports the practical knowledge needed to turn data into defensible decisions.",
@@ -570,6 +708,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -586,7 +730,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "KPI Design supports the practical knowledge needed to turn data into defensible decisions.",
@@ -594,6 +738,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -610,7 +760,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Business Requirements Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -618,6 +768,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -634,7 +790,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Stakeholder Interviews supports the practical knowledge needed to turn data into defensible decisions.",
@@ -642,6 +798,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -658,7 +820,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Process Mapping supports the practical knowledge needed to turn data into defensible decisions.",
@@ -666,6 +828,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -682,7 +850,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Root Cause Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -690,6 +858,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -706,7 +880,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Storytelling supports the practical knowledge needed to turn data into defensible decisions.",
@@ -714,6 +888,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -730,7 +910,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Dashboard Design supports the practical knowledge needed to turn data into defensible decisions.",
@@ -738,6 +918,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -754,7 +940,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Metric Definitions supports the practical knowledge needed to turn data into defensible decisions.",
@@ -762,6 +948,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -778,11 +970,17 @@
     "level": "intermediate",
     "prerequisites": ["python"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Pandas supports the practical knowledge needed to turn data into defensible decisions.",
     "resources": [
+      {
+        "title": "Pandas official learning reference",
+        "url": "https://pandas.pydata.org/docs/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
@@ -802,11 +1000,17 @@
     "level": "intermediate",
     "prerequisites": ["python"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "NumPy supports the practical knowledge needed to turn data into defensible decisions.",
     "resources": [
+      {
+        "title": "NumPy official learning reference",
+        "url": "https://numpy.org/learn/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
@@ -826,7 +1030,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": ["python"],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "R supports the practical knowledge needed to turn data into defensible decisions.",
@@ -834,6 +1038,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -850,7 +1060,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Tidyverse supports the practical knowledge needed to turn data into defensible decisions.",
@@ -858,6 +1068,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -874,7 +1090,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "dplyr supports the practical knowledge needed to turn data into defensible decisions.",
@@ -882,6 +1098,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -898,7 +1120,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "tidyr supports the practical knowledge needed to turn data into defensible decisions.",
@@ -906,6 +1128,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -922,7 +1150,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Jupyter supports the practical knowledge needed to turn data into defensible decisions.",
@@ -930,6 +1158,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -946,7 +1180,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Quarto supports the practical knowledge needed to turn data into defensible decisions.",
@@ -954,6 +1188,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -970,11 +1210,17 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Excel supports the practical knowledge needed to turn data into defensible decisions.",
     "resources": [
+      {
+        "title": "Excel official learning reference",
+        "url": "https://support.microsoft.com/excel",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
@@ -994,7 +1240,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Pivot Tables supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1002,6 +1248,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1018,11 +1270,17 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Power Query supports the practical knowledge needed to turn data into defensible decisions.",
     "resources": [
+      {
+        "title": "Power Query official learning reference",
+        "url": "https://learn.microsoft.com/power-query/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
@@ -1042,11 +1300,17 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "DAX supports the practical knowledge needed to turn data into defensible decisions.",
     "resources": [
+      {
+        "title": "DAX official learning reference",
+        "url": "https://learn.microsoft.com/dax/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
@@ -1066,7 +1330,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Google Sheets supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1074,6 +1338,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1090,7 +1360,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Spreadsheet Formulas supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1098,6 +1368,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1114,7 +1390,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Spreadsheet Data Validation supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1122,6 +1398,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1138,7 +1420,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Financial Data Reconciliation supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1146,6 +1428,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1162,7 +1450,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Clinical Data Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1170,6 +1458,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1186,7 +1480,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Healthcare Quality Metrics supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1194,6 +1488,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1210,7 +1510,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Ethics supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1218,6 +1518,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1234,7 +1540,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Research Methods supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1242,6 +1548,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1258,7 +1570,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "A/B Testing supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1266,6 +1578,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1282,7 +1600,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Experiment Analysis supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1290,6 +1608,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1306,7 +1630,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Measurement Planning supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1314,6 +1638,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1330,7 +1660,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Presentation supports the practical knowledge needed to turn data into defensible decisions.",
@@ -1338,6 +1668,12 @@
       {
         "title": "data analysis learning reference",
         "url": "https://www.kaggle.com/learn",
+        "type": "course",
+        "free": true
+      },
+      {
+        "title": "OpenLearn learning library",
+        "url": "https://www.open.edu/openlearn/",
         "type": "course",
         "free": true
       }
@@ -1354,7 +1690,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": false,
     "description": "Data Modeling supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1384,7 +1720,7 @@
     "level": "beginner",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 16,
+    "estimatedHours": 12,
     "demand": "high",
     "trending": false,
     "description": "Data Pipelines supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1409,16 +1745,22 @@
     "name": "PostgreSQL",
     "aliases": ["postgres", "psql"],
     "category": "data-engineering",
-    "domains": ["data"],
+    "domains": ["data", "development"],
     "type": "concept",
     "level": "intermediate",
     "prerequisites": ["sql"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "PostgreSQL supports the practical knowledge needed to build trusted data pipelines and storage.",
     "resources": [
+      {
+        "title": "PostgreSQL official learning reference",
+        "url": "https://www.postgresql.org/docs/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data engineering learning reference",
         "url": "https://spark.apache.org/docs/latest/",
@@ -1444,11 +1786,17 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "MySQL supports the practical knowledge needed to build trusted data pipelines and storage.",
     "resources": [
+      {
+        "title": "MySQL official learning reference",
+        "url": "https://dev.mysql.com/doc/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data engineering learning reference",
         "url": "https://spark.apache.org/docs/latest/",
@@ -1474,7 +1822,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "SQL Server supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1504,7 +1852,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Oracle Database supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1534,11 +1882,17 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "MongoDB supports the practical knowledge needed to build trusted data pipelines and storage.",
     "resources": [
+      {
+        "title": "MongoDB official learning reference",
+        "url": "https://www.mongodb.com/docs/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data engineering learning reference",
         "url": "https://spark.apache.org/docs/latest/",
@@ -1564,7 +1918,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Cassandra supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1594,7 +1948,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "DynamoDB supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1624,7 +1978,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Elasticsearch supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1654,7 +2008,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Snowflake supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1684,7 +2038,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Databricks supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1714,7 +2068,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "BigQuery supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1744,7 +2098,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Redshift supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1774,7 +2128,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Spark supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1804,7 +2158,7 @@
     "level": "intermediate",
     "prerequisites": ["python", "apache-spark"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "PySpark supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1834,7 +2188,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Hadoop supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1864,7 +2218,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "HDFS supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1894,7 +2248,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Hive supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1924,7 +2278,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Kafka supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1954,7 +2308,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Kafka Streams supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -1984,7 +2338,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Flink supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2014,7 +2368,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Beam supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2044,11 +2398,17 @@
     "level": "intermediate",
     "prerequisites": ["python"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Airflow supports the practical knowledge needed to build trusted data pipelines and storage.",
     "resources": [
+      {
+        "title": "Apache Airflow official learning reference",
+        "url": "https://airflow.apache.org/docs/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data engineering learning reference",
         "url": "https://spark.apache.org/docs/latest/",
@@ -2074,7 +2434,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Dagster supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2104,7 +2464,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Prefect supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2134,11 +2494,17 @@
     "level": "intermediate",
     "prerequisites": ["sql", "data-modeling"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "dbt supports the practical knowledge needed to build trusted data pipelines and storage.",
     "resources": [
+      {
+        "title": "dbt official learning reference",
+        "url": "https://docs.getdbt.com/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data engineering learning reference",
         "url": "https://spark.apache.org/docs/latest/",
@@ -2162,9 +2528,9 @@
     "domains": ["data"],
     "type": "concept",
     "level": "intermediate",
-    "prerequisites": [],
+    "prerequisites": ["sql"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "ETL supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2194,7 +2560,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "ELT supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2224,7 +2590,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Change Data Capture supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2254,7 +2620,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Debezium supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2284,7 +2650,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Warehousing supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2314,7 +2680,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Lakes supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2344,7 +2710,7 @@
     "level": "advanced",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 32,
     "demand": "high",
     "trending": false,
     "description": "Lakehouse Architecture supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2374,7 +2740,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Delta Lake supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2404,7 +2770,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Iceberg supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2434,7 +2800,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Hudi supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2464,7 +2830,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Parquet supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2494,7 +2860,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Avro supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2524,7 +2890,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Dimensional Modeling supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2554,7 +2920,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Star Schema supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2584,7 +2950,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Slowly Changing Dimensions supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2614,7 +2980,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Partitioning supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2644,7 +3010,7 @@
     "level": "advanced",
     "prerequisites": ["sql"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 32,
     "demand": "high",
     "trending": false,
     "description": "Query Optimization supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2674,7 +3040,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Query Execution Plans supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2704,7 +3070,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Database Indexing supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2732,9 +3098,9 @@
     "domains": ["data"],
     "type": "concept",
     "level": "intermediate",
-    "prerequisites": [],
+    "prerequisites": ["sql"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Database Replication supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2764,7 +3130,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Database Backup and Recovery supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2794,7 +3160,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Database Security supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2824,7 +3190,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Database Migrations supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2854,7 +3220,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Connection Management supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2884,7 +3250,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Stream Processing supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2914,7 +3280,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Batch Processing supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2944,7 +3310,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Contracts supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -2974,7 +3340,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Schema Evolution supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -3004,7 +3370,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Lineage supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -3034,7 +3400,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Catalogs supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -3064,7 +3430,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Orchestration supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -3094,7 +3460,7 @@
     "level": "advanced",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 32,
     "demand": "high",
     "trending": false,
     "description": "Medallion Architecture supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -3124,7 +3490,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Mesh supports the practical knowledge needed to build trusted data pipelines and storage.",
@@ -3154,11 +3520,17 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": ["tableau"],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Power BI supports the practical knowledge needed to communicate, govern and model complex evidence.",
     "resources": [
+      {
+        "title": "Power BI official learning reference",
+        "url": "https://learn.microsoft.com/power-bi/",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data specialisms learning reference",
         "url": "https://www.openintro.org/",
@@ -3184,11 +3556,17 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": ["power-bi"],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Tableau supports the practical knowledge needed to communicate, govern and model complex evidence.",
     "resources": [
+      {
+        "title": "Tableau official learning reference",
+        "url": "https://www.tableau.com/learn",
+        "type": "docs",
+        "free": true
+      },
       {
         "title": "data specialisms learning reference",
         "url": "https://www.openintro.org/",
@@ -3214,7 +3592,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Looker supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3244,7 +3622,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Looker Studio supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3274,7 +3652,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Qlik Sense supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3304,7 +3682,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Apache Superset supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3334,7 +3712,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Metabase supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3364,7 +3742,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Matplotlib supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3394,7 +3772,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Seaborn supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3424,7 +3802,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Plotly supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3454,7 +3832,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "ggplot2 supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3484,7 +3862,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "D3.js supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3514,7 +3892,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Vega-Lite supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3544,7 +3922,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Observable supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3574,7 +3952,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Geospatial Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3604,7 +3982,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "QGIS supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3634,7 +4012,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "ArcGIS supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3664,7 +4042,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "GeoJSON supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3694,7 +4072,7 @@
     "level": "intermediate",
     "prerequisites": ["sql"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Spatial SQL supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3724,7 +4102,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "PostGIS supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3754,7 +4132,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Coordinate Reference Systems supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3784,7 +4162,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Cartographic Design supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3812,9 +4190,9 @@
     "domains": ["data"],
     "type": "concept",
     "level": "intermediate",
-    "prerequisites": [],
+    "prerequisites": ["statistics"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Statistical Modeling supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3844,7 +4222,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Bayesian Statistics supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3874,7 +4252,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Time Series Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3904,7 +4282,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Forecasting supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3934,7 +4312,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Survival Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3964,7 +4342,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Multivariate Analysis supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -3994,7 +4372,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Generalized Linear Models supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4024,7 +4402,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Mixed Effects Models supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4054,7 +4432,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Causal Inference supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4084,7 +4462,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Propensity Score Matching supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4112,9 +4490,9 @@
     "domains": ["data"],
     "type": "concept",
     "level": "intermediate",
-    "prerequisites": [],
+    "prerequisites": ["linear-algebra"],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Linear Programming supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4144,7 +4522,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Integer Programming supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4174,7 +4552,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Simulation Modeling supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4204,7 +4582,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Monte Carlo Simulation supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4234,7 +4612,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Queueing Theory supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4264,7 +4642,7 @@
     "level": "advanced",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 32,
     "demand": "high",
     "trending": false,
     "description": "Optimization Modeling supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4294,7 +4672,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Stewardship supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4324,7 +4702,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Master Data Management supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4354,7 +4732,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Metadata Management supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4384,7 +4762,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Retention supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4414,7 +4792,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Classification supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4444,7 +4822,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Quality Rules supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4474,7 +4852,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Great Expectations supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4504,7 +4882,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Soda supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4534,7 +4912,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Observability supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4564,7 +4942,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Ownership supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4594,7 +4972,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Business Glossaries supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4624,7 +5002,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Statistical Process Control supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4654,7 +5032,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Access Policies supports the practical knowledge needed to communicate, govern and model complex evidence.",
@@ -4684,7 +5062,7 @@
     "level": "intermediate",
     "prerequisites": [],
     "related": [],
-    "estimatedHours": 12,
+    "estimatedHours": 16,
     "demand": "high",
     "trending": false,
     "description": "Data Reconciliation supports the practical knowledge needed to communicate, govern and model complex evidence.",

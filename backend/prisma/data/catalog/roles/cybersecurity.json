@@ -12,12 +12,7 @@
     "keywords": ["cybersecurity", "security-operations", "security", "analyst", "soc"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "siem",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "siem", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "incident-triage",
         "importance": "core",
@@ -54,12 +49,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "autopsy",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "autopsy", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "nessus",
         "importance": "nice-to-have",
@@ -80,10 +70,7 @@
       }
     ],
     "relatedRoles": ["cybersecurity-engineer", "threat-intelligence-analyst", "incident-responder"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Security Analyst (SOC): investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate SIEM, Incident Triage, Log Analysis in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -124,12 +111,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "soar",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "soar", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "microsoft-sentinel",
         "importance": "important",
@@ -154,12 +136,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "cvss",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "cvss", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "security-metrics",
         "importance": "nice-to-have",
@@ -168,10 +145,7 @@
       }
     ],
     "relatedRoles": ["security-analyst-soc", "threat-intelligence-analyst", "incident-responder"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Cybersecurity Engineer: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate Security Fundamentals, Networking, Threat Modeling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -194,12 +168,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "osint",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "osint", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "mitre-att-ck",
         "importance": "core",
@@ -250,10 +219,7 @@
       }
     ],
     "relatedRoles": ["security-analyst-soc", "cybersecurity-engineer", "incident-responder"],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Threat Intelligence Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate Threat Intelligence, OSINT, MITRE ATT&CK in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -336,10 +302,7 @@
       "cybersecurity-engineer",
       "threat-intelligence-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Incident Responder: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate Incident Containment, Incident Recovery, Security Playbooks in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -422,10 +385,7 @@
       "cybersecurity-engineer",
       "threat-intelligence-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Digital Forensics Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate Digital Forensics, Memory Forensics, Chain of Custody in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -448,12 +408,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "ghidra",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "ghidra", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "yara-rules",
         "importance": "core",
@@ -508,10 +463,7 @@
       "cybersecurity-engineer",
       "threat-intelligence-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Malware Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate Malware Analysis, Ghidra, YARA Rules in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -552,18 +504,8 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "splunk",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "wazuh",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "splunk", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "wazuh", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "indicators-of-compromise",
         "importance": "important",
@@ -594,10 +536,7 @@
       "cybersecurity-engineer",
       "threat-intelligence-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Vulnerability Management Analyst: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate Security Fundamentals, Networking, Threat Modeling in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -680,10 +619,7 @@
       "cybersecurity-engineer",
       "threat-intelligence-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": []
-    },
+    "careerPath": { "from": [], "to": [] },
     "project": "Detection Engineer: investigate a synthetic incident in an isolated lab and produce a defensible timeline and response report.",
     "checkpoint": "Demonstrate Detection Engineering, Sigma Rules, Threat Hunting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -772,10 +708,7 @@
       "cloud-security-engineer",
       "devsecops-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-architect"]
-    },
+    "careerPath": { "from": [], "to": ["security-architect"] },
     "project": "Penetration Tester: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
     "checkpoint": "Demonstrate Web Penetration Testing, Burp Suite, Penetration Test Reporting in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -792,12 +725,7 @@
     "keywords": ["cybersecurity", "security-engineering", "application", "security", "engineer"],
     "aliases": [],
     "skills": [
-      {
-        "skillId": "sast",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "sast", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "owasp-asvs",
         "importance": "core",
@@ -840,18 +768,8 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "dast",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "tls",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "dast", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
+      { "skillId": "tls", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "network-segmentation",
         "importance": "nice-to-have",
@@ -860,10 +778,7 @@
       }
     ],
     "relatedRoles": ["penetration-tester", "cloud-security-engineer", "devsecops-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["security-architect"]
-    },
+    "careerPath": { "from": [], "to": ["security-architect"] },
     "project": "Application Security Engineer: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
     "checkpoint": "Demonstrate SAST, OWASP ASVS, Dependency Security in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -948,10 +863,7 @@
       }
     ],
     "relatedRoles": ["penetration-tester", "application-security-engineer", "devsecops-engineer"],
-    "careerPath": {
-      "from": [],
-      "to": ["security-architect"]
-    },
+    "careerPath": { "from": [], "to": ["security-architect"] },
     "project": "Cloud Security Engineer: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
     "checkpoint": "Demonstrate Cloud Security Posture Management, Cloud Infrastructure Security, Key Management in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1022,12 +934,7 @@
         "requiredLevel": "beginner",
         "weight": 1
       },
-      {
-        "skillId": "scim",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "scim", "importance": "nice-to-have", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "ceh-certification",
         "importance": "nice-to-have",
@@ -1040,10 +947,7 @@
       "application-security-engineer",
       "cloud-security-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-architect"]
-    },
+    "careerPath": { "from": [], "to": ["security-architect"] },
     "project": "DevSecOps Engineer: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
     "checkpoint": "Demonstrate Software Composition Analysis, Secret Scanning, Container Security in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1126,10 +1030,7 @@
       "application-security-engineer",
       "cloud-security-engineer"
     ],
-    "careerPath": {
-      "from": ["penetration-tester", "application-security-engineer"],
-      "to": []
-    },
+    "careerPath": { "from": ["penetration-tester", "application-security-engineer"], "to": [] },
     "project": "Security Architect: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
     "checkpoint": "Demonstrate Security Fundamentals, Threat Modeling, Secure Coding in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1159,12 +1060,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "saml",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
+      { "skillId": "saml", "importance": "core", "requiredLevel": "intermediate", "weight": 3 },
       {
         "skillId": "identity-governance",
         "importance": "core",
@@ -1249,98 +1145,9 @@
       "application-security-engineer",
       "cloud-security-engineer"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-architect"]
-    },
+    "careerPath": { "from": [], "to": ["security-architect"] },
     "project": "Identity & Access Management Specialist: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
     "checkpoint": "Demonstrate OpenID Connect, SAML, Identity Governance in the project, justify decisions and document limitations without following a walkthrough."
-  },
-  {
-    "id": "security-tester",
-    "databaseId": "9c35ebe2-3b6a-4705-a6cb-a1cc85fa742d",
-    "name": "Security Tester",
-    "category": "cybersecurity",
-    "family": "security-engineering",
-    "description": "Design and verify secure systems with a focus on security tester practice.",
-    "experienceBand": "mid",
-    "trending": true,
-    "demand": "high",
-    "keywords": ["cybersecurity", "security-engineering", "security", "tester"],
-    "aliases": [],
-    "skills": [
-      {
-        "skillId": "security-fundamentals",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "threat-modeling",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "secure-coding",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "security-testing",
-        "importance": "core",
-        "requiredLevel": "intermediate",
-        "weight": 3
-      },
-      {
-        "skillId": "owasp-wstg",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "nmap",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "api-security-testing",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "secure-authentication",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "public-key-infrastructure",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
-      {
-        "skillId": "cryptographic-protocols",
-        "importance": "nice-to-have",
-        "requiredLevel": "beginner",
-        "weight": 1
-      }
-    ],
-    "relatedRoles": [
-      "penetration-tester",
-      "application-security-engineer",
-      "cloud-security-engineer"
-    ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-architect"]
-    },
-    "project": "Security Tester: assess an intentionally vulnerable lab with written authorization, fix findings and verify the controls.",
-    "checkpoint": "Demonstrate Security Fundamentals, Threat Modeling, Secure Coding in the project, justify decisions and document limitations without following a walkthrough."
   },
   {
     "id": "grc-compliance-analyst",
@@ -1427,10 +1234,7 @@
       "security-compliance-manager",
       "third-party-risk-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-compliance-manager"]
-    },
+    "careerPath": { "from": [], "to": ["security-compliance-manager"] },
     "project": "GRC / Compliance Analyst: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
     "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1525,10 +1329,7 @@
       "security-compliance-manager",
       "third-party-risk-analyst"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-compliance-manager"]
-    },
+    "careerPath": { "from": [], "to": ["security-compliance-manager"] },
     "project": "Privacy / Data Protection Officer: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
     "checkpoint": "Demonstrate Data Protection Impact Assessment, Privacy Notices, Data Subject Rights in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1667,12 +1468,7 @@
         "requiredLevel": "intermediate",
         "weight": 3
       },
-      {
-        "skillId": "soc-2",
-        "importance": "important",
-        "requiredLevel": "beginner",
-        "weight": 1
-      },
+      { "skillId": "soc-2", "importance": "important", "requiredLevel": "beginner", "weight": 1 },
       {
         "skillId": "risk-treatment",
         "importance": "important",
@@ -1709,10 +1505,7 @@
       "privacy-data-protection-officer",
       "security-compliance-manager"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-compliance-manager"]
-    },
+    "careerPath": { "from": [], "to": ["security-compliance-manager"] },
     "project": "Third-party Risk Analyst: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
     "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1801,10 +1594,7 @@
       "privacy-data-protection-officer",
       "security-compliance-manager"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-compliance-manager"]
-    },
+    "careerPath": { "from": [], "to": ["security-compliance-manager"] },
     "project": "Technology Risk Analyst: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
     "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
   },
@@ -1893,10 +1683,7 @@
       "privacy-data-protection-officer",
       "security-compliance-manager"
     ],
-    "careerPath": {
-      "from": [],
-      "to": ["security-compliance-manager"]
-    },
+    "careerPath": { "from": [], "to": ["security-compliance-manager"] },
     "project": "Privacy Engineer: produce a risk register, control evidence pack and privacy assessment for a fictional service.",
     "checkpoint": "Demonstrate Risk Assessment, Policy Writing, Control Testing in the project, justify decisions and document limitations without following a walkthrough."
   }
