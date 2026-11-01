@@ -17,5 +17,7 @@ export function getDatabase(): PrismaClient | undefined {
 }
 
 export async function disconnectDatabase() {
-  await client?.$disconnect();
+  const previous = client;
+  client = undefined;
+  await previous?.$disconnect();
 }

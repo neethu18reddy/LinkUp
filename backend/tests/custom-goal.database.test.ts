@@ -40,7 +40,7 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
         const roles = (await get('/roles')).body.data.roles;
         const input =
           kind === 'custom'
-            ? { kind: 'CUSTOM', targetRole: 'Learn photography' }
+            ? { kind: 'CUSTOM', targetRole: 'Learn family archive restoration' }
             : {
                 kind: 'ROLE',
                 roleId: roles.find((role: { slug: string }) => role.slug === 'data-engineer').id,

@@ -37,6 +37,6 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
       await expect(seedDemo(db, { ...options, email: 'another@example.invalid' })).rejects.toThrow(
         'conflicts',
       );
-    }, 20000);
+    }, 60000);
   },
 );

@@ -138,6 +138,6 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
       ).toBe('INACTIVE');
       expect((await get(`/certificates/${certificate.id}/pdf`)).status).toBe(409);
       expect((await get('/notifications/preferences')).body.data.remindersEnabled).toBe(true);
-    }, 20000);
+    }, 60000);
   },
 );

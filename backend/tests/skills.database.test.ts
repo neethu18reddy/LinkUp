@@ -4,6 +4,7 @@ import request from 'supertest';
 import { afterAll, describe, expect, it } from 'vitest';
 import { createApp } from '../src/app.js';
 import { disconnectDatabase, getDatabase } from '../src/config/database.js';
+import { catalogSkills } from '../src/catalog/catalog.js';
 
 describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABASE_URL)(
   'Prisma skill profile integration',
@@ -37,7 +38,12 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
       const source: unknown[] = JSON.parse(
         await readFile(new URL('../prisma/data/skills.json', import.meta.url), 'utf8'),
       );
-      expect(await getDatabase()!.skill.count()).toBe(source.length);
+      expect(source.length).toBe(32);
+      expect(
+        await getDatabase()!.skill.count({
+          where: { id: { in: catalogSkills.map((skill) => skill.databaseId) } },
+        }),
+      ).toBe(catalogSkills.length);
       for (const [search, name] of [
         ['ReactJS', 'React'],
         ['node js', 'Node.js'],

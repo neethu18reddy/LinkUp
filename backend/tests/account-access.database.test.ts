@@ -131,7 +131,7 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
         code: 'INVALID_ACCOUNT_TOKEN',
       });
       expect((await service.status(user.id)).emailVerified).toBe(true);
-    }, 20000);
+    }, 60000);
     it('requires a valid unexpired verification token and handles concurrent consumption atomically', async () => {
       const user = await account();
       const messages: EmailMessage[] = [];

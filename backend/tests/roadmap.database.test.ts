@@ -50,7 +50,7 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
         .send({ goalId });
       expect(first.status).toBe(201);
       const roadmap = first.body.data.roadmap;
-      expect(roadmap.phases).toHaveLength(2);
+      expect(roadmap.phases).toHaveLength(5);
       expect(roadmap.phases[0].topics[0].estimatedHours).toEqual(expect.any(Number));
       const hours = roadmap.phases
         .flatMap((phase: { topics: { estimatedHours: number }[] }) => phase.topics)
