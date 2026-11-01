@@ -55,6 +55,8 @@ import { configuredMentorProvider } from './ai/mentor.groq.js';
 import { fileURLToPath } from 'node:url';
 import { documentationRoutes } from './docs/docs.routes.js';
 import { serveWeb } from './web.js';
+import { catalogRoutes } from './catalog/catalog.routes.js';
+import { onboardingRoutes } from './catalog/catalog.onboarding.js';
 import { WeeklyJob } from './jobs/weekly.js';
 import { dailyRoutes } from './jobs/daily.routes.js';
 import { PrismaNotificationRepository } from './modules/notifications/notifications.repository.js';
@@ -182,6 +184,18 @@ export function createApp(
     planRoutes(new PlanService(options.planRepository ?? new PrismaPlanRepository()), authService),
   );
   const rolesService = new RolesService(options.rolesRepository ?? new PrismaRolesRepository());
+  app.use(
+    '/api/v1',
+    onboardingRoutes(
+      authService,
+      options.skillsRepository ?? new PrismaSkillsRepository(),
+      options.quizRepository ?? new PrismaQuizRepository(),
+    ),
+  );
+  app.use(
+    '/api/v1',
+    catalogRoutes(authService, options.skillsRepository ?? new PrismaSkillsRepository()),
+  );
   app.use(
     '/api/v1',
     roadmapRoutes(

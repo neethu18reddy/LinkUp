@@ -1,4 +1,7 @@
 import { Router } from 'express';
+import { z } from 'zod';
+import { asyncHandler } from '../../utils/asyncHandler.js';
+import { success } from '../../utils/response.js';
 import { requireAuth } from '../../middleware/requireAuth.js';
 import { validate } from '../../middleware/validate.js';
 import type { AuthService } from '../auth/auth.service.js';
@@ -21,6 +24,27 @@ export function skillsRoutes(service: SkillsService, auth: AuthService) {
     next();
   });
   router.get('/me/skills', validate(emptyQuerySchema, 'query'), controller.profile);
+  router.post(
+    '/me/skills/custom',
+    validate(
+      z.strictObject({
+        name: z
+          .string()
+          .trim()
+          .min(2)
+          .max(100)
+          .regex(/^[\p{L}\p{N}][\p{L}\p{N} +#./&()'-]*$/u),
+        level: z.enum(['BEGINNER', 'INTERMEDIATE', 'ADVANCED']),
+      }),
+    ),
+    asyncHandler(async (req, res) => {
+      res.status(201).json(
+        success({
+          skill: await service.custom(req.auth!.user.id, req.body.name, req.body.level),
+        }),
+      );
+    }),
+  );
   router.post(
     '/me/skills',
     validate(emptyQuerySchema, 'query'),

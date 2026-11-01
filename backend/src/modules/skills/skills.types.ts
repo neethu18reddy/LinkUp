@@ -13,6 +13,7 @@ export interface ProfileSkill {
   skill: CatalogueSkill;
 }
 export interface SkillsRepository {
+  addCustom?(userId: string, name: string, level: Proficiency): Promise<ProfileSkill>;
   listCatalogue(search: string): Promise<CatalogueSkill[]>;
   findSkill(id: string): Promise<CatalogueSkill | null>;
   listProfile(userId: string): Promise<ProfileSkill[]>;

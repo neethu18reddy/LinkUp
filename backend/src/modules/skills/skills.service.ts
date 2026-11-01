@@ -10,6 +10,11 @@ export class SkillsService {
   profile(userId: string) {
     return this.repository.listProfile(userId);
   }
+  custom(userId: string, name: string, level: Proficiency) {
+    if (!this.repository.addCustom)
+      throw new AppError(503, 'CUSTOM_SKILLS_UNAVAILABLE', 'Custom skills are unavailable.');
+    return this.repository.addCustom(userId, name, level);
+  }
   async add(userId: string, skillId: string, level: Proficiency) {
     if (!(await this.repository.findSkill(skillId)))
       throw new AppError(
