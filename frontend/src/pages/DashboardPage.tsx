@@ -10,6 +10,10 @@ import { AccountAccessCard } from '@/features/auth/AccountAccessCard';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FadeIn } from '@/components/ui/animated-container';
+import { lazy, Suspense } from 'react';
+const StudioOverview = lazy(() =>
+  import('@/features/studio/StudioOverview').then((module) => ({ default: module.StudioOverview })),
+);
 
 export function DashboardPage() {
   const reducedMotion = useReducedMotion();
@@ -32,6 +36,9 @@ export function DashboardPage() {
         <FadeIn delay={0.1}>
           <DashboardProgress />
         </FadeIn>
+        <Suspense fallback={<p role="status">Loading your learning space…</p>}>
+          <StudioOverview />
+        </Suspense>
 
         <FadeIn delay={0.2}>
           <motion.details

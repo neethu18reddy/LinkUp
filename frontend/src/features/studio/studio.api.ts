@@ -9,6 +9,7 @@ export const skillProgressSchema = z.object({
       source: z.string(),
       manualComplete: z.boolean(),
       beforeTracking: z.boolean(),
+      skill: z.object({ name: z.string() }).optional(),
     }),
   ),
   links: z.array(
@@ -38,6 +39,7 @@ const itemProgress = z.object({
   watchedSec: z.number(),
   contentWatchedSec: z.number(),
   lastPositionSec: z.number(),
+  completedBy: z.string().nullable().optional(),
 });
 export const studioItemSchema = z.object({
   id: z.string(),
@@ -69,6 +71,7 @@ const resourceSummary = z.object({
   done: z.number(),
 });
 export const studioResourceSchema = resourceSummary.extend({
+  targetRoleId: z.string().nullable().optional(),
   version: z.number(),
   percent: z.number(),
   sections: z.array(
@@ -146,6 +149,7 @@ export const snippetSchema = z.object({
 });
 export type StudioSnippet = z.infer<typeof snippetSchema>;
 export const analyticsSchema = z.object({
+  nextRolloverAt: z.string().optional(),
   today: z.string(),
   timezone: z.string(),
   daily: z.array(
@@ -193,6 +197,17 @@ export const analyticsSchema = z.object({
     }),
   ),
   legacy: z.object({ minutes: z.number(), notice: z.string() }),
+  history: z
+    .array(
+      z.object({
+        skillId: z.string(),
+        name: z.string(),
+        status: z.string(),
+        occurredAt: z.string().nullable(),
+        beforeTracking: z.boolean(),
+      }),
+    )
+    .default([]),
   sections: z.array(
     z.object({ id: z.string(), title: z.string(), done: z.number(), total: z.number() }),
   ),

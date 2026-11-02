@@ -151,6 +151,22 @@
 .journey-stage.complete {
   border-left-color: #287351;
 }
+.journey-stage.complete .journey-stage-number {
+  background: #e2f1e7;
+  color: #226344;
+  animation: studio-small-win 0.5s ease-out;
+}
+@keyframes studio-small-win {
+  0% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .journey-stage > summary {
   display: flex;
   gap: 15px;
@@ -524,6 +540,7 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .journey-stage,
+  .journey-stage *,
   .studio-study * {
     scroll-behavior: auto !important;
     animation: none !important;

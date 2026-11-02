@@ -40,6 +40,15 @@ const DashboardPage = lazy(() =>
 const ChatPage = lazy(() =>
   import('./pages/ChatPage').then((module) => ({ default: module.ChatPage })),
 );
+const StudioPage = lazy(() =>
+  import('./pages/StudioPage').then((module) => ({ default: module.StudioPage })),
+);
+const StudioStudyPage = lazy(() =>
+  import('./pages/StudioStudyPage').then((module) => ({ default: module.StudioStudyPage })),
+);
+const StudioTrackerPage = lazy(() =>
+  import('./pages/StudioTrackerPage').then((module) => ({ default: module.StudioTrackerPage })),
+);
 
 export function App() {
   return (
@@ -126,6 +135,30 @@ export function App() {
           element={
             <Suspense fallback={<main role="status">Loading learning history…</main>}>
               <ProgressPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/studio"
+          element={
+            <Suspense fallback={<main role="status">Opening Learning Studio…</main>}>
+              <StudioPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/studio/:id/study"
+          element={
+            <Suspense fallback={<main role="status">Opening your study space…</main>}>
+              <StudioStudyPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/studio/:id"
+          element={
+            <Suspense fallback={<main role="status">Opening your learning tracker…</main>}>
+              <StudioTrackerPage />
             </Suspense>
           }
         />

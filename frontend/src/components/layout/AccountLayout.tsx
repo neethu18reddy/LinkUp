@@ -27,6 +27,7 @@ const navItems = [
   ['/goals', 'My goals', Target],
   ['/roles', 'Explore careers', Target],
   ['/roadmap', 'Roadmap', Route],
+  ['/studio', 'Learning Studio', BookOpen],
   ['/plan', 'Weekly plan', CalendarDays],
   ['/progress', 'Learning logs', BookOpen],
   ['/mentor', 'Mentor', MessageCircle],
