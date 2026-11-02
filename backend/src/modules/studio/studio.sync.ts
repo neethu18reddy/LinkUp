@@ -10,6 +10,7 @@ export async function projectSkill(
   userId: string,
   skillId: string,
   status: SkillProgressStatus,
+  onlyUnfinished = false,
 ) {
   const roadmap = await tx.roadmap.findFirst({
     where: { userId, goal: { status: 'ACTIVE' }, status: { not: 'ARCHIVED' } },
@@ -18,17 +19,29 @@ export async function projectSkill(
   });
   if (!roadmap) return;
   const topics = await tx.topic.findMany({
-    where: { skillId, isProject: false, phase: { roadmapId: roadmap.id } },
+    where: {
+      skillId,
+      isProject: false,
+      phase: { roadmapId: roadmap.id },
+      ...(onlyUnfinished ? { status: { not: 'DONE' as const } } : {}),
+    },
   });
   const done = status === 'DONE' || status === 'SKIPPED';
   const mapped = done ? 'DONE' : status === 'IN_PROGRESS' ? 'IN_PROGRESS' : 'TODO';
   const completedAt = done ? new Date() : null;
   await tx.topic.updateMany({
-    where: { id: { in: topics.map((t) => t.id) } },
+    where: {
+      id: { in: topics.map((t) => t.id) },
+      ...(done ? { status: { not: 'DONE' as const } } : {}),
+    },
     data: { status: mapped, completedAt },
   });
   await tx.planItem.updateMany({
-    where: { topicId: { in: topics.map((t) => t.id) }, planWeek: { plan: { isActive: true } } },
+    where: {
+      topicId: { in: topics.map((t) => t.id) },
+      planWeek: { plan: { isActive: true } },
+      ...(done ? { status: { not: 'DONE' as const } } : {}),
+    },
     data: { status: mapped, completedAt },
   });
   if (done && topics.length) {
@@ -81,8 +94,10 @@ export async function writeSkillProgress(
   const previous = await tx.userSkillProgress.findUnique({
     where: { userId_skillId: { userId, skillId } },
   });
-  if (source === 'RESOURCE' && (previous?.manualComplete || previous?.status === 'SKIPPED'))
+  if (source === 'RESOURCE' && previous?.manualComplete) {
+    if (project) await projectSkill(tx, userId, skillId, status, true);
     return previous;
+  }
   const data = {
     status,
     source,
@@ -96,6 +111,21 @@ export async function writeSkillProgress(
     create: { userId, skillId, ...data },
     update: data,
   });
+  if (
+    !previous ||
+    previous.status !== status ||
+    previous.percent !== percent ||
+    previous.source !== source
+  )
+    await tx.skillProgressEvent.create({
+      data: { userId, skillId, status, source, percent, occurredAt: new Date() },
+    });
+  if (status === 'DONE')
+    await tx.userSkill.upsert({
+      where: { userId_skillId: { userId, skillId } },
+      create: { userId, skillId, level: 'BEGINNER' },
+      update: {},
+    });
   if (project) await projectSkill(tx, userId, skillId, status);
   return row;
 }
@@ -118,7 +148,7 @@ export async function syncResourceSkills(
     const status =
       percent === 100 && !settings?.confirmSkillCompletion
         ? 'DONE'
-        : percent > 0
+        : percent > 0 || items.some((item) => item.progress[0]?.status === 'in_progress')
           ? 'IN_PROGRESS'
           : 'NOT_STARTED';
     await writeSkillProgress(tx, userId, skillId, status, 'RESOURCE', percent);

@@ -69,12 +69,18 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
       expect(progress.status).toBe('DONE');
       expect(progress.completedAt).toEqual(completedAt);
       expect(
+        await db().skillProgressEvent.count({ where: { userId, skillId, legacy: true } }),
+      ).toBe(1);
+      expect(
         await db().topic.findUnique({ where: { id: roadmap.phases[0]!.topics[0]!.id } }),
       ).toMatchObject({ status: 'DONE', completedAt });
       await studioTransaction((tx) =>
         writeSkillProgress(tx, userId, skillId, 'NOT_STARTED', 'MANUAL', 0),
       );
       await backfill();
+      expect(
+        await db().skillProgressEvent.findFirst({ where: { userId, skillId, legacy: true } }),
+      ).toMatchObject({ occurredAt: completedAt, status: 'DONE' });
       expect(
         await db().userSkillProgress.findUniqueOrThrow({
           where: { userId_skillId: { userId, skillId } },
@@ -91,6 +97,55 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
           where: { userId_skillId: { userId, skillId } },
         }),
       ).toMatchObject({ status: 'DONE', manualComplete: true, percent: 100 });
+      const originalTopicId = roadmap.phases[0]!.topics[0]!.id;
+      const originalTopic = await db().topic.findUniqueOrThrow({ where: { id: originalTopicId } });
+      const advanced = await db().roadmap.create({
+        data: {
+          userId,
+          goalId: goal.id,
+          version: 2,
+          title: 'Advanced review',
+          status: 'ACTIVE',
+          totalEstimatedHours: 10,
+          phases: {
+            create: {
+              order: 0,
+              title: 'Advanced stage',
+              description: 'A higher target',
+              topics: {
+                create: {
+                  skillId,
+                  order: 0,
+                  title: 'Advanced React',
+                  estimatedHours: 10,
+                  difficulty: 'ADVANCED',
+                },
+              },
+            },
+          },
+        },
+        include: { phases: { include: { topics: true } } },
+      });
+      const advancedId = advanced.phases[0]!.topics[0]!.id;
+      await studioTransaction((tx) =>
+        writeSkillProgress(tx, userId, skillId, 'IN_PROGRESS', 'RESOURCE', 50),
+      );
+      expect(await db().topic.findUniqueOrThrow({ where: { id: advancedId } })).toMatchObject({
+        status: 'IN_PROGRESS',
+      });
+      expect(await db().topic.findUniqueOrThrow({ where: { id: originalTopicId } })).toMatchObject({
+        status: 'DONE',
+        completedAt: originalTopic.completedAt,
+      });
+      await studioTransaction((tx) =>
+        writeSkillProgress(tx, userId, skillId, 'DONE', 'RESOURCE', 100),
+      );
+      expect(await db().topic.findUniqueOrThrow({ where: { id: advancedId } })).toMatchObject({
+        status: 'DONE',
+      });
+      expect(
+        await db().userSkill.findUniqueOrThrow({ where: { userId_skillId: { userId, skillId } } }),
+      ).toMatchObject({ level: 'ADVANCED' });
     });
   },
 );

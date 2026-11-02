@@ -109,6 +109,7 @@ model User {
   studioWatchLease   WatchLease?
   studioItemProgress ItemProgress[]
   studioActivities   StudioActivity[]
+  skillProgressEvents SkillProgressEvent[]
 }
 
 model AccountIdentity {
@@ -164,6 +165,7 @@ model Skill {
   topics           Topic[]
   progress         UserSkillProgress[]
   studioSections   StudioSectionSkill[]
+  progressEvents   SkillProgressEvent[]
 
   @@index([category])
 }
@@ -190,6 +192,7 @@ model RoleTemplate {
   updatedAt       DateTime          @updatedAt
   requirements    RoleRequirement[]
   goals           Goal[]
+  studioResources StudioResource[]
 }
 
 model RoleRequirement {
@@ -501,6 +504,7 @@ model StudioResource {
   importedAt       DateTime @default(now())
   updatedAt        DateTime @updatedAt
   targetRoleId     String? @db.Uuid
+  targetRole       RoleTemplate? @relation(fields: [targetRoleId], references: [id], onDelete: SetNull)
   version          Int @default(1)
   user             User @relation(fields: [userId], references: [id], onDelete: Cascade)
   sections         StudioSection[]
@@ -557,6 +561,7 @@ model ResourceItem {
   snippets         CodeSnippet[]
   watchEvents      WatchEvent[]
   watchSessions    WatchSession[]
+  activities       StudioActivity[]
   @@unique([resourceId, order])
   @@index([sectionId])
 }
@@ -587,6 +592,7 @@ model WatchSession {
   contentSec  Float @default(0)
   user        User @relation(fields: [userId], references: [id], onDelete: Cascade)
   item        ResourceItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  leases      WatchLease[]
   @@index([userId, lastAt])
 }
 
@@ -595,6 +601,7 @@ model WatchLease {
   sessionId String @db.Uuid
   expiresAt DateTime
   user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  session   WatchSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
 }
 
 model WatchEvent {
@@ -628,6 +635,7 @@ model StudioActivity {
   createdAt  DateTime @default(now())
   user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
   resource   StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  item       ResourceItem? @relation(fields: [itemId], references: [id], onDelete: SetNull)
   @@index([resourceId, createdAt])
 }
 
@@ -725,4 +733,18 @@ model StudioPlaylistCache {
   externalId String @id @db.VarChar(200)
   payload    Json
   expiresAt  DateTime
+}
+
+model SkillProgressEvent {
+  id         String @id @default(uuid()) @db.Uuid
+  userId     String @db.Uuid
+  skillId    String @db.Uuid
+  status     SkillProgressStatus
+  source     SkillProgressSource
+  percent    Float
+  occurredAt DateTime?
+  legacy     Boolean @default(false)
+  user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skill      Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  @@index([userId, occurredAt])
 }
