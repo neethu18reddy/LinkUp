@@ -13,6 +13,22 @@ const multipliers = { core: 3, important: 2, 'nice-to-have': 1 };
 export interface KnownSkill {
   skillId: string;
   level: keyof typeof levels;
+  percent?: number;
+}
+export function mergeLearningProfile(
+  profile: KnownSkill[],
+  progress: { skillId: string; status: string; percent: number }[],
+): KnownSkill[] {
+  return [
+    ...profile,
+    ...progress
+      .filter((row) => row.status === 'DONE' || (row.status === 'IN_PROGRESS' && row.percent > 0))
+      .map((row) => ({
+        skillId: row.skillId,
+        level: 'BEGINNER' as const,
+        percent: row.status === 'DONE' ? 100 : row.percent,
+      })),
+  ];
 }
 export function scoreRole(role: CatalogRole, known: Map<string, number>) {
   let earned = 0,
@@ -47,7 +63,10 @@ export function rankRoles(profile: KnownSkill[], interests: string[] = [], roles
   const known = new Map<string, number>();
   for (const row of profile) {
     const skill = skillsByDatabaseId.get(row.skillId) ?? skillsById.get(row.skillId);
-    if (skill) known.set(skill.id, Math.max(known.get(skill.id) ?? 0, levels[row.level]));
+    if (skill) {
+      const amount = levels[row.level] * Math.max(0, Math.min(1, (row.percent ?? 100) / 100));
+      if (amount > 0) known.set(skill.id, Math.max(known.get(skill.id) ?? 0, amount));
+    }
   }
   const demand = { high: 3, medium: 2, low: 1 };
   const ranked = roles

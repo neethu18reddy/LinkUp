@@ -2,7 +2,8 @@ import { readFileSync } from 'node:fs';
 import { z } from 'zod';
 import { Router } from 'express';
 import { catalogSkills, catalogRoles } from './catalog.js';
-import { rankRoles } from './catalog.matching.js';
+import { rankRoles, mergeLearningProfile } from './catalog.matching.js';
+import { studioDb } from '../modules/studio/studio.db.js';
 import { requireAuth } from '../middleware/requireAuth.js';
 import { validate } from '../middleware/validate.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
@@ -98,7 +99,13 @@ export function onboardingRoutes(
         }
       }
       const ranked = rankRoles(
-        profile,
+        mergeLearningProfile(
+          profile,
+          await studioDb().userSkillProgress.findMany({
+            where: { userId: req.auth!.user.id },
+            select: { skillId: true, status: true, percent: true },
+          }),
+        ),
         [interest],
         catalogRoles.filter((role) => role.category === interest),
       );

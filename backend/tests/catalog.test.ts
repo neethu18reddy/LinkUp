@@ -7,7 +7,7 @@ import {
   searchCatalogSkills,
   categories,
 } from '../src/catalog/catalog.js';
-import { scoreRole, rankRoles } from '../src/catalog/catalog.matching.js';
+import { scoreRole, rankRoles, mergeLearningProfile } from '../src/catalog/catalog.matching.js';
 import { buildCatalogRoadmap } from '../src/catalog/catalog.roadmaps.js';
 import { catalogRoadmapSchema } from '../src/catalog/catalog.schemas.js';
 import { analyzeGaps } from '../src/modules/roadmap/roadmap.gaps.js';
@@ -16,6 +16,26 @@ import { roadmapDraftSchema } from '../src/modules/roadmap/roadmap.schemas.js';
 import type { CareerRole } from '../src/modules/roles/roles.types.js';
 
 describe('expanded catalog', () => {
+  it('adds partial resource learning without downgrading stated proficiency', () => {
+    const profile = mergeLearningProfile(
+      [{ skillId: 'python', level: 'ADVANCED' }],
+      [
+        { skillId: 'python', status: 'IN_PROGRESS', percent: 20 },
+        { skillId: 'sql', status: 'IN_PROGRESS', percent: 50 },
+      ],
+    );
+    expect(rankRoles(profile)).toEqual(
+      rankRoles([...profile, { skillId: 'python', level: 'ADVANCED' }]),
+    );
+    expect(
+      rankRoles(
+        mergeLearningProfile([], [{ skillId: 'python', status: 'IN_PROGRESS', percent: 50 }]),
+      ).recommendations.some((role) => role.matchPercent > 0),
+    ).toBe(true);
+    expect(
+      mergeLearningProfile([], [{ skillId: 'python', status: 'SKIPPED', percent: 100 }]),
+    ).toEqual([]);
+  });
   it('includes common transferable foundations and canonical tool aliases', () => {
     for (const id of [
       'collaboration',

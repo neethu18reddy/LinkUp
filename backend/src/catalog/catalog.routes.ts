@@ -9,7 +9,8 @@ import {
   searchCatalogSkills,
 } from './catalog.js';
 import { buildCatalogRoadmap } from './catalog.roadmaps.js';
-import { rankRoles } from './catalog.matching.js';
+import { rankRoles, mergeLearningProfile } from './catalog.matching.js';
+import { studioDb } from '../modules/studio/studio.db.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
 import { AppError } from '../utils/AppError.js';
 import { success } from '../utils/response.js';
@@ -138,16 +139,20 @@ export function catalogRoutes(auth: AuthService, skills: SkillsRepository) {
     validate(z.strictObject({ interests: z.string().max(300).default('') }), 'query'),
     asyncHandler(async (req, res) => {
       const query = z.strictObject({ interests: z.string().max(300).default('') }).parse(req.query);
-      res
-        .set('Cache-Control', 'no-store')
-        .json(
-          success(
-            rankRoles(
+      res.set('Cache-Control', 'no-store').json(
+        success(
+          rankRoles(
+            mergeLearningProfile(
               await skills.listProfile(req.auth!.user.id),
-              query.interests.split(',').filter(Boolean),
+              await studioDb().userSkillProgress.findMany({
+                where: { userId: req.auth!.user.id },
+                select: { skillId: true, status: true, percent: true },
+              }),
             ),
+            query.interests.split(',').filter(Boolean),
           ),
-        );
+        ),
+      );
     }),
   );
   return router;

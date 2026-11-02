@@ -9,6 +9,7 @@ import { getCareer } from '@/features/goals/career.api';
 import { getCurrentGoal, saveGoal, goalKeys } from '@/features/goals/goals.api';
 import { getProfileSkills, skillKeys } from '@/features/skills/skills.api';
 import { requestError } from '@/lib/http';
+import { getSkillProgress, studioKeys } from '@/features/studio/studio.api';
 
 const levels = {
   beginner: 1,
@@ -25,6 +26,7 @@ export function CareerDetailPage() {
   const [confirming, setConfirming] = useState(false);
   const query = useQuery({ queryKey: ['career-detail', slug], queryFn: () => getCareer(slug) });
   const profile = useQuery({ queryKey: skillKeys.profile, queryFn: getProfileSkills });
+  const learning = useQuery({ queryKey: studioKeys.progress, queryFn: getSkillProgress });
   const current = useQuery({ queryKey: goalKeys.current, queryFn: getCurrentGoal });
   const save = useMutation({
     mutationFn: saveGoal,
@@ -40,7 +42,13 @@ export function CareerDetailPage() {
     },
   });
   const data = query.data;
-  const known = new Map(profile.data?.map((skill) => [skill.skillId, levels[skill.level]]));
+  const known = new Map<string, number>(
+    profile.data?.map((skill) => [skill.skillId, levels[skill.level]]),
+  );
+  for (const row of learning.data?.progress ?? []) {
+    const amount = row.status === 'DONE' ? 1 : row.status === 'IN_PROGRESS' ? row.percent / 100 : 0;
+    if (amount > 0) known.set(row.skillId, Math.max(known.get(row.skillId) ?? 0, amount));
+  }
   const canonicalKnown = new Set(
     profile.data?.map((entry) =>
       entry.skill.name
@@ -52,6 +60,16 @@ export function CareerDetailPage() {
     ),
   );
   const importance: Record<string, number> = { core: 3, important: 2, 'nice-to-have': 1 };
+  for (const row of learning.data?.progress ?? [])
+    if ((row.status === 'DONE' || row.percent > 0) && row.status !== 'SKIPPED' && row.skill)
+      canonicalKnown.add(
+        row.skill.name
+          .toLowerCase()
+          .replace(/\+/g, 'plus')
+          .replace(/#/g, 'sharp')
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, ''),
+      );
   const total =
     data?.role.skills.reduce(
       (sum, row) => sum + row.weight * (importance[row.importance] ?? 1),

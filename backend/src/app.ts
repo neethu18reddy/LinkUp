@@ -57,6 +57,7 @@ import { documentationRoutes } from './docs/docs.routes.js';
 import { serveWeb } from './web.js';
 import { catalogRoutes } from './catalog/catalog.routes.js';
 import { onboardingRoutes } from './catalog/catalog.onboarding.js';
+import { studioRoutes } from './modules/studio/studio.routes.js';
 import { WeeklyJob } from './jobs/weekly.js';
 import { dailyRoutes } from './jobs/daily.routes.js';
 import { PrismaNotificationRepository } from './modules/notifications/notifications.repository.js';
@@ -92,7 +93,27 @@ export function createApp(
   const app = express();
   app.disable('x-powered-by');
   if (env.TRUST_PROXY_HOPS) app.set('trust proxy', env.TRUST_PROXY_HOPS);
-  app.use(helmet());
+  app.use(
+    helmet({
+      referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
+      contentSecurityPolicy: {
+        directives: {
+          frameSrc: ["'self'", 'https://www.youtube.com', 'https://www.youtube-nocookie.com'],
+          scriptSrc: ["'self'", 'https://www.youtube.com', 'https://s.ytimg.com'],
+          imgSrc: ["'self'", 'data:', 'https://i.ytimg.com'],
+          upgradeInsecureRequests: env.NODE_ENV === 'production' ? [] : null,
+        },
+      },
+    }),
+  );
+  app.use('/studio-runner.html', (_req, res, next) => {
+    res.set(
+      'Content-Security-Policy',
+      "sandbox allow-scripts; default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net/pyodide/v0.27.7/full/ blob:; worker-src blob:; connect-src https://cdn.jsdelivr.net/pyodide/v0.27.7/full/; img-src data: blob:; style-src 'unsafe-inline'; frame-src blob:; form-action 'none'; base-uri 'none'; frame-ancestors 'self'",
+    );
+    res.set('X-Frame-Options', 'SAMEORIGIN');
+    next();
+  });
   app.use(
     cors({
       credentials: true,
@@ -133,6 +154,8 @@ export function createApp(
           .json(failure('RATE_LIMITED', 'Too many requests. Please try again shortly.')),
     }),
   );
+  app.use(['/api/v1/resources'], express.json({ limit: '2mb' }));
+  app.use(['/api/v1/snippets', '/api/v1/notes'], express.json({ limit: '128kb' }));
   app.use(express.json({ limit: '32kb' }));
   app.use(cookieParser());
   app.use('/api', documentationRoutes());
@@ -143,6 +166,7 @@ export function createApp(
   app.use('/api/v1/auth', authRoutes(authService));
   app.use('/api/v1', accountRoutes(authService));
   app.use('/api/v1', dailyRoutes());
+  app.use('/api/v1', studioRoutes(authService));
   const notifications = options.notificationRepository ?? new PrismaNotificationRepository();
   app.use(
     '/api/v1',

@@ -6,7 +6,8 @@ import { z } from 'zod';
 import { Button } from '@/components/ui/button';
 import { currentRoadmapSchema } from './roadmap.api';
 import { TopicCompletion } from './TopicCompletion';
-import { getSkillProgress, studioKeys } from '@/features/studio/studio.api';
+import { getSkillProgress, getAnalytics, studioKeys } from '@/features/studio/studio.api';
+import { useStudioSettings } from '@/features/studio/useStudioSettings';
 import '@/features/studio/studio.css';
 
 type Current = z.infer<typeof currentRoadmapSchema>;
@@ -14,17 +15,30 @@ export function RoadmapJourney({ data }: { data: Current }) {
   const [focus, setFocus] = useState(false),
     [week, setWeek] = useState(false);
   const shared = useQuery({ queryKey: studioKeys.progress, queryFn: getSkillProgress });
+  const preferences = useStudioSettings();
+  const overview = useQuery({
+    queryKey: studioKeys.overview,
+    queryFn: () => getAnalytics(undefined, 7),
+    enabled: preferences.ready,
+  });
   const roadmap = data.roadmap!;
   const states = new Map(shared.data?.progress.map((row) => [row.skillId, row]));
   const topics = roadmap.phases.flatMap((phase) => phase.topics);
+  const scheduledSkills = new Set(
+    topics.flatMap((topic) => (topic.skillId ? [topic.skillId] : [])),
+  );
+  const startingStrengths = data.analysis.strengths.filter(
+    (skill) => !scheduledSkills.has(skill.skillId),
+  );
   const state = (topic: (typeof topics)[number]) => {
     const progress = topic.skillId ? states.get(topic.skillId) : undefined;
     if (
       progress?.status === 'SKIPPED' &&
-      data.analysis.strengths.some((row) => row.skillId === topic.skillId)
+      startingStrengths.some((row) => row.skillId === topic.skillId)
     )
       return 'Skipped';
-    if (topic.status === 'DONE' || progress?.status === 'DONE') return 'Done';
+    // The topic projects shared progress at this goal's required proficiency.
+    if (topic.status === 'DONE') return 'Done';
     return topic.status === 'IN_PROGRESS' || progress?.status === 'IN_PROGRESS'
       ? 'In progress'
       : 'Later';
@@ -47,6 +61,7 @@ export function RoadmapJourney({ data }: { data: Current }) {
       .map((topic) => topic.id),
   );
   const learnLink = (topic: (typeof topics)[number]) => {
+    if (topic.isProject) return '/progress';
     const linked = shared.data?.links.find(
       (link) => link.skillId === topic.skillId && link.done < link.total,
     );
@@ -75,6 +90,12 @@ export function RoadmapJourney({ data }: { data: Current }) {
           <h2>{roadmap.title}</h2>
           <p>
             {done} of {topics.length} steps done · About {Math.ceil(hoursLeft)} hours left
+          </p>
+          <p>
+            {topics.filter((topic) => !topic.isProject && finished(topic)).length +
+              startingStrengths.length}
+            /{topics.filter((topic) => !topic.isProject).length + startingStrengths.length} skills
+            ready · {overview.data?.streak.current ?? 0} day learning streak
           </p>
         </div>
       </section>
@@ -249,14 +270,12 @@ export function RoadmapJourney({ data }: { data: Current }) {
           );
         })}
       </section>
-      {!!data.analysis.strengths.length && (
+      {!!startingStrengths.length && (
         <details className="skills-card">
-          <summary>
-            Already in your toolkit · {data.analysis.strengths.length} skipped skills
-          </summary>
+          <summary>Already in your toolkit · {startingStrengths.length} skipped skills</summary>
           <p>These starting skills meet this goal’s requirements and are not scheduled again.</p>
           <div className="goal-filters">
-            {data.analysis.strengths.map((skill) => (
+            {startingStrengths.map((skill) => (
               <span key={skill.skillId} className="journey-status">
                 ✓ {skill.name} · Skipped
               </span>
