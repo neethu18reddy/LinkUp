@@ -114,7 +114,9 @@ if (process.argv.includes('--stop')) {
     const database = url.pathname.slice(1);
     const existing = await client.query('SELECT 1 FROM pg_database WHERE datname = $1', [database]);
     if (!existing.rowCount)
-      await client.query(`CREATE DATABASE ${client.escapeIdentifier(database)}`);
+      await client.query(
+        `CREATE DATABASE ${client.escapeIdentifier(database)} TEMPLATE template0 ENCODING 'UTF8' LC_COLLATE 'C' LC_CTYPE 'C'`,
+      );
     console.log(`Local PostgreSQL ready on localhost:${port}. Existing data is preserved.`);
   } catch {
     await control(['-m', 'fast', '-w', 'stop']);

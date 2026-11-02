@@ -41,6 +41,7 @@
     "catalog:seed": "tsx scripts/catalog-seed.ts",
     "test:database": "node scripts/verify-database.mjs",
     "test:career-browser": "node scripts/verify-career-flow.mjs",
+    "test:studio-browser": "node scripts/verify-studio-flow.mjs",
     "test:local": "node scripts/verify-tests.mjs"
   },
   "devDependencies": {

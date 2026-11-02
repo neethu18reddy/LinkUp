@@ -114,8 +114,8 @@ try {
   await page.waitForURL('**/roadmap');
   await page.getByRole('button', { name: 'Generate roadmap', exact: true }).click();
   await page.getByRole('button', { name: 'Confirm generation', exact: true }).click();
-  await page.getByRole('button', { name: 'Create new version', exact: true }).waitFor();
-  if ((await page.locator('details.roadmap-phase').count()) < 5)
+  await page.getByText('Your next step', { exact: true }).waitFor();
+  if ((await page.locator('details.journey-stage').count()) < 5)
     throw new Error('Expected five role stages');
   await page
     .getByRole('button', { name: /^Complete / })
@@ -137,7 +137,7 @@ try {
   results.guided = {
     savedAnswers: true,
     goalConfirmed: true,
-    stages: await page.locator('details.roadmap-phase').count(),
+    stages: await page.locator('details.journey-stage').count(),
     completionSurvivesReload: true,
   };
   await page.setViewportSize({ width: 390, height: 844 });

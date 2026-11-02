@@ -33,8 +33,8 @@ Use forward-only migrations. Backfill completed topics and known profile skills 
 
 ## Configuration
 
-`YOUTUBE_API_KEY` is optional and server-only. Existing `CRON_SECRET` protects rollover. Optional `STUDIO_AI_SECTIONING` defaults false and requires the existing approved LLM configuration. Optional remote runner configuration is separate from the app server; unsupported languages remain editable with Run unavailable. Exact variable names, browser runtime versions and deployment CSP requirements are documented in `LEARNING_STUDIO.md` as implementation lands.
+`YOUTUBE_API_KEY` is optional and server-only. Existing `CRON_SECRET` protects rollover. AI sectioning and remote execution are optional future adapters; neither is enabled by a configuration switch in this release. Unsupported languages remain editable with Run unavailable. Browser runtime versions and deployment CSP requirements are documented in `LEARNING_STUDIO.md`.
 
 ## Progress
 
-Audit and architecture recorded before implementation. No schema, production data or existing application behavior has changed yet.
+Phases 1–12 are complete. Formatting, lint, types, 103 frontend tests, 187 backend unit tests, 50 database tests, the production build and both browser walkthroughs passed. All three migrations were rehearsed on an expiring production copy, preserving 20 existing learner tables. See `LEARNING_STUDIO.md` for configuration and `QA_V2.md` for evidence and integration limits.

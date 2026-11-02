@@ -36,7 +36,9 @@ const patterns = process.argv.slice(2);
 let created = false;
 await admin.connect();
 try {
-  await admin.query(`CREATE DATABASE ${identifier}`);
+  await admin.query(
+    `CREATE DATABASE ${identifier} TEMPLATE template0 ENCODING 'UTF8' LC_COLLATE 'C' LC_CTYPE 'C'`,
+  );
   created = true;
   execFileSync(
     process.execPath,
@@ -52,7 +54,6 @@ try {
       'run',
       ...(patterns.length ? patterns : ['database']),
       '--maxWorkers=1',
-      '--isolate=false',
       '--testTimeout=120000',
       '--hookTimeout=60000',
     ],

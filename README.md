@@ -6,6 +6,8 @@
 
 Turn your career goals into a learning journey you can actually follow.
 
+Learning Studio adds playlist/custom-resource imports, timestamped notes, isolated coding practice, resource analytics and timezone-aware daily recaps. See [setup and execution boundaries](docs/LEARNING_STUDIO.md). Playlist enumeration optionally uses a server-only `YOUTUBE_API_KEY`; manual video links and custom checklists work without it.
+
 [✨ Open linkup](https://linkup-seven-gamma.vercel.app) · [🚀 Launch guide](docs/LAUNCH.md) · [📚 Build journal](docs/BUILD_PROGRESS.md)
 
 ![React](https://img.shields.io/badge/React-18-ecfdf5?style=flat-square&logo=react)
