@@ -52,6 +52,7 @@ const envSchema = z
     LLM_MODEL: z.string().default(''),
     GROQ_API_KEY: z.string().optional(),
     GEMINI_API_KEY: z.string().optional(),
+    YOUTUBE_API_KEY: z.string().optional(),
     EMAIL_PROVIDER: z.enum(['disabled', 'brevo']).default('disabled'),
     EMAIL_LIVE_CALLS_APPROVED: z
       .enum(['true', 'false'])
