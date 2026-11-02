@@ -97,6 +97,18 @@ model User {
   remindersEnabled   Boolean             @default(true)
   identity           AccountIdentity?
   accountTokens      AccountToken[]
+  studioResources    StudioResource[]
+  skillProgress      UserSkillProgress[]
+  studioSettings     UserSettings?
+  studioNotes        StudioNote[]
+  studioSnippets     CodeSnippet[]
+  studioDailyStats   DailyStat[]
+  studioRecaps       DailyRecap[]
+  studioWatchEvents  WatchEvent[]
+  studioWatchSessions WatchSession[]
+  studioWatchLease   WatchLease?
+  studioItemProgress ItemProgress[]
+  studioActivities   StudioActivity[]
 }
 
 model AccountIdentity {
@@ -150,6 +162,8 @@ model Skill {
   userSkills       UserSkill[]
   roleRequirements RoleRequirement[]
   topics           Topic[]
+  progress         UserSkillProgress[]
+  studioSections   StudioSectionSkill[]
 
   @@index([category])
 }
@@ -429,4 +443,286 @@ model DailyUsage {
   user   User      @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([userId, date, kind])
+}
+
+enum SkillProgressStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  DONE
+  SKIPPED
+}
+
+enum SkillProgressSource {
+  MANUAL
+  RESOURCE
+  ASSESSMENT
+}
+
+model UserSkillProgress {
+  userId         String @db.Uuid
+  skillId        String @db.Uuid
+  status         SkillProgressStatus @default(NOT_STARTED)
+  percent        Float @default(0)
+  source         SkillProgressSource @default(MANUAL)
+  manualComplete Boolean @default(false)
+  beforeTracking Boolean @default(false)
+  completedAt    DateTime?
+  updatedAt      DateTime @default(now()) @updatedAt
+  user           User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skill          Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  @@id([userId, skillId])
+  @@index([userId, status])
+}
+
+model UserSettings {
+  userId                 String @id @db.Uuid
+  timezone               String @default("UTC") @db.VarChar(100)
+  timezoneConfirmed      Boolean @default(false)
+  dailyGoalType          String @default("minutes") @db.VarChar(10)
+  dailyGoalValue         Int @default(20)
+  autoplayNext           Boolean @default(false)
+  emojiRecap             Boolean @default(true)
+  confirmSkillCompletion Boolean @default(false)
+  completionThreshold    Float @default(0.9)
+  user                   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model StudioResource {
+  id               String @id @default(uuid()) @db.Uuid
+  userId           String @db.Uuid
+  provider         String @db.VarChar(20)
+  externalId       String? @db.VarChar(200)
+  title            String @db.VarChar(200)
+  channel          String @default("") @db.VarChar(200)
+  thumbnailUrl     String? @db.VarChar(2048)
+  totalDurationSec Int @default(0)
+  videoCount       Int @default(0)
+  status           String @default("active") @db.VarChar(20)
+  importedAt       DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  targetRoleId     String? @db.Uuid
+  version          Int @default(1)
+  user             User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sections         StudioSection[]
+  items            ResourceItem[]
+  notes            StudioNote[]
+  snippets         CodeSnippet[]
+  activities       StudioActivity[]
+  watchEvents      WatchEvent[]
+  dailyStats       DailyStat[]
+  @@index([userId, importedAt])
+}
+
+model StudioSection {
+  id               String @id @default(uuid()) @db.Uuid
+  resourceId       String @db.Uuid
+  order            Int
+  title            String @db.VarChar(200)
+  topicSummary     String @db.VarChar(500)
+  topicTags        String[] @default([])
+  totalDurationSec Int @default(0)
+  resource         StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  items            ResourceItem[]
+  skills           StudioSectionSkill[]
+  snippets         CodeSnippet[]
+  @@unique([resourceId, order])
+  @@unique([id, resourceId])
+}
+
+model StudioSectionSkill {
+  sectionId String @db.Uuid
+  skillId   String @db.Uuid
+  confidence Float @default(1)
+  section   StudioSection @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  skill     Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  @@id([sectionId, skillId])
+  @@index([skillId])
+}
+
+model ResourceItem {
+  id               String @id @default(uuid()) @db.Uuid
+  resourceId       String @db.Uuid
+  sectionId        String @db.Uuid
+  order            Int
+  externalVideoId  String? @db.VarChar(20)
+  title            String @db.VarChar(200)
+  url              String? @db.VarChar(2048)
+  durationSec      Int @default(0)
+  thumbnailUrl     String? @db.VarChar(2048)
+  available        Boolean @default(true)
+  resource         StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  section          StudioSection @relation(fields: [sectionId, resourceId], references: [id, resourceId], onDelete: Cascade)
+  progress         ItemProgress[]
+  notes            StudioNote[]
+  snippets         CodeSnippet[]
+  watchEvents      WatchEvent[]
+  watchSessions    WatchSession[]
+  @@unique([resourceId, order])
+  @@index([sectionId])
+}
+
+model ItemProgress {
+  userId            String @db.Uuid
+  itemId            String @db.Uuid
+  watchedSec        Float @default(0)
+  contentWatchedSec Float @default(0)
+  lastPositionSec   Float @default(0)
+  status            String @default("not_started") @db.VarChar(20)
+  completedAt       DateTime?
+  firstCompletedAt  DateTime?
+  completedBy       String? @db.VarChar(10)
+  updatedAt         DateTime @default(now()) @updatedAt
+  user              User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item              ResourceItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  @@id([userId, itemId])
+}
+
+model WatchSession {
+  id          String @id @db.Uuid
+  userId      String @db.Uuid
+  itemId      String @db.Uuid
+  startedAt   DateTime @default(now())
+  lastAt      DateTime @default(now())
+  wallSec     Float @default(0)
+  contentSec  Float @default(0)
+  user        User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item        ResourceItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  @@index([userId, lastAt])
+}
+
+model WatchLease {
+  userId    String @id @db.Uuid
+  sessionId String @db.Uuid
+  expiresAt DateTime
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model WatchEvent {
+  id             String @id @default(uuid()) @db.Uuid
+  requestId      String @db.Uuid
+  userId         String @db.Uuid
+  resourceId     String @db.Uuid
+  itemId         String @db.Uuid
+  startedAt      DateTime
+  endedAt        DateTime
+  secondsWatched Float
+  contentSeconds Float
+  localDate      String @db.VarChar(10)
+  timezone       String @db.VarChar(100)
+  user           User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resource       StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  item           ResourceItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  @@unique([userId, requestId, localDate])
+  @@index([userId, localDate])
+  @@index([resourceId, startedAt])
+}
+
+model StudioActivity {
+  id         String @id @default(uuid()) @db.Uuid
+  userId     String @db.Uuid
+  resourceId String @db.Uuid
+  kind       String @db.VarChar(40)
+  title      String @db.VarChar(200)
+  itemId     String? @db.Uuid
+  requestId  String? @unique @db.Uuid
+  createdAt  DateTime @default(now())
+  user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resource   StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  @@index([resourceId, createdAt])
+}
+
+model StudioNote {
+  id           String @id @default(uuid()) @db.Uuid
+  userId       String @db.Uuid
+  resourceId   String @db.Uuid
+  itemId       String? @db.Uuid
+  timestampSec Float @default(0)
+  bodyMd       String @db.VarChar(20000)
+  type         String @default("Key idea") @db.VarChar(20)
+  pinned       Boolean @default(false)
+  tags         String[] @default([])
+  version      Int @default(1)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  user         User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resource     StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  item         ResourceItem? @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  @@index([userId, updatedAt])
+  @@index([resourceId, itemId])
+}
+
+model CodeSnippet {
+  id           String @id @default(uuid()) @db.Uuid
+  userId       String @db.Uuid
+  resourceId   String @db.Uuid
+  itemId       String? @db.Uuid
+  sectionId    String? @db.Uuid
+  title        String @db.VarChar(200)
+  language     String @db.VarChar(20)
+  code         String @db.VarChar(50000)
+  timestampSec Float @default(0)
+  version      Int @default(1)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  user         User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resource     StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  item         ResourceItem? @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  section      StudioSection? @relation(fields: [sectionId], references: [id], onDelete: SetNull)
+  versions     SnippetVersion[]
+  runs         SnippetRun[]
+  @@index([userId, updatedAt])
+  @@index([resourceId, itemId])
+}
+
+model SnippetVersion {
+  id        String @id @default(uuid()) @db.Uuid
+  snippetId String @db.Uuid
+  code      String @db.VarChar(50000)
+  savedAt   DateTime @default(now())
+  snippet   CodeSnippet @relation(fields: [snippetId], references: [id], onDelete: Cascade)
+  @@index([snippetId, savedAt])
+}
+
+model SnippetRun {
+  id         String @id @db.Uuid
+  snippetId  String @db.Uuid
+  language   String @db.VarChar(20)
+  status     String @db.VarChar(20)
+  durationMs Int
+  createdAt  DateTime @default(now())
+  snippet    CodeSnippet @relation(fields: [snippetId], references: [id], onDelete: Cascade)
+  @@index([snippetId, createdAt])
+}
+
+model DailyStat {
+  userId          String @db.Uuid
+  resourceId      String @db.Uuid
+  localDate       String @db.VarChar(10)
+  secondsWatched  Float @default(0)
+  contentSeconds  Float @default(0)
+  videosCompleted Int @default(0)
+  notesCount      Int @default(0)
+  snippetsCount   Int @default(0)
+  runsCount       Int @default(0)
+  topicTags       String[] @default([])
+  user            User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resource        StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  @@id([userId, resourceId, localDate])
+  @@index([userId, localDate])
+}
+
+model DailyRecap {
+  id          String @id @default(uuid()) @db.Uuid
+  userId      String @db.Uuid
+  localDate   String @db.VarChar(10)
+  payload     Json
+  generatedAt DateTime @default(now())
+  user        User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@unique([userId, localDate])
+}
+
+model StudioPlaylistCache {
+  externalId String @id @db.VarChar(200)
+  payload    Json
+  expiresAt  DateTime
 }
