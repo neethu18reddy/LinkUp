@@ -49,6 +49,7 @@ beforeEach(() => {
 });
 describe('Roadmap page', () => {
   it('shows a saved roadmap with numeric hours and safe resource links', async () => {
+    const user = userEvent.setup();
     vi.mocked(getCurrentRoadmap).mockResolvedValue({
       ...data,
       roadmap: {
@@ -81,7 +82,9 @@ describe('Roadmap page', () => {
     });
     mount();
     expect(await screen.findByText('React learning roadmap')).toBeInTheDocument();
-    expect(screen.getByText(/Version 2/)).toHaveTextContent('18 estimated hours');
+    expect(screen.getByText(/Version 2/)).toBeInTheDocument();
+    expect(screen.getByText(/About 18 hours left/)).toBeInTheDocument();
+    await user.click(screen.getByText('Details', { exact: true }));
     expect(screen.getByRole('link', { name: 'React docs' })).toHaveAttribute(
       'rel',
       'noopener noreferrer',
@@ -144,6 +147,6 @@ describe('Roadmap page', () => {
       '/goals',
     );
     await user.click(screen.getByRole('button', { name: 'Retry' }));
-    expect(await screen.findByText('Where to focus')).toBeInTheDocument();
+    expect(await screen.findByText('Build your first roadmap')).toBeInTheDocument();
   });
 });

@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import { requestError } from '@/lib/http';
 import { generateRoadmap, getCurrentRoadmap, roadmapKey } from '@/features/roadmap/roadmap.api';
 import { PageHeader } from '@/components/layout/PageHeader';
-import { TopicCompletion } from '@/features/roadmap/TopicCompletion';
+import { RoadmapJourney } from '@/features/roadmap/RoadmapJourney';
 
 export function RoadmapPage() {
   const client = useQueryClient();
@@ -73,8 +73,12 @@ export function RoadmapPage() {
         ) : (
           data && (
             <>
-              <section className="skills-card">
-                <h2>Where to focus</h2>
+              <details className="skills-card" open={!data.roadmap}>
+                <summary>
+                  {data.roadmap
+                    ? 'Review starting skills or create a new version'
+                    : 'Build your first roadmap'}
+                </summary>
                 {data.roadmap?.generationSource === 'template-custom' && (
                   <p className="custom-roadmap-notice">
                     Your custom goal uses a general starter roadmap. Choose learning materials for
@@ -146,86 +150,9 @@ export function RoadmapPage() {
                 )}
                 {generation.isError && <p role="alert">{requestError(generation.error)}</p>}
                 {generation.data?.notice && <p role="status">{generation.data.notice}</p>}
-              </section>
+              </details>
               {data.roadmap ? (
-                <section className="skills-card">
-                  <h2>{data.roadmap.title}</h2>
-                  <div className="learning-metrics">
-                    <div>
-                      <span>Learning time</span>
-                      <strong>
-                        {data.roadmap.totalEstimatedHours}
-                        <small> hours</small>
-                      </strong>
-                    </div>
-                    <div>
-                      <span>Your journey</span>
-                      <strong>
-                        {data.roadmap.phases.length}
-                        <small> phases</small>
-                      </strong>
-                    </div>
-                    <div>
-                      <span>Milestones</span>
-                      <strong>
-                        {data.roadmap.phases.reduce((sum, phase) => sum + phase.topics.length, 0)}
-                        <small> topics</small>
-                      </strong>
-                    </div>
-                  </div>
-                  <p>
-                    Version {data.roadmap.version} · {data.roadmap.totalEstimatedHours} estimated
-                    hours ·{' '}
-                    {data.roadmap.generationSource.startsWith('template')
-                      ? 'Curated template'
-                      : 'AI generated'}
-                  </p>
-                  <Button asChild variant="outline">
-                    <Link to="/plan">Set your weekly plan</Link>
-                  </Button>
-                  {data.roadmap.phases.map((phase) => (
-                    <details className="roadmap-phase" key={phase.id} open>
-                      <summary>
-                        {phase.title} ·{' '}
-                        {phase.topics.filter((topic) => topic.status === 'DONE').length}/
-                        {phase.topics.length} topics completed
-                      </summary>
-                      <p>{phase.description}</p>
-                      <ol>
-                        {phase.topics.map((topic) => (
-                          <li key={topic.id} id={`topic-${topic.id}`}>
-                            <strong>{topic.title}</strong>
-                            {topic.isProject ? ' · Project' : ''} · {topic.estimatedHours} hours
-                            <span className="topic-status">
-                              {' '}
-                              · {topic.status?.replaceAll('_', ' ').toLowerCase() ?? 'todo'} ·{' '}
-                              {topic.difficulty.toLowerCase()}
-                            </span>
-                            <p>{topic.subtopics.join(' · ')}</p>
-                            <TopicCompletion
-                              id={topic.id}
-                              title={topic.title}
-                              status={topic.status}
-                              project={topic.isProject}
-                            />
-                            {topic.resources.map((resource) => (
-                              <p key={resource.url}>
-                                <a
-                                  className="text-link"
-                                  href={resource.url}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  {resource.title}
-                                </a>
-                              </p>
-                            ))}
-                          </li>
-                        ))}
-                      </ol>
-                    </details>
-                  ))}
-                </section>
+                <RoadmapJourney data={data} />
               ) : (
                 <p>No roadmap yet. Review your gaps and generate your first version.</p>
               )}

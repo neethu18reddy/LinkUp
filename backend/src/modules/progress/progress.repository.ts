@@ -4,6 +4,7 @@ import { AppError } from '../../utils/AppError.js';
 import { isTransactionConflict } from '../../utils/transactionConflict.js';
 import type { LogInput, ProjectInput, TaskInput } from './progress.schemas.js';
 import type { ProgressRepository, ProgressSnapshot } from './progress.types.js';
+import { writeSkillProgress } from '../studio/studio.sync.js';
 
 function database() {
   const db = getDatabase();
@@ -139,6 +140,15 @@ export class PrismaProgressRepository implements ProgressRepository {
           },
           data: { level: topic.difficulty },
         });
+      if (topic.skillId && !topic.isProject)
+        await writeSkillProgress(
+          tx,
+          userId,
+          topic.skillId,
+          complete ? 'DONE' : 'NOT_STARTED',
+          'MANUAL',
+          complete ? 100 : 0,
+        );
       await updateRoadmap(tx, userId, roadmap.id);
       return { id, status };
     });
@@ -287,6 +297,16 @@ export class PrismaProgressRepository implements ProgressRepository {
         where: { id: item.topicId },
         data: { status, completedAt: status === 'DONE' ? now : null },
       });
+      if (item.topic.skillId && !item.topic.isProject)
+        await writeSkillProgress(
+          tx,
+          userId,
+          item.topic.skillId,
+          status === 'DONE' ? 'DONE' : status === 'IN_PROGRESS' ? 'IN_PROGRESS' : 'NOT_STARTED',
+          'MANUAL',
+          Math.min(100, (done / Math.max(1, Number(item.topic.estimatedHours) * 100)) * 100),
+          false,
+        );
       await updateRoadmap(tx, userId, item.planWeek.plan.roadmapId);
       return { id, status: input.status };
     });

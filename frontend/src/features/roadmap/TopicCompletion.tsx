@@ -27,6 +27,8 @@ export function TopicCompletion({
         'my-skills',
         'career-matches',
         'plan',
+        'studio-skills',
+        'studio-overview',
       ])
         void client.invalidateQueries({ queryKey: [key] });
     },

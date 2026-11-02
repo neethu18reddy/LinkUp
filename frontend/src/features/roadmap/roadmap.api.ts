@@ -23,6 +23,7 @@ const roadmap = z.object({
       topics: z.array(
         z.object({
           id: z.uuid(),
+          skillId: z.uuid().nullable().optional(),
           title: z.string(),
           subtopics: z.array(z.string()),
           estimatedHours: z.number(),
