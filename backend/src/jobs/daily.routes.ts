@@ -8,6 +8,7 @@ import { AppError } from '../utils/AppError.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
 import { success } from '../utils/response.js';
 import { matchesCronSecret, WeeklyJob } from './weekly.js';
+import { finalizeStudioDays } from '../modules/studio/studio.routes.js';
 
 export function dailyRoutes() {
   const router = Router();
@@ -51,7 +52,8 @@ export function dailyRoutes() {
       await db.accountToken.deleteMany({
         where: { expiresAt: { lt: new Date(Date.now() - 7 * 86400000) } },
       });
-      res.json(success({ created, processed, hasMore: !!cursor, email: delivery }));
+      const studio = await finalizeStudioDays();
+      res.json(success({ created, processed, hasMore: !!cursor, email: delivery, studio }));
     }),
   );
   return router;
