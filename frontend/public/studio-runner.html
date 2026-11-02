@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>LinkUp isolated practice</title>
+  </head>
+  <body>
+    <script>
+      (() => {
+        let worker, preview;
+        const send = (value) => parent.postMessage(value, '*');
+        addEventListener('message', (event) => {
+          if (event.source !== parent || !event.data || event.data.type !== 'studio-run') return;
+          const { id, language, code } = event.data;
+          if (
+            typeof id !== 'string' ||
+            typeof code !== 'string' ||
+            code.length > 50000 ||
+            !['javascript', 'python', 'html', 'css'].includes(language)
+          )
+            return;
+          worker?.terminate();
+          preview?.remove();
+          if (language === 'html' || language === 'css') {
+            preview = document.createElement('iframe');
+            preview.sandbox = 'allow-scripts';
+            preview.style.cssText = 'border:0;width:100%;height:95vh';
+            preview.title = 'Your isolated HTML preview';
+            const instrumentation =
+              '<script>(()=>{const send=(kind,text)=>parent.postMessage({kind,text:String(text).slice(0,20000)},"*");for(const key of ["log","info","warn","error"])console[key]=(...args)=>send(key,args.map(x=>{try{return typeof x==="string"?x:JSON.stringify(x)}catch{return String(x)}}).join(" "));addEventListener("error",e=>send("error",e.message));})();<\/script>';
+            const blob = new Blob(
+              [
+                instrumentation,
+                language === 'css'
+                  ? '<style>' +
+                    code +
+                    '</style><main><h1>Your CSS playground</h1><p>Style this page with your CSS.</p><button>Try me</button></main>'
+                  : code,
+              ],
+              { type: 'text/html' },
+            );
+            const url = URL.createObjectURL(blob);
+            preview.src = url;
+            document.body.append(preview);
+            const listener = (e) => {
+              if (e.source === preview?.contentWindow && e.data && typeof e.data.text === 'string')
+                send({
+                  type: 'studio-console',
+                  id,
+                  kind: e.data.kind,
+                  text: e.data.text.slice(0, 20000),
+                });
+            };
+            addEventListener('message', listener);
+            preview.onload = () => {
+              URL.revokeObjectURL(url);
+              send({
+                type: 'studio-result',
+                id,
+                status: 'success',
+                stdout: 'Preview ready.',
+                stderr: '',
+                durationMs: 0,
+              });
+            };
+            return;
+          }
+          const source = `self.onmessage=async event=>{
+      const {id,language,code}=event.data;
+      const stdout=[],stderr=[]; let size=0;
+      const text=value=>{try{return typeof value==='string'?value:JSON.stringify(value)}catch{return String(value)}};
+      const output=(target,args)=>{if(size>20000||target.length>=100)return;const line=args.map(text).join(' ').slice(0,2000);size+=line.length;target.push(line)};
+      for(const name of ['log','info','warn'])console[name]=(...args)=>output(stdout,args);console.error=(...args)=>output(stderr,args);
+      let start=performance.now();
+      try{
+        if(language==='python'){
+          importScripts('https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.js');
+          const py=await loadPyodide({indexURL:'https://cdn.jsdelivr.net/pyodide/v0.27.7/full/',stdout:line=>output(stdout,[line]),stderr:line=>output(stderr,[line])});
+          postMessage({type:'studio-ready',id}); start=performance.now();
+          await py.runPythonAsync(code);
+        }else{
+          postMessage({type:'studio-ready',id}); start=performance.now();
+          await new Function('return (async()=>{'+code+'\\n})()')();
+        }
+        postMessage({type:'studio-result',id,status:'success',stdout:stdout.join('\\n'),stderr:stderr.join('\\n'),durationMs:Math.round(performance.now()-start)});
+      }catch(error){postMessage({type:'studio-result',id,status:'error',stdout:stdout.join('\\n'),stderr:[...stderr,String(error)].join('\\n'),durationMs:Math.round(performance.now()-start)})}
+    };`;
+          const url = URL.createObjectURL(new Blob([source], { type: 'text/javascript' }));
+          try {
+            worker = new Worker(url);
+          } catch (error) {
+            send({
+              type: 'studio-result',
+              id,
+              status: 'error',
+              stdout: '',
+              stderr: String(error),
+              durationMs: 0,
+            });
+            return;
+          }
+          URL.revokeObjectURL(url);
+          worker.onmessage = (e) => {
+            const message = e.data;
+            if (message?.id === id) send(message);
+          };
+          worker.onerror = (e) =>
+            send({
+              type: 'studio-result',
+              id,
+              status: 'error',
+              stdout: '',
+              stderr: e.message,
+              durationMs: 0,
+            });
+          worker.postMessage({ id, language, code });
+        });
+      })();
+    </script>
+  </body>
+</html>
