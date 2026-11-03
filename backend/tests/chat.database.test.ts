@@ -5,6 +5,7 @@ import { createApp } from '../src/app.js';
 import { getDatabase, disconnectDatabase } from '../src/config/database.js';
 import { PrismaChatRepository } from '../src/modules/chat/chat.repository.js';
 import type { MentorProvider } from '../src/ai/mentor.provider.js';
+import { FallbackMentorProvider } from '../src/ai/mentor.fallback.js';
 const secrets = { access: 'mentor-db-access-'.repeat(4), refresh: 'mentor-db-refresh-'.repeat(4) };
 describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABASE_URL)(
   'Prisma mentor history',
@@ -36,6 +37,56 @@ describe.skipIf(process.env.RUN_DATABASE_TESTS !== 'true' || !process.env.DATABA
     afterAll(async () => {
       if (users.length) await getDatabase()!.user.deleteMany({ where: { id: { in: users } } });
       await disconnectDatabase();
+    });
+    it('streams fallback metadata and persists the actual provider through the authenticated endpoint', async () => {
+      const owner = await account(),
+        input = body();
+      let primaryCalls = 0,
+        fallbackCalls = 0;
+      const provider = new FallbackMentorProvider(
+        {
+          mode: 'inception',
+          stream: () => ({
+            [Symbol.asyncIterator]: () => ({
+              next: async () => {
+                primaryCalls++;
+                throw new Error('Primary unavailable');
+              },
+            }),
+          }),
+        },
+        {
+          mode: 'gemini',
+          async *stream() {
+            fallbackCalls++;
+            yield 'A complete fallback answer.';
+          },
+        },
+      );
+      const live = createApp({
+        authSecrets: secrets,
+        roadmapProvider: null,
+        mentorProvider: provider,
+      });
+      const reply = await request(live)
+        .post('/api/v1/chat/message')
+        .auth(owner.token, { type: 'bearer' })
+        .send(input);
+      expect(reply.text).toContain('"mode":"gemini"');
+      expect(reply.text).toContain('event: done');
+      const replay = await request(live)
+        .post('/api/v1/chat/message')
+        .auth(owner.token, { type: 'bearer' })
+        .send(input);
+      expect(replay.text).toContain('event: done');
+      const messages = await getDatabase()!.chatMessage.findMany({
+        where: { sessionId: input.requestId },
+        orderBy: { position: 'asc' },
+      });
+      expect(messages).toHaveLength(2);
+      expect(messages[1]).toMatchObject({ mode: 'gemini', content: 'A complete fallback answer.' });
+      expect(primaryCalls).toBe(1);
+      expect(fallbackCalls).toBe(1);
     });
     it('persists ordered turns across app instances, replays retries once and paginates privately', async () => {
       const owner = await account(),

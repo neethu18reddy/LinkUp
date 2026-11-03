@@ -1,5 +1,7 @@
 # Mentor correction — 29 October 2026
 
+For the newer mentor-only Mercury 3 integration and Gemini fallback configuration, see [Mercury mentor](MERCURY_MENTOR.md). The verification notes below describe the earlier Gemini change.
+
 All changes are local; no push or deployment was performed.
 
 ## Findings and corrections

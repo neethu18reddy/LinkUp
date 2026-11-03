@@ -45,6 +45,11 @@ const envSchema = z
       .enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'])
       .default('info'),
     LLM_PROVIDER: z.enum(['disabled', 'groq', 'gemini']).default('disabled'),
+    MENTOR_PROVIDER: z
+      .enum(['inherit', 'disabled', 'groq', 'gemini', 'inception'])
+      .default('inherit'),
+    MENTOR_FALLBACK_PROVIDER: z.enum(['disabled', 'gemini']).default('disabled'),
+    INCEPTION_API_KEY: z.string().optional(),
     LLM_LIVE_CALLS_APPROVED: z
       .enum(['true', 'false'])
       .default('false')

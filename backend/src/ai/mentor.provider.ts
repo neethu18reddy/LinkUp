@@ -6,7 +6,11 @@ export interface MentorInput {
 }
 export interface MentorProvider {
   readonly mode: string;
-  stream(input: MentorInput, signal: AbortSignal): AsyncIterable<string>;
+  stream(
+    input: MentorInput,
+    signal: AbortSignal,
+    onProviderSelected?: (mode: string) => void,
+  ): AsyncIterable<string>;
 }
 export class OfflineMentorProvider implements MentorProvider {
   readonly mode = 'offline';

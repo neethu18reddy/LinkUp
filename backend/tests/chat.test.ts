@@ -9,6 +9,7 @@ import {
   trimMentorHistory,
 } from '../src/ai/mentor.context.js';
 import { OfflineMentorProvider, type MentorProvider } from '../src/ai/mentor.provider.js';
+import { FallbackMentorProvider } from '../src/ai/mentor.fallback.js';
 import { MemoryChatRepository } from './helpers/memory-chat-repository.js';
 import { MemorySkillsRepository } from './helpers/memory-skills-repository.js';
 import { MemoryAuthRepository } from './helpers/memory-auth-repository.js';
@@ -131,6 +132,79 @@ describe('mentor context and offline guidance', () => {
   });
 });
 describe('mentor turn lifecycle', () => {
+  it('keeps actual provider selection separate across concurrent turns', async () => {
+    const provider = new FallbackMentorProvider(
+      {
+        mode: 'inception',
+        async *stream(input) {
+          if (input.message === 'Use fallback') throw new Error('Primary unavailable');
+          await Promise.resolve();
+          yield 'Mercury answer.';
+        },
+      },
+      {
+        mode: 'gemini',
+        async *stream() {
+          yield 'Gemini answer.';
+        },
+      },
+    );
+    const { service, repository } = fixture(provider);
+    const bodies = [
+      { ...input(), message: 'Use fallback' },
+      { ...input(), message: 'Use Mercury' },
+    ];
+    await Promise.all(
+      bodies.map(async (body) => {
+        const prepared = await service.prepare(user, body);
+        for await (const event of service.reply(
+          user.id,
+          body,
+          prepared,
+          new AbortController().signal,
+        ))
+          void event;
+      }),
+    );
+    expect((await repository.history(user.id, bodies[0]!.requestId, 40)).messages[1]).toMatchObject(
+      { mode: 'gemini', content: 'Gemini answer.' },
+    );
+    expect((await repository.history(user.id, bodies[1]!.requestId, 40)).messages[1]).toMatchObject(
+      { mode: 'inception', content: 'Mercury answer.' },
+    );
+  });
+  it('reports the actual fallback provider, saves one reply and replays without another call', async () => {
+    const primary = vi.fn().mockRejectedValue(new Error('Primary unavailable'));
+    const fallback = vi.fn();
+    const provider = new FallbackMentorProvider(
+      { mode: 'inception', stream: () => ({ [Symbol.asyncIterator]: () => ({ next: primary }) }) },
+      {
+        mode: 'gemini',
+        async *stream() {
+          fallback();
+          yield 'Fallback answer.';
+        },
+      },
+    );
+    const { service, repository } = fixture(provider);
+    const body = input(),
+      prepared = await service.prepare(user, body),
+      events = [];
+    for await (const event of service.reply(user.id, body, prepared, new AbortController().signal))
+      events.push(event);
+    expect(
+      events.filter((event) => event.event === 'meta').map((event) => event.data),
+    ).toMatchObject([{ mode: 'inception' }, { mode: 'gemini' }]);
+    const saved = (await repository.history(user.id, body.requestId, 40)).messages;
+    expect(saved).toHaveLength(2);
+    expect(saved[1]).toMatchObject({ content: 'Fallback answer.', mode: 'gemini' });
+    const retry = await service.prepare(user, body);
+    for await (const event of service.reply(user.id, body, retry, new AbortController().signal))
+      void event;
+    expect(primary).toHaveBeenCalledTimes(1);
+    expect(fallback).toHaveBeenCalledTimes(1);
+    expect([...repository.usage.values()]).toEqual([1]);
+  });
   it('keeps the preceding learner question when a long answer exceeds the history budget', () => {
     const messages = [
       { role: 'USER', content: 'Explain Python loops.' },

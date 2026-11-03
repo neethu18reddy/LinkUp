@@ -83,7 +83,13 @@ export class ChatService {
         };
         return;
       }
-      const iterator = this.provider.stream(providerInput, signal)[Symbol.asyncIterator]();
+      let selectedMode = this.provider.mode;
+      let announcedMode = selectedMode;
+      const iterator = this.provider
+        .stream(providerInput, signal, (mode) => {
+          selectedMode = mode;
+        })
+        [Symbol.asyncIterator]();
       let content = '',
         finished = false;
       try {
@@ -100,6 +106,10 @@ export class ChatService {
               'MENTOR_OUTPUT_INVALID',
               'The mentor reply was too long. Try a shorter question.',
             );
+          if (selectedMode !== announcedMode) {
+            yield { event: 'meta', data: { session: reservation.session, mode: selectedMode } };
+            announcedMode = selectedMode;
+          }
           content += result.value;
           yield { event: 'delta', data: { text: result.value } };
         }
@@ -114,7 +124,7 @@ export class ChatService {
         input,
         reservation,
         content,
-        this.provider.mode,
+        selectedMode,
       );
       yield { event: 'done', data: saved };
     } finally {
