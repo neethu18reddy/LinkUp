@@ -43,7 +43,7 @@ export function AuthPage({ mode }: { mode: 'login' | 'register' }) {
   const from: unknown = location.state?.from;
   const returnTo =
     typeof from === 'string' &&
-    /^\/(?:dashboard|skills|goals|roadmap|plan|progress|mentor|certificates|notifications)(?:[/?#]|$)/.test(
+    /^\/(?:dashboard|skills|goals|roadmap|plan|progress|mentor|studio|youtube|certificates|notifications)(?:[/?#]|$)/.test(
       from,
     )
       ? from

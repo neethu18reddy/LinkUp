@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, Navigate, Route, Routes, useParams, useSearchParams } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import { AuthPage } from './pages/AuthPage';
 import { RecoveryPage } from './pages/RecoveryPage';
@@ -84,16 +84,10 @@ export function App() {
         }
       />
       <Route element={<ProtectedRoute />}>
+        <Route path="/youtube" element={<LegacyYouTubeRedirect />} />
+        <Route path="/youtube/:id" element={<LegacyYouTubeRedirect />} />
         <Route
-          path="/youtube"
-          element={
-            <Suspense fallback={<main role="status">Opening YouTube Learning…</main>}>
-              <YouTubeLearningPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/youtube/:id"
+          path="/studio/:id/plan"
           element={
             <Suspense fallback={<main role="status">Loading your YouTube study plan…</main>}>
               <YouTubeLearningPage />
@@ -225,5 +219,18 @@ export function App() {
         }
       />
     </Routes>
+  );
+}
+
+function LegacyYouTubeRedirect() {
+  const { id } = useParams(),
+    [params] = useSearchParams();
+  const query = new URLSearchParams(params);
+  if (!id) query.set('view', 'youtube');
+  return (
+    <Navigate
+      replace
+      to={`${id ? `/studio/${encodeURIComponent(id)}/plan` : '/studio'}${query.size ? `?${query}` : ''}`}
+    />
   );
 }

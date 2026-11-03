@@ -80,7 +80,7 @@ describe('topic video finder', () => {
     expect(getVideoComments).not.toHaveBeenCalled();
     expect(
       screen.getByRole('link', { name: 'Build my study plan' }).getAttribute('href'),
-    ).toContain('/youtube?url=');
+    ).toContain('/studio?view=youtube&url=');
     await user.click(screen.getByRole('button', { name: 'Show top comments' }));
     await screen.findByText('<script>unsafe()</script> Useful lesson.');
     expect(document.querySelector('.youtube-comments script')).toBeNull();

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { z } from 'zod';
@@ -22,8 +22,22 @@ import { StudioOverview } from '@/features/studio/StudioOverview';
 import { StudioPreferences } from '@/features/studio/StudioPreferences';
 import '@/features/studio/studio.css';
 import { getCurrentGoal, goalKeys } from '@/features/goals/goals.api';
+import { StudioNavigation } from '@/features/studio/StudioNavigation';
+const YouTubeLearningPage = lazy(() =>
+  import('./YouTubeLearningPage').then((module) => ({ default: module.YouTubeLearningPage })),
+);
 
 export function StudioPage() {
+  const [params] = useSearchParams();
+  return params.get('view') === 'youtube' || params.has('url') ? (
+    <Suspense fallback={<main role="status">Opening Learning Studio…</main>}>
+      <YouTubeLearningPage />
+    </Suspense>
+  ) : (
+    <StudioLibraryPage />
+  );
+}
+function StudioLibraryPage() {
   const client = useQueryClient(),
     navigate = useNavigate(),
     [params] = useSearchParams();
@@ -121,6 +135,7 @@ export function StudioPage() {
           title="Learning Studio"
           description="Bring your playlist. Watch, take notes and practice, one small chapter at a time."
         />
+        <StudioNavigation />
         <StudioOverview />
         <div className="studio-heading">
           <h2>Your learning shelf</h2>

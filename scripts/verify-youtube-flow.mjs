@@ -155,7 +155,7 @@ try {
   await page.getByRole('heading', { name: 'Your study schedule' }).waitFor();
   const savedTitle = await page.getByLabel('Plan title', { exact: true }).inputValue();
   await page.getByRole('button', { name: 'Save study plan', exact: true }).click();
-  await page.waitForURL(/\/youtube\/[\w-]+$/);
+  await page.waitForURL(/\/studio\/[\w-]+\/plan$/);
   const planUrl = page.url();
   await page.getByRole('heading', { name: 'Your study schedule' }).waitFor();
   await page.reload();
@@ -178,11 +178,26 @@ try {
   await page.getByRole('link', { name: 'Open learning session', exact: true }).first().click();
   await page.waitForURL(/\/studio\/[\w-]+\/study\?/);
   await page.getByRole('button', { name: 'Mark complete', exact: true }).waitFor();
-  await page.goto(`${base}/youtube`);
+  await page.goto(`${base}/studio?view=youtube`);
   await page.getByRole('heading', { name: 'Your saved YouTube plans' }).waitFor();
   await page.getByRole('link', { name: savedTitle, exact: true }).waitFor();
   await page.goto(planUrl);
   await page.getByRole('heading', { name: 'Your study schedule' }).waitFor();
+  const resourceId = new URL(planUrl).pathname.split('/')[2];
+  await page.goto(`${base}/youtube/${resourceId}`);
+  await page.waitForURL(`**/studio/${resourceId}/plan`);
+  await page.getByRole('heading', { name: 'Learning Studio', level: 1 }).waitFor();
+  await page.goto(`${base}/youtube?topic=arrays&language=hi`);
+  await page.waitForURL(/\/studio\?.*view=youtube/);
+  if (new URL(page.url()).searchParams.get('topic') !== 'arrays')
+    throw Error('Legacy link lost its parameters.');
+  if (
+    await page
+      .getByRole('navigation', { name: 'Your workspace' })
+      .getByRole('link', { name: 'YouTube Learning', exact: true })
+      .count()
+  )
+    throw Error('Separate YouTube navigation still exists.');
   if (errors.length) throw Error(errors.join('; '));
   const result = {
     mentorDiscovery: true,
@@ -190,6 +205,8 @@ try {
     favoriteLink: true,
     previewSaveReload: true,
     studioHandoff: true,
+    unifiedStudio: true,
+    legacyLinksPreserved: true,
     mobileOverflow: false,
     browserErrors: errors,
     liveGoogleCalls: false,

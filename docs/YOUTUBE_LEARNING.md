@@ -1,6 +1,6 @@
 # YouTube suggestions and personal study plans
 
-Open **Mentor** for the topic-based video finder, or **YouTube Learning** for a favorite-link workflow and saved study schedules. Set only the existing server-side `YOUTUBE_API_KEY` in Vercel Production and redeploy. No new provider key or model setting is needed. Mercury/Gemini mentor routing and career roadmap generation remain unchanged.
+Open **Mentor** for the topic-based video finder, or **Learning Studio → YouTube videos and plans** for favorite links and saved study schedules. Learning Studio is the single workspace for the learning shelf, YouTube discovery, planning and study tools. Old `/youtube` links redirect into Studio and preserve their parameters. Set only the existing server-side `YOUTUBE_API_KEY` in Vercel Production and redeploy. No new provider key or model setting is needed. Mercury/Gemini mentor routing and career roadmap generation remain unchanged.
 
 ## Find videos
 
@@ -18,7 +18,7 @@ Enter a learning goal, level, preferred language, minutes per study day, weekday
 
 Preview the schedule before saving. Videos are scheduled in chapter order and long videos are split across sessions referencing the same Studio item. Each chapter includes suggested practice (10 minutes for beginners, 15 intermediate, 20 advanced) and five minutes of review. These are LinkUp planning estimates, not claims about the video content. The plan uses available titles/durations and user preferences; it does not download videos or claim transcript analysis. Infeasible deadlines produce a warning and a realistic finish date, without dropping content. Plans requiring over 3,660 study days ask for more availability or a smaller resource.
 
-Saved plans appear in **YouTube Learning**. Session links open Learning Studio at the scheduled video position. Seeking earns no watch credit. Existing video progress, notes, code and analytics remain authoritative. Suggested practice/review are planning guidance, not automatic learning logs or completions. Editing chapters flags the saved schedule for regeneration; updating a schedule preserves watch progress. Resource deletion cascades to its study plan. Conflicting edits return a reload error.
+Saved plans appear in **Learning Studio → YouTube videos and plans**. Plan details use `/studio/:id/plan`; the learning shelf remains at `/studio`. Session links open Studio at the scheduled video position. Seeking earns no watch credit. Existing video progress, notes, code and analytics remain authoritative. Suggested practice/review are planning guidance, not automatic learning logs or completions. Editing chapters flags the saved schedule for regeneration; updating a schedule preserves watch progress. Resource deletion cascades to its study plan. Conflicting edits return a reload error.
 
 ## API and quota boundaries
 

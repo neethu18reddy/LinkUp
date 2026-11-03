@@ -81,7 +81,7 @@ function VideoCard({
         >
           Watch on YouTube
         </a>
-        <Link className="button button-glow" to={`/youtube?${params}`}>
+        <Link className="button button-glow" to={`/studio?view=youtube&${params}`}>
           Build my study plan
         </Link>
       </div>
@@ -249,7 +249,9 @@ export function VideoFinder({
         </>
       )}
       <p>
-        <Link to="/youtube">Bring a favorite video or playlist →</Link>
+        <Link to="/studio?view=youtube">
+          Bring a favorite video or playlist to Learning Studio →
+        </Link>
       </p>
     </section>
   );

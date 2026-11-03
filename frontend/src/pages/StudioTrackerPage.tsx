@@ -117,7 +117,7 @@ export function StudioTrackerPage() {
             <>
               {data.provider === 'youtube' && (
                 <p>
-                  <Link to={`/youtube/${id}`}>Build or edit your YouTube study schedule →</Link>
+                  <Link to={`/studio/${id}/plan`}>Build or edit your YouTube study schedule →</Link>
                 </p>
               )}
               <PageHeader

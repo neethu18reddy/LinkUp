@@ -18,6 +18,7 @@ import {
 } from '@/features/studio/studio.api';
 import { useStudioSettings } from '@/features/studio/useStudioSettings';
 import { SectionEditor } from '@/features/studio/SectionEditor';
+import { StudioNavigation } from '@/features/studio/StudioNavigation';
 import { VideoFinder } from '@/features/youtube/VideoFinder';
 import { StudyPlanForm } from '@/features/youtube/StudyPlanForm';
 import {
@@ -139,20 +140,22 @@ function YouTubeLearningWorkspace() {
     await saveStudyPlan(item.id, 0, { ...p, estimates });
     void client.invalidateQueries({ queryKey: youtubeKeys.plans });
     void client.invalidateQueries({ queryKey: studioKeys.resources });
-    void navigate(`/youtube/${item.id}`);
+    void navigate(`/studio/${item.id}/plan`);
   }
   return (
     <AccountLayout>
       <main className="dashboard-main youtube-page">
         <PageHeader
           eyebrow="Learn your way"
-          title="YouTube Learning"
+          title="Learning Studio"
           description="Bring a favorite playlist or find videos for your topic. Build a study plan that fits your week."
         />
+        <StudioNavigation youtube />
+        <h2>YouTube videos and study plans</h2>
         {id ? (
           <>
             <p>
-              <Link to="/youtube">← Your YouTube plans</Link> ·{' '}
+              <Link to="/studio?view=youtube">← Your YouTube plans</Link> ·{' '}
               <Link to={`/studio/${id}/study`}>Continue in Learning Studio</Link> ·{' '}
               <Link to={`/studio/${id}`}>Edit chapters and skill mappings</Link>
             </p>
@@ -322,7 +325,7 @@ function YouTubeLearningWorkspace() {
                 <ul>
                   {plans.data.map((plan) => (
                     <li key={plan.resourceId}>
-                      <Link to={`/youtube/${plan.resourceId}`}>{plan.resource.title}</Link> ·{' '}
+                      <Link to={`/studio/${plan.resourceId}/plan`}>{plan.resource.title}</Link> ·{' '}
                       {plan.goal}
                     </li>
                   ))}
