@@ -110,6 +110,8 @@ model User {
   studioItemProgress ItemProgress[]
   studioActivities   StudioActivity[]
   skillProgressEvents SkillProgressEvent[]
+  youtubePlans        YouTubeStudyPlan[]
+  youtubePreference   YouTubePreference?
 }
 
 model AccountIdentity {
@@ -514,6 +516,7 @@ model StudioResource {
   activities       StudioActivity[]
   watchEvents      WatchEvent[]
   dailyStats       DailyStat[]
+  youtubePlan      YouTubeStudyPlan?
   @@index([userId, importedAt])
 }
 
@@ -733,6 +736,37 @@ model StudioPlaylistCache {
   externalId String @id @db.VarChar(200)
   payload    Json
   expiresAt  DateTime
+}
+
+model YouTubeStudyPlan {
+  resourceId      String @id @db.Uuid
+  userId          String @db.Uuid
+  goal            String @db.VarChar(200)
+  level           String @db.VarChar(20)
+  language        String @db.VarChar(10)
+  timezone        String @db.VarChar(100)
+  preferences     Json
+  schedule        Json
+  resourceVersion Int
+  version         Int @default(1)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  resource        StudioResource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  user            User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId, updatedAt])
+}
+
+model YouTubePreference {
+  userId   String @id @db.Uuid
+  language String @db.VarChar(10)
+  user     User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model YouTubeSearchBudget {
+  key       String @id @db.VarChar(150)
+  count     Int @default(0)
+  expiresAt DateTime
+  @@index([expiresAt])
 }
 
 model SkillProgressEvent {

@@ -43,6 +43,9 @@ const ChatPage = lazy(() =>
 const StudioPage = lazy(() =>
   import('./pages/StudioPage').then((module) => ({ default: module.StudioPage })),
 );
+const YouTubeLearningPage = lazy(() =>
+  import('./pages/YouTubeLearningPage').then((module) => ({ default: module.YouTubeLearningPage })),
+);
 const StudioStudyPage = lazy(() =>
   import('./pages/StudioStudyPage').then((module) => ({ default: module.StudioStudyPage })),
 );
@@ -81,6 +84,22 @@ export function App() {
         }
       />
       <Route element={<ProtectedRoute />}>
+        <Route
+          path="/youtube"
+          element={
+            <Suspense fallback={<main role="status">Opening YouTube Learning…</main>}>
+              <YouTubeLearningPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/youtube/:id"
+          element={
+            <Suspense fallback={<main role="status">Loading your YouTube study plan…</main>}>
+              <YouTubeLearningPage />
+            </Suspense>
+          }
+        />
         <Route
           path="/roles"
           element={

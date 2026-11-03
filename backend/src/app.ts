@@ -56,6 +56,7 @@ import { fileURLToPath } from 'node:url';
 import { documentationRoutes } from './docs/docs.routes.js';
 import { serveWeb } from './web.js';
 import { catalogRoutes } from './catalog/catalog.routes.js';
+import { youtubeRoutes } from './modules/youtube/youtube.routes.js';
 import { onboardingRoutes } from './catalog/catalog.onboarding.js';
 import { studioRoutes } from './modules/studio/studio.routes.js';
 import { WeeklyJob } from './jobs/weekly.js';
@@ -207,6 +208,7 @@ export function createApp(
     '/api/v1',
     planRoutes(new PlanService(options.planRepository ?? new PrismaPlanRepository()), authService),
   );
+  app.use('/api/v1', youtubeRoutes(authService));
   const rolesService = new RolesService(options.rolesRepository ?? new PrismaRolesRepository());
   app.use(
     '/api/v1',

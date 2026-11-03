@@ -115,6 +115,11 @@ export function StudioTrackerPage() {
         ) : (
           data && (
             <>
+              {data.provider === 'youtube' && (
+                <p>
+                  <Link to={`/youtube/${id}`}>Build or edit your YouTube study schedule →</Link>
+                </p>
+              )}
               <PageHeader
                 eyebrow="Your learning tracker"
                 title={data.title}

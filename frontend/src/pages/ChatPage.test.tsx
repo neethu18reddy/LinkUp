@@ -13,6 +13,11 @@ import {
 } from '@/features/chat/chat.api';
 import { chatSession, chatMessages } from '@/test/chat-fixture';
 import { ChatPage } from './ChatPage';
+import { getYouTubePreference } from '@/features/youtube/youtube.api';
+vi.mock('@/features/youtube/youtube.api', async (original) => ({
+  ...(await original<typeof import('@/features/youtube/youtube.api')>()),
+  getYouTubePreference: vi.fn(),
+}));
 vi.mock('@/features/chat/chat.api', async (original) => ({
   ...(await original<typeof import('@/features/chat/chat.api')>()),
   getSessions: vi.fn(),
@@ -38,6 +43,7 @@ function mount() {
 }
 beforeEach(() => {
   vi.resetAllMocks();
+  vi.mocked(getYouTubePreference).mockResolvedValue(null);
   vi.mocked(getSessions).mockResolvedValue([]);
   vi.mocked(getMentorConfig).mockResolvedValue({ mode: 'offline' });
   vi.mocked(getHistory).mockResolvedValue({
